@@ -1,8 +1,0 @@
-#!/bin/sh
-set -o errexit -o nounset
-
-CONTEXTUAL_FILTER_PATH="./adguard/contextual.txt"
-
-echo "! Title: Unblock Contextual Ads" >"$CONTEXTUAL_FILTER_PATH"
-curl -s https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt | grep '^\(!#\|#%#\)\|^@@||\(\(duckduckgo\|ebay\|etsy\)\.com\|ecosia\.org\)[/^]\|\(\(duckduckgo\|ebay\|etsy\)\.com\|ecosia\.org\)[^#]*#' | grep '^[^!][^#]' | sed 's/^.*\b\(duckduckgo.com[,#]\)/\1/' | tr -d $'\r' >>"$CONTEXTUAL_FILTER_PATH"
-echo "Updated '$CONTEXTUAL_FILTER_PATH'"
