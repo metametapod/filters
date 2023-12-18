@@ -1,0 +1,30 @@
+name: Update
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate filters
+        run: scripts/update
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: adguard/contextual.txt
+          message: "Update contextual.txt"
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
