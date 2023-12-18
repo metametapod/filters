@@ -1,4 +1,5 @@
 ! Title: Unblock Contextual Ads
+!#safari_cb_affinity(general)
 ebay.co.uk,ebay.com,ebay.com.au#@?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
 ebay.co.uk,ebay.com,ebay.com.au#@?#li.s-item:-abp-has(span:-abp-contains(/S[^P]*?P[^O]*?O[^N]*?N[^S]*?S[^O]*?O[^R]*?R[^E]*?E[^D]*?D/))
 ebay.co.uk,ebay.com,ebay.com.au#@?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
@@ -17,3 +18,4 @@ ecosia.org#@#.card-ad
 ecosia.org#@#.js-ad
 @@||ecosia.org^elemhide
 etsy.com#@#div[data-behat-search-results-lg] .listing-link.logged:not([data-shop-id])
+!#safari_cb_affinity
