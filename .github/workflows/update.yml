@@ -1,4 +1,7 @@
 name: Update
+permissions:
+  contents: write
+
 
 # Controls when the workflow will run
 on:
@@ -20,11 +23,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate filters
-        run: scripts/update
+        run: scripts/generate
 
-      - uses: EndBug/add-and-commit@v7
+      - uses: EndBug/add-and-commit@v9
         with:
           add: adguard/contextual.txt
-          message: "Update contextual.txt"
+          message: "Update filters"
           committer_name: GitHub Actions
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
