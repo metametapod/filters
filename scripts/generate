@@ -1,14 +1,29 @@
 #!/bin/sh
 set -o errexit -o nounset
 
-CONTEXTUAL_FILTER_PATH="./adguard/contextual.txt"
-FILTER_URL="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt"
+generate_filter() (
+    url="$1"
+    path="$2"
+    title="$3"
 
-echo "! Title: Unblock Contextual Ads" >"$CONTEXTUAL_FILTER_PATH"
-echo "! Original list $FILTER_URL" >>"$CONTEXTUAL_FILTER_PATH"
-curl --proto '=https' --tlsv1.2 -sSf "$FILTER_URL" |
-    grep '^\(!#\|#%#\)\|^@@||\(\(duckduckgo\|ebay\|etsy\)\.com\|ecosia\.org\)[/^]\|\(\(duckduckgo\|ebay\|etsy\)\.com\|ecosia\.org\)[^#]*#' |
-    grep -v "^![^#]" |
-    sed 's/^.*\b\(duckduckgo.com[,#]\)/\1/' |
-    tr -d $'\r' >>"$CONTEXTUAL_FILTER_PATH"
-echo "Wrote to '$CONTEXTUAL_FILTER_PATH'"
+    echo "! Title: $title" >"$path"
+    echo "! Original list $url" >>"$path"
+    curl --proto '=https' --tlsv1.2 -sSf "$url" |
+        grep '^\(!#\|#%#\)\|^@@||\(\(duckduckgo\|ebay\|etsy\)\.com\|ecosia\.org\)[/^]\|\(\(duckduckgo\|ebay\|etsy\)\.com\|ecosia\.org\)[^#]*#' |
+        grep -v "^![^#]" |
+        sed 's/^.*\b\(duckduckgo.com[,#]\)/\1/' |
+        tr -d $'\r' >>"$path"
+    echo "Wrote to '$path"
+)
+
+main() (
+    contextual_filter_path="./adguard/contextual.txt"
+    contextual_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt"
+    self_promo_filter_path="./adguard/self-promo.txt"
+    self_promo_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt"
+
+    generate_filter "$contextual_filter_url" "$contextual_filter_path" "Unblock Contextual Ads"
+    generate_filter "$self_promo_filter_url" "$self_promo_filter_path" "Unblock Search Ads and Self-Promotion"
+)
+
+main
