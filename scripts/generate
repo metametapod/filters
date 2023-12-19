@@ -13,7 +13,7 @@ generate_filter() (
         grep -v "^![^#]" |
         sed 's/^.*\b\(duckduckgo.com[,#]\)/\1/' |
         tr -d $'\r' >>"$path"
-    echo "Wrote to '$path"
+    echo "Wrote to '$path'"
 )
 
 main() (
