@@ -27,7 +27,7 @@ jobs:
 
       - uses: EndBug/add-and-commit@v9
         with:
-          add: adguard/contextual.txt
+          add: adguard
           message: "Update filters"
           committer_name: GitHub Actions
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
