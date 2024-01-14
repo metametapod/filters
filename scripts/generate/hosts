@@ -1,0 +1,48 @@
+#!/bin/sh
+#
+# I use the AdGuard DNS filter because it has minimal breakage and doesn't
+# block crash reporting services. However, it's formatted for an ad blocker /
+# DNS client, and some rules only provide a prefix which is unsupported in
+# hosts file. As a workaround, this expands those prefixes against a stricter
+# list while still preferring the original ruleset.
+set -o errexit -o nounset
+
+SCRIPT_NAME="$(basename "$0")"
+TMP_SCRIPT_DIR="$(mktemp -d -t "$SCRIPT_NAME.XXXXXXX")"
+
+cleanup() {
+    nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1
+}
+
+transform_rules() {
+    # shellcheck disable=SC2016
+    rg '^\|' "$1" | sed 's/\$important$//' |
+        sed 's/\./\\./g;s/\*/.\*/g;s/^||/(?:^|\\.)/;s/^|/^/;s/[\^|]$/\$/' >"$TMP_SCRIPT_DIR/regexps.txt"
+
+    rg '^[^#]' upstream/1hosts/xtra.txt >"$TMP_SCRIPT_DIR/hosts.txt"
+
+    parallel --ungroup --pipepart --block -10 \
+        -a "$TMP_SCRIPT_DIR/regexps.txt" \
+        rg --no-unicode -f - "$TMP_SCRIPT_DIR/hosts.txt" |
+        sort -u |
+        sed 's/^/0.0.0.0 /'
+}
+
+main() (
+    outdir="adguard/hosts"
+    outpath="$outdir/filter_1.txt"
+    mkdir -p "$outdir"
+    printf "Generating '%s' (may take some time)...\n" "$outpath"
+    cat <<EOF >"$outpath"
+# Title: AdGuard DNS filter (hosts format)
+# Original list: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+# License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
+# Description: AdGuard DNS filter converted to hosts file format. Ambiguous
+# rules are expanded against a more exhaustive list (currently 1Hosts Xtra).
+$(transform_rules upstream/adguard/dns.txt)
+EOF
+    echo "Done."
+)
+
+trap 'cleanup &' EXIT INT TERM
+main

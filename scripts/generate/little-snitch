@@ -1,0 +1,67 @@
+#!/bin/sh
+#
+# Convert AdGuard DNS filter to be compatible with Little Snitch, which
+# currently does not support glob syntax.
+set -o errexit -o nounset
+
+SCRIPT_NAME="$(basename "$0")"
+TMP_SCRIPT_DIR="$(mktemp -d -t "$SCRIPT_NAME.XXXXXXX")"
+
+cleanup() {
+    nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1
+}
+
+join_as_json() {
+    xargs printf '"%s"\n' | paste -sd "," -
+}
+
+hosts() (
+    rules="$1"
+    compatible_rules="$2"
+
+    printf "%s\n" "$rules" | rg '\*' |
+        sed 's/\./\\./g;s/\*/.\*/g;s/^||/(?:^|\\.)/;s/^|/^/;s/[\^|]$/\$/' \
+            >"$TMP_SCRIPT_DIR/regexps.txt"
+
+    rg '^[^#]' upstream/1hosts/xtra.txt >"$TMP_SCRIPT_DIR/hosts.txt"
+
+    {
+        parallel --ungroup --pipepart --block -10 \
+            -a "$TMP_SCRIPT_DIR/regexps.txt" \
+            rg --no-unicode -f - "$TMP_SCRIPT_DIR/hosts.txt"
+        printf "%s\n" "$compatible_rules" |
+            rg '^\|[^|]' |
+            sed 's/^|//;s/[\^|]$//'
+    } | sort -u
+)
+
+domains() {
+    printf "%s\n" "$1" | rg '^\|\|' | sed 's/^||//;s/[\^|]$//' | sort -u
+}
+
+generate_json() (
+    # shellcheck disable=SC2016
+    rules="$(rg '^\|' "$1" | sed 's/\$important$//')"
+    compatible_rules="$(printf "%s\n" "$rules" | rg -v '\*')"
+
+    cat <<-EOF | jq
+	{
+	    "name": "AdGuard DNS Filter",
+	    "description": "AdGuard DNS filter converted to lsrules format. Ambiguous rules are expanded against a more exhaustive list (currently 1Hosts Xtra).",
+	    "denied-remote-domains": [$(domains "$compatible_rules" | join_as_json)],
+	    "denied-remote-hosts": [$(hosts "$rules" "$compatible_rules" | join_as_json)]
+	}
+EOF
+)
+
+main() (
+    outdir="adguard/little-snitch"
+    outpath="$outdir/filter_1.json"
+    mkdir -p "$outdir"
+    printf "Generating '%s' (may take some time)...\n" "$outpath"
+    generate_json upstream/adguard/dns.txt >"$outpath"
+    echo "Done."
+)
+
+trap 'cleanup &' EXIT INT TERM
+main

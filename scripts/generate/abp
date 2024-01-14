@@ -1,0 +1,43 @@
+#!/bin/sh
+set -o errexit -o nounset
+
+generate_unblock_filter() (
+    input="$1"
+    title="$2"
+    url="$3"
+    license="$4"
+    site_pattern="(\w+\.)*((brave|duckduckgo|ebay|etsy|firefox|startpage)\.com|(ecosia|mozilla)\.org)"
+
+    printf "! Title: %s (reduced)\n" "$title"
+    printf "! Original list: %s\n" "$url"
+    printf "! License: %s\n" "$license"
+    printf "Description: AdGuard %s filter applied to select privacy-friendly sites only.\n" "$title" |
+        fmt -w 78 | sed 's/^/! /g'
+    rg "^(!#|#%#)|^@@\|\|${site_pattern}[/^]|${site_pattern}[^#]*#" "$input" |
+        rg -v "^![^#]" |
+        tr -d "$(printf '\r')"
+)
+
+write_unblock_filter() {
+    generate_unblock_filter "$1" "$2" "$3" "$4" >"$5"
+    printf "Wrote to '%s'\n" "$5"
+}
+
+main() (
+    usefulads_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt"
+    self_promo_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt"
+    adguard_license="https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE"
+    write_unblock_filter "upstream/adguard/usefulads.txt" \
+        "Unblock Contextual Ads" \
+        "$usefulads_filter_url" \
+        "$adguard_license" \
+        "./adguard/contextual.txt"
+
+    write_unblock_filter "upstream/adguard/self-promo.txt" \
+        "Unblock Search Ads and Self-Promotion" \
+        "$self_promo_filter_url" \
+        "$adguard_license" \
+        "./adguard/self-promo.txt"
+)
+
+main

@@ -22,12 +22,22 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate filters
-        run: scripts/generate
+      - name: Install ripgrep
+        run: sudo apt-get install -y ripgrep
+
+      - name: Update upstream filters
+        run: scripts/update
+
+      - name: Generate abp filters
+        run: scripts/generate/abp
+
+      - name: Generate hosts filters
+        run: scripts/generate/hosts
+
+      - name: Generate Little Snitch filters
+        run: scripts/generate/little-snitch
 
       - uses: EndBug/add-and-commit@v9
         with:
-          add: adguard
           message: "Update filters"
-          committer_name: GitHub Actions
-          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+          default_author: github_actions
