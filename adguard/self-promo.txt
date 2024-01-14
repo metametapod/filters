@@ -1,11 +1,15 @@
-! Title: Unblock Search Ads and Self-Promotion
-! Original list https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt
+! Title: Unblock Search Ads and Self-Promotion (reduced)
+! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+! Description: AdGuard Unblock Search Ads and Self-Promotion filter applied
+! to select privacy-friendly sites only.
 !#if (adguard_app_android || adguard_app_ios)
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 !#endif
 !#if (ext_ublock)
 !#endif
+startpage.com##.widget-install-privacy-protect
 ebay.com##.srp-1p__link[href^="https://www.ebay.com/e/ad/"] > .srp-1p__banner
 duckduckgo.com###browser-promo
 duckduckgo.com###browser-promo + div[class]
@@ -14,14 +18,21 @@ duckduckgo.com###faq
 duckduckgo.com##.atb-button--faq
 duckduckgo.com##.content-info
 duckduckgo.com##.onboarding-ed
-duckduckgo.com##.js-header-aside.is-hidden { display: block!important; }
-duckduckgo.com##.badge-link.ddg-extension-hide { display: none!important; }
-duckduckgo.com##.badge-link--full { visibility: hidden !important; }
+duckduckgo.com#$#.js-header-aside.is-hidden { display: block!important; }
+duckduckgo.com#$#.badge-link.ddg-extension-hide { display: none!important; }
+duckduckgo.com#$#.badge-link--full { visibility: hidden !important; }
 etsy.com#?#.responsive-listing-grid > li:has( > div > a div > .ad-iindicator)
 ebay.com##body > div[id^="HomepageOverlay"][style]
 ebay.com,ebay.co.uk,ebay.com.au#?#div[itemtype="https://schema.org/Product"] div[id^="merch_html_"]:has(> div[id] .mfe-header > h2.mfe-pull-left:contains(Sponsored))
 ebay.com,ebay.co.uk,ebay.com.au#?#div[itemtype="https://schema.org/Product"] div[id^="merch_html_"]:has(> div[id] h2.mfe-card-group-title:contains(sponsored))
 duckduckgo.com##.header__search-wrap + div.header--aside > div.header--aside__item
+monitor.firefox.com##.vpn-banner
+startpage.com##.widget-install-legacy
+developer.mozilla.org##.mdn-cta-container
+support.mozilla.org###doc-contributors + section.sumo-page-section
+startpage.com##.widget-install-sp
+mozilla.org##.mzp-c-sticky-promo
+send.firefox.com##body > send-promo
 ebay.co.uk,ebay.com,ebay.de###BrowseRelated
 ebay.co.uk,ebay.com,ebay.de###merch_html_100010
 ebay.co.uk,ebay.com,ebay.de##.hl-ad-row

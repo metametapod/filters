@@ -1,0 +1,6 @@
+# Title: AdGuard DNS filter (hosts format)
+# Original list: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+# License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
+# Description: AdGuard DNS filter converted to hosts file format. Ambiguous
+# rules are expanded against a more exhaustive list (currently 1Hosts Xtra).
+

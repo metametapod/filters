@@ -1,6 +1,12 @@
-! Title: Unblock Contextual Ads
-! Original list https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt
+! Title: Unblock Contextual Ads (reduced)
+! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+! Description: AdGuard Unblock Contextual Ads filter applied to select
+! privacy-friendly sites only.
 !#safari_cb_affinity(general)
+search.brave.com#@#div[data-advertiser-id]
+@@||startpage.com/adsense/search/async-ads.js$domain=startpage.com
+@@||startpage.com^$elemhide,content
 ebay.co.uk,ebay.com,ebay.com.au#@?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
 ebay.co.uk,ebay.com,ebay.com.au#@?#li.s-item:-abp-has(span:-abp-contains(/S[^P]*?P[^O]*?O[^N]*?N[^S]*?S[^O]*?O[^R]*?R[^E]*?E[^D]*?D/))
 ebay.co.uk,ebay.com,ebay.com.au#@?#.b-module:-abp-has(h2:-abp-contains(Sponsored))
@@ -8,15 +14,15 @@ ebay.co.uk,ebay.com,ebay.com.au#@?#.mfe-lex:-abp-has(h2:-abp-contains(sponsored)
 ebay.com,ebay.co.uk,ebay.com.au#@?#div[itemtype="https://schema.org/Product"] div[id^="merch_html_"]:has(> div[id] .mfe-header > h2.mfe-pull-left:contains(Sponsored))
 ebay.com,ebay.co.uk,ebay.com.au#@?#div[itemtype="https://schema.org/Product"] div[id^="merch_html_"]:has(> div[id] h2.mfe-card-group-title:contains(sponsored))
 etsy.com#@?#.responsive-listing-grid > li:has( > div > a div > .ad-iindicator)
-duckduckgo.com#@#.result--ad > .result__body
-duckduckgo.com#@#.sponsored
-duckduckgo.com#@#.highlight_sponsored
-duckduckgo.com#@##ads
-duckduckgo.com#@#.js-results-ads
-duckduckgo.com#@#.results--ads
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.result--ad > .result__body
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.sponsored
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.highlight_sponsored
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@##ads
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.js-results-ads
+duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion,duckduckgo.com#@#.results--ads
 ecosia.org#@#.results-ads
 ecosia.org#@#.card-ad
 ecosia.org#@#.js-ad
-@@||ecosia.org^elemhide
+@@||ecosia.org^$elemhide
 etsy.com#@#div[data-behat-search-results-lg] .listing-link.logged:not([data-shop-id])
 !#safari_cb_affinity
