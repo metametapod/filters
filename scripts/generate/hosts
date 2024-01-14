@@ -19,7 +19,7 @@ transform_rules() {
     rg '^\|' "$1" | sed 's/\$important$//' |
         sed 's/\./\\./g;s/\*/.\*/g;s/^||/(?:^|\\.)/;s/^|/^/;s/[\^|]$/\$/' >"$TMP_SCRIPT_DIR/regexps.txt"
 
-    rg '^[^#]' upstream/1hosts/xtra.txt >"$TMP_SCRIPT_DIR/hosts.txt"
+    rg '^[^#]' upstream/1hosts/xtra/domains.txt >"$TMP_SCRIPT_DIR/hosts.txt"
 
     parallel --ungroup --pipepart --block -10 \
         -a "$TMP_SCRIPT_DIR/regexps.txt" \
