@@ -5,6 +5,7 @@
 ! privacy-friendly sites only.
 !#safari_cb_affinity(general)
 search.brave.com#@#div[data-advertiser-id]
+@@||developer.mozilla.org/pong/
 @@||startpage.com/adsense/search/async-ads.js$domain=startpage.com
 @@||startpage.com^$elemhide,content
 ebay.co.uk,ebay.com,ebay.com.au#@?#.mfe-reco-ct:-abp-has(.mfe-promoted-label)
