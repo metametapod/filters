@@ -7,6 +7,8 @@
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 !#endif
+!#if (adguard_app_android || adguard_app_ios)
+!#endif
 !#if (ext_ublock)
 !#endif
 startpage.com##.widget-install-privacy-protect
