@@ -2032,6 +2032,8 @@ komoot.com,komoot.de##.tw-ml-0 > li.tw-mb-24
 chromewebstore.google.com#?#section[class] > div[jsaction][jscontroller]:has(button > span:contains(Install Chrome))
 investing.com##.promo-strip-wrapper
 moovitapp.com##.moovit-banner
+altema.jp##.osusume_app-wrap
+altema.jp##.top-pr-list:has(> .adsAll)
 altema.jp##.adsAll
 altema.jp###sidebar-50
 aliexpress.com##.top-banner-container
@@ -2445,7 +2447,6 @@ retty.me##.restaurant-top-banner
 thebaffler.com##aside[aria-label="Donations"]
 themarshallproject.org##.welcome-mat
 themarshallproject.org##.donation-callout-outer-container
-winaero.com###afdsdf11
 time.com##.campaign-five_red-border
 time.com##.campaign-four_red-border
 ||leechpremium.link/img/banner/
