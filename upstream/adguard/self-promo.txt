@@ -1832,6 +1832,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+mlbtraderumors.com###tr-rotate-ads
+auf1.tv##.w-full:has(> div.text-sm:contains(Werbung))
 kupujemprodajem.com##div[class^="Banner"]
 bookvoed.ru##div[class] > a[href^="/redirect/karusel/stat?"]:has(> img[alt="Новичкам везёт!"])
 eksmo.ru##.cheader__personal-offer
@@ -2149,7 +2151,6 @@ bannedbook.org###header_1_2
 the-village.com.ua#?#div[data-ui-id="post"] > div.stk-grid:has( a[target="_blank"]:contains(Donate))
 ||content.invisioncic.com/Mmalware/*_728x90
 forums.malwarebytes.com##.ipsMmalware.ipsSpacer_both
-2gis.ru##a[href="https://otello.2gis.ru/?utm_source=2gis-mapbutton"]
 nv.ua##.magazine-subscribe
 4sysops.com###custom_html-18
 ||4sysops.com/img/WindowsServer2022Bookad.html^$subdocument
