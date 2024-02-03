@@ -7,9 +7,9 @@
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 !#endif
-!#if (adguard_app_android || adguard_app_ios)
-!#endif
 !#if (ext_ublock)
+!#endif
+!#if (adguard_app_android || adguard_app_ios)
 !#endif
 startpage.com##.widget-install-privacy-protect
 ebay.com##.srp-1p__link[href^="https://www.ebay.com/e/ad/"] > .srp-1p__banner
