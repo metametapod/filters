@@ -118,6 +118,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! mydealz.de - "looking for new team members"
+mydealz.de##.cept-banner-id-148
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171856
 open-web-advocacy.org##.who-entry > .prom-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171979
@@ -1835,6 +1837,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+sbermarket.ru##div[class*="ShowJsPlacement_bannerMainHeader"]
+opentip.kaspersky.com##div[class^="AnalysisBanner"]
 strannikmodz.me###sidebar > div:has(> center > a[href="//strannikmodz.me/premium.html"])
 real-gomovies.com##main a[href="/user/profile/premium-membership"]
 real-gomovies.com##body > div > div > style ~ div:has(a[href="/user/profile/premium-membership"])
