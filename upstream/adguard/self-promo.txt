@@ -118,6 +118,12 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172421
+debugbear.com##div[class^="ctaContainer_"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/172426
+nexcess.net###page-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/172445
+op.gg##.premium-banner
 ! mydealz.de - "looking for new team members"
 mydealz.de##.cept-banner-id-148
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171856
@@ -190,8 +196,15 @@ online-stopwatch.com##.premiumShow
 ||online-stopwatch.com/images/wantmore/www.online-stopwatch.com.jpg
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158926
 paperpaper.ru#?#div[data-stk-css][data-ce-tag]:contains(PaperVPN)
+! bing.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/171997#issuecomment-1930229032
+bing.com###b_results > li.b_ans.b_top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158480
 bing.com###b_context #waitListDefault
+! https://github.com/AdguardTeam/AdguardFilters/issues/146091
+bing.com#?#main > #b_pole:has(.eu_banner)
+! https://github.com/AdguardTeam/AdguardFilters/issues/142898
+bing.com###b_opalpers
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157673
 store.msicn.com.cn##.top-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156877
@@ -280,8 +293,6 @@ dziennik.pl##.loaderBlock[data-widgetname="ecommerceWidget"]
 ! https://github.com/List-KR/List-KR/issues/656
 oddschecker.com#$#div[class^="splashOfferWrapperVisible_"] { display: none !important; }
 oddschecker.com#$#.lock-body-scroll { overflow: auto !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/146091
-bing.com#?#main > #b_pole:has(.eu_banner)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145938
 easylearn.baidu.com##.kaixue-dialog-mask
 easylearn.baidu.com##.vip-banner-cont
@@ -296,8 +307,6 @@ m.thebell.co.kr##article[class$="_banner"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143247
 ||appewa.com/assets/promo-$image
 appewa.com##.modal-wrapper
-! https://github.com/AdguardTeam/AdguardFilters/issues/142898
-bing.com###b_opalpers
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142682
 more.tv#?##modals > div#blackout-container:has(> div.blackout-layout > div[class^="AvodModal"])
 more.tv#$#body { overflow: auto !important; }
@@ -1839,6 +1848,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+dbook.docomo.ne.jp##.p-top-banner
 sbermarket.ru##div[class^="BannersAndSlidersThroughCatalog"]
 sbermarket.ru##div[class*="ShowJsPlacement_bannerMainHeader"]
 opentip.kaspersky.com##div[class^="AnalysisBanner"]
