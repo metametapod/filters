@@ -25,5 +25,4 @@ ecosia.org#@#.results-ads
 ecosia.org#@#.card-ad
 ecosia.org#@#.js-ad
 @@||ecosia.org^$elemhide
-etsy.com#@#div[data-behat-search-results-lg] .listing-link.logged:not([data-shop-id])
 !#safari_cb_affinity
