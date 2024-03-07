@@ -66,6 +66,7 @@ ya.ru,yandex.*##.simple-popup__overlay_shown + div.simple-popup_shown.simple-pop
 [$path=/search]ya.ru,yandex.*##.serp-item:has(> div[data-state-id] > article > div[class*="-"] span[id*="-PriceDisclaimer"])
 ! popup
 [$path=/search]ya.ru,yandex.*##.Distribution-Popup
+[$path=/search]ya.ru,yandex.*##.DistributionSplashScreenModal-CloseButtonOuter
 [$path=/search]ya.ru,yandex.*#$#.Distribution-Splashscreen { display: none !important; }
 [$path=/search]ya.ru,yandex.*##div.Root[id]:has(> button.SplashscreenDefault-DeclineButtonOuter)
 [$path=/search]ya.ru,yandex.*#$#body[style] { padding-right: 0 !important; overflow: auto !important; }
@@ -131,6 +132,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174055
+vas3k.blog##.post-footer > a[href="/donate/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172827
 igromania.ru##div[class^="AdFoxBannerFooter_footer"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172791
@@ -1861,6 +1864,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+efe.com###media_image-2
+pokebattler.com##a[href="https://www.patreon.com/join/pokebattler?"]
 cinemark.com##.theatreHomeContent > div.sidebar:has(> div.contentImage > a[href="/mobile-ordering"])
 dotnet.microsoft.com##.swim-purple
 ||dream.jp/entmeet/wp-content/themes/entmeet/images/banner/sidebar_bnr.png
@@ -2072,7 +2077,7 @@ uchi.ru##main div.template_v2__content + div.template_v2__sidebar
 biglobe.ne.jp##.h_bar
 ||backgrounds.wetransfer.net^
 gab.com#?#.sticky-inner-wrapper > div > aside[class^="_"]:has(> div[class] > div[class] > div[class] > h2[class]:contains(/^(Upgrade to|Dissenter Shop)/))
-gab.com#?#div[tabindex="-1"] ~ div > div:has(span[data-text]:contains(/^(Upgrade to|Help keep Gab online|Invest in Gab|Dissenter Shop)/))
+gab.com#?#div[tabindex="-1"] ~ div > div:has(span[data-text]:contains(/^(Upgrade to|Help keep Gab online|Invest in Gab|Dissenter Shop|Elevate Your Experience)/))
 zendesk.com##div[aria-label="top-promo-eyebrow-next-big-ai-drop"]
 apteka.ru##.OrderCreatedPopup__gift
 apteka.ru##.BaseView__content > div.cartPage-wrap > div.Carousel
