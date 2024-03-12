@@ -132,6 +132,11 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174546
+traefik.io##.hs-cta-embed
+traefik.io##section[class^="post-inline-cta"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/174563
+journal.tinkoff.ru##div[data-level-type="promo"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174344
 brighteon.social##.sticky-inner-wrapper > .brighteon-shop
 brighteon.social#?#.sticky-inner-wrapper > .announcements:has(> .announcements__container > .header > span.title:contains(Sponsored Post))
@@ -1867,6 +1872,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+support.qq.com##.promotionbit
 ||gamewith.jp/ad/
 gamewith.jp##.walkthrough-gamewith-announces.gtm-ga4-walkthrough-imp-event
 efe.com###media_image-2
