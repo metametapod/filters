@@ -133,6 +133,8 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/174427
+hancinema.net##body > div[style^="bottom:130px;"][style*="position: fixed;"][style*="z-index: 999;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174546
 traefik.io##.hs-cta-embed
 traefik.io##section[class^="post-inline-cta"]
@@ -1964,7 +1966,7 @@ dotnet.microsoft.com##.alert-promo
 gab.com#?#main div[tabindex="-1"] + div:not([class]):has(> div[class^="_"] > div[class^="_"] > div[class^="_"] > a[target="_blank"][href="https://grow.gab.com"])
 gab.com#?#main div[tabindex="-1"] + div:not([class]):has(> div[class^="_"] > div[class^="_"] > a[href="/businesses"])
 nytimes.com##div[data-testid="onsite-messaging-unit-dock"]
-blog.skillfactory.ru###banner-course-id
+blog.skillfactory.ru#$?##banner-course-id { remove: true; }
 hexlet.io##.x-promo-bg-gradient
 support.microsoft.com##.ucsPromotionContainer
 hexlet.io##.sticky-top
