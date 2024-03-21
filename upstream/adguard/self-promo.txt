@@ -54,10 +54,8 @@ ya.ru##.market-feed
 ya.ru##.message-promo
 ya.ru##.search3__inner > div.link-bro
 ! Yandex Browser promo
-! https://github.com/AdguardTeam/AdguardFilters/issues/172840
-ya.ru,yandex.*##.DistributionSplashScreenModal[outercrosstitle="Нет, спасибо"]
-ya.ru,yandex.*##.simple-popup__overlay_shown
-ya.ru,yandex.*##.simple-popup__overlay_shown + div.simple-popup_shown.simple-popup_autoclosable_yes
+ya.ru,yandex.*##.simple-popup_direction_center:has(> div > div > div.dist-overlay__description)
+ya.ru,yandex.*##.simple-popup__overlay_shown_true
 !
 ! Yandex.Search
 [$path=/search]ya.ru,yandex.*##.AdvOffers
@@ -1875,6 +1873,11 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+swisscows.com##.bnnr-widget
+patents.justia.com##.rotating-leads
+itc.ua##.partner-posts
+itc.ua###sidebar > ul > li.block:has(div.jobs-vacancy)
+mailchimp.com##aside[data-module-id="inlineArticleCta"]
 wolframalpha.com##a[href^="/pro/"]
 echofm.online##header > div[class^="sc-"]:has(> div[class] > div[class] > a[href^="https://merchmag.ru/echofm/"])
 worldsextrip.com##.add
