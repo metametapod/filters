@@ -54,8 +54,12 @@ ya.ru##.market-feed
 ya.ru##.message-promo
 ya.ru##.search3__inner > div.link-bro
 ! Yandex Browser promo
+! "a"
 ya.ru,yandex.*##.simple-popup_direction_center:has(> div > div > div.dist-overlay__description)
 ya.ru,yandex.*##.simple-popup__overlay_shown_true
+! "b" https://github.com/AdguardTeam/AdguardFilters/issues/175068#issuecomment-2009355449
+[$path=/search]ya.ru,yandex.*#$#.DistributionSplashScreenModal[outercrosstitle="Нет, спасибо"] { display: none !important; }
+[$path=/search]ya.ru,yandex.*#$#body { overflow: auto !important; }
 !
 ! Yandex.Search
 [$path=/search]ya.ru,yandex.*##.AdvOffers
@@ -1873,6 +1877,13 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+nativecamp.net##.hey-nc-top-banner
+nativecamp.net##.hey-nc-bottom-link-banner
+islamicfinder.org###main-column > div[class]:has(> div.rbanner > div.rbox)
+islamicfinder.org###sidebar div[class]:has(> div.row > div.banner-box)
+islamicfinder.org##.banner
+sofmap.com###remote_cs
+sofmap.com##.side_bnr
 swisscows.com##.bnnr-widget
 patents.justia.com##.rotating-leads
 itc.ua##.partner-posts
@@ -2021,7 +2032,6 @@ undercovertourist.com#$#.jquery-modal.blocker { display: none !important; }
 undercovertourist.com###announcementbanner
 aliyundrive.com##div[class^="share-list-banner--"]
 dtf.ru#?#.view > div[class]:has(> div > a[href^="https://booster.osnova.io/a/redirect?"])
-dtf.ru#?#.entry > div.rotator:has(> div > a[href^="https://booster.osnova.io/a/redirect?"])
 welcome.mosreg.ru#$#html { overflow: auto !important; padding-right: 0 !important; }
 welcome.mosreg.ru#$#.mfp-bg { display: none !important; }
 welcome.mosreg.ru#$#.mfp-wrap { display: none !important; }
