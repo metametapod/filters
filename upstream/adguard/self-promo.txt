@@ -137,6 +137,10 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/175627
+ka-style.jp##.l-footerBanner
+ka-style.jp##nav.p-columnCategory ~ .p-footerEditable
+ka-style.jp##.p-postHeaderBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174939
 ! TODO: check after 2024 May 1.
 yahoo.co.jp###Topics ~ div[data-rma-pos] ~ #PayPayFes
@@ -1877,6 +1881,8 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+tarotingie.com##.tarot-before-content_27
+tarotingie.com###block-155
 satoya-boshu.net##.bnrArea
 satoya-boshu.net##.bnrSide01
 glarity.app##div[class] > div[class]:has(> div[class] > a[href^="https://chromewebstore.google.com/"])
