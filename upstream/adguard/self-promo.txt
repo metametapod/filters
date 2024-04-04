@@ -137,6 +137,10 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/176017
+reports.adguard.com,reports.adguard.info##.flash-wrapper-wrap
+! https://github.com/AdguardTeam/AdguardFilters/issues/175876
+sueddeutsche.de###ma-bo-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175549
 filmora.wondershare.com##aside[data-recommend="section-product-logo"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175627
@@ -1887,6 +1891,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+zerohedge.com##div[class^="PromoBanner_"]
 weedleteam.com##.kickstarter-visible
 renosy.com##.floatBanner
 flickr.com##.view:has(> div > p.upgrade-to-pro-cta)
@@ -3360,7 +3365,8 @@ kaspersky.*##.promo-card
 timesofindia.indiatimes.com##.article_content br ~ a[href^="https://timesofindia.indiatimes.com/most-searched-products/"]
 analytics.twitter.com##.home-columns div[data-type="advertiser"]
 byjus.com#?#.sidebar > div.bgc-white:has(> div.relatedlinks-widget > div.widget-content > a[target="_blank"] > img)
-wikipedia.org##.cn-fundraising
+wikipedia.org#$#.frb-overlay-open { overflow: auto !important; }
+wikipedia.org#$#.cn-fundraising { display: none !important; }
 blog.ipleaders.in##.td-ss-main-sidebar
 xvideos.com###content > div.mobile-hide + div[class]
 bokuweb.com,natuyuki.com,umamusume-umapyoi.com,uzurea.net##.yyi-rinker-contents
