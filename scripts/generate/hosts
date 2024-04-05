@@ -7,12 +7,7 @@
 # list while still preferring the original ruleset.
 set -o errexit -o nounset
 
-SCRIPT_NAME="$(basename "$0")"
-TMP_SCRIPT_DIR="$(mktemp -d -t "$SCRIPT_NAME.XXXXXXX")"
-
-cleanup() {
-    nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1
-}
+TMP_SCRIPT_DIR="$(mktemp -d)"
 
 transform_rules() {
     # shellcheck disable=SC2016
@@ -23,9 +18,9 @@ transform_rules() {
 
     rg '^[^#]' upstream/1hosts/xtra/domains.txt >"$TMP_SCRIPT_DIR/hosts.txt"
 
-    parallel --pipe-part --block -10 -a "$TMP_SCRIPT_DIR/regexps.txt" \
-        rg --no-unicode -f - "$TMP_SCRIPT_DIR/hosts.txt" |
-        sort -u |
+    parallel --plain --pipe-part -a "$TMP_SCRIPT_DIR/regexps.txt" \
+        rg -f - "$TMP_SCRIPT_DIR/hosts.txt" |
+        sort -su |
         sed 's/^/0.0.0.0 /'
 }
 
@@ -45,5 +40,5 @@ EOF
     echo "Done."
 )
 
-trap 'cleanup &' EXIT INT TERM
+trap 'nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1 &' EXIT HUP INT QUIT TERM
 main

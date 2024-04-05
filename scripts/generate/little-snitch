@@ -4,12 +4,7 @@
 # currently does not support glob syntax.
 set -o errexit -o nounset
 
-SCRIPT_NAME="$(basename "$0")"
-TMP_SCRIPT_DIR="$(mktemp -d -t "$SCRIPT_NAME.XXXXXXX")"
-
-cleanup() {
-    nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1
-}
+TMP_SCRIPT_DIR="$(mktemp -d)"
 
 join_as_json() {
     xargs printf '"%s"\n' | paste -sd "," -
@@ -26,13 +21,11 @@ hosts() (
     rg '^[^#]' upstream/1hosts/xtra/domains.txt >"$TMP_SCRIPT_DIR/hosts.txt"
 
     {
-        parallel --ungroup --pipepart --block -10 \
-            -a "$TMP_SCRIPT_DIR/regexps.txt" \
-            rg --no-unicode -f - "$TMP_SCRIPT_DIR/hosts.txt"
+        rg -f "$TMP_SCRIPT_DIR/regexps.txt" "$TMP_SCRIPT_DIR/hosts.txt"
         printf "%s\n" "$compatible_rules" |
             rg '^\|[^|]' |
             sed 's/^|//;s/[\^|]$//'
-    } | sort -u
+    } | sort -su
 )
 
 domains() {
@@ -63,5 +56,5 @@ main() (
     echo "Done."
 )
 
-trap 'cleanup &' EXIT INT TERM
+trap 'nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1 &' EXIT HUP INT QUIT TERM
 main
