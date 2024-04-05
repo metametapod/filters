@@ -1,8 +1,7 @@
 ! Title: Unblock Search Ads and Self-Promotion (reduced)
 ! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
-! Description: AdGuard Unblock Search Ads and Self-Promotion filter applied
-! to select privacy-friendly sites only.
+! Description: AdGuard Unblock Search Ads and Self-Promotion filter applied to select privacy-friendly sites only.
 !#if (adguard_app_android || adguard_app_ios)
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
