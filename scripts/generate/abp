@@ -24,19 +24,12 @@ write_unblock_filter() {
 
 main() (
     usefulads_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt"
-    self_promo_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt"
     adguard_license="https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE"
     write_unblock_filter "upstream/adguard/usefulads.txt" \
         "Unblock Contextual Ads" \
         "$usefulads_filter_url" \
         "$adguard_license" \
         "./adguard/contextual.txt"
-
-    write_unblock_filter "upstream/adguard/self-promo.txt" \
-        "Unblock Search Ads and Self-Promotion" \
-        "$self_promo_filter_url" \
-        "$adguard_license" \
-        "./adguard/self-promo.txt"
 )
 
 main

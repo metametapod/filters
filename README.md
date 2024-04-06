@@ -3,7 +3,6 @@
 ### AdGuard / uBlock Origin
 
 - [Unblock Contextual Ads (reduced)](https://raw.githubusercontent.com/metametapod/filters/main/adguard/contextual.txt)
-- [Unblock Search Ads and Self-Promotion (reduced)](https://raw.githubusercontent.com/metametapod/filters/main/adguard/self-promo.txt)
 
 ### Hosts
 

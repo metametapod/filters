@@ -11,5 +11,4 @@ fetch "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/LICEN
 fetch "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt" -o upstream/1hosts/xtra/domains.txt
 fetch "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt" -o upstream/adguard/dns.txt
 fetch "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt" -o upstream/adguard/usefulads.txt
-fetch "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/AnnoyancesFilter/Other/sections/self-promo.txt" -o upstream/adguard/self-promo.txt
 echo "Done."
