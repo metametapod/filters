@@ -1,0 +1,74 @@
+#!/bin/sh
+set -o errexit -o nounset
+
+TMP_SCRIPT_DIR="$(mktemp -d)"
+
+join_as_re_group() {
+    xargs printf "%s\n" | paste -sd "|" -
+}
+
+init() (
+    # Exclude any domain with built-in opt-out rules in Firefox.
+    excluded_domains="$(jq -r ".data | map(select( .cookies.optOut != null or .click.optOut != null ) | .domains.[]) | join(\"\n\")" upstream/mozilla/cookie-banner-rules-list.json | sort -u)"
+
+    # Add www entries for any naked domain.
+    excluded_domains="$(printf "%s\n" "$excluded_domains")$(printf "%s\n" "$excluded_domains" | rg -v "^www\." | sed 's/^/www./')"
+
+    # Escape for use in rg. See https://unix.stackexchange.com/a/209744
+    excluded_domains_escaped_grep="$(printf "%s\n" "$excluded_domains" | sed 's/[.[\\*^$]/\\\\&/g')"
+
+    # Escape for use in perl.
+    excluded_domains_escaped_perl="$(printf "%s\n" "$excluded_domains" | xargs printf '\\\\Q%s\\\\E\n')"
+
+    # shellcheck disable=SC2016
+    cat <<EOF >"$TMP_SCRIPT_DIR/exclude_regexps.txt"
+$(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^&##.*$/')
+$(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^\\|\\|.*\\$domain=&$/')
+EOF
+    # shellcheck disable=SC2016
+    cat <<EOF >"$TMP_SCRIPT_DIR/substitution_commands.txt"
+$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(.*)(?:(?:&),)(.*##.*)$/\\1\\2/g;_')
+$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(.*)(?:,(?:&))(##.*)$/\\1\\2/g;_')
+$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(\\|\\|.*\$domain=.*)(?:(?:&)\\|)(.*)$/\\1\\2/g;_')
+$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(\\|\\|.*\$domain=.*)(?:\\|(?:&))$/\\1/g;_')
+EOF
+)
+
+transform_rules() {
+    rg -I -v -f "$TMP_SCRIPT_DIR/exclude_regexps.txt" "$@" >"$TMP_SCRIPT_DIR/rules.txt"
+    parallel --plain --pipe-part --block -1 -a "$TMP_SCRIPT_DIR/rules.txt" perl -p "$TMP_SCRIPT_DIR/substitution_commands.txt"
+}
+
+main() (
+    init
+    outdir="generated/combined"
+    outpath="$outdir/fxcookies_easylist+ubo.txt"
+    mkdir -p "$outdir"
+    printf "Generating '%s' (may take some time)...\n" "$outpath"
+    transform_rules upstream/easylist/cookiemonster.txt upstream/ubo/annoyances-cookies.txt >"$TMP_SCRIPT_DIR/basefilters.txt"
+    cat <<EOF >"$outpath"
+# Title: EasyList/uBO Cookie Notices (optimized for Firefox)
+# License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
+# Description: |
+#   EasyList and uBlock Origin cookie notice filters, excluding sites that have
+#   opt out rules already handled by Firefox's built-in cookie handling.
+$(cat "$TMP_SCRIPT_DIR/basefilters.txt")
+EOF
+    outpath="$outdir/fxcookies_adguard+easylist+ubo.txt"
+    printf "Generating '%s' (may take some time)...\n" "$outpath"
+    cat <<EOF >"$outpath"
+# Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox)
+# License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
+# Description: |
+#   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
+#   that have opt out rules already handled by Firefox's built-in cookie
+#   handling.
+$(cat "$TMP_SCRIPT_DIR/basefilters.txt")
+$(transform_rules upstream/adguard/annoyances-cookies.txt)
+EOF
+
+    echo "Done."
+)
+
+trap 'nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1 &' EXIT HUP INT QUIT TERM
+main
