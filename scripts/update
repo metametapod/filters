@@ -12,11 +12,12 @@ main() (
     fetch "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/LICENSE" -o upstream/adguard/LICENSE
     fetch "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt" -o upstream/1hosts/xtra/domains.txt
     fetch "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt" -o upstream/adguard/dns.txt
-    fetch "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt" -o upstream/adguard/annoyances-cookies.txt
+    fetch "https://filters.adtidy.org/extension/ublock/filters/18.txt" -o upstream/adguard/annoyances-cookies.txt
     fetch "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt" -o upstream/adguard/usefulads.txt
     fetch "https://raw.githubusercontent.com/mozilla/cookie-banner-rules-list/$cookie_banner_tag/cookie-banner-rules-list.json" -o upstream/mozilla/cookie-banner-rules-list.json
-    fetch "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt" -o upstream/easylist/cookiemonster.txt
-    fetch "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances-cookies.txt" -o upstream/ubo/annoyances-cookies.txt
+    fetch "https://ublockorigin.pages.dev/thirdparties/easylist-cookies.txt" -o upstream/easylist/cookies.txt
+    fetch "https://raw.githubusercontent.com/easylist/easylist.github.io/HEAD/content/pages/COPYING.rst" -o upstream/easylist/COPYING.rst
+    fetch "https://ublockorigin.pages.dev/filters/annoyances-cookies.txt" -o upstream/ubo/annoyances-cookies.txt
     fetch "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE" -o upstream/ubo/LICENSE
     echo "Done."
 )

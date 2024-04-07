@@ -42,10 +42,10 @@ transform_rules() {
 main() (
     init
     outdir="generated/combined"
-    outpath="$outdir/fxcookies_easylist+ubo.txt"
+    outpath="$outdir/fxcookies-easylist-ubo.txt"
     mkdir -p "$outdir"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
-    transform_rules upstream/easylist/cookiemonster.txt upstream/ubo/annoyances-cookies.txt >"$TMP_SCRIPT_DIR/basefilters.txt"
+    transform_rules upstream/easylist/cookies.txt upstream/ubo/annoyances-cookies.txt >"$TMP_SCRIPT_DIR/basefilters.txt"
     cat <<EOF >"$outpath"
 # Title: EasyList/uBO Cookie Notices (optimized for Firefox)
 # License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
@@ -54,7 +54,7 @@ main() (
 #   opt out rules already handled by Firefox's built-in cookie handling.
 $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 EOF
-    outpath="$outdir/fxcookies_adguard+easylist+ubo.txt"
+    outpath="$outdir/fxcookies-adguard-easylist-ubo.txt"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     cat <<EOF >"$outpath"
 # Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox)
