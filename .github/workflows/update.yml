@@ -20,16 +20,27 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          ref: develop
 
       - name: Install ripgrep
         run: sudo apt-get install -y ripgrep
+
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v2
+        with:
+          version: 1.7
+          force: true
 
       - name: Update upstream filters
         run: scripts/update
 
       - name: Generate abp filters
         run: scripts/generate/abp
+
+      - name: Generate cookie filters
+        run: scripts/generate/cookies
 
       - name: Generate hosts filters
         run: scripts/generate/hosts
