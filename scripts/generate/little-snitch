@@ -7,7 +7,7 @@ set -o errexit -o nounset
 TMP_SCRIPT_DIR="$(mktemp -d)"
 
 join_as_json() {
-    xargs printf '"%s"\n' | paste -sd "," -
+    sed "s/[\'\"]/\\\&/g" | xargs printf '"%s"\n' | paste -sd "," -
 }
 
 hosts() (
