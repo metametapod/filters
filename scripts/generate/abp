@@ -1,35 +1,61 @@
 #!/bin/sh
 set -o errexit -o nounset
 
+TMP_SCRIPT_DIR="$(mktemp -d)"
+
 generate_unblock_filter() (
     input="$1"
     title="$2"
     url="$3"
     license="$4"
-    site_pattern="(\w+\.)*((brave|duckduckgo|ebay|etsy|firefox|startpage)\.com|(ecosia|mozilla)\.org)"
+    modified_at="$5"
+    site_pattern="(?:\w+\.)*(?:(?:brave|duckduckgo|ebay|etsy|firefox|startpage)\.com|(?:ecosia|mozilla)\.org)"
 
     printf "! Title: %s (reduced)\n" "$title"
+    printf "! Expires: 1 day (update frequency)\n"
+    printf "! Last modified: %s\n" "$modified_at"
     printf "! Original list: %s\n" "$url"
     printf "! License: %s\n" "$license"
     printf "! Description: AdGuard %s filter applied to select privacy-friendly sites only.\n" "$title"
-    rg "^(!#|#%#)|^@@\|\|${site_pattern}[/^]|${site_pattern}[^#]*#" "$input" |
+    rg "^(?:!#|#%#)|^@@\|\|${site_pattern}[/^]|${site_pattern}[^#]*#" "$input" |
         rg -v "^![^#]" |
         tr -d "$(printf '\r')"
 )
 
-write_unblock_filter() {
-    generate_unblock_filter "$1" "$2" "$3" "$4" >"$5"
-    printf "Wrote to '%s'\n" "$5"
-}
+write_unblock_filter() (
+    for x; do
+        set -- "$@" ${last:+"$last"}
+        shift
+        last="$x"
+    done
+
+    generate_unblock_filter "$@" >"$TMP_SCRIPT_DIR/filter.txt"
+    exclude_pattern="^! Last modified: .*\$"
+    cp "$last" "$TMP_SCRIPT_DIR/filter-previous.txt"
+    if git diff --shortstat /dev/fd/3 /dev/fd/4 3<<-EOF 4<<-EOF >/dev/null
+	$(rg -v "$exclude_pattern" "$last")
+EOF
+	$(rg -v "$exclude_pattern" "$TMP_SCRIPT_DIR/filter.txt")
+EOF
+    then
+        printf "No changes to '%s'\n" "$last"
+    else
+        mv "$TMP_SCRIPT_DIR/filter.txt" "$last"
+        printf "Wrote to '%s'\n" "$last"
+    fi
+)
 
 main() (
+    modified_at="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
     usefulads_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt"
     adguard_license="https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE"
     write_unblock_filter "upstream/adguard/usefulads.txt" \
         "Unblock Contextual Ads" \
         "$usefulads_filter_url" \
         "$adguard_license" \
+        "$modified_at" \
         "./adguard/contextual.txt"
 )
 
+trap 'nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1 &' EXIT HUP INT QUIT TERM
 main
