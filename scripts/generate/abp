@@ -37,12 +37,14 @@ main() (
     modified_at="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
     usefulads_filter_url="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt"
     adguard_license="https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE"
+    mkdir -p ./generated/adguard
+    cp "upstream/adguard/LICENSE" ./generated/adguard/LICENSE
     write_unblock_filter "upstream/adguard/usefulads.txt" \
         "Unblock Contextual Ads" \
         "$usefulads_filter_url" \
         "$adguard_license" \
         "$modified_at" \
-        "./adguard/contextual.txt"
+        "./generated/adguard/contextual.txt"
 )
 
 trap 'nohup rm -rf "$TMP_SCRIPT_DIR" >/dev/null 2>&1 &' EXIT HUP INT QUIT TERM

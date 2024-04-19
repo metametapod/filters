@@ -25,7 +25,7 @@ transform_rules() {
 }
 
 main() (
-    outdir="adguard/hosts"
+    outdir="generated/adguard/hosts"
     outpath="$outdir/filter_1.txt"
     mkdir -p "$outdir"
     printf "Generating '%s' (may take some time)...\n" "$outpath"

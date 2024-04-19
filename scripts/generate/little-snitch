@@ -48,7 +48,7 @@ EOF
 )
 
 main() (
-    outdir="adguard/little-snitch"
+    outdir="generated/adguard/little-snitch"
     outpath="$outdir/filter_1.json"
     mkdir -p "$outdir"
     printf "Generating '%s' (may take some time)...\n" "$outpath"

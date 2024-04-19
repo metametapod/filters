@@ -2,15 +2,15 @@
 
 ### AdGuard / uBlock Origin
 
-- [Unblock Contextual Ads (reduced)](https://raw.githubusercontent.com/metametapod/filters/main/adguard/contextual.txt)
+- [Unblock Contextual Ads (reduced)](https://raw.githubusercontent.com/metametapod/filters/main/generated/adguard/contextual.txt)
 
 ### Hosts
 
-- [AdGuard DNS filter (hosts format)](https://raw.githubusercontent.com/metametapod/filters/main/adguard/hosts/filter_1.txt)
+- [AdGuard DNS filter (hosts format)](https://raw.githubusercontent.com/metametapod/filters/main/generated/adguard/hosts/filter_1.txt)
 
 ### Little Snitch
 
-- [AdGuard DNS filter (lsrules format)](https://raw.githubusercontent.com/metametapod/filters/main/adguard/little-snitch/filter_1.json)
+- [AdGuard DNS filter (lsrules format)](https://raw.githubusercontent.com/metametapod/filters/main/generated/adguard/little-snitch/filter_1.json)
 
 ## Local installation
 
@@ -33,7 +33,7 @@ slower machines.
 Changes to the scripts in the repository can be pulled and vetted as-needed.
 
 Then use a `file://` URL to refer to the filter. For example,
-`file:///path/to/filters/adguard/contextual.txt`.
+`file:///path/to/filters/generated/adguard/contextual.txt`.
 
 Alternatively, you can run a local webserver in the `filters` directory via
 e.g.:
@@ -42,7 +42,7 @@ e.g.:
 python3 -m http.server 8080
 ```
 
-And instead use `http://localhost:8080/adguard/contextual.txt`.
+And instead use `http://localhost:8080/generated/adguard/contextual.txt`.
 
 Another option is to fork this repository and use the included GitHub Action.
 
