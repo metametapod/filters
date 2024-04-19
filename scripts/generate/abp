@@ -30,19 +30,7 @@ write_unblock_filter() (
     done
 
     generate_unblock_filter "$@" >"$TMP_SCRIPT_DIR/filter.txt"
-    exclude_pattern="^! Last modified: .*\$"
-    cp "$last" "$TMP_SCRIPT_DIR/filter-previous.txt"
-    if git diff --shortstat /dev/fd/3 /dev/fd/4 3<<-EOF 4<<-EOF >/dev/null
-	$(rg -v "$exclude_pattern" "$last")
-EOF
-	$(rg -v "$exclude_pattern" "$TMP_SCRIPT_DIR/filter.txt")
-EOF
-    then
-        printf "No changes to '%s'\n" "$last"
-    else
-        mv "$TMP_SCRIPT_DIR/filter.txt" "$last"
-        printf "Wrote to '%s'\n" "$last"
-    fi
+    ./scripts/write_filter_iff_modified "$TMP_SCRIPT_DIR/filter.txt" "$last"
 )
 
 main() (

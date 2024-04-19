@@ -1,0 +1,25 @@
+#!/bin/sh
+set -o errexit -o nounset
+
+main() (
+    new="$1"
+    dst="$2"
+    exclude_pattern='^! Last modified:'
+    if ! [ -f "$dst" ]; then
+        mv "$new" "$dst"
+        printf "Wrote new filter to '%s'\n" "$dst"
+    else
+        if git diff --shortstat /dev/fd/3 /dev/fd/4 3<<-EOF 4<<-EOF >/dev/null; then
+	$(rg -v "$exclude_pattern" "$dst")
+EOF
+	$(rg -v "$exclude_pattern" "$new")
+EOF
+            printf "No changes to '%s'\n" "$dst"
+        else
+            mv "$new" "$dst"
+            printf "Wrote to '%s'\n" "$dst"
+        fi
+    fi
+)
+
+main "$@"

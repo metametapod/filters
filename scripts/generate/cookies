@@ -60,8 +60,13 @@ EOF
 
 transform_rules() {
     cat -- "$@" > "$TMP_SCRIPT_DIR/rules.txt"
-    parallel --plain --pipe-part --block -1 -a "$TMP_SCRIPT_DIR/rules.txt" perl -p "$TMP_SCRIPT_DIR/substitution_commands.txt" |
+    perl -p "$TMP_SCRIPT_DIR/substitution_commands.txt" <"$TMP_SCRIPT_DIR/rules.txt" |
     rg -v -f "$TMP_SCRIPT_DIR/exclude_regexps.txt"
+}
+
+write_filter() {
+    cat - > "$TMP_SCRIPT_DIR/filter.txt"
+    ./scripts/write_filter_iff_modified "$TMP_SCRIPT_DIR/filter.txt" "$1"
 }
 
 main() (
@@ -72,7 +77,7 @@ main() (
     mkdir -p "$outdir"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     transform_rules upstream/easylist/cookies.txt upstream/ubo/annoyances-cookies.txt >"$TMP_SCRIPT_DIR/basefilters.txt"
-    cat <<EOF >"$outpath"
+    write_filter <<EOF "$outpath"
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
 ! Last modified: $modified_at
@@ -86,7 +91,7 @@ $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 EOF
     outpath="$outdir/fxcookies-adguard-easylist-ubo.txt"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
-    cat <<EOF >"$outpath"
+    write_filter <<EOF "$outpath"
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
 ! Last modified: $modified_at
