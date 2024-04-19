@@ -24,9 +24,13 @@ init() (
     # Exclude any domain with built-in opt-out rules in Firefox.
     excluded_domains="$(jq -r ".data | map(select( .cookies.optOut != null or .click.optOut != null ) | .domains.[]) | join(\"\n\")" upstream/mozilla/cookie-banner-rules-list/cookie-banner-rules-list.json | sort -u)"
 
+    # Avoid "Argument list too long" error by using temporary file for regex.
+    cat <<EOF > "$TMP_SCRIPT_DIR/public_suffix_domain_re.txt"
+^[^\\.]+\\.(?:$(rg -v "^//|^\$" upstream/mozilla/publicsuffix/public_suffix_list.dat | escape_re | join_as_re_group | escape_xargs))\$
+EOF
+
     # Naked domains should have subdomains excluded as well.
-    joined_tlds="$(rg -v "^//|^\$" upstream/mozilla/publicsuffix/public_suffix_list.dat | escape_re | join_as_re_group)"
-    excluded_naked_domains="$(printf "%s\n" "$excluded_domains" | rg "^[^\\.]+\.(?:$joined_tlds)\$" | rg -v "^www\.")"
+    excluded_naked_domains="$(printf "%s\n" "$excluded_domains" | rg -f "$TMP_SCRIPT_DIR/public_suffix_domain_re.txt" | rg -v "^www\.")"
 
     # Escape for use in rg.
     excluded_domains_escaped_grep="$(printf "%s\n" "$excluded_domains" | escape_re)$(printf "%s\n" "$excluded_naked_domains" | escape_re | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+%s\n')"
