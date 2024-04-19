@@ -23,12 +23,13 @@ cd filters
 # Can run via cron, etc.
 ./scripts/update
 ./scripts/generate/abp
+./scripts/generate/cookies
 ./scripts/generate/hosts
 ./scripts/generate/little-snitch
 ```
 
-Note that generating the hosts file is expensive and may not be feasible on
-slower machines.
+Note that generating some filters is expensive and may not be feasible on slower
+machines.
 
 Changes to the scripts in the repository can be pulled and vetted as-needed.
 
