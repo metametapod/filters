@@ -66,7 +66,7 @@ transform_rules() {
 
 write_filter() {
     cat - > "$TMP_SCRIPT_DIR/filter.txt"
-    ./scripts/write_filter_iff_modified "$TMP_SCRIPT_DIR/filter.txt" "$1"
+    ./scripts/update_filter "$TMP_SCRIPT_DIR/filter.txt" "$1"
 }
 
 main() (

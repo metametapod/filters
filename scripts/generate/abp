@@ -30,7 +30,7 @@ write_unblock_filter() (
     done
 
     generate_unblock_filter "$@" >"$TMP_SCRIPT_DIR/filter.txt"
-    ./scripts/write_filter_iff_modified "$TMP_SCRIPT_DIR/filter.txt" "$last"
+    ./scripts/update_filter "$TMP_SCRIPT_DIR/filter.txt" "$last"
 )
 
 main() (
