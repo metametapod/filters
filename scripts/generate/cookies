@@ -66,6 +66,7 @@ transform_rules() {
 
 main() (
     init
+    modified_at="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
     outdir="generated/combined"
     outpath="$outdir/fxcookies-easylist-ubo.txt"
     mkdir -p "$outdir"
@@ -73,6 +74,8 @@ main() (
     transform_rules upstream/easylist/cookies.txt upstream/ubo/annoyances-cookies.txt >"$TMP_SCRIPT_DIR/basefilters.txt"
     cat <<EOF >"$outpath"
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
+! Expires: 1 day (update frequency)
+! Last modified: $modified_at
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -85,6 +88,8 @@ EOF
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     cat <<EOF >"$outpath"
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
+! Expires: 1 day (update frequency)
+! Last modified: $modified_at
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
