@@ -1,4 +1,6 @@
 ! Title: Unblock Contextual Ads (reduced)
+! Expires: 1 day (update frequency)
+! Last modified: 2024-04-19T00:44:17Z
 ! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
 ! Description: AdGuard Unblock Contextual Ads filter applied to select privacy-friendly sites only.
