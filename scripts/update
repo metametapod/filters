@@ -14,7 +14,10 @@ main() (
     fetch "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt" -o upstream/adguard/dns.txt
     fetch "https://filters.adtidy.org/extension/ublock/filters/18.txt" -o upstream/adguard/annoyances-cookies.txt
     fetch "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt" -o upstream/adguard/usefulads.txt
-    fetch "https://raw.githubusercontent.com/mozilla/cookie-banner-rules-list/$cookie_banner_tag/cookie-banner-rules-list.json" -o upstream/mozilla/cookie-banner-rules-list.json
+    fetch "https://raw.githubusercontent.com/mozilla/cookie-banner-rules-list/$cookie_banner_tag/cookie-banner-rules-list.json" -o upstream/mozilla/cookie-banner-rules-list/cookie-banner-rules-list.json
+    fetch "https://raw.githubusercontent.com/mozilla/cookie-banner-rules-list/main/LICENSE" -o upstream/mozilla/cookie-banner-rules-list/LICENSE
+    fetch "https://publicsuffix.org/list/public_suffix_list.dat" -o upstream/mozilla/publicsuffix/public_suffix_list.dat
+    fetch "https://raw.githubusercontent.com/publicsuffix/list/master/LICENSE" -o upstream/mozilla/publicsuffix/LICENSE
     fetch "https://ublockorigin.pages.dev/thirdparties/easylist-cookies.txt" -o upstream/easylist/cookies.txt
     fetch "https://raw.githubusercontent.com/easylist/easylist.github.io/HEAD/content/pages/COPYING.rst" -o upstream/easylist/COPYING.rst
     fetch "https://ublockorigin.pages.dev/filters/annoyances-cookies.txt" -o upstream/ubo/annoyances-cookies.txt

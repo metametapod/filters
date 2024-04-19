@@ -3,40 +3,61 @@ set -o errexit -o nounset
 
 TMP_SCRIPT_DIR="$(mktemp -d)"
 
+escape_xargs() {
+    sed 's/[''"\\]/\\&/g'
+}
+
+# See https://unix.stackexchange.com/a/209744
+escape_re() {
+    sed 's/[.[\*^$]/\\&/g'
+}
+
+escape_re_perl() {
+   escape_xargs | xargs printf '\\Q%s\\E\n'
+}
+
 join_as_re_group() {
-    xargs printf "%s\n" | paste -sd "|" -
+    escape_xargs | xargs printf "%s\n" | paste -sd "|" -
 }
 
 init() (
     # Exclude any domain with built-in opt-out rules in Firefox.
-    excluded_domains="$(jq -r ".data | map(select( .cookies.optOut != null or .click.optOut != null ) | .domains.[]) | join(\"\n\")" upstream/mozilla/cookie-banner-rules-list.json | sort -u)"
+    excluded_domains="$(jq -r ".data | map(select( .cookies.optOut != null or .click.optOut != null ) | .domains.[]) | join(\"\n\")" upstream/mozilla/cookie-banner-rules-list/cookie-banner-rules-list.json | sort -u)"
 
-    # Add www entries for any naked domain.
-    excluded_domains="$(printf "%s\n" "$excluded_domains")$(printf "%s\n" "$excluded_domains" | rg -v "^www\." | sed 's/^/www./')"
+    # Naked domains should have subdomains excluded as well.
+    joined_tlds="$(rg -v "^//|^\$" upstream/mozilla/publicsuffix/public_suffix_list.dat | escape_re | join_as_re_group)"
+    excluded_naked_domains="$(printf "%s\n" "$excluded_domains" | rg "^[^\\.]+\.(?:$joined_tlds)\$" | rg -v "^www\.")"
 
-    # Escape for use in rg. See https://unix.stackexchange.com/a/209744
-    excluded_domains_escaped_grep="$(printf "%s\n" "$excluded_domains" | sed 's/[.[\\*^$]/\\\\&/g')"
+    # Escape for use in rg.
+    excluded_domains_escaped_grep="$(printf "%s\n" "$excluded_domains" | escape_re)$(printf "%s\n" "$excluded_naked_domains" | escape_re | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+%s\n')"
 
-    # Escape for use in perl.
-    excluded_domains_escaped_perl="$(printf "%s\n" "$excluded_domains" | xargs printf '\\\\Q%s\\\\E\n')"
-
-    # shellcheck disable=SC2016
+    # Single-domain exclusions can be filtered by grep/ripgrep.
+    # https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
     cat <<EOF >"$TMP_SCRIPT_DIR/exclude_regexps.txt"
 $(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^&##.*$/')
-$(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^\\|\\|.*\\$domain=&$/')
+$(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^\\|\\|.*(?:\\$|,)domain=&$/')
+$(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^[^!@].*,domain=&$/')
+$(printf "%s\n" "$excluded_domains_escaped_grep" | sed 's/.*/^\\|?\\|?&\\b(?:[^\\.][^#]+|\\^)?$/')
 EOF
-    # shellcheck disable=SC2016
-    cat <<EOF >"$TMP_SCRIPT_DIR/substitution_commands.txt"
-$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(.*)(?:(?:&),)(.*##.*)$/\\1\\2/g;_')
-$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(.*)(?:,(?:&))(##.*)$/\\1\\2/g;_')
-$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(\\|\\|.*\$domain=.*)(?:(?:&)\\|)(.*)$/\\1\\2/g;_')
-$(printf "%s\n" "$excluded_domains_escaped_perl" | join_as_re_group | sed 's_.*_1 while s/^(\\|\\|.*\$domain=.*)(?:\\|(?:&))$/\\1/g;_')
+
+    # Multi-domain exclusions must be filtered by perl or sed.
+    while read -r cmd; do
+        printf "%s\n" "$excluded_domains" | escape_re_perl | join_as_re_group | escape_xargs | xargs printf '(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
+        printf "%s\n" "$excluded_naked_domains" | escape_re_perl | join_as_re_group | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
+    done <<EOF >"$TMP_SCRIPT_DIR/substitution_commands.txt"
+s/^(.*)&,(.*##.*)$/\$1\$2/g;
+s/^(.*),&(##.*)$/\$1\$2/g;
+s/^(?<!@@)((?:.*\\\\$|.*\\\\\$script,)domain=.*)(?:&\\\\|)(.*)$/\$1\$2/g;
+s/^(?<!@@)((?:.*\\\\$|.*\\\\\$script,)domain=.*)(?:\\\\|&)$/\$1/g;
+s/^(\\\\|?\\\\|?)&,[^#]+$/\$1\$2/g;
+s/^(\\\\|?\\\\|?),&[^#]+$/\$1\$2/g;
 EOF
 )
 
 transform_rules() {
-    rg -I -v -f "$TMP_SCRIPT_DIR/exclude_regexps.txt" "$@" >"$TMP_SCRIPT_DIR/rules.txt"
-    parallel --plain --pipe-part --block -1 -a "$TMP_SCRIPT_DIR/rules.txt" perl -p "$TMP_SCRIPT_DIR/substitution_commands.txt"
+    cat -- "$@" > "$TMP_SCRIPT_DIR/rules.txt"
+    parallel --plain --pipe-part --block -1 -a "$TMP_SCRIPT_DIR/rules.txt" perl -p "$TMP_SCRIPT_DIR/substitution_commands.txt" |
+    rg -v -f "$TMP_SCRIPT_DIR/exclude_regexps.txt"
 }
 
 main() (
@@ -47,22 +68,26 @@ main() (
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     transform_rules upstream/easylist/cookies.txt upstream/ubo/annoyances-cookies.txt >"$TMP_SCRIPT_DIR/basefilters.txt"
     cat <<EOF >"$outpath"
-# Title: EasyList/uBO Cookie Notices (optimized for Firefox)
-# License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
-# Description: |
-#   EasyList and uBlock Origin cookie notice filters, excluding sites that have
-#   opt out rules already handled by Firefox's built-in cookie handling.
+! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
+! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
+! Description: |
+!   EasyList and uBlock Origin cookie notice filters, excluding sites that have
+!   opt out rules already handled by Firefox's built-in cookie banner blocking.
+!
+!   NOTE: still in development, use at your own discretion.
 $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 EOF
     outpath="$outdir/fxcookies-adguard-easylist-ubo.txt"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     cat <<EOF >"$outpath"
-# Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox)
-# License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
-# Description: |
-#   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
-#   that have opt out rules already handled by Firefox's built-in cookie
-#   handling.
+! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
+! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
+! Description: |
+!   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
+!   that have opt out rules already handled by Firefox's built-in cookie
+!   banner blocking.
+!
+!   NOTE: still in development, use at your own discretion.
 $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 $(transform_rules upstream/adguard/annoyances-cookies.txt)
 EOF
