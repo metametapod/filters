@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-04-20T00:45:27Z
+! Last modified: 2024-04-21T00:49:37Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,7 +10,7 @@
 !   NOTE: still in development, use at your own discretion.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 19 Apr 2024 17:02:21 +0000
+! Last modified: Sat, 20 Apr 2024 03:44:56 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -11389,6 +11389,7 @@
 ##.cookie-contain
 ##.cookie-container-main
 ##.cookie-container-most
+##.cookie-container-overlay
 ##.cookie-container-selector
 ##.cookie-content-container
 ##.cookie-content-overlay
@@ -20156,6 +20157,7 @@ wisehosting.com##.glow-banner
 android.com,registry.google,safety.google##.glue-cookie-notification-bar
 stealthex.io##.gmEwWa
 ecospaints.net##.gmt_block_screen
+supabase.com##.go2072408551
 goout.net##.goout-cookie-overlay
 caymangoodtaste.com,cookiebot.com##.granify-widget-container
 inov-8.com##.grey-bg
@@ -21405,7 +21407,7 @@ batichiffrage.fr,financebaby.de,jush.pl,minecraftfortress.org,tab.digital##.t972
 !! #gdpr-consent
 facebookblueprint.com,kalenderwoche.at,kalenderwoche.de,lemon-school.sk,mmtop200.com,numerodesemaine.fr,podconsultsbutik.dk,skillshop.exceedlms.com,thornburg.com,ugenr.dk,ukenr.no,veckonr.se###gdpr-consent
 !! #didomi-host
-ivoox.com###didomi-host
+frandroid.com,ivoox.com###didomi-host
 !! ^cookie-consent
 icabanken.se,mitsubishi-motors.gr,sortter.fi##div[class^="cookie-consent"]
 !! ^cookies_
