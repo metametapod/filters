@@ -115,6 +115,7 @@ main() (
 !   NOTE: still in development, use at your own discretion.
 $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 EOF
+    exit
     outpath="$outdir/fxcookies-adguard-easylist-ubo.txt"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     write_filter <<EOF "$outpath"
