@@ -16,8 +16,12 @@ escape_re_perl() {
    escape_xargs | xargs printf '\\Q%s\\E\n'
 }
 
-join_as_re_group() {
+join_pipe() {
     escape_xargs | xargs printf "%s\n" | paste -sd "|" -
+}
+
+join_comma() {
+    escape_xargs | xargs printf "%s\n" | paste -sd "," -
 }
 
 init() (
@@ -26,7 +30,7 @@ init() (
 
     # Avoid "Argument list too long" error by using temporary file for regex.
     cat <<EOF > "$TMP_SCRIPT_DIR/public_suffix_domain_re.txt"
-^[^\\.]+\\.(?:$(rg -v "^//|^\$" upstream/mozilla/publicsuffix/public_suffix_list.dat | escape_re | join_as_re_group | escape_xargs))\$
+^[^\\.]+\\.(?:$(rg -v "^//|^\$" upstream/mozilla/publicsuffix/public_suffix_list.dat | escape_re | join_pipe | escape_xargs))\$
 EOF
 
     # Naked domains should have subdomains excluded as well.
@@ -46,23 +50,46 @@ EOF
 
     # Multi-domain exclusions must be filtered by perl or sed.
     while read -r cmd; do
-        printf "%s\n" "$excluded_domains" | escape_re_perl | join_as_re_group | escape_xargs | xargs printf '(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
-        printf "%s\n" "$excluded_naked_domains" | escape_re_perl | join_as_re_group | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
-    done <<EOF >"$TMP_SCRIPT_DIR/substitution_commands.txt"
+        printf "%s\n" "$excluded_domains" | escape_re_perl | join_pipe | escape_xargs | xargs printf '(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
+        printf "%s\n" "$excluded_naked_domains" | escape_re_perl | join_pipe | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
+    done <<EOF >"$TMP_SCRIPT_DIR/pre_substitution_commands.txt"
 s/^(.*)&,(.*##.*)$/\$1\$2/g;
 s/^(.*),&(##.*)$/\$1\$2/g;
 s/^(?<!@@)((?:.*\\\\$|.*\\\\\$script,)domain=.*)(?:&\\\\|)(.*)$/\$1\$2/g;
 s/^(?<!@@)((?:.*\\\\$|.*\\\\\$script,)domain=.*)(?:\\\\|&)$/\$1/g;
-s/^(\\\\|?\\\\|?)&,[^#]+$/\$1\$2/g;
-s/^(\\\\|?\\\\|?),&[^#]+$/\$1\$2/g;
+s/^(\\\\|?\\\\|?)&,([^#]+)$/\$1\$2/g;
+s/^(\\\\|?\\\\|?),&([^#]+)$/\$1\$2/g;
+EOF
+
+    cat <<EOF > "$TMP_SCRIPT_DIR/generic_cosmetic_exclusion_command.txt"
+s/^(?:~?[A-Za-z0-9\\-\\.],?)*\*?##(.+?)$/$(printf "%s\n" "$excluded_naked_domains" | join_comma)#@#\\1/g;
+EOF
+
+    cat <<EOF > "$TMP_SCRIPT_DIR/network_exclusion_commands.txt"
+s/^([^\\$]+?)\$/\\1\\\$domain=$(printf "%s\n" "$excluded_naked_domains" | escape_xargs | xargs printf "~%s\n" | join_pipe)/g;
+s/^(.*\\\$script.*)$/\\1,domain=$(printf "%s\n" "$excluded_naked_domains" | escape_xargs | xargs printf "~%s\n" | join_pipe)/g;
+s/^(.*\\\$domain.*)$/\\1|$(printf "%s\n" "$excluded_naked_domains" | escape_xargs | xargs printf "~%s\n" | join_pipe)/;
 EOF
 )
 
-transform_rules() {
+transform_rules() (
     cat -- "$@" > "$TMP_SCRIPT_DIR/rules.txt"
-    perl -p "$TMP_SCRIPT_DIR/substitution_commands.txt" <"$TMP_SCRIPT_DIR/rules.txt" |
+
+    # Allow GPC rules, which aren't included in Firefox cookie banner blocking.
+    gpc_filter="^[^!@].*(?:gpc(?:\\b|_)|globalprivacy)"
+
+    rg --ignore-case -v "$gpc_filter" "$TMP_SCRIPT_DIR/rules.txt" |
+    perl -p "$TMP_SCRIPT_DIR/pre_substitution_commands.txt" |
     rg -v -f "$TMP_SCRIPT_DIR/exclude_regexps.txt"
-}
+
+    # TODO: This increases file size to >100MB for each filter list.
+    # printf "\n! Exclusions for domains already handled by Firefox cookie banner blocking\n"
+    # rg "^(?:~?[A-Za-z0-9\\-\\.],?)*\*?##" "$TMP_SCRIPT_DIR/rules.txt" | perl -p "$TMP_SCRIPT_DIR/generic_cosmetic_exclusion_command.txt"
+    # rg -v "^[!@\*|#A-Za-z0-9\-~\[]|[,\$]domain=[^~]|^\$" "$TMP_SCRIPT_DIR/rules.txt" | perl -p "$TMP_SCRIPT_DIR/network_exclusion_commands.txt"
+
+    printf "\n! Allow GPC rules, which aren't included in Firefox cookie banner blocking.\n"
+    rg --ignore-case "$gpc_filter" "$TMP_SCRIPT_DIR/rules.txt"
+)
 
 write_filter() {
     cat - > "$TMP_SCRIPT_DIR/filter.txt"
@@ -89,6 +116,7 @@ main() (
 !   NOTE: still in development, use at your own discretion.
 $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 EOF
+
     outpath="$outdir/fxcookies-adguard-easylist-ubo.txt"
     printf "Generating '%s' (may take some time)...\n" "$outpath"
     write_filter <<EOF "$outpath"
