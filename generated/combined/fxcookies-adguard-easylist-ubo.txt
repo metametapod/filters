@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-04-23T17:56:21Z
+! Last modified: 2024-04-24T00:45:57Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -30383,12 +30383,12 @@ pracuj.pl##+js(set-cookie, gpc_analytic, 0)
 pracuj.pl##+js(set-cookie, gpc_audience, 0)
 pracuj.pl##+js(set-cookie, gpc_func, 0)
 ![Adblock Plus 2.0]
-! Checksum: 3FIlZfD4USfkwuHZyMYiOA
-! Diff-Path: ../patches/18/18-s-1713882868-3600.patch
+! Checksum: sR76IXZdz+jFAToBnYJkhw
+! Diff-Path: ../patches/18/18-s-1713908013-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.37.99
-! TimeUpdated: 2024-04-23T14:32:14+00:00
+! Version: 2.0.38.0
+! TimeUpdated: 2024-04-23T21:31:52+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -32759,6 +32759,8 @@ codesandbox.io,damota.me,pracazarohom.*,seduo.*##+js(remove-class, force--consen
 ! !SECTION: Cookies - Popular rules
 !
 ! NOTE: Regular rules
+!
+nonno.hpplus.jp##.popup_banner
 m-tac.pl##.cookie-notice-ui
 m-tac.pl##.mess-bg
 ||utils.cedsdigital.it/src/js/cmpConsentWall.js$domain=leggo.it
