@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 23 Apr 2024 14:08:18 +0000
+! Last modified: Wed, 24 Apr 2024 13:59:16 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19560,6 +19560,7 @@ digita.ai##.alert-popup
 cityindex.co.uk##.alert-section
 marcelmarket.co.uk##.alert-server
 fandm.edu##.alert-wrapper
+virustotal.com##.alert.hstack
 aia.co.nz##.alertFooterContent
 drive360.co.za##.alert_box
 autotask.com##.alertbar
@@ -22262,6 +22263,7 @@ melee.gg##+js(set-cookie, CookieConsent, true, , reload, 1)
 melee.gg##+js(set-cookie, FunctionalCookie, true)
 melee.gg##+js(set-cookie, AnalyticalCookie, false)
 chemocare.com##+js(set-cookie, .YourApp.ConsentCookie, yes, , reload, 1)
+mobiliteit.nl##+js(set-cookie, gdpr, deny)
 xledger.net##+js(set-cookie, agreesWithCookies, true)
 reviewmeta.com##+js(set-cookie, rm-first-time-modal-welcome, 1)
 guide-bordeaux-gironde.com##+js(set-cookie, cookieConsent-2023-03, false)
