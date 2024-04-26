@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-04-25T00:48:22Z
+! Last modified: 2024-04-26T00:45:15Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, use at your own discretion.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 24 Apr 2024 13:59:16 +0000
+! Last modified: Thu, 25 Apr 2024 13:26:33 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -286,7 +286,6 @@
 /cookie_it.js
 /cookie_law.js
 /cookie_layer.js
-/cookie_legal_$script
 /cookie_msg.js
 /cookie_notice.js
 /cookie_notice.min.js
@@ -25501,6 +25500,7 @@ newslichter.de###karmaSplash
 art-studios-inprogress.de###kb-container
 look-one.de###keks
 spaness.de###kekt-overlay
+drogeriedepot.de###light-box-bg
 umlandscout.de###loader-new
 mistercurtain.de###lock
 gorreri.com###loggedbar
@@ -26292,7 +26292,6 @@ eshop.elkov.cz##.fixed-centered
 eujuicers.cz##.flash
 azimutyachts.cz##.floatFooter
 dotacedestovka.cz##.fnx__cc
-rsts.cz##.gc-App
 sousede.cz##.hJiARM
 profiplants.cz##.important-question__backdrop
 profiplants.cz##.important-question__dialog
@@ -29189,7 +29188,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 23 Apr 2024 12:22:44 +0000
+! Last modified: Thu, 25 Apr 2024 19:29:37 +0000
 ! Expires: 7 days
 ! Description: |
 !   Filters optimized for uBlock Origin, to be used with EasyList's
@@ -29485,8 +29484,8 @@ deal.by##+js(trusted-set-cookie, gdprConsent, %7B%22adv%22%3Afalse%2C%22func%22%
 ! https://www.zwenkwielen.net/
 zwenkwielen.net##+js(trusted-set-cookie, cookie_preference, functional, , , domain, zwenkwielen.net)
 ! https://github.com/uBlockOrigin/uAssets/discussions/23297
-lastmile.lt#@#+js(set-cookie, __consent, %5B%22required%22%5D)
 lastmile.lt##+js(trusted-set-cookie, __consent, %5B%22required%22%5D)
+! https://www.reddit.com/r/uBlockOrigin/comments/1ccdzvx/cookie_banner_no_longer_blocked_on/
 
 
 !! Needs additional cookies
@@ -30373,6 +30372,13 @@ elmundo.es##+js(trusted-click-element, button[id="ue-accept-notice-button"], , 2
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23044
 eurobaustoff.com##+js(trusted-set-local-storage-item, ccm_consent, '{"/":{"gen":2,"ucid":"1","consent":true,"embeddings":["1e76acf","8ed8d9a","b429e86","f22e6ed","0b25af3","6079a42"],"created":"$currentDate$","updated":"$currentDate$","clickedButton":"acceptAll","iframeConsentDomains":[],"tcf":{"p":[],"lip":[],"sf":[],"v":[],"liv":[],"gad":[]},"lang":"de_DE"}}' )
+
+! deny, video playback/embedded tweeks = ok (EU IP)
+euronews.com##+js(trusted-set-local-storage-item, euconsent-v2, CP9oCIAP9oCIAAHABBENAwEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA)
+
+! https://github.com/uBlockOrigin/uAssets/issues/23454
+dr-beckmann.com##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-deny-all-button"])
+@@||usercentrics.eu^$domain=dr-beckmann.com
 
 ! Allow GPC rules, which aren't included in Firefox cookie banner blocking.
 ##.globalPrivacyBar
