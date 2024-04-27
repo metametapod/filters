@@ -35,9 +35,11 @@ EOF
 
     # Naked domains should have subdomains excluded as well.
     excluded_naked_domains="$(printf "%s\n" "$excluded_domains" | rg -f "$TMP_SCRIPT_DIR/public_suffix_domain_re.txt" | rg -v "^www\.")"
+    excluded_naked_domains_joined_comma="$(printf "%s\n" "$excluded_naked_domains" | join_comma)"
+    excluded_naked_domains_joined_pipe="$(printf "%s\n" "$excluded_naked_domains" | join_pipe)"
 
     # Escape for use in rg.
-    excluded_domains_escaped_grep="$(printf "%s\n" "$excluded_domains" | escape_re)$(printf "%s\n" "$excluded_naked_domains" | escape_re | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+%s\n')"
+    excluded_domains_escaped_grep="$(printf "%s\n" "$excluded_domains" | escape_re)$(printf "%s\n" "$excluded_naked_domains" | escape_re | escape_xargs | xargs printf '(?:[A-Za-z0-9-]+\\.)+%s\n')"
 
     # Single-domain exclusions can be filtered by grep/ripgrep.
     # https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
@@ -51,25 +53,26 @@ EOF
     # Multi-domain exclusions must be filtered by perl or sed.
     while read -r cmd; do
         printf "%s\n" "$excluded_domains" | escape_re_perl | join_pipe | escape_xargs | xargs printf '(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
-        printf "%s\n" "$excluded_naked_domains" | escape_re_perl | join_pipe | escape_xargs | xargs printf '(?:[A-Za-z0-9\\-]+\\.)+(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
+        printf "%s\n" "$excluded_naked_domains" | escape_re_perl | join_pipe | escape_xargs | xargs printf '(?:[A-Za-z0-9-]+\\.)+(?:%s)\n' | sed "s_.*_1 while ${cmd}_"
     done <<EOF >"$TMP_SCRIPT_DIR/pre_substitution_commands.txt"
 s/^(.*)&,(.*##.*)$/\$1\$2/g;
 s/^(.*),&(##.*)$/\$1\$2/g;
-s/^(?<!@@)((?:.*\\\\$|.*\\\\\$script,)domain=.*)(?:&\\\\|)(.*)$/\$1\$2/g;
-s/^(?<!@@)((?:.*\\\\$|.*\\\\\$script,)domain=.*)(?:\\\\|&)$/\$1/g;
+s/^(?<!@@)((?:.*\\\\$|.*\\\\\$[a-z0-9-]+,)domain=.*)(?:&\\\\|)(.*)$/\$1\$2/g;
+s/^(?<!@@)((?:.*\\\\$|.*\\\\\$[a-z0-9-]+,)domain=.*)(?:\\\\|&)$/\$1/g;
 s/^(\\\\|?\\\\|?)&,([^#]+)$/\$1\$2/g;
 s/^(\\\\|?\\\\|?),&([^#]+)$/\$1\$2/g;
 EOF
 
     cat <<EOF > "$TMP_SCRIPT_DIR/generic_cosmetic_exclusion_command.txt"
-s/^(?:~?[A-Za-z0-9\\-\\.],?)*\*?##(.+?)$/$(printf "%s\n" "$excluded_naked_domains" | join_comma)#@#\\1/g;
+s/^(.+)$/$excluded_naked_domains_joined_comma#@#\\1/g;
 EOF
 
-    cat <<EOF > "$TMP_SCRIPT_DIR/network_exclusion_commands.txt"
-s/^([^\\$]+?)\$/\\1\\\$domain=$(printf "%s\n" "$excluded_naked_domains" | escape_xargs | xargs printf "~%s\n" | join_pipe)/g;
-s/^(.*\\\$script.*)$/\\1,domain=$(printf "%s\n" "$excluded_naked_domains" | escape_xargs | xargs printf "~%s\n" | join_pipe)/g;
-s/^(.*\\\$domain.*)$/\\1|$(printf "%s\n" "$excluded_naked_domains" | escape_xargs | xargs printf "~%s\n" | join_pipe)/;
-EOF
+# TODO
+#    cat <<EOF > "$TMP_SCRIPT_DIR/network_exclusion_commands.txt"
+#s/^([^\\\$]+?)\$/@@\\1^\\\$domain=$excluded_naked_domains_joined_pipe/g;
+#s/^(.*\\\$[a-z0-9-]+.*)$/@@\\1,domain=$excluded_naked_domains_joined_pipe/g;
+#s/^(.*[\\\$,]domain=.*)$/@@\\1|$excluded_naked_domains_joined_pipe/;
+#EOF
 )
 
 transform_rules() (
@@ -82,10 +85,14 @@ transform_rules() (
     perl -p "$TMP_SCRIPT_DIR/pre_substitution_commands.txt" |
     rg -v -f "$TMP_SCRIPT_DIR/exclude_regexps.txt"
 
-    # TODO: This increases file size to >100MB for each filter list.
-    # printf "\n! Exclusions for domains already handled by Firefox cookie banner blocking\n"
-    # rg "^(?:~?[A-Za-z0-9\\-\\.],?)*\*?##" "$TMP_SCRIPT_DIR/rules.txt" | perl -p "$TMP_SCRIPT_DIR/generic_cosmetic_exclusion_command.txt"
-    # rg -v "^[!@\*|#A-Za-z0-9\-~\[]|[,\$]domain=[^~]|^\$" "$TMP_SCRIPT_DIR/rules.txt" | perl -p "$TMP_SCRIPT_DIR/network_exclusion_commands.txt"
+    printf "\n! Exclusions for domains already handled by Firefox cookie banner blocking.\n"
+    rg '^[~.*?]?\*##(.*)$' -r '$1' "$TMP_SCRIPT_DIR/rules.txt" |
+    join_comma |
+    perl -p "$TMP_SCRIPT_DIR/generic_cosmetic_exclusion_command.txt"
+
+    # TODO
+    # rg -v "^[!@\*|#A-Za-z0-9-~\[]|[,\$]domain=[^~]|^\$" "$TMP_SCRIPT_DIR/rules.txt" |
+    # perl -p "$TMP_SCRIPT_DIR/network_exclusion_commands.txt"
 
     printf "\n! Allow GPC rules, which aren't included in Firefox cookie banner blocking.\n"
     rg --ignore-case "$gpc_filter" "$TMP_SCRIPT_DIR/rules.txt"
@@ -113,7 +120,7 @@ main() (
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
 !   opt out rules already handled by Firefox's built-in cookie banner blocking.
 !
-!   NOTE: still in development, use at your own discretion.
+!   NOTE: still in development, may cause breakage.
 $(cat "$TMP_SCRIPT_DIR/basefilters.txt")
 EOF
 
@@ -129,8 +136,8 @@ EOF
 !   that have opt out rules already handled by Firefox's built-in cookie
 !   banner blocking.
 !
-!   NOTE: still in development, use at your own discretion.
-$(cat "$TMP_SCRIPT_DIR/basefilters.txt")
+!   NOTE: still in development, may cause breakage.
+!#include fxcookies-easylist-ubo.txt
 $(transform_rules upstream/adguard/annoyances-cookies.txt)
 EOF
 
