@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 28 Apr 2024 15:56:43 +0000
+! Last modified: Mon, 29 Apr 2024 14:37:29 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19546,6 +19546,7 @@ factory.pixiv.net##.agreement-to-last-term
 festival-fabula.org##.agreetop
 itvmedia.co.uk##.alert--active
 espn.com##.alert--fixed
+noelleeming.co.nz##.alert--stripe.alert
 goodmorningamerica.com,historicengland.org.uk##.alert-banner
 acs.org##.alert-banner__cookie
 labour.org.uk##.alert-bar-footer
@@ -21262,6 +21263,8 @@ lovehoney.ca,lovehoney.co.nz,lovehoney.com,lovehoney.eu##.dis_message
 maidenfrance.fr,plurielmedia.com,rencontres-gratuite.fr###headband
 !! PrivacyBanner_
 holidayinnclub.com,payloadcms.com##[class^="PrivacyBanner_"]
+!! #pandectes-banner
+alpkit.com###pandectes-banner
 !! #cookies_acceptance
 courtika.com,essor.ca,groupedpa.com,laturquoise.ca,pmtroy.com,rockebilly.com,tremblayassurance.com,univesta.com###cookies_acceptance
 !! .consent-box
