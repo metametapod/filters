@@ -17081,6 +17081,7 @@
 0.0.0.0 adserv-sfo3.snigelweb.com
 0.0.0.0 adserv-sgp1.snigelweb.com
 0.0.0.0 adserv.snigelweb.com
+0.0.0.0 adserv2.suumo.jp
 0.0.0.0 adserve.ams.rhythmxchange.com
 0.0.0.0 adserve.datawrkz.com
 0.0.0.0 adserve.donanimhaber.com
@@ -23589,6 +23590,7 @@
 0.0.0.0 biallo1.de
 0.0.0.0 biallo2.de
 0.0.0.0 biancasunlit.com
+0.0.0.0 biaseddocumentationacross.com
 0.0.0.0 bibasicbdrm.top
 0.0.0.0 bibberbummler.com
 0.0.0.0 bibbledendysis.top
@@ -24414,6 +24416,7 @@
 0.0.0.0 bottleselement.com
 0.0.0.0 boughtjovialamnesty.com
 0.0.0.0 bouhaisaufy.com
+0.0.0.0 bouhoagy.net
 0.0.0.0 boulevardpilgrim.com
 0.0.0.0 bounce-ads.de
 0.0.0.0 bounce-west.emxdgt.com
@@ -25732,7 +25735,6 @@
 0.0.0.0 campaigns-cdn.celtra.com
 0.0.0.0 campaigns-collector.albacross.com
 0.0.0.0 campaigns.ambient-platform.com
-0.0.0.0 campaigns.trvdp.com
 0.0.0.0 campaigns.williamhill.com
 0.0.0.0 campingknown.com
 0.0.0.0 camschat.net
@@ -26169,6 +26171,7 @@
 0.0.0.0 cdn-a.yieldlove.com
 0.0.0.0 cdn-aas-campaigns.alphonso.tv
 0.0.0.0 cdn-aas-ssai.alphonso.tv
+0.0.0.0 cdn-ad.wtzw.com
 0.0.0.0 cdn-adipolo.urekamedia.com
 0.0.0.0 cdn-adm.pbstck.com
 0.0.0.0 cdn-adn-crf-v.rayjump.com
@@ -27658,6 +27661,7 @@
 0.0.0.0 chat.gosquared.com
 0.0.0.0 chat.modulepush.com
 0.0.0.0 chat.www.clickterra.net
+0.0.0.0 chat.ygosu.com
 0.0.0.0 chatbot-tracking.novaonx.com
 0.0.0.0 chatbox-static.botbanhang.vn
 0.0.0.0 chatbox-tracking.botbanhang.vn
@@ -41747,7 +41751,6 @@
 0.0.0.0 go.toutapp.com
 0.0.0.0 go.trackmundo.com
 0.0.0.0 go.trafficshop.com
-0.0.0.0 go.trvdp.com
 0.0.0.0 go.ukrleads.com
 0.0.0.0 go.underclick.ru
 0.0.0.0 go.urlcash.net
@@ -45234,6 +45237,7 @@
 0.0.0.0 images.revmob.com
 0.0.0.0 images.securedvisit.com
 0.0.0.0 images.sleeknote.com
+0.0.0.0 images.smartframe.io
 0.0.0.0 images.sprinklecontent.com
 0.0.0.0 images.startappservice.com
 0.0.0.0 images.sundaysky.com
@@ -45883,6 +45887,7 @@
 0.0.0.0 ingest.at.atwola.com
 0.0.0.0 ingest.do.brainsland.com
 0.0.0.0 ingest.make.rvapps.io
+0.0.0.0 ingest.make.rvohealth.com
 0.0.0.0 ingest.quantummetric.com
 0.0.0.0 ingesteu.quantummetric.com
 0.0.0.0 ingestion.contentinsights.com
@@ -50338,6 +50343,7 @@
 0.0.0.0 log-v4-insight.kaizenplatform.net
 0.0.0.0 log-v4.kaizenplatform.net
 0.0.0.0 log-v6.mmstat.com
+0.0.0.0 log-verify.mob.com
 0.0.0.0 log-vietnamdaily.zadn.vn
 0.0.0.0 log-vietnamplus-vn.cdn.ampproject.org
 0.0.0.0 log-w.opentracker.net
@@ -50492,6 +50498,7 @@
 0.0.0.0 log.snssdk.com
 0.0.0.0 log.streamagent.sensic.net
 0.0.0.0 log.strm.yandex.ru
+0.0.0.0 log.suumo.jp
 0.0.0.0 log.tagdeliver.com
 0.0.0.0 log.tagtic.cn
 0.0.0.0 log.talkie-ai.com
@@ -52386,6 +52393,7 @@
 0.0.0.0 me.zedcdn.me
 0.0.0.0 me4track.com
 0.0.0.0 me6q8.top
+0.0.0.0 me7x.site
 0.0.0.0 meadowdocumentcaprizecaprize.com
 0.0.0.0 meagplin.com
 0.0.0.0 mealierbani.digital
@@ -53604,6 +53612,7 @@
 0.0.0.0 monetizemore-d.openx.net
 0.0.0.0 monetizeplus.g2afse.com
 0.0.0.0 monetizer.guru
+0.0.0.0 monetizer.smartframe.io
 0.0.0.0 monetizer101.com
 0.0.0.0 money-ai.io
 0.0.0.0 moneycat.vn
@@ -58098,7 +58107,6 @@
 0.0.0.0 p.totalnicefeed.com
 0.0.0.0 p.totalwownews.com
 0.0.0.0 p.touptaisu.com
-0.0.0.0 p.trvdp.com
 0.0.0.0 p.turgelrouph.com
 0.0.0.0 p.typekit.net
 0.0.0.0 p.ugloopie.com
@@ -82287,7 +82295,6 @@
 0.0.0.0 s.touptaisu.com
 0.0.0.0 s.tpcserve.com
 0.0.0.0 s.tribalfusion.com
-0.0.0.0 s.trvdp.com
 0.0.0.0 s.tuoitre.vn
 0.0.0.0 s.turgelrouph.com
 0.0.0.0 s.ugloopie.com
@@ -83976,6 +83983,7 @@
 0.0.0.0 sffsdvc.com
 0.0.0.0 sfg-d.openx.net
 0.0.0.0 sfixretarum.com
+0.0.0.0 sfm.smartframe.io
 0.0.0.0 sfo1.admarketplace.net
 0.0.0.0 sfo1.ipromote.com
 0.0.0.0 sfo2.ipromote.com
@@ -85132,6 +85140,7 @@
 0.0.0.0 smartermobi-d.openx.net
 0.0.0.0 smarterremarketer.net
 0.0.0.0 smartetailing.piwik.pro
+0.0.0.0 smartframe.io
 0.0.0.0 smartico.one
 0.0.0.0 smartlify-d.openx.net
 0.0.0.0 smartlify.com
@@ -86085,7 +86094,6 @@
 0.0.0.0 sr.turn.com
 0.0.0.0 sr7pv7n5x.com
 0.0.0.0 src.freshmarketer.com
-0.0.0.0 src.trvdp.com
 0.0.0.0 srgev.com
 0.0.0.0 srgssr01.wt-eu02.net
 0.0.0.0 srijan.evergage.com
@@ -87211,6 +87219,7 @@
 0.0.0.0 static.site24x7rum.in
 0.0.0.0 static.skwstat.ru
 0.0.0.0 static.smaad.net
+0.0.0.0 static.smartframe.io
 0.0.0.0 static.smilewanted.com
 0.0.0.0 static.solutionshindsight.net
 0.0.0.0 static.sourcetobin.com
@@ -92082,6 +92091,7 @@
 0.0.0.0 tracker.shopclues.com
 0.0.0.0 tracker.smadex.com
 0.0.0.0 tracker.smart-bdash.com
+0.0.0.0 tracker.smartframe.io
 0.0.0.0 tracker.smartseminar.jp
 0.0.0.0 tracker.softcube.com
 0.0.0.0 tracker.sqreemtech.com
@@ -93020,7 +93030,6 @@
 0.0.0.0 truthhascudgel.com
 0.0.0.0 truthvexedben.com
 0.0.0.0 trv.upperbooking.com
-0.0.0.0 trvdp.com
 0.0.0.0 trw2xasmrszrn7qwk.ay.delivery
 0.0.0.0 trx-cdn.zip.co
 0.0.0.0 trx-hub.com
@@ -95177,7 +95186,6 @@
 0.0.0.0 v.totalnicefeed.com
 0.0.0.0 v.totalwownews.com
 0.0.0.0 v.touptaisu.com
-0.0.0.0 v.trvdp.com
 0.0.0.0 v.turgelrouph.com
 0.0.0.0 v.ugloopie.com
 0.0.0.0 v.uponminunan.com
@@ -95886,48 +95894,17 @@
 0.0.0.0 vid.me
 0.0.0.0 vid.pubmatic.com
 0.0.0.0 vid.springserve.com
-0.0.0.0 vid.trvdp.com
 0.0.0.0 vid.vidoomy.com
 0.0.0.0 vid.xapads.com
 0.0.0.0 vid0377.d41.co
 0.0.0.0 vid0410.d41.co
 0.0.0.0 vid1008.d41.co
 0.0.0.0 vid1029.d41.co
-0.0.0.0 vid1038.trvdp.com
 0.0.0.0 vid1050.d41.co
 0.0.0.0 vid1051.d41.co
-0.0.0.0 vid1055.trvdp.com
-0.0.0.0 vid1084.trvdp.com
-0.0.0.0 vid1099.trvdp.com
 0.0.0.0 vid1240.d41.co
-0.0.0.0 vid1246.trvdp.com
-0.0.0.0 vid1268.trvdp.com
-0.0.0.0 vid1273.trvdp.com
-0.0.0.0 vid1441.trvdp.com
-0.0.0.0 vid1476.trvdp.com
-0.0.0.0 vid1484.trvdp.com
-0.0.0.0 vid1544.trvdp.com
-0.0.0.0 vid1563.trvdp.com
-0.0.0.0 vid1565.trvdp.com
-0.0.0.0 vid1601.trvdp.com
-0.0.0.0 vid1650.trvdp.com
-0.0.0.0 vid1712.trvdp.com
-0.0.0.0 vid1723.trvdp.com
-0.0.0.0 vid1768.trvdp.com
-0.0.0.0 vid1770.trvdp.com
-0.0.0.0 vid1896.trvdp.com
-0.0.0.0 vid1936.trvdp.com
-0.0.0.0 vid1964.trvdp.com
-0.0.0.0 vid1989.trvdp.com
-0.0.0.0 vid382.trvdp.com
 0.0.0.0 vid4471.d41.co
-0.0.0.0 vid488.trvdp.com
-0.0.0.0 vid570.trvdp.com
-0.0.0.0 vid597.trvdp.com
-0.0.0.0 vid629.trvdp.com
 0.0.0.0 vid7120.d41.co
-0.0.0.0 vid733.trvdp.com
-0.0.0.0 vid872.trvdp.com
 0.0.0.0 vid9430.d41.co
 0.0.0.0 vidalak.com
 0.0.0.0 vidanalytics.taboola.com
@@ -102595,7 +102572,6 @@
 0.0.0.0 x.totalnicefeed.com
 0.0.0.0 x.totalwownews.com
 0.0.0.0 x.touptaisu.com
-0.0.0.0 x.trvdp.com
 0.0.0.0 x.turgelrouph.com
 0.0.0.0 x.ugloopie.com
 0.0.0.0 x.uponminunan.com
@@ -104292,6 +104268,7 @@
 0.0.0.0 zincypalmy.top
 0.0.0.0 zingshop.net
 0.0.0.0 zinipx.xyz
+0.0.0.0 zion-telemetry-nonprod.api.cnn.io
 0.0.0.0 zion-telemetry.api.cnn.io
 0.0.0.0 zion.qbo.intuit.com
 0.0.0.0 zionsbancorp.demdex.net
