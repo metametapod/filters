@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-05-04T00:45:21Z
+! Last modified: 2024-05-05T00:50:51Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: hNXwCqjORpwhvm7wTnVIsw
-! Diff-Path: ../patches/18/18-s-1714746853-3600.patch
+! Checksum: keuxxFD9dZeCE8TjTuGQGw
+! Diff-Path: ../patches/18/18-s-1714836853-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.38.68
-! TimeUpdated: 2024-05-03T14:32:06+00:00
+! Version: 2.0.38.69
+! TimeUpdated: 2024-05-04T15:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -9881,7 +9881,7 @@ magzter.com##.cookies__notification
 boyteks.com,hes.com.tr,istikbal.com.tr,bellona.com.tr,mondi.com.tr##.cookiepopup-container
 solarisbank.com,risingstack.com##div[class^="CookieConsent__Container"]
 portal.pixelfederation.com##.announcement.cookies
-rtl.hr,diggysadventure.com###gdpr-modal
+jpsearch.go.jp,rtl.hr,diggysadventure.com###gdpr-modal
 diggysadventure.com###gdpr-modal-backdrop
 denmulderboomteelt.com,tproger.ru###cookie-notice-wrapper
 103.by,103.ua,relax.by##.CookiesNotification
