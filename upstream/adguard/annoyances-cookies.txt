@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: keuxxFD9dZeCE8TjTuGQGw
-! Diff-Path: ../patches/18/18-s-1714836853-3600.patch
+! Checksum: QeuZT0xcbPMwqDpj7DjLdA
+! Diff-Path: ../patches/18/18-s-1714916042-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.38.69
-! TimeUpdated: 2024-05-04T15:32:01+00:00
+! Version: 2.0.38.73
+! TimeUpdated: 2024-05-05T13:32:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2536,7 +2536,7 @@ pangleglobal.com##.CookieBannerComponent
 fritz-shop.eu,upleder.de#$#.iai_cookie { display: none !important; }
 fritz-shop.eu,upleder.de#$#body.--cookie-overflow { overflow: auto !important; }
 hakobura.jp##.approval-required-fix-balloon
-ddproperty.com##.cookie-banner-section-root
+propertyguru.com.my,ddproperty.com##.cookie-banner-section-root
 softube.com##.sui-cookie-warning
 patek.com##.cookies.modal_mask
 iqoption.com##+js(set-local-storage-item, cookie_usage_accepted, 1)
@@ -3054,9 +3054,9 @@ ef.co.id##+js(set-local-storage-item, accepted-cookies, true)
 ground.news##.duration-500 > div.bottom-0.justify-center
 pepco.pl###js-pepco-cookies
 sepe.gob.es##.js-cookies-banner
-omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
-omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
-omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
+nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
+nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-seen, true)
+nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, true)
 wagner-tuningshop.de#$##cookielaw { display: none !important; }
 wagner-tuningshop.de#$#body { overflow: auto !important; }
 ||jimdo-dolphin-static-assets-prod.freetls.fastly.net/renderer/static/$domain=nature23.de
@@ -4349,7 +4349,6 @@ gameinformer.com###comment-policy
 getmailbird.com###mb-footer-lawmsg
 dailymail.co.uk##div[data-project="mol-fe-cmp"] > div[class^="tooltip_"]
 prorail.nl##.prorail-cookie-popup
-nhnieuws.nl##.consent-manager_pageFiller
 mercatoemcasa.com.br###COOKIEBAR
 woktowalk.com##div[class^="cookieAceptance"]
 wideroe.no#$#.cookie-modal-wrapper { display: none !important; }
@@ -13195,15 +13194,15 @@ kinopoisk.ru,yandex.*##+js(set-cookie, gdpr, 0)
 ! END: Yandex
 !
 ! xhamster.com
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.cookies-modal__wrapper
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(remove-class, xh-thumb-disabled, html)
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.cookies-modal { display: none !important; }
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.parental-bg { display: none !important; }
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.parental-control { display: none !important; }
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.cookie-announce
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.xh-scroll-disabled { overflow: auto !important; position: static !important; }
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.cookies-modal__wrapper
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(remove-class, xh-thumb-disabled, html)
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.cookies-modal { display: none !important; }
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.parental-bg { display: none !important; }
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.parental-control { display: none !important; }
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.cookie-announce
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*#$#.xh-scroll-disabled { overflow: auto !important; position: static !important; }
 !+ PLATFORM(ext_ublock)
-racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##div[class^="cookiesAnnounce"]
+xhbig.com,racexh.site,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##div[class^="cookiesAnnounce"]
 !
 ! mediamarkt.*##.cookie-info-modal - https://github.com/AdguardTeam/AdguardFilters/issues/87288
 !
@@ -13932,7 +13931,7 @@ puregoldprotein.com##+js(set-local-storage-item, cookiesAccepted, true)
 huss-licht-ton.de##+js(set-cookie, huss_cookie, 0)
 octopusenergy.es##+js(set-cookie, dismissCookieMessage, true)
 ebatpro.fr##+js(set-cookie, cookie_necessity, 1)
-pixiv.net##+js(set-cookie-reload, privacy_policy_agreement, 5)
+pixiv.net##+js(set-cookie-reload, privacy_policy_agreement, 6)
 karofilm.ru##+js(set-cookie, cookie_usage, yes)
 stacksocial.com##+js(set-cookie, sc_cookie_consent, 0)
 huutokaupat.com##+js(set-cookie, consent-data-v2, 0)
