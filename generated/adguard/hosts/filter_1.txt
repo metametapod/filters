@@ -19249,6 +19249,7 @@
 0.0.0.0 analytics.agenedia.com
 0.0.0.0 analytics.agoda.com
 0.0.0.0 analytics.aimtell.com
+0.0.0.0 analytics.airfind.com
 0.0.0.0 analytics.aklamio.com
 0.0.0.0 analytics.algolia.com
 0.0.0.0 analytics.allas.se
@@ -19363,6 +19364,7 @@
 0.0.0.0 analytics.gameforge.de
 0.0.0.0 analytics.gamesdrive.net
 0.0.0.0 analytics.gen.shield.monitoringservice.co
+0.0.0.0 analytics.genial.ly
 0.0.0.0 analytics.getshogun.com
 0.0.0.0 analytics.githubassets.com
 0.0.0.0 analytics.glance.inmobi.com
@@ -20183,6 +20185,7 @@
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 api.gb.pwrgrowthapi.com
 0.0.0.0 api.geniee.jp
+0.0.0.0 api.getadjacent.com
 0.0.0.0 api.getjad.io
 0.0.0.0 api.getlevelten.com
 0.0.0.0 api.getui.com
@@ -21717,6 +21720,7 @@
 0.0.0.0 audiomack.deliveryengine.adswizz.com
 0.0.0.0 audiomob.com
 0.0.0.0 audionews.fm
+0.0.0.0 audiotouch.info
 0.0.0.0 audit.303br.net
 0.0.0.0 audit.median.hu
 0.0.0.0 auditioningantidoteconnections.com
@@ -26675,6 +26679,7 @@
 0.0.0.0 cdn.gen-ref.com
 0.0.0.0 cdn.geodns.tubemogul.com
 0.0.0.0 cdn.geozo.com
+0.0.0.0 cdn.getadjacent.com
 0.0.0.0 cdn.getsharedstore.com
 0.0.0.0 cdn.getsmartcontent.com
 0.0.0.0 cdn.gitajwl.com
@@ -31003,10 +31008,13 @@
 0.0.0.0 cs02-pps-drcn.dbankcdn.com
 0.0.0.0 cs09.aigenstud.com
 0.0.0.0 cs09.ippstuet.com
+0.0.0.0 cs09.tzbirdcod.com
 0.0.0.0 cs10.aigenstud.com
 0.0.0.0 cs10.ippstuet.com
+0.0.0.0 cs10.tzbirdcod.com
 0.0.0.0 cs11.aigenstud.com
 0.0.0.0 cs11.ippstuet.com
+0.0.0.0 cs11.tzbirdcod.com
 0.0.0.0 csaa-app.quantummetric.com
 0.0.0.0 cschyogh.com
 0.0.0.0 csdata1.com
@@ -41210,6 +41218,7 @@
 0.0.0.0 get.thisisvegas.com
 0.0.0.0 get2.fun
 0.0.0.0 getadfinity.com
+0.0.0.0 getadjacent.com
 0.0.0.0 getalltraffic.com
 0.0.0.0 getb.7ya.ru
 0.0.0.0 getbestpolojpob.org
@@ -45263,7 +45272,6 @@
 0.0.0.0 images.revmob.com
 0.0.0.0 images.securedvisit.com
 0.0.0.0 images.sleeknote.com
-0.0.0.0 images.smartframe.io
 0.0.0.0 images.sprinklecontent.com
 0.0.0.0 images.startappservice.com
 0.0.0.0 images.sundaysky.com
@@ -52122,6 +52130,7 @@
 0.0.0.0 matildawu.online
 0.0.0.0 matiro.com
 0.0.0.0 matome.nakanohito.jp
+0.0.0.0 matomo.airfind.com
 0.0.0.0 matomo.chsc.dk
 0.0.0.0 matomo.cloudfront.similarweb.io
 0.0.0.0 matomo.ecoe.vn
@@ -53640,7 +53649,6 @@
 0.0.0.0 monetizemore-d.openx.net
 0.0.0.0 monetizeplus.g2afse.com
 0.0.0.0 monetizer.guru
-0.0.0.0 monetizer.smartframe.io
 0.0.0.0 monetizer101.com
 0.0.0.0 money-ai.io
 0.0.0.0 moneycat.vn
@@ -54090,7 +54098,6 @@
 0.0.0.0 muhealth.containers.piwik.pro
 0.0.0.0 muhealth.piwik.pro
 0.0.0.0 muhlyramrod.top
-0.0.0.0 muhttw.spotlightstores.com
 0.0.0.0 muiviw3x.emltrk.com
 0.0.0.0 mukhtarproving.com
 0.0.0.0 mulberryay.com
@@ -57669,6 +57676,7 @@
 0.0.0.0 overdates.com
 0.0.0.0 overdonealthough.com
 0.0.0.0 overduerebukeloyal.com
+0.0.0.0 overduerole.com
 0.0.0.0 overestimateoption.com
 0.0.0.0 overestimateyearly.com
 0.0.0.0 overgalladean.com
@@ -76891,6 +76899,7 @@
 0.0.0.0 poshhateful.com
 0.0.0.0 poshsenseless.com
 0.0.0.0 poshsplitdr.com
+0.0.0.0 poshyouthfulton.com
 0.0.0.0 positionavailreproach.com
 0.0.0.0 positioner.info
 0.0.0.0 positions.upscore.com
@@ -83516,6 +83525,7 @@
 0.0.0.0 securenetsystems-d.openx.net
 0.0.0.0 securepaths.com
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 securepubads.shareusads.com
 0.0.0.0 securepubads46.g.doubleclick.net
 0.0.0.0 securestate.evergage.com
 0.0.0.0 securestudies.com
@@ -84022,7 +84032,6 @@
 0.0.0.0 sffsdvc.com
 0.0.0.0 sfg-d.openx.net
 0.0.0.0 sfixretarum.com
-0.0.0.0 sfm.smartframe.io
 0.0.0.0 sfo1.admarketplace.net
 0.0.0.0 sfo1.ipromote.com
 0.0.0.0 sfo2.ipromote.com
@@ -84199,6 +84208,7 @@
 0.0.0.0 sharethrough-d.openx.net
 0.0.0.0 sharethrough.adnxs.com
 0.0.0.0 sharethrough.com
+0.0.0.0 shareusads.com
 0.0.0.0 sharevault.cloud
 0.0.0.0 shareweeknews.com
 0.0.0.0 sharieta.com
@@ -85182,7 +85192,6 @@
 0.0.0.0 smartermobi-d.openx.net
 0.0.0.0 smarterremarketer.net
 0.0.0.0 smartetailing.piwik.pro
-0.0.0.0 smartframe.io
 0.0.0.0 smartico.one
 0.0.0.0 smartlify-d.openx.net
 0.0.0.0 smartlify.com
@@ -87263,7 +87272,6 @@
 0.0.0.0 static.site24x7rum.in
 0.0.0.0 static.skwstat.ru
 0.0.0.0 static.smaad.net
-0.0.0.0 static.smartframe.io
 0.0.0.0 static.smilewanted.com
 0.0.0.0 static.solutionshindsight.net
 0.0.0.0 static.sourcetobin.com
@@ -91814,6 +91822,7 @@
 0.0.0.0 track.appsflyer.com
 0.0.0.0 track.aso1.net
 0.0.0.0 track.atgstores.com
+0.0.0.0 track.audiotouch.info
 0.0.0.0 track.bannerbridge.net
 0.0.0.0 track.bcvc.mobi
 0.0.0.0 track.bentonow.com
@@ -93434,6 +93443,7 @@
 0.0.0.0 tz.met.vgwort.de
 0.0.0.0 tz3o38fs.emltrk.com
 0.0.0.0 tzaristdiploma.com
+0.0.0.0 tzbirdcod.com
 0.0.0.0 tzegilo.com
 0.0.0.0 tzelzfnj.xyz
 0.0.0.0 tzgygfy.com
@@ -94994,6 +95004,11 @@
 0.0.0.0 uuoizbtl.xyz
 0.0.0.0 uuuzuu.xyz
 0.0.0.0 uuxfznnf.xyz
+0.0.0.0 uvi-10130.audiotouch.info
+0.0.0.0 uvi-5556.audiotouch.info
+0.0.0.0 uvi-6747.audiotouch.info
+0.0.0.0 uvi-7188.audiotouch.info
+0.0.0.0 uvi-9125.audiotouch.info
 0.0.0.0 uvmhealth.containers.piwik.pro
 0.0.0.0 uvmhealth.piwik.pro
 0.0.0.0 uvoovoachee.com
@@ -95983,6 +95998,7 @@
 0.0.0.0 video.adtelligent.com
 0.0.0.0 video.adverserve.net
 0.0.0.0 video.alxbgo.com
+0.0.0.0 video.audiotouch.info
 0.0.0.0 video.bannerflow.com
 0.0.0.0 video.bbrdbr.com
 0.0.0.0 video.bttrack.com
@@ -96013,6 +96029,7 @@
 0.0.0.0 video.turncdn.com
 0.0.0.0 video.unrulymedia.com
 0.0.0.0 video.videonow.ru
+0.0.0.0 video.videotouch88.info
 0.0.0.0 video.vidoomy.com
 0.0.0.0 video.xlivrdr.com
 0.0.0.0 video.xlviirdr.com
@@ -96060,6 +96077,7 @@
 0.0.0.0 videosvc.ezoic.com
 0.0.0.0 videosworks.com
 0.0.0.0 videotarget-sync.rutarget.ru
+0.0.0.0 videotouch88.info
 0.0.0.0 vidio-d.openx.net
 0.0.0.0 vidmeetingdev.bunquaver.com
 0.0.0.0 vidoomy-d.openx.net
