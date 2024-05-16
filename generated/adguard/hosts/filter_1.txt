@@ -17054,7 +17054,6 @@
 0.0.0.0 agency.adsota.com
 0.0.0.0 agency2.ru
 0.0.0.0 agency360.io
-0.0.0.0 agent-data.subiz.com
 0.0.0.0 agent.aralego.com
 0.0.0.0 agent.intentiq.com
 0.0.0.0 agent.tamedia.com.tw
@@ -37846,7 +37845,6 @@
 0.0.0.0 filesdots.com
 0.0.0.0 filetarget.com
 0.0.0.0 filetarget.net
-0.0.0.0 filev4.subiz.com
 0.0.0.0 filexan.com
 0.0.0.0 filletdose.com
 0.0.0.0 filletnails.com
@@ -39679,6 +39677,7 @@
 0.0.0.0 gedi.tagger.opecloud.com
 0.0.0.0 gedigitalmarketingprod.112.2o7.net
 0.0.0.0 geedoovu.net
+0.0.0.0 geegleshoaph.com
 0.0.0.0 geeksforgeeks-d.openx.net
 0.0.0.0 geerairu.net
 0.0.0.0 geethaihoa.com
@@ -76670,6 +76669,7 @@
 0.0.0.0 professionalswebcheck.com
 0.0.0.0 professmeeting.com
 0.0.0.0 professoragabrielameireles.aulsidakr.com
+0.0.0.0 professorrevealingoctopus.com
 0.0.0.0 professtrespass.com
 0.0.0.0 proffering.xyz
 0.0.0.0 proficientfly.com
@@ -87264,10 +87264,6 @@
 0.0.0.0 subduedgrainchip.com
 0.0.0.0 subgitrelais.com
 0.0.0.0 subheroalgores.com
-0.0.0.0 subiz-cdn.com
-0.0.0.0 subiz.com
-0.0.0.0 subiz.com.vn
-0.0.0.0 subiz.net
 0.0.0.0 subjectamazement.com
 0.0.0.0 subjectscooter.com
 0.0.0.0 subjectslisted.com
@@ -101056,7 +101052,6 @@
 0.0.0.0 www.stuffedstudy.com
 0.0.0.0 www.stupidityficklecapability.com
 0.0.0.0 www.sub2tech.com
-0.0.0.0 www.subiz-cdn.com
 0.0.0.0 www.subjectamazement.com
 0.0.0.0 www.submitnet.net
 0.0.0.0 www.subqueryrewinddiscontented.com
