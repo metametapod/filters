@@ -1,5 +1,9 @@
 ## Filters
 
+### AdAway / AdGuard Home
+
+- [DNS crash and error-reporting allowlist](https://raw.githubusercontent.com/metametapod/filters/main/custom/dns_developer_allowlist.txt)
+
 ### AdGuard / uBlock Origin
 
 - [Unblock Contextual Ads (reduced)](https://raw.githubusercontent.com/metametapod/filters/main/generated/adguard/contextual.txt)

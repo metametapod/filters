@@ -1,0 +1,28 @@
+# DNS crash and error-reporting allowlist
+#
+# Compatible with AdAway and AdGuard Home.
+#
+# Ad blocking can cause unique app crashes, and these need to be reported to
+# developers so they can fix it.
+#
+# This unblocks services strictly designed for crash, error, or performance
+# reporting without invasive tracking.
+#
+# To use in AdAway, go to sources > Add source, select "Allow" as list type and
+# add the URL. In AdGuard Home, add to Filters > DNS allowlists.
+#
+*.appcenter.ms
+*.backtrace.io
+*.bugsnag.com
+*.crashlytics.com
+*.raygun.io
+*.sentry.io
+appcenter.ms
+backtrace.io
+bugsnag.com
+crashlytics.com
+crashlyticsreports-pa.googleapis.com
+firebaselogging-pa.googleapis.com
+firebaselogging.googleapis.com
+raygun.io
+sentry.io
