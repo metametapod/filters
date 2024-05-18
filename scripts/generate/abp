@@ -16,9 +16,7 @@ generate_unblock_filter() (
     printf "! Last modified: %s\n" "$modified_at"
     printf "! Original list: %s\n" "$url"
     printf "! License: %s\n" "$license"
-    printf "! Description: |\n"
-    printf "AdGuard %s filter applied to select privacy-friendly sites only.\n" "$title" |
-        fmt -w 75 | sed 's/^/!   /g'
+    printf "! Description: AdGuard %s filter applied to select privacy-friendly sites only.\n" "$title"
     rg "^(?:!#|#%#)|^@@\|\|${site_pattern}[/^]|${site_pattern}[^#]*#" "$input" |
         rg -v "^![^#]" |
         tr -d "$(printf '\r')"
