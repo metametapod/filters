@@ -2,7 +2,7 @@
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-05-19T00:21:57.663Z
+! Last modified: 2024-05-20T00:20:29.572Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -15,7 +15,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-05-19T00:02:46.985Z
+! Last modified: 2024-05-20T00:02:44.438Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -12185,6 +12185,7 @@ vkcdnservice.appspot.com^
 ||edwate.com^
 ||edwfdhkgnx.com^
 ||edxfquupejhbrey.com^
+||edzwmobmj.com^
 ||ee625e4b1d.com^
 ||ee6a35c1eeee.com^
 ||eeab79bf10.com^
@@ -41871,6 +41872,7 @@ vkcdnservice.appspot.com^
 ||4e55.xyz^
 ||4e68.xyz^
 ||58e0.site^
+||634369.xyz^
 ||657475b7-0095-478d-90d4-96ce440604f9.online^
 ||68646f.xyz^
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^
@@ -56118,8 +56120,8 @@ inapps.appsflyersdk.com^
 # A hosts file that aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
 # ----
 # title:          Frellwit's Swedish Hosts File
-# last updated:   2024-05-15 08:11:09 CEST
-# entries:        1077
+# last updated:   2024-05-19 07:48:38 CEST
+# entries:        1078
 # format:         hosts (hosts -- in hosts file format)
 # homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
 ||1terms.com^
@@ -56168,6 +56170,7 @@ inapps.appsflyersdk.com^
 ||amd.sellingsimplified.net^
 ||analytics.allas.se^
 ||analytics.apotekhjartat.se^
+||analytics.arvika.se^
 ||analytics.ciseway.se^
 ||analytics.elle.se^
 ||analytics.femina.se^
@@ -57087,9 +57090,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 15 May 2024 09:53 UTC+7
-! Version: 2405150953
-! Blocked: 881 rules
+! Last modified: 19 May 2024 22:32 UTC+7
+! Version: 2405192232
+! Blocked: 882 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -57481,6 +57484,7 @@ inapps.appsflyersdk.com^
 ||ads.phunusuckhoe.vn^
 ||ads.phunuvagiadinh.vn^
 ||ads.salemall.vn^
+||ads.seovietnam.pro^
 ||ads.sexyland.vn^
 ||ads.songmoi.vn^
 ||ads.suckhoegiadinh.com.vn^
@@ -57910,8 +57914,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 16 May 2024 09:42 UTC+7
-! Version: 2405160942
+! Last modified: 19 May 2024 22:32 UTC+7
+! Version: 2405192232
 ! Blocked: 4,282 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -63086,6 +63090,10 @@ inapps.appsflyersdk.com^
 ||999fb.cn^
 ||ltfpbp.xyz^
 ||foscvbu.icu^
+||ajkggo.xyz^
+||kzpizjp.cn^
+||ogidskik.top^
+||yhimpnr.icu^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
