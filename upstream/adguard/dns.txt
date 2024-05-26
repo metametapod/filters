@@ -2,7 +2,7 @@
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-05-25T00:19:34.548Z
+! Last modified: 2024-05-25T18:05:28.281Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -15,7 +15,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-05-25T00:02:41.773Z
+! Last modified: 2024-05-25T18:01:11.464Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -2593,6 +2593,7 @@ vkcdnservice.appspot.com^
 ||a-waiting.com^
 ||a00s.net^
 ||a06bbd98194c252.com^
+||a11d3c1b4d.com^
 ||a11k.com^
 ||a14net.com^
 ||a14refresh.com^
@@ -2783,6 +2784,7 @@ vkcdnservice.appspot.com^
 ||abpicsrc.com^
 ||abpjs23.com^
 ||abqmfewisf.com^
+||abqnupogcwhi.com^
 ||abrasivematch.com^
 ||abrhydona.com^
 ||abridebouch.com^
@@ -3800,6 +3802,7 @@ vkcdnservice.appspot.com^
 ||agitatechampionship.com^
 ||agl001.bid^
 ||agl002.online^
+||agl003.com^
 ||agle21xe2anfddirite.com^
 ||aglocobanners.com^
 ||agloogly.com^
@@ -4945,6 +4948,7 @@ vkcdnservice.appspot.com^
 ||artisticcount.pro^
 ||artistictastesnly.info^
 ||artistperhapscomfort.com^
+||artistspipe.top^
 ||artlessdeprivationunfriendly.com^
 ||artlessdevote.com^
 ||artonsbewasand.com^
@@ -5584,6 +5588,7 @@ vkcdnservice.appspot.com^
 ||azjmp.com^
 ||azkcqs.com^
 ||azkwwrerlejqv.top^
+||azlmizbvgjfe.com^
 ||azmjosvecyye.com^
 ||azmsmufimw.com^
 ||aznapoz.info^
@@ -7904,6 +7909,7 @@ vkcdnservice.appspot.com^
 ||caperedlevi.com^
 ||capetumbledcrag.com^
 ||caphaiks.com^
+||caphrizing.com^
 ||capitalistblotbits.com^
 ||capitalistlukewarmdot.com^
 ||capletstyldia.com^
@@ -8192,6 +8198,7 @@ vkcdnservice.appspot.com^
 ||cdntrf.com^
 ||cdnware.com^
 ||cdnware.io^
+||cdojukbtib.com^
 ||cdosagebreakfast.com^
 ||cdpqtuityras.com^
 ||cdrvrs.com^
@@ -9336,6 +9343,7 @@ vkcdnservice.appspot.com^
 ||compositereconnectadmiral.com^
 ||composureenfold.com^
 ||comprehendpaying.com^
+||comprehensive3x.fun^
 ||comprehensiveunconsciousblast.com^
 ||compresshumpenvious.com^
 ||compresssavvydetected.com^
@@ -9486,6 +9494,7 @@ vkcdnservice.appspot.com^
 ||constructionrejection.com^
 ||constructivesmoking.com^
 ||constructpoll.com^
+||constructpreachystopper.com^
 ||construment.com^
 ||consukultinge.info^
 ||consukultingeca.com^
@@ -10996,6 +11005,7 @@ vkcdnservice.appspot.com^
 ||dfuaqw.com^
 ||dfvlaoi.com^
 ||dgafgadsgkjg.top^
+||dgamapxs.com^
 ||dggwqknub.com^
 ||dgjyqdkxmxq.com^
 ||dgkajwnbrazepe.com^
@@ -11456,6 +11466,7 @@ vkcdnservice.appspot.com^
 ||dkrely.com^
 ||dkrqyly.com^
 ||dkrxtdnlg.com^
+||dkuekrwiwr.com^
 ||dl-rms.com^
 ||dlazblsihdoi.com^
 ||dle-news.xyz^
@@ -12433,6 +12444,7 @@ vkcdnservice.appspot.com^
 ||edwate.com^
 ||edwfdhkgnx.com^
 ||edxfquupejhbrey.com^
+||edzuahkymbureo.com^
 ||edzwmobmj.com^
 ||ee625e4b1d.com^
 ||ee6a35c1eeee.com^
@@ -16580,6 +16592,7 @@ vkcdnservice.appspot.com^
 ||grumpyslayerbarton.com^
 ||grumrionzgu.com^
 ||grunoaph.net^
+||gruntremoved.com^
 ||grupkxfhi.com^
 ||gruponn.com^
 ||grurawho.com^
@@ -18294,6 +18307,7 @@ vkcdnservice.appspot.com^
 ||ihqnckvpfx.com^
 ||ihtckcitkr.com^
 ||ihttscqovzzb.com^
+||ihuumdkdjskud.com^
 ||ihzuephjxb.com^
 ||ii9g0qj9.de^
 ||iibhytvj.com^
@@ -18571,6 +18585,7 @@ vkcdnservice.appspot.com^
 ||inaneamenvote.com^
 ||inanityacromia.life^
 ||inanitystorken.com^
+||inappropriate2.fun^
 ||inappropriateoutdoorsconfiguration.com^
 ||inareputaonforha.com^
 ||inasmedia.com^
@@ -20909,6 +20924,7 @@ vkcdnservice.appspot.com^
 ||kxhbyjljkmyp.xyz^
 ||kxhmyeedwkbgrh.xyz^
 ||kxkqqycs.xyz^
+||kxkqxdgp.com^
 ||kxnaaxml.com^
 ||kxnggkh2nj.com^
 ||kxowmbwprnck.com^
@@ -23207,6 +23223,7 @@ vkcdnservice.appspot.com^
 ||milfunsource.com^
 ||militiatillers.top^
 ||milkejusd.website^
+||milksquadronsad.com^
 ||milkygoodness.xyz^
 ||milkywaynewspaper.com^
 ||millennialmedia.com^
@@ -24964,6 +24981,7 @@ vkcdnservice.appspot.com^
 ||notionfoggy.com^
 ||notionsshrivelcustomer.com^
 ||notionstayed.com^
+||notjdyincro.com^
 ||notonthebedsheets.com^
 ||notorietycheerypositively.com^
 ||notorietynoblemanproposition.com^
@@ -29267,6 +29285,7 @@ vkcdnservice.appspot.com^
 ||pvlcbsynxsabti.com^
 ||pvqzggfkuxum.com^
 ||pvsxzlb.com^
+||pvtqllwgu.com^
 ||pvtypsgueyqey.com^
 ||pvxvazbehd.com^
 ||pwbmdalngizhz.com^
@@ -29798,6 +29817,7 @@ vkcdnservice.appspot.com^
 ||radshedmisrepu.info^
 ||raekq.online^
 ||raeoaxqxhvtxe.xyz^
+||raepkiknkyxuuc.com^
 ||raffleinsanity.com^
 ||rag3ca7t5amubr8eedffin.com^
 ||ragapa.com^
@@ -29896,6 +29916,7 @@ vkcdnservice.appspot.com^
 ||rapidshookdecide.com^
 ||rapingdistil.com^
 ||rapolok.com^
+||rappjsps.com^
 ||raptapee.com^
 ||raptingy.net^
 ||raptorserrano.com^
@@ -29908,6 +29929,7 @@ vkcdnservice.appspot.com^
 ||rarestkhatin.top^
 ||rasahick.space^
 ||rascalbygone.com^
+||rashbarnabas.com^
 ||rashlyblowfly.com^
 ||rashtiprimomo.com^
 ||raspberryamusingbroker.com^
@@ -29919,6 +29941,7 @@ vkcdnservice.appspot.com^
 ||rationalan.pro^
 ||rationalizedalton.com^
 ||ratioregarding.com^
+||ratiosincl.com^
 ||rattoninsects.top^
 ||ratury.com^
 ||rauceesh.com^
@@ -31209,6 +31232,7 @@ vkcdnservice.appspot.com^
 ||rriodxsmyjk.com^
 ||rrjnjnioxfbqaj.com^
 ||rrmlejvyqebk.top^
+||rrnhilainbjii.com^
 ||rrobbybvvbybj.top^
 ||rrolqae.com^
 ||rronsep.com^
@@ -31795,6 +31819,7 @@ vkcdnservice.appspot.com^
 ||sccpnd.xyz^
 ||scenbe.com^
 ||scenerynatives.com^
+||scenescrockery.com^
 ||scenespathreconciliation.com^
 ||scenistgracy.life^
 ||scentbracehardship.com^
@@ -34095,6 +34120,7 @@ vkcdnservice.appspot.com^
 ||suchbasementdarn.com^
 ||suchcesusar.org^
 ||suchroused.com^
+||suckae.xyz^
 ||suckfaintlybooking.com^
 ||sucocesisfulylyde.info^
 ||sucter.com^
@@ -38406,6 +38432,7 @@ vkcdnservice.appspot.com^
 ||wcjiaclw.com^
 ||wcltbpbnlf.com^
 ||wcmcs.net^
+||wcnhhqqueu.com^
 ||wcnndaazbwmane.com^
 ||wcqtgwsxur.xyz^
 ||wct.link^
@@ -38994,6 +39021,7 @@ vkcdnservice.appspot.com^
 ||wlhzbbvtofot.com^
 ||wlimrvsnusyawk.com^
 ||wlmitgzbht.com^
+||wlrkcefll.com^
 ||wlvkzwqjlyzvr.top^
 ||wlwbjjphtza.com^
 ||wlyfiii.com^
@@ -40463,6 +40491,7 @@ vkcdnservice.appspot.com^
 ||zizoxozoox.com^
 ||zizulw.org^
 ||zjbzzmnnkbjzy.top^
+||zjhebfwr.com^
 ||zjlbugpawe.com^
 ||zjmmkjayjjazy.top^
 ||zjo0tjqpm1.com^
@@ -42077,6 +42106,7 @@ vkcdnservice.appspot.com^
 ||05751c.site^
 ||07e197.site^
 ||1116c5.xyz^
+||11c7a3.xyz^
 ||1350c3.xyz^
 ||1a1fb6.xyz^
 ||20519a.xyz^
@@ -42166,6 +42196,7 @@ vkcdnservice.appspot.com^
 ||1085549509.rsc.cdn77.org^
 ||10945-2.s.cdn15.com^
 ||10945-5.s.cdn15.com^
+||1139724980.rsc.cdn77.org^
 ||1147112108.rsc.cdn77.org^
 ||1156219164.rsc.cdn77.org^
 ||1175980934.rsc.cdn77.org^
@@ -42176,6 +42207,7 @@ vkcdnservice.appspot.com^
 ||1288151678.rsc.cdn77.org^
 ||1299757727.rsc.cdn77.org^
 ||1312907885.rsc.cdn77.org^
+||1417571542.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1441085683.rsc.cdn77.org^
 ||1473763790.rsc.cdn77.org^
@@ -48275,6 +48307,8 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||backstory.ebay.
+||edgetrksvc.ebay.
 ||analytics.global.sky.com^
 ||analytics.cosmonova.net^
 ||pr-bh.ybp.yahoo.com^
@@ -55556,6 +55590,7 @@ inapps.appsflyersdk.com^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
+||adleap.jp^
 ||ad.unique1static.jp^
 ||bance.jp^
 ||appdraft.link^
@@ -62834,6 +62869,10 @@ inapps.appsflyersdk.com^
 ||ieapak.xyz^
 ||piksrie.icu^
 ||rbrmhz.xyz^
+||aogk88.asia^
+||ksylied.top^
+||cai75tp.com^
+||enviousinevitable.com^
 ||0322cfmtl.cc^
 ||07dy.cc^
 ||0940088.com^
@@ -67451,6 +67490,7 @@ inapps.appsflyersdk.com^
 ||zzyy18.top^
 ||zzyy19.top^
 ||zzyy20.top^
+||d3d7a0q05k6bvz.cloudfront.net^
 ||06789.xyz^
 ||3p8801.co^
 ||6651tp.com^
