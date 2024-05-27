@@ -15831,6 +15831,7 @@
 0.0.0.0 ad-targeting-prod-elb.53.localytics.com
 0.0.0.0 ad-tech-pyxis-1808716591.us-west-2.elb.amazonaws.com
 0.0.0.0 ad-tech-pyxis-2124195674.us-west-2.elb.amazonaws.com
+0.0.0.0 ad-tech.ru
 0.0.0.0 ad-test.mediav.com
 0.0.0.0 ad-thd-east.tagdelivery.com
 0.0.0.0 ad-tools.kargo.com
@@ -19509,6 +19510,7 @@
 0.0.0.0 amobee-partners.tremorhub.com
 0.0.0.0 amobee.com
 0.0.0.0 amoddishor.com
+0.0.0.0 amon1.net
 0.0.0.0 amontp.com
 0.0.0.0 amorouslimitsbrought.com
 0.0.0.0 amorphousankle.com
@@ -29258,6 +29260,7 @@
 0.0.0.0 clplrhum.xyz
 0.0.0.0 clrjnhxi.xyz
 0.0.0.0 clrstm.com
+0.0.0.0 cls.ad-tech.ru
 0.0.0.0 cls.k5a.io
 0.0.0.0 cls.vrvm.com
 0.0.0.0 clt.banggood.com
@@ -40325,6 +40328,7 @@
 0.0.0.0 flavourdinerinadmissible.com
 0.0.0.0 flavourforgave.com
 0.0.0.0 flawenormouslyattractive.com
+0.0.0.0 flawerosion.com
 0.0.0.0 flaweyesight.com
 0.0.0.0 flaxdoorbell.com
 0.0.0.0 flaxierfilmset.com
@@ -41700,6 +41704,7 @@
 0.0.0.0 gappiertransfd.top
 0.0.0.0 gapscult.com
 0.0.0.0 gapt.hit.gemius.pl
+0.0.0.0 gaptooju.net
 0.0.0.0 gaquxe8.site
 0.0.0.0 garantibbva.api.dataroid.com
 0.0.0.0 garbagereef.com
@@ -52772,6 +52777,7 @@
 0.0.0.0 mail.faiwastauk.com
 0.0.0.0 mail.fam-ad.com
 0.0.0.0 mail.fictiongroin.com
+0.0.0.0 mail.flawerosion.com
 0.0.0.0 mail.freshannouncement.com
 0.0.0.0 mail.gleemsomto.com
 0.0.0.0 mail.heaplap.com
@@ -53652,6 +53658,7 @@
 0.0.0.0 media.adup-tech.com
 0.0.0.0 media.affiliatestonybet.com
 0.0.0.0 media.amntx1.net
+0.0.0.0 media.amon1.net
 0.0.0.0 media.aso1.net
 0.0.0.0 media.assistads.net
 0.0.0.0 media.bidr.io
@@ -79316,6 +79323,7 @@
 0.0.0.0 proficientfly.com
 0.0.0.0 profile-api-prod-elb.53.localytics.com
 0.0.0.0 profile-lookup.services.53.localytics.com
+0.0.0.0 profile.ad-tech.ru
 0.0.0.0 profile.adkmob.com
 0.0.0.0 profile.localytics.com
 0.0.0.0 profile.ord54.distributionrealmoth.com
@@ -92881,6 +92889,7 @@
 0.0.0.0 thursdaypearaccustomed.com
 0.0.0.0 thursdaysalesmanbarrier.com
 0.0.0.0 thusdrink.com
+0.0.0.0 thuthoock.net
 0.0.0.0 thutucnhantien-tunuocngoai.weebly.com
 0.0.0.0 thutucnhantiennuocngoai24h.weebly.com
 0.0.0.0 thutucnhantienquydoi24h.weebly.com
@@ -94298,6 +94307,7 @@
 0.0.0.0 track.aftrk3.com
 0.0.0.0 track.americansongwriter.com
 0.0.0.0 track.amntx1.net
+0.0.0.0 track.amon1.net
 0.0.0.0 track.analitycs.net
 0.0.0.0 track.analyticsexpert.net.re.getclicky.com
 0.0.0.0 track.andbeyond.media
