@@ -573,7 +573,9 @@
       "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
       "domains": [
         "facebook.com",
+        "instagram.com",
         "messenger.com",
+        "meta.com",
         "oculus.com",
         "workplace.com"
       ],
@@ -637,7 +639,7 @@
         ]
       },
       "id": "05b3b417-c4c7-4ed0-a3cf-43053e8b33ab",
-      "domains": ["twitter.com"]
+      "domains": ["twitter.com", "x.com"]
     },
     {
       "click": {
@@ -5784,7 +5786,8 @@
     {
       "click": {
         "presence": "div[data-tracking-opt-in-overlay=\"true\"]",
-        "optIn": "div[data-tracking-opt-in-accept=\"true\"]"
+        "optIn": "div[data-tracking-opt-in-accept=\"true\"]",
+        "optOut": "div[data-tracking-opt-in-reject=\"true\"]"
       },
       "id": "D168AF87-F481-4AD7-BE78-28A59F798406",
       "domains": ["fandom.com"]
@@ -7191,6 +7194,30 @@
             "value": "no"
           }
         ]
+      }
+    },
+    {
+      "id": "06ae9b8e-909a-4f50-be66-0046a1a75ddf",
+      "domains": ["rp-online.de"],
+      "click": {
+        "presence": "main[data-consent-main]",
+        "optIn": "custom-button#consentAccept"
+      }
+    },
+    {
+      "id": "02c3c5e1-03a6-426a-b00b-fa34f62322fd",
+      "domains": ["thenextweb.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "__tnw_cookieConsent",
+            "value": "{%22ad_storage%22:%22denied%22%2C%22analytics_storage%22:%22denied%22}"
+          }
+        ]
+      },
+      "click": {
+        "optIn": ".cookie-consent-banner__btn-primary",
+        "presence": "#cookie-consent-banner"
       }
     }
   ]
