@@ -8567,6 +8567,7 @@
 0.0.0.0 a.adrsp.net
 0.0.0.0 a.ads.rmbl.ws
 0.0.0.0 a.ads2.msads.net
+0.0.0.0 a.adsarcade.com
 0.0.0.0 a.adsession.com
 0.0.0.0 a.adskeeper.co.uk
 0.0.0.0 a.adspeed.net
@@ -17546,6 +17547,7 @@
 0.0.0.0 adsapi.togothermany.com
 0.0.0.0 adsapp.g2afse.com
 0.0.0.0 adsapp.gotrackier.com
+0.0.0.0 adsarcade.com
 0.0.0.0 adsassets-ipv6.waze.com
 0.0.0.0 adsassets.waze.com
 0.0.0.0 adsassure.com
@@ -18583,7 +18585,6 @@
 0.0.0.0 affiliate.konibet.com
 0.0.0.0 affiliate.mediatemple.net
 0.0.0.0 affiliate.miracle-miracle.com
-0.0.0.0 affiliate.rakuten.co.jp
 0.0.0.0 affiliate.resellerclub.com
 0.0.0.0 affiliate.sonicsense.jp
 0.0.0.0 affiliateedge.com
@@ -19329,7 +19330,6 @@
 0.0.0.0 altg.widerplanet.com
 0.0.0.0 althov.com
 0.0.0.0 alticoadvisors.actonservice.com
-0.0.0.0 altinbas.revotas.com
 0.0.0.0 altitude-arena.com
 0.0.0.0 altitudeweetonsil.com
 0.0.0.0 altn.actonservice.com
@@ -20180,6 +20180,7 @@
 0.0.0.0 analytics.webgains.io
 0.0.0.0 analytics.webpushr.com
 0.0.0.0 analytics.wetutravel.com.re.getclicky.com
+0.0.0.0 analytics.wildlifestudios.com
 0.0.0.0 analytics.wildtangent.com
 0.0.0.0 analytics.witglobal.net
 0.0.0.0 analytics.wondershare.cc
@@ -22017,7 +22018,6 @@
 0.0.0.0 assortmentberry.com
 0.0.0.0 assortmentcriminal.com
 0.0.0.0 assortplaintiffwailing.com
-0.0.0.0 assosdiamond.revotas.com
 0.0.0.0 assp.sohu.com
 0.0.0.0 asstaraptora.com
 0.0.0.0 asstel01.webtrekk.net
@@ -27044,6 +27044,7 @@
 0.0.0.0 cdn.adrun.ru
 0.0.0.0 cdn.ads.tapzin.com
 0.0.0.0 cdn.adsafeprotected.com
+0.0.0.0 cdn.adsarcade.com
 0.0.0.0 cdn.adsbetnet.com
 0.0.0.0 cdn.adschill.com
 0.0.0.0 cdn.adserve.work
@@ -28987,7 +28988,6 @@
 0.0.0.0 click.vgnett.no
 0.0.0.0 click.vieon.vn
 0.0.0.0 click.wct.link
-0.0.0.0 click.xmtrk.com
 0.0.0.0 click2comm.g2afse.com
 0.0.0.0 click2commission.g2afse.com
 0.0.0.0 click2commission.gotrackier.com
@@ -29712,6 +29712,7 @@
 0.0.0.0 collect.babybus.com
 0.0.0.0 collect.banggood.com
 0.0.0.0 collect.bannercrowd.net
+0.0.0.0 collect.biomedcentral.com
 0.0.0.0 collect.blishtech.co
 0.0.0.0 collect.breakit.se
 0.0.0.0 collect.chaordicsystems.com
@@ -37545,6 +37546,7 @@
 0.0.0.0 epro.sogou.com
 0.0.0.0 eprofessional01.webtrekk.net
 0.0.0.0 eproof.com
+0.0.0.0 eproof.drudgereport.com
 0.0.0.0 eps-analyzer.de
 0.0.0.0 epsauthoup.com
 0.0.0.0 epsonamerica.demdex.net
@@ -40167,7 +40169,6 @@
 0.0.0.0 fine-wealth.pro
 0.0.0.0 finead.o00.kr
 0.0.0.0 fineboost-loghub.ap-southeast-1.log.aliyuncs.com
-0.0.0.0 finema-net.cdn.ampproject.org
 0.0.0.0 finessesherry.com
 0.0.0.0 fingernaildevastated.com
 0.0.0.0 fingerprevious.com
@@ -50163,7 +50164,6 @@
 0.0.0.0 l.pubperf.com
 0.0.0.0 l.reechegraih.com
 0.0.0.0 l.renadomsey.com
-0.0.0.0 l.revotas.com
 0.0.0.0 l.rooglomitaiy.com
 0.0.0.0 l.rouduranter.com
 0.0.0.0 l.sagafan.jp
@@ -50249,7 +50249,6 @@
 0.0.0.0 l1native.com
 0.0.0.0 l1s9mk6gvo2t.customer.permutive.app
 0.0.0.0 l1vec4ms.com
-0.0.0.0 l2.revotas.com
 0.0.0.0 l20375469.highcpmrevenuegate.com
 0.0.0.0 l20698031.highcpmrevenuegate.com
 0.0.0.0 l3.aaxads.com
@@ -53929,7 +53928,6 @@
 0.0.0.0 memorableanticruel.com
 0.0.0.0 memorablecutletbet.com
 0.0.0.0 memorableeditor.com
-0.0.0.0 memorial.revotas.com
 0.0.0.0 memorizematch.com
 0.0.0.0 mena-gmtdmp.mookie1.com
 0.0.0.0 mena.ads.justpremium.com
@@ -55273,7 +55271,6 @@
 0.0.0.0 mttstr.beacon.qq.com
 0.0.0.0 mtvn.demdex.net
 0.0.0.0 mtwdmk9ic.com
-0.0.0.0 mtwidget04.affiliate.rakuten.co.jp
 0.0.0.0 mtwmuy.xyz
 0.0.0.0 mtwwzqdx.xyz
 0.0.0.0 mtypitea.net
@@ -56211,6 +56208,7 @@
 0.0.0.0 navigatecrudeoutlaw.com
 0.0.0.0 navigateiriswilliam.com
 0.0.0.0 navigationconcept.com
+0.0.0.0 navigator-analytics.tweakwise.com
 0.0.0.0 navigator.mediarithmics.com
 0.0.0.0 navispherecarrier.com.data.adobedc.net
 0.0.0.0 navistar.containers.piwik.pro
@@ -58445,6 +58443,7 @@
 0.0.0.0 openssp.ru
 0.0.0.0 openstat.net
 0.0.0.0 opentecs.com
+0.0.0.0 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
 0.0.0.0 opentracker.net
 0.0.0.0 openuniversity.demdex.net
 0.0.0.0 openx-ums.acuityplatform.com
@@ -80060,6 +80059,7 @@
 0.0.0.0 pursuitgrasp.com
 0.0.0.0 pursuitperceptionforest.com
 0.0.0.0 purtymells.top
+0.0.0.0 push-api.topaz-analytics.com
 0.0.0.0 push-eu.mgage.com
 0.0.0.0 push-news.click
 0.0.0.0 push-news.org
@@ -81842,7 +81842,6 @@
 0.0.0.0 realtor-aps-tagan.adlightning.com
 0.0.0.0 realtracker.com
 0.0.0.0 realvu.net
-0.0.0.0 realwap.net
 0.0.0.0 realxavounow.com
 0.0.0.0 realytics.io
 0.0.0.0 realytics.net
@@ -82717,8 +82716,6 @@
 0.0.0.0 revolveoppress.com
 0.0.0.0 revolvermaps.com
 0.0.0.0 revopush.com
-0.0.0.0 revotas.com
-0.0.0.0 revotrack.revotas.com
 0.0.0.0 revprotect.com
 0.0.0.0 revrelations.com
 0.0.0.0 revresponse.com
@@ -90821,7 +90818,6 @@
 0.0.0.0 sw.mp3king.club
 0.0.0.0 sw.onedragon.win
 0.0.0.0 sw.pluckysups.com
-0.0.0.0 sw.revotas.com
 0.0.0.0 sw.smachnakittchen.com
 0.0.0.0 sw.wpu.sh
 0.0.0.0 sw.wpush.org
@@ -104948,7 +104944,6 @@
 0.0.0.0 www.xmlgrab.com
 0.0.0.0 www.xmlppcbuzz.com
 0.0.0.0 www.xmtrading.com
-0.0.0.0 www.xmtrk.com
 0.0.0.0 www.xsjc4smhbyjf.com
 0.0.0.0 www.yapclench.com
 0.0.0.0 www.ybotvisit.com
