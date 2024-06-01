@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-05-31T00:49:56Z
+! Last modified: 2024-06-01T00:52:28Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 30 May 2024 13:03:44 +0000
+! Last modified: Fri, 31 May 2024 13:35:31 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19393,7 +19393,6 @@ bbb.org##.MuiDrawer-root
 tryzapp.com##.MuiGrid-align-items-xs-center
 tvtv.us##.MuiPaper-elevation6[role="alert"]
 app.matchit.me##.MuiPaper-elevation7
-calorieking.com##.MuiPaper-elevation8
 demo.yubico.com##.MuiSnackbarContent-root[role="alert"]
 gpic.com##.MyConsent_Outer
 forums.sherdog.com##.Notice
@@ -22132,6 +22131,7 @@ greenbuildingadvisor.com,finewoodworking.com##+js(set-cookie, taunton_user_conse
 privatekeys.pw##+js(set-cookie, cookie_consent_closed, 1)
 srf.nu##+js(set-cookie, CookieConsent, necessary)
 airnewzealand.co.nz##+js(set-cookie, airTRFX_cookies, accepted)
+viu.com##+js(set-cookie, cookie_consent_accept, true)
 dinamalar.com##+js(set-cookie, agree, true)
 volkswagen-group.com##+js(set-cookie, vw_mms_hide_cookie_dialog, 1)
 solo.io##+js(set-cookie, solo_opt_in, false)
@@ -22961,13 +22961,13 @@ onnibus.com##+js(set-cookie, marketingCookies, false)
 onnibus.com##+js(set-cookie, statisticalCookies, false)
 ! set-cookie (cookielawinfo)
 ! viewed_cookie_policy
-protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javchinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, yes, , reload, 1)
+arturofuente.com,protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,espacocasa.com,altraeta.it,centrooceano.it,allstoresdigital.com,cultarm3d.de,soulbounce.com,fluidtopics.com,uvetgbt.com,malcorentacar.com,emondo.de,maspero.it,kelkay.com,underground-england.com,vert.eco,turcolegal.com,magnet4blogging.net,moovly.com,automationafrica.co.za,jornaldoalgarve.pt,keravanenergia.fi,kuopas.fi,frag-machiavelli.de,healthera.co.uk,mobeleader.com,powerup-gaming.com,developer-blog.net,medical.edu.mt,deh.mt,bluebell-railway.com,ribescasals.com,javchinaimportal.com,inds.co.uk,raoul-follereau.org,serramenti-milano.it,cosasdemujer.com,luz-blanca.info,cosasdeviajes.com,safehaven.io,havocpoint.it,motofocus.pl,nomanssky.com,drei-franken-info.de,clausnehring.com,alttab.net,kinderleicht.berlin,kiakkoradio.fi,cosasdelcaribe.es,de-sjove-jokes.dk,serverprofis.de,biographyonline.net,iziconfort.com,sportinnederland.com,natureatblog.com,wtsenergy.com,cosasdesalud.es,internetpasoapaso.com,zurzeit.at,contaspoupanca.pt,steamdeckhq.com,ipouritinc.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,gogolf.fi,hanse-haus-greifswald.de,tampereenratikka.fi##+js(set-cookie, viewed_cookie_policy, yes, , reload, 1)
 ! cookielawinfo-checkbox-functional
 timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com##+js(set-cookie, cookielawinfo-checkbox-functional, yes)
 ! cookielawinfo-checkbox-necessary
-protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,steamdeckhq.com,ipouritinc.com,tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)
+arturofuente.com,protos.com,timhortons.co.th,toyota.co.uk,businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,hemglass.se,sumsub.com,atman.pl,fabriziovanmarciano.com,nationalrail.com,eett.gr,funkypotato.com,equalexchange.co.uk,swnsdigital.com,steamdeckhq.com,ipouritinc.com,tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-necessary, yes)
 ! cookielawinfo-checkbox-non-necessary
-protos.com##+js(set-cookie, cookielawinfo-checkbox-non-necessary, no)
+arturofuente.com,protos.com##+js(set-cookie, cookielawinfo-checkbox-non-necessary, no)
 ! cookielawinfo-checkbox-advertisement
 timhortons.co.th,businessaccountingbasics.co.uk,flickr.org,steamdeckhq.com,ipouritinc.com,hemglass.se,gogolf.fi##+js(set-cookie, cookielawinfo-checkbox-advertisement, no)
 ! cookielawinfo-checkbox-advertisement=yes (needed for embedded videos)
@@ -28851,6 +28851,7 @@ metallica.com#@#.privacy_policy_message_box
 online.no,telenor.no#@#.privacy_prompt
 uniroyal.pl#@#.privacyhint
 seb.se,sebgroup.com#@#.pw-cookie-consent-v2
+pohjanmaanhyvinvointi.fi#@#.pwd-cookie-consent-customize
 unicredit.it#@#.pws_cookie_bar
 motofaktor.pl#@#.rodo-accept
 farmacja.pl#@#.rodo-modal
@@ -29081,6 +29082,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||ozracing.com/templates/oz/js/vendor/cookies-enabler.min.js
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
+@@||pohjanmaanhyvinvointi.fi^*/pwd-cookie-consent.
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||portal-frontend.plarium.com/client/cookiesbanner.js$script,~third-party
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
