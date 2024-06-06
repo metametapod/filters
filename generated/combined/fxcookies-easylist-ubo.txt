@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-06-05T00:49:08Z
+! Last modified: 2024-06-06T00:48:48Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 04 Jun 2024 02:12:14 +0000
+! Last modified: Wed, 05 Jun 2024 19:07:59 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -23276,7 +23276,7 @@ dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOuterWrapper
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOverlay
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##body:style(overflow: auto !important; position: initial !important;)
 !! onetrust scroll fix
-grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
+ew.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 !! .gdpr-cookie-overlay
 convertia.com,inconcertcc.com##.gdpr-cookie-overlay
 convertia.com,inconcertcc.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -29024,6 +29024,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||fordblueadvantage.com/cars-for-sale/client/js/cookiebanner.$~third-party
 @@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party
+@@||freeprivacypolicy.com/public/cookie-consent/$script,domain=bigmammagroup.com
 @@||fundingchoicesmessages.google.com/i/$script,domain=9to5mac.com|kledgeb.blogspot.com
 @@||fvd.nl/_nuxt/cookiebanner.$~third-party
 @@||gamersgate.com/js/cookieconsent.js$script,~third-party
@@ -29244,7 +29245,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sun, 02 Jun 2024 11:06:33 +0000
+! Last modified: Wed, 05 Jun 2024 19:07:59 +0000
 ! Expires: 7 days
 ! Description: |
 !   Filters optimized for uBlock Origin, to be used with EasyList's
@@ -29512,6 +29513,9 @@ fruugonorge.com##+js(trusted-set-cookie, consents, essential)
 hyperoptic.com##+js(trusted-set-cookie, ho_cookie_consent, essential)
 ! https://education.lego.com/
 education.lego.com##+js(trusted-set-cookie, LEGO_COOKIE_SETTINGS, '{"preferences":[{"key":"necessary","value":true},{"key":"analytics","value":false},{"key":"legomarketing","value":false},{"key":"thirdparty","value":false}]}')
+! Just nesssary. https://www.lego.com/en-ca/product/the-lord-of-the-rings-barad-dur-10333
+lego.com##+js(trusted-set-cookie, LEGO_COOKIE_SETTINGS, '{"preferences":[{"key":"analytics","value":false},{"key":"legomarketing","value":false},{"key":"necessary","value":true},{"key":"thirdparty","value":false}]}')
+lego.com##+js(trusted-set-cookie, LEGO_OPT_OUT_SETTINGS, '{"preferences":[{"key":"doNotAdvertiseBasedOnMyPersonalData","value":true}]}')
 ! https://www.planningportal.co.uk/
 planningportal.co.uk##+js(trusted-set-cookie, cookie_preferences, {%22performance%22:false%2C%22marketing%22:false%2C%22necessary%22:true})
 ! https://www.steuerbot.com/

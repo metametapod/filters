@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 04 Jun 2024 02:12:14 +0000
+! Last modified: Wed, 05 Jun 2024 19:07:59 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -23435,7 +23435,7 @@ dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOuterWrapper
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##.lbOverlay
 dukh.dk,lekiaviation.com,boligbeton.dk,ordblindenetvaerket.dk##body:style(overflow: auto !important; position: initial !important;)
 !! onetrust scroll fix
-people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
+ew.com,people.com,investopedia.com,grundig.com,zurbrueggen.de,ilsole24ore.com##body,html:style(overflow: auto !important; position: initial !important;)
 !! .gdpr-cookie-overlay
 convertia.com,inconcertcc.com##.gdpr-cookie-overlay
 convertia.com,inconcertcc.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -29261,6 +29261,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||fordblueadvantage.com/cars-for-sale/client/js/cookiebanner.$~third-party
 @@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party
+@@||freeprivacypolicy.com/public/cookie-consent/$script,domain=bigmammagroup.com
 @@||fundingchoicesmessages.google.com/i/$script,domain=9to5mac.com|kledgeb.blogspot.com
 @@||fvd.nl/_nuxt/cookiebanner.$~third-party
 @@||gamersgate.com/js/cookieconsent.js$script,~third-party
