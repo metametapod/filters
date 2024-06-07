@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-06-06T00:48:48Z
+! Last modified: 2024-06-07T00:51:36Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 05 Jun 2024 19:07:59 +0000
+! Last modified: Thu, 06 Jun 2024 16:27:36 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19784,6 +19784,7 @@ fancentro.com##.consent-message
 firstgroup.co.uk##.consent-modal
 justwatch.com##.consent-notification
 sportskeeda.com##.consent-pop-up
+gla.ac.uk##.consent-switch
 app.traderepublic.com##.consentCard
 fullscript.com##.consent__popup
 remotly.com##.consent_container
@@ -22985,6 +22986,8 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
+temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
+temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 supreme.com##+js(set-local-storage-item, sup_gdpr_cookie, accepted)
 supreme.com##+js(set-local-storage-item, gdpr_cookie, accepted)
 g-star.com##+js(set-local-storage-item, cn, true)
@@ -26753,7 +26756,7 @@ sensa.is##.jet-popup__container
 swell.is##.p-5.z-10.fixed
 brim.is##.p-6.max-w-sm
 thecurrent.is##.px-40
-government.is,heilsugaeslan.is,stjornarradid.is##.session-text
+government.is,heilsugaeslan.is,kki.is,stjornarradid.is##.session-text
 torshavn.fo##.sucd-banner
 ! ---------- Indian ----------
 sbilife.co.in##.header-text-contener

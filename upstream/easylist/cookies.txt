@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 05 Jun 2024 19:07:59 +0000
+! Last modified: Thu, 06 Jun 2024 16:27:36 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19728,7 +19728,7 @@ resmed.com##.c-notifications-wrapper
 loveholidays.com,loveholidays.ie##.c-o--
 rimowa.com##.c-rimpopin-wrapper--privacy
 hiltonheadisland.org##.c-site-alerts
-cnet.com##.c-siteTermsBanner
+cnet.com,zdnet.com##.c-siteTermsBanner
 corporate.comcast.com##.c-top-banner
 ustgear.com,wheelertools.com##.c-tracking-consent
 ii.co.uk##.c01194
@@ -19831,6 +19831,7 @@ fancentro.com##.consent-message
 firstgroup.co.uk##.consent-modal
 justwatch.com##.consent-notification
 sportskeeda.com##.consent-pop-up
+gla.ac.uk##.consent-switch
 app.traderepublic.com##.consentCard
 fullscript.com##.consent__popup
 remotly.com##.consent_container
@@ -23144,6 +23145,8 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
+temu.com##+js(set-local-storage-item, cookie_prompt_times, 1)
+temu.com##+js(set-local-storage-item, last_prompt_time, 1)
 supreme.com##+js(set-local-storage-item, sup_gdpr_cookie, accepted)
 supreme.com##+js(set-local-storage-item, gdpr_cookie, accepted)
 g-star.com##+js(set-local-storage-item, cn, true)
@@ -26971,7 +26974,7 @@ sensa.is##.jet-popup__container
 swell.is##.p-5.z-10.fixed
 brim.is##.p-6.max-w-sm
 thecurrent.is##.px-40
-government.is,heilsugaeslan.is,stjornarradid.is##.session-text
+government.is,heilsugaeslan.is,kki.is,stjornarradid.is##.session-text
 torshavn.fo##.sucd-banner
 ! ---------- Indian ----------
 sbilife.co.in##.header-text-contener
