@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 19 Jun 2024 22:50:54 +0000
+! Last modified: Thu, 20 Jun 2024 13:01:59 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -24731,9 +24731,9 @@ elavon.dk,elavon.no,elavon.se,elavon.de##body,html:style(overflow: auto !importa
 pfleiderer.com##.overlay
 pfleiderer.com##.cc--banner
 pfleiderer.com##body,html:style(overflow: auto !important; position: initial !important;)
-! ville-cesson.fr
-ville-cesson.fr###myModalCookieConsent
-ville-cesson.fr##body:style(overflow: auto !important; position: initial !important;)
+!! #myModalCookieConsent
+artifica.fr,moismoliere.com,plan-interactif.com,ville-cesson.fr###myModalCookieConsent
+artifica.fr,moismoliere.com,plan-interactif.com,ville-cesson.fr##body:style(overflow: auto !important; position: initial !important;)
 ! refunder.pl
 refunder.pl,refunder.se##.v--modal-overlay
 refunder.pl,refunder.se##body,html:style(overflow: auto !important; position: initial !important;)
@@ -27821,6 +27821,7 @@ logo.pt,tranquilidade.pt##.overlay-wrapper
 s1live.com##.p-3
 brasiltec.ind.br##.policies-accept
 timing.pt##.policy
+clickbus.com.br##.policy-container
 impressora.com.br,impressorajato.com.br,madrugaosuplementos.com.br,vivona25.com.br##.policy-terms
 cursosgratisonline.com.br##.politicasPrivacidade
 churchsoftware.com.br##.popup-pro
