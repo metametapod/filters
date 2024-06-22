@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: s7RkhpcTL01KaetSh5zVrg
-! Diff-Path: ../patches/18/18-s-1718904937-3600.patch
+! Checksum: v8pOldgKeZ4aiAME1eFdzw
+! Diff-Path: ../patches/18/18-s-1718991289-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.41.72
-! TimeUpdated: 2024-06-20T17:33:41+00:00
+! Version: 2.0.41.78
+! TimeUpdated: 2024-06-21T17:32:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2403,6 +2403,8 @@ docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[
 !
 ! NOTE: Regular rules
 !
+arhcity.ru###cookieAnnounce
+copaamerica.com##+js(set-cookie, localConsent, true)
 backmarket.de##+js(set-cookie-reload, BM_Advertising, false)
 backmarket.de##+js(set-cookie, BM_Analytics, false)
 backmarket.de##+js(set-cookie, BM_User_Experience, false)
@@ -7858,8 +7860,6 @@ studierenplus.de##.chimpify-popup
 merxu.com##.mxu-cookie-consent
 cm.com##.s-cookie-popup
 tierarzt-onlineverzeichnis.de,vergleichen-und-sparen.de###vs-cookiehinweis
-sex.com#$#body { overflow: auto !important; }
-sex.com#$#body > .bg-overlay:has(> #cookie-modal) { display: none !important; }
 flazio.com##.flazio-cookie
 hij.airport.jp,cede.de,minimed.at,justiz.nrw###cookieAgree
 krautreporter.de##.js-flash-messages-container
@@ -10173,7 +10173,6 @@ tk.de#$#body { overflow-y: visible !important; }
 stayer.su##.info-panel
 millet-mountain.com##.banner-cookies-alert
 shop-lot.ru###jnr-cookie
-bazaraki.com,market.fenerium.com,istegelsin.com##.privacy-cookies
 gemoo.com,ioforth.com,imobie.jp,imobie.com##.fixedbot
 scania.com##c-cookie
 ||cdn.ethyca.com/org/*/cookie.js
@@ -11669,7 +11668,7 @@ netto-online.de###cookie-popup2
 minecraft-statistic.net###cookie-privacy-info
 image-line.com###cookie-toolbar
 budgetthuis.nl###cookie-wall
-dagiunderwear.com,vesti-ua.net,dagi.com.tr,cmwltd.co.uk,vidobu.com,kockariyerim.com,bebekodam.com,sleepy.com.tr,alniaciklar.com,investors.atlassian.com,kocakademi.com,foxpost.hu,k-booster.info,sport1tv.cz,sport1tv.hu###cookieAcceptBar
+otomobilir.com,dagiunderwear.com,vesti-ua.net,dagi.com.tr,cmwltd.co.uk,vidobu.com,kockariyerim.com,bebekodam.com,sleepy.com.tr,alniaciklar.com,investors.atlassian.com,kocakademi.com,foxpost.hu,k-booster.info,sport1tv.cz,sport1tv.hu###cookieAcceptBar
 flisekompaniet.no###cookieBlockOverlay
 cdkeys.com###cookieCDkeys
 halkbank.com.tr###cookieCT
@@ -13796,6 +13795,8 @@ jawoll.de,cafe-royal.com,campingplus.de,bikebox-shop.de,mline.com,blumixx.de,roe
 !
 !
 !+ NOT_OPTIMIZED
+bazaraki.com,market.fenerium.com,istegelsin.com##.privacy-cookies
+!+ NOT_OPTIMIZED
 carsales.com.au##csn-gdpr-toaster
 !+ NOT_OPTIMIZED
 support.enpass.io###cookie-status-widget-holder
@@ -14246,7 +14247,6 @@ abcya.com##+js(remove-class, cookie, body > .root.fixed-padding.cookie, stay)
 newbalance.ru##+js(set-local-storage-item, cookieDate, emptyObj)
 ekstrabladet.dk##+js(set-cookie, CookieConsent, 1)
 ieatfoodtours.co.uk,londraculturale.it,onceinrome.com,weliketuscany.it##+js(set-cookie, fh_should_track, false)
-sex.com##+js(set-cookie, sx_cookie_ok, 1)
 voka.tv##+js(set-local-storage-item, ALLOW_COOKIES, false)
 gns3.com##+js(set-local-storage-item, user-has-accepted-cookies, true)
 flightradar24.com##+js(remove-class, has-banner, body.has-banner, stay)
