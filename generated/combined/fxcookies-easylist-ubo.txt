@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-06-25T00:50:37Z
+! Last modified: 2024-06-26T00:50:18Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Mon, 24 Jun 2024 07:34:13 +0000
+! Last modified: Tue, 25 Jun 2024 13:03:04 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -12744,7 +12744,6 @@
 ##.cookiemessageplaceholder
 ##.cookiemon
 ##.cookiemonster-container
-##.cookiemonster:not(html):not(body)
 ##.cookiemsg
 ##.cookienav
 ##.cookienote
@@ -18420,6 +18419,7 @@
 ||cookiesmaster.pl^$third-party
 ||cookiespool.com^$third-party
 ||cookiesregister.deltacommerce.com^
+||cookiesuit.com^$third-party
 ||cookietagmanager.net^$third-party
 ||cookiethough.dev^$third-party
 ||cookietractor.com^$third-party
@@ -21823,6 +21823,7 @@ moebelix.at#?#body > div > div:-abp-has(#jentis_consent)
 play.google.com#?#.gb_g:-abp-contains(cookie)
 sonarhome.pl#?#.fixed:-abp-has(.cookies-scrollbar)
 studocu.com#?#.undefined:-abp-has([data-test-selector="click-the-cookie-banner"])
+x.com#?#.css-175oi2r.r-12vffkv[style^="position: absolute; bottom: 0px; width: 100%;"]:-abp-contains(data protection)
 yogainternational.com#?#div[class^="elements__Banner-"]:-abp-has(> div > a[href$="-privacy-policy"])
 ! googlefunding consent warning
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
@@ -22151,6 +22152,8 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 ocean.io##+js(set-cookie, cookies, false)
 map.blitzortung.org##+js(set-cookie, CONSENT, 1)
+northumbriasport.com##+js(set-cookie, cm_level, 0)
+clearspend.natwest.com##+js(set-cookie, st-cookie-token, true)
 motorsportreg.com##+js(set-cookie, hasMadeConsentSelection, true, , , domain, .motorsportreg.com)
 imola.motorsportreg.com##+js(set-cookie, hasMadeConsentSelection, true, , , domain, .imola.motorsportreg.com)
 pga.com##+js(set-cookie, gdprPGA, true)
@@ -27345,6 +27348,7 @@ neo24.pl,neonet.pl##.cookiesBlockScss-backdrop-1fz
 neo24.pl,neonet.pl##.cookiesBlockScss-root-1Sg
 pracuj.pl##.cookies_cvyuaxh
 pracuj.pl##.cookies_dqxz9lg
+hurt.com.pl##.cover
 macronext.pl,stockwatch.pl##.cppa
 cyfrowyparking.pl##.css-1rixstu
 rocketjobs.pl##.css-1v1jtfq
@@ -28060,6 +28064,7 @@ sinfonicadegalicia.com##.bg-overlay
 franquiciasmalvon.com,malvon.es##.bg_popup
 resultados-futbol.com##.blur-cookies
 nikonistas.com##.c-modal
+eltiempo.com##.c-popup
 lasestrellas.tv##.cTWBhP
 infiniti.com.do,infiniti.com.pa,infiniti.mx,infinitipr.com##.c_128
 escac.com##.ccookiepopupwrapbanner
