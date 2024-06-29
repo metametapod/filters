@@ -1,9 +1,9 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.0.13
+! Version: 1.0.0.37
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-06-28T00:20:53.509Z
+! Last modified: 2024-06-29T00:20:27.837Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.26
 !
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-06-28T00:02:53.814Z
+! Last modified: 2024-06-29T00:02:40.430Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -35,8 +35,10 @@
 !
 !
 !
-||outhauzours.com^
+||ymdgjqtu.com^
+||psaimpagnuhu.net^
 ||bbdiknmwgyesw.com^
+||outhauzours.com^
 ||olabdsjovla.com^
 ||eas696r.xyz^
 ||slk594.com^
@@ -8113,9 +8115,11 @@ vkcdnservice.appspot.com^
 ||cavebummer.com^
 ||cavecredentialdeer.com^
 ||caveestate.com^
+||cavewrap.care^
 ||caviarconcealed.com^
 ||cavilerestops.com^
 ||cawbarthe.com^
+||cawedburial.com^
 ||cawlavzzap.com^
 ||cawnielammy.com^
 ||caxist.com^
@@ -8911,7 +8915,6 @@ vkcdnservice.appspot.com^
 ||clickgate.biz^
 ||clickgate08.biz^
 ||clickintext.com^
-||clickiocdn.com^
 ||clickmi.net^
 ||clickmobad.net^
 ||clicknano.com^
@@ -10014,7 +10017,10 @@ vkcdnservice.appspot.com^
 ||cryjun.com^
 ||cryonickru.com^
 ||cryorganichash.com^
+||cryptobeneluxbanner.care^
+||cryptomaster.care^
 ||cryptomcw.com^
+||cryptonewsdom.care^
 ||cryptraffic.de^
 ||cschyogh.com^
 ||csfabdtmrs.com^
@@ -16372,6 +16378,7 @@ vkcdnservice.appspot.com^
 ||gribsastiw.com^
 ||griddedwarling.top^
 ||gridder.co^
+||gridrelay27.co^
 ||griecemae.top^
 ||grievedclaimed.com^
 ||grievethereafter.com^
@@ -18572,6 +18579,7 @@ vkcdnservice.appspot.com^
 ||influxtabloidkid.com^
 ||influxtravellingpublicly.com^
 ||infodonorbranch.com^
+||infonewsz.care^
 ||infopicked.com^
 ||informalequipment.pro^
 ||informantbartonharass.com^
@@ -20028,6 +20036,7 @@ vkcdnservice.appspot.com^
 ||jyozavoyyykby.top^
 ||jyqekzewvyojy.top^
 ||jyrfbtmbuqeaeo.com^
+||jysocexrxbodh.com^
 ||jytbxzil.com^
 ||jyuirxswk.com^
 ||jywczbx.com^
@@ -22475,6 +22484,7 @@ vkcdnservice.appspot.com^
 ||massacreintentionalmemorize.com^
 ||massacresurrogate.com^
 ||massariuscdn.com^
+||massbrag.care^
 ||massecephid.uno^
 ||massesnieces.com^
 ||massiveunnecessarygram.com^
@@ -26796,6 +26806,7 @@ vkcdnservice.appspot.com^
 ||pccasia.xyz^
 ||pcdgninekvch.com^
 ||pcfchubby.top^
+||pcglvhrln.com^
 ||pchcwqsfaqpw.com^
 ||pcheahrdnfktvhs.xyz^
 ||pcirurrkeazm.com^
@@ -27684,6 +27695,7 @@ vkcdnservice.appspot.com^
 ||pocrd.cc^
 ||pocrowpush.com^
 ||podefr.net^
+||podgilyfattens.com^
 ||podlersabir.com^
 ||podosupsurge.com^
 ||podsolnu9hi10.com^
@@ -31325,6 +31337,7 @@ vkcdnservice.appspot.com^
 ||sandtheircle.com^
 ||sandwichdeliveringswine.com^
 ||sandysuspicions.com^
+||sanedfalsely.com^
 ||sanfordcessor.space^
 ||sangeiunzen.com^
 ||sanggilregard.com^
@@ -31918,6 +31931,7 @@ vkcdnservice.appspot.com^
 ||sexyadsrun.com^
 ||sexyepc.com^
 ||seynatcreative.com^
+||sf-ads.io^
 ||sfafabztidi.com^
 ||sfcfssgbrhnsb.com^
 ||sffsdvc.com^
@@ -34340,6 +34354,7 @@ vkcdnservice.appspot.com^
 ||taoyinbiacid.com^
 ||taozgpkjzpdtgr.com^
 ||tapallpurposepantomime.com^
+||tapchibitcoin.care^
 ||tapdb.net^
 ||tapeabruptlypajamas.com^
 ||tapestrygenus.com^
@@ -35332,6 +35347,7 @@ vkcdnservice.appspot.com^
 ||torattatachan.com^
 ||torcheszocalo.top^
 ||torchtrifling.com^
+||toreddorize.com^
 ||torioluor.com^
 ||toromclick.com^
 ||tororango.com^
@@ -38078,6 +38094,7 @@ vkcdnservice.appspot.com^
 ||weaponsnondescriptperceive.com^
 ||weaponvelocitypredator.com^
 ||weaptqsmbshwd.xyz^
+||wearbald.care^
 ||wearevaporatewhip.com^
 ||wearinggenear.com^
 ||wearishalgins.com^
@@ -38391,6 +38408,7 @@ vkcdnservice.appspot.com^
 ||wholecoolposts.com^
 ||wholecoolstories.com^
 ||wholedailyfeed.com^
+||wholeelision.com^
 ||wholefreshposts.com^
 ||wholehugestories.com^
 ||wholehugewords.com^
@@ -44346,6 +44364,7 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||adtrack.adleadevent.com^
 ||metrics-fe-na1.hubspot.com^
 ||pixel.mintigo.com^
 ||api.sardine.ai^
@@ -44993,6 +45012,7 @@ vkcdnservice.appspot.com^
 ||analytics.churnzero.net^
 ||trk.reclameaqui.com.br^
 ||events-api.gazetadopovo.com.br^
+||s.clickiocdn.com^
 ||i-cmg-amlg-prod.appspot.com^
 ||a.myfidevs.io^
 ||capture-api.autopilotapp.com^
@@ -48022,6 +48042,10 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||pyxis.atp.fox^
+||r.sib2.gardrops.com^
+||nst.trex.media^
+||pixel.kodixauto.ru^
 ||metrics.biddertmz.com^
 ||moduleanalysis.aliexpress.com^
 ||metrics.doppiostreams.com^
@@ -55964,7 +55988,6 @@ inapps.appsflyersdk.com^
 !
 !
 ||cryptosplash.care^
-||cryptobeneluxbanner.care^
 ||pexi.nl^
 ||adconfigproxy.azurewebsites.net^
 
@@ -55981,6 +56004,7 @@ inapps.appsflyersdk.com^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||kjdsfjisdfjr23.azurewebsites.net^
 ||content2.nrc.nl^
 ||aa.hwigroup.com^
 ||ab.hwigroup.com^
@@ -62773,6 +62797,18 @@ inapps.appsflyersdk.com^
 ||gklox.cn^
 ||rmioswx.icu^
 ||trvxbd.xyz^
+||a1bw2cup.top^
+||uyislot.top^
+||555ppp777ppp.com^
+||666ppp222ppp.com^
+||sxlmggx12.com^
+||adhvz.cn^
+||qeedaa.xyz^
+||ldoshbl.top^
+||kfycmiu.icu^
+||xrmfjzqo.xyz^
+||bbxyxt.xyz^
+||5gxs.org^
 ||efhis.cn^
 ||udoshbt.top^
 ||lhtzfn.xyz^
