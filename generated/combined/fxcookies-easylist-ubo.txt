@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-07-04T00:51:02Z
+! Last modified: 2024-07-05T00:50:42Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 03 Jul 2024 04:05:03 +0000
+! Last modified: Thu, 04 Jul 2024 07:25:47 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -20955,7 +20955,6 @@ app.wooclap.com##[aria-labelledby="cookie-banner-title"]
 weedmaps.com##[aria-labelledby="notification_label"]
 picarto.tv##[class*="CookieCompliance_"]
 kaspersky.com##[class*="CookiesAccept"]
-biathlonworld.com##[class*="Modal__SmokeScreen-"]
 plente.com##[class*="SnackbarMessages__snackbar_"]
 payback-ltd.com##[class*="cookiesPopUp"]
 noovo.ca##[class*="modalstyles__StyledModalContainer-"]
@@ -23746,6 +23745,16 @@ futterhaus.de##+js(rc, is-blurred-cookiebox, , stay)
 ! pasticceriaquadrifoglio.com 
 pasticceriaquadrifoglio.com##.js-o-page__gdpr-overlay
 pasticceriaquadrifoglio.com##body,html:style(overflow: auto !important; position: initial !important;)
+! biathlonworld.com
+biathlonworld.com##[class*="Modal__SmokeScreen-"]
+biathlonworld.com##body,html:style(overflow: auto !important; position: initial !important;)
+! keychronpoland.com
+keychronpoland.com##.cc-theme-classic.cc-window
+keychronpoland.com###pandectes-banner
+keychronpoland.com##body,html:style(overflow: auto !important; position: initial !important;)
+! oeko-tex.com
+oeko-tex.com##.cc-window-blocker
+oeko-tex.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! nike.com.pe
 nike.com.pe###consent-tracking
 nike.com.pe##.modal-backdrop
@@ -29069,6 +29078,8 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||api.transcend.io/privacy/graphql$xmlhttprequest
 @@||apikeys.civiccomputing.com^$xmlhttprequest,domain=videogameschronicle.com
 @@||app.erevie.pl/assets/CookieConsent-$~third-party
+@@||app.termly.io/embed-policy.min.js$script,domain=trinityschool.org
+@@||app.termly.io/policy-viewer/iframe-content.html$subdocument,domain=trinityschool.org
 @@||app.weathercloud.net/assets/*/CookieMonster.min.js$~third-party
 @@||appscdn.camilyo.software/cookie-consent/static/cookiesBlocker.min.js$script,domain=vtsz.cz
 @@||arbetsgivarverket.se/js/cookieconsent.js$script,~third-party
@@ -29371,7 +29382,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Wed, 03 Jul 2024 13:17:10 +0000
+! Last modified: Thu, 04 Jul 2024 12:40:44 +0000
 ! Expires: 7 days
 ! Description: |
 !   Filters optimized for uBlock Origin, to be used with EasyList's
@@ -30637,6 +30648,8 @@ rtl.de##+js(trusted-set-cookie, consentUUID, 5a2997bb-3886-4fa1-b0f2-66a8d716c19
 krzbb.de##+js(trusted-set-cookie, consentUUID, 3dbdc74e-c687-41d4-9b01-9d04a7d02c2e_32)
 techstage.de##+js(trusted-set-cookie, consentUUID, 80f57ffd-7468-4ca5-8fff-c442bcc6f276_32)
 n-tv.de##+js(trusted-set-cookie, consentUUID, 2cc64b48-60ab-4161-b42c-45f25a6e338c_32_33)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24366
 
 ! accept
 privacy.motorradonline.de##+js(trusted-click-element, button[title="Akzeptieren und weiter"], , 1000)
