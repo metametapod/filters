@@ -16072,6 +16072,7 @@
 0.0.0.0 advertiseru.net
 0.0.0.0 advertiserurl.com
 0.0.0.0 advertising-cdn.com
+0.0.0.0 advertising-cdn.dpgmedia.cloud
 0.0.0.0 advertising.gammassp.com
 0.0.0.0 advertlineadge.hit.gemius.pl
 0.0.0.0 advertlinege.adocean.pl
@@ -25831,6 +25832,7 @@
 0.0.0.0 cesebsir.xyz
 0.0.0.0 cesebtp.com
 0.0.0.0 cessationcorrectmist.com
+0.0.0.0 cessationhamster.com
 0.0.0.0 cessationrepulsivehumid.com
 0.0.0.0 cestibegster.com
 0.0.0.0 ceteembathe.com
@@ -27627,14 +27629,9 @@
 0.0.0.0 collector-dev.cdp-dev.cnn.com
 0.0.0.0 collector-eu01.cell.eu.nr-data.net
 0.0.0.0 collector-hpn.ghostery.net
-0.0.0.0 collector-pxfqtaw5et.px-client.net
 0.0.0.0 collector-pxrf8vapwa.px-cdn.net
-0.0.0.0 collector-pxrf8vapwa.px-client.net
 0.0.0.0 collector-pxrf8vapwa.px-cloud.net
 0.0.0.0 collector-pxrf8vapwa.pxchk.net
-0.0.0.0 collector-pxrw7m6iav.px-client.net
-0.0.0.0 collector-pxss13u803.px-client.net
-0.0.0.0 collector-pxu6b0qd2s.px-client.net
 0.0.0.0 collector-roku.tvsquared.com
 0.0.0.0 collector-soompi.viki.io
 0.0.0.0 collector-statistics.nhn-commerce.com
@@ -85515,6 +85512,7 @@
 0.0.0.0 srvjsre.media.net
 0.0.0.0 srvjsrnc.media.net
 0.0.0.0 srvpcn.com
+0.0.0.0 srvr.dmvs-apac.com
 0.0.0.0 srvtrck.com
 0.0.0.0 srwwce.xyz
 0.0.0.0 srzpsbf.xyz
