@@ -16600,6 +16600,7 @@
 0.0.0.0 agl001.bid
 0.0.0.0 agl002.online
 0.0.0.0 agl003.com
+0.0.0.0 agl182.mta.exacttarget.com
 0.0.0.0 agle21xe2anfddirite.com
 0.0.0.0 agloogly.com
 0.0.0.0 aglurj.com
@@ -22734,6 +22735,7 @@
 0.0.0.0 bounce-west.emxdgt.com
 0.0.0.0 bounce.keywee.co
 0.0.0.0 bounce.msgapp.com
+0.0.0.0 bounce.s7.exacttarget.com
 0.0.0.0 bounceads.net
 0.0.0.0 bouncebidder.com
 0.0.0.0 bounceexchange.com
@@ -26578,6 +26580,10 @@
 0.0.0.0 click.vcommission.com
 0.0.0.0 click.vgnett.no
 0.0.0.0 click.vieon.vn
+0.0.0.0 click.virt.exacttarget.com
+0.0.0.0 click.virt.s4.exacttarget.com
+0.0.0.0 click.virt.s6.exacttarget.com
+0.0.0.0 click.virt.s7.exacttarget.com
 0.0.0.0 click.wct.link
 0.0.0.0 click2comm.g2afse.com
 0.0.0.0 click2commission.g2afse.com
@@ -29418,6 +29424,7 @@
 0.0.0.0 cvudqzoa.xyz
 0.0.0.0 cw-rtb.adsrvr.org
 0.0.0.0 cw.addthis.com
+0.0.0.0 cw28.mta.exacttarget.com
 0.0.0.0 cwb-v4.pops.fastly-insights.com
 0.0.0.0 cwchmb.com
 0.0.0.0 cwgucvm.icu
@@ -40075,6 +40082,9 @@
 0.0.0.0 gr.hdream.cfd
 0.0.0.0 gr.info.lgsmartad.com
 0.0.0.0 gr.linkwi.se
+0.0.0.0 gr73.mta.exacttarget.com
+0.0.0.0 gr74.mta.exacttarget.com
+0.0.0.0 gr75.mta.exacttarget.com
 0.0.0.0 grabhastened.com
 0.0.0.0 grabifyicu.com
 0.0.0.0 grabitmedia.us-east-1.stinger-ad.bidr.io
@@ -43165,6 +43175,7 @@
 0.0.0.0 image.eu.jwamnd.com
 0.0.0.0 image.eu.ptmnd.com
 0.0.0.0 image.eum-appdynamics.com
+0.0.0.0 image.s7.exacttarget.com
 0.0.0.0 image.sitebro.com
 0.0.0.0 image.static.adflex.vn
 0.0.0.0 image.xn--w9q675dm1p7em.net
@@ -43681,7 +43692,10 @@
 0.0.0.0 inbornsodcharms.com
 0.0.0.0 inbound-analytics.pixlee.co
 0.0.0.0 inbound-analytics.pixlee.com
+0.0.0.0 inbound-reply.s1.exacttarget.com
 0.0.0.0 inbound-step.heavenmedia.com
+0.0.0.0 inbound.s1.exacttarget.com
+0.0.0.0 inbox.exacttarget.com
 0.0.0.0 inboxlab-d.openx.net
 0.0.0.0 inbrowserplay.com
 0.0.0.0 inbudewr.com
@@ -50199,6 +50213,12 @@
 0.0.0.0 mc.admetrica.ru
 0.0.0.0 mc.algovid.com
 0.0.0.0 mc.atm.youku.com
+0.0.0.0 mc.exacttarget.com
+0.0.0.0 mc.login.exacttarget.com
+0.0.0.0 mc.s10.exacttarget.com
+0.0.0.0 mc.s4.exacttarget.com
+0.0.0.0 mc.s6.exacttarget.com
+0.0.0.0 mc.s7.exacttarget.com
 0.0.0.0 mc.speakol.com
 0.0.0.0 mc.webvisor.org
 0.0.0.0 mc.yandex.com
@@ -52000,6 +52020,7 @@
 0.0.0.0 mta.a-i-ad.com
 0.0.0.0 mta.ad-seek.jp
 0.0.0.0 mta.e.trafficjunky.com
+0.0.0.0 mta.exacttarget.com
 0.0.0.0 mta.nakanohito.jp
 0.0.0.0 mtab.clickmon.co.kr
 0.0.0.0 mtag.mman.kr
@@ -57581,6 +57602,7 @@
 0.0.0.0 pixel.glimr.io
 0.0.0.0 pixel.homebook.pl
 0.0.0.0 pixel.honestjohn.co.uk
+0.0.0.0 pixel.inbox.exacttarget.com
 0.0.0.0 pixel.industrybrains.com
 0.0.0.0 pixel.ingest.at.atwola.com
 0.0.0.0 pixel.innocom.vn
@@ -77587,6 +77609,8 @@
 0.0.0.0 pub.network
 0.0.0.0 pub.pgssl.com
 0.0.0.0 pub.qwerty24.net
+0.0.0.0 pub.s1.exacttarget.com
+0.0.0.0 pub.s6.exacttarget.com
 0.0.0.0 pub.servidoresge.com
 0.0.0.0 pub.sheknows.com
 0.0.0.0 pub.sitetag.us
@@ -80653,6 +80677,7 @@
 0.0.0.0 router.infolinks.com
 0.0.0.0 router.tracking.miui.com
 0.0.0.0 routinecloudycrocodile.com
+0.0.0.0 routowoashie.xyz
 0.0.0.0 rouvoute.net
 0.0.0.0 rouwhapt.com
 0.0.0.0 roveconcepts.evergage.com
@@ -81811,6 +81836,7 @@
 0.0.0.0 s1.api.apptap.com
 0.0.0.0 s1.artsai.com
 0.0.0.0 s1.aspservice.jp
+0.0.0.0 s1.exacttarget.com
 0.0.0.0 s1.givemelink.cc
 0.0.0.0 s1.intimshop.ru
 0.0.0.0 s1.listrakbi.com
@@ -95477,6 +95503,8 @@
 0.0.0.0 view.bounceexchange.com
 0.0.0.0 view.dsp.reemo-ad.jp
 0.0.0.0 view.navdmp.com
+0.0.0.0 view.s6.exacttarget.com
+0.0.0.0 view.s7.exacttarget.com
 0.0.0.0 viewability-events-p2e.sitescout.com
 0.0.0.0 viewability-events-p2w.sitescout.com
 0.0.0.0 viewability-events-z1n.sitescout.com
@@ -99140,6 +99168,7 @@
 0.0.0.0 www.evisitanalyst.com
 0.0.0.0 www.evivuwhoa.com
 0.0.0.0 www.evzhzppj5kel.com
+0.0.0.0 www.exacttarget.com
 0.0.0.0 www.exaggeratestamppost.com
 0.0.0.0 www.examinationevolutionmingle.com
 0.0.0.0 www.examplesusagefeedback.com
