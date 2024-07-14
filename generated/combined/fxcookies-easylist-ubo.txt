@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-07-13T00:52:03Z
+! Last modified: 2024-07-14T00:56:21Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 12 Jul 2024 19:34:27 +0000
+! Last modified: Sat, 13 Jul 2024 16:27:14 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17674,7 +17674,6 @@
 ##div[data-selector="container@cookiebar"]
 ##div[data-selen-group="cookies-bar"]
 ##div[data-selenium="CookieBanner"]
-##div[data-storage-item^="t886cookiename_"]
 ##div[data-test-sell-cookie-banner]
 ##div[data-test="cookie-policy-banner"]
 ##div[data-testid="cookie-disclaimer"]
@@ -18554,6 +18553,7 @@
 ||opencmp.net^$script,third-party
 !--------------------------Specific blocking filters--------------------------!
 ! *** easylist:easylist_cookie/easylist_cookie_specific_block.txt ***
+/ccpa_iframe?$domain=dropbox.com
 /ppp/js/permission-client$domain=hilfe.mein.meinaccount.gmx.net
 /wp-content/blog-plugins/wordads-classes/js/notice.bundle.js$script
 ||7plus.com.au/js/CookieNotice
@@ -18747,6 +18747,7 @@ digit-photo.com###TwGi0pOnXb-page
 warnerbros.com###WB-floating-notice
 worldwildlife.org###WWFCookiePrivacyNotice
 postojnska-jama.eu###\5f iCD
+mrcutout.com###__MRCUTOUT_ANALYTICS_AGREEMENT
 gillian-guide.github.io,globox1997.github.io###__consent
 coloradocollege.edu###_pc
 tuya.com###_th-trust
@@ -23053,6 +23054,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 column.com##+js(set-local-storage-item, cookieAllowed, false)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
+klimwinkel.nl##+js(set-local-storage-item, app_gdpr_consent, 1)
 markimicrowave.com##+js(set-local-storage-item, alreadyAcceptCookie, true)
 aerolineas.com.ar##+js(set-local-storage-item, isCookiesAccepted, true)
 fold.dev##+js(set-local-storage-item,cookies, no)
@@ -26588,6 +26590,7 @@ menzis.nl##.cookiewall
 omroepflevoland.nl##.cookiewall-banner-container
 drost.nl,eindesamenwonen.nl##.cookiewall-modal
 hollandgold.nl##.coookies
+idfa.nl##.css-krtj5s
 vakantieveilingen.be,vakantieveilingen.nl##.css-uuqc7b
 coppelaer.nl##.ct-modal
 iservoetbalvanavond.nl##.cuJDex
@@ -27923,6 +27926,7 @@ ctc.ru##[class^="AcceptCookie_"]
 connectgas.ru##[class^="cookieAgreement"]
 4game.com##[class^="fcw-wrap-"]
 sberindex.ru##[class^="styles_Layout__cookiePanel_"]
+detmir.ru##[data-testid="cookieNotificationText"]
 sdamgia.ru##[style^="text-align: left; position: fixed;"]
 fastvps.ru##app-cookies-accept
 rabota.sber.ru##div[class*="styled__CookieWrapper-"]
@@ -27931,6 +27935,7 @@ novayagazeta.eu##div[class^="CookiesInformer_"]
 stoloto.ru##div[class^="Provider_container"]
 aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
 asna.ru##div[class^="modalCookies_"]
+russianfield.com##div[data-storage-item^="t886cookiename_"]
 knmoloko.ru##div[data-storage-item^="t887cookiename_"]
 litres.ru##div[data-test-id="cookieAcceptPopup"]
 7dach.ru##div[style^="background-color:#fff3cd; color: #856404;"]
@@ -29394,7 +29399,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Fri, 12 Jul 2024 17:04:04 +0000
+! Last modified: Sat, 13 Jul 2024 04:04:01 +0000
 ! Expires: 7 days
 ! Description: |
 !   Filters optimized for uBlock Origin, to be used with EasyList's
@@ -29475,6 +29480,7 @@ theguardian.com##[title="SP Consent Message"]
 lefigaro.fr##+js(trusted-set-cookie, fig_save_consent, iTTPgpSWqAGGcd3vV88zNDbHsABxE1hB, 1year)
 ! https://www.filmweb.pl/video/Zwiastun/Indiana+Jones+i+artefakt+przeznaczenia+Zwiastun+nr+2+polskie+napisy-64884
 ! https://github.com/uBlockOrigin/uAssets/issues/18865 - Terms of service
+! https://github.com/uBlockOrigin/uAssets/issues/24460
 ! https://www.thetrainline.com/
 thetrainline.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0008%3A0, 1year)
 ! https://console.scaleway.com/login
