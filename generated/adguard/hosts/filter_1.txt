@@ -19577,6 +19577,7 @@
 0.0.0.0 ahoravideo-schnellvpn.com
 0.0.0.0 ahoravideo-schnellvpn.xyz
 0.0.0.0 ahoxirsy.com
+0.0.0.0 ahoy-internal-ads-hv.b-cdn.net
 0.0.0.0 ahs.demdex.net
 0.0.0.0 ahscdn.com
 0.0.0.0 ahtate.ru
@@ -21521,7 +21522,6 @@
 0.0.0.0 api.idio.co
 0.0.0.0 api.impactradius.com
 0.0.0.0 api.inspectlet.com
-0.0.0.0 api.instabug.com
 0.0.0.0 api.intensifier.de
 0.0.0.0 api.intentiq.com
 0.0.0.0 api.interia.nsaudience.pl
@@ -21641,7 +21641,6 @@
 0.0.0.0 api.sabavision.com
 0.0.0.0 api.samuraiclick.com
 0.0.0.0 api.sanjagh.com
-0.0.0.0 api.sardine.ai
 0.0.0.0 api.sdk.zadn.vn
 0.0.0.0 api.sec.miui.com
 0.0.0.0 api.securedvisit.com
@@ -23973,6 +23972,7 @@
 0.0.0.0 baghoorg.xyz
 0.0.0.0 bagiijdjejjcficbaag.world
 0.0.0.0 bagjuxtapose.com
+0.0.0.0 baglanbize.net
 0.0.0.0 baglaubs.com
 0.0.0.0 bagly.co.il
 0.0.0.0 baidu-bidout-d.openx.net
@@ -38490,7 +38490,6 @@
 0.0.0.0 ev.api.bdg.com
 0.0.0.0 ev.fout.jp
 0.0.0.0 ev.ib-ibi.com
-0.0.0.0 ev.indianexpress.com
 0.0.0.0 ev.kck.st
 0.0.0.0 ev.moneymade.io
 0.0.0.0 ev.stellarlabs.ai
