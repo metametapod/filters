@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-07-22T00:54:14Z
+! Last modified: 2024-07-23T00:52:37Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 21 Jul 2024 14:56:41 +0000
+! Last modified: Mon, 22 Jul 2024 13:11:43 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -7858,7 +7858,6 @@
 ###panCookieContainer
 ###panCookieRequest
 ###pan_cookies
-###pandectes-banner
 ###panel-cookie
 ###panel-cookie-usage
 ###panel-cookies
@@ -24906,6 +24905,9 @@ theblueschronicles.com,vivamanchester.co.uk,icould.com###cookie-blackout-curtain
 schvarz.com,hairtalk.se,peopleofshibuya.com##.cc-window-wrapper
 schvarz.com,hairtalk.se,peopleofshibuya.com###pandectes-banner
 schvarz.com,hairtalk.se,peopleofshibuya.com##body,html:style(overflow: auto !important; position: initial !important;)
+! sanctum.shop
+sanctum.shop###pandectes-banner
+sanctum.shop##body,html:style(overflow: auto !important; position: initial !important;)
 ! tk.mime.lv
 cesukoncertzale.lv,tk.mime.lv###mimeConsentCookieModal
 cesukoncertzale.lv,tk.mime.lv##body,html:style(overflow: auto !important; position: initial !important;)
@@ -26901,6 +26903,7 @@ thecurrent.is##.px-40
 government.is,heilsugaeslan.is,kki.is,stjornarradid.is##.session-text
 torshavn.fo##.sucd-banner
 ! ---------- Indian ----------
+gujaratsamachar.com##.CookiesModel
 sbilife.co.in##.header-text-contener
 dinamalar.com##.quickslide
 jiosaavn.com##.site-message-container
@@ -29164,7 +29167,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cmp.inmobi.com/GVL-v3/$domain=adnkronos.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
 @@||cmp.inmobi.com/tcfv2/$domain=adnkronos.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
 @@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
-@@||cmp.osano.com^$script,domain=everand.com|lucidchart.com|meeting.guidepoint.com|scribd.com
+@@||cmp.osano.com^$script,domain=account.bhvr.com|everand.com|lucidchart.com|meeting.guidepoint.com|scribd.com
 @@||computerbase.de^*/consent/$script,xmlhttprequest
 @@||computerbase.de^*/scripttemplates/$script,xmlhttprequest
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
@@ -29429,7 +29432,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sun, 21 Jul 2024 12:52:01 +0000
+! Last modified: Mon, 22 Jul 2024 21:07:26 +0000
 ! Expires: 7 days
 ! Description: |
 !   Filters optimized for uBlock Origin, to be used with EasyList's
@@ -29506,7 +29509,9 @@ independent.co.uk##html.sp-message-open:style(width: initial !important)
 ! https://www.theguardian.com/sport/video/2023/jun/25/carlos-alcaraz-beats-alex-de-minaur-to-win-first-grass-court-trophy-at-queens-video
 sourcepoint.theguardian.com##+js(trusted-click-element, .sp_choice_type_12[title="Manage or reject cookies"])
 sourcepoint.theguardian.com##+js(trusted-click-element, [title="Reject all"], , 500)
+theguardian.com##+js(trusted-set-cookie, consentUUID, 5ffc4740-d276-4a4b-8ed0-4b68feeed1ba_34, , , domain, theguardian.com)
 theguardian.com##[title="SP Consent Message"]
+www.theguardian.com##+js(trusted-set-local-storage-item, gu.prefs.engagementBannerLastClosedAt, {"value": "$currentISODate$"})
 ! https://video.lefigaro.fr/figaro/video/les-gestes-damour-prennent-plusieurs-formes-dans-une-video-humoristique-lukraine-demande-plus-de-caesar-a-la-france/
 lefigaro.fr##+js(trusted-set-cookie, fig_save_consent, iTTPgpSWqAGGcd3vV88zNDbHsABxE1hB, 1year)
 ! https://www.filmweb.pl/video/Zwiastun/Indiana+Jones+i+artefakt+przeznaczenia+Zwiastun+nr+2+polskie+napisy-64884
@@ -30681,19 +30686,19 @@ anghami.com##.cookie-container
 ! accept
 derstandard.at,derstandard.de##+js(trusted-set-cookie, consentUUID, 191c03c5-1154-4937-aa26-ced186f90097_30_33, , , reload, 1)
 zeit.de##+js(trusted-set-cookie, consentUUID, a05bb3f1-519f-44da-92f3-6a10e3f75e53_32)
-chip.de##+js(trusted-set-cookie, consentUUID, 8c7e01cc-3108-4650-a225-681acde1db99_32_33)
+chip.de##+js(trusted-set-cookie, consentUUID, 8c7e01cc-3108-4650-a225-681acde1db99_32_33_34)
 faz.net##+js(trusted-set-cookie, consentUUID, 798788d9-0aa9-4d39-b8f0-edb272b7ca39_32)
 heise.de##+js(trusted-set-cookie, consentUUID, cc3fda07-066e-4c67-a9eb-72d5dce1a921_32_33)
 welt.de##+js(trusted-set-cookie, consentUUID, 6c38740a-9fcf-4ac4-8841-f3cee0293e84_34)
-spiegel.de##+js(trusted-set-cookie, consentUUID, 4de1a7f3-4c2d-4f4e-9d18-b809b5d73ddb_33)
+spiegel.de##+js(trusted-set-cookie, consentUUID, 4de1a7f3-4c2d-4f4e-9d18-b809b5d73ddb_33_34)
 t3n.de##+js(trusted-set-cookie, consentUUID, 9a37eb15-cd55-4e72-9073-e7c42c5998fd_32)
-t-online.de##+js(trusted-set-cookie, consentUUID, e4ca3d8d-75f7-4b97-a468-25fc5e9dc1fd_32_33)
-autobild.de##+js(trusted-set-cookie, consentUUID, dfc6bb88-a979-4c3c-8c8a-01ae94bcca36_32)
+t-online.de##+js(trusted-set-cookie, consentUUID, e4ca3d8d-75f7-4b97-a468-25fc5e9dc1fd_32_33_34)
+autobild.de##+js(trusted-set-cookie, consentUUID, dfc6bb88-a979-4c3c-8c8a-01ae94bcca36_32_34)
 bild.de##+js(trusted-set-cookie, consentUUID, e4fe2f39-dea0-4d85-b59e-943f634018b9_32_33)
 computerbild.de##+js(trusted-set-cookie, consentUUID, fc189801-d558-4c56-937e-6711599acde2_32)
 stern.de##+js(trusted-set-cookie, consentUUID, f2196ea7-1afa-4986-87e4-2a28d05bd56b_32_33)
-pcwelt.de##+js(trusted-set-cookie, consentUUID, 478090ac-09a6-451f-a2c3-20789ac47314_32_33)
-focus.de##+js(trusted-set-cookie, consentUUID, c0edd7ff-dd9a-462e-af9d-7cbebe196657_32_33)
+pcwelt.de##+js(trusted-set-cookie, consentUUID, 478090ac-09a6-451f-a2c3-20789ac47314_32_33_34)
+focus.de##+js(trusted-set-cookie, consentUUID, c0edd7ff-dd9a-462e-af9d-7cbebe196657_32_33_34)
 geo.de##+js(trusted-set-cookie, consentUUID, 3a29f3e5-95ec-438e-b5ec-24c3f7daf220_32_33)
 familie.de##+js(trusted-set-cookie, consentUUID, a673c12a-841c-4ef9-9019-1cecb12d7cdd_32)
 sport1.de##+js(trusted-set-cookie, consentUUID, 5d7fa3c6-e0a9-4497-bad8-79ab003de47d_32)
