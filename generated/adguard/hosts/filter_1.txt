@@ -1692,6 +1692,7 @@
 0.0.0.0 12295382.fls.doubleclick.net
 0.0.0.0 12297711.fls.doubleclick.net
 0.0.0.0 123-movies.bz
+0.0.0.0 123-stream.org
 0.0.0.0 123-ubz-770.mktoresp.com
 0.0.0.0 123.dorimnews.com
 0.0.0.0 123.reminews.com
@@ -20527,6 +20528,7 @@
 0.0.0.0 analytics-tcp.mtgglobals.com
 0.0.0.0 analytics-tracker.thescore.com
 0.0.0.0 analytics-tracking.meetup.com
+0.0.0.0 analytics-v2.wetransfer.com
 0.0.0.0 analytics-wcms.joins.net
 0.0.0.0 analytics.126.net
 0.0.0.0 analytics.300624.com
@@ -34755,6 +34757,7 @@
 0.0.0.0 design.sharethrough.com
 0.0.0.0 designatejay.com
 0.0.0.0 designerdeclinedfrail.com
+0.0.0.0 designernoise.com
 0.0.0.0 designeropened.com
 0.0.0.0 designingbadlyhinder.com
 0.0.0.0 designingpupilintermediary.com
@@ -43046,6 +43049,7 @@
 0.0.0.0 gosrv.pixfuture.com
 0.0.0.0 gossipcase.com
 0.0.0.0 gossipfinestanalogy.com
+0.0.0.0 gossipinvest.com
 0.0.0.0 gossipprotectioncredentials.com
 0.0.0.0 gossipsize.com
 0.0.0.0 gossipylard.com
