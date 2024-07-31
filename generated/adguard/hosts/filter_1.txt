@@ -21636,6 +21636,7 @@
 0.0.0.0 api.ravelin.net
 0.0.0.0 api.realtimely.io
 0.0.0.0 api.realytics.io
+0.0.0.0 api.receptivity.io
 0.0.0.0 api.relaido.jp
 0.0.0.0 api.relap.io
 0.0.0.0 api.reproio.com
@@ -34222,6 +34223,7 @@
 0.0.0.0 dc.bizographics.com
 0.0.0.0 dc.cux.io
 0.0.0.0 dc.kontera.com
+0.0.0.0 dc.letv.com
 0.0.0.0 dc.oracleinfinity.io
 0.0.0.0 dc.xoalt.com
 0.0.0.0 dc.yieldify.com
@@ -92392,6 +92394,7 @@
 0.0.0.0 telemetry.sdk.inmobi.com
 0.0.0.0 telemetry.smartframe.io
 0.0.0.0 telemetry.soundcloud.com
+0.0.0.0 telemetry.stytch.com
 0.0.0.0 telemetry.swe.quicinc.com
 0.0.0.0 telemetry.tableausoftware.com
 0.0.0.0 telemetry.tradingview.com
