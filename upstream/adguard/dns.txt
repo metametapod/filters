@@ -1,9 +1,9 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.8.3
+! Version: 1.0.8.27
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-07-31T00:18:10.854Z
+! Last modified: 2024-08-01T00:24:36.480Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.26
 !
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-07-31T00:02:36.001Z
+! Last modified: 2024-08-01T00:03:31.705Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -35,6 +35,8 @@
 !
 !
 !
+||kaxjtkvgo.com^
+||whouvoart.com^
 ||hksnu.com^
 ||cndynza.click^
 ||thauckeesse.net^
@@ -3109,6 +3111,7 @@ vkcdnservice.appspot.com^
 ||acquaintplentifulemotions.com^
 ||acquirethem.com^
 ||acquisitionsneezeswell.com^
+||acrelicenseblown.com^
 ||acrepantherrecite.com^
 ||acrevenene.com^
 ||acridtaxiworking.com^
@@ -5269,6 +5272,7 @@ vkcdnservice.appspot.com^
 ||atgenesecton.com^
 ||atgthkqt.com^
 ||athbzeobts.com^
+||atheegrun.net^
 ||atheismperplex.com^
 ||atherthishinhe.com^
 ||athitmontopon.com^
@@ -9632,6 +9636,7 @@ vkcdnservice.appspot.com^
 ||corenotabilityhire.com^
 ||coreportions.com^
 ||coresepyllia.com^
+||corgouzaptax.com^
 ||corialthanes.life^
 ||corixaraphide.top^
 ||corneey.com^
@@ -10343,6 +10348,7 @@ vkcdnservice.appspot.com^
 ||damnightmareleery.com^
 ||damozelmikvahs.com^
 ||dampapproach.com^
+||dampedvisored.com^
 ||dampwarabi.com^
 ||dana123.com^
 ||danaineirrupt.top^
@@ -21675,6 +21681,7 @@ vkcdnservice.appspot.com^
 ||lqmvvsgusod.com^
 ||lqpmulou.com^
 ||lqsbqjuld.com^
+||lqtiwevsan.com^
 ||lqwswjwpmaih.com^
 ||lqxuwqhh.com^
 ||lr-in.com^
@@ -22021,6 +22028,7 @@ vkcdnservice.appspot.com^
 ||maintainedencircle.com^
 ||maintenancewinning.com^
 ||maioux.xyz^
+||maipheeg.com^
 ||maipofok.net^
 ||maiptica.com^
 ||mairbeets.com^
@@ -22609,6 +22617,7 @@ vkcdnservice.appspot.com^
 ||mewgzllnsp.com^
 ||mewlstomolo.top^
 ||mexicantransmission.com^
+||mexoacmaidu.com^
 ||meyopuae.com^
 ||meyximegrgypnv.com^
 ||mf233y3dg6n.shop^
@@ -22899,6 +22908,7 @@ vkcdnservice.appspot.com^
 ||mljcfymfve.com^
 ||mlkpbktmqrsry.com^
 ||mllatydz.com^
+||mllqfiucttnuzn.com^
 ||mlnadvertising.com^
 ||mlnsetyxcut.com^
 ||mlnybwnbwzhiy.com^
@@ -24439,6 +24449,7 @@ vkcdnservice.appspot.com^
 ||noveltyensue.com^
 ||novemberadventures.com^
 ||novemberadventures.name^
+||novemberassimilate.com^
 ||novemberseatsuccession.com^
 ||novembersightsoverhear.com^
 ||novemberslantwilfrid.com^
@@ -24507,6 +24518,7 @@ vkcdnservice.appspot.com^
 ||nrs6ffl9w.com^
 ||nrunmoldy.com^
 ||nrvbadypy.com^
+||nrxdmssm.com^
 ||nryanocytqc.com^
 ||nrztjbpish.com^
 ||ns003.com^
@@ -31208,6 +31220,7 @@ vkcdnservice.appspot.com^
 ||scornfulabsorbploy.com^
 ||scornphiladelphiacarla.com^
 ||scotianosed290noelind.com^
+||scotizeoperae.com^
 ||scotsmaut.top^
 ||scousepneuma.com^
 ||scowmantubba.cfd^
@@ -32494,6 +32507,7 @@ vkcdnservice.appspot.com^
 ||solocpm.com^
 ||solodar.ru^
 ||soloisthaulchoir.com^
+||solrtrqaitnjy.com^
 ||soltaixa.com^
 ||solvusserosal.com^
 ||sombes.com^
@@ -34331,6 +34345,7 @@ vkcdnservice.appspot.com^
 ||thaucmozsurvey.space^
 ||thaudray.com^
 ||thauftoa.net^
+||thauhoux.com^
 ||thaujauk.net^
 ||thaust.com^
 ||thautselr.com^
@@ -34363,6 +34378,7 @@ vkcdnservice.appspot.com^
 ||theeksen.com^
 ||theelrou.net^
 ||theenfu.com^
+||theeptoah.com^
 ||theetholri.xyz^
 ||theextensionexpert.com^
 ||thefacux.com^
@@ -35346,6 +35362,7 @@ vkcdnservice.appspot.com^
 ||trmit.com^
 ||trmnsite.com^
 ||trmobc.com^
+||trodspivery.com^
 ||troduc.com^
 ||trokemar.com^
 ||trolleydemocratic.com^
@@ -35879,6 +35896,7 @@ vkcdnservice.appspot.com^
 ||ulexiteoutspit.com^
 ||ulfqakqfng.xyz^
 ||ulftutvlodv.com^
+||ullucupuces.click^
 ||ulmmmvjfbbmk.com^
 ||ulmoyc.com^
 ||ulmujev.com^
@@ -38097,6 +38115,7 @@ vkcdnservice.appspot.com^
 ||willingnessaggravationfits.com^
 ||willingnesslookheap.com^
 ||willtissuetank.com^
+||wilrimowpaml.com^
 ||wilslide.com^
 ||wimpeelt.com^
 ||wimplesbooklet.com^
@@ -38959,6 +38978,7 @@ vkcdnservice.appspot.com^
 ||xuircnbbidmu.com^
 ||xujhdtynpgctncq.com^
 ||xukevxdf.com^
+||xukpqemfs.com^
 ||xukpresesmr.info^
 ||xuosvih.com^
 ||xuqarnasvru.com^
@@ -41423,6 +41443,7 @@ vkcdnservice.appspot.com^
 ||d8b0a5.xyz^
 ||d980ed.xyz^
 ||da28c69e.xyz^
+||dcad1d97.xyz^
 ||dd2270.xyz^
 ||de214f.xyz^
 ||e076.xyz^
@@ -41583,6 +41604,7 @@ vkcdnservice.appspot.com^
 ||adx-exchange.toast.com^
 ||adx.opera.com^
 ||aff.bstatic.com^
+||affiliate-cdn.raptive.com^
 ||affiliate.heureka.cz^
 ||affiliate.juno.co.uk^
 ||affiliate.mediatemple.net^
@@ -41650,6 +41672,7 @@ vkcdnservice.appspot.com^
 ||hvdt8.chimeratool.com^
 ||inbound-step.heavenmedia.com^
 ||inrdeals.com^
+||jeeng-api-prod.azureedge.net
 ||join.megaphonetv.com^
 ||js.bigcomics.win^
 ||js.manga1001.win^
@@ -43985,6 +44008,9 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||pop.devil.services^
+||pixeltrack.clientgear.com^
+||event.clientgear.com^
 ||api.receptivity.io^
 ||static.target2sell.com^
 ||sumatra.ai^
@@ -45025,7 +45051,6 @@ vkcdnservice.appspot.com^
 ||tag.pprl.io^
 ||collector.mediator.media^
 ||rc.vtex.com.br^
-||telemetric.dk^
 ||browser.events.data.msn.cn^
 ||browser.events.data.msn.com^
 ||lngtd.com^
@@ -47646,6 +47671,7 @@ vkcdnservice.appspot.com^
 !
 ! Rule for detecting hidden trackers when the main domain cannot be blocked.
 ||d1udjti6mtxz9q.cloudfront.net^
+||e.truedata.co^
 !
 ! NOTE: CNAME disguised tracking networks end ⬆️
 ! !SECTION: CNAME disguised tracking networks
@@ -47679,6 +47705,7 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||c1-stats.shopifysvc.com^
 ||telemetry.stytch.com^
 ||stat.le.com^
 ||fe-go.letv.com^
@@ -50378,6 +50405,7 @@ inapps.appsflyersdk.com^
 ||logend.cookpad.com^
 ||viva.api.xiaoying.co^
 ||ub-xjp.vvbrd.com^
+||rtlog*.tiktokv.us^
 ||rtlog*.tiktokv.com^
 ||nelo2-col.linecorp.com^
 ||msga.cupid.iqiyi.com^
@@ -51226,6 +51254,7 @@ inapps.appsflyersdk.com^
 ||play.adtonos.com^
 ||player-metrics.instaread.co^
 ||pm.boostintegrated.com^
+||pmi.flowplayer.com^
 ||popup-static.unisender.com^
 ||porpoise.azettl.net^
 ||pr.blogflux.com^
@@ -51566,6 +51595,7 @@ inapps.appsflyersdk.com^
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2lxqodqbpy7c2.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
+||d2pozfvrp52dk4.cloudfront.net^
 ||d2pt12ct4kmq21.cloudfront.net^
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2t77mnxyo7adj.cloudfront.net^
@@ -51819,6 +51849,7 @@ inapps.appsflyersdk.com^
 ||smartselling.cz^
 ! Danish
 ||digitaladvisor.dk^
+||telemetric.dk^
 ! Dutch
 ||onlinesucces.nl^
 ||synovite-scripts.com^
@@ -55435,6 +55466,7 @@ inapps.appsflyersdk.com^
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||uetlwst.top^
 ||qetlwsy.top^
 ||cengqinglin.cn^
 ||sprewcereous.com^
@@ -56930,6 +56962,7 @@ inapps.appsflyersdk.com^
 ||adplay.it^
 ||affiliation.software^
 ||brznetwork.com^
+||btmarketing.it^
 ||delosnetwork.it^
 ||eadv.it^
 ||epeex.io^
@@ -57322,9 +57355,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 21 Jul 2024 22:12 UTC+7
-! Version: 2407212212
-! Blocked: 911 rules
+! Last modified: 31 Jul 2024 14:24 UTC+7
+! Version: 2407311424
+! Blocked: 912 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -57774,6 +57807,7 @@ inapps.appsflyersdk.com^
 ||adx.xemvtv.net^
 ||adx.xtv.vn^
 ||aff.atp.vn^
+||aff2.linksht.online^
 ||affiliate.chiaki.vn^
 ||ailamtrieuphu.com^
 ||aj2393.online^
@@ -58175,9 +58209,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 21 Jul 2024 22:13 UTC+7
-! Version: 2407212213
-! Blocked: 4,506 rules
+! Last modified: 31 Jul 2024 14:25 UTC+7
+! Version: 2407311425
+! Blocked: 4,507 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -61528,6 +61562,7 @@ inapps.appsflyersdk.com^
 ||tracuugiaodichvi.com^
 ||tracuugplx.vn^
 ||tracuuthenap247.com^
+||tracuutthvt.com^
 ||traderviet88.com^
 ||traffic-c.com^
 ||trang-chu-vn.com^
@@ -62586,10 +62621,17 @@ inapps.appsflyersdk.com^
 ||121.204.246.*.gif
 ||38.33.15.*.gif
 ||67.21.92.*.gif
+||script302.top^
+||vecggfp.icu^
 ||sgwsss.xyz^
 ||uqcktxp.icu^
 ||vhzivz.xyz^
 ||fabu333.top^
+||doujs03.shop^
+||tetlwsi.top^
+||swerilxb.top^
+||shbznkj.cn^
+||shbzkkj.cn^
 ||balili2024.top^
 ||w0079.com^
 ||w0082.com^
