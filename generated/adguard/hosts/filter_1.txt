@@ -20495,6 +20495,7 @@
 0.0.0.0 analytics-endpoint.publir.com
 0.0.0.0 analytics-eu.clickdimensions.com
 0.0.0.0 analytics-events.inshorts.com
+0.0.0.0 analytics-fe.digital-cloud.medallia.eu
 0.0.0.0 analytics-gateway.delta.dp.lightricks.com
 0.0.0.0 analytics-gb-nfl.yinzcam.com
 0.0.0.0 analytics-h5.mintegral.net
@@ -20843,6 +20844,7 @@
 0.0.0.0 analytics.redbubble.com
 0.0.0.0 analytics.regex101.com
 0.0.0.0 analytics.residencemagazine.se
+0.0.0.0 analytics.rev.iq
 0.0.0.0 analytics.rever.vn
 0.0.0.0 analytics.reyrey.net
 0.0.0.0 analytics.rlcdn.com
