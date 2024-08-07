@@ -16241,6 +16241,7 @@
 0.0.0.0 absorbedscholarsvolatile.com
 0.0.0.0 absorbingprison.com
 0.0.0.0 absorbingwiden.com
+0.0.0.0 absorbmele.shop
 0.0.0.0 absorptionpersonalforesee.com
 0.0.0.0 absorptionsuspended.com
 0.0.0.0 absurdunite.com
@@ -19261,7 +19262,6 @@
 0.0.0.0 aelgdju.com
 0.0.0.0 aem-collector.daumkakao.io
 0.0.0.0 aem-kakao-collector.onkakao.net
-0.0.0.0 aeo-api.us.exponea.com
 0.0.0.0 aeonmedia.matomo.cloud
 0.0.0.0 aep.mxptint.net
 0.0.0.0 aerialsargle.top
@@ -20416,7 +20416,6 @@
 0.0.0.0 amusementstepfatherpretence.com
 0.0.0.0 amv.blueconic.net
 0.0.0.0 amv01.webtrekk.net
-0.0.0.0 amway-api.exponea.com
 0.0.0.0 amyfixesfelicity.com
 0.0.0.0 an-mq.intrack.ir
 0.0.0.0 an.adingo.jp
@@ -21305,19 +21304,13 @@
 0.0.0.0 api-analytics.rozetka.com.ua
 0.0.0.0 api-apac.bidmachine.io
 0.0.0.0 api-app.ants.vn
-0.0.0.0 api-bho-boohooman.exponea.com
-0.0.0.0 api-bho-debenhams-co-uk.exponea.com
-0.0.0.0 api-bho-nastygal.exponea.com
-0.0.0.0 api-bho.exponea.com
 0.0.0.0 api-borg.igaming-warp-service.io
 0.0.0.0 api-cbc-v3.conductrics.com
 0.0.0.0 api-cdn.gosquared.com
-0.0.0.0 api-cis.exponea.com
 0.0.0.0 api-devapp.getui.com
 0.0.0.0 api-dooh.samsungads.com
 0.0.0.0 api-eu.bidmachine.io
 0.0.0.0 api-ext.mediav.com
-0.0.0.0 api-fbs.us.exponea.com
 0.0.0.0 api-gateway-prod.53.localytics.com
 0.0.0.0 api-gi.getui.com
 0.0.0.0 api-gps-em.hismarttv.com
@@ -21329,9 +21322,6 @@
 0.0.0.0 api-launcher-na.hismarttv.com
 0.0.0.0 api-ldp.novaonx.com
 0.0.0.0 api-logdev.sohatv.vn
-0.0.0.0 api-nxt-next.uk.exponea.com
-0.0.0.0 api-nxt-nextdirect.uk.exponea.com
-0.0.0.0 api-nxt-reiss.uk.exponea.com
 0.0.0.0 api-os.growingio.com
 0.0.0.0 api-player.urekamedia.com
 0.0.0.0 api-preview.luckyorange.com
@@ -21455,7 +21445,6 @@
 0.0.0.0 api.c.avazunativeads.com
 0.0.0.0 api.caroda.io
 0.0.0.0 api.cazamba.com
-0.0.0.0 api.ceva.exponea.com
 0.0.0.0 api.chartbeat.com
 0.0.0.0 api.cityads.com
 0.0.0.0 api.clarity.abacast.com
@@ -21495,10 +21484,8 @@
 0.0.0.0 api.eu.adopexchange.com
 0.0.0.0 api.eu.amplitude.com
 0.0.0.0 api.eu.dev2pub.com
-0.0.0.0 api.eu1.exponea.com
 0.0.0.0 api.eum-appdynamics.com
 0.0.0.0 api.exc.mob.com
-0.0.0.0 api.exponea.com
 0.0.0.0 api.ezadsystem.com
 0.0.0.0 api.ezca.asia
 0.0.0.0 api.fandommetrics.com
@@ -21513,6 +21500,7 @@
 0.0.0.0 api.forter.com
 0.0.0.0 api.fouanalytics.com
 0.0.0.0 api.fout.jp
+0.0.0.0 api.fpadserver.com
 0.0.0.0 api.freewebfonts.org
 0.0.0.0 api.fyber.com
 0.0.0.0 api.gameads.io
@@ -21581,7 +21569,6 @@
 0.0.0.0 api.mf.webcontentassessor.com
 0.0.0.0 api.mgid.com
 0.0.0.0 api.midas-network.com
-0.0.0.0 api.mie.exponea.com
 0.0.0.0 api.miui.security.xiaomi.com
 0.0.0.0 api.mobio.vn
 0.0.0.0 api.mobpowertech.com
@@ -21597,7 +21584,6 @@
 0.0.0.0 api.native.ai
 0.0.0.0 api.naturaltracking.com
 0.0.0.0 api.nend.net
-0.0.0.0 api.network.exponea.com
 0.0.0.0 api.news-headlines.co
 0.0.0.0 api.newsfeed.intl.miui.com
 0.0.0.0 api.nidan.d2c.ne.jp
@@ -21706,14 +21692,12 @@
 0.0.0.0 api.tsbluebox.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 api.ucheba.ru
-0.0.0.0 api.uk.exponea.com
 0.0.0.0 api.unibots.in
 0.0.0.0 api.unified-segmentation.baxter.olx.org
 0.0.0.0 api.uniqodo.com
 0.0.0.0 api.unthem.com
 0.0.0.0 api.uprivaladserver.net
 0.0.0.0 api.us-east4gcp1.pubnative.net
-0.0.0.0 api.us1.exponea.com
 0.0.0.0 api.usabilla.com
 0.0.0.0 api.usebutton.com
 0.0.0.0 api.valista.io
@@ -22001,7 +21985,6 @@
 0.0.0.0 app.crossengage.io
 0.0.0.0 app.curalate.com
 0.0.0.0 app.exitbee.com
-0.0.0.0 app.exponea.com
 0.0.0.0 app.extrawatch.com
 0.0.0.0 app.freshmarketer.com
 0.0.0.0 app.gammaplatform.com
@@ -25596,6 +25579,7 @@
 0.0.0.0 bog-v4.pops.fastly-insights.com
 0.0.0.0 bogrodius.com
 0.0.0.0 bogtrmjz.xyz
+0.0.0.0 bogus-disk.com
 0.0.0.0 boharaf.com
 0.0.0.0 bohowhepsked.com
 0.0.0.0 boilabsent.com
@@ -25878,6 +25862,7 @@
 0.0.0.0 brandreachsys.com
 0.0.0.0 brandwatch.evergage.com
 0.0.0.0 brandy.bonniernewslifestyle.se
+0.0.0.0 branleranger.com
 0.0.0.0 brantafaking.top
 0.0.0.0 brascomarketing.actonservice.com
 0.0.0.0 brasscurls.com
@@ -27068,7 +27053,6 @@
 0.0.0.0 can-digital-d.openx.net
 0.0.0.0 can-get-some.in
 0.0.0.0 can-get-some.net
-0.0.0.0 can.exponea.com
 0.0.0.0 canada.demdex.net
 0.0.0.0 canadapost.demdex.net
 0.0.0.0 canadianbedevil.com
@@ -27923,7 +27907,6 @@
 0.0.0.0 cdn.enhencer.com
 0.0.0.0 cdn.eproof.com
 0.0.0.0 cdn.ergadx.com
-0.0.0.0 cdn.eu1.exponea.com
 0.0.0.0 cdn.euw1.jivox.com
 0.0.0.0 cdn.evergage.com
 0.0.0.0 cdn.evolutionadv.it
@@ -27933,7 +27916,6 @@
 0.0.0.0 cdn.exitbee.com
 0.0.0.0 cdn.exmarketplace.com
 0.0.0.0 cdn.exoticads.com
-0.0.0.0 cdn.exponea.com
 0.0.0.0 cdn.eyewonder.com
 0.0.0.0 cdn.ezca.asia
 0.0.0.0 cdn.f11-ads.com
@@ -27965,7 +27947,6 @@
 0.0.0.0 cdn.freshmarketer.com
 0.0.0.0 cdn.frestacero.com
 0.0.0.0 cdn.ftd.agency
-0.0.0.0 cdn.ftspecialist.exponea.com
 0.0.0.0 cdn.fuelx.com
 0.0.0.0 cdn.funcats.info
 0.0.0.0 cdn.funnelytics.io
@@ -28167,7 +28148,6 @@
 0.0.0.0 cdn.nearbyad.com
 0.0.0.0 cdn.nelhon.com
 0.0.0.0 cdn.netpoint-media.de
-0.0.0.0 cdn.network.exponea.com
 0.0.0.0 cdn.nhnace.com
 0.0.0.0 cdn.nidan.d2c.ne.jp
 0.0.0.0 cdn.nlkli.com
@@ -28442,7 +28422,6 @@
 0.0.0.0 cdn.ugopkl.com
 0.0.0.0 cdn.ui.adsupply.com
 0.0.0.0 cdn.ui.labs.adsupply.com
-0.0.0.0 cdn.uk.exponea.com
 0.0.0.0 cdn.ulesxbo.com
 0.0.0.0 cdn.umh.ua
 0.0.0.0 cdn.unblockia.com
@@ -28456,7 +28435,6 @@
 0.0.0.0 cdn.uprivaladserver.net
 0.0.0.0 cdn.urlhausa.com
 0.0.0.0 cdn.us.zip.slowundergroundattentive.com
-0.0.0.0 cdn.us1.exponea.com
 0.0.0.0 cdn.usefathom.com
 0.0.0.0 cdn.usefulcontentsites.com
 0.0.0.0 cdn.userleap.com
@@ -28841,7 +28819,6 @@
 0.0.0.0 ceteembathe.com
 0.0.0.0 cetelemportugal2.solution.weborama.fr
 0.0.0.0 cetrk.com
-0.0.0.0 ceva.exponea.com
 0.0.0.0 cexucetum.com
 0.0.0.0 cf-ads.pinger.com
 0.0.0.0 cf-adsrv-static.rtbsuperhub.com
@@ -32379,7 +32356,6 @@
 0.0.0.0 csm.us5.vip.prod.criteo.net
 0.0.0.0 csmads.gameclick.vn
 0.0.0.0 csmfee.xyz
-0.0.0.0 cso-api.exponea.com
 0.0.0.0 csp-collector.appspot.com
 0.0.0.0 csp-report.browser-intake-datadoghq.com
 0.0.0.0 csp-report.browser-intake-us3-datadoghq.com
@@ -32447,7 +32423,6 @@
 0.0.0.0 ctiarbwaxam.com
 0.0.0.0 ctiascaqkn.com
 0.0.0.0 ctiimage.actonservice.com
-0.0.0.0 ctl-api.exponea.com
 0.0.0.0 ctl-talkingdata-com.control.kochava.com
 0.0.0.0 ctl.buyt.in
 0.0.0.0 ctl.mobitrack.co.kr
@@ -35589,7 +35564,6 @@
 0.0.0.0 dn9uzzhcwc0ya.cloudfront.net
 0.0.0.0 dna8twue3dlxq.cloudfront.net
 0.0.0.0 dnavexch.com
-0.0.0.0 dnb-api.us.exponea.com
 0.0.0.0 dne6rbzy5csnc.cloudfront.net
 0.0.0.0 dnf06i4y06g13.cloudfront.net
 0.0.0.0 dnfnpff.xyz
@@ -38409,7 +38383,6 @@
 0.0.0.0 eu1-spiky.wzrkt.com
 0.0.0.0 eu1.clevertap-prod.com
 0.0.0.0 eu1.dyntrk.com
-0.0.0.0 eu1.exponea.com
 0.0.0.0 eu1.gtbdhr.com
 0.0.0.0 eu1.snoobi.com
 0.0.0.0 eu1.wbdds.com
@@ -39175,7 +39148,6 @@
 0.0.0.0 exorigos-d.openx.net
 0.0.0.0 exosrv.com
 0.0.0.0 exoticads.com
-0.0.0.0 exp-riverisland-com.exponea.com
 0.0.0.0 expdirclk.com
 0.0.0.0 expectationtragicpreview.com
 0.0.0.0 expectedballpaul.com
@@ -39218,7 +39190,6 @@
 0.0.0.0 expo.afi-b.com
 0.0.0.0 expo9.exponential.com
 0.0.0.0 expocrack.com
-0.0.0.0 exponea.com
 0.0.0.0 exponential.com
 0.0.0.0 exporder-patuility.com
 0.0.0.0 export.voffka.com
@@ -40023,12 +39994,10 @@
 0.0.0.0 fce2b75e-f11a-48ad-a60f-7e004eb1d340.edge.permutive.app
 0.0.0.0 fce9700cf3f3.cdn4.forter.com
 0.0.0.0 fcepahafyq.com
-0.0.0.0 fcg-api.exponea.com
 0.0.0.0 fcgi4.gnezdo.ru
 0.0.0.0 fcgi5.2xclick.ru
 0.0.0.0 fcgi5.gnezdo.ru
 0.0.0.0 fcgi7.gnezdo.ru
-0.0.0.0 fcib-map-api.can.exponea.com
 0.0.0.0 fclog.baidu.com
 0.0.0.0 fcm.doublemax.net
 0.0.0.0 fcmatch.google.com
@@ -41005,6 +40974,7 @@
 0.0.0.0 fp261.parklogic.com
 0.0.0.0 fp27ee.wac.systemcdn.net
 0.0.0.0 fpad.jp
+0.0.0.0 fpadserver.com
 0.0.0.0 fpc.pushnami.com
 0.0.0.0 fpcommerce01.webtrekk.net
 0.0.0.0 fpd01.webtrekk.net
@@ -41286,7 +41256,6 @@
 0.0.0.0 ftpshop.com.vn
 0.0.0.0 ftrk.crazyegg.com
 0.0.0.0 ftslrfl.com
-0.0.0.0 ftspecialist.exponea.com
 0.0.0.0 fttervlvoj.com
 0.0.0.0 fttjyji.com
 0.0.0.0 fty-v4.pops.fastly-insights.com
@@ -42748,7 +42717,6 @@
 0.0.0.0 gnezdo.ru
 0.0.0.0 gnp.demdex.net
 0.0.0.0 gnsdigital.co.il
-0.0.0.0 gnt-api.exponea.com
 0.0.0.0 gntsrybdc.com
 0.0.0.0 gnv-v4.pops.fastly-insights.com
 0.0.0.0 go-corsair-com.ct.impactradius.com
@@ -42880,6 +42848,7 @@
 0.0.0.0 go1-sc-main-was.adservrs.com
 0.0.0.0 go1-sc-main-was.aniview.com
 0.0.0.0 go1.aniview.com
+0.0.0.0 go1.reacheffecti.work
 0.0.0.0 go2.adversal.com
 0.0.0.0 go2.eabids.com
 0.0.0.0 go2.global
@@ -51147,7 +51116,6 @@
 0.0.0.0 lnabew.com
 0.0.0.0 lnbdbdo.com
 0.0.0.0 lndata.com
-0.0.0.0 lner-api.exponea.com
 0.0.0.0 lngtd.com
 0.0.0.0 lnhamforma.info
 0.0.0.0 lnhdlukiketg.info
@@ -52665,7 +52633,6 @@
 0.0.0.0 malletaskewbrittle.com
 0.0.0.0 malleteighteen.com
 0.0.0.0 malleusvialed.com
-0.0.0.0 mallgroup-api.exponea.com
 0.0.0.0 mallinitially.com
 0.0.0.0 malljazz.com
 0.0.0.0 mallshopvn.vip
@@ -53077,6 +53044,7 @@
 0.0.0.0 maxtraffic.com
 0.0.0.0 maxucc77.top
 0.0.0.0 maxunn55.top
+0.0.0.0 maxvaluead.com
 0.0.0.0 maxymiser.com
 0.0.0.0 maxymiser.net
 0.0.0.0 maya15.site
@@ -53445,6 +53413,7 @@
 0.0.0.0 media.kahoxa.ru
 0.0.0.0 media.livepromotools.com
 0.0.0.0 media.markethealth.com
+0.0.0.0 media.maxvaluead.com
 0.0.0.0 media.msg.dotomi.com
 0.0.0.0 media.myiads.com
 0.0.0.0 media.najva.com
@@ -54035,7 +54004,6 @@
 0.0.0.0 midwifelangurs.com
 0.0.0.0 midwiferider.com
 0.0.0.0 mie-solutions.actonservice.com
-0.0.0.0 mie.exponea.com
 0.0.0.0 mieru-ca.com
 0.0.0.0 mightytshirtsnitch.com
 0.0.0.0 mignished-sility.com
@@ -54269,7 +54237,6 @@
 0.0.0.0 mmchoicehaving.com
 0.0.0.0 mmclmercerconsumerprod.112.2o7.net
 0.0.0.0 mmctsvc.com
-0.0.0.0 mmd-api.uk.exponea.com
 0.0.0.0 mmdmakemydealcom.112.2o7.net
 0.0.0.0 mme.zedcdn.me
 0.0.0.0 mmentorapp.com
@@ -55863,7 +55830,6 @@
 0.0.0.0 nawpush.com
 0.0.0.0 nawpyd.icu
 0.0.0.0 naxadrug.com
-0.0.0.0 nay-api.exponea.com
 0.0.0.0 naybreath.com
 0.0.0.0 nazakxodbz.com
 0.0.0.0 nazs.socdm.com
@@ -55983,7 +55949,6 @@
 0.0.0.0 nend.net
 0.0.0.0 neobasnet.timeout.ru
 0.0.0.0 neodatagroup.com
-0.0.0.0 neoengage-va-api.exponea.com
 0.0.0.0 neofield.click
 0.0.0.0 neon-imp.netinsight.co.kr
 0.0.0.0 neon.netinsight.co.kr
@@ -56075,7 +56040,6 @@
 0.0.0.0 network-monitor-sdk-x3cn-prod.cn-shanghai.log.aliyuncs.com
 0.0.0.0 network-monitor-sdk-x3en-prod.eu-central-1.log.aliyuncs.com
 0.0.0.0 network.adtodate.ir
-0.0.0.0 network.exponea.com
 0.0.0.0 network.hot-mob.com
 0.0.0.0 network.screen13.com
 0.0.0.0 network18-d.openx.net
@@ -56641,7 +56605,6 @@
 0.0.0.0 notifyvisitors.com
 0.0.0.0 notifzone.com
 0.0.0.0 notimoti.com
-0.0.0.0 notino-api.exponea.com
 0.0.0.0 notionfoggy.com
 0.0.0.0 notionsshrivelcustomer.com
 0.0.0.0 notionstayed.com
@@ -56937,7 +56900,6 @@
 0.0.0.0 nxcount.com
 0.0.0.0 nxd.adhaven.com
 0.0.0.0 nxexydg.com
-0.0.0.0 nxi-api.exponea.com
 0.0.0.0 nxikijn.com
 0.0.0.0 nxledn.xyz
 0.0.0.0 nxlfrrqk07.alphonso.tv
@@ -59161,7 +59123,6 @@
 0.0.0.0 pamphletthump.com
 0.0.0.0 pamury.xyz
 0.0.0.0 pamwrymm.live
-0.0.0.0 pan-cdn.exponea.com
 0.0.0.0 panamakeq.info
 0.0.0.0 panasonicglobal.demdex.net
 0.0.0.0 panattain.com
@@ -79326,7 +79287,6 @@
 0.0.0.0 pls03.ximad.com
 0.0.0.0 pls04.ximad.com
 0.0.0.0 plstorage.unibotscdn.com
-0.0.0.0 plt-api.uk.exponea.com
 0.0.0.0 pltamaxr.com
 0.0.0.0 pltapad.com
 0.0.0.0 pluckfigburst.com
@@ -82348,7 +82308,6 @@
 0.0.0.0 rainyfreshen.com
 0.0.0.0 raiseallocation.com
 0.0.0.0 raiserefreshmentgoods.com
-0.0.0.0 raisin-api.exponea.com
 0.0.0.0 raisingsupportive.com
 0.0.0.0 raisinmanagelivestock.com
 0.0.0.0 raivoufe.xyz
@@ -82589,6 +82548,7 @@
 0.0.0.0 rea-ads.aimatch.com
 0.0.0.0 reabitheconti.com
 0.0.0.0 reach-id.orbit.tm-awx.com
+0.0.0.0 reacheffecti.work
 0.0.0.0 reachforce.com
 0.0.0.0 reachmax.cn
 0.0.0.0 reachmode.com
@@ -83556,7 +83516,6 @@
 0.0.0.0 rhythmmassacre.com
 0.0.0.0 rhythmxchange.com
 0.0.0.0 rhzvlcu.xyz
-0.0.0.0 ri-cdn.exponea.com
 0.0.0.0 ri-v3.presage.io
 0.0.0.0 ri.revolvermaps.com
 0.0.0.0 riamiavid.com
@@ -83931,7 +83890,6 @@
 0.0.0.0 royalmobi.g2afse.com
 0.0.0.0 royapp.com
 0.0.0.0 rozamimo9za10.com
-0.0.0.0 rozetka-api.exponea.com
 0.0.0.0 rp.crasheye.cn
 0.0.0.0 rp.gwallet.com
 0.0.0.0 rp.hit.gemius.pl
@@ -85804,7 +85762,6 @@
 0.0.0.0 sdk-sentry.metrix.ir
 0.0.0.0 sdk-services.appsflyer.com
 0.0.0.0 sdk-stat.roulax.io
-0.0.0.0 sdk-tracing.exponea.com
 0.0.0.0 sdk-vn.pushdi.com
 0.0.0.0 sdk-webview.mobilefuse.com
 0.0.0.0 sdk.51.la
@@ -86288,7 +86245,6 @@
 0.0.0.0 sentry.footballiapp.com
 0.0.0.0 sentry.hamravesh.com
 0.0.0.0 sentry.mediacdn.vn
-0.0.0.0 sentry.service.exponea.com
 0.0.0.0 sentry20.api.boomtrain.com
 0.0.0.0 seo-master.net
 0.0.0.0 seo-overview.com
@@ -86452,7 +86408,6 @@
 0.0.0.0 service-api.accesstrade.vn
 0.0.0.0 service.a-i-ad.com
 0.0.0.0 service.e-volution.ai
-0.0.0.0 service.exponea.com
 0.0.0.0 service.fyber.com
 0.0.0.0 service.innovid.com
 0.0.0.0 service.maxymiser.net
@@ -88657,6 +88612,7 @@
 0.0.0.0 srv.freedomadnetwork.com
 0.0.0.0 srv.goadx.com
 0.0.0.0 srv.imonomy.com
+0.0.0.0 srv.maxvaluead.com
 0.0.0.0 srv.nakanohito.jp
 0.0.0.0 srv.nwave.de
 0.0.0.0 srv.stackadapt.com
@@ -94417,6 +94373,7 @@
 0.0.0.0 track.lookerpets.com
 0.0.0.0 track.loopme.me
 0.0.0.0 track.mailerlite.com
+0.0.0.0 track.maxvaluead.com
 0.0.0.0 track.mclick.mobi
 0.0.0.0 track.mediago.io
 0.0.0.0 track.mediav.com
@@ -96426,7 +96383,6 @@
 0.0.0.0 uk.ads.justpremium.com
 0.0.0.0 uk.at.atwola.com
 0.0.0.0 uk.boffinsoft.com
-0.0.0.0 uk.exponea.com
 0.0.0.0 uk.sharpmarketing.eu
 0.0.0.0 uk002.sub2tech.com
 0.0.0.0 uk004.sub2tech.com
@@ -97170,7 +97126,6 @@
 0.0.0.0 us.easelegbike.com
 0.0.0.0 us.evergage.com
 0.0.0.0 us.exelator.com
-0.0.0.0 us.exponea.com
 0.0.0.0 us.freshpops.net
 0.0.0.0 us.frosmo.com
 0.0.0.0 us.hubvisor.io
@@ -97213,7 +97168,6 @@
 0.0.0.0 us1.cb.wzrkt.com
 0.0.0.0 us1.clevertap-prod.com
 0.0.0.0 us1.dyntrk.com
-0.0.0.0 us1.exponea.com
 0.0.0.0 us1.nowinteract.com
 0.0.0.0 us1.siteimprove.com
 0.0.0.0 us1.wzrkt.com
@@ -99410,6 +99364,7 @@
 0.0.0.0 waeshana.com
 0.0.0.0 wafflesquaking.com
 0.0.0.0 wagecolorful.com
+0.0.0.0 wagenerfevers.com
 0.0.0.0 wagerprocuratorantiterrorist.com
 0.0.0.0 wagershare.com
 0.0.0.0 waggonerfoulpillow.com
