@@ -1,9 +1,9 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.9.72
+! Version: 1.0.9.97
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-08-07T00:21:59.025Z
+! Last modified: 2024-08-08T00:21:48.330Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.26
 !
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-08-07T00:03:05.075Z
+! Last modified: 2024-08-08T00:02:53.834Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -35,6 +35,10 @@
 !
 !
 !
+||htudbybel.com^
+||ymtmwjgsjsv.com^
+||ptoupisso.net^
+||xbuycgcae.com^
 ||whefookak.net^
 ||maxvaluead.com^
 ||reacheffecti.work^
@@ -1724,11 +1728,6 @@ serve.bussyhunter.com^
 ||ado.delfi.ee^
 ! https://github.com/uBlockOrigin/uAssets/issues/14204
 ||es.ylilauta.org^
-!---------------------------------------------------------------------
-!------------------------------ Georgian -----------------------------
-!---------------------------------------------------------------------
-! NOTE: Georgian
-!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151672
 ||sab.fast.ge^
 !---------------------------------------------------------------------
@@ -2141,6 +2140,7 @@ vkcdnservice.appspot.com^
 ||2471april2024.com^
 ||2473april2024.com^
 ||2475april2024.com^
+||2477april2024.com^
 ||2479april2024.com^
 ||247dbf848b.com^
 ||2481april2024.com^
@@ -5316,6 +5316,7 @@ vkcdnservice.appspot.com^
 ||atiretrously.com^
 ||ativesathyas.info^
 ||atjigglypuffor.com^
+||atjtpbnwxmfavy.com^
 ||atlhjtmjrj.com^
 ||atmalinks.com^
 ||atmasroofy.com^
@@ -5340,6 +5341,7 @@ vkcdnservice.appspot.com^
 ||atraichuor.com^
 ||atriblethetch.com^
 ||atris.xyz^
+||atriumsmiddum.com^
 ||atrkmankubf.com^
 ||atrociouspsychiatricparliamentary.com^
 ||atrocityfingernail.com^
@@ -5781,6 +5783,7 @@ vkcdnservice.appspot.com^
 ||b3ra6hmstrioek54er.com^
 ||b3stcond1tions.com^
 ||b3z29k1uxb.com^
+||b41732fb1b.com^
 ||b42rracj.com^
 ||b44794baad.com^
 ||b4dda3f4a1.com^
@@ -11783,6 +11786,7 @@ vkcdnservice.appspot.com^
 ||dramamutual.com^
 ||dramasoloist.com^
 ||dramaticagreementsalt.com^
+||dramshaplite.com^
 ||drankpool.com^
 ||dranktonsil.com^
 ||drapefabric.com^
@@ -12964,6 +12968,7 @@ vkcdnservice.appspot.com^
 ||eo62cocntx.com^
 ||eoasxirquewfyn.com^
 ||eobvppi.com^
+||eoedchucdtkep.com^
 ||eofripvanwin.org^
 ||eofst.com^
 ||eoftheappyrinc.info^
@@ -13209,6 +13214,7 @@ vkcdnservice.appspot.com^
 ||etystoass.com^
 ||euauosx.xyz^
 ||euavokhqrxhteot.com^
+||euchresgryllus.com^
 ||eucing.com^
 ||eucli-czt.com^
 ||eucosiaepeiric.com^
@@ -14135,6 +14141,7 @@ vkcdnservice.appspot.com^
 ||filthybudget.com^
 ||filthysignpod.com^
 ||fimserve.com^
+||finafnhara.com^
 ||finalice.net^
 ||finance-hot-news.com^
 ||finance2you.org^
@@ -15107,6 +15114,7 @@ vkcdnservice.appspot.com^
 ||fyvdxqufaxkli.com^
 ||fzfcrqlwph.com^
 ||fzipipalkri.com^
+||fzivunnigra.com^
 ||fzszuvb.com^
 ||g-statistic.com^
 ||g0-g3t-msg.com^
@@ -17215,6 +17223,7 @@ vkcdnservice.appspot.com^
 ||highperformancedisplayformat.com^
 ||highperformancegate.com^
 ||highprofitnetwork.com^
+||highratecpm.com^
 ||highrevenuecpm.com^
 ||highrevenuecpmnetrok.com^
 ||highrevenuecpmnetwork.com^
@@ -18387,6 +18396,7 @@ vkcdnservice.appspot.com^
 ||incompletethong.com^
 ||incomprehensibleacrid.com^
 ||incomptstress.uno^
+||inconsequential-working.com^
 ||inconsistencygasdifficult.com^
 ||inconveniencemimic.com^
 ||incorphishor.com^
@@ -19234,6 +19244,7 @@ vkcdnservice.appspot.com^
 ||javacid.fun^
 ||javascriptcdnlive.com^
 ||javdawn.fun^
+||javgenetic11.fun^
 ||javgg.eu^
 ||javgulf.fun^
 ||javjean.fun^
@@ -20552,6 +20563,7 @@ vkcdnservice.appspot.com^
 ||ktmayxvea.com^
 ||ktnukmtsbfko.com^
 ||ktobedirectu.xyz^
+||ktpcsqnij.com^
 ||ktqiyjojiya.com^
 ||ktrfzka.com^
 ||ktrmmxocabjd.com^
@@ -22307,6 +22319,7 @@ vkcdnservice.appspot.com^
 ||masqueradeflashy.com^
 ||massacreintentionalmemorize.com^
 ||massacresurrogate.com^
+||massagefumaria.click^
 ||massariuscdn.com^
 ||massbrag.care^
 ||massecephid.uno^
@@ -24265,6 +24278,7 @@ vkcdnservice.appspot.com^
 ||nishoagn.com^
 ||nitonsbanc.com^
 ||nitqbanrbcv.xyz^
+||nitridslah.com^
 ||nitriotgillian.digital^
 ||nitrogendetestable.com^
 ||nitrousacuity.top^
@@ -24367,6 +24381,7 @@ vkcdnservice.appspot.com^
 ||nogxlplmx.xyz^
 ||nohezu.xyz^
 ||noiselessvegetables.com^
+||noisesperusemotel.com^
 ||noisybeforemorton.com^
 ||noisyjoke.pro^
 ||noisyoursarrears.com^
@@ -26071,6 +26086,7 @@ vkcdnservice.appspot.com^
 ||oweoumoughtcal.com^
 ||owevel.com^
 ||owewary.com^
+||owhlmuxze.com^
 ||owhoalagly.com^
 ||owhoogryinfo.com^
 ||owingsorthealthy.com^
@@ -35980,10 +35996,12 @@ vkcdnservice.appspot.com^
 ||ukcomparends.pro^
 ||ukdliketobepa.monster^
 ||ukdtzkc.com^
+||ukecqypnt.com^
 ||ukentaspe.xyz^
 ||ukentsiwoulukdlik.info^
 ||ukfareputfea.xyz^
 ||ukidiayddbshfl.com^
+||ukindwouldmeu.com^
 ||ukizeiasninan.info^
 ||uklgakwqy.com^
 ||ukloxmchcdnn.com^
@@ -36732,6 +36750,7 @@ vkcdnservice.appspot.com^
 ||valvyre.com^
 ||vamjfssdvjit.com^
 ||vampedcortine.com^
+||vampednorbert.com^
 ||vampersyacal.com^
 ||vamsoupowoa.com^
 ||vandalismblackboard.com^
@@ -37392,6 +37411,7 @@ vkcdnservice.appspot.com^
 ||vpico.com^
 ||vpipi.com^
 ||vpixrlkggv.com^
+||vpkdrxyx.com^
 ||vplgggd.com^
 ||vpn-defend.com^
 ||vpn-offers.com^
@@ -37979,6 +37999,7 @@ vkcdnservice.appspot.com^
 ||whagrogiva.com^
 ||whagrolt.com^
 ||whaidree.com^
+||whaidroansee.net^
 ||whaijoorgoo.com^
 ||whairtoa.com^
 ||whaishub.net^
@@ -39790,6 +39811,7 @@ vkcdnservice.appspot.com^
 ||zhuwjujpub.com^
 ||zhyivocrjeplby.com^
 ||zhzclbysg.com^
+||zi3nna.xyz^
 ||zi8ivy4b0c7l.com^
 ||zibaweva.com^
 ||ziblo.cloud^
@@ -39897,6 +39919,7 @@ vkcdnservice.appspot.com^
 ||zoizfaodz.com^
 ||zokaukree.net^
 ||zokbywpncgqrq.com^
+||zombyfairfax.com^
 ||zonealta.com^
 ||zontgohjw.com^
 ||zonupiza.com^
@@ -40918,6 +40941,7 @@ vkcdnservice.appspot.com^
 ||infinityads.com^
 ||influads.com^
 ||infolinks.com^
+||infostation.digital^
 ||innity.com^
 ||innovid.com^
 ||insideall.com^
@@ -41474,6 +41498,7 @@ vkcdnservice.appspot.com^
 ||1dd6e9ba.xyz^
 ||1f6a725b.xyz^
 ||20519a.xyz^
+||224cc86d.xyz^
 ||22dd31.xyz^
 ||24052107.live^
 ||258104d2.live^
@@ -41595,6 +41620,7 @@ vkcdnservice.appspot.com^
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^
 ||fbfec2.xyz^
 ||fe30a5b4.xyz^
+||fe9dc503.xyz^
 ||img-load.com^
 ! Samsung/LG/Philips smart-TV ad domains
 ||ad.lgappstv.com^
@@ -41788,7 +41814,6 @@ vkcdnservice.appspot.com^
 ||datacluster.club^
 ||dtrk.slimcdn.com^
 ||dunhilltraveldeals.com^
-||e11956.x.akamaiedge.net^
 ||epnt.ebay.com^
 ||escape.insites.eu^
 ||etrader.kalahari.com^
@@ -44148,6 +44173,7 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||data.media-lab.ai^
 ||kapetracking.com^
 ||tr.dec-connect.decsuite.com^
 ||yatr.ru^
@@ -47858,6 +47884,7 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||ylog.huya.com^
 ||ax.amnezia.org^
 ||events.betterhelp.com^
 ||web-analytics.lastpass.com^
@@ -62788,9 +62815,14 @@ inapps.appsflyersdk.com^
 ||121.204.246.*.gif
 ||38.33.15.*.gif
 ||67.21.92.*.gif
+||nxrajr.xyz^
 ||fdyacma.icu^
 ||wiixqm.xyz^
 ||xfqynrp.cn^
+||bytmfj.xyz^
+||ywokwlx.icu^
+||ihgluu.xyz^
+||ehmhqcn.cn^
 ||baijs04.shop^
 ||doujs04.shop^
 ||kwumme.xyz^
