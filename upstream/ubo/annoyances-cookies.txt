@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 08 Aug 2024 21:02:29 +0000
+! Last modified: Fri, 09 Aug 2024 11:12:02 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -79,12 +79,13 @@ cmpv2.independent.co.uk##+js(trusted-click-element, [title="Reject All"], , 500)
 cmpv2.independent.co.uk##+js(trusted-click-element, button[title="READ FOR FREE"], , 1000)
 independent.co.uk##[id^="sp_message_container"]
 independent.co.uk##html.sp-message-open:style(width: initial !important)
-! https://www.theguardian.com/sport/video/2023/jun/25/carlos-alcaraz-beats-alex-de-minaur-to-win-first-grass-court-trophy-at-queens-video
-sourcepoint.theguardian.com##+js(trusted-click-element, .sp_choice_type_12[title="Manage or reject cookies"])
-sourcepoint.theguardian.com##+js(trusted-click-element, [title="Reject all"], , 500)
-theguardian.com##+js(trusted-set-cookie, consentUUID, 5ffc4740-d276-4a4b-8ed0-4b68feeed1ba_34, , , domain, theguardian.com)
-theguardian.com##[title="SP Consent Message"]
-www.theguardian.com##+js(trusted-set-local-storage-item, gu.prefs.engagementBannerLastClosedAt, {"value": "$currentISODate$"})
+! reject consent/emdded yt. (UK IP) https://www.theguardian.com/sport/video/2023/jun/25/carlos-alcaraz-beats-alex-de-minaur-to-win-first-grass-court-trophy-at-queens-video
+! https://www.theguardian.com/society/ng-interactive/2024/jul/17/frozen-in-time-the-motherhood-dilemma-for-single-women-in-china
+theguardian.com##+js(trusted-set-cookie, consentUUID, e3fd021c-e23a-4a83-81b8-88fda69b94f0_34, , , domain, theguardian.com)
+! https://www.theguardian.com/ (US IP - CPPA) Do not sell my personal infomation
+! https://www.theguardian.com/news/audio/2024/aug/09/best-of-2024-so-far-hippy-capitalist-guru-grocer-the-forgotten-genius-who-changed-british-food-podcast
+theguardian.com##+js(trusted-set-cookie,  consentStatus, rejectedAll)
+theguardian.com##+js(trusted-set-cookie,  ccpaUUID, 9df52f38-6763-409e-96d5-3ece9565aa68)
 ! https://video.lefigaro.fr/figaro/video/les-gestes-damour-prennent-plusieurs-formes-dans-une-video-humoristique-lukraine-demande-plus-de-caesar-a-la-france/
 lefigaro.fr##+js(trusted-set-cookie, fig_save_consent, iTTPgpSWqAGGcd3vV88zNDbHsABxE1hB, 1year)
 ! https://www.filmweb.pl/video/Zwiastun/Indiana+Jones+i+artefakt+przeznaczenia+Zwiastun+nr+2+polskie+napisy-64884
@@ -759,14 +760,6 @@ player.boom973.com##+js(trusted-set-cookie, _iub_cs-30166201, %7B%22timestamp%22
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19940 - Precise location
 lachainemeteo.com##+js(trusted-set-local-storage-item, appconsent, '{"consents":{},"i18n":{},"ui":{},"vendorlist":{},"CMP_VERSION":10,"xchange":{},"events":[],"client":{"externalIds":{},"floatingPurposes":[{"id":"","version":0}],"floatingPurposesConsent":[{"extra_id":"","type":0,"given_at":null,"version":0}]},"consentstring":"CPzBFAAPzBFAAACAKAFRDUCoAAAAAH_AAAqIIzNF_H_dSSNj8X5_Yft0eY1P5dAz7uQxBhaJg6QFyBLEsJwXwmAIIEnqAKgKGBIEskJAIQBlCAHABUEAYIEBISGMAEAQIQAAJiAEEEERAmJICBBJG4AgEAIQglgCABQAgAsESFsoQMhAAIAABUJAAAgggIABAgAIBDAAQAAAAAAAAgAAEAAAAAAAAAAEABBHYAkw1LiABsiAkJpAwigRAjCIICKBQAAACQMEAACQIAlBGASgwAQAgRQAEBAAAAFEAAAAAAIAEIAAgACBAABAIBAAAABAAAAAQAAAgAIAQAAAABADAEAABAAAAAAACAECEIAAIACAgAAgAEAIAAAAAAIBAIBAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAA.YAAAAAAAAAAA","consentstringUpdatedAt":{}}')
-
-! https://github.com/uBlockOrigin/uAssets/issues/19942
-! https://github.com/AdguardTeam/AdguardFilters/issues/122648 - Social
-@@||sdk.privacy-center.org^$domain=ledauphine.com
-ledauphine.com##[class*="cmp_alternative"]
-ledauphine.com##+js(trusted-click-element, button[id="didomi-notice-agree-button"])
-privacy.ledauphine-presse.fr##+js(trusted-set-cookie, didomi_token, eyJ1c2VyX2lkIjoiMThhZWVmZTgtNGJjMS02NjhmLWE5YTgtNmNhM2VmMmQ0NzVkIiwiY3JlYXRlZCI6IjIwMjMtMTAtMDJUMDY6MDY6NDQuODA0WiIsInVwZGF0ZWQiOiIyMDIzLTEwLTAyVDA2OjA2OjQ0LjgwNFoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiYzphYi10YXN0eSIsImM6YWNhc3QtQ2M3MmNoWHAiLCJjOmFjcG0tSkIzNEJicmQiLCJjOmFwbG96ZS14NDdKZlhVSyIsImM6YXBwc2ZseWVyLXdETmJrQ2I2IiwiYzphdGludGVybmUtY1dRS0hlSloiLCJjOmJlb3AtdEdSV0hIYUYiLCJjOmJpbmctYWRzIiwiYzpjaGFydGJlYXQiLCJjOmNsaWNraW50ZXh0IiwiYzpkYWlseW1vdGlvLWhyRldwVEtDIiwiYzpzcXVhZGF0YS1lYXN5ZG1wIiwiYzpkeW5hbWljbWEtNzhlUmpLY1YiLCJjOmZhY2Vib29rLXRrQWpXM2k2IiwiYzpmbG91cmlzaC14bnhZTVo2TiIsImM6Z2VuaWFsbHktWjhiUmhxRW4iLCJnb29nbGUiLCJjOmdvb2dsZW1hcC1kRDdDWkNKZyIsImM6aW5mb2dyYW0tcXFoZDNoZk0iLCJjOmluc3RhZ3JhbS1MWmthNlI0NCIsImM6aW5zdGFncmFtIiwiYzpqdXh0YXBvc2UtTVpnSEZmWXgiLCJjOm1hcHM0bmV3cy0zWDlWUVc3NiIsImM6bWljcm9zb2Z0IiwiYzptaWNyb3NvZnQtYW5hbHl0aWNzIiwiYzptaWNyb3NvZnQtb25lZHJpdmUtbGl2ZS1zZGsiLCJjOm15ZmVlbGJhY2siLCJjOm9uZXNpZ25hbC1uS1hmQ3BZcyIsImM6cGxheWJ1enotamhKcUNBeEsiLCJjOnBvb29sLWV3WjY2ZWdmIiwiYzpwb29vbC1WeWhDaXQ3TiIsImM6cHVic3RhY2stV3JDYkV5Y00iLCJjOnNob3J0aGFuZC02R01GSzJCVyIsImM6c291bmRjbG91ZC14S01ER1g0TCIsImM6c3RvcnltYXAtTFpwaWQ3WXEiLCJjOnN1YnNjcmliZS1abXdVZVVDUCIsImM6dGltZWxpbmVqLWU2WFJDS1VYIiwidHdpdHRlciIsImM6dHdpdHRlci1pNnhkQjJyVCIsImM6dmltZW8tSGlNcnpFUEgiLCJjOnlvdXR1YmUiLCJjOnlvdXR1YmUtQ2VWemptSlAiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsicmVzZWF1eHNvLTlLYmpid05oIl0sImRpc2FibGVkIjpbImdlb2xvY2F0aW9uX2RhdGEiLCJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiYXVkaWVuY2VtLXhlZGVVMmdRIiwiY29udGVudXN2LWhGVDhpZmRSIiwiY29udGVudXNjLXBYQVZVdDhyIiwibWVzdXJlZGEtaDdHUWVyclQiXX0sInZlcnNpb24iOjIsImFjIjoiQ25XQUdBRmtCSllLZFFBQS5BRm1BQ0FGayJ9)
-privacy.ledauphine-presse.fr##+js(trusted-set-cookie, euconsent-v2, CPzBFAAPzBFAAAHABBENDYCgAAAAAAAAAAAAJNFB_W_fD2Ni-35_avt0aQ1dwVC_6-UxDgKZB4kFyRpEMKwX3mAKKFXgpKAKGBYEsUZAIQBlHCHEDECwQIERLzHMIAEQJQIAJqJEgFERAkJQCBpZHwMACAIQgHRWATFIiB-HaBroyfhEMaC0AUBQ4AonhMTPAoSdwXCkg7uaHIgIImgFASBAIoYMEEEEBlTkFABAAAkAAABJSADAAEQUCUAGAAIgoDoAMAARBQIQAYAAiCgEgAwABEFARABgACIKAyADAAEQUA0AGAAIgoCoAMAARBQA.YAAAAAAAAAAA)
 
 ! https://www.canva.com/ - Functionality
 canva.com##+js(trusted-set-cookie, CTC, eyJBIjoxNzA4NTg5MjM3MTc1LCJCIjoxNzA4NTg5MjM3MTc1LCJEIjpmYWxzZSwiRSI6dHJ1ZSwiRiI6ZmFsc2UsIkciOmZhbHNlLCJIIjpmYWxzZSwiSSI6Wy01ODM2OSw3ODU1NzVdLCJKIjpbOTgzNTg1LDMwNzJdfQ==, , , reload, 1)
@@ -1470,31 +1463,31 @@ anghami.com##.cookie-container
 ! accept
 derstandard.at,derstandard.de##+js(trusted-set-cookie, consentUUID, 191c03c5-1154-4937-aa26-ced186f90097_30_33, , , reload, 1)
 zeit.de##+js(trusted-set-cookie, consentUUID, a05bb3f1-519f-44da-92f3-6a10e3f75e53_32)
-chip.de##+js(trusted-set-cookie, consentUUID, 8c7e01cc-3108-4650-a225-681acde1db99_32_33_34)
+chip.de##+js(trusted-set-cookie, consentUUID, ce12400a-9c73-4bf8-8098-9e756366f942_34)
 faz.net##+js(trusted-set-cookie, consentUUID, 798788d9-0aa9-4d39-b8f0-edb272b7ca39_32)
 heise.de##+js(trusted-set-cookie, consentUUID, cc3fda07-066e-4c67-a9eb-72d5dce1a921_32_33)
 welt.de##+js(trusted-set-cookie, consentUUID, 6c38740a-9fcf-4ac4-8841-f3cee0293e84_34)
 spiegel.de##+js(trusted-set-cookie, consentUUID, 4de1a7f3-4c2d-4f4e-9d18-b809b5d73ddb_33_34)
 t3n.de##+js(trusted-set-cookie, consentUUID, 9a37eb15-cd55-4e72-9073-e7c42c5998fd_32)
 t-online.de##+js(trusted-set-cookie, consentUUID, e4ca3d8d-75f7-4b97-a468-25fc5e9dc1fd_32_33_34)
-autobild.de##+js(trusted-set-cookie, consentUUID, dfc6bb88-a979-4c3c-8c8a-01ae94bcca36_32_34)
+autobild.de##+js(trusted-set-cookie, consentUUID, a1751fd7-1671-4239-982b-e9ae1abe6cc3_34)
 bild.de##+js(trusted-set-cookie, consentUUID, e4fe2f39-dea0-4d85-b59e-943f634018b9_32_33)
-computerbild.de##+js(trusted-set-cookie, consentUUID, fc189801-d558-4c56-937e-6711599acde2_32)
+computerbild.de##+js(trusted-set-cookie, consentUUID, 61ee8c80-7b19-45aa-a06d-7288610e46ed_34)
 stern.de##+js(trusted-set-cookie, consentUUID, f2196ea7-1afa-4986-87e4-2a28d05bd56b_32_33)
-pcwelt.de##+js(trusted-set-cookie, consentUUID, 478090ac-09a6-451f-a2c3-20789ac47314_32_33_34)
-focus.de##+js(trusted-set-cookie, consentUUID, c0edd7ff-dd9a-462e-af9d-7cbebe196657_32_33_34)
-geo.de##+js(trusted-set-cookie, consentUUID, 3a29f3e5-95ec-438e-b5ec-24c3f7daf220_32_33)
+pcwelt.de##+js(trusted-set-cookie, consentUUID, 4faab741-5ce6-430f-b701-df2242b1ff3d_34)
+focus.de##+js(trusted-set-cookie, consentUUID, a33808b0-2dce-4060-80a8-0e9d829383ef_34)
+geo.de##+js(trusted-set-cookie, consentUUID, 80144095-b83e-4810-8fa7-7f9099ca6339_34)
 familie.de##+js(trusted-set-cookie, consentUUID, a673c12a-841c-4ef9-9019-1cecb12d7cdd_32)
-sport1.de##+js(trusted-set-cookie, consentUUID, 5d7fa3c6-e0a9-4497-bad8-79ab003de47d_32)
+sport1.de##+js(trusted-set-cookie, consentUUID, 3c87ef3b-9471-4ad7-a677-1514eac62d74_34)
 kino.de##+js(trusted-set-cookie, consentUUID, 8717f4cd-f101-4527-9818-21e1be78a1ef_32)
-likehifi.de##+js(trusted-set-cookie, consentUUID, 9f9ccda5-c4b8-49bf-973c-3470fb663bbc_32_33)
+likehifi.de##+js(trusted-set-cookie, consentUUID, 24d18127-b8f9-4629-8d59-c8f2e5221820_34)
 faszination-fankurve.de##+js(trusted-set-cookie, consentUUID, 8ec72931-7f30-41ee-8e7a-3eeed042376e_32_33)
-raspberry-pi-geek.de##+js(trusted-set-cookie, consentUUID, 039f14d5-214e-46a6-a3ab-0eebd5198635_32_33)
+raspberry-pi-geek.de##+js(trusted-set-cookie, consentUUID, b90d74c1-472a-4b7b-b6db-6fbac1efa5af_34)
 ! functional + social
-rtl.de##+js(trusted-set-cookie, consentUUID, 5a2997bb-3886-4fa1-b0f2-66a8d716c19c_32_33)
-krzbb.de##+js(trusted-set-cookie, consentUUID, 3dbdc74e-c687-41d4-9b01-9d04a7d02c2e_32)
-techstage.de##+js(trusted-set-cookie, consentUUID, 80f57ffd-7468-4ca5-8fff-c442bcc6f276_32)
-n-tv.de##+js(trusted-set-cookie, consentUUID, 2cc64b48-60ab-4161-b42c-45f25a6e338c_32_33)
+rtl.de##+js(trusted-set-cookie, consentUUID, c6ff7694-6696-4ff0-8b31-313cfe867877_34)
+krzbb.de##+js(trusted-set-cookie, consentUUID, b35fa5cf-67b5-4b59-a089-5e34f820f649_34)
+techstage.de##+js(trusted-set-cookie, consentUUID, 8dae0855-8ca0-4465-b0ec-7573fc8eb90f_34)
+n-tv.de##+js(trusted-set-cookie, consentUUID, a8dac56d-c5d7-4a8a-bab2-da9eb2f28d08_34)
 ! reject, allow Listen to this article
 lbc.co.uk##+js(trusted-set-cookie, consentUUID, de4972d9-e581-40c3-921b-296d6456fad0_34)
 ! reject
@@ -1534,18 +1527,11 @@ redbull.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , d
 
 ! Didomi consent popups
 ! https://github.com/uBlockOrigin/uAssets/issues/24725
-dnevnik.hr,metronieuws.nl,gva.be,nieuwsblad.be,cadenaser.com,actu.fr,elconfidencial.com,rtl.lu,rfi.fr,20minutos.es,elcomercio.es,france24.com,marmiton.org,cope.es,sensacine.com,abc.es##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
-dnevnik.hr,metronieuws.nl,gva.be,nieuwsblad.be,cadenaser.com,actu.fr,elconfidencial.com,rtl.lu,rfi.fr,20minutos.es,elcomercio.es,france24.com,marmiton.org,cope.es,sensacine.com,abc.es###didomi-host:style(visibility: hidden !important;)
-@@||sdk.privacy-center.org^$script,domain=dnevnik.hr
+! https://github.com/uBlockOrigin/uAssets/pull/24840
+20minutos.es,abc.es,actu.fr,actu.fr,cadenaser.com,cope.es,dnevnik.hr,elcomercio.es,elconfidencial.com,elconfidencial.com,france24.com,gva.be,ledauphine.com,marmiton.org,metronieuws.nl,nieuwsblad.be,rfi.fr,rossmann.pl,rtl.lu,rtl.lu,sensacine.com,silicon.es##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
+20minutos.es,abc.es,actu.fr,actu.fr,cadenaser.com,cope.es,dnevnik.hr,elcomercio.es,elconfidencial.com,elconfidencial.com,france24.com,gva.be,ledauphine.com,marmiton.org,metronieuws.nl,nieuwsblad.be,rfi.fr,rossmann.pl,rtl.lu,rtl.lu,sensacine.com,silicon.es###didomi-host:style(visibility: hidden !important;)
+@@||sdk.privacy-center.org^$script,domain=dnevnik.hr|actu.fr|ledauphine.com
 
-! https://www.20minutos.es/noticia/5193814/0/violencia-machista-detenido-un-hombre-24-anos-por-asesinato-una-mujer-25-hija-ambos/
-20minutos.es##+js(trusted-click-element, #didomi-notice-agree-button)
-! https://github.com/uBlockOrigin/uAssets/issues/23107
-actu.fr,elconfidencial.com,rtl.lu##+js(trusted-click-element, #didomi-notice-agree-button)
-@@||sdk.privacy-center.org^$domain=actu.fr
-
-! https://github.com/uBlockOrigin/uAssets/issues/24315
-rossmann.pl##+js(trusted-click-element, button#onetrust-accept-btn-handler)
 
 ! just nessary 
 vroomly.com##+js(trusted-set-cookie, cookie_consent_202401, '{"sentry":false,"braze":false,"userpilot":false,"googleAnalytics":false,"amplitude":false,"hotjar":false,"facebookPixel":false,"googleAds":false,"kwanko":false}')
@@ -1591,3 +1577,17 @@ speedtest.vodafone.de##+js(trusted-set-local-storage-item, speedtestUI.Consent, 
 ! disable 
 tvpworld.com##+js(trusted-set-cookie, TVPtcs22, CQC-zoAQC-zoAFfADAENBAFgAAAAAEPgAB5YAAAUvAJMNCogDLIkJCDQMIIEAKgrCAigQAAAAkDRAQAmDAp2BgEusJEAIAUAAwQAgABRkACAAASABCIAIACgQAAQCBQABgAQDAQAMDAAGACwEAgABAdAhTAggUCwASMyIhTAhCASCAlsqEEgCBBXCEIs8CCAREwUAAAJABWAAICwWBxJICViQQJcQbQAAEACAQQAVCKTswBBAGbLVXiybRlaQFo-YLntMAwAAAAA.YAAAAAAABYAAAAAA)
 tvpworld.com##+js(set-cookie, TVPtcs22ver, 64)
+
+! krone.at didomi consent
+krone.at##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
+krone.at###didomi-host:style(visibility: hidden !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/24823
+atresplayer.com,antena3.com,atresmedia.com,lasexta.com,melodia-fm.com,europafm.com,ondacero.es,atresmediastudios.com,atresmediapublicidad.com,antena3internacional.com,correryfitness.com##+js(trusted-click-element, #acceptAllMain, , 1000)
+atresplayer.com,antena3.com,atresmedia.com,lasexta.com,melodia-fm.com,europafm.com,ondacero.es,atresmediastudios.com,atresmediapublicidad.com,antena3internacional.com,correryfitness.com##sibbo-cmp-layout:style(visibility: hidden !important;)
+
+! rtvc.es (accept)
+cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label*="Aceptar"], , 1000)
+
+! beteve.cat (accept)
+cdn.privacy-mgmt.com##+js(trusted-click-element, button[title*="Acceptar"], , 1000)

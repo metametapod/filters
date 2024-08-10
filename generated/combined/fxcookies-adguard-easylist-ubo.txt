@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-08-09T00:54:00Z
+! Last modified: 2024-08-10T00:53:22Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: vFcFsf5pYs1yVTdl827/fA
-! Diff-Path: ../patches/18/18-s-1723127848-3600.patch
+! Checksum: sNVaKBQuX4JUceSlxhlE3w
+! Diff-Path: ../patches/18/18-s-1723239411-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.44.93
-! TimeUpdated: 2024-08-08T14:33:40+00:00
+! Version: 2.0.44.99
+! TimeUpdated: 2024-08-09T21:33:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2410,7 +2410,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 !
 !
 ! cmp.inmobi.com
-||cmp.inmobi.com^$domain=playpilot.com|allaboutfpl.com|powergame.gr|pronews.gr|naftemporiki.gr|musor.tv|webnews.it|24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com|typingtest.com|recetasviaje.com|teletexto.com|pultimate-guitar.com|puzzle-minesweeper.com|puzzle-chess.com|puzzle-thermometers.com|puzzle-norinori.com|puzzle-slant.com|puzzle-lits.com|puzzle-galaxies.com|puzzle-tents.com|puzzle-battleships.com|puzzle-pipes.com|puzzle-hitori.com|puzzle-heyawake.com|puzzle-shingpuzzle-masyu.com|puzzle-stitches.com|puzzle-aquarium.com|puzzle-tapa.com|puzzle-star-battle.com|puzzle-kakurasu.com|puzzle-skyscrapers.com|puzzle-futoshiki.com|puzzle-words.com|puzzle-shakashaka.com|puzzle-kakuro.com|puzzle-jigsaw-sudoku.com|puzzle-killer-sudoku.com|puzzle-binairo.com|puzzle-nonograms.com|puzzle-loop.com|puzzle-sudoku.com|puzzle-light-up.com|puzzle-bridges.com|puzzle-shikaku.com|puzzle-nurikabe.com|puzzle-dominosa.com|camelcamelcamel.com|mydramalist.com|recipestravelworld.com|ddwloclawek.pl|ddtorun.pl|wpu24.pl|bleepingcomputer.com|tvrepublika.pl|24jgora.pl|karkonoszego.pl|24wroclaw.pl|zyciekalisza.pl|nswiecie.pl|vimm.net|todotest.com|magazynauto.pl|hwinfo.com|finanzaonline.com|gostyn24.pl|apkmirror.com|niezalezna.pl|bright.nl|thesaurus.net|gorlice24.pl|myabandonware.com|meneame.net|ygeiamou.gr|tustolica.pl|worldhistory.org|agronowiny.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|itopmusics.com|diritto.it|gazetaolsztynska.pl|lowicz24.eu|zambrow.org|tygodnikregionalna.pl|regionalna24.pl|psychic.de|topnewsy.pl|portalparentingowy.pl|wpolityce.pl|lurkers.io|morele.net|nintenderos.com|tudonoticiasbr.com|historycollection.com|megacurioso.net|imolaoggi.it|serwery-minecraft.pl|linuxhandbook.com|pianetabambini.it|savett.cc|tulegnica.pl|telex.hu|1001fonts.com|wetter24.de|gamesource.it|hvg.hu|fantasyfootballscout.co.uk|pmi.it|formu1a.uno|inzyniefilmaffinity.com|ngemu.com|radioem.pl|softpedia.com|gosc.pl|wiara.pl|malygosc.pl|y8.com|baeldung.com|download.net.pl|gotujmy.pl|viva.pl|ilewazy.pl|enternity.gr|financasdeouro.com|beebom.com|spielanime.com|wyborkierowcow.pl|podkarpacielive.pl|razaoautomovel.com|timesofisrael.com|magazine-hd.com|cinemaclock.com|symbaloo.com|techgear.gr|90minut.pl|boredpanda.com|dubznetwork.com|hypando.com.br|centralmediacsoport.hu|ricasdelicias.online|techspot.com|platinmods.com|tetr.io|fark.com|bielskirynek.pl|in.gr|whoscored.com|android.com.pl|neoseeker.com|thejc.com|mymovies.it|natemat.pl|mmacore.tv|efsyn.gr|basketball-reference.com|stathead.com|automap.it|letras.mus.br|blitz.gg|kurnik.pl|pulsgdanska.pl|gsmmaniak.pl|tabletmaniak.pl|fotomaniak.pl|mobimaniak.pl|acermaniak.pl|rtvmaniak.pl|agdmaniak.pl|luxmaniak.pl|blogomaniak.pl|activemaniak.pl|techmaniak.pl|digital-forum.it|onlineradioboburdaconnect.pl|vogue.gr|autoevolution.com|15min.lt|win7simu.visnalize.com|instrukcjaobslugipdf.pl|capital.ro|manchestereveningnews.co.uk|ototorun.pl|liverpoolecho.co.uk|ents24.com
+||cmp.inmobi.com^$domain=playpilot.com|allaboutfpl.com|powergame.gr|pronews.gr|naftemporiki.gr|musor.tv|webnews.it|24.hu|documaniatv.com|goniec.pl|lelum.pl|gram.pl|online-filmek.ac|polki.pl|mamotoja.pl|visortmo.com|u.gg|atleticalive.it|icy-veins.com|typingtest.com|recetasviaje.com|teletexto.com|pultimate-guitar.com|puzzle-minesweeper.com|puzzle-chess.com|puzzle-thermometers.com|puzzle-norinori.com|puzzle-slant.com|puzzle-lits.com|puzzle-galaxies.com|puzzle-tents.com|puzzle-battleships.com|puzzle-pipes.com|puzzle-hitori.com|puzzle-heyawake.com|puzzle-shingpuzzle-masyu.com|puzzle-stitches.com|puzzle-aquarium.com|puzzle-tapa.com|puzzle-star-battle.com|puzzle-kakurasu.com|puzzle-skyscrapers.com|puzzle-futoshiki.com|puzzle-words.com|puzzle-shakashaka.com|puzzle-kakuro.com|puzzle-jigsaw-sudoku.com|puzzle-killer-sudoku.com|puzzle-binairo.com|puzzle-nonograms.com|puzzle-loop.com|puzzle-sudoku.com|puzzle-light-up.com|puzzle-bridges.com|puzzle-shikaku.com|puzzle-nurikabe.com|puzzle-dominosa.com|camelcamelcamel.com|mydramalist.com|recipestravelworld.com|ddwloclawek.pl|ddtorun.pl|wpu24.pl|bleepingcomputer.com|tvrepublika.pl|24jgora.pl|karkonoszego.pl|24wroclaw.pl|zyciekalisza.pl|nswiecie.pl|vimm.net|todotest.com|magazynauto.pl|hwinfo.com|finanzaonline.com|gostyn24.pl|apkmirror.com|niezalezna.pl|bright.nl|thesaurus.net|gorlice24.pl|myabandonware.com|meneame.net|ygeiamou.gr|tustolica.pl|worldhistory.org|agronowiny.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|itopmusics.com|diritto.it|gazetaolsztynska.pl|lowicz24.eu|zambrow.org|tygodnikregionalna.pl|regionalna24.pl|psychic.de|topnewsy.pl|portalparentingowy.pl|wpolityce.pl|lurkers.io|morele.net|nintenderos.com|tudonoticiasbr.com|historycollection.com|megacurioso.net|imolaoggi.it|serwery-minecraft.pl|linuxhandbook.com|pianetabambini.it|savett.cc|tulegnica.pl|telex.hu|1001fonts.com|wetter24.de|gamesource.it|hvg.hu|fantasyfootballscout.co.uk|pmi.it|formu1a.uno|inzyniefilmaffinity.com|ngemu.com|radioem.pl|softpedia.com|gosc.pl|wiara.pl|malygosc.pl|y8.com|baeldung.com|download.net.pl|gotujmy.pl|viva.pl|ilewazy.pl|enternity.gr|financasdeouro.com|beebom.com|spielanime.com|wyborkierowcow.pl|podkarpacielive.pl|razaoautomovel.com|timesofisrael.com|magazine-hd.com|cinemaclock.com|symbaloo.com|techgear.gr|90minut.pl|boredpanda.com|dubznetwork.com|hypando.com.br|centralmediacsoport.hu|ricasdelicias.online|techspot.com|platinmods.com|tetr.io|fark.com|bielskirynek.pl|in.gr|whoscored.com|android.com.pl|neoseeker.com|thejc.com|mymovies.it|natemat.pl|mmacore.tv|efsyn.gr|basketball-reference.com|stathead.com|automap.it|letras.mus.br|blitz.gg|kurnik.pl|pulsgdanska.pl|gsmmaniak.pl|tabletmaniak.pl|fotomaniak.pl|mobimaniak.pl|acermaniak.pl|rtvmaniak.pl|agdmaniak.pl|luxmaniak.pl|blogomaniak.pl|activemaniak.pl|techmaniak.pl|digital-forum.it|onlineradioboburdaconnect.pl|vogue.gr|autoevolution.com|15min.lt|win7simu.visnalize.com|instrukcjaobslugipdf.pl|capital.ro|manchestereveningnews.co.uk|ototorun.pl|liverpoolecho.co.uk|ents24.com|mrwallpaper.com
 !
 ! @lmc-eu/cookie-consent-manager
 codesandbox.io,damota.me,pracazarogiem.pl,pracezarohem.cz,pracazarohom.sk,seduo.*##+js(remove-class, force--consent|show--consent, html)
@@ -2427,6 +2427,10 @@ docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io##[aria-label="Cookies"]
 !
 ! NOTE: Regular rules
 !
+civilservicejobs.service.gov.uk###csr-cookie-message
+mevspace.com##.cookie-overlayer
+blacklibrary.com###acceptcookiesWrapper
+blacklibrary.com###overlayMask
 stackry.com,autoride.sk##.ReactModalPortal
 ocre-project.eu#$#body { overflow: auto !important; }
 ocre-project.eu#$#body #cookiePopup { display: none !important; }
@@ -2660,6 +2664,7 @@ fsbot.xyz#$##askcookie ~ .modal-backdrop { display: none !important; }
 fsbot.xyz#$#body { overflow: auto !important; padding-right: 0 !important; }
 istories.media##div[class*="cookieConsentBanner"]
 widilo.it##.widilo-cookie-rules
+ssstc.com##.privacyArea
 asp.wroc.pl##.cookie_info_asp
 bitget.com##.micro-cookie-dialog
 events.ultraceofficial.com##body > div > div[tabindex] > div.vi-fixed
@@ -2799,7 +2804,7 @@ freikirche-hamm.de#$#body { overflow: auto !important; filter: none !important; 
 ufi.org###cookies-prompt
 mtp.pl##+js(set-cookie, cookieVers, 1)
 eshe.club##div[class^="CookieNotification__"]
-tuitam.com.pl,cccmh.co.jp,resecurity.com,nspk.ru,eirc.spb.ru,petslike.ua##.cookie
+yunusonline.com,tuitam.com.pl,cccmh.co.jp,resecurity.com,nspk.ru,eirc.spb.ru,petslike.ua##.cookie
 ati.su##div[class^="CookieBanner"]
 android.com.pl##.Button--cmp
 elliberal.com.ar##.bannerCookie
@@ -2962,7 +2967,7 @@ rawlplug.com##.z-cookiesBar
 akn.edu.pl##body .rodo-information-clause
 helix-pflanzen.de###cconsent-modal.ccm--visible
 miles-mobility.com##div[data-testid="cookie-consent"]
-dust.tt,tagilcity.ru##.fixed.bottom-4
+newsnn.ru,dust.tt,tagilcity.ru##.fixed.bottom-4
 ussurmedia.ru,sevastopolmedia.ru##body .cookies-wrap
 oklink.com##.cookieTips
 burgerking.pl##div[data-testid="footer"] > div[class^="styles__Container-"]:has(> div[class^="styles__ButtonsContainer-"] > button[data-testid="close-cookies-button"])
@@ -2984,7 +2989,7 @@ kontomierz.pl##+js(set-cookie, advertising, false)
 kontomierz.pl##+js(set-cookie, statics, false)
 ||scripts.pubnation.com/tags/gdpr/
 esculab.com##+js(set-local-storage-item, cookiesPolicy, true)
-||gdprcdn.b-cdn.net/js/gdpr_cookie_consent.min.js$domain=hagenbikes.com
+||gdprcdn.b-cdn.net/js/gdpr_cookie_consent.min.js$domain=hagenbikes.com|aavalabs.com
 ||modal.g2a.co/modal-gdpr.umd.js
 gosweb.gosuslugi.ru##.gw-analytics-agreement
 tudors.com##.cookietudors
@@ -10357,7 +10362,7 @@ g2.com##.js-cookie-consent-overlay
 disneyworld.eu###cookiesPolicyMessageLayout
 ||netmoms.de/content/themes/twentyfifteen/app/scripts/vendor/spmsg-*.js
 trendsmap.com##.header-message
-help.ptsecurity.com,vportal.ctu.gov.cz,moncompteformation.gouv.fr,earnweb.com,portal.av-atlas.org,goo-gl.me,go.skillbox.ru,cs.android.com,rsu.de,jobsforgeek.com,ib.psbank.ru,eqmac.app,macdrop.net,smartshop.hu,ikea-family.info##.cdk-overlay-container
+help.ptsecurity.com,vportal.ctu.gov.cz,moncompteformation.gouv.fr,earnweb.com,portal.av-atlas.org,goo-gl.me,go.skillbox.ru,cs.android.com,jobsforgeek.com,ib.psbank.ru,eqmac.app,macdrop.net,smartshop.hu,ikea-family.info##.cdk-overlay-container
 yuzde100yerli.com##.pum-theme-cookiepolicy
 interviewer.tns-sifo.se##.smb-cookies-consent
 trtmarket.com,gundogdumobilya.com.tr,modalife.com##.policyPopupContainer
@@ -11766,7 +11771,7 @@ nickelodeon.hu###cookie-policy-msg
 netto-online.de###cookie-popup2
 minecraft-statistic.net###cookie-privacy-info
 image-line.com###cookie-toolbar
-budgetthuis.nl###cookie-wall
+faphouse.com,budgetthuis.nl###cookie-wall
 otomobilir.com,dagiunderwear.com,vesti-ua.net,dagi.com.tr,cmwltd.co.uk,vidobu.com,kockariyerim.com,bebekodam.com,sleepy.com.tr,alniaciklar.com,investors.kocakademi.com,foxpost.hu,k-booster.info,sport1tv.cz,sport1tv.hu###cookieAcceptBar
 flisekompaniet.no###cookieBlockOverlay
 cdkeys.com###cookieCDkeys
@@ -12399,7 +12404,7 @@ timeshop24.de,wer-weiss-was.de###cookie_hint
 kdb.hu###cookieallowbar
 vodafone.it###cookiefascia
 gyakorikerdesek.hu###cookiekezeles
-hex-rays.com,press.pl,oplacalny-software.pl,plfoto.com###cookies-box
+vtb.ru,hex-rays.com,press.pl,oplacalny-software.pl,plfoto.com###cookies-box
 blablatel.es###cookiesBannerContainer
 journeyman.tv,ev.org.br,whatfontis.com###cookies_alert
 tweaktown.com###cookies_footer_sec
