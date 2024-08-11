@@ -8682,6 +8682,7 @@
 0.0.0.0 a.bestcontentjob.top
 0.0.0.0 a.bestcontentplan.top
 0.0.0.0 a.bestcontentprovider.top
+0.0.0.0 a.bestcontentsite.top
 0.0.0.0 a.bestcontenttool.top
 0.0.0.0 a.bf-ad.net
 0.0.0.0 a.bf-tools.net
@@ -23528,6 +23529,7 @@
 0.0.0.0 b.bestcontentfood.top
 0.0.0.0 b.bestcontentitem.top
 0.0.0.0 b.bestcontentprovider.top
+0.0.0.0 b.bestcontentsite.top
 0.0.0.0 b.bestcontenttrade.top
 0.0.0.0 b.bissailre.com
 0.0.0.0 b.bnrdom.com
@@ -24751,6 +24753,7 @@
 0.0.0.0 bestcontentcompany.top
 0.0.0.0 bestcontentcost.top
 0.0.0.0 bestcontentfood.top
+0.0.0.0 bestcontentsite.top
 0.0.0.0 bestcontentsoftware.top
 0.0.0.0 bestconvertor.club
 0.0.0.0 bestdaymx.btttag.com
@@ -28574,6 +28577,7 @@
 0.0.0.0 cdn3.appnext.com
 0.0.0.0 cdn3.bestcontentfood.top
 0.0.0.0 cdn3.bestcontentjob.top
+0.0.0.0 cdn3.bestcontentsite.top
 0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 cdn3.forter.com
 0.0.0.0 cdn3.medfoodsafety.com
