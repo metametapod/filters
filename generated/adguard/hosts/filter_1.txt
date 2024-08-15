@@ -19087,6 +19087,7 @@
 0.0.0.0 advpy.com
 0.0.0.0 advpz.com
 0.0.0.0 advs.brznetwork.com
+0.0.0.0 advscdn.com
 0.0.0.0 advserver.cgv.vn
 0.0.0.0 advservert.com
 0.0.0.0 advtek.actonservice.com
@@ -28287,6 +28288,7 @@
 0.0.0.0 cdn.rapolok.com
 0.0.0.0 cdn.rausfml.com
 0.0.0.0 cdn.ravelin.net
+0.0.0.0 cdn.ravm.tv
 0.0.0.0 cdn.reachforce.com
 0.0.0.0 cdn.reaktion.se
 0.0.0.0 cdn.recognified.net
@@ -30094,6 +30096,7 @@
 0.0.0.0 cname2.getui.com
 0.0.0.0 cname3.getui.com
 0.0.0.0 cname6.getui.com
+0.0.0.0 cnames.raps.ravm.tv
 0.0.0.0 cnative.propellerclick.com
 0.0.0.0 cnb.cnews.ru
 0.0.0.0 cnbxqqemvuubaf.com
@@ -32730,6 +32733,7 @@
 0.0.0.0 d.adtelligent.com
 0.0.0.0 d.adtriba.com
 0.0.0.0 d.adup-tech.com
+0.0.0.0 d.advscdn.com
 0.0.0.0 d.adx.io
 0.0.0.0 d.afdads.com
 0.0.0.0 d.agabreloomr.com
@@ -35364,6 +35368,7 @@
 0.0.0.0 display.popt.in
 0.0.0.0 display.provenpixel.com
 0.0.0.0 display.qc.coccoc.com
+0.0.0.0 display.ravm.tv
 0.0.0.0 display.stackadapt.com
 0.0.0.0 display.videoo.tv
 0.0.0.0 display.xad.com
@@ -44277,6 +44282,7 @@
 0.0.0.0 hazicu.hothomefuck.com
 0.0.0.0 hazoopso.net
 0.0.0.0 hazymarvellous.com
+0.0.0.0 hb-4y7w.raps.ravm.tv
 0.0.0.0 hb-ab.vntsm.com
 0.0.0.0 hb-api-fra02.omnitagjs.com
 0.0.0.0 hb-api-ovh-bh.omnitagjs.com
@@ -44284,7 +44290,11 @@
 0.0.0.0 hb-api-usa02.omnitagjs.com
 0.0.0.0 hb-api.omnitagjs.com
 0.0.0.0 hb-bidder.skcrtxr.com
+0.0.0.0 hb-e8zk.raps.ravm.tv
 0.0.0.0 hb-pb.media.net
+0.0.0.0 hb-r93v.raps.ravm.tv
+0.0.0.0 hb-t5u9.raps.ravm.tv
+0.0.0.0 hb-w4a8.raps.ravm.tv
 0.0.0.0 hb.360yield.com
 0.0.0.0 hb.ad.cpe.dotomi.com
 0.0.0.0 hb.adingo.jp
@@ -58943,6 +58953,7 @@
 0.0.0.0 p.raasnet.com
 0.0.0.0 p.rapolok.com
 0.0.0.0 p.raudoufoay.com
+0.0.0.0 p.ravm.tv
 0.0.0.0 p.reechegraih.com
 0.0.0.0 p.renadomsey.com
 0.0.0.0 p.rfihub.com
@@ -80042,6 +80053,7 @@
 0.0.0.0 prebid-server.yieldlove-ad-serving.net
 0.0.0.0 prebid-sg.casalemedia.com
 0.0.0.0 prebid-sj.casalemedia.com
+0.0.0.0 prebid-stag.setupad.net
 0.0.0.0 prebid-ty.casalemedia.com
 0.0.0.0 prebid-us-lat.inv.creativecdn.com
 0.0.0.0 prebid-us.creativecdn.com
@@ -82543,6 +82555,7 @@
 0.0.0.0 rapingdistil.com
 0.0.0.0 rapolok.com
 0.0.0.0 rappio.deliveryengine.adswizz.com
+0.0.0.0 raps.ravm.tv
 0.0.0.0 rapturemeddle.com
 0.0.0.0 rar-vpn.com
 0.0.0.0 rareru.ru
@@ -82587,6 +82600,7 @@
 0.0.0.0 ravensburger01.webtrekk.net
 0.0.0.0 raverduhat.top
 0.0.0.0 ravineagencyirritating.com
+0.0.0.0 ravm.tv
 0.0.0.0 ravqaroffn.com
 0.0.0.0 ravzbd.xyz
 0.0.0.0 raw-co.com
@@ -84808,6 +84822,7 @@
 0.0.0.0 s.adstreamer.ru
 0.0.0.0 s.adtelligent.com
 0.0.0.0 s.advertiserurl.com
+0.0.0.0 s.advscdn.com
 0.0.0.0 s.adx.io
 0.0.0.0 s.adx.opera.com
 0.0.0.0 s.adxvip.com
@@ -86674,6 +86689,7 @@
 0.0.0.0 settrogens.com
 0.0.0.0 setupad-d.openx.net
 0.0.0.0 setupad-tagan.adlightning.com
+0.0.0.0 setupad.net
 0.0.0.0 setupdeliveredteapot.com
 0.0.0.0 setupslum.com
 0.0.0.0 seuranta.finland.fi
