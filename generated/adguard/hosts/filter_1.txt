@@ -8909,7 +8909,6 @@
 0.0.0.0 a.optinmonster.com
 0.0.0.0 a.optmnstr.com
 0.0.0.0 a.optnmnstr.com
-0.0.0.0 a.opumo.net
 0.0.0.0 a.orbsrv.com
 0.0.0.0 a.ourcommonnews.com
 0.0.0.0 a.ourcommonstories.com
@@ -16741,7 +16740,6 @@
 0.0.0.0 ad.impactify.io
 0.0.0.0 ad.impactify.media
 0.0.0.0 ad.insight.a-i-ad.com
-0.0.0.0 ad.inter-edu.com
 0.0.0.0 ad.intl.xiaomi.com
 0.0.0.0 ad.iplayer.org
 0.0.0.0 ad.ipredictive.com
@@ -20648,7 +20646,6 @@
 0.0.0.0 analytics.dealmoon.com
 0.0.0.0 analytics.denimdream.com
 0.0.0.0 analytics.dev.htmedia.in
-0.0.0.0 analytics.dev.springboardvideo.com
 0.0.0.0 analytics.developer.riotgames.com
 0.0.0.0 analytics.digi8.vn
 0.0.0.0 analytics.digital-metric.com
@@ -20892,12 +20889,10 @@
 0.0.0.0 analytics.sonjj.com
 0.0.0.0 analytics.spankbang.com
 0.0.0.0 analytics.sports.ru
-0.0.0.0 analytics.springboardvideo.com
 0.0.0.0 analytics.spun.com.br
 0.0.0.0 analytics.stanby.com
 0.0.0.0 analytics.starlink.com
 0.0.0.0 analytics.starmakerstudios.com
-0.0.0.0 analytics.stg.springboardvideo.com
 0.0.0.0 analytics.strangeloopnetworks.com
 0.0.0.0 analytics.studiodesignapp.com
 0.0.0.0 analytics.styria.hr
@@ -21662,6 +21657,7 @@
 0.0.0.0 api.rtnews.pro
 0.0.0.0 api.rubyblu.com
 0.0.0.0 api.rudderlabs.com
+0.0.0.0 api.rudderstack.com
 0.0.0.0 api.saambaa.com
 0.0.0.0 api.sabavision.com
 0.0.0.0 api.samuraiclick.com
@@ -29237,7 +29233,6 @@
 0.0.0.0 chumsaft.com
 0.0.0.0 chunkkalmias.com
 0.0.0.0 chunkstoreycurled.com
-0.0.0.0 chunyuqiufeng.com
 0.0.0.0 chuongtrinhgionghaatvietnhii2021.weebly.com
 0.0.0.0 chuongtrinhgionghatvietnamnhi2021.weebly.com
 0.0.0.0 chuptuwais.com
@@ -30919,7 +30914,6 @@
 0.0.0.0 collector5.zipy.ai
 0.0.0.0 collectorcommander.com
 0.0.0.0 collectorj.tvsquared.com
-0.0.0.0 collectorsvc.apac.vesta.io
 0.0.0.0 collegeauthority.actonservice.com
 0.0.0.0 colliers.actonservice.com
 0.0.0.0 collisionasheseliminate.com
@@ -37773,6 +37767,7 @@
 0.0.0.0 engagefurnishedfasten.com
 0.0.0.0 engagement.uniqodo.com
 0.0.0.0 engagementdepressingseem.com
+0.0.0.0 engagements.appsflyer.com
 0.0.0.0 engagetosell.com
 0.0.0.0 engageya.com
 0.0.0.0 engelhorn01.webtrekk.net
@@ -46138,6 +46133,7 @@
 0.0.0.0 idvideo678.blogspot.com
 0.0.0.0 idwrx.com
 0.0.0.0 idx.liadm.com
+0.0.0.0 idyllteapots.com
 0.0.0.0 ie-g2.gumgum.com
 0.0.0.0 ie-gmtdmp.mookie1.com
 0.0.0.0 ie-lb.gumgum.com
@@ -81437,7 +81433,6 @@
 0.0.0.0 px.powerlinks.com
 0.0.0.0 px.quantserve.com
 0.0.0.0 px.saostar.vn
-0.0.0.0 px.spiceworks.com
 0.0.0.0 px.staticfiles.at
 0.0.0.0 px.steelhousemedia.com
 0.0.0.0 px.sunmedia.tv
@@ -85258,6 +85253,7 @@
 0.0.0.0 s2s-origin.mathtag.com
 0.0.0.0 s2s-sc-main-was.adservrs.com
 0.0.0.0 s2s-sc-main-was.aniview.com
+0.0.0.0 s2s.adjust.com
 0.0.0.0 s2s.adpushup.com
 0.0.0.0 s2s.aniview.com
 0.0.0.0 s2s.g2afse.com
@@ -91503,7 +91499,6 @@
 0.0.0.0 t.bmmetrix.com
 0.0.0.0 t.botsaunirt.com
 0.0.0.0 t.bouhaisaufy.com
-0.0.0.0 t.brand-server.com
 0.0.0.0 t.buyist.app
 0.0.0.0 t.byhoppipan.com
 0.0.0.0 t.c-rtb.com
@@ -91725,7 +91720,6 @@
 0.0.0.0 t.psirsoor.com
 0.0.0.0 t.psistaugli.com
 0.0.0.0 t.psoopoakihou.com
-0.0.0.0 t.pswec.com
 0.0.0.0 t.ptaumoadsovu.com
 0.0.0.0 t.ptoaltie.com
 0.0.0.0 t.ptumtaip.com
@@ -98731,6 +98725,7 @@
 0.0.0.0 viettgov.cc
 0.0.0.0 viettlot135p.com
 0.0.0.0 view-flix.com
+0.0.0.0 view.adjust.com
 0.0.0.0 view.admeking.com
 0.0.0.0 view.bounceexchange.com
 0.0.0.0 view.dsp.reemo-ad.jp

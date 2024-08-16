@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-08-15T00:51:17Z
+! Last modified: 2024-08-16T00:53:05Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: 73K75pFf6c47sNTtBX7mNw
-! Diff-Path: ../patches/18/18-s-1723671377-3600.patch
+! Checksum: T7Vo3kA6K2PyDZqidg8JpQ
+! Diff-Path: ../patches/18/18-s-1723757782-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.45.31
-! TimeUpdated: 2024-08-14T21:32:57+00:00
+! Version: 2.0.45.40
+! TimeUpdated: 2024-08-15T21:33:04+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2430,6 +2430,14 @@ docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io##[aria-label="Cookies"]
 !
 ! NOTE: Regular rules
 !
+minimeal.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+minimeal.com#$##id_cookie_banner ~ div.offcanvas-backdrop { display: none !important; }
+minimeal.com#$##id_cookie_banner { display: none !important; }
+advgazeta.ru##.popup--confidential
+olajwebshop.hu##.cookie-alert ~ div#exposeMaskOverlay
+qamadness.com#$##cookie-law-info-bar { display: none !important; }
+qamadness.com#$#body { overflow: auto !important; }
+heidelberg24.de#$?#.cmp-modal-open { overflow: auto !important; }
 claude.ai##body > div:has(> div[data-theme="claude"] > h3:contains(Cookie))
 westermann.de##.component-cookie-overlay-wrapper
 eshop.wurth.pl###consent_modal_backdrop
@@ -2846,7 +2854,7 @@ freikirche-hamm.de#$#body { overflow: auto !important; filter: none !important; 
 ufi.org###cookies-prompt
 mtp.pl##+js(set-cookie, cookieVers, 1)
 eshe.club##div[class^="CookieNotification__"]
-yunusonline.com,tuitam.com.pl,cccmh.co.jp,resecurity.com,nspk.ru,eirc.spb.ru,petslike.ua##.cookie
+tera.cz,yunusonline.com,tuitam.com.pl,cccmh.co.jp,resecurity.com,nspk.ru,eirc.spb.ru,petslike.ua##.cookie
 ati.su##div[class^="CookieBanner"]
 android.com.pl##.Button--cmp
 elliberal.com.ar##.bannerCookie
@@ -3435,7 +3443,7 @@ dhakapost.com##main > div.fixed.bottom-0
 portaleargo.it###spopupCont
 drudgereport.com##div[id^="dr_dae_consent"]
 greenwaypolska.pl##div[id^="the_cookies"]
-toloka.ai##div[data-testid="cookieBanner"]
+scuk.cz,toloka.ai##div[data-testid="cookieBanner"]
 rittal.com##+js(set-cookie, rittalCC, 1)
 holyjs.ru##div[class*="CookieAlert_cookieAlert"]
 instytutsprawobywatelskich.pl###cookie-consent-modal
@@ -14734,6 +14742,13 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186237
+qamadness.com#@##cookie-law-info-bar
+qamadness.com#@##cliSettingsPopup
+! heidelberg24.de - broken comments
+@@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$domain=heidelberg24.de
+! ruhr24.de - embed not working
+@@||delivery.consentmanager.net/delivery/cmp.php$domain=ruhr24.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186258
 @@||policy.app.cookieinformation.com/uc.js$domain=3.dk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186046
