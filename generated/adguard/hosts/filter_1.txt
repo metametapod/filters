@@ -21622,6 +21622,7 @@
 0.0.0.0 api.piads.vn
 0.0.0.0 api.piclick.kr
 0.0.0.0 api.pingstart.com
+0.0.0.0 api.positional.ai
 0.0.0.0 api.primecaster.net
 0.0.0.0 api.production.ownpage.fr
 0.0.0.0 api.products.kameleoon.com
@@ -22729,6 +22730,7 @@
 0.0.0.0 assets.newsmaxwidget.com
 0.0.0.0 assets.ownpage.fr
 0.0.0.0 assets.pgs.io
+0.0.0.0 assets.positional-bucket.com
 0.0.0.0 assets.prod.leanplum.com
 0.0.0.0 assets.pubpowerplatform.io
 0.0.0.0 assets.quantcount.com
@@ -34085,6 +34087,7 @@
 0.0.0.0 data.digitalks.az
 0.0.0.0 data.econa.com
 0.0.0.0 data.eetech.com
+0.0.0.0 data.embeddables.com
 0.0.0.0 data.ero-advertising.com
 0.0.0.0 data.flurry.com
 0.0.0.0 data.gblcdn.com
@@ -40764,6 +40767,7 @@
 0.0.0.0 fnasmpygwa.com
 0.0.0.0 fnaycb.com
 0.0.0.0 fnbauniukvi.com
+0.0.0.0 fndrsp.net
 0.0.0.0 fnelqqh.com
 0.0.0.0 fnjoomqa.icu
 0.0.0.0 fnlojkpbe.com
@@ -48394,6 +48398,7 @@
 0.0.0.0 jiankongbao.com
 0.0.0.0 jiaopei.com
 0.0.0.0 jiclzori.com
+0.0.0.0 jifflebreasts.com
 0.0.0.0 jifflenow.actonservice.com
 0.0.0.0 jighucme.com
 0.0.0.0 jignairy.com
@@ -56898,6 +56903,7 @@
 0.0.0.0 nsaudience.pl
 0.0.0.0 nsbak.mediaz.vn
 0.0.0.0 nscash.com
+0.0.0.0 nsclick.baidu.com
 0.0.0.0 nscreenads.us-east-1.stinger-ad.bidr.io
 0.0.0.0 nservantasrela.info
 0.0.0.0 nsfocus.actonservice.com
@@ -79811,6 +79817,8 @@
 0.0.0.0 poshsenseless.com
 0.0.0.0 poshsplitdr.com
 0.0.0.0 poshyouthfulton.com
+0.0.0.0 positional-bucket.com
+0.0.0.0 positional.ai
 0.0.0.0 positionavailreproach.com
 0.0.0.0 positioner.info
 0.0.0.0 positions.upscore.com
@@ -80750,6 +80758,7 @@
 0.0.0.0 proxy-jw-east-3.us-east-1.local.emxdgt.com
 0.0.0.0 proxy.dzeio.com
 0.0.0.0 proxy.optoutadvertising.com
+0.0.0.0 proxy.trysavvy.com
 0.0.0.0 proxyjs.brdtnet.com
 0.0.0.0 proxyjs.bright-sdk.com
 0.0.0.0 prp.adtima.vn
@@ -86666,6 +86675,7 @@
 0.0.0.0 sessioncam.com
 0.0.0.0 sessionlb.sitelabweb.com
 0.0.0.0 sessionm.com
+0.0.0.0 sessions.embeddables.com
 0.0.0.0 set.abberantbeefy.com
 0.0.0.0 set.tidaltv.com
 0.0.0.0 setaram.actonservice.com
@@ -94417,6 +94427,7 @@
 0.0.0.0 trace.51jingying.com
 0.0.0.0 trace.browser-intake-datadoghq.com
 0.0.0.0 trace.mediago.io
+0.0.0.0 trace.mjyx.com
 0.0.0.0 trace.qq.com
 0.0.0.0 trace.rememberapp.co.kr
 0.0.0.0 trace.swaven.com
@@ -94561,6 +94572,7 @@
 0.0.0.0 track.kupona.de
 0.0.0.0 track.kyoads.com
 0.0.0.0 track.lacunads.com
+0.0.0.0 track.lc.quark.cn
 0.0.0.0 track.leadhit.io
 0.0.0.0 track.leady.cz
 0.0.0.0 track.lemmatechnologies.com
