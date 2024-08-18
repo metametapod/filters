@@ -18838,6 +18838,7 @@
 0.0.0.0 adtag.technoratimedia.com
 0.0.0.0 adtag.where.com
 0.0.0.0 adtarget.com.tr
+0.0.0.0 adtarget.market
 0.0.0.0 adtarget.me
 0.0.0.0 adtcomprod.112.2o7.net
 0.0.0.0 adtdp.com
@@ -27723,6 +27724,7 @@
 0.0.0.0 cdn.adt567.net
 0.0.0.0 cdn.adt598.com
 0.0.0.0 cdn.adtarget.com.tr
+0.0.0.0 cdn.adtarget.market
 0.0.0.0 cdn.adtarget.me
 0.0.0.0 cdn.adtelligent.com
 0.0.0.0 cdn.adtheorent.com
@@ -33142,6 +33144,7 @@
 0.0.0.0 d1g4493j0tcwvt.cloudfront.net
 0.0.0.0 d1g4xgvlcsj49g.cloudfront.net
 0.0.0.0 d1g8forfjnu2jh.cloudfront.net
+0.0.0.0 d1get58iwmjrxx.cloudfront.net
 0.0.0.0 d1gp8joe0evc8s.cloudfront.net
 0.0.0.0 d1gwclp1pmzk26.cloudfront.net
 0.0.0.0 d1ha41wacubcnb.cloudfront.net
@@ -36445,7 +36448,6 @@
 0.0.0.0 dynamyn.g2afse.com
 0.0.0.0 dynamyn.go2affise.com
 0.0.0.0 dynatrace-managed.com
-0.0.0.0 dynatrace.att.com
 0.0.0.0 dync.c.appier.net
 0.0.0.0 dync4.c.appier.net
 0.0.0.0 dync6.c.appier.net
@@ -84389,6 +84391,7 @@
 0.0.0.0 rtb.api.vungle.com
 0.0.0.0 rtb.appbid.com
 0.0.0.0 rtb.appier.net
+0.0.0.0 rtb.cdn.adtarget.market
 0.0.0.0 rtb.com.ru
 0.0.0.0 rtb.conative.network
 0.0.0.0 rtb.d.adup-tech.com
@@ -89499,6 +89502,7 @@
 0.0.0.0 statclick.nate.com
 0.0.0.0 statcollector.sidearmsports.com
 0.0.0.0 statcounter-de.visitor-analytics.io
+0.0.0.0 statcounter.va-endpoint.com
 0.0.0.0 statcounter.visitor-analytics.io
 0.0.0.0 statcounterfree.com
 0.0.0.0 statdb.blogads.com
@@ -106076,6 +106080,7 @@
 0.0.0.0 z.cdn.adpool.bet
 0.0.0.0 z.cdn.adsbetnet.com
 0.0.0.0 z.cdn.adservob.com
+0.0.0.0 z.cdn.adtarget.market
 0.0.0.0 z.cdn.adtarget.me
 0.0.0.0 z.cdn.bescore.com
 0.0.0.0 z.cdn.braun634.com
