@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-08-20T00:53:08Z
+! Last modified: 2024-08-21T00:53:23Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: oloU15e3cs2p9EJWXQ47JA
-! Diff-Path: ../patches/18/18-s-1724092602-3600.patch
+! Checksum: cEKdAy1JEP3xelOTCJVGGA
+! Diff-Path: ../patches/18/18-s-1724168227-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.45.60
-! TimeUpdated: 2024-08-19T18:33:12+00:00
+! Version: 2.0.45.68
+! TimeUpdated: 2024-08-20T15:33:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2316,6 +2316,7 @@ tarsushaber.com,mhrs.gov.tr,malatyasoz.com,nehir.net,yeniufuk.com.tr,enpolitik.c
 creativefabrica.com,flickplay.co,globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com,shoppingcidademaringa.com.br##.MuiSnackbar-anchorOriginBottomCenter
 ! consentmanager.net (check, if embed content and videos are not broken)
 ||consentmanager.net^$domain=visions.de|gartenlexikon.de|tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|wolfsburger-nachrichten.de|braunschweiger-zeitung.de|mediengestalter.info|sugafari.com|gdv.de|uk-essen.de|dieversicherer.de|tomaten.de|aquarienpflanzen-shop.de|jobs.shz.de|nrz.de|leichtathletik.de|ikz-online.de|radiobollerwagen.de|hervis.at|frustfrei-lernen.de|entsorgen.org|waz.de|wr.de|harzkurier.de|consentmanager.net|juraforum.de|history.de|inrlp.de|teslamag.de|e-konomista.pt|cylex-polska.pl|agrarheute.com|allesbeste.de|azubiyo.de|olympia-einkaufszentrum.de|mannheimer-morgen.de|autopay.pl|r.pl|datacenter-insider.de|eternalgod.de|news.de|quoka.de|correctiv.org|ak-kurier.de|verliebt-in-den-westerwald.de|ww-kurier.de|nzz.ch|masterstudies.com|littlebigsnake.com|skr.de|morgenpost.de|astat.pl|9monate.de|bildderfrau.de|donna-magazin.de|eatclub.tv|heftig.de|reviersport.de|winfuture-forum.de|chemie.de|sylt.de|grin.com
+! privacy-center.org / didomi
 !
 ! Didomi
 ! ###didomi-host
@@ -2378,7 +2379,7 @@ veolia.de,iyihisset.com,amerika21.de,museicapitolini.org,developer.zillya.com,in
 ! ###CookiesPolicy
 multiplan.com.br,jundiaishopping.com.br,ribeiraoshopping.com.br,shoppingvilaolimpia.com.br,parkshopping.com.br,barrashopping.com.br,parkshoppingbarigui.com.br,barrashoppingsul.com.br,parkshoppingcanoas.com.br,patiosavassi.com,diamondmall.com.br,morumbishopping.com.br###CookiesPolicy
 ! Sourcepoint cookie consent
-leedsunited.news,amateurphotographer.com,gpfans.com,nehnutelnosti.sk,btc-echo.de,geo.fr,scinexx.de,popbuzz.com,smoothradio.com,mein-schoener-garten.de,thetimes.co.uk,eveningnews24.co.uk,businessgreen.com,telepolis.de,rollingstone.de,bnr.nl,iltapulu.fi,vrt.be,szbz.de,newsnow.co.uk,pcworld.pl,np-coburg.de,whats-on-netflix.com,business-punk.com,the-sun.com,thesun.ie,demorgen.be,7sur7.be,vtm.be,kino.de,intouch.wunderweib.de,bravo.de,op-marburg.de,cz.de,apotheken-umschau.de,liebenswert-magazin.de,manager-magazin.de,cosmopolitan.de,stylebook.de,tag24.de,kochbar.de,tvmovie.de,desired.de,preis.de,vorname.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
+leedsunited.news,amateurphotographer.com,gpfans.com,nehnutelnosti.sk,btc-echo.de,geo.fr,scinexx.de,popbuzz.com,smoothradio.com,mein-schoener-garten.de,thetimes.co.uk,eveningnews24.co.uk,businessgreen.com,telepolis.de,rollingstone.de,bnr.nl,iltapulu.fi,vrt.be,szbz.de,newsnow.co.uk,pcworld.pl,np-coburg.de,whats-on-netflix.com,business-punk.com,the-sun.com,thesun.ie,demorgen.be,7sur7.be,vtm.be,kino.de,bravo.de,op-marburg.de,cz.de,apotheken-umschau.de,liebenswert-magazin.de,manager-magazin.de,cosmopolitan.de,stylebook.de,tag24.de,kochbar.de,tvmovie.de,desired.de,preis.de,vorname.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 promiflash.de,leedsunited.news,amateurphotographer.com,gpfans.com,btc-echo.de,geo.fr,scinexx.de,popbuzz.com,smoothradio.com,thetimes.co.uk,businessgreen.com,telepolis.de,bnr.nl,iltapulu.fi,wowtv.de,newsnow.co.uk,pcworld.pl,np-coburg.de,voici.fr,the-sun.com,thesun.ie,capital.fr,ladbible.com,hitc.com,dualshockers.com,is.fi,7sur7.be,vtm.be,welt.de,gamingbible.co.uk,unilad.co.uk,stern.de,programme-tv.net,infoworld.com,networkworld.com,urbia.de,intouch.wunderweib.de,bravo.de,berliner-zeitung.de,maennersache.de,rheinpfalz.de,independent.co.uk,berliner-kurier.de,paz-online.de,ln-online.de,sportbuzzer.de,op-marburg.de,ad.nl,cz.de,apotheken-umschau.de,liebenswert-magazin.de,hln.be,sn-online.de,gala.de,schoener-wohnen.de,cosmopolitan.de,stylebook.de,familie.de,kino.de,stuttgarter-nachrichten.de,cyberport.de,motorsport-magazin.com,kochbar.de,tvmovie.de,shz.de,bz-berlin.de,rblive.dewelt.de,desired.de,sportbuzzer.de,fitbook.de,wunderweib.de,hitc.com,haz.de,rnd.de,faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com,tag24.de,cosmopolitan.de,mein-schoener-garten.de#$?#.sp-message-open { overflow: auto !important; position: static !important; margin-top: 0 !important; }
@@ -2431,6 +2432,14 @@ docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io##[aria-label="Cookies"]
 !
 ! NOTE: Regular rules
 !
+norton.com##div[src] > div:has(> label + p + button)
+simyo.es##.m-cookies-notice
+cheaperthandirt.com##.new-consent-banner:not(#style_important)
+fin.do##div[class^="AcceptCookies"]
+santander.rewardgateway.co.uk##div[data-testid="cookie-consent-banner-background"]
+whatsmyname.app##+js(set-session-storage-item, cookieConsent, true)
+audiovisualfromspain.com,icex.es##.cookies-modal-footer-cmp__container
+porque.com.br###termos_analytics
 ccaa.com.br###banner-footer-lgpd
 suspilne.media##.cookies-popup-suspilne
 dobreprogramy.pl###modal-placement + div[class]:has( div > h3 + p a[href^="https://holding.wp.pl"])
@@ -3350,7 +3359,7 @@ krotoski.com###elementor-popup-modal-856
 jaworzynakrynicka.pl###cookies-consent__window
 doppelmayr.com###dop-cookiebanner-overlay
 doppelmayr.com###dop-cookiebanner
-rutube.ru##noindex.eu-cookie-popup-module__eu_cookie_popup
+rutube.ru##.eu-cookie-popup-module__eu_cookie_popup
 thesports.com##.cookie-message-page
 miniclip.com##.mc-consents-wrapper
 lactoflorene.eu##.pup-container-cookie
@@ -3446,7 +3455,7 @@ libero.it#$#html { overflow: auto !important; }
 eluniverso.com##.bottom-0.fixed > .bg-blue-500
 cine-max.sk,cherytr.com##.cc-nb-main-container
 konami.com###privacy-information-cookie-notice
-szkolawchmurze.org##app-cookies-consent-banner
+takima.fr,szkolawchmurze.org##app-cookies-consent-banner
 neplp.lv,riga.lv#$#body { overflow: auto !important; }
 neplp.lv,riga.lv#$#body #cookieConsent { display: none !important; }
 manninc.co.uk##body.bodyLock::before
@@ -3733,7 +3742,7 @@ shahid.mbc.net##div[data-testid="cookie-popup"]
 tome.app#$##__next > div[aria-live="polite"][role="dialog"].bottom-0 { position: absolute !important; left: -3000px !important; }
 memurlar.net###PersonalDataInfoBar
 donstroy.moscow##.d-cookie
-blog.bitsrc.io,medium.com#?#body > div > div[class*=" "]:has(div[class][role="alert"] > a[href^="https://policy.medium.com/medium-privacy-policy-"][target="_blank"])
+blog.stackademic.com,blog.bitsrc.io,medium.com#?#body > div > div[class*=" "]:has(div[class][role="alert"] > a[href^="https://policy.medium.com/medium-privacy-policy-"][target="_blank"])
 revistaoeste.com##.accept-cookies-container
 watson.ch##.watson-cookie-footer
 malaysiaairlines.com#$#html { position: unset !important; }
@@ -4884,8 +4893,8 @@ tempcover.com#$##CookieConsentFullscreenWrapper { display: none !important; }
 aicom.pl##.alert-warning
 jolly-sacky.cz###cookies_confirm_wrapper
 givery.sk,givery.cz#$#.modal-backdrop { display: none !important; }
-givery.sk,givery.cz#$#body #cookie-modal { display: none !important; }
-givery.sk,givery.cz#$#body.modal-open { overflow-y: auto !important; padding-right: 0 !important; }
+bnet-internet.cz,givery.sk,givery.cz#$#body #cookie-modal { display: none !important; }
+bnet-internet.cz,givery.sk,givery.cz#$#body.modal-open { overflow-y: auto !important; padding-right: 0 !important; }
 nordvpn.com##.GDPRConsent
 perfectcorp.com##.pf-header-cookiestatement
 hindustantimes.com###gdprpopup
@@ -5672,14 +5681,13 @@ rainfordsolutions.com#$#body #cookieModal { display: none !important; }
 rainfordsolutions.com#?#.jquery-modal:has(> #cookieModal)
 merkur.si#$#body { overflow: auto !important; }
 merkur.si#$#.cookie-notice { display: none !important; }
-rutube.ru##.eu-cookie-popup
 ||cmp.omni.se/messagingNoTcfApi.js
 bet365.*##.ccm-CookieConsentPopup
 immohal.de##+js(remove-class, sticky-top, body)
 dajar.pl#?#div[id="__app__"] > div[class^="css-"]:has(> div[class] button[data-test="accept-cookies-button"])
 bok.polsatbox.pl##.showit
 picrew.me##.st-Terms_Wrapper
-thewest.com.au,icehousemidtown.com,boldgrid.com##div[aria-label^="Cookie"]
+interdiscount.ch,thewest.com.au,icehousemidtown.com,boldgrid.com##div[aria-label^="Cookie"]
 promods.net##.tibrr-cookie-consent-container
 encazip.com##.eHzdtJ
 encazip.com#?##__next > footer + div[class]:has(> div[class] > div[class] > div[class]:contains(/^Çerez Politikası$/))
@@ -8426,7 +8434,7 @@ solintel.com.br###lgpd_dialog
 solintel.com.br###lgpd_floating
 portal.epost.de##app-cookie-policy-notification
 redhat.com###redhat-cookie-privacy-banner
-splenda.com.tr,imago-images.de##.cookieMsg
+portal.mineco.gob.es,splenda.com.tr,imago-images.de##.cookieMsg
 cartier.com,shop.philips.ru##.test-mode__wrap
 mercadolibre.*,mercadopago.*###newCookieDisclaimerBanner
 support.gingerlabs.com###safari-warning-callout
@@ -14774,6 +14782,16 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/186804
+eett.gr#@##cookie-law-info-bar
+eett.gr#@##cliSettingsPopup
+eett.gr#@#.cli-popupbar-overlay
+! https://github.com/AdguardTeam/AdguardFilters/issues/186514
+bnet-internet.cz#@##cookie-modal
+bnet-internet.cz#@#.cookie-modal
+bnet-internet.cz#@#.cookie-content
+! https://github.com/AdguardTeam/AdguardFilters/issues/186795
+@@||sdk.privacy-center.org^$domain=lalibre.be
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186550
 southernliving.com#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186730

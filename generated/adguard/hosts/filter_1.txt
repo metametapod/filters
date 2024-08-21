@@ -19836,7 +19836,6 @@
 0.0.0.0 akstat.io
 0.0.0.0 aktrack.pubmatic.com
 0.0.0.0 aktxwijitaqs.com
-0.0.0.0 aku3.mta.exacttarget.com
 0.0.0.0 akutapro.com
 0.0.0.0 al-a.dc-tag.jp
 0.0.0.0 al-adtech.com
@@ -21978,7 +21977,6 @@
 0.0.0.0 app.50bang.org
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.io
-0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
 0.0.0.0 app.adoric-om.com
 0.0.0.0 app.adroll.com
@@ -23163,7 +23161,6 @@
 0.0.0.0 auth.cityads.com
 0.0.0.0 auth.estat.com
 0.0.0.0 auth.modulepush.com
-0.0.0.0 auth.s1.exacttarget.com
 0.0.0.0 auth.signifyd.com
 0.0.0.0 auth.trafficstars.com
 0.0.0.0 auth.visiblemeasures.com
@@ -25766,7 +25763,6 @@
 0.0.0.0 bounce-ads.de
 0.0.0.0 bounce-west.emxdgt.com
 0.0.0.0 bounce.keywee.co
-0.0.0.0 bounce.s7.exacttarget.com
 0.0.0.0 bounceads.net
 0.0.0.0 bouncebidder.com
 0.0.0.0 bounceexchange.com
@@ -29610,10 +29606,6 @@
 0.0.0.0 click.vcommission.com
 0.0.0.0 click.vgnett.no
 0.0.0.0 click.vieon.vn
-0.0.0.0 click.virt.exacttarget.com
-0.0.0.0 click.virt.s4.exacttarget.com
-0.0.0.0 click.virt.s6.exacttarget.com
-0.0.0.0 click.virt.s7.exacttarget.com
 0.0.0.0 click.wct.link
 0.0.0.0 click2comm.g2afse.com
 0.0.0.0 click2commission.g2afse.com
@@ -31823,7 +31815,6 @@
 0.0.0.0 counter.web.money
 0.0.0.0 counter.webmart.de
 0.0.0.0 counter.websiteout.net
-0.0.0.0 counter.wikiwiki.jp
 0.0.0.0 counter.yadro.ru
 0.0.0.0 counter1.fc2.com
 0.0.0.0 counter2.blog.livedoor.com
@@ -32020,7 +32011,6 @@
 0.0.0.0 cr.najva.com
 0.0.0.0 cr00.biz
 0.0.0.0 cr08.biz
-0.0.0.0 cr1.mta.exacttarget.com
 0.0.0.0 cr6.yovoads.com
 0.0.0.0 cr_stats.upscore.com
 0.0.0.0 cra-cdn.silverpush.co
@@ -34966,7 +34956,6 @@
 0.0.0.0 df.socdm.com
 0.0.0.0 df.tanx.com
 0.0.0.0 df0a70cd-f13c-42dc-ab8c-659257cbb30a.edge.permutive.app
-0.0.0.0 df177.mta.exacttarget.com
 0.0.0.0 df671b60243cd28b7988083cf3aacb73.safeframe.googlesyndication.com
 0.0.0.0 df72a25240ae453ea3f7ea187e190999.events.ubembed.com
 0.0.0.0 df72a25240ae453ea3f7ea187e190999.js.ubembed.com
@@ -41094,9 +41083,6 @@
 0.0.0.0 fpukxcinlf.com
 0.0.0.0 fpvdrzx.xyz
 0.0.0.0 fpzpmx.com
-0.0.0.0 fq141.mta.exacttarget.com
-0.0.0.0 fq149.mta.exacttarget.com
-0.0.0.0 fq31.mta.exacttarget.com
 0.0.0.0 fqbjzj.xyz
 0.0.0.0 fqfclmlo.xyz
 0.0.0.0 fqhsp3hygzhg7z7us.ay.delivery
@@ -43556,7 +43542,6 @@
 0.0.0.0 gt.frontend.weborama.fr
 0.0.0.0 gt.info.lgsmartad.com
 0.0.0.0 gt.yessoripener.com
-0.0.0.0 gt237.mta.exacttarget.com
 0.0.0.0 gt5tiybvn.com
 0.0.0.0 gta.growingio.com
 0.0.0.0 gta0.growingio.com
@@ -44341,7 +44326,6 @@
 0.0.0.0 hb.yahoo.net
 0.0.0.0 hb.yellowblue.io
 0.0.0.0 hb2.media.net
-0.0.0.0 hb220.mta.exacttarget.com
 0.0.0.0 hb94dnbe.de
 0.0.0.0 hbagency.it
 0.0.0.0 hbb.afl.rakuten.co.jp
@@ -45224,6 +45208,7 @@
 0.0.0.0 hpyjmp.com
 0.0.0.0 hpyrdr.com
 0.0.0.0 hpzktd.xyz
+0.0.0.0 hq.norardmirror.com
 0.0.0.0 hq1.appsflyer.com
 0.0.0.0 hq3x.com
 0.0.0.0 hqhspv.xyz
@@ -46255,7 +46240,6 @@
 0.0.0.0 iiwm70qvjmee.com
 0.0.0.0 iiwoqm.xyz
 0.0.0.0 iiydmrr.com
-0.0.0.0 ij15.mta.exacttarget.com
 0.0.0.0 ij1inumq.emltrk.com
 0.0.0.0 ijbgqlf.com
 0.0.0.0 ijgbuj.xyz
@@ -46328,7 +46312,6 @@
 0.0.0.0 image.eu.jwamnd.com
 0.0.0.0 image.eu.ptmnd.com
 0.0.0.0 image.eum-appdynamics.com
-0.0.0.0 image.s7.exacttarget.com
 0.0.0.0 image.sitebro.com
 0.0.0.0 image.static.adflex.vn
 0.0.0.0 image2.pubmatic.com
@@ -46829,10 +46812,7 @@
 0.0.0.0 inbornsodcharms.com
 0.0.0.0 inbound-analytics.pixlee.co
 0.0.0.0 inbound-analytics.pixlee.com
-0.0.0.0 inbound-reply.s1.exacttarget.com
 0.0.0.0 inbound-step.heavenmedia.com
-0.0.0.0 inbound.s1.exacttarget.com
-0.0.0.0 inbox.exacttarget.com
 0.0.0.0 inboxlab-d.openx.net
 0.0.0.0 inbrowserplay.com
 0.0.0.0 inbudewr.com
@@ -50015,7 +49995,6 @@
 0.0.0.0 l.beatifulapplabland.com
 0.0.0.0 l.beestuneglon.com
 0.0.0.0 l.betrad.com
-0.0.0.0 l.bfmtv.com
 0.0.0.0 l.botsaunirt.com
 0.0.0.0 l.byhoppipan.com
 0.0.0.0 l.caglonseeh.com
@@ -52121,7 +52100,6 @@
 0.0.0.0 lvs.truehits.in.th
 0.0.0.0 lvs2.truehits.in.th
 0.0.0.0 lvsnmgg.com
-0.0.0.0 lw14.mta.exacttarget.com
 0.0.0.0 lwadm.com
 0.0.0.0 lwdcnz.xyz
 0.0.0.0 lwgadm.com
@@ -53258,13 +53236,6 @@
 0.0.0.0 mc.admetrica.ru
 0.0.0.0 mc.algovid.com
 0.0.0.0 mc.atm.youku.com
-0.0.0.0 mc.exacttarget.com
-0.0.0.0 mc.login.exacttarget.com
-0.0.0.0 mc.s1.exacttarget.com
-0.0.0.0 mc.s10.exacttarget.com
-0.0.0.0 mc.s4.exacttarget.com
-0.0.0.0 mc.s6.exacttarget.com
-0.0.0.0 mc.s7.exacttarget.com
 0.0.0.0 mc.speakol.com
 0.0.0.0 mc.webvisor.org
 0.0.0.0 mc.yandex.com
@@ -55067,7 +55038,6 @@
 0.0.0.0 mta.a-i-ad.com
 0.0.0.0 mta.ad-seek.jp
 0.0.0.0 mta.e.trafficjunky.com
-0.0.0.0 mta.exacttarget.com
 0.0.0.0 mta.nakanohito.jp
 0.0.0.0 mtab.clickmon.co.kr
 0.0.0.0 mtag.mman.kr
@@ -56505,6 +56475,7 @@
 0.0.0.0 ninetyninesec.com
 0.0.0.0 ningdblukzqp.com
 0.0.0.0 ninja-kitchen.extole.io
+0.0.0.0 ninja.data.olxcdn.com
 0.0.0.0 ninja.onap.io
 0.0.0.0 ninnycoastal.com
 0.0.0.0 ninoglostoay.com
@@ -56696,6 +56667,7 @@
 0.0.0.0 nope.xn--ygba1c.wtf
 0.0.0.0 nopolicycrea.info
 0.0.0.0 nopoloferewer.com
+0.0.0.0 norardmirror.com
 0.0.0.0 nordice01.webtrekk.net
 0.0.0.0 nordics.sharpmarketing.eu
 0.0.0.0 norentisol.com
@@ -60645,7 +60617,6 @@
 0.0.0.0 pixel.glimr.io
 0.0.0.0 pixel.homebook.pl
 0.0.0.0 pixel.honestjohn.co.uk
-0.0.0.0 pixel.inbox.exacttarget.com
 0.0.0.0 pixel.industrybrains.com
 0.0.0.0 pixel.ingest.at.atwola.com
 0.0.0.0 pixel.innocom.vn
@@ -81051,8 +81022,6 @@
 0.0.0.0 pub.network
 0.0.0.0 pub.pgssl.com
 0.0.0.0 pub.qwerty24.net
-0.0.0.0 pub.s1.exacttarget.com
-0.0.0.0 pub.s6.exacttarget.com
 0.0.0.0 pub.servidoresge.com
 0.0.0.0 pub.sheknows.com
 0.0.0.0 pub.sitetag.us
@@ -85228,7 +85197,6 @@
 0.0.0.0 s1.adzonestatic.com
 0.0.0.0 s1.artsai.com
 0.0.0.0 s1.aspservice.jp
-0.0.0.0 s1.exacttarget.com
 0.0.0.0 s1.givemelink.cc
 0.0.0.0 s1.intimshop.ru
 0.0.0.0 s1.listrakbi.com
@@ -90397,6 +90365,7 @@
 0.0.0.0 sternlythese.com
 0.0.0.0 steropestreaks.com
 0.0.0.0 sterouhavene.org
+0.0.0.0 stertordorab.com
 0.0.0.0 stethuth.xyz
 0.0.0.0 stetic.com
 0.0.0.0 steveirene.com
@@ -98777,8 +98746,6 @@
 0.0.0.0 view.bounceexchange.com
 0.0.0.0 view.dsp.reemo-ad.jp
 0.0.0.0 view.navdmp.com
-0.0.0.0 view.s6.exacttarget.com
-0.0.0.0 view.s7.exacttarget.com
 0.0.0.0 viewability-events-p2e.sitescout.com
 0.0.0.0 viewability-events-p2w.sitescout.com
 0.0.0.0 viewability-events-z1n.sitescout.com
@@ -102345,7 +102312,6 @@
 0.0.0.0 www.evivuwhoa.com
 0.0.0.0 www.evolutionadv.it
 0.0.0.0 www.evzhzppj5kel.com
-0.0.0.0 www.exacttarget.com
 0.0.0.0 www.examplesusagefeedback.com
 0.0.0.0 www.exasperationdashed.com
 0.0.0.0 www.exchangedbeadannually.com
@@ -106078,6 +106044,7 @@
 0.0.0.0 yyyaih.icu
 0.0.0.0 yyz-v4.pops.fastly-insights.com
 0.0.0.0 yz.scantlyvedette.com
+0.0.0.0 yz.wrightdirely.com
 0.0.0.0 yzfjlvqa.com
 0.0.0.0 yzfrapd.xyz
 0.0.0.0 yzgbsg.xyz
