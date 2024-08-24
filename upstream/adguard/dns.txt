@@ -1,9 +1,9 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.13.56
+! Version: 1.0.13.80
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-08-23T00:22:04.764Z
+! Last modified: 2024-08-24T00:21:20.638Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.26
 !
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-08-23T00:03:04.390Z
+! Last modified: 2024-08-24T00:02:55.115Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -35,6 +35,8 @@
 !
 !
 !
+||wwcpyupbrcuhcsn.com^
+||peenuteque.net^
 ||palaesavgs.com^
 ||flyads1.com^
 ||fasgazazxvi.com^
@@ -10574,6 +10576,7 @@ vkcdnservice.appspot.com^
 ||dinnercreekawkward.com^
 ||dinomicrummies.com^
 ||dinseegny.com^
+||diosminlissome.com^
 ||dioxidtoluyls.com^
 ||diplic.com^
 ||diplnk.com^
@@ -11333,6 +11336,7 @@ vkcdnservice.appspot.com^
 ||duellosheliced.com^
 ||duesirresponsible.com^
 ||duetads.com^
+||dufflesmorinel.com^
 ||dufjgdjeyo.com^
 ||dufrom.com^
 ||duftoagn.com^
@@ -11861,6 +11865,7 @@ vkcdnservice.appspot.com^
 ||ehqdzqi.com^
 ||ehrydnmdoe.com^
 ||eicbgbnbvjf.com^
+||eidoscruster.com^
 ||eiewwepb.com^
 ||eighteenderived.com^
 ||eighteenprofit.com^
@@ -12562,6 +12567,7 @@ vkcdnservice.appspot.com^
 ||ewesmedia.com^
 ||ewhareey.com^
 ||ewikajs.com^
+||ewogloarge.com^
 ||ewoodandwaveo.com^
 ||ewoutosh.com^
 ||ewoverth.buzz^
@@ -13148,6 +13154,7 @@ vkcdnservice.appspot.com^
 ||femsurgo.com^
 ||fenacheaverage.com^
 ||fencerecollect.com^
+||fencersdatcha.com^
 ||fenddiscourse.com^
 ||feneverybodypsychological.com^
 ||fenixm.com^
@@ -14845,6 +14852,7 @@ vkcdnservice.appspot.com^
 ||gloogeed.xyz^
 ||gloognoogrix.com^
 ||gloogruk.com^
+||gloohozedoa.xyz^
 ||gloolrey.com^
 ||glooltoora.net^
 ||gloomfabricgravy.com^
@@ -15132,6 +15140,7 @@ vkcdnservice.appspot.com^
 ||gowspow.com^
 ||gpcrn.com^
 ||gpfaquowxnaum.xyz^
+||gpibcoogfb.com^
 ||gpiyzwt.com^
 ||gplansforourcom.com^
 ||gplgqqg.com^
@@ -15602,6 +15611,7 @@ vkcdnservice.appspot.com^
 ||habovethecit.info^
 ||habovethecity.info^
 ||habovethecityon.info^
+||habutaeirisate.com^
 ||habutaeunroost.com^
 ||hadajvqpha.com^
 ||hadfrizzprofitable.com^
@@ -19665,6 +19675,7 @@ vkcdnservice.appspot.com^
 ||leansometime.com^
 ||leanunderstatement.com^
 ||leanwhitepinafo.org^
+||leapcompatriotjangle.com^
 ||leapretrieval.com^
 ||learningcontainscaterpillar.com^
 ||learningproportion.com^
@@ -28123,6 +28134,7 @@ vkcdnservice.appspot.com^
 ||resignedcamelplumbing.com^
 ||resignedsauna.com^
 ||resinherjecling.com^
+||resinkaristos.com^
 ||resionsfrester.com^
 ||resistanceouter.com^
 ||resistcorrectly.com^
@@ -32865,6 +32877,7 @@ vkcdnservice.appspot.com^
 ||tournamentfosterchild.com^
 ||tournamentsevenhung.com^
 ||touroumu.com^
+||toutsneskhi.com^
 ||touzia.xyz^
 ||tovanillitechan.com^
 ||tovespiquener.com^
@@ -35729,6 +35742,7 @@ vkcdnservice.appspot.com^
 ||wilfridjargonby.com^
 ||wilfulknives.com^
 ||wilfulsatisfaction.com^
+||wililylaus.com^
 ||williamfaxarts.com^
 ||williamporterlilac.com^
 ||williednb.com^
@@ -37147,6 +37161,7 @@ vkcdnservice.appspot.com^
 ||zebjlmmejbybz.top^
 ||zebjlmmejbzlb.top^
 ||zebrinanoteman.top^
+||zebusentour.com^
 ||zedoaryrejects.com^
 ||zedxknzlwyofh.com^
 ||zeebaith.xyz^
@@ -38354,6 +38369,7 @@ vkcdnservice.appspot.com^
 ||influads.com^
 ||infolinks.com^
 ||infostation.digital^
+||ingage.tech^
 ||innity.com^
 ||innovid.com^
 ||insideall.com^
@@ -39452,6 +39468,7 @@ vkcdnservice.appspot.com^
 ||d1mbgf0ge24riu.cloudfront.net^
 ||d1mbihpm2gncx7.cloudfront.net^
 ||d1mcwmzol446xa.cloudfront.net^
+||d1muf25xaso8hp.cloudfront.net^
 ||d1my7gmbyaxdyn.cloudfront.net^
 ||d1n1ppeppre6d4.cloudfront.net^
 ||d1n3aexzs37q4s.cloudfront.net^
@@ -40808,6 +40825,7 @@ vkcdnservice.appspot.com^
 ||startup.mobile.yandex.net^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||umphek.com^
 ||ahoy-internal-ads-hv.b-cdn.net^
 ||ad.iwhop.cn^
 ||s-odx.oleads.com^
@@ -41523,6 +41541,8 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||confiant-integrations.net^
+||traxex.gannettdigital.com^
 ||events.getmodemagic.com^
 ||martech.condenastdigital.com^
 ||fndrsp.net^
@@ -45245,6 +45265,8 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics.raenonx.cc^
+||analytics.vixcloud.co^
 ||plausible.pronouns.cc^
 ||umami.subdavis.com^
 ||lptag.liveperson.net^
@@ -47787,6 +47809,8 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||proxy.telemetry.us-ashburn-1.oci.oraclecloud.com^
+||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
 ||admob-app-id-*.firebaseio.com^
 ||stats.rustore.ru^
 ||vk-analytics.ru^
@@ -47858,7 +47882,6 @@ inapps.appsflyersdk.com^
 ||log.espn.com^
 ||sia.internet.apps.samsung.com^
 ||config-api.internet.apps.samsung.com^
-||terms.internet.apps.samsung.com^
 ||r.apkpure.net^
 ||analytics.zg-api.com^
 ||creative.bidease.com^
@@ -48452,7 +48475,6 @@ inapps.appsflyersdk.com^
 ||analytics.unilogcorp.com^
 ||analytics.vanillaforums.com^
 ||analytics.vendemore.com^
-||analytics.vixcloud.co^
 ||analytics.webpushr.com^
 ||analytics.websolute.it^
 ||analytics.wildtangent.com^
@@ -49088,7 +49110,6 @@ inapps.appsflyersdk.com^
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trakksocial.googlecode.com^
 ||trap.skype.com^
-||traxex.gannettdigital.com^
 ||trends.newsmaxwidget.com^
 ||triggers.wfxtriggers.com^
 ||trk.clinch.co^
@@ -60213,6 +60234,14 @@ inapps.appsflyersdk.com^
 ||tehxzz.xyz^
 ||wfsmya.xyz^
 ||eacdf119.cn^
+||kewrutd.top^
+||irqaci.xyz^
+||bojyvp.xyz^
+||acewdf118.cn^
+||baijs09.shop^
+||doujs09.shop^
+||nhbprf.xyz^
+||acdrewrf711.cn^
 ||pwfqjp.xyz^
 ||weacdf211.cn^
 ||tufzdj.xyz^

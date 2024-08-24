@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-08-23T00:53:23Z
+! Last modified: 2024-08-24T00:52:24Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 22 Aug 2024 13:25:46 +0000
+! Last modified: Fri, 23 Aug 2024 13:48:25 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18520,7 +18520,6 @@
 ||termly.io^$third-party
 ||thirdfloor.it^$third-party
 ||thisisdone.com/gdpr/$third-party
-||transcend-cdn.com^
 ||transcend.io^$third-party
 ||truendo.com^$third-party
 ||truevaultcdn.com^$third-party
@@ -18669,7 +18668,7 @@
 ||stromnetz-hamburg.de/matomo/js/
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=shutterfly.com
+||transcend-cdn.com^$domain=anaconda.com|shutterfly.com
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
 ||vandalism-sounds.com^*/notices.min.js
@@ -20762,6 +20761,7 @@ sparxmaths.uk##.select-school-footer
 solaxpower.com##.sep-cookies-boxs
 carrerajeans.com##.sessionnotification
 colormango.com##.setprivacy
+player.streamguys.com##.sg-gdpr
 mycharisma.com##.sgpb-popup-dialog-main-div-wrapper
 mycharisma.com##.sgpb-popup-overlay
 chitika.com##.sh-page-notice
@@ -21399,7 +21399,7 @@ andromede-cms.com,any.run,bienpreter.com,codesandbox.io,jackbox.tv,kirchberg.ch,
 !! #cc--main
 alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,kroo.com,linaro.org,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
 !! .c--anim
-a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cira.ca,cubeshot.io,diderot.sk,earthday.org,ebikecult.it,edf.org,elettricomagazine.it,emmellearredamenti.com,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,getscreen.me,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,makerworld.com,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tgyou24.it,tirerack.com,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
+a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cira.ca,cubeshot.io,diderot.sk,earthday.org,ebikecult.it,edf.org,elettricomagazine.it,emmellearredamenti.com,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,getscreen.me,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,makerworld.com,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tedbaker.returns.international,tgyou24.it,tirerack.com,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
 !! #wr-c
 ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,fiskars-shop.sk,kancelarska-kresla.cz,leifheit-shop.cz,leifheit-shop.sk,mpmshop.eu,rafoshop.cz,relaxin.cz,superdiskont.sk,yatun.cz###wr-c
 !! .gdpr
@@ -21542,7 +21542,7 @@ activ-shop.sk,ajom.cz,ateashop.cz,bestlook.sk,biokrasa.sk,bohemiagoldcrystal.com
 !! norclinic.com
 norclinic.com,normalink.es###c-cookies__modal
 !! .overlay
-agendeam.com.br,antikvarium.hu,appmetmij.be,appmetmij.nl,atraveo.de,bancontact.com,bancontactpayconiq.com,columbia.pe,cyscale.com,domstol.se,e-domizil.de,easycosmetic.at,easycosmetic.be,easycosmetic.ch,easycosmetic.de,giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.de,girolando.com.br,gkndirect.com,infocom.be,ing.nl,meteoprog.at,meteoprog.be,meteoprog.ch,meteoprog.com,meteoprog.com.pt,meteoprog.cz,meteoprog.de,meteoprog.dk,meteoprog.ee,meteoprog.es,meteoprog.fr,meteoprog.hu,meteoprog.it,meteoprog.lt,meteoprog.lv,meteoprog.nl,meteoprog.pl,meteoprog.ro,meteoprog.se,meteoprog.sk,mitsubishicarbide.net,orbussoftware.com,payconiq.be,sescsp.org.br,slantastoffe.de,soldaatvanoranje.nl,sportium.es,theopen.com,zitatezumnachdenken.com##.overlay
+agendeam.com.br,aigwomensopen.com,antikvarium.hu,appmetmij.be,appmetmij.nl,atraveo.de,bancontact.com,bancontactpayconiq.com,columbia.pe,cyscale.com,domstol.se,e-domizil.de,easycosmetic.at,easycosmetic.be,easycosmetic.ch,easycosmetic.de,giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.de,girolando.com.br,gkndirect.com,infocom.be,ing.nl,meteoprog.at,meteoprog.be,meteoprog.ch,meteoprog.com,meteoprog.com.pt,meteoprog.cz,meteoprog.de,meteoprog.dk,meteoprog.ee,meteoprog.es,meteoprog.fr,meteoprog.hu,meteoprog.it,meteoprog.lt,meteoprog.lv,meteoprog.nl,meteoprog.pl,meteoprog.ro,meteoprog.se,meteoprog.sk,mitsubishicarbide.net,orbussoftware.com,payconiq.be,sescsp.org.br,slantastoffe.de,soldaatvanoranje.nl,sportium.es,theopen.com,zitatezumnachdenken.com##.overlay
 !! optoma
 optoma.ae,optoma.co.uk,optoma.com,optoma.com.br,optoma.com.mx,optoma.de,optoma.es,optoma.fr,optoma.it,optoma.nl,optoma.pl,optoma.ru,optomaeurope.com,optomausa.com###msgbg
 !! nordicnest
@@ -21793,7 +21793,7 @@ citigroup.com,clearscore.com,voguescandinavia.com##div[class^="cookieNot"]
 !! #cookiemodal
 santam.co.za###cookiemodal
 !! .otPlaceholder
-baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.com,flashresultats.fr,flashscore.ca,flashscore.co,flashscore.co.id,flashscore.co.kr,flashscore.co.uk,flashscore.co.za,flashscore.com,flashscore.com.br,flashscore.com.ua,flashscore.de,flashscore.es,flashscore.fi,flashscore.fr,flashscore.ge,flashscore.info,flashscore.it,flashscore.nl,flashscore.pt,flashscore.ru.com,flashscore.vn,flashscorekz.com,golflive24.com,handball24.com,horseracing24.com,icehockey24.com,livescore.in,livesport.com,livesport.cz,liveticker.com,motorsport24.com,scoreboard.com,soccer24.com,soccerstand.com,tennis24.com,volleyball24.com##.otPlaceholder
+baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.com,flashresultats.fr,flashscore.ca,flashscore.co,flashscore.co.id,flashscore.co.kr,flashscore.co.uk,flashscore.co.za,flashscore.com,flashscore.com.br,flashscore.com.ua,flashscore.de,flashscore.es,flashscore.fi,flashscore.fr,flashscore.ge,flashscore.info,flashscore.it,flashscore.nl,flashscore.pt,flashscore.ru.com,flashscore.vn,flashscorekz.com,flashscoreusa.com,golflive24.com,handball24.com,horseracing24.com,icehockey24.com,livescore.in,livesport.com,livesport.cz,liveticker.com,motorsport24.com,scoreboard.com,soccer24.com,soccerstand.com,tennis24.com,volleyball24.com##.otPlaceholder
 ! .cp-popup
 foxandbriar.com##.cp-popup
 foxandbriar.com##.cp-popup-container
@@ -23106,6 +23106,9 @@ royal-oak.org##+js(set-cookie, royaloakTermsCookie, 1)
 hurton.pl##+js(set-cookie, is_allowed_client_traking_niezbedne, 1, , reload, 1)
 officesuite.com##+js(set-cookie, intro, true)
 fups.com##+js(set-cookie, SeenCookieBar, true)
+kevin.eu##+js(set-cookie, kevin-user-has-accepted-ad-cookies, false)
+kevin.eu##+js(set-cookie, kevin-user-has-accepted-analytics-cookies, false)
+kevin.eu##+js(set-cookie, kevin-user-has-interacted-with-cookies, true)
 songtradr.com##+js(set-cookie, cpaccpted, true)
 fups.com##+js(set-cookie, AllowCookies, true)
 scienceopen.com##+js(set-cookie, cookiesAccepted, 3)
@@ -23176,7 +23179,7 @@ venom.foundation##+js(set-local-storage-item, terms, accepted)
 canonvannederland.nl##+js(set-local-storage-item, z_cookie_consent, true)
 my-account.storage-mart.com##+js(set-local-storage-item, StorageMartCookiesPolicySeen, true)
 santander.rewardgateway.co.uk##+js(set-cookie, cookie_preferences, 10)
-news.abs-cbn.com##+js(set-cookie, uninavIsAgreeCookie, true)
+news.abs-cbn.com##+js(set-local-storage-item, uninavIsAgreeCookie, true)
 santander.rewardgateway.co.uk##+js(set-cookie, cookie_consent_status, allow)
 web.bunq.com##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
 lifesum.com##+js(set-local-storage-item, accepted-cookies, [])
@@ -26300,6 +26303,7 @@ mazout-on-line.be,proxifuel.be##.cl-banner
 lamaisondusureau.com##.cmp-popin
 10doigts.fr##.cmp-wrapper
 utilemploi.fr##.cognito2
+babelmed.net##.consent-block-site
 inc-conso.fr##.consent-modal-content
 immo-leclercq.com##.consent_info
 lirelactu.fr##.container-0-5
@@ -29608,7 +29612,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 22 Aug 2024 11:17:51 +0000
+! Last modified: Fri, 23 Aug 2024 11:05:42 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -29955,6 +29959,9 @@ vm.co.mz##+js(trusted-set-cookie, cookiePolicyAcceptedDate, $currentISODate$)
 ! https://www.blick.ch/
 blick.ch##+js(trusted-set-cookie, OptanonConsent, groups=C0004%3A0%2CC0005%3A0%2CC0003%3A1%2CC0002%3A0%2CC0001%3A1%2CV2STACK42%3A1, , , domain, blick.ch)
 blick.ch##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
+! https://olympics.com/en/video/highlights-sport-climbing-olympic-qualifier-series-2024-boulder-qualification-rounds-shanghai?uxreference=playlist
+olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A0, , , domain, olympics.com)
+olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 
 
 !! Needs additional cookies
@@ -30889,10 +30896,6 @@ costcobusinessdelivery.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $curr
 ! https://github.com/uBlockOrigin/uAssets/issues/23727
 seznam.cz##+js(trusted-set-cookie, euconsent-v2, CP-wiwAP-wiwAD3ACLCSA1EsAP_gAEPgAATIJVwQgAAwAKAAsACAAFQALgAZAA6ACAAFAAKgAWgAyABoADmAIgAigBHACSAEwAJwAVQAtgBfgDCAMUAgACEgEQARQAjoBOAE6AL4AaQA4gB3ADxAH6AQgAkwBOACegFIAKyAWYAuoBgQDTgG0APkAjUBHQCaQE2gJ0AVIAtQBbgC8wGMgMkAZcA0oBqYDugHfgQHAhcBGYCTQEqwQugRQAKAAsACoAFwAQAAyABoAEQAI4ATAAqgBiAD8AISARABEgCOAE4AMsAZoA7gB-gEIAIsAXUA2gCbQFSALUAW4AvMBggDJAGXANTAhcAA.YAAAAAAAAWAA, , , domain, seznam.cz)
 
-! https://olympics.com/en/video/highlights-sport-climbing-olympic-qualifier-series-2024-boulder-qualification-rounds-shanghai?uxreference=playlist - functional + social media
-olympics.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1, , , domain, olympics.com)
-olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/23809 - multimedia player
 issue-council.robertsspaceindustries.com##+js(trusted-set-cookie, pleaseFix.privacy, {%22analyticsCookie%22:false%2C%22personalisationCookie%22:false%2C%22targetedAdvertisingCookie%22:false%2C%22multimediaPlayerCookie%22:true})
 
@@ -30988,9 +30991,14 @@ tedbaker.com##+js(trusted-set-cookie, CONSENTMGR, c1:0|c6:0|c9:0|ts:171875109825
 wedding.pl##+js(trusted-set-local-storage-item, gtagConsents, '{"ad_personalization":"denied","analytics_storage":"denied","ad_user_data":"denied","ad_storage":"denied"}')
 
 ! https://github.com/easylist/easylist/issues/19399
-dailystar.co.uk,mirror.co.uk##.qc-cmp2-container
+! UK IP
+dailystar.co.uk,mirror.co.uk##.qc-cmp2-container:style(visibility: hidden !important;)
 dailystar.co.uk,mirror.co.uk##+js(trusted-click-element, .qc-cmp2-summary-buttons > button[mode="secondary"])
 dailystar.co.uk,mirror.co.uk##+js(trusted-click-element, [class^="qc-cmp2-buttons"] > [data-tmdatatrack="privacy-other-save"], , 1000)
+dailystar.co.uk,mirror.co.uk##+js(trusted-click-element, button[mode="primary"][data-tmdatatrack="privacy-cookie"], , 1000)
+! US IP
+dailystar.co.uk,mirror.co.uk###CIPAConsentNotice:style(visibility: hidden !important;)
+dailystar.co.uk,mirror.co.uk##+js(trusted-click-element, button[class*="cipa-accept-btn"], , 1000)
 
 ! https://www.redbull.com/ - third party content
 redbull.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1, , , domain, www.redbull.com)

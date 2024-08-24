@@ -27869,6 +27869,7 @@
 0.0.0.0 cdn.coinzilla.io
 0.0.0.0 cdn.comicplanet.net
 0.0.0.0 cdn.conative.de
+0.0.0.0 cdn.confiant-integrations.net
 0.0.0.0 cdn.connectad.io
 0.0.0.0 cdn.connectif.cloud
 0.0.0.0 cdn.content-garden.com
@@ -31223,6 +31224,7 @@
 0.0.0.0 confessundercover.com
 0.0.0.0 conff.dc.oppomobile.com
 0.0.0.0 confiant-integrations.global.ssl.fastly.net
+0.0.0.0 confiant-integrations.net
 0.0.0.0 confideshrinebuff.com
 0.0.0.0 confidethirstyfrightful.com
 0.0.0.0 config-at.iocnt.net
@@ -32339,6 +32341,7 @@
 0.0.0.0 cs.genieessp.jp
 0.0.0.0 cs.gssprt.jp
 0.0.0.0 cs.hit.gemius.pl
+0.0.0.0 cs.ingage.tech
 0.0.0.0 cs.iqzone.com
 0.0.0.0 cs.izooto.com
 0.0.0.0 cs.lkqd.net
@@ -38861,6 +38864,7 @@
 0.0.0.0 ewetel01.webtrekk.net
 0.0.0.0 ewhareey.com
 0.0.0.0 ewikajs.com
+0.0.0.0 ewogloarge.com
 0.0.0.0 ewoodandwaveo.com
 0.0.0.0 ewoverth.buzz
 0.0.0.0 ewqkrfjkqz.com
@@ -39086,6 +39090,7 @@
 0.0.0.0 ex-euw-ice.360yield-basic.com
 0.0.0.0 ex-euw-ice.360yield.com
 0.0.0.0 ex-na-ice.360yield.com
+0.0.0.0 ex.ingage.tech
 0.0.0.0 ex.newsland.com
 0.0.0.0 ex.visitor-analytics.io
 0.0.0.0 ex11.adpies.com
@@ -47005,6 +47010,7 @@
 0.0.0.0 ing.api.dataroid.com
 0.0.0.0 ing.blueconic.net
 0.0.0.0 ingablorkmetion.com
+0.0.0.0 ingage.tech
 0.0.0.0 ingame.cheqzone.com
 0.0.0.0 ingame.flygame.io
 0.0.0.0 ingbe.demdex.net
@@ -80758,6 +80764,7 @@
 0.0.0.0 proxy-jw-east-3.us-east-1.local.emxdgt.com
 0.0.0.0 proxy.dzeio.com
 0.0.0.0 proxy.optoutadvertising.com
+0.0.0.0 proxy.telemetry.us-ashburn-1.oci.oraclecloud.com
 0.0.0.0 proxy.trysavvy.com
 0.0.0.0 proxyjs.brdtnet.com
 0.0.0.0 proxyjs.bright-sdk.com
@@ -86755,6 +86762,7 @@
 0.0.0.0 sf1-be-pack.pglstatp-toutiao.com
 0.0.0.0 sf1-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sf14g.com
+0.0.0.0 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sf6-be-pack.pglstatp-toutiao.com
@@ -91644,6 +91652,7 @@
 0.0.0.0 t.indeed.com
 0.0.0.0 t.influ2.com
 0.0.0.0 t.informeresapp.com
+0.0.0.0 t.ingage.tech
 0.0.0.0 t.insigit.com
 0.0.0.0 t.inskinad.com
 0.0.0.0 t.irtya.com
@@ -96524,6 +96533,7 @@
 0.0.0.0 uep.gaijin.net
 0.0.0.0 uepkcdjgp.com
 0.0.0.0 uessnah.icu
+0.0.0.0 uet.ingage.tech
 0.0.0.0 uev.ad-stir.com
 0.0.0.0 uf.noclef.com
 0.0.0.0 ufaexpert.com
