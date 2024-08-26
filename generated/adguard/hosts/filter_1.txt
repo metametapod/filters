@@ -4330,6 +4330,7 @@
 0.0.0.0 3p-udc.yahoo.com
 0.0.0.0 3p8801.co
 0.0.0.0 3pd.criteo.com
+0.0.0.0 3pkf5m0gd.com
 0.0.0.0 3plworldwide.actonservice.com
 0.0.0.0 3point14.g2afse.com
 0.0.0.0 3point14.go2affise.com
@@ -5483,6 +5484,7 @@
 0.0.0.0 5994599.fls.doubleclick.net
 0.0.0.0 5995852.fls.doubleclick.net
 0.0.0.0 5997450.fls.doubleclick.net
+0.0.0.0 59b517704ce43f0f.cartx.cloud
 0.0.0.0 59cb81261a926ddc6abcc287cd8e3d6fbc119f77.cws.conviva.com
 0.0.0.0 59dc00c52dfc.cdn4.forter.com
 0.0.0.0 5a7261c8a50f.cdn4.forter.com
@@ -16193,6 +16195,7 @@
 0.0.0.0 aboarea.com
 0.0.0.0 abochro.com
 0.0.0.0 abodedistributionpan.com
+0.0.0.0 abody.39.net
 0.0.0.0 aboenab.com
 0.0.0.0 abohara.com
 0.0.0.0 abokai01.webtrekk.net
@@ -27248,6 +27251,8 @@
 0.0.0.0 cartmansneest.com
 0.0.0.0 cartrigechances.com
 0.0.0.0 carts.guru
+0.0.0.0 cartsee-from.cartx.cloud
+0.0.0.0 cartx.cloud
 0.0.0.0 carverfashionablegorge.com
 0.0.0.0 carverfowlsmourning.com
 0.0.0.0 carverfrighten.com
@@ -97313,6 +97318,7 @@
 0.0.0.0 us-notify.bidagent.xad.com
 0.0.0.0 us-pl.vizury.com
 0.0.0.0 us-serve.nrich.ai
+0.0.0.0 us-service.cartsee-from.cartx.cloud
 0.0.0.0 us-sonar.sociomantic.com
 0.0.0.0 us-ssl.effectivemeasure.net
 0.0.0.0 us-sync.taboola.com
@@ -97554,6 +97560,7 @@
 0.0.0.0 usp.demdex.net
 0.0.0.0 usp1.baidu.com
 0.0.0.0 usr.dropkickmedia.com
+0.0.0.0 usr.interactiveone.com
 0.0.0.0 usr.navdmp.com
 0.0.0.0 usr.undertone.com
 0.0.0.0 usrtb.c.appier.net
