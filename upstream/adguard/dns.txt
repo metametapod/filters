@@ -1,9 +1,9 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.14.55
+! Version: 1.0.14.59
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-08-30T00:22:59.112Z
+! Last modified: 2024-08-31T00:22:46.744Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.26
 !
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-08-30T00:03:25.717Z
+! Last modified: 2024-08-31T00:02:57.910Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.24
 !
@@ -35,8 +35,12 @@
 !
 !
 !
+||hadronid.net^
+||postokdesk.live^
+||octonewjs.com^
+||akaroafrypan.com^
+||unbeardgorraf.top^
 ||lunse.ajscdn.com^
-||papatrol.xyz^
 ||ohjlghirnbkosdh.com^
 ||whudroots.net^
 ||yhklljct.xyz^
@@ -46,6 +50,7 @@
 ||vetchesthiever.com^
 ||st.zarebasdezaley.com^
 ||pkazd.xyz^
+||papatrol.xyz^
 ||wwcpyupbrcuhcsn.com^
 ||peenuteque.net^
 ||palaesavgs.com^
@@ -1461,6 +1466,7 @@ serve.bussyhunter.com^
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||s.trvdp.com^
 ||undersite.pages.dev^
 ||reklama.shinden.eu^
 ||ad.kisstvshow.es^
@@ -3261,6 +3267,7 @@ vkcdnservice.appspot.com^
 ||addroplet.com^
 ||addthief.com^
 ||adeditiontowri.org^
+||adelphic.net^
 ||adenza.dev^
 ||adevbom.com^
 ||adevppl.com^
@@ -4487,6 +4494,7 @@ vkcdnservice.appspot.com^
 ||androundher.info^
 ||andtheircleanw.com^
 ||aneartuilles.top^
+||aneegroned.net^
 ||anemenzemkwkm.top^
 ||anemenznnkaka.top^
 ||aneorwd.com^
@@ -5412,6 +5420,7 @@ vkcdnservice.appspot.com^
 ||aveugleghettos.top^
 ||avgive3431.fun^
 ||avglfookdjuj.com^
+||avhduwvirosl.com^
 ||avhtaapxml.com^
 ||aviationbe.com^
 ||avichigangway.top^
@@ -16453,6 +16462,7 @@ vkcdnservice.appspot.com^
 ||holidaycoconutconsciousness.com^
 ||holistnunatak.com^
 ||hollowcharacter.com^
+||holmicnebbish.com^
 ||holspostcardhat.com^
 ||holyskier.com^
 ||homecomingrespectedpastime.com^
@@ -17638,6 +17648,7 @@ vkcdnservice.appspot.com^
 ||insumber.com^
 ||insurewaltz.com^
 ||inswebt.com^
+||inswellbathes.com^
 ||intechads.com^
 ||integralfashionable.com^
 ||integralinstalledmoody.com^
@@ -24175,6 +24186,7 @@ vkcdnservice.appspot.com^
 ||orchestraanticipation.com^
 ||orchidreducedbleak.com^
 ||orcjagpox.com^
+||orcnakokt.com^
 ||ordbzeokdxku.com^
 ||ordciqczaox.com^
 ||orderlydividepawn.com^
@@ -24842,6 +24854,7 @@ vkcdnservice.appspot.com^
 ||parlorstudfacilitate.com^
 ||parlorsuperhero.com^
 ||parlouractivityattacked.com^
+||parnelfirker.com^
 ||paronymtethery.com^
 ||parrallforums.top^
 ||parrecleftne.xyz^
@@ -29360,6 +29373,7 @@ vkcdnservice.appspot.com^
 ||sawpokw.com^
 ||sawsdaggly.com^
 ||saxophonefrontier.com^
+||sayableconder.com^
 ||saycaptain.com^
 ||sayelo.xyz^
 ||sayingconvicted.com^
@@ -31392,6 +31406,7 @@ vkcdnservice.appspot.com^
 ||storyblizzard.com^
 ||storyquail.com^
 ||storyrelatively.com^
+||storystaffrings.com^
 ||stotinggunne.uno^
 ||stotoowu.net^
 ||stotseepta.com^
@@ -39175,6 +39190,7 @@ vkcdnservice.appspot.com^
 ||5cc3ac02.xyz^
 ||5ceea3.xyz^
 ||5fd6bc.xyz^
+||60571086.xyz^
 ||605efe.xyz^
 ||634369.xyz^
 ||6471e7f7.xyz^
@@ -41761,6 +41777,8 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||eu-1-id5-sync.com^
+||octotracking.com^
 ||cartx.cloud^
 ||confiant-integrations.net^
 ||traxex.gannettdigital.com^
@@ -45485,6 +45503,9 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||chocolatine.apexlegendsstatus.com^
+||prod.tahoe-analytics.publishers.advertising.a2z.com^
+||x.trvdp.com^
 ||collector.superwall.me^
 ||tracker.grupanya.com^
 ||sapi.tremendous.com^
@@ -52915,7 +52936,7 @@ inapps.appsflyersdk.com^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
-||avhduwvirosl.com^
+||wpiajkniqnty.com^
 ||adma.xsrv.jp^
 ||amazones-tools.com^
 ||ranklet.come.cc^
@@ -55179,8 +55200,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 28 Aug 2024 16:09 UTC+7
-! Version: 2408281609
+! Last modified: 30 Aug 2024 10:35 UTC+7
+! Version: 2408301035
 ! Blocked: 920 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -56041,8 +56062,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 28 Aug 2024 16:10 UTC+7
-! Version: 2408281610
+! Last modified: 30 Aug 2024 10:36 UTC+7
+! Version: 2408301036
 ! Blocked: 4,557 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -60498,10 +60519,22 @@ inapps.appsflyersdk.com^
 ||121.204.246.*.gif
 ||38.33.15.*.gif
 ||67.21.92.*.gif
+||wxsicu.xyz^
+||gedashb112.fun^
+||htxwzp.xyz^
+||skaumbp.icu^
+||bndxrr.xyz^
+||iditero.top^
+||gjmedashb0.fun^
+||koauq.top^
+||zrkksps.icu^
 ||ghjedashb6.fun^
 ||kyuxym.xyz^
 ||acasadf112.cn^
 ||pofmnj.xyz^
+||qbsday.xyz^
+||xiuska.top^
+||oewrutk.top^
 ||zztxfj.xyz^
 ||gbfedashb4.fun^
 ||acdfwe113.cn^

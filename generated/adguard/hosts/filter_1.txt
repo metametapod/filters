@@ -17183,6 +17183,7 @@
 0.0.0.0 adelement.com
 0.0.0.0 adelixir.com
 0.0.0.0 adelphic-partners.tremorhub.com
+0.0.0.0 adelphic.net
 0.0.0.0 ademails.com
 0.0.0.0 adengage.com
 0.0.0.0 adengine.snigelweb.com
@@ -25049,6 +25050,7 @@
 0.0.0.0 bidder9-eu-imp.tribalfusion.com
 0.0.0.0 bidder9-imp.tribalfusion.com
 0.0.0.0 bidderads.com
+0.0.0.0 bidders-us-east-1.adelphic.net
 0.0.0.0 biddingfitful.com
 0.0.0.0 biddr-cloud.brealtime.com
 0.0.0.0 biddr.brealtime.com
@@ -28023,6 +28025,7 @@
 0.0.0.0 cdn.grmtas.com
 0.0.0.0 cdn.gumgum.com
 0.0.0.0 cdn.hadron.ad.gt
+0.0.0.0 cdn.hadronid.net
 0.0.0.0 cdn.hbbtv.smartclip.net
 0.0.0.0 cdn.hbplatform.com
 0.0.0.0 cdn.heapanalytics.com
@@ -38270,6 +38273,7 @@
 0.0.0.0 etundra.evergage.com
 0.0.0.0 etxahpe.com
 0.0.0.0 etyequiremu.org
+0.0.0.0 eu-1-id5-sync.com
 0.0.0.0 eu-1.admanmedia.com
 0.0.0.0 eu-1a.connectad.io
 0.0.0.0 eu-2.admanmedia.com
@@ -44074,6 +44078,7 @@
 0.0.0.0 hadfrizzprofitable.com
 0.0.0.0 hadmiredinde.info
 0.0.0.0 hadron.ad.gt
+0.0.0.0 hadronid.net
 0.0.0.0 hadseaside.com
 0.0.0.0 hadtwobr.info
 0.0.0.0 haffnetworkmm.com
@@ -50549,6 +50554,7 @@
 0.0.0.0 lb.affilae.com
 0.0.0.0 lb.afftrack.com
 0.0.0.0 lb.apicit.net
+0.0.0.0 lb.eu-1-id5-sync.com
 0.0.0.0 lb.indexww.com
 0.0.0.0 lb.liveviewer.ez.no
 0.0.0.0 lb.logs.roku.com
@@ -50579,6 +50585,7 @@
 0.0.0.0 lbs-us-east1.ads.betweendigital.com
 0.0.0.0 lbs-us-east2.ads.betweendigital.com
 0.0.0.0 lbs-us-west1.ads.betweendigital.com
+0.0.0.0 lbs.eu-1-id5-sync.com
 0.0.0.0 lbsjc.bidder.owneriq.net
 0.0.0.0 lby2kd27c.com
 0.0.0.0 lc.getui.com
@@ -80496,6 +80503,7 @@
 0.0.0.0 prod.pyxis.atp.fox
 0.0.0.0 prod.report.nacustomerexperience.citi.com
 0.0.0.0 prod.search.deployads.com
+0.0.0.0 prod.tahoe-analytics.publishers.advertising.a2z.com
 0.0.0.0 prod.telemetry.tableausoftware.com
 0.0.0.0 prod.trendemon.com
 0.0.0.0 prod.ugdturner.com
@@ -85154,6 +85162,7 @@
 0.0.0.0 s.tpcserve.com
 0.0.0.0 s.trafsupr.com
 0.0.0.0 s.tribalfusion.com
+0.0.0.0 s.trvdp.com
 0.0.0.0 s.tuoitre.vn
 0.0.0.0 s.turgelrouph.com
 0.0.0.0 s.ugloopie.com
@@ -90556,6 +90565,7 @@
 0.0.0.0 storymedia.se
 0.0.0.0 storyquail.com
 0.0.0.0 storyrelatively.com
+0.0.0.0 storystaffrings.com
 0.0.0.0 stougluh.net
 0.0.0.0 stoutfoggyprotrude.com
 0.0.0.0 stovecharacterize.com
@@ -104139,6 +104149,7 @@
 0.0.0.0 www.stoopeddemandsquint.com
 0.0.0.0 www.stoopsystemsshoot.com
 0.0.0.0 www.storagelassitudeblend.com
+0.0.0.0 www.storystaffrings.com
 0.0.0.0 www.stovecharacterize.com
 0.0.0.0 www.streetmilligram.com
 0.0.0.0 www.stressfulsurroundingcomeback.com
@@ -104966,6 +104977,7 @@
 0.0.0.0 x.totalnicefeed.com
 0.0.0.0 x.totalwownews.com
 0.0.0.0 x.touptaisu.com
+0.0.0.0 x.trvdp.com
 0.0.0.0 x.turgelrouph.com
 0.0.0.0 x.ugloopie.com
 0.0.0.0 x.usheeptuthoa.com
