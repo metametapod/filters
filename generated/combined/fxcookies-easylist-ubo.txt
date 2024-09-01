@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-08-31T00:55:15Z
+! Last modified: 2024-09-01T01:04:21Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 30 Aug 2024 13:34:53 +0000
+! Last modified: Sat, 31 Aug 2024 13:03:40 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18337,6 +18337,7 @@
 ||ccpa.sp-prod.net^
 ||cdn-cookieyes.com/client_data/
 ||cerezgo.com^$third-party
+||choices.truste.com^$third-party
 ||civiccomputing.com^*/cookieControl-
 ||civiccomputing.com^*=cookie$third-party
 ||clickio.mgr.consensu.org^$third-party
@@ -18819,7 +18820,7 @@ ghx.com###cNotice
 brandonford.com,hartefamilymotors.com###ca-consent-root
 iberianlawyer.com,telesirio.it###ca_banner
 campfirewriting.com###campfire-cookie-banner
-infomir.eu###cb
+infomir.eu,visitvictoria.com###cb
 accounts.meister.co,meisterlabs.com,mindmeister.com###cb-wrapper
 xtraining.kaspersky.com###cbanner
 ubs.com###cboxContent
@@ -19243,6 +19244,7 @@ hairbro.com###shopify-section-cookie-popup
 arcade1up.com###shopify-section-cookies_consent
 manlymanco.com,recongearusa.com,seedbarn.com###shopify-section-fixed-message
 koifootwear.com###shopify-section-popup
+itinstock.com###shopui-cookie-popup-container
 edealinfo.com###showFTCMessage
 edealinfo.com###showFTCMessage-back
 convertlive.com###sid-container
@@ -20029,6 +20031,7 @@ transamerica.com##.dmb-notifications-ajax-wrapper
 bbc.com##.domestic-header-wrapper
 mla.org##.donate-banner
 dotvvm.com##.dotvvm-contrib-cookie-bar
+orico.cc##.down-nav
 vesselfinder.com##.downfooter
 kdanmobile.com##.dqgoYn
 dreame.com##.drawer-wrapper
@@ -21063,6 +21066,7 @@ shab.ch##agb-bar
 wallet.kukai.app##app-agreement
 orcid.org##app-banners
 wanakaapp.nz##app-cookie-notice
+sard.ac##app-cookie-status
 iryo.eu##app-cookies-manager
 duelz.com##app-tiny-alert
 essential.gg##banner-content
@@ -21491,7 +21495,7 @@ aminarubinacci.it,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,castroniaviacata
 !! ^.CookiesConsent
 bargainmax.co.uk,cam4.com,ddctoolbopusher.com##div[class^="CookiesConsent"]
 !! class*="CookieConsent"
-bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,geeksforgeeks.org,get-in-engineering.de,heavenhr.com,mec.ca,penpot.app,pictogrammers.com,podimo.com,prezly.com,print24.com,repvue.com,scmagazine.com,sierranevada.es,tracs.is,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
+bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,penpot.app,pictogrammers.com,podimo.com,prezly.com,print24.com,repvue.com,scmagazine.com,sierranevada.es,tracs.is,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
 !! .consent-banner
 twitch.tv##.consent-banner
 !! .dialog-lightbox-message
@@ -21713,7 +21717,7 @@ monzoapp.com,oscarproperties.com,zoominfo.com##[class^="CookiesBanner"]
 !! .blocker
 alquilovers.com,event.pubg.com,monurgencepilule.fr##.blocker
 !! .cookieConsent
-centreforaviation.com,joinhoney.com,picofme.io,scinapse.io,truewealth.ch,x2o.be##[class^="cookieConsent"]
+centreforaviation.com,geeksforgeeks.org,joinhoney.com,picofme.io,scinapse.io,truewealth.ch,x2o.be##[class^="cookieConsent"]
 !! .alert
 24h-pflege-check.de,adata.com,afribaba.bi,afribaba.bj,afribaba.cd,afribaba.cf,afribaba.co.ke,afribaba.co.tz,afribaba.co.za,afribaba.com,afribaba.gq,afribaba.mg,afribaba.ml,afribaba.ng,afribaba.so,afribaba.tg,afribaba.ug,afribobo.com,agencedelaposte.com,agroterra.com,ahlulbayt.tv,aia.com.ph,aicom.pl,akvis.com,alivecolors.com,allsmo.com,altervista.org,amadeus.com,americanairlines.fi,armpension.com,askdifference.com,asklion.co.uk,bankid.com,banklinth.ch,barker.com.tr,basilica.ro,batpower.fi,betmagician.com,bim-review.com,bpi-aia.com.ph,broadcasting-services.eu,bucurobor.ro,calamos.com,cfainstitute.org,chatron.pt,cleantalk.org,coalsoft.cz,communitycouncils.scot,comune.novara.it,convert-my-image.com,costaclub.com,delonghi.ru,dirigentindustria.it,e-marilyn.pl,efinancialcareers.com,eichendorff21.de,eks.sk,enablingguide.sg,exatasistemas.com.br,fandor.com,faperme.it,fazauto.com.br,fecareers.co.uk,findaphd.com,fitd.it,fredlist.com,gambling-affiliation.com,gamesjobsdirect.com,garantibbva.com.tr,go4schools.com,graco.com,grupoautentica.com.br,gtalfh.com,hallo-minden.de,hattrick.org,hotelbellevue.lv,hotelier101.com,integrasul.com.br,iochpe.com.br,itaincontri.com,jetcs.co,jobflurry.com,jobsinwales.com,kenweego.com,kupbilet.pl,laislabonita.fm,lankamaailma.fi,lavozdegalicia.es,lawyersonline.co.uk,lifescience.net,linuxcompatible.org,localcouncillor.scot,lonelyplanet.com,lth.se,m-a.org.uk,mazeikiai.lt,montenisa.com,netonnet.no,netonnet.se,netweather.tv,newhome.ch,nexaresources.com,nironmagnetics.com,norwegian.com,nyman.media,openuserjs.org,osevio.com,osthammar.se,pneusb2b.com,policlinicovalencia.es,poolandspacentre.co.uk,povr.com,pozyx.io,privacy.gov.ph,rcip.co.il,rshb.ru,saperesalute.it,schlaganfall-hilfe.de,siderweb.com,smorgasbord.com,smullers.nl,stocktoninformationdirectory.org,stylevamp.de,supercell.com,sweetcare.pt,tchncs.de,teogkaffespecialisten.dk,theonlinesurgery.co.uk,tinyurl.com,tufauto.it,tullverket.se,uabstyle.it,ukpressonline.co.uk,upolujebooka.pl,ustabilir.com,valka.cz,varlesca.pl,vernemq.com,viewsonic.com,viewsoniceurope.com,visitnarva.ee,warp2search.net,yithlibrary.com,youngsseafood.co.uk,yumisu.pl##.alert
 !! cookieBanner
@@ -22355,7 +22359,7 @@ radyofenomen.com##+js(set-cookie, isSiteCookieReviewed, 0, , reload, 1)
 elsate.com##+js(set-cookie, phpbb3_4zn6j_ca, true)
 hume.ai##+js(set-cookie, cookieBar-cookies-accepted, true)
 lotusantwerp.wacs.online##+js(set-cookie, cookie_consent_user_accepted, true)
-gitbook.io,gitbook.com,thehacker.recipes,docs.dyrector.io,docs.webstudio.is,docs.chartbeat.com##+js(set-cookie, __gitbook_cookie_granted, no)
+gitbook.io,gitbook.com,thehacker.recipes,docs.dyrector.io,docs.webstudio.is,docs.chartbeat.com,docs.civic.com##+js(set-cookie, __gitbook_cookie_granted, no)
 makeresearchpay.com##+js(set-cookie, user_cookie_consent, false, , reload, 1)
 tandartsenpraktijk-simons.tandartsennet.nl##+js(set-cookie, cookies-marketing, N)
 bcorporation.net,knime.com##+js(set-cookie, gatsby-gdpr-google-tagmanager, false)
@@ -23500,6 +23504,9 @@ breakwaterit.co.uk,unternehmensregister.de,transparenzregister.de,bundesanzeiger
 !! .cc
 dpp.cz##.cc
 dpp.cz##body,html:style(height: auto !important; overflow: auto !important)
+! brightdata.com
+brightdata.com##.cookies_popup_overlay
+brightdata.com##+js(rc, brd_cookies_bar_popup_shown, html, stay)
 ! roshtein.com
 roshtein.com##.CookieConsent_wrapper__lsbBi
 roshtein.com##*:style(filter: none !important;opacity:1 !important;pointer-events:auto !important)
@@ -27011,6 +27018,7 @@ lazoptics.gr##.new-cookie-supercontainer
 ntng.gr##.prvmodal
 novibet.gr##.setCookies
 sapsalis.gr##.termsnote
+erga.gov.gr##.w-100
 cosmoteinsurance.gr##cookies-concent
 myrewardscoupons.dei.gr##div[class^="cookies_"]
 ertflix.gr##div[data-test="cookie-policy"]
@@ -28397,6 +28405,8 @@ nomada.gt##.noma-privacy
 metroecuador.com.ec##.notification-subs
 jornaldevieira.com##.notifino
 planamigo.org##.notify
+kalamazoo.es##.otsdk_alert
+kalamazoo.es##.otsdk_overlay
 volarensopelana.com##.oxy-modal-backdrop
 theledstore.es##.pgc
 revista.seg-social.es##.portlet-cookies-layout-set
@@ -28625,6 +28635,7 @@ cci.com.tr##.res-bottom-bar
 blablacar.com.tr##.sc-mqugsu-0.eejIlc
 ups.com.tr##.stickfooter
 abone.com.tr,kargomsende.com,tdp.com.tr,turkuvazabone.com##.sticky-footer
+womm.com.tr##.style_cookie__UNiBi
 fikriyat.com,sabah.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
 favori.com.tr##.vnotify-container
 yenisafak.com##.ys-cookie-modal
@@ -29531,6 +29542,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||sweetmarias.com/static/$script,~third-party
 @@||swisstph.ch/*/gdpr.min.js$~third-party
 @@||swnsdigital.com/*/webtoffee-gdpr-cookie-consent/$~third-party
+@@||tarteaucitron.io/load.js$script,domain=journeesdupatrimoine.culture.gouv.fr
 @@||tefl.com/lib/jquery.cookiebar.js
 @@||tester.userbrain.com/js/cookieconsent.js$script,~third-party
 @@||theautopian.com/content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js
@@ -29648,7 +29660,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 29 Aug 2024 00:19:38 +0000
+! Last modified: Fri, 30 Aug 2024 21:30:00 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -31054,6 +31066,7 @@ redbull.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , d
 ! https://github.com/uBlockOrigin/uAssets/pull/24840
 ! https://www.jeuxvideo.com/
 jeuxvideo.com##+js(trusted-click-element, button[onclick="Didomi.setUserAgreeToAll();"], , 1000)
+idnes.cz##+js(trusted-click-element, a[href="javascript:Didomi.setUserAgreeToAll();"], , 1000)
 20minutos.es,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,diepresse.com,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,elespanol.com,elpais.com,elpais.es,euronews.com,gva.be,hbvl.be,ledauphine.com,lejdd.fr,marmiton.org,metronieuws.nl,nicematin.com,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,trailrun.es##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
 20minutos.es,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,diepresse.com,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,elespanol.com,elpais.com,elpais.es,euronews.com,gva.be,hbvl.be,jeuxvideo.com,ledauphine.com,lejdd.fr,marmiton.org,metronieuws.nl,nicematin.com,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,trailrun.es###didomi-host:style(visibility: hidden !important;)
 20minutos.es,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,diepresse.com,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,elespanol.com,elpais.com,elpais.es,euronews.com,gva.be,hbvl.be,jeuxvideo.com,ledauphine.com,lejdd.fr,marmiton.org,metronieuws.nl,nicematin.com,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,trailrun.es##body.didomi-popup-open:style(overflow: auto !important;)

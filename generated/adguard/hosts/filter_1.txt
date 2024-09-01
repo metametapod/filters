@@ -20838,6 +20838,7 @@
 0.0.0.0 analytics.pinterest.com
 0.0.0.0 analytics.pixels.ai
 0.0.0.0 analytics.plaid.com
+0.0.0.0 analytics.plasmic.app
 0.0.0.0 analytics.plausible.citynews.ovh
 0.0.0.0 analytics.plex.tv
 0.0.0.0 analytics.poferries.com
@@ -47044,6 +47045,7 @@
 0.0.0.0 ingbe.demdex.net
 0.0.0.0 ingeniousestateinvolving.com
 0.0.0.0 ingenioustech.biz
+0.0.0.0 ingest-data-afra.snappfood.dev
 0.0.0.0 ingest.at.atwola.com
 0.0.0.0 ingest.do.brainsland.com
 0.0.0.0 ingest.make.rvapps.io
@@ -85187,6 +85189,7 @@
 0.0.0.0 s.vaiglunoz.com
 0.0.0.0 s.vdo.ai
 0.0.0.0 s.vi-serve.com
+0.0.0.0 s.vibe.co
 0.0.0.0 s.visilabs.net
 0.0.0.0 s.voataigru.com
 0.0.0.0 s.voopaicheba.com
@@ -90723,6 +90726,7 @@
 0.0.0.0 stunninglover.com
 0.0.0.0 stunningruin.com
 0.0.0.0 stunsbarbola.website
+0.0.0.0 stupid-luck.com
 0.0.0.0 stupiditydecision.com
 0.0.0.0 stupidityficklecapability.com
 0.0.0.0 stupidityitaly.com
