@@ -4360,6 +4360,7 @@
 0.0.0.0 4.mllqfiucttnuzn.com
 0.0.0.0 4.passfixx.com
 0.0.0.0 4.redirect.appmetrica.yandex.com
+0.0.0.0 4.us.xmlap.com
 0.0.0.0 400-ueu-432.mktoresp.com
 0.0.0.0 400-zoj-998.mktoresp.com
 0.0.0.0 40060113.instancesflushedslander.com
@@ -17389,6 +17390,7 @@
 0.0.0.0 adl.mynetreklam.com
 0.0.0.0 adlabsnetworks.com
 0.0.0.0 adlane.info
+0.0.0.0 adlc-exchange.toast.com
 0.0.0.0 adldigital.demdex.net
 0.0.0.0 adleap.jp
 0.0.0.0 adlegend.com
@@ -21658,7 +21660,6 @@
 0.0.0.0 api.permutive.app
 0.0.0.0 api.permutive.com
 0.0.0.0 api.perzonalization.com
-0.0.0.0 api.petametrics.com
 0.0.0.0 api.pgs.io
 0.0.0.0 api.phoenix-widget.com
 0.0.0.0 api.piads.vn
@@ -27230,6 +27231,7 @@
 0.0.0.0 capture-api.autopilotapp.com
 0.0.0.0 capture.condenastdigital.com
 0.0.0.0 capture.trackjs.com
+0.0.0.0 capturescaldsomewhat.com
 0.0.0.0 capwilyunseen.com
 0.0.0.0 caradonna.actonservice.com
 0.0.0.0 caraganaarborescenspendula.com
@@ -27629,7 +27631,6 @@
 0.0.0.0 cdn-eu.realytics.net
 0.0.0.0 cdn-ext.spiny.ai
 0.0.0.0 cdn-f.adsmoloco.com
-0.0.0.0 cdn-fallback.petametrics.com
 0.0.0.0 cdn-files.adx.com.ru
 0.0.0.0 cdn-fluct.sh.adingo.jp
 0.0.0.0 cdn-fusify.greencuttlefish.com
@@ -28309,7 +28310,6 @@
 0.0.0.0 cdn.persona3.tech
 0.0.0.0 cdn.personyze.com
 0.0.0.0 cdn.perzonalization.com
-0.0.0.0 cdn.petametrics.com
 0.0.0.0 cdn.pfiuyt.com
 0.0.0.0 cdn.piuyt.com
 0.0.0.0 cdn.pixad.com.tr
@@ -28507,6 +28507,7 @@
 0.0.0.0 cdn.track.olx.com.br
 0.0.0.0 cdn.trackboxx.info
 0.0.0.0 cdn.trackclicks.info
+0.0.0.0 cdn.trackdesk.com
 0.0.0.0 cdn.tracking.prepr.io
 0.0.0.0 cdn.trackjs.com
 0.0.0.0 cdn.tradbypass.com
@@ -54164,6 +54165,7 @@
 0.0.0.0 metrics.beyondwords.io
 0.0.0.0 metrics.biddertmz.com
 0.0.0.0 metrics.biletino.com
+0.0.0.0 metrics.camsoda.com
 0.0.0.0 metrics.cbslocal.com
 0.0.0.0 metrics.ceneo.pl
 0.0.0.0 metrics.claspws.tv
@@ -56380,6 +56382,7 @@
 0.0.0.0 nerfctv.com
 0.0.0.0 nerolsdraymen.com
 0.0.0.0 nervegus.com
+0.0.0.0 nerveheels.com
 0.0.0.0 nervousclangprobable.com
 0.0.0.0 nervoustolsel.com
 0.0.0.0 nesefurthere.info
@@ -60310,7 +60313,6 @@
 0.0.0.0 pesteroverwork.com
 0.0.0.0 pesterunusual.com
 0.0.0.0 pet.umwiba.com
-0.0.0.0 petametrics.com
 0.0.0.0 petargumentswhirlpool.com
 0.0.0.0 petasmaeryops.com
 0.0.0.0 petcare-na.blueconic.net
@@ -95110,6 +95112,7 @@
 0.0.0.0 trackcommon.hujiang.com
 0.0.0.0 trackconsole.com
 0.0.0.0 trackdb.go3.tv
+0.0.0.0 trackdesk.com
 0.0.0.0 trackdiscovery.net
 0.0.0.0 trackdomain01.webtrekk.net
 0.0.0.0 trackdownload.startappservice.com
@@ -97786,6 +97789,7 @@
 0.0.0.0 us.webhook.logs.insight.rapid7.com
 0.0.0.0 us.widget.mb-srv.com
 0.0.0.0 us.xml-clickurl.com
+0.0.0.0 us.xmlap.com
 0.0.0.0 us.xmlppcbuzz.com
 0.0.0.0 us.zip.slowundergroundattentive.com
 0.0.0.0 us01.mtgglobals.com
@@ -105701,6 +105705,7 @@
 0.0.0.0 xml.zentrixads.com
 0.0.0.0 xml.zeusadx.com
 0.0.0.0 xml1-v4.admeridianads.com
+0.0.0.0 xmlap.com
 0.0.0.0 xmlapiclickredirect.com
 0.0.0.0 xmlapiclickredirect10102022.com
 0.0.0.0 xmlclick.admeridianads.com
