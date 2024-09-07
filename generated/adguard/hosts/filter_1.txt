@@ -17838,6 +17838,7 @@
 0.0.0.0 ads-us.amillionads.com
 0.0.0.0 ads-us.loopaautomate.com
 0.0.0.0 ads-us.pictela.net
+0.0.0.0 ads-v2.spotible.com
 0.0.0.0 ads-vpc-alb-0-euwest1.r53.adroll.com
 0.0.0.0 ads-vpc-alb-0-useast1.r53.adroll.com
 0.0.0.0 ads-vpc-alb-0-uswest2.r53.adroll.com
@@ -28448,6 +28449,7 @@
 0.0.0.0 cdn.splitbee.io
 0.0.0.0 cdn.sportlabs.online
 0.0.0.0 cdn.sports-streams-online.club
+0.0.0.0 cdn.spotible.com
 0.0.0.0 cdn.spotscenered.info
 0.0.0.0 cdn.spoutable.com
 0.0.0.0 cdn.sprida.se
@@ -28840,6 +28842,7 @@
 0.0.0.0 ceekougy.net
 0.0.0.0 ceemoptu.xyz
 0.0.0.0 ceeqgwt.com
+0.0.0.0 ceethipt.com
 0.0.0.0 ceezepegleze.xyz
 0.0.0.0 cefba49e242e4c8e8caa60bb84a4a381.js.ubembed.com
 0.0.0.0 cefuthodob.com
@@ -32194,6 +32197,7 @@
 0.0.0.0 creative.smljmp.com
 0.0.0.0 creative.sonobi.com
 0.0.0.0 creative.sphdigital.com
+0.0.0.0 creative.spotible.com
 0.0.0.0 creative.stackadapt.com
 0.0.0.0 creative.sunmedia.tv
 0.0.0.0 creative.xlirdr.com
@@ -51665,6 +51669,7 @@
 0.0.0.0 log.beecost.com
 0.0.0.0 log.beecost.vn
 0.0.0.0 log.bizlive.vn
+0.0.0.0 log.bloodppressure.info
 0.0.0.0 log.bloodsugars.live
 0.0.0.0 log.bumlam.com
 0.0.0.0 log.bunjang.co.kr
@@ -51753,6 +51758,7 @@
 0.0.0.0 log.outbrain.com
 0.0.0.0 log.outbrainimg.com
 0.0.0.0 log.particlenews.com
+0.0.0.0 log.pdfreaders.net
 0.0.0.0 log.perfecttitspics.com
 0.0.0.0 log.piclick.kr
 0.0.0.0 log.pinterest.com
@@ -89042,6 +89048,7 @@
 0.0.0.0 spotbeepgreenhouse.com
 0.0.0.0 spotdimesulky.com
 0.0.0.0 spotfire.evergage.com
+0.0.0.0 spotible.com
 0.0.0.0 spotify-d.openx.net
 0.0.0.0 spotify-experiments-events.conductrics.com
 0.0.0.0 spotify.demdex.net
@@ -106344,6 +106351,7 @@
 0.0.0.0 yonelectrikeer.com
 0.0.0.0 yonfoongusor.com
 0.0.0.0 yonhelioliskor.com
+0.0.0.0 yonmewon.com
 0.0.0.0 yonsandileer.com
 0.0.0.0 yoochoose.net
 0.0.0.0 yoom01.webtrekk.net
