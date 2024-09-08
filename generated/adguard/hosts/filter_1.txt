@@ -18067,6 +18067,7 @@
 0.0.0.0 ads.nghenhinvietnam.vn
 0.0.0.0 ads.nguoiduatin.vn
 0.0.0.0 ads.nhadatmoi.net
+0.0.0.0 ads.nicovideo.jp
 0.0.0.0 ads.nl3.vip.prod.criteo.com
 0.0.0.0 ads.nordreportern.se
 0.0.0.0 ads.novanet.vn
@@ -34355,6 +34356,7 @@
 0.0.0.0 dby7kx9z9yzse.cloudfront.net
 0.0.0.0 dc-12300714.fls.doubleclick.net
 0.0.0.0 dc-5629058.fls.doubleclick.net
+0.0.0.0 dc-cdn.ads.nicovideo.jp
 0.0.0.0 dc-ssp-trk.trknext.com
 0.0.0.0 dc-storm.com
 0.0.0.0 dc-tag.jp

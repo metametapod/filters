@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-09-07T00:55:00Z
+! Last modified: 2024-09-08T01:00:24Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 06 Sep 2024 11:35:44 +0000
+! Last modified: Sat, 07 Sep 2024 13:02:29 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18780,6 +18780,7 @@ adcoffee.io###analytics-id
 buckle.com###analytics-prompt
 ao.com###aoMessageHolder
 rugbycoachweekly.net,sportsperformancebulletin.com###aos-Cookie-Modal
+thestage.co.uk###aos-CookiePolicy
 mothersmarket.com###aryosys-cookie-message
 virtualtrials.org###askprivacy
 uktv.co.uk###back-to-old-site
@@ -21511,7 +21512,7 @@ twitch.tv##.consent-banner
 !! .amgdprcookie-modal-container
 american-heritage.de,kedo.de,shop.lecoqporcelaine.it##.amgdprcookie-modal-container
 !! .dialog-lightbox-widget
-ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,cosmere.es,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,golffang.co.uk,itepexam.com,kedraflowerscpa.com,martonmedia.pl,mindigital.gr,newnoisemagazine.com,onlyonce.today,powerzone.com,renovainvest.com.br,saferpass.com,satel.pl,selectmedia.asia,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
+ardutronix.de,awdisbrands.com,blackmusicscholar.com,coachdaveacademy.com,cosmere.es,courses.heatgeek.com,cover-4-less.com,dogfoodreviews.com,elegis.com.br,golffang.co.uk,itepexam.com,kedraflowerscpa.com,lightlife.com,martonmedia.pl,mindigital.gr,newnoisemagazine.com,onlyonce.today,powerzone.com,renovainvest.com.br,saferpass.com,satel.pl,selectmedia.asia,sublabmusic.com,tealstreet.io,thebfa.org,veracore.com,victorvision.com.br##.dialog-lightbox-widget
 !! .t657
 2035.university,alfabusinessweek.ru,bohoo.ru,dcciv.ru,domino-sveta.ru,evisa-russia.ru,examus.com,floristtina.ru,geniusreferrals.com,millionviews.ru,nadessert.com,niagara-pu.ru,ollinprofessional.ru,qapp.tech,sales-battle.ru,tilda.cc,usedesk.ru,waterlamp.de,xianti.fr,zaslon-ul.ru##.t657
 !! .t886
@@ -21922,6 +21923,7 @@ gcds.com,great.gov.uk,make.org,oralb.ca,swapcard.com,tommy.com##.ReactModal__Ove
 ! Custom Filters
 primevideo.com##.DVWebNode-conditional-site-wide-wrapper:has([data-testid="consent-reject-all-endpoint"])
 blog.smithsecurity.biz##.fixed:has-text(cookies)
+alohaprofile.com#?#.md\:right-\[40px\]:-abp-contains(By continuing to use our site)
 honeygain.com#?#.Wrapper--1lbmq00:-abp-contains(This website uses cookies)
 istockphoto.com#?#.warning:-abp-has([data-cookie-type])
 memefi.club#?#.MuiStack-root:-abp-contains(Personalised ads)
@@ -22504,6 +22506,7 @@ bafa.de,bka.de##+js(set-cookie, gsbbanner, 0)
 bolist.se##+js(set-cookie, cookies_marketing_ok, false)
 bolist.se##+js(set-cookie, cookies_ok, true)
 evivanlanschot.nl##+js(set-cookie, acceptCookies, 0)
+alohabrowser.com##+js(set-cookie, acceptCookie, 1)
 prenatal.nl##+js(set-cookie, marketingCookies, false)
 wagner-tuning.com##+js(set-cookie, CookieLaw_statistik 0)
 wagner-tuning.com##+js(set-cookie, CookieLaw_komfort, 0)
@@ -29672,7 +29675,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Wed, 04 Sep 2024 12:53:45 +0000
+! Last modified: Sat, 07 Sep 2024 10:30:58 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -30028,6 +30031,9 @@ olympics.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 ! https://www.ubereats.com/
 ubereats.com##+js(trusted-click-element, button[data-tracking-name="cookie-preferences-mloi-initial-opt-out"])
 ubereats.com##div[role="dialog"]:has(button[data-tracking-name="cookie-preferences-mloi-initial-opt-out"]):style(visibility: hidden !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/25238
+visme.co##+js(trusted-set-cookie, visme_cookies_settings, '{"analytics":false,"advertisement":false,"functionality":false}', , , domain, visme.co)
+visme.co##+js(trusted-set-cookie, visme_cookies_use, no, , , domain, visme.co)
 
 
 !! Needs additional cookies
