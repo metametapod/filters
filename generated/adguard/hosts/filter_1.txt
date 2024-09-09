@@ -28567,6 +28567,7 @@
 0.0.0.0 cdn.videoads.creativecdn.com
 0.0.0.0 cdn.vidverto.io
 0.0.0.0 cdn.vindicosuite.com
+0.0.0.0 cdn.viowrel.com
 0.0.0.0 cdn.vip-hd-movies.xyz
 0.0.0.0 cdn.vipads.cc
 0.0.0.0 cdn.visiblemeasures.com
@@ -38813,6 +38814,7 @@
 0.0.0.0 events.audiate.me
 0.0.0.0 events.audioplace.me
 0.0.0.0 events.auth.gid.ru
+0.0.0.0 events.baselime.io
 0.0.0.0 events.betterhelp.com
 0.0.0.0 events.brightline.tv
 0.0.0.0 events.browsiprod.com
@@ -60922,6 +60924,7 @@
 0.0.0.0 pixel.byspotify.com
 0.0.0.0 pixel.carambo.la
 0.0.0.0 pixel.cdnwidget.com
+0.0.0.0 pixel.clutter.com
 0.0.0.0 pixel.coccoc.com
 0.0.0.0 pixel.conative.network
 0.0.0.0 pixel.condenastdigital.com
