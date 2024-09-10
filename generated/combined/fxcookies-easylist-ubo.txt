@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-09-09T00:58:01Z
+! Last modified: 2024-09-10T00:56:31Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 08 Sep 2024 13:04:25 +0000
+! Last modified: Mon, 09 Sep 2024 02:04:30 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -23213,6 +23213,7 @@ column.com##+js(set-local-storage-item, cookieAllowed, false)
 sonyliv.com##+js(set-local-storage-item, cookie_acceptance, true)
 sonyliv.com##+js(set-local-storage-item, analytics_cookies_acceptance, true)
 cwallet.com##+js(set-local-storage-item, ns_cookies, 1)
+oneskin.co##+js(set-local-storage-item, gdpr, deny)
 near.org,near.ai##+js(set-local-storage-item, cookies-preference, 1)
 dev.near.org##+js(set-local-storage-item, cookiesAcknowledged, 1)
 jito.network##+js(set-local-storage-item, hasConsentedPH, no)
@@ -27403,7 +27404,7 @@ muzikasinstrumenti.lv###PrivacyPolicy
 salidzini.lv###consent-box
 kurierbps.pl###cookie-inner
 kalkulatori.lv###euCCwin
-gov.lv,sargs.lv###manage-cookies
+gov.lv,mil.lv,sargs.lv###manage-cookies
 csdd.lv###message-bar
 baltspaper.lv###msg-wrap
 latexport.lv###notification
