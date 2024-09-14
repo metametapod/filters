@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-09-13T00:56:17Z
+! Last modified: 2024-09-14T00:55:45Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 12 Sep 2024 02:02:19 +0000
+! Last modified: Fri, 13 Sep 2024 13:02:28 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19814,6 +19814,7 @@ agenda.brussels,visit.brussels##.confirm
 pinelab-plugins.com##.consent-block
 sees.com##.consent-ctnr
 dict.longdo.com,itmagazine.ch##.consent-div
+nextbase.co.uk##.consent-managermain
 fancentro.com##.consent-message
 firstgroup.co.uk##.consent-modal
 justwatch.com##.consent-notification
@@ -22276,6 +22277,10 @@ uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 marinelink.com##+js(set-cookie, GDPR, 9)
 queensfishandchipsgloucester.co.uk##+js(set-cookie, COOKIES_ACCEPTED, true)
+bitbucket.io##+js(set-cookie, atl-gdpr-consent, 0010000)
+ton.org##+js(set-cookie, cookies-allowance, true)
+sutterhealth.org##+js(set-cookie, _acceptsEssential, true)
+antpool.com##+js(set-cookie, informedConsent, 1)
 airchina.*##+js(set-cookie, EnableABTest, false)
 airchina.*##+js(set-cookie, EnableFacebook, false)
 airchina.*##+js(set-cookie, EnableGA, false)
@@ -22295,6 +22300,8 @@ my2n.com##+js(set-cookie, consent_panel, 1)
 vandalism-sounds.com##+js(set-cookie, user_allowed_save_cookie, true)
 oocl.com##+js(set-cookie, AcceptCookie, yes)
 brazzersnetwork.com##+js(set-cookie, cookieConsent, 0)
+safaricom.co.ke##+js(set-cookie, cookieConsent, rejected)
+smile.io##+js(set-cookie, smile_allow_cookies, true)
 cyberfolks.ro##+js(set-cookie, CF_GDPR_COOKIE_CONSENT_VIEWED, 1)
 hiermitherz.de##+js(set-cookie, cookie_alert, true)
 uk2.net##+js(set-cookie, cb-enabled, accepted)
@@ -23216,6 +23223,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 column.com##+js(set-local-storage-item, cookieAllowed, false)
+iqoption.com##+js(set-local-storage-item, cookie_usage_accepted, 1)
 sonyliv.com##+js(set-local-storage-item, cookie_acceptance, true)
 sonyliv.com##+js(set-local-storage-item, analytics_cookies_acceptance, true)
 cwallet.com##+js(set-local-storage-item, ns_cookies, 1)
@@ -29384,7 +29392,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||alicdn.com/js/*/ws-cookie.js$script
 @@||aliunicorn.com^*/cookie-info.js
 @@||alphavps.com/assets/js/services/CookiesConsent.min.js
-@@||ampproject.org^*/amp-consent-$domain=9to59to5mac.com|amp-lasexta-com.cdn.ampproject.org|amp.connectthewatts.com|dronedj.com|electrek.co|lelum.pl|martdroid.de|spaceexplored.com|www-history-com.cdn.ampproject.org
+@@||ampproject.org^*/amp-consent-$domain=9to59to5mac.com|amp-lasexta-com.cdn.ampproject.org|connectthewatts.com|dronedj.com|electrek.co|lelum.pl|martdroid.de|spaceexplored.com|www-history-com.cdn.ampproject.org
 @@||andromede-cms.com/vendor/rgpd/rgpd.js$~third-party
 @@||api.mercari.jp/experiments/get_running_experiments_by_name$xmlhttprequest,domain=jp.mercari.com
 @@||api.transcend.io/privacy/graphql$xmlhttprequest
@@ -29702,7 +29710,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 12 Sep 2024 02:44:12 +0000
+! Last modified: Fri, 13 Sep 2024 14:02:56 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -30067,6 +30075,8 @@ ted.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$)
 ted.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0004%3A0%2CC0003%3A0, , , domain, ted.com)
 ! https://www.xing.com/
 xing.com##+js(trusted-set-cookie, userConsent, %7B%22marketing%22%3Afalse%2C%22version%22%3A%225%22%7D, , , domain, xing.com)
+! https://www.webnode.com/
+webnode.com##+js(trusted-set-cookie, ac, '{"essential":true,"functional":false}')
 
 
 !! Needs additional cookies
@@ -30290,7 +30300,7 @@ hemmersbach.com##+js(trusted-set-cookie, cookiefirst-consent, %7B%22cookiefirst%
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20523
 ! https://github.com/uBlockOrigin/uAssets/issues/20595
-digitalfoundry.net,egx.net,eurogamer.it,mcmcomiccon.com,nintendolife.com,paxsite.com,purexbopushsquare.com,starwarscelebration.com,thehaul.com,timeextension.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
+digi24.ro,digidigitalfoundry.net,egx.net,eurogamer.it,gmx.*,mail.com,mcmcomiccon.com,nintendolife.com,paxsite.com,player.pl,purexbopushsquare.com,starwarscelebration.com,thehaul.com,timeextension.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept and continue"])
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept All Cookies"])
 eurogamer.de##+js(trusted-click-element, .accept-all)
@@ -30459,8 +30469,6 @@ viss.nu##+js(trusted-set-cookie, sv-cookie-consent, true, , , reload, 1)
 music.amazon.*##+js(trusted-click-element, #dialogButton1)
 music.amazon.*###overlay:has([href*="privacyprefs/"])
 
-! digi24.ro,digisport.ro cookies
-digi24.ro,digisport.ro##+js(trusted-click-element, button[id="onetrust-accept-btn-handler"])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20551
 goed.at##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1}, 1year, , reload, 1)
@@ -30592,9 +30600,6 @@ algarvevacation.net##+js(trusted-set-cookie, acceptedCookies, '{"necessary":true
 crossnative.com##+js(trusted-set-cookie, cn-cc, %7B%22ccGoogleTagManager%22%3Afalse%2C%22ccGA4%22%3Afalse%2C%22ccSalesviewer%22%3Afalse%7D)
 
 ! Necessary + Functional || Stay signed-in function broken: https://zoom.us/signin#/login
-
-! https://github.com/uBlockOrigin/uAssets/issues/19785#issuecomment-1859656934
-gmx.*##+js(trusted-click-element, #onetrust-accept-btn-handler)
 
 ! reject marketing/analytics
 trezor.io##+js(trusted-set-cookie, userConsent, %7B%22essential%22%3Atrue%2C%22analytical%22%3Afalse%2C%22preferential%22%3Atrue%7D)
@@ -31143,9 +31148,6 @@ sportiva.shueisha.co.jp,wpb.shueisha.co.jp##+js(trusted-set-cookie, OptanonAlert
 sportiva.shueisha.co.jp,wpb.shueisha.co.jp##+js(trusted-click-element, #onetrust-accept-btn-handler)
 !#endif
 
-! https://github.com/uBlockOrigin/uAssets/issues/24437#issuecomment-2225175379
-player.pl##+js(trusted-click-element, button#onetrust-accept-btn-handler)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/24402
 tvn24.pl##+js(set, __tcfapi_user_acctepted, true)
 tvn24.pl###onetrust-consent-sdk
@@ -31207,9 +31209,6 @@ cmp.chip.de##+js(trusted-click-element, button[title="Alle Akzeptieren"], , 1000
 ! Mandatory + Functional - for customer service chat
 posti.fi##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year, , domain, posti.fi)
 posti.fi##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0003%3A1%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0, 1year, , domain, posti.fi)
-
-! https://github.com/uBlockOrigin/uAssets/issues/25187
-mail.com##+js(trusted-click-element, #onetrust-accept-btn-handler)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25246
 biomarkt.de##+js(trusted-set-cookie, CookieConsent, {stamp:%27WpKgN4qzUCpEZsz6QOUxyXrv30fnb7GdP7uhCS2+tW4zpN9MSRfCig==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:$now$})
