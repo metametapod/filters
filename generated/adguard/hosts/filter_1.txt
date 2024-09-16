@@ -27961,6 +27961,7 @@
 0.0.0.0 cdn.crazyrocket.io
 0.0.0.0 cdn.creative-bars1.com
 0.0.0.0 cdn.creativesumo.com
+0.0.0.0 cdn.crsope.com
 0.0.0.0 cdn.cryjun.com
 0.0.0.0 cdn.ctengine.io
 0.0.0.0 cdn.ctnsnet.com
@@ -28236,6 +28237,7 @@
 0.0.0.0 cdn.mnhjkl.com
 0.0.0.0 cdn.mobilefuse.com
 0.0.0.0 cdn.monadplug.com
+0.0.0.0 cdn.monetixads.com
 0.0.0.0 cdn.monhax.com
 0.0.0.0 cdn.mookie1.com
 0.0.0.0 cdn.mouseflow.com
@@ -31712,6 +31714,7 @@
 0.0.0.0 coonnfirrmm-bankingg247njf.weebly.com
 0.0.0.0 cooper.logs.roku.com
 0.0.0.0 cooperate.firstimpression.io
+0.0.0.0 cooperateboneco.com
 0.0.0.0 cooperativebank.demdex.net
 0.0.0.0 cooperativechuckledhunter.com
 0.0.0.0 cooperativegroup.demdex.net
@@ -32017,6 +32020,7 @@
 0.0.0.0 cpm.fmlabsonline.com
 0.0.0.0 cpm.jambojar.com
 0.0.0.0 cpm.media
+0.0.0.0 cpm.monetixads.com
 0.0.0.0 cpm.pixelpluses.com
 0.0.0.0 cpm.programattik.com
 0.0.0.0 cpm.pubgenius.io
@@ -36242,6 +36246,7 @@
 0.0.0.0 dsp-s.adgrx.com
 0.0.0.0 dsp-secure.adxadserv.com
 0.0.0.0 dsp-service.admatic.com.tr
+0.0.0.0 dsp-service.monetixads.com
 0.0.0.0 dsp-service.pixad.com.tr
 0.0.0.0 dsp-staging.adkernel.com
 0.0.0.0 dsp-track.lacunads.com
@@ -47629,6 +47634,7 @@
 0.0.0.0 investerarbrevet.se
 0.0.0.0 investigationsuperbprone.com
 0.0.0.0 investing-channel-d.openx.net
+0.0.0.0 investing.rtb.monetixads.com
 0.0.0.0 investingchannel.ay.delivery
 0.0.0.0 investshopeemall.net
 0.0.0.0 invibravaa.com
@@ -54954,6 +54960,7 @@
 0.0.0.0 monetag.com
 0.0.0.0 monetate.net
 0.0.0.0 monetengine-d.openx.net
+0.0.0.0 monetixads.com
 0.0.0.0 monetiza.co
 0.0.0.0 monetization-sdk.chartboost.com
 0.0.0.0 monetize-static.viralize.tv
@@ -80408,6 +80415,7 @@
 0.0.0.0 prebid.media.net
 0.0.0.0 prebid.mediation-sdk.chartboost.com
 0.0.0.0 prebid.mgid.com
+0.0.0.0 prebid.monetixads.com
 0.0.0.0 prebid.openx.net
 0.0.0.0 prebid.org
 0.0.0.0 prebid.pixad.com.tr
@@ -84587,6 +84595,7 @@
 0.0.0.0 rtax.us5.vip.prod.criteo.com
 0.0.0.0 rtb-admeld-lon5.everesttech.net
 0.0.0.0 rtb-analytics.brand-display.com
+0.0.0.0 rtb-apac-v4.monetixads.com
 0.0.0.0 rtb-apac-v4.vuukle.net
 0.0.0.0 rtb-apac.appocean.media
 0.0.0.0 rtb-apac.bidmyqps.xyz
@@ -84620,6 +84629,7 @@
 0.0.0.0 rtb-eu-v4.clickmi.net
 0.0.0.0 rtb-eu-v4.didna.io
 0.0.0.0 rtb-eu-v4.ezmob.com
+0.0.0.0 rtb-eu-v4.monetixads.com
 0.0.0.0 rtb-eu.152media.com
 0.0.0.0 rtb-eu.adsolut.in
 0.0.0.0 rtb-eu.adxfactory.com
@@ -84757,6 +84767,7 @@
 0.0.0.0 rtb.mfadsrvr.com
 0.0.0.0 rtb.mobileadx.ru
 0.0.0.0 rtb.moe.video
+0.0.0.0 rtb.monetixads.com
 0.0.0.0 rtb.mts.ru
 0.0.0.0 rtb.nativeads.com
 0.0.0.0 rtb.nl3.eu.criteo.com
@@ -90020,6 +90031,7 @@
 0.0.0.0 static.cdn.currencyoffuture.com
 0.0.0.0 static.cdn.fitthings.info
 0.0.0.0 static.cdn.funcats.info
+0.0.0.0 static.cdn.monetixads.com
 0.0.0.0 static.cdn.ourscience.info
 0.0.0.0 static.cdn.pixad.com.tr
 0.0.0.0 static.cdn.worldbusiness.life
