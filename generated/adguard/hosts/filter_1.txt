@@ -17814,6 +17814,7 @@
 0.0.0.0 ads-refinery89.adhese.com
 0.0.0.0 ads-resources.waze.com
 0.0.0.0 ads-roularta.adhese.com
+0.0.0.0 ads-router-noneu.truecaller.com
 0.0.0.0 ads-sdk-configuration-gcp.unityads.unity3d.com
 0.0.0.0 ads-sdk-configuration.unityads.unity3d.com
 0.0.0.0 ads-sdk.mattel163.com
