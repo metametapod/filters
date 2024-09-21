@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-09-20T00:57:23Z
+! Last modified: 2024-09-21T00:56:22Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 19 Sep 2024 18:50:06 +0000
+! Last modified: Fri, 20 Sep 2024 15:50:06 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -1882,6 +1882,7 @@
 ###amp-user-notification-cookies
 ###amp-user-notification-privacy
 ###analytics-consent
+###analytics-consent-overlay
 ###analytics_cookie
 ###andcookie
 ###andytimes_privacy_div
@@ -27434,6 +27435,7 @@ imobie.jp##.fixedbot
 museum.seiko.co.jp##.footer_disclaimer
 adidas.jp##.footersticky
 kaigolink.com##.hJUMlZ
+tenshoku.mynavi.jp##.infoConsentModal
 nttpc.co.jp##.l_cookieAgree
 tedate.jp##.m-snackbar-notice
 insource.co.jp##.m_cookieBanner
@@ -29718,7 +29720,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||holiday.aquila.pl/min/f=/js/$script
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
-@@||iubenda.com^$script,stylesheet,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|cagliaripad.it|capital.it|cdt.ch|centrometeoitaliano.it|cioccolatonippon.it|darkhorizons.com|deejay.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|kisskiss.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|movieplayer.it|mowmag.com|multiplayer.it|player.boom973.com|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|skuola.net|today.it|tomshw.it|virginradio.it
+@@||iubenda.com^$script,stylesheet,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|cagliaripad.it|capital.it|cdt.ch|centrometeoitaliano.it|cioccolatonippon.it|darkhorizons.com|deejay.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|kisskiss.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|movieplayer.it|mowmag.com|multiplayer.it|onepodcast.it|player.boom973.com|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|skuola.net|today.it|tomshw.it|virginradio.it
 @@||k-einbruch.de/typo3conf/ext/codetris_propk/Resources/Public/JavaScript/main/cookie_consent.js$~third-party
 @@||kalaydo.de^*/cookie-consent.jsc.js$domain=kalaydo.de
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
@@ -29766,7 +29768,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 19 Sep 2024 17:30:07 +0000
+! Last modified: Fri, 20 Sep 2024 03:41:53 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -30045,9 +30047,11 @@ steuerbot.com##+js(trusted-set-local-storage-item, cookies, '{"essential":true,"
 ! https://vadhander.hogakusten.com/
 ! https://vadhander.kramfors.se/
 vadhander.hogakusten.com,vadhander.kramfors.se##+js(trusted-set-local-storage-item, cookie_consent, '{"consent":true,"necessary":true,"preference":false,"statistics":false,"marketing":false}')
-! https://www.veriff.com/
+! https://www.veriff.com/ - EU IP
 veriff.com##+js(set-cookie, veriff_cookie_consent_completed, true)
 veriff.com##+js(trusted-set-cookie, veriff_cookie_consent, %7B%22performance%22%3Afalse%2C%22functionality%22%3Afalse%2C%22targeting%22%3Afalse%7D)
+! https://www.veriff.com/ - US IP
+veriff.com##+js(trusted-set-cookie, veriff_cookie_notice, %7B%22dismisssed%22%3Atrue%7D)
 ! https://programme.conventus.de/en
 programme.conventus.de##+js(trusted-set-cookie, USE_COOKIE_CONSENT_STATE, {%22necessary%22:true})
 ! https://arena.pl/
