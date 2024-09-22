@@ -29783,6 +29783,7 @@
 0.0.0.0 client-context.hubvisor.io
 0.0.0.0 client-context.us.hubvisor.io
 0.0.0.0 client-imp-east-2.us-east-1.local.emxdgt.com
+0.0.0.0 client-log.karte.io
 0.0.0.0 client-logger.beta.salemove.com
 0.0.0.0 client-logger.salemove.com
 0.0.0.0 client-metrics.chess.com
@@ -34616,6 +34617,7 @@
 0.0.0.0 delightacheless.com
 0.0.0.0 delightedheavy.com
 0.0.0.0 delightedintention.com
+0.0.0.0 delightedplash.com
 0.0.0.0 delightedprawn.com
 0.0.0.0 delightspiritedtroop.com
 0.0.0.0 deliman.net
