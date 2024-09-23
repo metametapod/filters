@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-09-21T00:56:22Z
+! Last modified: 2024-09-23T00:58:54Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: G71jq/+0Y6+gi50ZNOCDsA
-! Diff-Path: ../patches/18/18-s-1726850338-3600.patch
+! Checksum: xrwzQuleWOIsPCIJ6kOshQ
+! Diff-Path: ../patches/18/18-s-1727019427-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.48.13
-! TimeUpdated: 2024-09-20T16:34:47+00:00
+! Version: 2.0.48.14
+! TimeUpdated: 2024-09-22T15:33:26+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4072,7 +4072,7 @@ westend61.de###cookie_Modal
 qualified.io##consent-cookie-popup
 digiforum.space##.wordpress-fire-push-popup
 ||gdpr.api.bcdn.jp^
-megamarket.ru,whitebit.com###cookies-notification
+lalal.ai,rivegauche.ru,megamarket.ru,whitebit.com###cookies-notification
 you-porn.com##div[id^="cookie"]
 comparaja.pt#$#html.noScroll > body { overflow: auto !important; }
 comparaja.pt#$##cookie-information-template-wrapper { display: none !important; }
@@ -7762,7 +7762,6 @@ coddyschool.com##.collect-data
 kohl24.de###coe_cookies_container
 myswooop.de###cookie_consent_banner
 unclutterapp.com###useCookiesAcceptBlock
-rivegauche.ru##cookies-notification
 groovy.bot###__layout > div > .fixed.bottom-0.rounded-lg[style^="transform:"]
 occrp.org##.occrp-cookie-overlay
 g-co.agency,boredteachers.com##.cookie__banner
