@@ -3480,6 +3480,7 @@
 0.0.0.0 252-llt-628.mktoresp.com
 0.0.0.0 252-rfo-227.mktoresp.com
 0.0.0.0 252-zvx-735.mktoresp.com
+0.0.0.0 2520june2024.com
 0.0.0.0 25233.2469april2024.com
 0.0.0.0 25233.2477april2024.com
 0.0.0.0 2524173.fls.doubleclick.net
@@ -3576,6 +3577,7 @@
 0.0.0.0 276-ohq-164.mktoresp.com
 0.0.0.0 2761768.fls.doubleclick.net
 0.0.0.0 2768331.fls.doubleclick.net
+0.0.0.0 27699.2520june2024.com
 0.0.0.0 27699.gettraffnews.com
 0.0.0.0 277076.tctm.co
 0.0.0.0 2771890.fls.doubleclick.net
@@ -18932,6 +18934,7 @@
 0.0.0.0 adtouch.adbrix.io
 0.0.0.0 adtpix.com
 0.0.0.0 adtr.io
+0.0.0.0 adtrace.ai
 0.0.0.0 adtrace.io
 0.0.0.0 adtrace.ir
 0.0.0.0 adtrace.online
@@ -27697,6 +27700,7 @@
 0.0.0.0 cdn-ykb.dataroid.com
 0.0.0.0 cdn.2024jphatomenesys36.top
 0.0.0.0 cdn.234doo.com
+0.0.0.0 cdn.2520june2024.com
 0.0.0.0 cdn.254a.com
 0.0.0.0 cdn.360yield.com
 0.0.0.0 cdn.3lift.com
@@ -27786,6 +27790,7 @@
 0.0.0.0 cdn.adtelligent.com
 0.0.0.0 cdn.adtheorent.com
 0.0.0.0 cdn.adtive.com
+0.0.0.0 cdn.adtrace.ai
 0.0.0.0 cdn.adtrace.org
 0.0.0.0 cdn.adtriba.com
 0.0.0.0 cdn.adtrue.com
@@ -28073,6 +28078,7 @@
 0.0.0.0 cdn.gumgum.com
 0.0.0.0 cdn.hadron.ad.gt
 0.0.0.0 cdn.hadronid.net
+0.0.0.0 cdn.harvest.graindata.com
 0.0.0.0 cdn.hbbtv.smartclip.net
 0.0.0.0 cdn.hbplatform.com
 0.0.0.0 cdn.heapanalytics.com
@@ -38741,8 +38747,10 @@
 0.0.0.0 events-stream-svc.usw2.cordial.com
 0.0.0.0 events-us-east-1.ipredictive.com
 0.0.0.0 events-us-west-2.ipredictive.com
+0.0.0.0 events-v2.adtrace.ai
 0.0.0.0 events.adhaven.com
 0.0.0.0 events.ads.vungle.com
+0.0.0.0 events.adtrace.ai
 0.0.0.0 events.adx.com.ru
 0.0.0.0 events.agrvt.com
 0.0.0.0 events.air.tv
@@ -40872,6 +40880,7 @@
 0.0.0.0 foheltou.com
 0.0.0.0 fohikrs.com
 0.0.0.0 foldedabstinenceconsole.com
+0.0.0.0 foldedaddress.com
 0.0.0.0 foldedprevent.com
 0.0.0.0 folder.adfuture.cn
 0.0.0.0 folder.adsunflower.com
@@ -44274,6 +44283,7 @@
 0.0.0.0 hartbasketenviable.com
 0.0.0.0 harvard.evergage.com
 0.0.0.0 harvest.gotrackier.com
+0.0.0.0 harvest.graindata.com
 0.0.0.0 harvester.cms.markiza.sk
 0.0.0.0 harvester.hbpl.co.uk
 0.0.0.0 harvester.hnonline.sk
