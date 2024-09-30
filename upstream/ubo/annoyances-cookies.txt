@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sat, 28 Sep 2024 19:00:15 +0000
+! Last modified: Sun, 29 Sep 2024 19:30:36 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -810,7 +810,7 @@ nordax.com##+js(trusted-set-cookie, cookie_consent, %7B%22allowEssentials%22%3At
 ! https://www.reddit.com/r/uBlockOrigin/comments/1693mka/
 ! https://github.com/uBlockOrigin/uAssets/issues/20586#issuecomment-2357294152
 ! youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1, domain, youtube.com)
-m.youtube.com,www.youtube.com##+js(trusted-click-element, button[aria-label*="Accept the use of cookie"], , 1000)
+m.youtube.com,www.youtube.com##+js(trusted-click-element, ytd-button-renderer.ytd-consent-bump-v2-lightbox + ytd-button-renderer.ytd-consent-bump-v2-lightbox button[style][aria-label][title], , 1000)
 ! GDPR dialog when moving from Google to Youtube
 ! https://github.com/uBlockOrigin/uAssets/discussions/18598#discussioncomment-7362961
 consent.youtube.com##+js(trusted-click-element, form[action] button[jsname="tWT92d"])
@@ -1042,7 +1042,7 @@ cmp-sp.vrt.be##+js(trusted-click-element, button.message-button[title="Mijn inst
 cmp-sp.vrt.be,cmp.dpgmedia.nl,cmp.dpgmedia.be,cmp.ad.nl,cmp.autotrack.nl,cmp.autoweek.nl,cmp.bd.nl,cmp.bndestem.nl,cmp.demorgen.be,cmp.deondernemer.nl,cmp.destentor.nl,cmp.ed.nl,cmp.gaspedaal.nl,cmp.gelderlander.nl,cmp.hln.be,cmp.humo.be,cmp.margriet.nl,cmp.nu.nl,cmp.qmusic.nl,cmp.stijlvol-wonen.com,cmp.trouw.nl,cmp.tubantia.nl,cmp.vtwonen.be,cmp.vtwonen.nl,cmp.pzc.nl,cmp.zozitdat.nl##+js(trusted-click-element, 'button[aria-checked="false"][aria-label^="Social"], button.sp_choice_type_SAVE_AND_EXIT', , 500)
 myprivacy.dpgmedia.nl,myprivacy.dpgmedia.be,ad.nl,autotrack.nl,autoweek.nl,bd.nl,bndestem.nl,demorgen.be,deondernemer.nl,destentor.nl,ed.nl,gaspedaal.nl,gelderlander.nl,hln.be,humo.be,margriet.nl,nu.nl,qmusic.nl,stijlvol-wonen.com,trouw.nl,tubantia.nl,vrt.be,vtwonen.be,vtwonen.nl,pzc.nl,zozitdat.nl##[title="SP Consent Message"]
 ! Clicking doesn't work on myprivacy.dpgmediagroup.net, reloading the page once redirects to dpgmediagroup.com, where clicking works
-myprivacy.dpgmediagroup.net##+js(set-cookie, dummy, 1, , reload, 1)
+myprivacy.dpgmedia.nl,myprivacy.dpgmediagroup.net##+js(set-cookie, dummy, 1, , reload, 1)
 myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl##+js(trusted-click-element, '#pg-shadow-host >>> #pg-configure-btn, #pg-shadow-host >>> #purpose-row-SOCIAL_MEDIA input[type="checkbox"], #pg-shadow-host >>> button#pg-save-preferences-btn')
 myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl###pg-modal
 
@@ -1748,3 +1748,6 @@ web.de##+js(trusted-click-element, button[data-id="save-all-pur"], , 1000)
 linternaute.com##+js(trusted-click-element, button.button__acceptAll)
 linternaute.com###appconsent:style(visibility: hidden !important;)
 linternaute.com##body.appconsent_noscroll:style(overflow: auto !important;)
+
+! essential only 
+visionapartments.com##+js(trusted-set-cookie, ota_ga_consent, eyJkYXRlIjoiMjAyNC0wOS0yOFQxODoyNToxMy40MjlaIiwibmVzY2Vzc2FyeSI6dHJ1ZSwicGVyZm9ybWFuY2UiOmZhbHNlLCJtYXJrZXRpbmciOmZhbHNlfQ==)
