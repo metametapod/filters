@@ -21657,6 +21657,7 @@
 0.0.0.0 api.permutive.app
 0.0.0.0 api.permutive.com
 0.0.0.0 api.perzonalization.com
+0.0.0.0 api.petametrics.com
 0.0.0.0 api.pgs.io
 0.0.0.0 api.phoenix-widget.com
 0.0.0.0 api.piads.vn
@@ -27624,6 +27625,7 @@
 0.0.0.0 cdn-eu.realytics.net
 0.0.0.0 cdn-ext.spiny.ai
 0.0.0.0 cdn-f.adsmoloco.com
+0.0.0.0 cdn-fallback.petametrics.com
 0.0.0.0 cdn-files.adx.com.ru
 0.0.0.0 cdn-fluct.sh.adingo.jp
 0.0.0.0 cdn-fusify.greencuttlefish.com
@@ -28308,6 +28310,7 @@
 0.0.0.0 cdn.persona3.tech
 0.0.0.0 cdn.personyze.com
 0.0.0.0 cdn.perzonalization.com
+0.0.0.0 cdn.petametrics.com
 0.0.0.0 cdn.pfiuyt.com
 0.0.0.0 cdn.piuyt.com
 0.0.0.0 cdn.pixad.com.tr
@@ -31653,7 +31656,6 @@
 0.0.0.0 cookie.altitude-arena.com
 0.0.0.0 cookie.brealtime.com
 0.0.0.0 cookie.najva.com
-0.0.0.0 cookie.norstatsurveys.com
 0.0.0.0 cookie.stpd.cloud
 0.0.0.0 cookie.sync.ad.cpe.dotomi.com
 0.0.0.0 cookie.sync.usonar.jp
@@ -35147,6 +35149,7 @@
 0.0.0.0 dictumstortil.com
 0.0.0.0 didna-d.openx.net
 0.0.0.0 didna.io
+0.0.0.0 didstfineer.com
 0.0.0.0 didthere.com
 0.0.0.0 dienlanhnguyenkim.ctyvn.net
 0.0.0.0 dienmayxanh.cloud
@@ -44138,6 +44141,7 @@
 0.0.0.0 hadronid.net
 0.0.0.0 hadseaside.com
 0.0.0.0 hadtwobr.info
+0.0.0.0 hadute.xyz
 0.0.0.0 haffnetworkmm.com
 0.0.0.0 hagdenlupulic.top
 0.0.0.0 hagerty.demdex.net
@@ -56840,7 +56844,6 @@
 0.0.0.0 normkela.com
 0.0.0.0 norrisengraveconvertible.com
 0.0.0.0 norrissoundinghometown.com
-0.0.0.0 norstatsurveys.com
 0.0.0.0 northcoastmedia.advertserve.com
 0.0.0.0 northerntoolandequipment.demdex.net
 0.0.0.0 northerntrust.demdex.net
@@ -60173,6 +60176,7 @@
 0.0.0.0 pesteroverwork.com
 0.0.0.0 pesterunusual.com
 0.0.0.0 pet.umwiba.com
+0.0.0.0 petametrics.com
 0.0.0.0 petargumentswhirlpool.com
 0.0.0.0 petasmaeryops.com
 0.0.0.0 petcare-na.blueconic.net
@@ -82026,6 +82030,7 @@
 0.0.0.0 qkscga.xyz
 0.0.0.0 qksrv.net
 0.0.0.0 qkxlj.petrolgraphcredibility.com
+0.0.0.0 ql.vinelethoner.com
 0.0.0.0 qlbbowx.xyz
 0.0.0.0 qlcbeg.xyz
 0.0.0.0 qlfqkjluvz.com
@@ -85911,7 +85916,6 @@
 0.0.0.0 scentsy.demdex.net
 0.0.0.0 scepticalchurch.com
 0.0.0.0 scfsdvc.com
-0.0.0.0 sch-map.norstatsurveys.com
 0.0.0.0 schain.bidsxchange.com
 0.0.0.0 scheduler.hbbtv.smartclip.net
 0.0.0.0 scheduler.ssl2anyone5.com
@@ -91788,6 +91792,7 @@
 0.0.0.0 t.groagnoaque.com
 0.0.0.0 t.growingio.com
 0.0.0.0 t.guxedsuba.com
+0.0.0.0 t.hadute.xyz
 0.0.0.0 t.hauphuchaum.com
 0.0.0.0 t.hegeju.xyz
 0.0.0.0 t.hestutche.com
@@ -96026,6 +96031,7 @@
 0.0.0.0 tt-12842-2.seg.t.tailtarget.com
 0.0.0.0 tt-9964-3.seg.t.tailtarget.com
 0.0.0.0 tt.adcocktail.com
+0.0.0.0 tt.didstfineer.com
 0.0.0.0 tt.getjad.io
 0.0.0.0 tt.mbww.com
 0.0.0.0 tt1.zedo.com
@@ -99019,6 +99025,7 @@
 0.0.0.0 vincentagrafes.top
 0.0.0.0 vindicosuite.com
 0.0.0.0 vinegardaring.com
+0.0.0.0 vinelethoner.com
 0.0.0.0 vineyardvines-1.demdex.net
 0.0.0.0 vingroup.fit
 0.0.0.0 vingroupinvestment.com
@@ -100752,6 +100759,7 @@
 0.0.0.0 winning.triplelift.com
 0.0.0.0 winningorphan.com
 0.0.0.0 winonexd.b-cdn.net
+0.0.0.0 winori.xyz
 0.0.0.0 wins-eu.sitescout.com
 0.0.0.0 wins-p2e.sitescout.com
 0.0.0.0 wins-p2w.sitescout.com
