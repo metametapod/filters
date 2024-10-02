@@ -21634,6 +21634,7 @@
 0.0.0.0 api.mobula.sdk.duapps.com
 0.0.0.0 api.monetate.net
 0.0.0.0 api.monetizer101.com
+0.0.0.0 api.moneyoyo.org
 0.0.0.0 api.najva.com
 0.0.0.0 api.nanigans.com
 0.0.0.0 api.nas.nct.vn
@@ -22686,6 +22687,7 @@
 0.0.0.0 asparaguspallorspoken.com
 0.0.0.0 asparaguspopcorn.com
 0.0.0.0 aspartos.com
+0.0.0.0 aspectreinforce.com
 0.0.0.0 asperencium.com
 0.0.0.0 asperityhorizontally.com
 0.0.0.0 aspignitean.com
@@ -24772,7 +24774,6 @@
 0.0.0.0 benefitresource.containers.piwik.pro
 0.0.0.0 benefitresource.piwik.pro
 0.0.0.0 benefits.sovendus.com
-0.0.0.0 benelph.de
 0.0.0.0 benengagewriggle.com
 0.0.0.0 benidorinor.com
 0.0.0.0 benignitydesirespring.com
@@ -28078,6 +28079,7 @@
 0.0.0.0 cdn.go.affec.tv
 0.0.0.0 cdn.gocolow.com
 0.0.0.0 cdn.gpcrn.com
+0.0.0.0 cdn.gpmdata.ru
 0.0.0.0 cdn.granify.com
 0.0.0.0 cdn.gravitec.net
 0.0.0.0 cdn.grmtas.com
@@ -31936,6 +31938,7 @@
 0.0.0.0 cousinscostsalready.com
 0.0.0.0 couwainu.xyz
 0.0.0.0 couwhivu.com
+0.0.0.0 covatic.io
 0.0.0.0 covea.piwik.pro
 0.0.0.0 coventrybuildingsociety.demdex.net
 0.0.0.0 coveredstress.com
@@ -46971,6 +46974,7 @@
 0.0.0.0 index-winners-eu-west-1-rtb.adroll.com
 0.0.0.0 index-winners-us-east-1-rtb.adroll.com
 0.0.0.0 index-winners-us-west-2-rtb.adroll.com
+0.0.0.0 indexad.net
 0.0.0.0 indexadhu.hit.gemius.pl
 0.0.0.0 indexeslaughter.com
 0.0.0.0 indexhu.adocean.pl
@@ -54667,10 +54671,17 @@
 0.0.0.0 mobile-collector.newrelic.com
 0.0.0.0 mobile-crash-reports.quantummetric.com
 0.0.0.0 mobile-crash.cell.nr-data.net
+0.0.0.0 mobile-cvc-bauer.covatic.io
+0.0.0.0 mobile-cvc-ire-cvc-stg.covatic.io
+0.0.0.0 mobile-cvc-nv-bbc-web.covatic.io
+0.0.0.0 mobile-cvc-planetradio-web.covatic.io
+0.0.0.0 mobile-cvc-wireless-web.covatic.io
+0.0.0.0 mobile-cvc-wireless.covatic.io
 0.0.0.0 mobile-de-d.openx.net
 0.0.0.0 mobile-events.eservice.emarsys.net
 0.0.0.0 mobile-events.ometria.com
 0.0.0.0 mobile-facebook.com.vn
+0.0.0.0 mobile-lon-lambda.covatic.io
 0.0.0.0 mobile-remote-config.forter.com
 0.0.0.0 mobile-sdk-lib-ca-1.brilliantcollector.com
 0.0.0.0 mobile-sdk-lib-eu-1.brilliantcollector.com
@@ -86170,6 +86181,7 @@
 0.0.0.0 sdk.inmobi.com
 0.0.0.0 sdk.kochava.com
 0.0.0.0 sdk.mediav.com
+0.0.0.0 sdk.moneyoyo.com
 0.0.0.0 sdk.mpianalytics.com
 0.0.0.0 sdk.n-analytics.io
 0.0.0.0 sdk.ocmhood.com
@@ -91680,6 +91692,7 @@
 0.0.0.0 t.beestuneglon.com
 0.0.0.0 t.beop.io
 0.0.0.0 t.bidscape.it
+0.0.0.0 t.blog.livedoor.jp
 0.0.0.0 t.bmmetrix.com
 0.0.0.0 t.botsaunirt.com
 0.0.0.0 t.bouhaisaufy.com
@@ -106672,6 +106685,7 @@
 0.0.0.0 zinovu.com
 0.0.0.0 zion-telemetry-nonprod.api.cnn.io
 0.0.0.0 zion-telemetry.api.cnn.io
+0.0.0.0 zion.api.cnn.io
 0.0.0.0 zion.qbo.intuit.com
 0.0.0.0 zionsbancorp.demdex.net
 0.0.0.0 zip.slowundergroundattentive.com
