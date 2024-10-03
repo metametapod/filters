@@ -16808,6 +16808,7 @@
 0.0.0.0 ad.medyanetads.com
 0.0.0.0 ad.moba8.net
 0.0.0.0 ad.mobadme.jp
+0.0.0.0 ad.mobiuspace.net
 0.0.0.0 ad.moe.video
 0.0.0.0 ad.monetate.net
 0.0.0.0 ad.moo-mam-tai.com
@@ -21353,6 +21354,7 @@
 0.0.0.0 apglinks.net
 0.0.0.0 api-2.curalate.com
 0.0.0.0 api-ad-adapter.wps.com
+0.0.0.0 api-ad-callback.falconnet.app
 0.0.0.0 api-ad-callback.mobiuspace.net
 0.0.0.0 api-ads.percycle.com
 0.0.0.0 api-adservices.apple.com
@@ -21414,6 +21416,7 @@
 0.0.0.0 api.ad.mediba.jp
 0.0.0.0 api.ad.smaato.net
 0.0.0.0 api.ad.snappea.com
+0.0.0.0 api.ad.snaptube.app
 0.0.0.0 api.ad.style
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.adbro.me
@@ -22247,6 +22250,7 @@
 0.0.0.0 apps-shop.segmentify.com
 0.0.0.0 apps.ad-x.co.uk
 0.0.0.0 apps.ad.snappea.com
+0.0.0.0 apps.ad.snaptube.app
 0.0.0.0 apps.admission.net
 0.0.0.0 apps.admob.com
 0.0.0.0 apps.ants.vn
@@ -28677,6 +28681,7 @@
 0.0.0.0 cdn2.pollster.pl
 0.0.0.0 cdn2.popcash.net
 0.0.0.0 cdn2.pubexchange.com
+0.0.0.0 cdn2.sales-frontier.com
 0.0.0.0 cdn2.spoutable.com
 0.0.0.0 cdn2.teads.tv
 0.0.0.0 cdn20.vizury.com
@@ -31313,6 +31318,7 @@
 0.0.0.0 config.a-mo.net
 0.0.0.0 config.ad-brix.com
 0.0.0.0 config.ad.snappea.com
+0.0.0.0 config.ad.snaptube.app
 0.0.0.0 config.ads.vungle.com
 0.0.0.0 config.aps.amazon-adsystem.com
 0.0.0.0 config.eastus-ssp.appgw.inmobi.com
@@ -32146,6 +32152,7 @@
 0.0.0.0 create.lidstatic.com
 0.0.0.0 createsgummous.com
 0.0.0.0 creationagency.actonservice.com
+0.0.0.0 creative-accelerate.ad.mobiuspace.net
 0.0.0.0 creative-assets.quantcount.com
 0.0.0.0 creative-bars1.com
 0.0.0.0 creative-cdn.oddsserve.com
@@ -83483,6 +83490,7 @@
 0.0.0.0 report.acacb.glassboxdigital.io
 0.0.0.0 report.ad-spire.net
 0.0.0.0 report.ad.snappea.com
+0.0.0.0 report.ad.snaptube.app
 0.0.0.0 report.ads.vungle.com
 0.0.0.0 report.ameriprise.glassboxdigital.io
 0.0.0.0 report.amica.glassboxdigital.io
@@ -84823,6 +84831,7 @@
 0.0.0.0 rules.quantcount.com
 0.0.0.0 rules.securestudies.com
 0.0.0.0 rulovar.com
+0.0.0.0 rulrahed.com
 0.0.0.0 rum-http-intake.logs.datadoghq.eu
 0.0.0.0 rum-metrics.bunny.net
 0.0.0.0 rum-reporter-prod.exp.bn.nr
@@ -86907,6 +86916,7 @@
 0.0.0.0 sewersneaky.com
 0.0.0.0 seweurodrive01.webtrekk.net
 0.0.0.0 sewingunrulyshriek.com
+0.0.0.0 sewparamedic.com
 0.0.0.0 sex-chat.me
 0.0.0.0 sex-party.co.il
 0.0.0.0 sexad.net
