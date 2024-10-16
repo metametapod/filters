@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Mon, 14 Oct 2024 09:50:27 +0000
+! Last modified: Tue, 15 Oct 2024 13:06:05 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -20164,6 +20164,7 @@ egym.com##.egym-prompt
 bbc.com##.eh3hs0a5
 marksandspencer.com##.ekergnt3
 mubi.com##.el38f2b0
+eastlink.ca##.elCookieConsent
 elasticemail.com##.elastic-cookie-notice
 my.bulbapp.com##.elementor-element-10ff3dc7
 optodir.com##.elementor-element-3f06401
@@ -21520,7 +21521,7 @@ delfi.ee,fahrrad-xxl.de,maxict.nl,mook.com.tw,paposertanejo.com,plus.pl,plushbez
 !! .cookie-wrapper
 pickmypostcode.com##.cookie-wrapper
 !! .cc
-bdsi.de,hyle.appspot.com,johanneswerk.de,niederoesterreich-card.at##.cc
+bdsi.de,duh.de,hyle.appspot.com,johanneswerk.de,niederoesterreich-card.at##.cc
 !! #cc_div
 antennafebea.it,doctoranytime.gr,legalblink.it,lifestyleblog.it,netzreform.de,opensocietyfoundations.org,otter.finance,sprintesport.it,stanceldavid.sk,sulpanaro.net###cc_div
 !! .cc_div
