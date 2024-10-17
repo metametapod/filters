@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-10-16T00:59:32Z
+! Last modified: 2024-10-17T00:58:55Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 15 Oct 2024 13:06:05 +0000
+! Last modified: Wed, 16 Oct 2024 21:50:28 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18317,6 +18317,7 @@
 ||amazonaws.com/privacy-notice.js
 ||analytics-consent-manager.azureedge.net^
 ||app.livemarketshoppers.com^$script,third-party
+||app.prive.eu/consent$script
 ||app.secureprivacy.ai^$third-party
 ||app.yeps.io/loader?
 ||appconsent.io^
@@ -18347,6 +18348,7 @@
 ||cm.nxtm.pl^$third-party
 ||cmp.datasign.co^
 ||cmp.gemius.com^
+||cmp.meteored.com^$script
 ||cmp.quantcast.com/choice/*/www.themoneytizer.com/choice.js
 ||cmp.setupcmp.com^
 ||collectconsent.com^$third-party
@@ -18873,6 +18875,7 @@ nflp.com###compliance-notice
 imei24.com###cons
 yopmail.com###cons-pop
 chessshop.eu,theonion.com###consent-banner-main
+products.aspose.com###consent-banner-wall
 allsaints.com,can-am.brp.com,rag-bone.com###consent-dialog
 netcraft.com###consent-form
 nasdaq.com###consent-placeholder-onetrust
@@ -20552,6 +20555,7 @@ callisto.sds.com,samueladams.com##.notification-banner
 gumtree.com##.notification-box
 autotrader.co.za,speedtest.net##.notification-container
 c-patex.com##.notification-cookies
+oshi1.io##.notification-initial
 conquestador.com##.notification-list
 meineke.com##.notification-popup-overlay
 nordot.io,tennistv.com##.notification-wrapper
@@ -21305,7 +21309,7 @@ akeebabackup.com,batteryequivalents.com,camara.net,culturagiapponese.it,displays
 !! favoptic.*
 favoptic.de,favoptic.dk,favoptic.fi,favoptic.no##.cookie_consent_alert
 !! #cookiePolicy
-bdonline.co.uk,eutelsat.com,fieldsofskibbereen.ie,keisei.co.jp,simpleescorts.com,thegrocer.co.uk,wifikaernten.at,worldfishing.net###cookiePolicy
+bdonline.co.uk,eutelsat.com,fieldsofskibbereen.ie,keisei.co.jp,sciencelink.net,simpleescorts.com,thegrocer.co.uk,wifikaernten.at,worldfishing.net###cookiePolicy
 !! .custom-consent
 emerald-heizijde.be,rivo.be,upperleft.be,vooruitzicht.be##.custom-consent
 !! landal.*
@@ -21473,7 +21477,7 @@ proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
 andromede-cms.com,any.run,bienpreter.com,codesandbox.io,givesendgo.com,home.s.id,jackbox.tv,kirchberg.ch,knihobot.cz,liu.se,ndsas.sk,openresearchlab.org,sardynkibiznesu.pl,trakt.tv,yodayo.com,zitadel.com###cc-main
 !! #cc--main
-alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,kroo.com,linaro.org,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
+alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,idfnet.net,kroo.com,linaro.org,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
 !! .c--anim
 a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cira.ca,cubeshot.io,diderot.sk,earthday.org,ebikecult.it,edf.org,elettricomagazine.it,emmellearredamenti.com,ems.entega.de,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,getscreen.me,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,infoabsolvent.cz,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,makerworld.com,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tedbaker.returns.international,tgyou24.it,tirerack.com,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
 !! #wr-c
@@ -21815,7 +21819,7 @@ educationendowmentfoundation.org.uk,rshb.ru##.bottom-0.right-0
 !! .bottom-0.relative
 onassis.org##.bottom-0.relative
 !! .bottom-0.fixed
-1password.com,70mai.com,aberrant.io,actievandedag.nl,aksam.com.tr,androidide.com,aplikuj.pl,app.daily.dev,archive.ics.uci.edu,auf1.info,auf1.tv,auroracloud.dev,ausbildung-in-der-it.de,autodiiler.ee,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bcfc.com,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blickers.com,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,confi.com.vc,count.co,crumblcookies.com,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,dhakapost.com,discords.com,divvydiary.com,drank.nl,eluniverso.com,elvah.de,emiratespost.ae,epic.com,espres.so,everifin.com,evolutionary-insights.com,fanzo.com,femometer.com,fetch.ai,financestrategists.com,findaport.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,garbanzo.io,gauss.hr,get.metro-fs.com,glideapps.com,goafricaonline.com,goflink.com,greenmatch.co.uk,ground.news,haproxy.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,idprotect.trendmicro.com,institute.global,institutoaocp.org.br,interdiscount.ch,invezz.com,iotworldtoday.com,ipon.hu,issf-sports.org,jdoodle.com,jimejinak.cz,jobicon.pracuj.pl,jobyaviation.com,jokerguide.com,keeb-finder.com,kessuhorn.is,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,myvatnnaturebaths.is,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,npistanbul.com,oberlo.com,oko.press,oldspitalfieldsmarket.com,opening-hours.today,parqet.com,pazarama.com,perille.fi,polkadot.network,prettylittlething.com,privee.ai,procrosshairs.com,prographers.com,propello.bike,puma.com,pump.fun,qogita.com,qwertee.com,ranzijn.nl,raport.pregiojet.at,regiojet.com,regiojet.de,regiojet.hu,regiojet.pl,regiojet.sk,regiojet.ua,regiojethotels.at,regiojethotels.com,remarkable.com,runmercury.com,selfstock.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.snoop.app,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,standwithcrypto.org,streamawards.de,stylesandpartners.com,synapse.patsnap.com,tekninen.fi,teltonika-gps.com,teltonika-networks.com,temporal.io,thehappytoolbotierschutzverein-muenchen.de,truecar.com,truthsocial.com,tweetyai.com,twitchcon.com,uc.pt,unovantilburgonline.nl,vegetology.com,wizzair.com,wyylde.com,zubi.swiss##.bottom-0.fixed
+1password.com,70mai.com,aberrant.io,actievandedag.nl,aksam.com.tr,androidide.com,aplikuj.pl,app.daily.dev,archive.ics.uci.edu,auf1.info,auf1.tv,auroracloud.dev,ausbildung-in-der-it.de,autodiiler.ee,avislease.sk,back4app.com,ballonvaartcentrumvanmanen.nl,barecollective.com,bbcrewind.co.uk,bcfc.com,bellevue-hamburg.de,bestsellers.hu,betapage.co,biljardihuolto.fi,blickers.com,blog.appsignal.com,blomus.com,bookiply.com,boords.com,britishrenewables.com,bsbfashion.com,bulldogjob.com,bulldogjob.pl,canal1.com.co,canaries.co.uk,chipcitycookies.com,clubmed.co.nz,clubmed.co.uk,clubmed.com.ar,clubmed.com.mx,clubmed.ru,clubmed.se,clubmed.us,codeclimate.com,confi.com.vc,count.co,crumblcookies.com,cryptomaan.eu,curiositystream.com,czepeku.com,deepsource.io,delio.com.pl,dhakapost.com,discords.com,divvydiary.com,drank.nl,eluniverso.com,elvah.de,emiratespost.ae,epic.com,espres.so,everifin.com,evolutionary-insights.com,fanzo.com,femometer.com,fetch.ai,financestrategists.com,findaport.com,first-law.com,flakehub.com,focus-entmt.com,form3.tech,fvd.nl,garbanzo.io,gauss.hr,get.metro-fs.com,glideapps.com,goafricaonline.com,goflink.com,greenmatch.co.uk,ground.news,haproxy.com,hendy.co.uk,hrt.hr,hyte.com,ideo.com,idprotect.trendmicro.com,institute.global,institutoaocp.org.br,interdiscount.ch,invezz.com,iotworldtoday.com,ipon.hu,issf-sports.org,jdoodle.com,jimejinak.cz,jobicon.pracuj.pl,jobyaviation.com,jokerguide.com,keeb-finder.com,kessuhorn.is,kick.com,klachtenkompas.nl,kyero.com,licenseglobal.com,lounges.tv,matkakeisari.fi,mclarenstore.com,medimagazin.com.tr,mein-apothekenmanager.de,mitec.net,moises.ai,munichmag.de,myvatnnaturebaths.is,nationalprivacytest.org,nativebase.io,nbg.gov.ge,nexcess.net,nitronationworldtour.com,npistanbul.com,oberlo.com,oko.press,oldspitalfieldsmarket.com,opening-hours.today,parqet.com,pazarama.com,perille.fi,polkadot.network,prettylittlething.com,privee.ai,procrosshairs.com,prographers.com,propello.bike,puma.com,pump.fun,qogita.com,qwertee.com,ranzijn.nl,raport.pregiojet.at,regiojet.com,regiojet.de,regiojet.hu,regiojet.pl,regiojet.sk,regiojet.ua,regiojethotels.at,regiojethotels.com,remarkable.com,runmercury.com,selfstock.com,shakuro.com,skyfi.com,skynet.ru,smartthingsfind.snoop.app,sportfondsenbadamsterdamoost.nl,spotlighttheatres.com,standwithcrypto.org,streamawards.de,stylesandpartners.com,synapse.patsnap.com,tekninen.fi,teltonika-gps.com,teltonika-networks.com,temporal.io,thehappytoolbotierschutzverein-muenchen.de,truecar.com,truthsocial.com,tweetyai.com,twitchcon.com,uc.pt,unovantilburgonline.nl,vegetology.com,wizzair.com,wyylde.com,zubi.swiss##.bottom-0.fixed
 !! .bottom-2
 argyle.com,artma-zaproszenia.pl,avif.io,claude.ai,lahella.fi,olecams.com,videochaterotico.com,youverify.co##.bottom-2
 !! .bottom-6
@@ -21825,7 +21829,7 @@ cinobo.com,jdslabs.com,lukso.network,mymarket.ge,platform.stability.ai,simtex.io
 !! .bottom-8
 ai-coustics.com,dr-anns.com,lightyear.one,parallel.life,platoboost.com,vecer.com##.bottom-8
 !! .bottom-4
-blog.smithsecurity.biz,depot.dev,desenio.se,docs.earthly.dev,getmerlin.in,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
+blog.smithsecurity.biz,convex.dev,depot.dev,desenio.se,docs.earthly.dev,getmerlin.in,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
 !! .bottom-40
 netnoticias.mx##.bottom-40
 !! .bottom-3
@@ -22761,7 +22765,7 @@ ubisoft.com##+js(set-cookie, UBI_PRIVACY_POLICY_ACCEPTED, false)
 ubisoft.com##+js(set-cookie, UBI_PRIVACY_VIDEO_OPTOUT, false)
 thulb.uni-jena.de##+js(set-cookie, jocookie, false)
 splityourticket.co.uk##+js(set-cookie, cookieNotification.shown, 1)
-eramba.org##+js(set-cookie, localConsent, false)
+invisible.co,eramba.org##+js(set-cookie, localConsent, false)
 openai.com##+js(set-cookie, oai-allow-ne, false)
 openai.com##+js(set-cookie, consent, rejected)
 kupbilecik.com,kupbilecik.de,kupbilecik.pl##+js(set-cookie, allow-cookie, 1)
@@ -23431,7 +23435,7 @@ soquest.xyz##+js(set-local-storage-item, soCookiesPolicy, 1)
 region-bayreuth.de##+js(set-local-storage-item, GDPR:RBI:accepted, false)
 auth.hiring.amazon.com##+js(set-local-storage-item, cookieConsent, true)
 nationalexpress.de##+js(set-local-storage-item, contao-privacy-center.hidden, 1)
-6amgroup.com,go.bkk.hu##+js(set-local-storage-item, cookie_consent, false)
+chipcitycookies.com,6amgroup.com,go.bkk.hu##+js(set-local-storage-item, cookie_consent, false)
 bazaartracker.com##+js(set-local-storage-item, cookiesAgree, true)
 subscribercounter.com##+js(set-local-storage-item, ytsc_accepted_cookies, true)
 app.klarna.com##+js(set-local-storage-item, safe-storage/v1/tracking-consent/trackingConsentMarketingKey, false)
@@ -24560,6 +24564,9 @@ united-domains.de##.gen-layer
 united-domains.de##body:style(overflow: auto !important; position: initial !important;)
 !! .ck-user-cookie-consent-modal
 noblechairs.de##.ck-user-cookie-consent-modal
+! nebius.com
+nebius.com##.g-modal
+nebius.com##body:style(overflow: auto !important; position: initial !important;)
 ! super.cz
 super.cz##.szn-cmp-dialog-container
 super.cz##html,body:style(position: static !important; overflow: auto !important; width: auto !important;)
@@ -26255,6 +26262,7 @@ freiwilligenzentrum-mittelhessen.de##.js-dialog-wrapper
 krautreporter.de##.js-flash-messages-container
 piqd.de##.js-flash_message-container
 oetker.de##.js-pd-main
+mydirtyhobby.de##.jss176
 mydirtyhobby.de##.jss178
 huettenleben.com##.jtc-component-jtc-cookie-management
 ba-vb.de##.kick-kcm-overlay
@@ -29198,6 +29206,7 @@ ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesse
 fairfitters.de#@##gdpr-blocking-page-overlay
 kalenderwoche.de#@##gdpr-consent
 deleteme.com#@##gdpr-cookie-message
+schuttevaer.nl#@##gdpr-overlay
 warframe.com#@##gdprSettings
 savpieces.envienord.fr,veritable-potager.fr#@##gdpr_consent
 icims.com#@##gdpr_container
@@ -29853,7 +29862,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 15 Oct 2024 11:51:33 +0000
+! Last modified: Wed, 16 Oct 2024 13:31:47 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -30254,6 +30263,12 @@ gamearena.pl##+js(set-cookie, cookieVer, 1, , reload, 1)
 publicsenat.fr##+js(trusted-click-element, ':is(.didomi-continue-without-agreeing, #didomi-notice-disagree-button)', , 2000)
 publicsenat.fr###didomi-host:style(opacity: 0 !important;)
 publicsenat.fr##body.didomi-popup-open:style(overflow: auto !important;)
+! mobile/EU IP
+bambaw.com##+js(trusted-set-cookie, cookieconsent_status, accept_selected)
+bambaw.com##+js(trusted-set-cookie, cookieconsent_preferences_disabled, 'functionality,analytics,marketing')
+! reject
+design.com##+js(trusted-set-cookie, brandcrowd-cookie-consent, %7B%22advertisingStorage%22%3Afalse%2C%22analyticsStorage%22%3Afalse%2C%22advertisingUserData%22%3Afalse%2C%22advertisingPersonalization%22%3Afalse%7D)
+! refuse/1=time
 
 
 !! Needs additional cookies
@@ -31262,16 +31277,16 @@ derstandard.at,derstandard.de##+js(trusted-click-element, button[title="Einverst
 
 ! iubenda-cs-accept-btn
 ! https://github.com/uBlockOrigin/uAssets/pull/24738
-ansa.it,delladio.it,huffingtonpost.it,ilsecoloxix.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 1000)
-ansa.it,delladio.it,huffingtonpost.it,ilsecoloxix.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important;)
-ansa.it,delladio.it,huffingtonpost.it,ilsecoloxix.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
+ansa.it,delladio.it,huffingtonpost.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 1000)
+ansa.it,delladio.it,huffingtonpost.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important;)
+ansa.it,delladio.it,huffingtonpost.it,lastampa.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
 ! https://github.com/uBlockOrigin/uAssets/pull/25606
 ! https://github.com/uBlockOrigin/uAssets/pull/25324
-ilgazzettino.it,ilmessaggero.it###iubenda-cs-banner:style(visibility: hidden !important;)
-ilgazzettino.it,ilmessaggero.it##html:style(overflow: auto !important;)
-ilgazzettino.it,ilmessaggero.it##+js(set, _iub.cs.options.callback.onConsentRejected, noopFunc)
-ilgazzettino.it,ilmessaggero.it##+js(set, _iub.cs.options.callback.onConsentFirstRejected, noopFunc)
-ilgazzettino.it,ilmessaggero.it##+js(trusted-click-element, button.iubenda-cs-close-btn)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it###iubenda-cs-banner:style(visibility: hidden !important;)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##html:style(overflow: auto !important;)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(set, _iub.cs.options.callback.onConsentRejected, noopFunc)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(set, _iub.cs.options.callback.onConsentFirstRejected, noopFunc)
+ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(trusted-click-element, button.iubenda-cs-close-btn)
 ||utils.cedsdigital.it/src/js/cmpConsentWall.js^$domain=ilgazzettino.it|ilmessaggero.it
 ||iubenda.com^$domain=3bmeteo.com,important
 
