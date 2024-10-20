@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-10-19T00:58:27Z
+! Last modified: 2024-10-20T01:04:22Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: qMeLXT7JX9WUuog4dGig+Q
-! Diff-Path: ../patches/18/18-s-1729269439-3600.patch
+! Checksum: A+/9yxBV1yNjDcwqvYQX8Q
+! Diff-Path: ../patches/18/18-s-1729316156-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.49.60
-! TimeUpdated: 2024-10-18T16:33:24+00:00
+! Version: 2.0.49.61
+! TimeUpdated: 2024-10-19T05:32:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15022,7 +15022,7 @@ gelia.fi,gelia.no,gelia.se##+js(remove-attr, style, body div.main-menu\, a.logot
 autokino-duesseldorf.ticket.io##+js(remove-class, modal-open, body)
 mazda.com.tr##+js(remove-class, cookie-panel-enabled, .cookie-panel-enabled[data-module="header"])
 freeyou.ag##+js(remove-class, fixed-body, body\,html)
-adidas.ch,adidas.com.tr,adidas.it,adidas.com.br,adidas.es,adidas.se,adidas.no,adidas.fi,adidas.com.ar,adidas.co.uk,adidas.nl,adidas.pl##+js(set-cookie, notice_preferences, 1)
+adidas.dk,adidas.be,adidas.pt,adidas.gr,adidas.at,adidas.cz,adidas.ch,adidas.com.tr,adidas.it,adidas.com.br,adidas.es,adidas.se,adidas.no,adidas.fi,adidas.com.ar,adidas.co.uk,adidas.nl,adidas.pl##+js(set-cookie, notice_preferences, 1)
 tecchannel.de##+js(abort-on-property-read, Object.prototype.waitForConsentData)
 nacongaming.com##+js(set-constant, tarteaucitron.cookie, undefined)
 empik.com##+js(set-cookie, cp, 1)
