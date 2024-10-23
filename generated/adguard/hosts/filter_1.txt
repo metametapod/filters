@@ -19119,13 +19119,16 @@
 0.0.0.0 adx-os.anythinktech.com
 0.0.0.0 adx-os.toponadss.com
 0.0.0.0 adx-sg-req.anythinktech.com
+0.0.0.0 adx-sg-req.mosspf.com
 0.0.0.0 adx-sg-req.toponadss.com
 0.0.0.0 adx-sg.anythinktech.com
+0.0.0.0 adx-sg.mosspf.com
 0.0.0.0 adx-stage.ads.vungle.com
 0.0.0.0 adx-tk.mtgglobals.com
 0.0.0.0 adx-tk.rayjump.com
 0.0.0.0 adx-tracking.tradplusad.com
 0.0.0.0 adx-vg-req.anythinktech.com
+0.0.0.0 adx-vg-req.mosspf.com
 0.0.0.0 adx-vg-req.toponadss.com
 0.0.0.0 adx-winners-ap-southeast-1-rtb.adroll.com
 0.0.0.0 adx-winners-eu-west-1-rtb.adroll.com
@@ -19152,6 +19155,8 @@
 0.0.0.0 adx.mediago.io
 0.0.0.0 adx.mediaz.asia
 0.0.0.0 adx.mocoplex.com
+0.0.0.0 adx.mosspf.com
+0.0.0.0 adx.mossru.com
 0.0.0.0 adx.opera.com
 0.0.0.0 adx.otm-r.com
 0.0.0.0 adx.proadscdn.com
@@ -21527,6 +21532,7 @@
 0.0.0.0 api.monetate.net
 0.0.0.0 api.monetizer101.com
 0.0.0.0 api.moneyoyo.org
+0.0.0.0 api.mosspf.com
 0.0.0.0 api.najva.com
 0.0.0.0 api.nanigans.com
 0.0.0.0 api.nas.nct.vn
@@ -25365,7 +25371,6 @@
 0.0.0.0 bmp.primead.jp
 0.0.0.0 bmrg.reflected.net
 0.0.0.0 bms1.adjarabet.com
-0.0.0.0 bmscontent1.adjarabet.com
 0.0.0.0 bmwag.demdex.net
 0.0.0.0 bmwebm.org
 0.0.0.0 bmwmini.demdex.net
@@ -32204,7 +32209,6 @@
 0.0.0.0 ct2.sarashi.com
 0.0.0.0 ct2.xxxxxxxx.jp
 0.0.0.0 ct2eoy5p.emltrk.com
-0.0.0.0 cta-service-cms2.hubspot.com
 0.0.0.0 ctags.cn
 0.0.0.0 ctam.demdex.net
 0.0.0.0 ctcxflak.xyz
@@ -33630,6 +33634,7 @@
 0.0.0.0 da.log.mgtv.com
 0.0.0.0 da.mgtv.com
 0.0.0.0 da.monetization-sdk.chartboost.com
+0.0.0.0 da.mosspf.com
 0.0.0.0 da.netease.com
 0.0.0.0 da.toponadss.com
 0.0.0.0 da.us.criteo.com
@@ -37972,6 +37977,7 @@
 0.0.0.0 eu-assets.i.posthog.com
 0.0.0.0 eu-bl-server.alphonso.tv
 0.0.0.0 eu-cdn.inside-graph.com
+0.0.0.0 eu-cdn.news-cdn.site
 0.0.0.0 eu-central-1-decisionapi.lift.acquia.com
 0.0.0.0 eu-central-1-www.clicktripz.com
 0.0.0.0 eu-central-1.appodeal.com
@@ -41673,6 +41679,7 @@
 0.0.0.0 gdeua.hit.gemius.pl
 0.0.0.0 gdfp.gifshow.com
 0.0.0.0 gdl.i9dhjx.ru
+0.0.0.0 gdl.news-cdn.site
 0.0.0.0 gdl.zmqdez.ru
 0.0.0.0 gdloc.qchannel03.cn
 0.0.0.0 gdloc2.qchannel03.cn
@@ -42229,6 +42236,7 @@
 0.0.0.0 global.proper.io
 0.0.0.0 global.px.quantserve.com
 0.0.0.0 global.smarterhq.io
+0.0.0.0 global.telemetry.insights.video.a2z.com
 0.0.0.0 global.ymtracking.com
 0.0.0.0 globaladblocker.com
 0.0.0.0 globaladv.net
@@ -45546,6 +45554,7 @@
 0.0.0.0 icyads.com
 0.0.0.0 icycreatmentr.info
 0.0.0.0 icyreprimandlined.com
+0.0.0.0 id-cdn-authdns.news-cdn.site
 0.0.0.0 id-gmtdmp.mookie1.com
 0.0.0.0 id-vietconbank1.uuhuqtp.nethost-4011.000nethost.com
 0.0.0.0 id-visitors.com
@@ -54183,6 +54192,7 @@
 0.0.0.0 mosrtaek.net
 0.0.0.0 mossgaietyhumiliation.com
 0.0.0.0 mossgarden.goatcounter.com
+0.0.0.0 mosspf.com
 0.0.0.0 mostatil.cdn.yektanet.com
 0.0.0.0 mostatil.yektanet.com
 0.0.0.0 mostauthor.com
@@ -55097,6 +55107,7 @@
 0.0.0.0 na-ab31.marketo.com
 0.0.0.0 na-ab33.marketo.com
 0.0.0.0 na-b.marketo.com
+0.0.0.0 na-cdn.news-cdn.site
 0.0.0.0 na-eb2.3lift.com
 0.0.0.0 na-g.marketo.com
 0.0.0.0 na-ice.360yield.com
@@ -55631,6 +55642,7 @@
 0.0.0.0 news-butoto.com
 0.0.0.0 news-buzz.cc
 0.0.0.0 news-capufu.com
+0.0.0.0 news-cdn.site
 0.0.0.0 news-fadubi.com
 0.0.0.0 news-galuzo.cc
 0.0.0.0 news-getogo.com
@@ -79361,6 +79373,7 @@
 0.0.0.0 presentationtracking.netflix.com
 0.0.0.0 presentimentguestmetaphor.com
 0.0.0.0 preservealso.com
+0.0.0.0 preservedresentful.com
 0.0.0.0 presidecookeddictum.com
 0.0.0.0 presidentialprism.com
 0.0.0.0 presidentialtumble.com
@@ -92211,6 +92224,7 @@
 0.0.0.0 tk-abt-com.wizaly.com
 0.0.0.0 tk-rimowa-com.wizaly.com
 0.0.0.0 tk-sg.anythinktech.com
+0.0.0.0 tk-sg.mosspf.com
 0.0.0.0 tk-sg.toponadss.com
 0.0.0.0 tk-tikamoon-com.wizaly.com
 0.0.0.0 tk.ads.justpremium.com
@@ -92221,6 +92235,7 @@
 0.0.0.0 tk.kaufda.de
 0.0.0.0 tk.mediacategory.com
 0.0.0.0 tk.meinprospekt.de
+0.0.0.0 tk.mosspf.com
 0.0.0.0 tk.pathmonk.com
 0.0.0.0 tk.production.us-east-1.blue.kops.kargo.com
 0.0.0.0 tk.promit.ru
@@ -92597,6 +92612,7 @@
 0.0.0.0 tkauru.xyz
 0.0.0.0 tkcatrun.aotter.net
 0.0.0.0 tkcatwalk.aotter.net
+0.0.0.0 tkda.mosspf.com
 0.0.0.0 tkmedia-cache.aotter.net
 0.0.0.0 tkmedia.aotter.net
 0.0.0.0 tkmsccruisescom.wizaly.com
@@ -104304,6 +104320,7 @@
 0.0.0.0 yoc-adserver.com
 0.0.0.0 yoc-steps.adsbynimbus.com
 0.0.0.0 yoc.younited-credit.com
+0.0.0.0 yocksniacins.com
 0.0.0.0 yogaprimarilyformation.com
 0.0.0.0 yogar2ti8nf09.com
 0.0.0.0 yoibbka.com
@@ -105156,6 +105173,7 @@
 0.0.0.0 zwzdjb.xyz
 0.0.0.0 zx.da.mgtv.com
 0.0.0.0 zx.docin.com
+0.0.0.0 zx.yocksniacins.com
 0.0.0.0 zxcbaby.ru
 0.0.0.0 zxcdn.com
 0.0.0.0 zxcvbnmasdfghjklqwertyuiop.work

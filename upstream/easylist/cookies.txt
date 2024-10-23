@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Mon, 21 Oct 2024 18:51:19 +0000
+! Last modified: Tue, 22 Oct 2024 18:50:49 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18332,7 +18332,6 @@
 ||cm.nxtm.pl^$third-party
 ||cmp.datasign.co^
 ||cmp.gemius.com^
-||cmp.meteored.com^$script
 ||cmp.quantcast.com/choice/*/www.themoneytizer.com/choice.js
 ||cmp.setupcmp.com^
 ||collectconsent.com^$third-party
@@ -18556,7 +18555,7 @@
 ||cmp.lavie.fr^
 ||cmp.lemonde.fr^
 ||cmp.lepoint.fr^
-||cmp.meteored.com^$domain=motor.es
+||cmp.meteored.com^
 ||cmp.nature.com^
 ||cmp.netzwelt.de^
 ||cmp.nouvelobs.com^
@@ -21217,6 +21216,7 @@ oneclickcover.com##[data-v-5f675fc8]
 reddit.com##[reddit-cookie-banner]
 stuffthatworks.health##[role="alertdialog"]
 academy.com##[role="complementary"]
+journalofdigitalhistory.org##[style*="position: fixed; bottom: 0px;"]
 forbesafrica.com##[style*="position: fixed; left: 0px; top: 0px;"]
 radioplayer.vistaradio.ca##[style="padding-left:0px !important;"]
 jabref.org##[style^="background-color: rgb(24, 28, 31);"]
@@ -21377,7 +21377,7 @@ comparethemarket.com###__tealiumGDPRcpPrefs
 !! #cookie-policy
 99percentinvisible.org,bookcabin.com,matterport.com,rauch-ft.com###cookie-policy
 !! .cookie-permission-container
-fleurop.nl,korodrogerie.de,vinumpetri.com,wbv.de##.cookie-permission-container
+fleurop.nl,korodrogerie.de,leguano.eu,vinumpetri.com,wbv.de##.cookie-permission-container
 !! .cookie-message
 action.pl,cambridge.org,haber7.com,jobg8.com,rules.co.uk,safra.sg##.cookie-message
 !! .cookie-accept
@@ -22383,6 +22383,7 @@ sportano.sk,sportano.de,sportano.bg,sportano.hu,sportano.ro,sportano.cz##+js(rc,
 klinik-am-ring.de##+js(rc, cookiebanner-body, body, stay)
 ooekultur.at##+js(rc, cookie-notice-active, body, stay)
 igmetall.de##+js(rc, cookie-overlay, body, stay)
+quantamagazine.org##+js(rc, cookies-not-set, body, stay)
 osprey.com##+js(rc, js-cookie-consent-popup, , stay)
 ivass.it##+js(rc, ivass-no-cookie, body, stay)
 onelottery.co.uk,yourschoollottery.co.uk,rainbowlottery.co.uk##+js(rc, cookie-popup-visible, body, stay)
@@ -23492,6 +23493,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-other, false)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-seen, true)
 nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
+studiobookr.com##+js(set-local-storage-item, cookiesAllowed, false)
 mobilefuse.com##+js(set-local-storage-item, cookies_policy_acceptance, denied)
 safe.global##+js(set-local-storage-item, SAFE__analyticsPreference, false)
 data.carbonmapper.org##+js(set-local-storage-item, termsOfUseAccepted, true)
@@ -23600,7 +23602,7 @@ soquest.xyz##+js(set-local-storage-item, soCookiesPolicy, 1)
 region-bayreuth.de##+js(set-local-storage-item, GDPR:RBI:accepted, false)
 auth.hiring.amazon.com##+js(set-local-storage-item, cookieConsent, true)
 nationalexpress.de##+js(set-local-storage-item, contao-privacy-center.hidden, 1)
-chipcitycookies.com,6amgroup.com,go.bkk.hu##+js(set-local-storage-item, cookie_consent, false)
+chipcitycookies.com,6amgroup.com,go.bkk.hu,worldlibertyfinancial.com##+js(set-local-storage-item, cookie_consent, false)
 bazaartracker.com##+js(set-local-storage-item, cookiesAgree, true)
 subscribercounter.com##+js(set-local-storage-item, ytsc_accepted_cookies, true)
 app.klarna.com##+js(set-local-storage-item, safe-storage/v1/tracking-consent/trackingConsentMarketingKey, false)
@@ -24281,8 +24283,9 @@ bionic.co.uk##body,html:style(overflow: auto !important; position: initial !impo
 ! sogeti.
 sogeti.ie,sogeti.de,sogeti.fi,sogeti.be,sogeti.lu,sogeti.no,sogeti.es,sogeti.se,sogeti.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! nytimes.com
-nytimes.com###complianceOverlay
-nytimes.com##body:style(overflow: auto !important;)
+! nytimes.com###complianceOverlay:remove()
+!nytimes.com##+js(rc, fides-no-scroll, div, stay)
+!nytimes.com##body:style(overflow: auto !important;)
 ! raja
 raja.fr,rajapack.at,rajapack.be,rajarani.de,rajapack.co.uk,rajapack.cz,rajapack.de,rajapack.dk,rajapack.es,rajapack.hu,rajapack.it,rajapack.nl,rajapack.no,rajapack.pl,rajapack.pt,rajapack.se,rajapack.sk##.js-otsdk
 raja.fr,rajapack.at,rajapack.be,rajarani.de,rajapack.co.uk,rajapack.cz,rajapack.de,rajapack.dk,rajapack.es,rajapack.hu,rajapack.it,rajapack.nl,rajapack.no,rajapack.pl,rajapack.pt,rajapack.se,rajapack.sk##body,html:style(overflow: auto !important; position: initial !important;)
@@ -27068,6 +27071,7 @@ fler.cz##.ui_widgets_unit-cookies_pref2022_footer
 transformacni-technologie.cz##.upozorneni
 cernilov.cz##.userSettings
 esotravel.cz##.warning-modal
+forendors.cz##.wrapper_dhhcz
 coalsoft.cz##[style^="position: fixed; left: 0px;"]
 nacesty.cz##div.popup-shade
 supraphonline.cz##div[style^="text-align:left; padding: 10px 20px; background-color: #FFF;"]
