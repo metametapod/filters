@@ -20473,6 +20473,7 @@
 0.0.0.0 analytics-h5.mtgglobals.com
 0.0.0.0 analytics-http.mintegral.net
 0.0.0.0 analytics-impulse.contextads.live
+0.0.0.0 analytics-ingestion-production.tubitv.com
 0.0.0.0 analytics-ingestion.pbpms.de
 0.0.0.0 analytics-ingestion.production-public.tubi.io
 0.0.0.0 analytics-ingress-global.bitmovin.com
@@ -24555,6 +24556,7 @@
 0.0.0.0 belgikanst.iad-03.braze.com
 0.0.0.0 belickitungchan.com
 0.0.0.0 beliebtestewebseite.de
+0.0.0.0 beliefnormandygarbage.com
 0.0.0.0 believableboy.com
 0.0.0.0 believe-the-hype.be
 0.0.0.0 believemefly.com
@@ -100424,6 +100426,7 @@
 0.0.0.0 www.belfrycaptured.com
 0.0.0.0 www.belfrynonfiction.com
 0.0.0.0 www.beliebtestewebseite.de
+0.0.0.0 www.beliefnormandygarbage.com
 0.0.0.0 www.bellamyawardinfallible.com
 0.0.0.0 www.belovedfrolic.com
 0.0.0.0 www.belstat.be

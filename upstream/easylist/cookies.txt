@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 22 Oct 2024 18:50:49 +0000
+! Last modified: Wed, 23 Oct 2024 15:50:27 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19008,7 +19008,7 @@ nickfinder.com###europe_cookies_siht
 brandvia.com###expander-header-teaser
 plsx.com###fade
 cricbuzz.com###feedback-bar
-nextjs.org,vercel.com###fides-banner-container
+nextjs.org,vercel.com,wetransfer.com###fides-banner-container
 nytimes.com###fides-overlay
 aitopics.org###fixed-footer
 toffeeweb.com###fixedFooter
@@ -22467,6 +22467,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 billetterie.auditorium-lyon.com##+js(set-cookie, ga_consentement, 0)
+vmake.ai##+js(set-cookie, VMAKE_COOKIE_POLICY, 0)
 marinelink.com##+js(set-cookie, GDPR, 9)
 againstdata.com##+js(set-cookie, dad_consent, true)
 inspections.vcha.ca##+js(set-cookie, agreedToCookiesanon, 1)
@@ -24502,8 +24503,8 @@ fussballgucken.info,taschenhirn.de,pyroweb.de##.klaro
 clo3d.com##.loading-overlay
 clo3d.com##body,html:style(height: auto !important; overflow: auto !important)
 ! beckhoff.com
-gesipa.fr,gesipa.de,gesipa.co.uk,gesipa.es,gesipa.at,gesipa.pl,gesipa.nl,gesipausa.com,gesipa.cz,gesipa.mx,gesipa.com.tr,gesipa.ro,sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com###klaro
-gesipa.fr,gesipa.de,gesipa.co.uk,gesipa.es,gesipa.at,gesipa.pl,gesipa.nl,gesipausa.com,gesipa.cz,gesipa.mx,gesipa.com.tr,gesipa.ro,sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com##body,html:style(overflow: auto !important; position: initial !important;)
+gesipa.fr,gesipa.de,gesipa.co.uk,gesipa.es,gesipa.at,gesipa.pl,gesipa.nl,gesipausa.com,gesipa.cz,gesipa.mx,gesipa.com.tr,gesipa.ro,sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com,kreuzfahrten.de###klaro
+gesipa.fr,gesipa.de,gesipa.co.uk,gesipa.es,gesipa.at,gesipa.pl,gesipa.nl,gesipausa.com,gesipa.cz,gesipa.mx,gesipa.com.tr,gesipa.ro,sansebastianturismoa.eus,herrfors.fi,beckhoff.com,behobia-sansebastian.com,kreuzfahrten.de##body,html:style(overflow: auto !important; position: initial !important;)
 ! igbce.de
 igbce.de##body:style(overflow: auto !important; position: initial !important;)
 ! kbv.de
