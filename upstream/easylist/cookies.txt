@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 25 Oct 2024 06:51:47 +0000
+! Last modified: Sat, 26 Oct 2024 21:50:04 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18918,6 +18918,7 @@ dotmetrics.net###cookie-snackbar-container
 startermotoralternator.com###cookie-status
 bitvavo.com###cookie-wall
 511mt.net###cookieBannerHolder
+rsvp.withgoogle.com###cookieBarWrapper
 egamersworld.com###cookieBot
 investtech.com###cookieConsentDialogue
 smartconversion.com###cookieConsentdiv
@@ -19252,6 +19253,7 @@ procreate.art###pro-banner
 scalemates.com###prv
 spiking.com###prvcypop
 ftcguardian.com###prvcypop_4
+ablefy.io###ps-cookie-banner-wrapper
 migrationobservatory.ox.ac.uk###rb_cookie_popup
 rcwilley.com###rcDrawer
 totalmerchandise.co.uk###react-cookie-consent
@@ -21585,7 +21587,7 @@ abrakadabra.com,etherealmechanics.info,evaair.com,flender.com.cn,heuristic.pl,la
 !! .cookies-component
 proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
-andromede-cms.com,any.run,bienpreter.com,codesandbox.io,givesendgo.com,home.s.id,jackbox.tv,kirchberg.ch,knihobot.cz,liu.se,ndsas.sk,openresearchlab.org,sardynkibiznesu.pl,trakt.tv,yodayo.com,zitadel.com###cc-main
+andromede-cms.com,any.run,bienpreter.com,codesandbox.io,givesendgo.com,goldplay.it,home.s.id,jackbox.tv,kirchberg.ch,knihobot.cz,liu.se,ndsas.sk,openresearchlab.org,sardynkibiznesu.pl,trakt.tv,yodayo.com,zitadel.com###cc-main
 !! #cc--main
 alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,czechuniversities.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,idfnet.net,kroo.com,linaro.org,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
 !! .c--anim
@@ -21987,7 +21989,7 @@ citigroup.com,clearscore.com,voguescandinavia.com##div[class^="cookieNot"]
 !! #cookiemodal
 santam.co.za###cookiemodal
 !! .otPlaceholder
-baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.com,flashresultats.fr,flashscore.ca,flashscore.co,flashscore.co.id,flashscore.co.kr,flashscore.co.uk,flashscore.co.za,flashscore.com,flashscore.com.br,flashscore.com.ua,flashscore.de,flashscore.es,flashscore.fi,flashscore.fr,flashscore.ge,flashscore.info,flashscore.it,flashscore.nl,flashscore.pt,flashscore.ru.com,flashscore.vn,flashscorekz.com,flashscoreusa.com,golflive24.com,handball24.com,horseracing24.com,icehockey24.com,livescore.in,livesport.com,livesport.cz,liveticker.com,motorsport24.com,scoreboard.com,soccer24.com,soccerstand.com,tennis24.com,volleyball24.com##.otPlaceholder
+baseball24.com,basketball24.com,cricket24.com,darts24.com,diretta.it,eredmenyek.com,flashresultats.fr,flashscore.ca,flashscore.co,flashscore.co.id,flashscore.co.kr,flashscore.co.uk,flashscore.co.za,flashscore.com,flashscore.com.br,flashscore.com.ua,flashscore.de,flashscore.es,flashscore.fi,flashscore.fr,flashscore.ge,flashscore.info,flashscore.it,flashscore.nl,flashscore.pe,flashscore.pt,flashscore.ru.com,flashscore.vn,flashscorekz.com,flashscoreusa.com,golflive24.com,handball24.com,horseracing24.com,icehockey24.com,livescore.in,livesport.com,livesport.cz,liveticker.com,motorsport24.com,scoreboard.com,soccer24.com,soccerstand.com,tennis24.com,volleyball24.com##.otPlaceholder
 ! .cp-popup
 foxandbriar.com##.cp-popup
 foxandbriar.com##.cp-popup-container
@@ -23145,6 +23147,7 @@ termania.net##+js(set-cookie, agree_with_cookies, 1)
 swisscard.ch##+js(set-cookie, sc-privacy-settings, true)
 account.nowpayments.io##+js(set-cookie, cookie-accepted, true)
 lc.paragon-software.com,fizjobaza.pl##+js(set-cookie, cookie-accepted, yes)
+leafly.com##+js(set-cookie, acceptsAdvertisingCookies, false)
 gigasport.at,gigasport.de,gigasport.ch##+js(set-cookie, consentAll, 1)
 velleahome.gr##+js(set-cookie, hide_cookies_consent, 1)
 nicequest.com##+js(set-cookie, nicequest_optIn, 1)
@@ -29839,6 +29842,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||collector.appconsent.io/hello^$xmlhttprequest,domain=linternaute.com
 @@||computerbase.de^*/consent/$script,xmlhttprequest
 @@||computerbase.de^*/scripttemplates/$script,xmlhttprequest
+@@||consent-api.onetrust.com/v1/preferences^$xmlhttprequest
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
 @@||consentmanager.mgr.consensu.org/delivery/$stylesheet,xmlhttprequest,domain=sourceforge.net
 @@||consentmanager.net^$script,subdocument,domain=bluray-disc.de|dailybuzz.nl|dw.com|empfohlen.de|lippu.fi|mediaite.com|racingnews365.com|spar.hu|teslamag.de|test.de|testerup.com|vkmag.com|webfail.com|winfuture.de
