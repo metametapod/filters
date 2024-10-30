@@ -17999,6 +17999,7 @@
 0.0.0.0 ads.mrgreen.com
 0.0.0.0 ads.mtgroup.kr
 0.0.0.0 ads.museum.or.jp
+0.0.0.0 ads.mythad.com
 0.0.0.0 ads.nexage.com
 0.0.0.0 ads.nghenhinvietnam.vn
 0.0.0.0 ads.nguoiduatin.vn
@@ -41882,7 +41883,6 @@
 0.0.0.0 geoloc4.whoaremyfriends.net
 0.0.0.0 geolocate.bonzai.co
 0.0.0.0 geolocation.outreach.com
-0.0.0.0 geolocation.sleeknote.com
 0.0.0.0 geometryworstaugust.com
 0.0.0.0 geompzr.com
 0.0.0.0 geonetric.actonservice.com
@@ -79637,6 +79637,7 @@
 0.0.0.0 prodgw.uplift-platform.com
 0.0.0.0 prodigys01.webtrekk.net
 0.0.0.0 prodmp.ru
+0.0.0.0 prodregistryv2.org
 0.0.0.0 prodtraff.com
 0.0.0.0 producedendorsecamp.com
 0.0.0.0 produceduniversitydire.com
@@ -86765,11 +86766,6 @@
 0.0.0.0 slcmvgr.icu
 0.0.0.0 sleazysoundbegins.com
 0.0.0.0 sleekemblemenclose.com
-0.0.0.0 sleeknote.com
-0.0.0.0 sleeknoteboxcontent.sleeknote.com
-0.0.0.0 sleeknotecustomerscripts.sleeknote.com
-0.0.0.0 sleeknoteimages.sleeknote.com
-0.0.0.0 sleeknotestaticcontent.sleeknote.com
 0.0.0.0 sleepytoadfrosty.com
 0.0.0.0 sleeveturbulent.com
 0.0.0.0 sleptbereave.com
@@ -98851,7 +98847,6 @@
 0.0.0.0 webbot.oncustomer.asia
 0.0.0.0 webbplatsanalys.goteborg.se
 0.0.0.0 webc2s.pubgw.yahoo.com
-0.0.0.0 webcare.byside.com
 0.0.0.0 webchannel-content-service.scarabresearch.com
 0.0.0.0 webchat.caresoft.vn
 0.0.0.0 webclicktracer.com.re.getclicky.com
