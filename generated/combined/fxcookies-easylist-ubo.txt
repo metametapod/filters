@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-10-30T01:00:01Z
+! Last modified: 2024-10-31T01:00:13Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 29 Oct 2024 02:09:39 +0000
+! Last modified: Wed, 30 Oct 2024 18:51:20 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -13830,7 +13830,6 @@
 ##.eu-compliance-message
 ##.eu-cookie-banner
 ##.eu-cookie-bar-notification
-##.eu-cookie-compliance-banner
 ##.eu-cookie-compliance-popup-open:not(body):not(html)
 ##.eu-cookie-div-initial
 ##.eu-cookie-info
@@ -19055,6 +19054,7 @@ succulent-plant.com###inner
 all3dp.com###iubenda-cs-banner
 jetbeds.com###jb-notifications-container
 jif.com###jms__cookie-consent__screen
+ebookrenta.com###js-ccpa-dialog
 police.uk###js-consent-banner
 lawrievetgroup.co.uk###js-consent-wrapper
 unbound.com###js-cookies
@@ -19652,6 +19652,7 @@ icoone.com##.bh-modalInfoCookies
 bagigia.com##.bica-content
 chlorophylle.com##.big-consent-modal
 theculturetrip.com##.billboard__BillboardStyled-pxsd1b-0
+fanatical.com##.biscuit-auth-collapsible
 latestdeals.co.uk##.bk3oq
 seikowatches.com##.blk-Disclaimer
 tnvacation.com##.block-cookie-acceptance-block
@@ -21083,6 +21084,7 @@ payback-ltd.com##[class*="cookiesPopUp"]
 noovo.ca##[class*="modalstyles__StyledModalContainer-"]
 weedmaps.com##[class*="styles__BannerContainer-"]
 getunleash.io##[class^="CookieControl"]
+marineserre.com##[class^="CookiePopin_"]
 bitbrain.com##[class^="CookiesManager"]
 btc-alpha.com##[class^="Cookies_container"]
 graphql.braintreepayments.com##[class^="GDPR-module_"]
@@ -21415,7 +21417,7 @@ bdsi.de,hyle.appspot.com,johanneswerk.de,niederoesterreich-card.at##.cc
 !! #cc_div
 antennafebea.it,doctoranytime.gr,legalblink.it,lifestyleblog.it,netzreform.de,opensocietyfoundations.org,otter.finance,sprintesport.it,stanceldavid.sk,sulpanaro.net###cc_div
 !! .cc_div
-blocktechnology.eu,brgroup.cz,candylipz.sk,collections.archives.govt.nz,vitkovicecylinders.cz##.cc_div
+blocktechnology.eu,brgroup.cz,candylipz.sk,collections.archives.govt.nz,toscana.it,vitkovicecylinders.cz##.cc_div
 !! .u-bottomFixer
 androidforums.com,audi-sport.net,broadbandforum.co,builtbybit.com,digital-eliteboard.com,forum.proxmoforums.hfboards.com,head-fi.org,hobby-machinist.com,hypixel.net,styleforum.net,websleuths.com,yttalk.com##.u-bottomFixer
 !! .js-bottomFixTarget
@@ -21477,9 +21479,11 @@ proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
 andromede-cms.com,any.run,bienpreter.com,codesandbox.io,givesendgo.com,goldplay.it,home.s.id,jackbox.tv,kirchberg.ch,knihobot.cz,liu.se,ndsas.sk,openresearchlab.org,sardynkibiznesu.pl,trakt.tv,yodayo.com,zitadel.com###cc-main
 !! #cc--main
-alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,czechuniversities.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,idfnet.net,kroo.com,linaro.org,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
+alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,czechuniversities.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,idfnet.net,kroo.com,linaro.org,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,toscana.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
 !! .c--anim
 a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cira.ca,cubeshot.io,diderot.sk,earthday.org,ebikecult.it,edf.org,elettricomagazine.it,emmellearredamenti.com,ems.entega.de,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,getscreen.me,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,infoabsolvent.cz,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,makerworld.com,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tedbaker.returns.international,tgyou24.it,tirerack.com,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
+!! .eu-cookie-compliance-banner
+lamma.toscana.it##.eu-cookie-compliance-banner
 !! #wr-c
 ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,fiskars-shop.sk,kancelarska-kresla.cz,leifheit-shop.cz,leifheit-shop.sk,mpmshop.eu,rafoshop.cz,relaxin.cz,superdiskont.sk,yatun.cz###wr-c
 !! .gdpr
@@ -21849,7 +21853,7 @@ spoke-store.com,spoke-store.sk,spoke.cz##.cookies_2022_bg
 !! .jGrowl
 bitfactura.com,bitfaktura.cz,efakturierung.de,invoiceocean.com,invoiceocean.hr,invoiceocean.rs##.jGrowl
 !! .modal-cookie
-161.97.70.5,acro.police.uk,aio.media,banggood.com,contabilizei.com.br,crocoblock.com,jfservice.ru,loans-hub.com,medcentr-tula.ru,militecbrasil.com.br,museum-brandhorst.de,nasha-set.ru,onetoyshop.ru,pebmed.com.br,profsvar.com,restauracjaverona.pl,royalprestige.com,signum.ai,uvex-safety-shop.de,xn--80aa3ak5a.xn--p1ai,xn--b1addckdrqixje4a.xn--p1ai,xn--f1awi.xn--p1ai,zlimovel.com.br##.modal-cookie
+161.97.70.5,acro.police.uk,aio.media,banggood.com,contabilizei.com.br,crocoblock.com,jfservice.ru,loans-hub.com,medcentr-tula.ru,militecbrasil.com.br,museum-brandhorst.de,nasha-set.ru,onetoyshop.ru,pebmed.com.br,prenota.sanita.toscana.it,profsvar.com,restauracjaverona.pl,royalprestige.com,signum.ai,uvex-safety-shop.de,xn--80aa3ak5a.xn--p1ai,xn--b1addckdrqixje4a.xn--p1ai,xn--f1awi.xn--p1ai,zlimovel.com.br##.modal-cookie
 !! .modal-cookies
 ace-hotel.com,asiapulppaper.com,awwwards.com,berendeeviprudi.ru,blowtex.com.br,bmalaw.com.br,detoxy.cz,dicampus.es,femeval.es,flawless.pl,geografica.com.br,knott-anhaenger-shop.de,knott-remolque-tienda.es,knott-trailer-shop.com,normadet.com,normagrup.com,normalit.com,normaluriafinancial.com,sa-luz.com,sourcefurniture.com,spirou.com,vanhumbeeckfreres.be,vivara.com.br,xn--90asehmeeq.xn--p1ai,zehnder.su##.modal-cookies
 !! .modalcookies
@@ -22247,6 +22251,8 @@ sportano.sk,sportano.de,sportano.bg,sportano.hu,sportano.ro,sportano.cz##+js(rc,
 klinik-am-ring.de##+js(rc, cookiebanner-body, body, stay)
 ooekultur.at##+js(rc, cookie-notice-active, body, stay)
 igmetall.de##+js(rc, cookie-overlay, body, stay)
+universalgeneve.com##+js(rc, eu-cookie-compliance-popup-open, body, stay)
+hostfly.by##+js(rc, bf-fixed, body, stay)
 quantamagazine.org##+js(rc, cookies-not-set, body, stay)
 osprey.com##+js(rc, js-cookie-consent-popup, , stay)
 ivass.it##+js(rc, ivass-no-cookie, body, stay)
@@ -24533,8 +24539,8 @@ win2day.at##body,html:style(height: auto !important; overflow: auto !important)
 aderferihoming.com.pt,travelingtolisbon.com,bookadriatic.com,prescottcabinrentals.com,dimoreinsicily.com,destination-algarve.com,alpeslocation.com,alwayseasyrental.com,uniqueluxuryholidays.com,casasdelcaribe.com,urbanretreatapartments.com,benidormparaiso.com,travivel.com,admer.net,booking.alps-resorts.com,espatur.net,finquesballesta.com,espana-holiday.com,bellmon.com,mynice-vacances.fr,benneckerent.ru,turistcasa.it,alaparisienne.com,inmobiliariacanovhometown.ae,tranquilityvillarentals.com,rickettsluxury.com,blauhousealquileres.com,priorityvillsolaga.co.uk,coroacoroa.com,iberorentapartments.com,kazaportugal.com,homesud.fr,dreamhomesrentals.com,vivalidays.com,alquilervacationesempuriabrava.com,solaga.es,webvillas.nl,vakantiewoninghuurcostabrava.com,alpineinspirations.com,playa-vacaciones.com,benneckerent.es,qtur.pt,zeusapartamentos.es,benneckerent.fr,solaga.dk,webvillas.net,mallorca4rent.com,lloguervacancesempuriabrava.com,villasduma.com,ferienwohnungmietencostabrava.com,vitivola.com,travelhabitat.es###its--container_cook
 aderferihoming.com.pt,travelingtolisbon.com,bookadriatic.com,prescottcabinrentals.com,dimoreinsicily.com,destination-algarve.com,alpeslocation.com,alwayseasyrental.com,uniqueluxuryholidays.com,casasdelcaribe.com,urbanretreatapartments.com,benidormparaiso.com,travivel.com,admer.net,booking.alps-resorts.com,espatur.net,finquesballesta.com,espana-holiday.com,bellmon.com,mynice-vacances.fr,benneckerent.ru,turistcasa.it,alaparisienne.com,inmobiliariacanovhometown.ae,tranquilityvillarentals.com,rickettsluxury.com,blauhousealquileres.com,priorityvillsolaga.co.uk,coroacoroa.com,iberorentapartments.com,kazaportugal.com,homesud.fr,dreamhomesrentals.com,vivalidays.com,alquilervacationesempuriabrava.com,solaga.es,webvillas.nl,vakantiewoninghuurcostabrava.com,alpineinspirations.com,playa-vacaciones.com,benneckerent.es,qtur.pt,zeusapartamentos.es,benneckerent.fr,solaga.dk,webvillas.net,mallorca4rent.com,lloguervacancesempuriabrava.com,villasduma.com,ferienwohnungmietencostabrava.com,vitivola.com,travelhabitat.es##body,html:style(overflow: auto !important; position: initial !important;)
 !! #cc--main
-bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it###cc--main
-bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it##body,html:style(overflow: auto !important; position: initial !important;)
+bektv.plus,bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it###cc--main
+bektv.plus,bgasecurity.com,edenjobs.de,lumie.com,no.sove.nu,teleperformance.com,folkbiblioteken.lund.se,traiteurmerenda.com,mediccentre.pl,abouthungary.hu,systhen.com,offresasaisir.fr,sagicheck.jp,zaugg.swiss,enterprise.fi,imusic.se,imusic.de,imusic.no,imusic.dk,imusic.co,allmusicitalia.it,forzapalermo.it##body,html:style(overflow: auto !important; position: initial !important;)
 !! #cc-main
 istories.media,kroo.com,shipoffoolsgame.com###cc-main
 istories.media,kroo.com,shipoffoolsgame.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -27451,6 +27457,7 @@ tuttoamerica.it##.modal__overlay
 pasinigioielli.com##.modals-wrapper
 degoosta.com##.mpp-is-open.mpp-box
 pizzastories.le5stagioni.it##.mx-0.w-100.row
+zerocode.sanita.toscana.it##.ngx-lib-privacy-cookie-banner-container
 initalia.it##.notice-wrap
 1950americandiner.it##.np-cookies__screen
 fieraforli.it##.ns-box
@@ -28999,7 +29006,6 @@ ants.vn##.sg-popup-content
 ||browser-consent-front.coco.s-cloud.fi/js/$script
 ||cdn.gravito.net^$script
 ||cmp.tori.fi^
-||cms.finnair.com^*?view=fin-fragment-json$xmlhttprequest,domain=finnair.com
 ||cookielaw.org/scripttemplates/*/assets/*.json$xmlhttprequest,domain=elisa.fi
 ||cookielaw.org/scripttemplates/*/assets/otCommonStyles.css$xmlhttprequest,domain=elisa.fi
 ||elisa.fi/consent-management/
@@ -29874,7 +29880,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 29 Oct 2024 19:06:01 +0000
+! Last modified: Wed, 30 Oct 2024 03:33:11 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -31333,6 +31339,8 @@ dailystar.co.uk,mirror.co.uk##+js(trusted-click-element, button[mode="primary"][
 ! US IP
 dailystar.co.uk,mirror.co.uk###CIPAConsentNotice:style(visibility: hidden !important;)
 dailystar.co.uk,mirror.co.uk##+js(trusted-click-element, button[class*="cipa-accept-btn"], , 1000)
+! https://github.com/uBlockOrigin/uAssets/issues/25759#issuecomment-2445393624
+@@||cmp.inmobi.com/GVL-$xhr,domain=dailystar.co.uk
 
 ! https://www.redbull.com/ - third party content
 redbull.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1, , , domain, www.redbull.com)
