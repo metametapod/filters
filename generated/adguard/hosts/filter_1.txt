@@ -2983,6 +2983,7 @@
 0.0.0.0 1x1.a-mo.net
 0.0.0.0 1x1.myfastcdn.com
 0.0.0.0 1x5jlh.xyz
+0.0.0.0 1xl.adopstar.uk
 0.0.0.0 1xlite-503779.top
 0.0.0.0 1xsultan.com
 0.0.0.0 1y7.forenteion.com
@@ -17534,6 +17535,7 @@
 0.0.0.0 adoperator.com
 0.0.0.0 adoperatorx.com
 0.0.0.0 adopexchange.com
+0.0.0.0 adopstar.uk
 0.0.0.0 adoptedproducerdiscernible.com
 0.0.0.0 adoptim.com
 0.0.0.0 adoptioneitherrelaxing.com
@@ -17692,6 +17694,7 @@
 0.0.0.0 ads-cloud.rovio.com
 0.0.0.0 ads-collector.luizalabs.com
 0.0.0.0 ads-colruytgroup.adhese.com
+0.0.0.0 ads-config-engine-noneu.truecaller.com
 0.0.0.0 ads-config.unityads.unity3d.com
 0.0.0.0 ads-connect.com
 0.0.0.0 ads-ct.creative-serving.com
@@ -19108,6 +19111,7 @@
 0.0.0.0 adx-dre.op.hicloud.com
 0.0.0.0 adx-event.tradplusad.com
 0.0.0.0 adx-exchange.toast.com
+0.0.0.0 adx-fk-req.mossru.com
 0.0.0.0 adx-id.ads.oppomobile.com
 0.0.0.0 adx-in.ads.heytapmobile.com
 0.0.0.0 adx-in.ads.oppomobile.com
@@ -19119,9 +19123,11 @@
 0.0.0.0 adx-os.toponadss.com
 0.0.0.0 adx-sg-req.anythinktech.com
 0.0.0.0 adx-sg-req.mosspf.com
+0.0.0.0 adx-sg-req.mossru.com
 0.0.0.0 adx-sg-req.toponadss.com
 0.0.0.0 adx-sg.anythinktech.com
 0.0.0.0 adx-sg.mosspf.com
+0.0.0.0 adx-sg.mossru.com
 0.0.0.0 adx-stage.ads.vungle.com
 0.0.0.0 adx-tk.mtgglobals.com
 0.0.0.0 adx-tk.rayjump.com
@@ -21535,6 +21541,7 @@
 0.0.0.0 api.monetizer101.com
 0.0.0.0 api.moneyoyo.org
 0.0.0.0 api.mosspf.com
+0.0.0.0 api.mossru.com
 0.0.0.0 api.najva.com
 0.0.0.0 api.nanigans.com
 0.0.0.0 api.nas.nct.vn
@@ -33623,6 +33630,7 @@
 0.0.0.0 da.mgtv.com
 0.0.0.0 da.monetization-sdk.chartboost.com
 0.0.0.0 da.mosspf.com
+0.0.0.0 da.mossru.com
 0.0.0.0 da.netease.com
 0.0.0.0 da.toponadss.com
 0.0.0.0 da.us.criteo.com
@@ -54124,6 +54132,7 @@
 0.0.0.0 mossgaietyhumiliation.com
 0.0.0.0 mossgarden.goatcounter.com
 0.0.0.0 mosspf.com
+0.0.0.0 mossru.com
 0.0.0.0 mostatil.cdn.yektanet.com
 0.0.0.0 mostatil.yektanet.com
 0.0.0.0 mostauthor.com
@@ -92101,6 +92110,7 @@
 0.0.0.0 tinchap-nganhang.online
 0.0.0.0 tinchaphd.com
 0.0.0.0 tinchapshinhan.online
+0.0.0.0 tindle.1xl.adopstar.uk
 0.0.0.0 tingexcelelernodyden.info
 0.0.0.0 tinhay24h.pro
 0.0.0.0 tinhot24h.website
@@ -92193,6 +92203,7 @@
 0.0.0.0 tk.mediacategory.com
 0.0.0.0 tk.meinprospekt.de
 0.0.0.0 tk.mosspf.com
+0.0.0.0 tk.mossru.com
 0.0.0.0 tk.pathmonk.com
 0.0.0.0 tk.production.us-east-1.blue.kops.kargo.com
 0.0.0.0 tk.promit.ru
@@ -92570,6 +92581,7 @@
 0.0.0.0 tkcatrun.aotter.net
 0.0.0.0 tkcatwalk.aotter.net
 0.0.0.0 tkda.mosspf.com
+0.0.0.0 tkda.mossru.com
 0.0.0.0 tkmedia-cache.aotter.net
 0.0.0.0 tkmedia.aotter.net
 0.0.0.0 tkmsccruisescom.wizaly.com
