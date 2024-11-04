@@ -17701,6 +17701,7 @@
 0.0.0.0 ads-dazn.adhese.com
 0.0.0.0 ads-delivery.b-cdn.net
 0.0.0.0 ads-delivery.gameforge.com
+0.0.0.0 ads-delivery.gunosy.com
 0.0.0.0 ads-den-nfl.yinzcam.com
 0.0.0.0 ads-dev.ad4game.com
 0.0.0.0 ads-dmp-collect.kr.karrotmarket.com
@@ -20529,6 +20530,8 @@
 0.0.0.0 analytics.afirstsoft.cn
 0.0.0.0 analytics.agenedia.com
 0.0.0.0 analytics.agoda.com
+0.0.0.0 analytics.ahrefs.com
+0.0.0.0 analytics.ahrefs.dev
 0.0.0.0 analytics.aimtell.com
 0.0.0.0 analytics.airfind.com
 0.0.0.0 analytics.aklamio.com
@@ -49140,6 +49143,7 @@
 0.0.0.0 kr.girls.xyz
 0.0.0.0 kr.info.lgsmartad.com
 0.0.0.0 kr.ixiaa.com
+0.0.0.0 kra18.com
 0.0.0.0 krad20.deqwas.net
 0.0.0.0 kraken-external-proxy-1g.api.kochava.com
 0.0.0.0 kraken.g2afse.com
@@ -101490,6 +101494,7 @@
 0.0.0.0 www.kostenlose-counter.com
 0.0.0.0 www.kouceeptait.com
 0.0.0.0 www.kr.games.amoad.com
+0.0.0.0 www.kra18.com
 0.0.0.0 www.ksyrium0014.com
 0.0.0.0 www.kundvisaren.se
 0.0.0.0 www.kuwoucaxoad.com
