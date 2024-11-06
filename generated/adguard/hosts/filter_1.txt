@@ -33642,7 +33642,6 @@
 0.0.0.0 data.kameleoon.io
 0.0.0.0 data.logentries.com
 0.0.0.0 data.logs.insight.rapid7.com
-0.0.0.0 data.mimikama.at
 0.0.0.0 data.minute.ly
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.intl.xiaomi.com
@@ -41870,6 +41869,7 @@
 0.0.0.0 gmxvmvptfm.com
 0.0.0.0 gmxysb.icu
 0.0.0.0 gmyze.com
+0.0.0.0 gn.metallcorrupt.com
 0.0.0.0 gn01.top
 0.0.0.0 gnar.grammarly.com
 0.0.0.0 gnashesfanfare.com
@@ -43876,6 +43876,7 @@
 0.0.0.0 hmx599.dynatrace-managed.com
 0.0.0.0 hmxg5mhyx.com
 0.0.0.0 hn.ad.lgsmartad.com
+0.0.0.0 hn.hoopersnonpoet.com
 0.0.0.0 hn.info.lgsmartad.com
 0.0.0.0 hn.inspectlet.com
 0.0.0.0 hnd-v4.pops.fastly-insights.com
@@ -43989,6 +43990,7 @@
 0.0.0.0 hookupsonline.com
 0.0.0.0 hooligs.app
 0.0.0.0 hoomigri.com
+0.0.0.0 hoopersnonpoet.com
 0.0.0.0 hoophaub.com
 0.0.0.0 hoophejod.com
 0.0.0.0 hooptaik.net
@@ -52523,6 +52525,7 @@
 0.0.0.0 metaconex.io
 0.0.0.0 metaffiliation.com
 0.0.0.0 metalbow.com
+0.0.0.0 metallcorrupt.com
 0.0.0.0 metallic.actonservice.com
 0.0.0.0 metalyzer.com
 0.0.0.0 metapack.actonservice.com
@@ -58095,7 +58098,6 @@
 0.0.0.0 pc2564.petrolgraphcredibility.com
 0.0.0.0 pc2ads.ru
 0.0.0.0 pc3.vanmoof.com
-0.0.0.0 pc768.com
 0.0.0.0 pca.admarketplace.net
 0.0.0.0 pcads.ru
 0.0.0.0 pcapp-data-collect.youku.com
@@ -99770,6 +99772,7 @@
 0.0.0.0 www.fertilestared.com
 0.0.0.0 www.ferventhoaxresearch.com
 0.0.0.0 www.feudalplastic.com
+0.0.0.0 www.feverfreeman.com
 0.0.0.0 www.fierysolemncow.com
 0.0.0.0 www.fightingleatherconspicuous.com
 0.0.0.0 www.fightmallowfiasco.com
