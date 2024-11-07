@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 05 Nov 2024 15:50:15 +0000
+! Last modified: Wed, 06 Nov 2024 21:50:27 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17770,7 +17770,6 @@
 ##aside.cookie-popup
 ##div#ACClayerBackground
 ##div#ACCsmallCookieLayer
-##div#__tealiumGDPRecModal
 ##div#accept-cookie
 ##div#accept-cookie-container
 ##div#aceptar_container
@@ -21565,6 +21564,7 @@ andromede-cms.com,any.run,bienpreter.com,codesandbox.io,givesendgo.com,goldplay.
 alde.se,arbetsgivarverket.se,bambulab.com,bigmotoringworld.co.uk,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,czechuniversities.com,defector.com,fashionnetwork.com,feedoptimise.com,flowforge.com,gatehousebank.com,idfnet.net,kroo.com,linaro.org,myenlightencommunity.com,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,toscana-notizie.it,toscana.it,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
 !! .c--anim
 a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cira.ca,cubeshot.io,diderot.sk,earthday.org,ebikecult.it,edf.org,elettricomagazine.it,emmellearredamenti.com,ems.entega.de,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,getscreen.me,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,infoabsolvent.cz,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,makerworld.com,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tedbaker.returns.international,tgyou24.it,tirerack.com,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
+citizen.com##.cc--anim
 !! .eu-cookie-compliance-banner
 lamma.toscana.it##.eu-cookie-compliance-banner
 !! #wr-c
@@ -23479,6 +23479,7 @@ posthog.com##+js(set-local-storage-item, cookie_consent, no)
 shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
 studiobookr.com##+js(set-local-storage-item, cookiesAllowed, false)
+getgrass.io##+js(set-local-storage-item, cookiePreference, 1)
 artisan.co##+js(set-local-storage-item, artisan_acceptCookie, true)
 mobilefuse.com##+js(set-local-storage-item, cookies_policy_acceptance, denied)
 safe.global##+js(set-local-storage-item, SAFE__analyticsPreference, false)
@@ -23652,7 +23653,7 @@ emag.berliner-woche.de,nordkurier.de##+js(set-local-storage-item, consent_perfor
 everest-24.pl##+js(set-local-storage-item, cookie-closed, true)
 zave.it##+js(set-local-storage-item, framerCookiesDismissed, true)
 everest-24.pl##+js(set-local-storage-item, cookie-accepted, false)
-getgrass.io,sneakerfreaker.com,cryptofalka.hu##+js(set-local-storage-item, cookieConsent, 1)
+sneakerfreaker.com,cryptofalka.hu##+js(set-local-storage-item, cookieConsent, 1)
 walmart.ca##+js(set-local-storage-item, enableCookieBanner, false)
 flyingblue.com##+js(set-local-storage-item, cookie-consent-level, 1)
 byfood.com##+js(set-local-storage-item, byFoodCookiePolicyRequire, false)
@@ -24977,6 +24978,9 @@ conso.ro##html:style(overflow: auto !important)
 ! *CookieConsent
 get-in-it.de##div[class*="CookieConsent"]
 get-in-it.de##body,html:style(overflow: auto !important; position: initial !important;)
+! johnmuirhealth.com
+johnmuirhealth.com##+js(rc, popup, div, stay)
+johnmuirhealth.com###__tealiumGDPRecModal
 ! tempcover.com
 tempcover.com###CookieConsentFullscreenWrapper
 tempcover.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -29680,7 +29684,6 @@ devowl.io#@#[href="https://devowl.io/wordpress-real-cookie-banner/"]
 amp-lasexta-com.cdn.ampproject.org,amp.cnn.com#@#amp-consent
 ollca.com#@#app-cookie-warning
 frag.jetzt#@#app-cookies
-eurostar.com,mediamarkt.de,online.no,telenor.no#@#div#__tealiumGDPRecModal
 tumblr.com#@#div#cmp-app-container
 vrtranspoint.fi#@#div#cookie-popup
 proline-tools.com.pl#@#div#cookieConsentModal
