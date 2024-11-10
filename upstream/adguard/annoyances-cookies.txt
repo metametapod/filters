@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: l/lAClO2Fegok3ruBd/tBQ
-! Diff-Path: ../patches/18/18-s-1731098241-3600.patch
+! Checksum: rLUPZj1z0IDF59SdyQl7Qw
+! Diff-Path: ../patches/18/18-s-1731170229-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.50.82
-! TimeUpdated: 2024-11-08T20:33:48+00:00
+! Version: 2.0.50.85
+! TimeUpdated: 2024-11-09T16:33:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2461,6 +2461,7 @@ scootertechno.com#$?#div[consent-skip-blocker] { remove: true; }
 !
 ! NOTE: Regular rules
 !
+cosmosdirekt.de#$#.tc-modal-open { overflow: auto !important; position: unset !important; }
 gardengirls.de##.grey_ovarlay
 leroymerlin.ro#$#.container-cookie { display: none !important; }
 leroymerlin.ro#$#body { height: unset !important; overflow: auto !important; }
@@ -15275,7 +15276,7 @@ jobs.ch##+js(set-cookie, cookie_disclaimer_dismissed, true)
 nehnutelnosti.sk,szbz.de,clickhole.com##+js(remove-class, sp-message-open, html.sp-message-open)
 taschenhirn.de##+js(remove-class, has-cookie-consent, body)
 calameo.com##+js(set-cookie, ckn, 1)
-hotscope.tv##+js(set-cookie, cookieConsent, 1)
+atlasetf.pl,hotscope.tv##+js(set-cookie, cookieConsent, 1)
 greens-efa.eu##+js(set-cookie, ZEDWCC, 5)
 kasuwa.de##+js(set-cookie-reload, cc_main, 1)
 wempe.com##+js(no-setTimeout-if, typeof __cmp)
@@ -15555,11 +15556,14 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 !
+! buffalonews.com - comments not shown
+@@||cmp.osano.com^$domain=buffalonews.com
+@@||consent.api.osano.com/record$domain=buffalonews.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192223
 koreanair.com#@#.cookie-banner:not(body):not(html)
 koreanair.com#@##cookieBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192153
-@@||generali-cosweb-tech-prod.s3.eu-central-1.amazonaws.com/website/js/tagcommander/tc_CosmosDirekt_*.js
+@@||generali-cosweb-tech-prod.s3.eu-central-1.amazonaws.com/website/js/tagcommander
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192440
 pomadziarz.pl#@##shoper-foot ~ div.consents
 pomadziarz.pl#@#.shop_index > div.consents
