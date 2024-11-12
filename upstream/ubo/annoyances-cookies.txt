@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sat, 09 Nov 2024 05:25:35 +0000
+! Last modified: Mon, 11 Nov 2024 07:33:13 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -37,6 +37,8 @@ askubuntu.com,mathoverflow.net,serverfault.com,stackapps.com,stackexchange.com,s
 
 !!! Normal filters
 blaklader.*##div#onetrust-consent-sdk
+! https://github.com/uBlockOrigin/uAssets/issues/25910
+decider.com,nypost.com,pagesix.com##.zephr-component
 
 !!! Trusted scriptlets------------------------------------------------------------
 
@@ -1863,3 +1865,8 @@ tweakers.net##+js(trusted-click-element, #pg-shadow-root-host >>> button#pg-conf
 
 ! accepting only required cookies
 gardengirls.de##+js(trusted-set-cookie, Cookie, accept_cookies\,\,, , , reload, 1)
+
+! just general
+webuildgroup.com##+js(trusted-set-cookie, general_cookie_consent, "")
+! continue without accepting
+atlasformen.*##+js(trusted-click-element, button[data-reject-all], , 1000)
