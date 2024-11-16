@@ -1,9 +1,9 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.17.51
+! Version: 1.0.17.55
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2024-11-15T00:26:25.132Z
+! Last modified: 2024-11-16T00:25:51.620Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -16,7 +16,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-11-15T00:03:27.374Z
+! Last modified: 2024-11-16T00:03:40.466Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -35,6 +35,7 @@
 !
 !
 !
+||monu.delivery^
 ||championshipcoma.com^
 ||late-anxiety.com^
 ||profitablecpmrate.com^
@@ -3635,6 +3636,7 @@ vkcdnservice.appspot.com^
 ||allocatelacking.com^
 ||allocationhistorianweekend.com^
 ||allodsubussu.com^
+||allorfrryz.com^
 ||allotnegate.com^
 ||allotupwardmalicious.com^
 ||allow-to-continue.com^
@@ -7137,6 +7139,7 @@ vkcdnservice.appspot.com^
 ||click.scour.com^
 ||click4free.info^
 ||clickadin.com^
+||clickadsource.com^
 ||clickagy.com^
 ||clickalinks.xyz^
 ||clickallow.net^
@@ -24859,6 +24862,7 @@ vkcdnservice.appspot.com^
 ||stpd.cloud^
 ||stpmgo.com^
 ||stpmneaywgib.com^
+||stqagmrylm.xyz^
 ||stquality.org^
 ||straight-shift.pro^
 ||straight-storage.pro^
@@ -25275,6 +25279,7 @@ vkcdnservice.appspot.com^
 ||syiwgwsqwngrdw.xyz^
 ||sykfmgu.com^
 ||syllableliking.com^
+||syllabusbastardchunk.com^
 ||syllabusimperfect.com^
 ||syllabuspillowcasebake.com^
 ||sylxisys.com^
@@ -27786,6 +27791,7 @@ vkcdnservice.appspot.com^
 ||vksphze.com^
 ||vlitag.com^
 ||vlkmcpnfo.com^
+||vlkvchof.com^
 ||vllsour.com^
 ||vlnk.me^
 ||vlry5l4j5gbn.com^
@@ -28402,6 +28408,7 @@ vkcdnservice.appspot.com^
 ||whollyneedy.com^
 ||whomspreadbeep.com^
 ||whomsudsikaxu.com^
+||whoobaumpairto.xyz^
 ||whoodiksaglels.net^
 ||whookrair.xyz^
 ||whookroo.com^
@@ -29638,6 +29645,7 @@ vkcdnservice.appspot.com^
 ||zumfzaamdxaw.com^
 ||zumid.xyz^
 ||zumrieth.com^
+||zungiwhaigaunsi.net^
 ||zunsoach.com^
 ||zuoltlhh.com^
 ||zupee.cim^
@@ -35020,7 +35028,6 @@ vkcdnservice.appspot.com^
 ||stats.datawrapper.de^
 ||bigdata.riamedia.com.ua^
 ||track.adabra.com^
-||monu.delivery^
 ||uniqodo.com^
 ||collectfasttracks.com^
 ||realizerecess.com^
@@ -37529,6 +37536,9 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||telemetry*.api.playstation.com^
+||telemetry.zoom.us^
+||agi-static.indiatimes.com^
 ||fail.adr.ec^
 ||t.adii.se^
 ||stats.bunkr.ru^
@@ -40150,6 +40160,13 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||tatrack.thinkyeah.com^
+-rtb.gravite.net^
+||sdk-04.moengage.com^
+||mon*-misc-lf.fqnovel.com^
+||vcs.zijieapi.com^
+||monsetting.toutiao.com^
+-applog*.fqnovel.com^
 ||atsod.launch.liveramp.com^
 ||ads-image.production-public.tubi.io^
 ||user-signals.production-public.tubi.io^
@@ -52806,8 +52823,14 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||qphkuua.icu^
+||ngxzkaxf.icu^
 ||uaqdgrfr.icu^
 ||gzfsqrc.icu^
+||kweisid.top^
+||o8zoz.icu^
+||ekzmk.icu^
+||sweisib.top^
 ||bujlmitd.icu^
 ||wrdamoe.icu^
 ||iweisio.top^

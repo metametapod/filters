@@ -1920,6 +1920,7 @@
 0.0.0.0 1785618.fls.doubleclick.net
 0.0.0.0 1792610.fls.doubleclick.net
 0.0.0.0 17962983.adoric-om.com
+0.0.0.0 17978478387075691386.clickadsource.com
 0.0.0.0 17c8edca.akstat.io
 0.0.0.0 17co2k5a.de
 0.0.0.0 17d09914.akstat.io
@@ -17457,6 +17458,7 @@
 0.0.0.0 aggregationcontagion.com
 0.0.0.0 aggressivedifficulty.com
 0.0.0.0 aghtag.tech
+0.0.0.0 agi-static.indiatimes.com
 0.0.0.0 agilaujoa.net
 0.0.0.0 agilemedia.jp
 0.0.0.0 agillic.eu
@@ -27427,6 +27429,7 @@
 0.0.0.0 clickable.com
 0.0.0.0 clickad.pl
 0.0.0.0 clickadilla.com
+0.0.0.0 clickadsource.com
 0.0.0.0 clickadu.com
 0.0.0.0 clickadu.lp-preview.net
 0.0.0.0 clickagy.com
@@ -52184,7 +52187,9 @@
 0.0.0.0 mon.tiktokv.com
 0.0.0.0 mon.us.tiktokv.com
 0.0.0.0 mon.zijieapi.com
+0.0.0.0 mon11-misc-lf.fqnovel.com
 0.0.0.0 mon16-normal-useast5.tiktokv.us
+0.0.0.0 mon3-misc-lf.fqnovel.com
 0.0.0.0 mona.admanmedia.com
 0.0.0.0 monadplug.com
 0.0.0.0 monarchoysterbureau.com
@@ -92240,9 +92245,15 @@
 0.0.0.0 telem.sre.gopuff.com
 0.0.0.0 telemetric.dk
 0.0.0.0 telemetrics.klaviyo.com
+0.0.0.0 telemetry-cii.api.playstation.com
+0.0.0.0 telemetry-console.sp-int.api.playstation.com
 0.0.0.0 telemetry-eastus.trafficmanager.inmobi.com
 0.0.0.0 telemetry-in.battle.net
+0.0.0.0 telemetry-mobile.api.playstation.com
+0.0.0.0 telemetry-pc.api.playstation.com
 0.0.0.0 telemetry-sdk-metrics.inmobi.cn
+0.0.0.0 telemetry-web.api.playstation.com
+0.0.0.0 telemetry.api.playstation.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry.api.wmcdp.io
 0.0.0.0 telemetry.art19.com
@@ -92268,6 +92279,7 @@
 0.0.0.0 telemetry.transcend.io
 0.0.0.0 telemetry.us.transcend.io
 0.0.0.0 telemetry.vtex.com
+0.0.0.0 telemetry.zoom.us
 0.0.0.0 teleport.soom.la
 0.0.0.0 teleproff.com
 0.0.0.0 telescopesemiprominent.com
@@ -97057,6 +97069,7 @@
 0.0.0.0 us.skated.co
 0.0.0.0 us.superfasti.co
 0.0.0.0 us.tags.newscgp.com
+0.0.0.0 us.telemetry.zoom.us
 0.0.0.0 us.themoneytizer.com
 0.0.0.0 us.u.fastly-insights.com
 0.0.0.0 us.uncoverarching.com
