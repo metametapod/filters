@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-11-16T01:01:40Z
+! Last modified: 2024-11-17T01:05:57Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: DbsMLzJjfvVa2FXqpCpX3A
-! Diff-Path: ../patches/18/18-s-1731706656-3600.patch
+! Checksum: vs8vfF3gnEou+cif4OmeUA
+! Diff-Path: ../patches/18/18-s-1731775063-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.51.35
-! TimeUpdated: 2024-11-15T21:33:57+00:00
+! Version: 2.0.51.39
+! TimeUpdated: 2024-11-16T16:33:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2023,7 +2023,7 @@
 /cookiecompliance/*$script
 /cookiecompliancy.
 /cookieConsent-
-/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|data.gov.lv
+/cookieconsent.$~stylesheet,domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de|~shmoop.com|~retrogames.cc|~download.pixelexperience.org|~data.gov.lv
 /cookieconsent/*
 /cookieconsent_
 /cookiecontrol-$domain=~msi.com
@@ -2347,7 +2347,7 @@ tarsushaber.com,mhrs.gov.tr,malatyasoz.com,nehir.net,yeniufuk.com.tr,enpolitik.c
 ! ##.MuiSnackbar-anchorOriginBottomCenter
 creativefabrica.com,flickplay.co,globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com,shoppingcidademaringa.com.br##.MuiSnackbar-anchorOriginBottomCenter
 ! ###cc-main
-r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv###cc-main
+cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,nicelocal.pl,kurczakiodeliasza.com,maniasmaku.pl,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv###cc-main
 ! consentmanager.net (check, if embed content and videos are not broken)
 ||consentmanager.net^$domain=visions.de|gartenlexikon.de|tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|wolfsburger-nachrichten.de|braunschweiger-zeitung.de|mediengestalter.info|sugafari.com|gdv.de|uk-essen.de|dieversicherer.de|tomaten.de|aquarienpflanzen-shop.de|jobs.shz.de|nrz.de|leichtathletik.de|ikz-online.de|radiobollerwagen.de|hervis.at|frustfrei-lernen.de|entsorgen.org|waz.de|wr.de|harzkurier.de|consentmanager.net|juraforum.de|history.de|inrlp.de|teslamag.de|e-konomista.pt|cylex-polska.pl|agrarheute.com|allesbeste.de|azubiyo.de|olympia-einkaufszentrum.de|mannheimer-morgen.de|autopay.pl|r.pl|datacenter-insider.de|eternalgod.de|news.de|quoka.de|correctiv.org|ak-kurier.de|verliebt-in-den-westerwald.de|ww-kurier.de|nzz.ch|masterstudies.com|littlebigsnake.com|skr.de|morgenpost.de|astat.pl|9monate.de|bildderfrau.de|donna-magazin.de|eatclub.tv|heftig.de|reviersport.de|winfuture-forum.de|chemie.de|sylt.de|grin.com
 ! privacy-center.org / didomi
@@ -2474,6 +2474,8 @@ scootertechno.com#$?#div[consent-skip-blocker] { remove: true; }
 !
 ! NOTE: Regular rules
 !
+popcornmovies.to##div[x-show="!cookiePolicy"]
+perfluence.net##div[class^="CookieBlock_container"]
 infinixmobility.com##.popup-content:has(> .bg > p > a[href="/cookies-policy"])
 aniastarmach.pl##.ivn-GCManager__consent
 hgtv.com##+js(remove-class, block-user, #root.block-user)
@@ -6068,7 +6070,7 @@ sackyvysavace.cz,doplnvitamin.cz###xx-cookies-plugin
 officeworks.com.au##div[data-automation-test^="TrackingBanner_"]
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref="modal"] > div#modal h2:contains(Cookie Settings)) { display: none!important; }
 console.scaleway.com#$#body { overflow: auto !important; padding-right: 0 !important; }
-costco.ca,nhl.com###onetrust-consent-sdk
+developer.confluent.io,costco.ca,nhl.com###onetrust-consent-sdk
 timesnownews.com##div[class^="_"] > div[class^="_"][style^="max-width:"]
 worksmile.com##.cookies-component
 narzedzia.pl,oponeo.*,pneus-oponeo.be,banden-oponeo.be,centrumrowerowe.pl###consentsPolicyDialog
@@ -15140,6 +15142,7 @@ freeyou.ag##+js(remove-class, fixed-body, body\,html)
 adidas.dk,adidas.be,adidas.pt,adidas.gr,adidas.at,adidas.cz,adidas.ch,adidas.com.tr,adidas.it,adidas.com.br,adidas.es,adidas.se,adidas.no,adidas.fi,adidas.com.ar,adidas.co.uk,adidas.nl,adidas.pl##+js(set-cookie, notice_preferences, 1)
 tecchannel.de##+js(abort-on-property-read, Object.prototype.waitForConsentData)
 nacongaming.com##+js(set-constant, tarteaucitron.cookie, undefined)
+warsteiner.de##section:has(> div[class] > svg + div[class] > div > span > p > a[href="/datenschutz"])
 empik.com##+js(set-cookie, cp, 1)
 empik.com##+js(set-cookie, cc, 2)
 empik.com##+js(set-cookie, cva, 1)
@@ -15256,6 +15259,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 !
 !
 !
+! warsteiner-gruppe.de - unable to accept cookie
+@@||warsteiner-gruppe.de/wp-content/themes/warsteiner/js/gdpr.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/193023
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192592
 @@||api.workwise.io/cookieConsents$domain=workwise.io
