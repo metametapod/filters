@@ -22200,6 +22200,7 @@
 0.0.0.0 api.rubyblu.com
 0.0.0.0 api.rudderlabs.com
 0.0.0.0 api.rudderstack.com
+0.0.0.0 api.rvere.com
 0.0.0.0 api.saambaa.com
 0.0.0.0 api.sabavision.com
 0.0.0.0 api.sail-personalize.com
@@ -22713,6 +22714,7 @@
 0.0.0.0 apprupt.com
 0.0.0.0 apps-cdn.relevant-digital.com
 0.0.0.0 apps-for-pc.com
+0.0.0.0 apps-pbd.ctraffic.io
 0.0.0.0 apps-pnd.ctengine.io
 0.0.0.0 apps-prm.ctengine.io
 0.0.0.0 apps-shop.segmentify.com
@@ -28110,7 +28112,6 @@
 0.0.0.0 cdn-cm.hqscene.com
 0.0.0.0 cdn-cm.tiypa.com
 0.0.0.0 cdn-console.signifyd.com
-0.0.0.0 cdn-content-production.cxpublic.com
 0.0.0.0 cdn-creatives.adikteev.com
 0.0.0.0 cdn-d.amazon-adsystem.com
 0.0.0.0 cdn-de.f11-ads.com
@@ -28458,7 +28459,6 @@
 0.0.0.0 cdn.ctnsnet.com
 0.0.0.0 cdn.currencyoffuture.com
 0.0.0.0 cdn.cwi.re
-0.0.0.0 cdn.cxpublic.com
 0.0.0.0 cdn.czx5eyk0exbhwp43ya.biz
 0.0.0.0 cdn.dataroid.com
 0.0.0.0 cdn.datawrkz.com
@@ -31920,7 +31920,6 @@
 0.0.0.0 content-cooperation.com
 0.0.0.0 content-garden.com
 0.0.0.0 content-prod3.glance-internal.inmobi.com
-0.0.0.0 content-thumbnail.cxpublic.com
 0.0.0.0 content.acc-hd.de
 0.0.0.0 content.ad20.net
 0.0.0.0 content.ad2iction.com
@@ -31933,7 +31932,6 @@
 0.0.0.0 content.aimatch.com
 0.0.0.0 content.cdn.targetspot.com
 0.0.0.0 content.cptrack.de
-0.0.0.0 content.cxpublic.com
 0.0.0.0 content.directadvert.ru
 0.0.0.0 content.flexlinks.com
 0.0.0.0 content.green-red.com
@@ -32570,9 +32568,12 @@
 0.0.0.0 creative-accelerate.ad.mobiuspace.net
 0.0.0.0 creative-assets.quantcount.com
 0.0.0.0 creative-bars1.com
+0.0.0.0 creative-bunny.bidease.com
 0.0.0.0 creative-cdn.oddsserve.com
+0.0.0.0 creative-cdn77.bidease.com
 0.0.0.0 creative-klepon-3f0ecb.netlify.app
 0.0.0.0 creative-p.undertone.com
+0.0.0.0 creative-redirect.bidease.com
 0.0.0.0 creative-serving.com
 0.0.0.0 creative-showcase-stage.adcolony.com
 0.0.0.0 creative-showcase.adcolony.com
@@ -33123,7 +33124,6 @@
 0.0.0.0 cx.serverbid.com
 0.0.0.0 cxapio.xyz
 0.0.0.0 cxlvlbx.xyz
-0.0.0.0 cxpublic.com
 0.0.0.0 cxtvli.com
 0.0.0.0 cxvyk.com
 0.0.0.0 cy.chettikmacrli.com
@@ -43789,6 +43789,7 @@
 0.0.0.0 gpush.cogocast.net
 0.0.0.0 gpynepb.com
 0.0.0.0 gq.adsame.com
+0.0.0.0 gq.prinksdammit.com
 0.0.0.0 gqalqi656.com
 0.0.0.0 gqckjiewg.com
 0.0.0.0 gqfuf.com
@@ -60205,6 +60206,7 @@
 0.0.0.0 patch-tagan.adlightning.com
 0.0.0.0 patchassignmildness.com
 0.0.0.0 patchmedia14411z.btttag.com
+0.0.0.0 patchouptid.xyz
 0.0.0.0 patefysouari.com
 0.0.0.0 patentdestructive.com
 0.0.0.0 paternalcostumefaithless.com
@@ -83409,6 +83411,7 @@
 0.0.0.0 principaldingdecadence.com
 0.0.0.0 principlessilas.com
 0.0.0.0 pringed.space
+0.0.0.0 prinksdammit.com
 0.0.0.0 print1.mercadoclics.com
 0.0.0.0 printaugment.com
 0.0.0.0 printerlogic.evergage.com

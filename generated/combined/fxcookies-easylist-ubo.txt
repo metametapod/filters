@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-11-22T01:02:49Z
+! Last modified: 2024-11-23T01:00:23Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 21 Nov 2024 21:50:21 +0000
+! Last modified: Fri, 22 Nov 2024 09:50:10 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -818,7 +818,6 @@
 /plugins/ct-ultimate-gdpr/assets/*
 /plugins/easy-wp-cookie-popup/*
 /plugins/gdpr/dist/js/public.js
-/Plumrocket_CookieConsent/js/lib/js.cookie.js
 /pm-privacy.js
 /policy_cookie.js
 /policyaccept.js
@@ -10613,7 +10612,6 @@
 ##.cc-policy-overlay
 ##.cc-privacy-bottom-container
 ##.cc-stop-overlay
-##.cc-theme-classic.cc-window
 ##.cc-type-opt-in.cc-floating
 ##.cc-window-banner
 ##.cc-window.cookie
@@ -18642,7 +18640,7 @@
 ||stromnetz-hamburg.de/matomo/js/
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|anaconda.com|gofundme.com|kickstarter.com|lifetouch.com|shutterfly.com|vimeo.com
+||transcend-cdn.com^$domain=1password.com|anaconda.com|gofundme.com|kickstarter.com|lifetouch.com|patreon.com|shutterfly.com|vimeo.com
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
 ||vandalism-sounds.com^*/notices.min.js
@@ -21244,6 +21242,8 @@ comparethemarket.com,pepperl-fuchs.com###__tealiumGDPRcpPrefs
 ammeraalbeltech.com##.cookiebar
 !! #cliSettingsPopup
 shv.nl###cliSettingsPopup
+!! .pr-cookie-modal
+furn-on.com,hughrice.co.uk,ipercomp.ro,nothinkin.com,shop.transposafe.be,spiuk.com,truffle-hunter.com,verberckmoes.be,vinsdefrance.ee,vonkuester.de,wilsoncombat.com##.pr-cookie-modal
 !! #cookie-policy
 99percentinvisible.org,bookcabin.com,matterport.com,rauch-ft.com###cookie-policy
 !! .cookie-permission-container
@@ -22316,6 +22316,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 uhrzeit123.de##+js(set-cookie, ga-disable, true)
 billetterie.auditorium-lyon.com##+js(set-cookie, ga_consentement, 0)
+iconoclasts.blog##+js(set-cookie, gdpr_decline, 1)
 shopify.dev##+js(set-cookie, eu_cookies_acknowledged, true)
 oxide.computer##+js(set-cookie, ox-accept-tracking, false)
 funnycase.pl##+js(set-cookie, funnycase_cookie_policy_v2, 1, , reload, 1)
@@ -23328,6 +23329,7 @@ posthog.com##+js(set-local-storage-item, cookie_consent, no)
 shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
 greubelforsey.com##+js(set-local-storage-item, rgpd.consent, 1)
+lukify.app##+js(set-local-storage-item, _lukCookieAgree, 2)
 studiobookr.com##+js(set-local-storage-item, cookiesAllowed, false)
 getgrass.io##+js(set-local-storage-item, cookiePreference, 1)
 popcornmovies.to##+js(set-local-storage-item, cookiePolicy, true)
@@ -29256,7 +29258,6 @@ hertz.at,hertz.co.uk,hertz.de,hertz.es,hertz.fi,hertz.fr,hertz.ie,hertz.it,hertz
 cyberforum.de,hartmanngruppe.net#@#.cc-floating
 bryzgunoff-photography.de,msa-berlin.de,sahne-band.de#@#.cc-individual-cookie-settings
 hartmanngruppe.net,rete.toscana.it#@#.cc-revoke
-fairfitters.de#@#.cc-theme-classic.cc-window
 hartmanngruppe.net#@#.cc-type-opt-in.cc-floating
 cyberforum.de,hartmanngruppe.net#@#.cc-window[aria-describedby*="consent"]
 cyberforum.de,hartmanngruppe.net#@#.cc-window[aria-label*="consent"]
