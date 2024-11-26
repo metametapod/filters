@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-11-25T01:03:38Z
+! Last modified: 2024-11-26T01:03:08Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 24 Nov 2024 13:03:28 +0000
+! Last modified: Mon, 25 Nov 2024 13:14:17 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -600,7 +600,6 @@
 /fx_cookiesV3.js
 /fxCookiesV3.css
 /g4cookies.js
-/gdpr-appliance.js
 /gdpr-assets-
 /gdpr-banner.js
 /gdpr-banner.min.js
@@ -18639,6 +18638,7 @@
 ||storage-mart.com/sm-policy-banner.js
 ||stromnetz-hamburg.de/matomo/js/
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl
+||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||terencehill.com/modules/hicookielaw/
 ||transcend-cdn.com^$domain=1password.com|anaconda.com|gofundme.com|kickstarter.com|lifetouch.com|patreon.com|shutterfly.com|vimeo.com
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
