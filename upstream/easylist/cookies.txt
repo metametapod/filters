@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 28 Nov 2024 09:50:17 +0000
+! Last modified: Fri, 29 Nov 2024 13:14:00 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -400,6 +400,7 @@
 /cookienotice.build.js
 /cookienotice.js
 /cookienotice.min.js
+/cookienoticepro.script.js
 /cookienotif.js
 /cookieNotification.js
 /cookieNotification.min.js
@@ -18578,6 +18579,7 @@
 ||jacquelinewilson.co.uk/style/cookies.css$stylesheet
 ||jimmychoo.com^*/first-time-visitor-
 ||jobsite.co.uk/viewlets/consent/
+||joemonster.org/i/js/cmp.js
 ||js.shiksha.ws/pwa/public/js/GDPRCookieBannerWrapper.
 ||jzzo.com/jss/cp01.js
 ||kayak.*/privacy/
@@ -18978,6 +18980,7 @@ toffeeweb.com###fixedFooter
 metatrader4.com###float-vertical-panel
 yodiz.com###footMsgYodiz
 alternative.me,motorsport.com,pdf24.org###footer
+community.icann.org###footer-banner
 auth.sparxmaths.uk###footer-cookie-banner
 pocketgamer.biz###footer-mailer
 flynas.com###footer-message
@@ -19803,7 +19806,7 @@ ruijienetworks.com##.cke2022fr
 stayinwales.co.uk##.ckinfo-panel
 clineva.com##.clineva-cookies-info
 oipc.bc.ca##.clsPopupContainer
-corporate.monro.com,expediagroup.com,ppg.com##.cm
+corporate.monro.com,expediagroup.com,macysinc.com,ppg.com##.cm
 singular.com.cy##.cm-notification-container
 blik.com##.cm-overlay
 moddrop.com##.cm-z-4
@@ -19937,6 +19940,7 @@ canva.dev##.cookie_consent_container__xf8T4
 m.emsc.eu##.cookie_container
 tunetank.com##.cookie_container__w6Qh1
 cdp.net##.cookie_dismiss_container
+foreignpolicy.com##.cookie_message_displayed
 giffits-articles-publicitaires.ch,giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.be,giffits.dk,giffits.es,giffits.fr,giffits.it,giffits.no,giffits.pl,giffits.se##.cookie_opt_in--wrapper
 businesscardmanager.com##.cookie_setting_popup
 atlanticahotels.com##.cookieagreement
@@ -22447,6 +22451,7 @@ iconoclasts.blog##+js(set-cookie, gdpr_decline, 1)
 pibank.com##+js(set-cookie, tecnicaCookie, true)
 shopify.dev##+js(set-cookie, eu_cookies_acknowledged, true)
 oxide.computer##+js(set-cookie, ox-accept-tracking, false)
+www.e-tec.at##+js(set-cookie, cc_granted, true, , , domain, www.e-tec.at, reload, 1)
 sushi.com##+js(set-cookie, accepted-cookies, essential, , reload , 1)
 kafijasdraugs.lv##+js(set-cookie, lvFunctionalCookies, true)
 coin360.com##+js(set-cookie, isCookiesAccepted, true)
@@ -23483,6 +23488,7 @@ nhnieuws.nl##+js(set-local-storage-item, psh:cookies-social, true)
 posthog.com##+js(set-local-storage-item, cookie_consent, no)
 shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
+uc.pt##+js(set-local-storage-item, userDeniedCookies, 1)
 greubelforsey.com##+js(set-local-storage-item, rgpd.consent, 1)
 lukify.app##+js(set-local-storage-item, _lukCookieAgree, 2)
 studiobookr.com##+js(set-local-storage-item, cookiesAllowed, false)
@@ -28400,6 +28406,7 @@ hyundai-electronics.com.ru,iru.ru###policyBlockForFirstVisit
 antiplagiat.ru###policyConfirmation
 alter-science.info,viziya.info###pop
 calltouch.ru###poppup-food
+umschool.net###popup-container-bottom-left
 sibur.ru###privacyPolicy
 dzen.ru###recommend-tech-snackbar
 rgs.ru###rgs-main-context-bar
@@ -29294,6 +29301,7 @@ ants.vn##.sg-popup-content
 ||cookie.gazeta.pl^
 ||cookies.fakt.pl^
 ||cookies.forbes.pl^
+||demotywatory.pl/res/js/cmp.js
 ||gry-online.pl/js/cookie2.js
 ||interia.pl/rodo-iframe
 ||lubuskie.pl/themes/src/cookie.js
