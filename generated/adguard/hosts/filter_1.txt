@@ -33766,7 +33766,6 @@
 0.0.0.0 d1wbjksx0xxdn3.cloudfront.net
 0.0.0.0 d1wc0ojltqk24g.cloudfront.net
 0.0.0.0 d1wd81rzdci3ru.cloudfront.net
-0.0.0.0 d1wix2gc2cgqis.cloudfront.net
 0.0.0.0 d1wv5x2u0qrvjw.cloudfront.net
 0.0.0.0 d1xdxiqs8w12la.cloudfront.net
 0.0.0.0 d1xivydscggob7.cloudfront.net
@@ -37734,6 +37733,7 @@
 0.0.0.0 eb6adebee4.04e0d8fb0f.com
 0.0.0.0 eb9a7864877c.cdn4.forter.com
 0.0.0.0 ebay.claspedtwelve.com
+0.0.0.0 ebayadservices.com
 0.0.0.0 ebayasean.com
 0.0.0.0 ebayclassifiedsgroup.com
 0.0.0.0 ebayinc.demdex.net
@@ -98612,7 +98612,6 @@
 0.0.0.0 tracking.vnncdn.net
 0.0.0.0 tracking.voxeus.com
 0.0.0.0 tracking.vtcnew.com.vn
-0.0.0.0 tracking.vxonews.se
 0.0.0.0 tracking.waterfrontmedia.com
 0.0.0.0 tracking.webtradecenter.com
 0.0.0.0 tracking.wisepops.com
@@ -105515,6 +105514,7 @@
 0.0.0.0 www.easycounter.com
 0.0.0.0 www.easygoingasperitydisconnect.com
 0.0.0.0 www.easyhits4u.com
+0.0.0.0 www.ebayadservices.com
 0.0.0.0 www.ebz.io
 0.0.0.0 www.echocultdanger.com
 0.0.0.0 www.eclkmpbn.com
