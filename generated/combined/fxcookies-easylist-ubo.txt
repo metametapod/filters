@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-12-06T01:04:25Z
+! Last modified: 2024-12-07T01:03:48Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 05 Dec 2024 03:55:27 +0000
+! Last modified: Fri, 06 Dec 2024 21:50:13 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -16001,7 +16001,6 @@
 ##.policy-banner
 ##.policy-bar
 ##.policy-bottom
-##.policy-box
 ##.policy-cookie
 ##.policy-cookies
 ##.policy-message.cookie
@@ -20685,7 +20684,7 @@ genesis.com##.privacy-dialog
 araviscapital.com##.privacy-holder
 businessinsider.com##.privacy-link
 petalmaps.com##.privacy-menu
-curiosum.com,kinolorber.com##.privacy-notice
+cbc.ca,curiosum.com,kinolorber.com##.privacy-notice
 uniprot.org##.privacy-panel
 tribalwars2.com##.privacy-policty-bar
 naukri.com##.privacy-policy-container
@@ -21467,7 +21466,7 @@ lamma.toscana.it##.eu-cookie-compliance-banner
 !! #wr-c
 ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,kancelarska-kresla.cz,leifheit-shop.cz,leifheit-shop.sk,mpmshop.eu,rafoshop.cz,relaxin.cz,superdiskont.sk,yatun.cz###wr-c
 !! .gdpr
-aviationweek.com,metallica.com,phonemore.com,srilankan.com,sydsvenskan.se##.gdpr
+aviationweek.com,metallica.com,phonemore.com,schmackarys.com,srilankan.com,sydsvenskan.se##.gdpr
 !! .gdpr-wrapper
 ezviz.com,hikvision.com##.gdpr-wrapper
 !! #GDPR
@@ -21972,6 +21971,7 @@ sonarhome.pl##.fixed:has(.cookies-scrollbar)
 blog.smithsecurity.biz##.fixed:has-text(cookies)
 twitch.tv##.hLgTAv:has-text(Terms of Sale)
 alohaprofile.com##.md\:right-\[40px\]:has-text(By continuing to use our site)
+privatekeys.pw##.toast:has-text(We use cookies)
 coopmobile.ch##.top-0.z-9999.fixed.bg-opacity-30:has-text(Website Cookies)
 studocu.com##.undefined:has([data-test-selector="click-the-cookie-banner"])
 istockphoto.com##.warning:has([data-cookie-type])
@@ -23087,7 +23087,7 @@ ing.nl##+js(set-cookie, cookiepref, 1)
 handelsbanken.se##+js(set-cookie, shb-consent-cookies, true)
 youcom.com.br##+js(set-cookie, termos-aceitos, ok)
 rule34.paheal.net##+js(set-cookie, ui-tnc-agreed, true)
-deep-shine.de,shop.ac-zaun-center.de,kellermann-online.com,kletterkogel.de,pnel.de,der-puten-shop.de,katapult-shop.de,evocsports.com,shop.almawin.de,esm-computer.de,calmwaters.de,mellerud.de,akustik-projekt.at,vansprint.de,0815.at,0815.eu,ojskate.com,der-schweighofer.de,tz-bedarf.de,zeinpharma.de,weicon.com,dagvandewebshop.be,thiele-tee.de,carbox.de,riapsport.de,trendpet.de,eheizung24.de,seemueller.com,vivande.de,heidegrill.com,gladiator-fightwear.com,h-andrepp-parts.com,natuerlich-holzschuhe.de,massivart.de,malermeister-shop.de,imping-confiserie.de,lenox-trading.at,cklenk.de,catolet.de,drinkitnow.de,patisserie-m.de,storm-proof.com,balance-fahrradladen.de,magicpos.shop,zeinpharma.com,sps-handel.net,novagenics.com,butterfly-circus.de,holzhof24.de,w6-wertarbeit.de,fleurop.de,leki.com,extremeaudio.de,taste-market.de,delker-optik.de,stuhl24-shop.de,g-nestle.de,alpine-hygiene.ch,fluidmaster.it,cordon.de,belisse-beauty.de,belisse-beauty.co.uk,wpc-shop24.de,liv.si,leki.com,maybach-luxury.com,leiternprofi24.de,hela-shop.eu,hitado.de,j-koenig.de,gameseal.com##+js(set-cookie, cookie-preference, 1)
+damasko-watches.com,deep-shine.de,shop.ac-zaun-center.de,kellermann-online.com,kletterkogel.de,pnel.de,der-puten-shop.de,katapult-shop.de,evocsports.com,shop.almawin.de,esm-computer.de,calmwaters.de,mellerud.de,akustik-projekt.at,vansprint.de,0815.at,0815.eu,ojskate.com,der-schweighofer.de,tz-bedarf.de,zeinpharma.de,weicon.com,dagvandewebshop.be,thiele-tee.de,carbox.de,riapsport.de,trendpet.de,eheizung24.de,seemueller.com,vivande.de,heidegrill.com,gladiator-fightwear.com,h-andrepp-parts.com,natuerlich-holzschuhe.de,massivart.de,malermeister-shop.de,imping-confiserie.de,lenox-trading.at,cklenk.de,catolet.de,drinkitnow.de,patisserie-m.de,storm-proof.com,balance-fahrradladen.de,magicpos.shop,zeinpharma.com,sps-handel.net,novagenics.com,butterfly-circus.de,holzhof24.de,w6-wertarbeit.de,fleurop.de,leki.com,extremeaudio.de,taste-market.de,delker-optik.de,stuhl24-shop.de,g-nestle.de,alpine-hygiene.ch,fluidmaster.it,cordon.de,belisse-beauty.de,belisse-beauty.co.uk,wpc-shop24.de,liv.si,leki.com,maybach-luxury.com,leiternprofi24.de,hela-shop.eu,hitado.de,j-koenig.de,gameseal.com##+js(set-cookie, cookie-preference, 1)
 bvk-beamtenversorgung.de##+js(set-cookie, bvkcookie, true)
 hofer-kerzen.at,dosenmatrosen.de##+js(set-cookie, cookie-preference, 1, , reload, 1)
 karls-shop.de##+js(set-cookie, cookie-preference-v3, 1)
@@ -26938,6 +26938,7 @@ l28.nl###cookie_popup_body
 doof.nl###cookiechoices
 hypotheek.nl###cookielaw_idf
 hypotheek.nl###cookielaw_idf_overlay
+dimlux.nl###cookiepopupbox
 molecaten.nl###cookies_modal
 pensioenschoonmaak.nl###cwet-wrapper
 weerstatistieken.nl###darker
@@ -29452,7 +29453,6 @@ blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,b
 costco.com,howstuffworks.com,southpark.de#@#.ot-sdk-show-settings
 foxracingshox.de,ms-reptilien.de,retterspitz.de#@#.page-wrap--cookie-permission
 rodoviariadooeste.pt#@#.pea_cook_wrapper
-idolmaster.jp,okwave.co.jp#@#.policy-box
 gamersgate.com#@#.popup-gdpr
 profile.hatena.ne.jp#@#.privacy-alert
 hemmersbach.com#@#.privacy-policy-consent
@@ -29875,7 +29875,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 05 Dec 2024 11:32:10 +0000
+! Last modified: Thu, 05 Dec 2024 23:24:44 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -29975,7 +29975,7 @@ lidl.*##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:fal
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6679609
 ! https://github.com/DandelionSprout/adfilt/discussions/779#discussioncomment-6679609
 ! https://www.trading212.com/
-trading212.com##+js(trusted-set-cookie, COOKIES_CONSENT, essential)
+trading212.com##+js(set-cookie, COOKIES_CONSENT, essential)
 ! https://www.myscript.com/
 myscript.com##+js(trusted-set-cookie, myscript, {%22acceptance%22:true%2C%22analytics%22:false})
 ! https://www.odido.nl/
@@ -30073,7 +30073,7 @@ launer.com##+js(trusted-set-cookie, cookie_consent, 100, 1year)
 ! https://www.bever.nl/
 bever.nl##+js(trusted-set-cookie, consent_setting, analytics%3A0%7Cfunctional%3A1%7Cmarketing%3A0, , , reload, 1)
 ! https://www.sixt-neuwagen.de/
-sixt-neuwagen.de##+js(trusted-set-cookie, user_cookie_consent, essential)
+sixt-neuwagen.de##+js(set-cookie, user_cookie_consent, essential)
 sixt-neuwagen.de##+js(set-cookie, user_accepted_cookies, 1)
 ! https://www.oem.no/
 oem.no##+js(trusted-set-cookie, cookieConsent, functional=1&analytics=0&marketing=0, , , reload, 1)
@@ -30136,13 +30136,13 @@ delfi.ee##+js(trusted-set-cookie, consent, %7B%22functional%22%3A%7B%22consent%2
 delfi.ee##+js(trusted-set-cookie, server_consent, %7B%22functional%22%3A%7B%22consent%22%3Atrue%7D%2C%22analytical%22%3A%7B%22consent%22%3Afalse%7D%2C%22personalization%22%3A%7B%22consent%22%3Afalse%7D%2C%22geolocation%22%3A%7B%22consent%22%3Afalse%7D%2C%22ads%22%3A%7B%22consent%22%3Afalse%7D%7D)
 delfi.ee##+js(trusted-set-cookie, server_addtl_consent, 1~)
 ! https://flynorse.com/en-US
-flynorse.com##+js(trusted-set-cookie, N0_CONSENT, essential)
+flynorse.com##+js(set-cookie, N0_CONSENT, essential)
 ! autodude & valostore
-autodude.dk,autodude.fi,autodude.no,autodude.se,valostore.fi,valostore.no,valostore.se##+js(trusted-set-local-storage-item, cookieConsent, necessary)
+autodude.dk,autodude.fi,autodude.no,autodude.se,valostore.fi,valostore.no,valostore.se##+js(set-local-storage-item, cookieConsent, necessary)
 ! https://www.fruugonorge.com/
-fruugonorge.com##+js(trusted-set-cookie, consents, essential)
+fruugonorge.com##+js(set-cookie, consents, essential)
 ! https://www.hyperoptic.com/
-hyperoptic.com##+js(trusted-set-cookie, ho_cookie_consent, essential)
+hyperoptic.com##+js(set-cookie, ho_cookie_consent, essential)
 ! https://education.lego.com/
 education.lego.com##+js(trusted-set-cookie, LEGO_COOKIE_SETTINGS, '{"preferences":[{"key":"necessary","value":true},{"key":"analytics","value":false},{"key":"legomarketing","value":false},{"key":"thirdparty","value":false}]}')
 ! Just nesssary. https://www.lego.com/en-ca/product/the-lord-of-the-rings-barad-dur-10333
@@ -30187,9 +30187,9 @@ fotografiska.com##+js(trusted-set-cookie, cookie_consent, '{"purposes":{"marketi
 ! https://github.com/uBlockOrigin/uAssets/issues/24141
 osmanlicakelam.net##+js(trusted-set-cookie, cookiesjsr, %7B%22functional%22%3Atrue%2C%22analytics%22%3Afalse%2C%22facebook_pixel%22%3Afalse%2C%22iframe%22%3Atrue%2C%22video%22%3Atrue%2C%22facebook_messenger%22%3Afalse%7D)
 ! https://github.com/uBlockOrigin/uAssets/issues/24167
-mic.eucast.org##+js(trusted-set-cookie, cookieconsent_status, dismiss)
+mic.eucast.org##+js(set-cookie, cookieconsent_status, dismiss)
 ! https://www.hatch.co/
-hatch.co##+js(trusted-set-local-storage-item, COOKIE_CONSENT_STATUS_4124, '"dismissed"')
+hatch.co##+js(set-local-storage-item, COOKIE_CONSENT_STATUS_4124, '"dismissed"')
 ! https://www.open.online/
 open.online##+js(trusted-set-cookie, cpmt_xa, 16200, , , domain, open.online)
 open.online##+js(trusted-set-cookie, euconsent-v2, CQBYokAQBYokADaAAAENA7EgAAAAAAAAABCYAAAAAADBIMIACAAFwAUABUADgAHgAQAAvgBkAGoAPAAiABMACqAG8APQAfgBCQCGAIkARwAlgBNADAAGHAMoAywBsgDngHcAd8A9gD4gH2AfsA_wEAAIpARcBGACNQEiASWAn4CgwFQAVcAuYBegDFAGiANoAbgA4gCHYEegSKAnYBQ4CjwFIgLYAXIAu8BeYDBgGGwMjAyQBk4DLgGZgM5gauBrIDYwG0ANvAbmA3UBwQDkwHLgPHAe0A_4CCYEGAIQwQtBC8CHMEPQQ_gj6CP4EigJIQSYBJkCWYEtwJfATAgmWCZgEzgJqgTcAnMBOkCdwE8AKEAULAoqBSUlA7AAQAAsACgAHAAeABEACYAFUALgAYoBDAESAI4AUYAwABsgDvAH5AVEBVwC5gGKAOoAhABDoCJgEXwI9AkUBR4CmgFigLYAXnAyMDJAGTgM5AawA28B7QEAQIHgQYAhCBD0CPoEigJIASVAl0BL6CZYJmATOAmqBNwCcIE5gJ3ATwAnmBRUCko6DsAAuACgAKgAcABBAC4AL4AZABqADwAIgATAApgBVgC4ALoAYgA3gB6AD9AIYAiQBLACaAE4AKMAYAAwwBlADRAGyAOeAdwB3wD2APiAfYB-gD_gIoAjEBHQElgJ-AoMBUQFXALEAXOAvIC9AGKANoAbgA4gB1AD7AIQAQ6Ai-BHoEigJkATsAoeBR4FIAKaAVYAsWBbAFsgLdAXAAuQBdoC7wF5gL6AYMAw0Bj0DIwMkAZOAyqBlgGXAMzAZyA00BqsDVwNYAbQA28BuoDiwHJgOXAeOA8kB7QD6wH3AP7Af8BAECDAELYIcgh0BD2CPoI_gSKAkgBJkCWYEugJfATAAmYBM4CaoE3AJvAThAnMBOmCdoJ3ATwAnmBQACgwFCwKJAUVApKQgaAALAAoAC4AGoATAAqgBcADEAG8APQAjgBgADngHcAd4A_wCKAEpAKDAVEBVwC5gGKANoAdQBHoCmgFWALFAWiAuABcgDIwGTgM5AaqA8cB_YEGAIUAQtAh0BD0CRQEkAJdATOAnMBO4CeAE8wKDAUVApKUgtAALgAoACoAHAAQQAyADUAHgARAAmABSACqAGIAP0AhgCJAFGAMAAZQA0QBsgDnAHfAPsA_QCLAEYgI6AkoBQYCogKuAXMAvIBigDaAG4AOoAe0A-wCHQETAIvgR6BIoCdgFDgKQAU0AqwBYoC2AFwALkAXaAvMBfQDDYGRgZIAyeBlgGXAM5gawBrIDbwG6gOCAcmA8UB44D2gH9gP-AgmBBgCEIELQIZwQ5BDqCPoI_gSKAkhBJgEmQJZgS6Al8BMACZgEzgJqgTeAnMBO4CeAE8wKFgUVApKWgIgA1AEcAMAAdwBegD7AKaAVYAzMB44EPQJmATcAnMBO4CeAFJA.YAAAAAAAAAAA, , , domain, open.online)
@@ -30291,7 +30291,7 @@ finnair.com##+js(trusted-set-cookie, FINNAIR_COOKIE_CONSENTS, W3siY29uc2VudFRleH
 finnair.com##+js(trusted-set-cookie, FINNAIR_COOKIE_ID, l-d3a86210-7bdf-41eb-bc29-9c233e0f4c9c)
 ! https://github.com/uBlockOrigin/uAssets/issues/26022
 cosmotemessageplus.gr##+js(trusted-set-cookie, cookie_level, %7B%22necessary%22%3A%221%22%2C%22performance%22%3A%220%22%2C%22remarketing%22%3A%220%22%7D)
-cosmotemessageplus.gr##+js(trusted-set-cookie, cookie_optin, accepted)
+cosmotemessageplus.gr##+js(set-cookie, cookie_optin, accepted)
 ! Only necessary, expire 1 month
 
 
@@ -30679,7 +30679,7 @@ notion.so##+js(trusted-set-cookie, notion_cookie_consent, '{%22id%22:%2282a41727
 stergioufamily.gr##+js(trusted-set-cookie, Vendd:AcceptedCookieConsents,FunctionalityCookies=-29&StatisticsCookies=-30&MarketingCookies=-31)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20485
-viss.nu##+js(trusted-set-cookie, sv-cookie-consent, true, , , reload, 1)
+viss.nu##+js(set-cookie, sv-cookie-consent, true, , reload, 1)
 
 ! music.amazon. co.uk|de|fr cookies
 ! https://github.com/uBlockOrigin/uAssets/issues/20620
@@ -30935,7 +30935,7 @@ generali.at##+js(trusted-set-cookie, website_privacycookie_relaunch, accetta)
 generali.at##+js(trusted-set-cookie, website_privacycookie, accetta)
 
 ! only necessary
-butterflyshop.dk##+js(trusted-set-cookie, DDCookiePolicyDialog, hide, , , reload, 1)
+butterflyshop.dk##+js(set-cookie, DDCookiePolicyDialog, hide, , reload, 1)
 butterflyshop.dk##+js(set-cookie, DDCookiePolicy-consent-functional, false)
 butterflyshop.dk##+js(set-cookie, DDCookiePolicy-consent-tracking, false)
 butterflyshop.dk##+js(set-cookie, DDCookiePolicy-consent-statistics, false)
@@ -31095,7 +31095,7 @@ allocine.fr##+js(trusted-set-cookie, euconsent-v2, CP7Tt8AP7Tt8AAHABBENArEsAP_gA
 pharmacieauterive-ropars.mesoigner.fr##+js(trusted-set-cookie, userconsent, '{"analytics":false,"youtube":true}')
 
 ! https://github.com/uBlockOrigin/uAssets/issues/22885
-fruugo.de##+js(trusted-set-cookie, consents, essential)
+fruugo.de##+js(set-cookie, consents, essential)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/22896
 cmp.computerbild.de,cmp-sp.siegener-zeitung.de,cmp-sp.sportbuzzer.de##+js(trusted-click-element, button[title^="Alle akzeptieren"])
@@ -31416,7 +31416,7 @@ interactivebrokers.com##+js(trusted-set-local-storage-item, consentMode, '{"func
 interactivebrokers.com##+js(trusted-set-cookie, IB_PRIV_PREFS, 1%7C0%7C1, , , reload, 1)
 
 ! decline
-mundwerk-rottweil.de##+js(trusted-set-local-storage-item, cookieConsent, denied)
+mundwerk-rottweil.de##+js(set-local-storage-item, cookieConsent, denied)
 
 ! https://www.vidal.fr/actualites/30913-neuropathies-peripheriques-chimio-induites-dans-les-cancers-digestifs.html - social sharing
 vidal.fr##+js(trusted-set-cookie, vidal_consent, tracking=0&content=0&comm=0&pub=0&social=1&date_consent=$now$&validity_date_consent=$now$, , , domain, vidal.fr)
@@ -31614,7 +31614,7 @@ independent.co.uk##+js(trusted-click-element, button[title="ACCEPT"])
 the-independent.com##+js(trusted-click-element, button[title="SAVE AND EXIT"])
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/193817
-gdh.digital##+js(trusted-set-local-storage-item, cookie_accepted, -1)
+gdh.digital##+js(set-local-storage-item, cookie_accepted, -1)
 
 ! reject
 prospre.io##+js(trusted-set-cookie, cookieConsent, '{"adConsentGranted":false,"adUserDataConsentGranted":false,"adPersonalizationConsentGranted":false,"analyticsConsentGranted":false,"personalizationConsentGranted":false}', , , reload, 1)
