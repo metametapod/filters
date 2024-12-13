@@ -13222,6 +13222,7 @@
 0.0.0.0 a3518.casalemedia.com
 0.0.0.0 a3519.casalemedia.com
 0.0.0.0 a352.casalemedia.com
+0.0.0.0 a352.sandiegouniontribune.com
 0.0.0.0 a3520.casalemedia.com
 0.0.0.0 a3521.casalemedia.com
 0.0.0.0 a3522.casalemedia.com
@@ -14132,6 +14133,7 @@
 0.0.0.0 a43295.actonservice.com
 0.0.0.0 a43296.actonservice.com
 0.0.0.0 a433.casalemedia.com
+0.0.0.0 a433.dailypress.com
 0.0.0.0 a43305.actonservice.com
 0.0.0.0 a43307.actonservice.com
 0.0.0.0 a43309.actonservice.com
@@ -16243,6 +16245,7 @@
 0.0.0.0 a611.casalemedia.com
 0.0.0.0 a612.casalemedia.com
 0.0.0.0 a613.casalemedia.com
+0.0.0.0 a613.redbluffdailynews.com
 0.0.0.0 a614.casalemedia.com
 0.0.0.0 a615.casalemedia.com
 0.0.0.0 a616.casalemedia.com
@@ -16465,6 +16468,7 @@
 0.0.0.0 a818.casalemedia.com
 0.0.0.0 a820.casalemedia.com
 0.0.0.0 a82b3391ad.cba6182add.com
+0.0.0.0 a869.mercurynews.com
 0.0.0.0 a8780.actonservice.com
 0.0.0.0 a8ww.net
 0.0.0.0 a9-d.openx.net
@@ -24412,6 +24416,7 @@
 0.0.0.0 b3.mookie1.com
 0.0.0.0 b31b4e20715bad6cb43e7548b3f289ff.safeframe.googlesyndication.com
 0.0.0.0 b345b0d2ba69.cdn4.forter.com
+0.0.0.0 b347.pottsmerc.com
 0.0.0.0 b35f29c12c094fc9967471a9e57277f3-38cbfeab8da8.cdn.forter.com
 0.0.0.0 b395bfcd.xyz
 0.0.0.0 b3b4cd.moe.video
@@ -24441,8 +24446,10 @@
 0.0.0.0 b597fab1f33c.cdn4.forter.com
 0.0.0.0 b5c279fe2ce64d9423f3052339d72ace.safeframe.googlesyndication.com
 0.0.0.0 b6.im-apps.net
+0.0.0.0 b607.dailylocal.com
 0.0.0.0 b6094ed2f96d4e08926f30319734786b-38cbfeab8da8.cdn.forter.com
 0.0.0.0 b6168ce2b79f41e4ac7a6ff620c8778a-edd8a9329ddd.cdn.forter.com
+0.0.0.0 b668.record-bee.com
 0.0.0.0 b688e4dce616e0f4afeb48cb02a0784d.safeframe.googlesyndication.com
 0.0.0.0 b68f56edeceb6d2e33ce6c5eafcdd3d62fdb0e25.cws.conviva.com
 0.0.0.0 b68f56edeceb6d2e33ce6c5eafcdd3d62fdb0e25.ipv4.cws.conviva.com
@@ -24455,6 +24462,7 @@
 0.0.0.0 b712-us.rtbanalytics.com
 0.0.0.0 b7218af3f0a2e88e98b1ece467181906.azr.footprintdns.com
 0.0.0.0 b7271eb26543d9b2029074763054bf60.safeframe.googlesyndication.com
+0.0.0.0 b730.fortmorgantimes.com
 0.0.0.0 b775598eb885ca82009f15b46ef4e4e6.safeframe.googlesyndication.com
 0.0.0.0 b7755dcb72.3cb9b57efc.com
 0.0.0.0 b77a832069b350ef56050ec74f4d4dac70fd527c.cws.conviva.com
@@ -26534,6 +26542,7 @@
 0.0.0.0 brm-suggest-0.brsrvr.com
 0.0.0.0 brndrm.com
 0.0.0.0 broadbandy.net
+0.0.0.0 broadensilkslush.com
 0.0.0.0 broadliquorsecretion.com
 0.0.0.0 broadsheetblaze.com
 0.0.0.0 broadsheetcounterfeitappeared.com
@@ -26994,6 +27003,8 @@
 0.0.0.0 c-uid.getui.com
 0.0.0.0 c.4dex.io
 0.0.0.0 c.6sc.co
+0.0.0.0 c.a352.sandiegouniontribune.com
+0.0.0.0 c.a869.mercurynews.com
 0.0.0.0 c.aa.contentsquare.net
 0.0.0.0 c.aaxads.com
 0.0.0.0 c.achuphaube.com
@@ -27062,6 +27073,7 @@
 0.0.0.0 c.c.appier.net
 0.0.0.0 c.c615.denverpost.com
 0.0.0.0 c.c677.wisn.com
+0.0.0.0 c.c783.fastcompany.com
 0.0.0.0 c.c950.chronicle.com
 0.0.0.0 c.caglonseeh.com
 0.0.0.0 c.caubichofus.com
@@ -27148,6 +27160,7 @@
 0.0.0.0 c.gumgum.com
 0.0.0.0 c.guxedsuba.com
 0.0.0.0 c.h019.wtae.com
+0.0.0.0 c.h689.nydailynews.com
 0.0.0.0 c.hauphuchaum.com
 0.0.0.0 c.hestutche.com
 0.0.0.0 c.hesudsuzoa.com
@@ -27342,6 +27355,7 @@
 0.0.0.0 c.traffic-media.co.uk
 0.0.0.0 c.traktum.com
 0.0.0.0 c.tvpixel.com
+0.0.0.0 c.u066.ocregister.com
 0.0.0.0 c.u566.chron.com
 0.0.0.0 c.u578.wlwt.com
 0.0.0.0 c.u927.sfgate.com
@@ -27510,7 +27524,9 @@
 0.0.0.0 c677.wisn.com
 0.0.0.0 c6e82a469d.b3b526dee6.com
 0.0.0.0 c6i0ilgden1ve8eb1here4s.ddns.net
+0.0.0.0 c705.trentonian.com
 0.0.0.0 c778bd.moe.video
+0.0.0.0 c783.fastcompany.com
 0.0.0.0 c7be96314b44483e9a7f1917fef66fc5-21bd15724800.cdn.forter.com
 0.0.0.0 c7be96314b44483e9a7f1917fef66fc5-7ce243a1e1a2.cdn.forter.com
 0.0.0.0 c7c9cb797a.1f6bf6f5a3.com
@@ -33138,6 +33154,7 @@
 0.0.0.0 cxeo54gz.emltrk.com
 0.0.0.0 cxlvlbx.xyz
 0.0.0.0 cxtvli.com
+0.0.0.0 cy.annussleys.com
 0.0.0.0 cy.chettikmacrli.com
 0.0.0.0 cya1t.net
 0.0.0.0 cya2.net
@@ -37443,6 +37460,7 @@
 0.0.0.0 e01.taggyad.jp
 0.0.0.0 e02.optimix.asia
 0.0.0.0 e0593385f7.f59408d48d.com
+0.0.0.0 e082.ukiahdailyjournal.com
 0.0.0.0 e0977p44.emltrk.com
 0.0.0.0 e0ed824f8b.9bbbabcb26.com
 0.0.0.0 e0f21acbb4b98ee6eca7afc7d180fba7.safeframe.googlesyndication.com
@@ -37470,6 +37488,7 @@
 0.0.0.0 e2.extreme-dm.com
 0.0.0.0 e2.skwstat.ru
 0.0.0.0 e20d8e38992b.o3n.io
+0.0.0.0 e220.dailyfreeman.com
 0.0.0.0 e25a8247b5.357dbd24e2.com
 0.0.0.0 e25ef77ac9cf.cdn4.forter.com
 0.0.0.0 e28b8da0eb01.cdn4.forter.com
@@ -37625,6 +37644,7 @@
 0.0.0.0 e47e342be3ce45d1b24df82693e0cfb4-21bd15724800.cdn.forter.com
 0.0.0.0 e47e342be3ce45d1b24df82693e0cfb4-7ce243a1e1a2.cdn.forter.com
 0.0.0.0 e47ed5e554d4.cdn4.forter.com
+0.0.0.0 e488.macombdaily.com
 0.0.0.0 e4af9917cb287390d2909297af7cca7a.safeframe.googlesyndication.com
 0.0.0.0 e5.skwstat.ru
 0.0.0.0 e5133945c8.60739ebc42.com
@@ -37637,6 +37657,7 @@
 0.0.0.0 e632149aba484a29a70855ef63b82761.events.ubembed.com
 0.0.0.0 e632149aba484a29a70855ef63b82761.js.ubembed.com
 0.0.0.0 e632149aba484a29a70855ef63b82761.pages.ubembed.com
+0.0.0.0 e664.theoaklandpress.com
 0.0.0.0 e67repidwnfu7gcha.com
 0.0.0.0 e6da820d398fead553ee53d882289a13.safeframe.googlesyndication.com
 0.0.0.0 e6p44qs4xbsvnv8bg.ay.delivery
@@ -39376,6 +39397,7 @@
 0.0.0.0 events.devcycle.com
 0.0.0.0 events.doublemax.net
 0.0.0.0 events.elev.io
+0.0.0.0 events.engager.ecbsn.com
 0.0.0.0 events.engageya.com
 0.0.0.0 events.evergage.com
 0.0.0.0 events.flagship.io
@@ -39424,7 +39446,6 @@
 0.0.0.0 events.simpli.fi
 0.0.0.0 events.sk.ht
 0.0.0.0 events.splash-screen.net
-0.0.0.0 events.split.io
 0.0.0.0 events.staging.bounceexchange.com
 0.0.0.0 events.statsigapi.net
 0.0.0.0 events.steelhousemedia.com
@@ -40315,6 +40336,7 @@
 0.0.0.0 f.zprelandappslab.com
 0.0.0.0 f.zubajuroo.com
 0.0.0.0 f.zufubulsee.com
+0.0.0.0 f023.bostonherald.com
 0.0.0.0 f02b61sgc617.es.themoneytizer.com
 0.0.0.0 f02e38465151c2c7a5971d7684208046.safeframe.googlesyndication.com
 0.0.0.0 f03d91.moe.video
@@ -40442,6 +40464,7 @@
 0.0.0.0 f8.cdn.ftd.agency
 0.0.0.0 f83aea1ed8d3.cdn4.forter.com
 0.0.0.0 f83bc0.moe.video
+0.0.0.0 f866.troyrecord.com
 0.0.0.0 f8b536a2e6.com
 0.0.0.0 f8fb5f.moe.video
 0.0.0.0 f9-ru.adhigh.net
@@ -42400,8 +42423,10 @@
 0.0.0.0 g41i.icu
 0.0.0.0 g5rkmcc9f.com
 0.0.0.0 g6.deepintent.com
+0.0.0.0 g650.delcotimes.com
 0.0.0.0 g6j.cupidonmedia.com
 0.0.0.0 g8.adspeed.net
+0.0.0.0 g986.themorningsun.com
 0.0.0.0 ga-beacon.appspot.com
 0.0.0.0 ga-bq-py-1.appspot.com
 0.0.0.0 ga-tracker-dot-detmir-bonus.appspot.com
@@ -44719,12 +44744,15 @@
 0.0.0.0 h5.vdo.ai
 0.0.0.0 h5.zrqsmcx.top
 0.0.0.0 h51.carpcredits.com
+0.0.0.0 h516.thereporteronline.com
 0.0.0.0 h52ek3i.de
 0.0.0.0 h559.stamfordadvocate.com
+0.0.0.0 h562.pasadenastarnews.com
 0.0.0.0 h59gzf8fafrnwstyw.ay.delivery
 0.0.0.0 h5lwvwj.top
 0.0.0.0 h5v.eu
 0.0.0.0 h6295.com
+0.0.0.0 h689.nydailynews.com
 0.0.0.0 h6o2z0pwx5ja7dwxn0wx4fhv7mp0qoladm8vj6do4h1c6gja8evrn6g5fixk.me
 0.0.0.0 h74v6kerf.com
 0.0.0.0 ha-api.pushwoosh.com
@@ -46568,6 +46596,7 @@
 0.0.0.0 i7jheihn7p8iewwjm.ay.delivery
 0.0.0.0 i8kladcm.emltrk.com
 0.0.0.0 i8xkjci7nd.com
+0.0.0.0 i953.greeleytribune.com
 0.0.0.0 i98jio988ui.world
 0.0.0.0 i99i.org
 0.0.0.0 i9slw.publishers.tremorhub.com
@@ -48911,6 +48940,7 @@
 0.0.0.0 j1.ax.xrea.com
 0.0.0.0 j178.wmur.com
 0.0.0.0 j198.registercitizen.com
+0.0.0.0 j300.dailynews.com
 0.0.0.0 j3kytapx.emltrk.com
 0.0.0.0 j45.webringporn.com
 0.0.0.0 j6hek.voluumtrk3.com
@@ -49937,6 +49967,7 @@
 0.0.0.0 k3xdfx7jp5.eoapxl.com
 0.0.0.0 k55p9ka2.de
 0.0.0.0 k73643123223.excretekings.com
+0.0.0.0 k864.orovillemr.com
 0.0.0.0 k8ik878i.top
 0.0.0.0 k8s-adserver-adserver-4b35ec6a1d-815734624.us-east-1.elb.amazonaws.com
 0.0.0.0 k8s-log-c4f6353c1934d41718a5666ec37c7f8f0.cn-hangzhou.log.aliyuncs.com
@@ -52315,6 +52346,7 @@
 0.0.0.0 log.outbrainimg.com
 0.0.0.0 log.particlenews.com
 0.0.0.0 log.pdfreaders.net
+0.0.0.0 log.pdfviewerscannerstore.live
 0.0.0.0 log.perfecttitspics.com
 0.0.0.0 log.piclick.kr
 0.0.0.0 log.pinterest.com
@@ -53289,6 +53321,7 @@
 0.0.0.0 m1.mixadvert.com
 0.0.0.0 m1.openfpcdn.io
 0.0.0.0 m1170.top
+0.0.0.0 m161.sbsun.com
 0.0.0.0 m1ll1c4n0.com
 0.0.0.0 m1tm.motor1.com
 0.0.0.0 m2.ai
@@ -53305,6 +53338,7 @@
 0.0.0.0 m4su.online
 0.0.0.0 m5.66077.cn
 0.0.0.0 m53frvehb.com
+0.0.0.0 m583.dailydemocrat.com
 0.0.0.0 m62rtkpf.de
 0.0.0.0 m6500.top
 0.0.0.0 m6690.top
@@ -56464,6 +56498,7 @@
 0.0.0.0 n4.mixadvert.com
 0.0.0.0 n4.sync.bumlam.com
 0.0.0.0 n4403ad.doubleclick.net
+0.0.0.0 n475.pilotonline.com
 0.0.0.0 n4m5x60.com
 0.0.0.0 n4p-ru.redtram.com
 0.0.0.0 n5.sync.bumlam.com
@@ -58517,6 +58552,7 @@
 0.0.0.0 oianz.xyz
 0.0.0.0 oiavdib.com
 0.0.0.0 oijzvhzt.com
+0.0.0.0 oilwellsublot.top
 0.0.0.0 oinkedbowls.com
 0.0.0.0 ointmentapathetic.com
 0.0.0.0 ointmentbarely.com
@@ -59882,6 +59918,7 @@
 0.0.0.0 p.zubajuroo.com
 0.0.0.0 p.zufubulsee.com
 0.0.0.0 p0.raasnet.com
+0.0.0.0 p030.courant.com
 0.0.0.0 p1-be-endcard.pglstatp-toutiao.com
 0.0.0.0 p1-ff.adkwai.com
 0.0.0.0 p1-lm.adkwai.com
@@ -59910,6 +59947,7 @@
 0.0.0.0 p123887.myckdom.com
 0.0.0.0 p16-ad.byteoversea.com
 0.0.0.0 p191169636.highrevenuegate.com
+0.0.0.0 p192.eastbaytimes.com
 0.0.0.0 p1yhfi19l.com
 0.0.0.0 p2-ad.adkwai.com
 0.0.0.0 p2-lm.adkwai.com
@@ -59954,6 +59992,7 @@
 0.0.0.0 p53jy7zkx658q3z84.ay.delivery
 0.0.0.0 p543.inquirer.com
 0.0.0.0 p593.seattlepi.com
+0.0.0.0 p644.thereporter.com
 0.0.0.0 p66-ad.adkwai.com
 0.0.0.0 p769.wgal.com
 0.0.0.0 p7bwte3srj45bccvw.ay.delivery
@@ -85210,6 +85249,7 @@
 0.0.0.0 q6.yovoads.com
 0.0.0.0 q6static.yovoads.com
 0.0.0.0 q7.cnzz.com
+0.0.0.0 q770.whittierdailynews.com
 0.0.0.0 q777.sfchronicle.com
 0.0.0.0 q88.actonservice.com
 0.0.0.0 q99i1qi6.de
@@ -85915,6 +85955,7 @@
 0.0.0.0 r.zubajuroo.com
 0.0.0.0 r.zufubulsee.com
 0.0.0.0 r01lacou.azidp.tech
+0.0.0.0 r066.dailytribune.com
 0.0.0.0 r1-euc1.zemanta.com
 0.0.0.0 r1-t.trackedlink.net
 0.0.0.0 r1-usc1.zemanta.com
@@ -85946,6 +85987,7 @@
 0.0.0.0 r66net.net
 0.0.0.0 r7ls.net
 0.0.0.0 r932o.com
+0.0.0.0 r973.timesheraldonline.com
 0.0.0.0 r9oxmi9h.emltrk.com
 0.0.0.0 ra.gssprt.jp
 0.0.0.0 ra.revolvermaps.com
@@ -88908,6 +88950,7 @@
 0.0.0.0 s2.static.cfgr1.com
 0.0.0.0 s20.cnzz.com
 0.0.0.0 s21.cnzz.com
+0.0.0.0 s211.mcall.com
 0.0.0.0 s22.cnzz.com
 0.0.0.0 s23.cnzz.com
 0.0.0.0 s232.theintelligencer.com
@@ -88977,6 +89020,7 @@
 0.0.0.0 s6syw.publishers.tremorhub.com
 0.0.0.0 s7.addthis.com
 0.0.0.0 s73.cnzz.com
+0.0.0.0 s762.pressenterprise.com
 0.0.0.0 s7feh.top
 0.0.0.0 s8-stg.r-ad.ne.jp
 0.0.0.0 s8.addthis.com
@@ -93646,6 +93690,7 @@
 0.0.0.0 stats.adrealclick.com
 0.0.0.0 stats.agentinteractive.com
 0.0.0.0 stats.agrar.nu
+0.0.0.0 stats.allabolag.se
 0.0.0.0 stats.allenai.org
 0.0.0.0 stats.amur.life
 0.0.0.0 stats.anymad.com
@@ -95377,6 +95422,7 @@
 0.0.0.0 t1.trex.media
 0.0.0.0 t1.zcvh.net
 0.0.0.0 t13.intelliad.de
+0.0.0.0 t133.sun-sentinel.com
 0.0.0.0 t2.adroll.com
 0.0.0.0 t2.ba-content.de
 0.0.0.0 t2.chartboost.com
@@ -95419,6 +95465,7 @@
 0.0.0.0 t8.zenkreka.com
 0.0.0.0 t810.ctpost.com
 0.0.0.0 t85itha3nitde.com
+0.0.0.0 t969.sentinelandenterprise.com
 0.0.0.0 t9srvz.moe.video
 0.0.0.0 ta.demdex.net
 0.0.0.0 ta.sbird.xyz
@@ -99843,6 +99890,7 @@
 0.0.0.0 u.zprelandappslab.com
 0.0.0.0 u.zubajuroo.com
 0.0.0.0 u.zufubulsee.com
+0.0.0.0 u066.ocregister.com
 0.0.0.0 u082.wapt.com
 0.0.0.0 u08zitmubrvh.rtb.admatic.com.tr
 0.0.0.0 u1010.com
@@ -99858,16 +99906,19 @@
 0.0.0.0 u25011.com
 0.0.0.0 u25022.com
 0.0.0.0 u2rjtmt6xxszm6ani.ay.delivery
+0.0.0.0 u300.dailybulletin.com
 0.0.0.0 u33011.com
 0.0.0.0 u360.d-bi.fr
 0.0.0.0 u3s.mathtag.com
 0.0.0.0 u5.investingchannel.com
 0.0.0.0 u50.0i0i0i0.com
+0.0.0.0 u542.dailycamera.com
 0.0.0.0 u55011.com
 0.0.0.0 u566.chron.com
 0.0.0.0 u578.wlwt.com
 0.0.0.0 u5e.com
 0.0.0.0 u652.myplainview.com
+0.0.0.0 u654.santacruzsentinel.com
 0.0.0.0 u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me
 0.0.0.0 u8.hujiang.com
 0.0.0.0 u927.sfgate.com
@@ -100178,6 +100229,7 @@
 0.0.0.0 unblockia.com
 0.0.0.0 unbunearyan.com
 0.0.0.0 unbuttonfootprintssoftened.com
+0.0.0.0 uncalmgermane.top
 0.0.0.0 uncannynobilityenclose.com
 0.0.0.0 uncastnork.com
 0.0.0.0 unchealth.demdex.net
@@ -103133,6 +103185,8 @@
 0.0.0.0 w0we.com
 0.0.0.0 w1.fanplayr.com
 0.0.0.0 w110.kcra.com
+0.0.0.0 w138.redlandsdailyfacts.com
+0.0.0.0 w149.lowellsun.com
 0.0.0.0 w1aufucfd0iljzkrbdn5ow.adtouch.adbrix.io
 0.0.0.0 w2u4v9e1.ab1n.net
 0.0.0.0 w2yjlqaabu1rjjx0.everesttech.net
@@ -107950,10 +108004,13 @@
 0.0.0.0 x3-policy-maker.goguardian.com
 0.0.0.0 x3-predictor.goguardian.com
 0.0.0.0 x3.instreamatic.com
+0.0.0.0 x446.orlandosentinel.com
+0.0.0.0 x455.dailybreeze.com
 0.0.0.0 x5.jougennotuki.com
 0.0.0.0 x5m74.bemobtrcks.com
 0.0.0.0 x6.hebiichigo.com
 0.0.0.0 x6.tumabeni.com
+0.0.0.0 x680.sgvtribune.com
 0.0.0.0 x7.hebiichigo.com
 0.0.0.0 x7r3mk6ldr.com
 0.0.0.0 x8.cho-chin.com
@@ -109370,8 +109427,10 @@
 0.0.0.0 z1800flowers3276921z.btttag.com
 0.0.0.0 z2.cnzz.com
 0.0.0.0 z211.yourconroenews.com
+0.0.0.0 z216.times-standard.com
 0.0.0.0 z3.cnzz.com
 0.0.0.0 z31ci5ge.emltrk.com
+0.0.0.0 z371.chicoer.com
 0.0.0.0 z4.cnzz.com
 0.0.0.0 z492.ctinsider.com
 0.0.0.0 z5.cnzz.com
@@ -109383,6 +109442,7 @@
 0.0.0.0 z8g0wlq5p0f6jg3k7eh2kyd58hjeskx0w9g5eu7q3m5hyq8l0xwofj3ap2nv.me
 0.0.0.0 z9.cnzz.com
 0.0.0.0 z929.fuelfix.com
+0.0.0.0 z953.marinij.com
 0.0.0.0 za-ads.de
 0.0.0.0 za-gmtdmp.mookie1.com
 0.0.0.0 za-ssl.effectivemeasure.net
