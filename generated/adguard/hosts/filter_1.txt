@@ -542,6 +542,8 @@
 0.0.0.0 10179186.fls.doubleclick.net
 0.0.0.0 10180153.fls.doubleclick.net
 0.0.0.0 10180707.fls.doubleclick.net
+0.0.0.0 10183.direct.4armn.com
+0.0.0.0 10183.xml.4armn.com
 0.0.0.0 10183235.fls.doubleclick.net
 0.0.0.0 10183717.fls.doubleclick.net
 0.0.0.0 10188200.fls.doubleclick.net
@@ -1368,6 +1370,7 @@
 0.0.0.0 11556803.fls.doubleclick.net
 0.0.0.0 11558606.fls.doubleclick.net
 0.0.0.0 11563278.fls.doubleclick.net
+0.0.0.0 11572.xml.4armn.com
 0.0.0.0 11572030.fls.doubleclick.net
 0.0.0.0 11573629.fls.doubleclick.net
 0.0.0.0 11573854.fls.doubleclick.net
@@ -1461,6 +1464,7 @@
 0.0.0.0 11742073.fls.doubleclick.net
 0.0.0.0 11743425.fls.doubleclick.net
 0.0.0.0 11744013.fls.doubleclick.net
+0.0.0.0 11745.xml.4armn.com
 0.0.0.0 11748392.fls.doubleclick.net
 0.0.0.0 11750655.fls.doubleclick.net
 0.0.0.0 11753319.fls.doubleclick.net
@@ -2420,6 +2424,7 @@
 0.0.0.0 14049286.fls.doubleclick.net
 0.0.0.0 14049325.fls.doubleclick.net
 0.0.0.0 14055084.fls.doubleclick.net
+0.0.0.0 14064.xml.4armn.com
 0.0.0.0 14065767.fls.doubleclick.net
 0.0.0.0 14076303.fls.doubleclick.net
 0.0.0.0 14085562.fls.doubleclick.net
@@ -5097,6 +5102,7 @@
 0.0.0.0 4af7c20b-7646-4fb7-b64f-ae0a8c51c1f1.event.collector.scopely.io
 0.0.0.0 4af7c20b-7646-4fb7-b64f-ae0a8c51c1f1.register.collector.scopely.io
 0.0.0.0 4afa45f1.xyz
+0.0.0.0 4armn.com
 0.0.0.0 4b043b5b6ab7.cdn4.forter.com
 0.0.0.0 4b2e8ecbda.dffa09cade.com
 0.0.0.0 4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app
@@ -19995,6 +20001,7 @@
 0.0.0.0 afi-b.com
 0.0.0.0 afi-thor.com
 0.0.0.0 afilio.com.br
+0.0.0.0 afilliatetraff.com
 0.0.0.0 afishamedia.net
 0.0.0.0 afkearupl.com
 0.0.0.0 afkwa.com
@@ -22162,6 +22169,7 @@
 0.0.0.0 api.mobshark.net
 0.0.0.0 api.mobula.ds.duapps.com
 0.0.0.0 api.mobula.sdk.duapps.com
+0.0.0.0 api.moengage.com
 0.0.0.0 api.monetate.net
 0.0.0.0 api.monetizer101.com
 0.0.0.0 api.moneyoyo.org
@@ -22398,6 +22406,8 @@
 0.0.0.0 apiservices.krxd.net
 0.0.0.0 apiv2.moengage.com
 0.0.0.0 apiv2.tiin.vn
+0.0.0.0 apiv2eu.moengage.com
+0.0.0.0 apiv3eu.moengage.com
 0.0.0.0 apiv4.subiz.com
 0.0.0.0 apk.adflex.vn
 0.0.0.0 apk.flat-ads.com
@@ -22480,6 +22490,7 @@
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 app-cdn.rqmob.com
 0.0.0.0 app-e.marketo.com
+0.0.0.0 app-eu.moengage.com
 0.0.0.0 app-euc.freshmarketer.com
 0.0.0.0 app-events.rubyblu.com
 0.0.0.0 app-facade.youmi.net
@@ -22492,6 +22503,7 @@
 0.0.0.0 app-lon07.marketo.com
 0.0.0.0 app-lon08.marketo.com
 0.0.0.0 app-measurement.com
+0.0.0.0 app-qa.moengage.com
 0.0.0.0 app-sj01.marketo.com
 0.0.0.0 app-sj02.marketo.com
 0.0.0.0 app-sj03.marketo.com
@@ -22574,6 +22586,7 @@
 0.0.0.0 app.matheranalytics.com
 0.0.0.0 app.meltwater.com
 0.0.0.0 app.modulepush.com
+0.0.0.0 app.moengage.com
 0.0.0.0 app.monetrack.com
 0.0.0.0 app.najva.com
 0.0.0.0 app.navdmp.com
@@ -22621,6 +22634,7 @@
 0.0.0.0 app001.dl.dtiserv2.com
 0.0.0.0 app16.ads.justpremium.com
 0.0.0.0 app2up.info
+0.0.0.0 app3.moengage.com
 0.0.0.0 appalgo.g2afse.com
 0.0.0.0 appanalysis.banggood.com
 0.0.0.0 apparatusditchtulip.com
@@ -28767,6 +28781,7 @@
 0.0.0.0 cdn.mnhjk.com
 0.0.0.0 cdn.mnhjkl.com
 0.0.0.0 cdn.mobilefuse.com
+0.0.0.0 cdn.moengage.com
 0.0.0.0 cdn.monadplug.com
 0.0.0.0 cdn.monetixads.com
 0.0.0.0 cdn.monhax.com
@@ -29519,6 +29534,7 @@
 0.0.0.0 cfgr1.com
 0.0.0.0 cfgr5.com
 0.0.0.0 cfgrcr1.com
+0.0.0.0 cfimage.moengage.com
 0.0.0.0 cfivfadtlr.com
 0.0.0.0 cfn.tealiumiq.com
 0.0.0.0 cfpwood.actonservice.com
@@ -35864,6 +35880,7 @@
 0.0.0.0 direct-collect.dy-api.eu
 0.0.0.0 direct-events-collector.spot.im
 0.0.0.0 direct-specific.com
+0.0.0.0 direct.4armn.com
 0.0.0.0 direct.ad.cpe.dotomi.com
 0.0.0.0 direct.adsrvr.org
 0.0.0.0 direct.e-volution.ai
@@ -37828,6 +37845,7 @@
 0.0.0.0 ec.doublemax.net
 0.0.0.0 ec.info.lgsmartad.com
 0.0.0.0 ec.instapagemetrics.com
+0.0.0.0 ec.moengage.com
 0.0.0.0 ec.startappservice.com
 0.0.0.0 ec2-44-233-143-239.us-west-2.compute.amazonaws.com
 0.0.0.0 ec211360d63f2eef29ca9536592572b7.safeframe.googlesyndication.com
@@ -38262,6 +38280,7 @@
 0.0.0.0 email.everyonesocial.gumgum.com
 0.0.0.0 email.unid.go.com
 0.0.0.0 email01.a8.net
+0.0.0.0 emailapi-v2.moengage.com
 0.0.0.0 emailflyfunny.com
 0.0.0.0 emarbox.com
 0.0.0.0 ematicsolutions.com
@@ -42945,6 +42964,7 @@
 0.0.0.0 geo.yahoo.com
 0.0.0.0 geo.yieldify.com
 0.0.0.0 geo58.relevant-digital.com
+0.0.0.0 geoapi.moengage.com
 0.0.0.0 geobar.ziffdavisinternational.com
 0.0.0.0 geobytes.com
 0.0.0.0 geocdn.unityads.unity3d.com
@@ -43570,6 +43590,7 @@
 0.0.0.0 go.mobisla.com
 0.0.0.0 go.mobstitialtag.com
 0.0.0.0 go.mobtrks.com
+0.0.0.0 go.moengage.com
 0.0.0.0 go.mooncklick.com
 0.0.0.0 go.mshago.com
 0.0.0.0 go.myimgt.com
@@ -47022,6 +47043,7 @@
 0.0.0.0 imagazine.advertserve.com
 0.0.0.0 image-ard-de-cddc.at-o.net
 0.0.0.0 image-cache.performax.cz
+0.0.0.0 image-eu.moengage.com
 0.0.0.0 image-mdr-de-cddc.at-o.net
 0.0.0.0 image-rentracks.com
 0.0.0.0 image-static.adflex.vn
@@ -47033,6 +47055,7 @@
 0.0.0.0 image.dt.ptmnd.com
 0.0.0.0 image.eu.ptmnd.com
 0.0.0.0 image.eum-appdynamics.com
+0.0.0.0 image.moengage.com
 0.0.0.0 image.sitebro.com
 0.0.0.0 image.static.adflex.vn
 0.0.0.0 image2.pubmatic.com
@@ -47552,7 +47575,9 @@
 0.0.0.0 inappi.co
 0.0.0.0 inappi.me
 0.0.0.0 inappropriate2.fun
+0.0.0.0 inapps-eu.moengage.com
 0.0.0.0 inapps.appsflyer.com
+0.0.0.0 inapps.moengage.com
 0.0.0.0 inareputaonforhavin.com
 0.0.0.0 inari.iad-03.braze.com
 0.0.0.0 inattentivereferredextend.com
@@ -47564,6 +47589,7 @@
 0.0.0.0 inbound-analytics.pixlee.co
 0.0.0.0 inbound-analytics.pixlee.com
 0.0.0.0 inbound-step.heavenmedia.com
+0.0.0.0 inboxapi.moengage.com
 0.0.0.0 inboxlab-d.openx.net
 0.0.0.0 inbrowserplay.com
 0.0.0.0 incapableenormously.com
@@ -47697,6 +47723,7 @@
 0.0.0.0 info.lgsmartad.com
 0.0.0.0 info.localytics.com
 0.0.0.0 info.mmnneo.com
+0.0.0.0 info.moengage.com
 0.0.0.0 info.signifyd.com
 0.0.0.0 info.startappservice.com
 0.0.0.0 info.static.startappservice.com
@@ -49484,6 +49511,7 @@
 0.0.0.0 js.mediaz.asia
 0.0.0.0 js.moatads.com
 0.0.0.0 js.mobileoffers-ep-download.com
+0.0.0.0 js.moengage.com
 0.0.0.0 js.monetize-ssp.com
 0.0.0.0 js.mtburn.com
 0.0.0.0 js.mulan.cloud
@@ -58195,9 +58223,11 @@
 0.0.0.0 o333o.com
 0.0.0.0 o398.trumbulltimes.com
 0.0.0.0 o3sxhw5ad.com
+0.0.0.0 o46.info.updates.moengage.com
 0.0.0.0 o4nofsh6.de
 0.0.0.0 o5hebko2.emltrk.com
 0.0.0.0 o6.iads.unity3d.com
+0.0.0.0 o63.em3424.moengage.com
 0.0.0.0 o6ca9.rdtk.io
 0.0.0.0 o911o.com
 0.0.0.0 oa.afishamedia.net
@@ -83941,6 +83971,7 @@
 0.0.0.0 productpilot01.webtrekk.net
 0.0.0.0 products.hlserve.com
 0.0.0.0 products.kameleoon.com
+0.0.0.0 productupdates.moengage.com
 0.0.0.0 proetusbramble.com
 0.0.0.0 proext.com
 0.0.0.0 prof.estat.com
@@ -84163,10 +84194,12 @@
 0.0.0.0 proxyjs.bright-sdk.com
 0.0.0.0 prp.adtima.vn
 0.0.0.0 prp.izooto.com
+0.0.0.0 prp1.moengage.com
 0.0.0.0 prplad.com
 0.0.0.0 prplads.com
 0.0.0.0 prpmdp.xyz
 0.0.0.0 prpops.com
+0.0.0.0 prpwebpushdemo.moengage.com
 0.0.0.0 prra.spxl.socy.es
 0.0.0.0 prre.ru
 0.0.0.0 prscripts.com
@@ -89605,7 +89638,9 @@
 0.0.0.0 sdg.fwtrck.com
 0.0.0.0 sdhiltewasvery.info
 0.0.0.0 sdiatesupervis.com
+0.0.0.0 sdk-01.moengage.com
 0.0.0.0 sdk-02.iad.appboy.com
+0.0.0.0 sdk-02.moengage.com
 0.0.0.0 sdk-04.moengage.com
 0.0.0.0 sdk-android.ad.smaato.net
 0.0.0.0 sdk-api-v1.singular.net
@@ -90739,6 +90774,7 @@
 0.0.0.0 shopbekyff.com
 0.0.0.0 shopbloxfruit.com
 0.0.0.0 shopcardvnmb.byethost7.com
+0.0.0.0 shopclues.moengage.com
 0.0.0.0 shopconvert.com.br
 0.0.0.0 shopcuadailodanhvong.com
 0.0.0.0 shopdatph.tudong.pro
@@ -93813,6 +93849,7 @@
 0.0.0.0 stats.rustore.ru
 0.0.0.0 stats.sa-as.com
 0.0.0.0 stats.salesystemstats.com.ssl.re.getclicky.com
+0.0.0.0 stats.samsungpass.com
 0.0.0.0 stats.screenresolution.org
 0.0.0.0 stats.sec.telefonica.com
 0.0.0.0 stats.seedr.com
@@ -103643,6 +103680,7 @@
 0.0.0.0 webquizspot.com
 0.0.0.0 webscouldlearnof.info
 0.0.0.0 websdk.appsflyer.com
+0.0.0.0 websdk.moengage.com
 0.0.0.0 webseeds.com
 0.0.0.0 webserviceaward.com
 0.0.0.0 webservices.sub2tech.com
@@ -104623,6 +104661,7 @@
 0.0.0.0 ws.inspectlet.com
 0.0.0.0 ws.ksmobile.net
 0.0.0.0 ws.mmstat.com
+0.0.0.0 ws.moengage.com
 0.0.0.0 ws.rqtrk.eu
 0.0.0.0 ws.salecycle.com
 0.0.0.0 ws.sessioncam.com
@@ -106449,6 +106488,7 @@
 0.0.0.0 www.modulecooper.com
 0.0.0.0 www.moduledescendantlos.com
 0.0.0.0 www.modulepush.com
+0.0.0.0 www.moengage.com
 0.0.0.0 www.mommygravelyslime.com
 0.0.0.0 www.moneymakercdn.com
 0.0.0.0 www.monitus.net
@@ -107558,6 +107598,8 @@
 0.0.0.0 www.www-path.com
 0.0.0.0 www.www.hibids10.com
 0.0.0.0 www.www.profitabledisplaycontent.com
+0.0.0.0 www.www.www.www.sellercentral.amazon.rtb.4armn.com
+0.0.0.0 www.www.www.www.www.sellercentral.amazon.rtb.4armn.com
 0.0.0.0 www.wysistat.com
 0.0.0.0 www.xadsmart.com
 0.0.0.0 www.xapads.com
@@ -108243,6 +108285,7 @@
 0.0.0.0 xml-v4.tri.media
 0.0.0.0 xml-v4.webmedrtb.com
 0.0.0.0 xml-v4.zentrixads.com
+0.0.0.0 xml.4armn.com
 0.0.0.0 xml.accesstrade.net
 0.0.0.0 xml.acertb.com
 0.0.0.0 xml.ad-maven.com
