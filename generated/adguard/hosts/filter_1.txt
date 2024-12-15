@@ -28699,6 +28699,7 @@
 0.0.0.0 cdn.jitanvlw.com
 0.0.0.0 cdn.jivox.com
 0.0.0.0 cdn.jklpy.com
+0.0.0.0 cdn.jp1media.com
 0.0.0.0 cdn.js7k.com
 0.0.0.0 cdn.jst.ai
 0.0.0.0 cdn.jubna.com
@@ -49355,6 +49356,7 @@
 0.0.0.0 jp.sportradarserving.com
 0.0.0.0 jp1-bid-ga.adsrvr.org
 0.0.0.0 jp1-bid.adsrvr.org
+0.0.0.0 jp1media.com
 0.0.0.0 jp2.as.criteo.com
 0.0.0.0 jp2.as.criteo.net
 0.0.0.0 jp2.vip.prod.criteo.com
@@ -90265,6 +90267,7 @@
 0.0.0.0 server.ethicalads.io
 0.0.0.0 server.exposebox.com
 0.0.0.0 server.gblcdn.com
+0.0.0.0 server.jp1media.com
 0.0.0.0 server.prebid.dianomi.com
 0.0.0.0 server.pubnative.net
 0.0.0.0 server.quanta.la
@@ -108467,6 +108470,7 @@
 0.0.0.0 xukpqemfs.com
 0.0.0.0 xulizui6.com
 0.0.0.0 xunsfr.xyz
+0.0.0.0 xupalace.org
 0.0.0.0 xups.xplosion.de
 0.0.0.0 xuqza.com
 0.0.0.0 xuxwvh.xyz
