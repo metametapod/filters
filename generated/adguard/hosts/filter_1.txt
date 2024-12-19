@@ -24805,6 +24805,7 @@
 0.0.0.0 bsw-sb.criteo.com
 0.0.0.0 bt-cdn.relevant-digital.com
 0.0.0.0 bt.cheqzone.com
+0.0.0.0 bt.dns-finder.com
 0.0.0.0 bt.p24.hu
 0.0.0.0 btagmedia.com
 0.0.0.0 btbusiness.demdex.net
@@ -34330,6 +34331,7 @@
 0.0.0.0 down.us2.mclick.mobi
 0.0.0.0 down140.mclick.mobi
 0.0.0.0 down141.mclick.mobi
+0.0.0.0 download-privacybear.com
 0.0.0.0 download-stats.mozilla.org
 0.0.0.0 download.gameanalytics.com
 0.0.0.0 download.jword.jp
@@ -40965,6 +40967,7 @@
 0.0.0.0 glaiwhee.net
 0.0.0.0 glaixich.net
 0.0.0.0 glakaits.net
+0.0.0.0 glamipixel.com
 0.0.0.0 glance-internal.inmobi.com
 0.0.0.0 glance.inmobi.com
 0.0.0.0 glance.l.inmobicdn.net
