@@ -16912,7 +16912,6 @@
 0.0.0.0 ads.travelaudience.com
 0.0.0.0 ads.tremorhub.com
 0.0.0.0 ads.tvp.pl
-0.0.0.0 ads.twdcgrid.com
 0.0.0.0 ads.ultraviewer.net
 0.0.0.0 ads.undertone.com
 0.0.0.0 ads.us.criteo.com
@@ -18425,6 +18424,7 @@
 0.0.0.0 airablebuboes.com
 0.0.0.0 airairgu.com
 0.0.0.0 airasia-ec.gw-dv.vip
+0.0.0.0 airasia.cdn-gw-dv.vip
 0.0.0.0 airasia.gw-dv.vip
 0.0.0.0 airaujoog.com
 0.0.0.0 airbornefrench.com
@@ -26301,6 +26301,7 @@
 0.0.0.0 cdn-gs.fresh8.co
 0.0.0.0 cdn-guse1-xch.media.net
 0.0.0.0 cdn-gusw1-xch.media.net
+0.0.0.0 cdn-gw-dv.vip
 0.0.0.0 cdn-header-bidding.snack-media.com
 0.0.0.0 cdn-ihb.33across.com
 0.0.0.0 cdn-ima.33across.com
@@ -27584,6 +27585,7 @@
 0.0.0.0 cf-native.karte.io
 0.0.0.0 cf-pixelfront-analytics.widencdn.net
 0.0.0.0 cf.addthis.com
+0.0.0.0 cf.adxcel.com
 0.0.0.0 cf.alcmpn.com
 0.0.0.0 cf.artsai.com
 0.0.0.0 cf.eco-tag.jp
@@ -28505,6 +28507,7 @@
 0.0.0.0 clkofafcbk.com
 0.0.0.0 clkrtb.c.appier.net
 0.0.0.0 clksite.com
+0.0.0.0 clktds.org
 0.0.0.0 clkuk.tradedoubler.com
 0.0.0.0 cllctr.any.run
 0.0.0.0 cllctr.roistat.com
@@ -32743,7 +32746,6 @@
 0.0.0.0 dbbest.actonservice.com
 0.0.0.0 dbe3730557e740b5aea8dde66e362db8-db083d0cbd76.cdn.forter.com
 0.0.0.0 dbex-tracker-v2.driveback.ru
-0.0.0.0 dbfukofby5ycr.cloudfront.net
 0.0.0.0 dbfv8ylr8ykfg.cloudfront.net
 0.0.0.0 dbgjunedkwebprod.112.2o7.net
 0.0.0.0 dbinc.122.2o7.net
@@ -43022,6 +43024,7 @@
 0.0.0.0 hfdfyrqj-ws.club
 0.0.0.0 hffxc.com
 0.0.0.0 hfhppxseee.com
+0.0.0.0 hfisngksng.com
 0.0.0.0 hfiwcuodr.com
 0.0.0.0 hfjmvr.xyz
 0.0.0.0 hfm.adsame.com
@@ -49983,6 +49986,7 @@
 0.0.0.0 log.polarisoffice.com
 0.0.0.0 log.prezi.com
 0.0.0.0 log.propermessage.io
+0.0.0.0 log.pullcenter.live
 0.0.0.0 log.pvpgang.com
 0.0.0.0 log.qchannel03.cn
 0.0.0.0 log.quora.com
@@ -50401,6 +50405,7 @@
 0.0.0.0 lrpush.apxlv.com
 0.0.0.0 lrpush.cogocast.net
 0.0.0.0 lryofjrfogp.com
+0.0.0.0 ls.cdn-gw-dv.vip
 0.0.0.0 ls.glance-internal.inmobi.com
 0.0.0.0 ls.hit.gemius.pl
 0.0.0.0 lsag01.webtrekk.net
@@ -88117,6 +88122,7 @@
 0.0.0.0 sf1-be-pack.pglstatp-toutiao.com
 0.0.0.0 sf1-fe-tos.pglstatp-toutiao.com
 0.0.0.0 sf14g.com
+0.0.0.0 sf16-static.i18n-pglstatp.com
 0.0.0.0 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 0.0.0.0 sf3-be-pack.pglstatp-toutiao.com
 0.0.0.0 sf3-be-tos.pglstatp-toutiao.com
@@ -95338,6 +95344,7 @@
 0.0.0.0 towersalighthybrids.com
 0.0.0.0 towerslady.com
 0.0.0.0 towersresent.com
+0.0.0.0 towmfs.com
 0.0.0.0 townhallmedia-d.openx.net
 0.0.0.0 townnews-aps-tagan.adlightning.com
 0.0.0.0 townnews-tagan.adlightning.com
@@ -97266,7 +97273,6 @@
 0.0.0.0 twc-assets.artsai.com
 0.0.0.0 twcimaxweb.112.2o7.net
 0.0.0.0 twcouponcenter.com
-0.0.0.0 twdcgrid.com
 0.0.0.0 tweakarrangement.com
 0.0.0.0 twelfthcomprehendgrape.com
 0.0.0.0 twelfthdistasteful.com
