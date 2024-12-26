@@ -18304,6 +18304,7 @@
 0.0.0.0 agle21xe2anfddirite.com
 0.0.0.0 agloogly.com
 0.0.0.0 aglurj.com
+0.0.0.0 agma-analytics.de
 0.0.0.0 agmtrk.com
 0.0.0.0 agooxouy.net
 0.0.0.0 agorahtag.tech
@@ -21245,6 +21246,7 @@
 0.0.0.0 asce.nui.media
 0.0.0.0 ascena.demdex.net
 0.0.0.0 ascendeum-d.openx.net
+0.0.0.0 ascendeummedia.com
 0.0.0.0 ascendintegratedmedia.actonservice.com
 0.0.0.0 ascensionunfinished.com
 0.0.0.0 ascentcrm.actonservice.com
@@ -30800,6 +30802,7 @@
 0.0.0.0 cs.agency2.ru
 0.0.0.0 cs.alfasense.com
 0.0.0.0 cs.amoad.com
+0.0.0.0 cs.ascendeummedia.com
 0.0.0.0 cs.boost-next.co.jp
 0.0.0.0 cs.emxdgt.com
 0.0.0.0 cs.esm1.net
@@ -37259,6 +37262,7 @@
 0.0.0.0 evsw-zfdmag.one
 0.0.0.0 evt-api.ntm.eu
 0.0.0.0 evt.24.com
+0.0.0.0 evt.ascendeummedia.com
 0.0.0.0 evt.bfmio.com
 0.0.0.0 evt.houzz.com
 0.0.0.0 evt.ilovepdf.com
@@ -42678,6 +42682,7 @@
 0.0.0.0 hb.adx1.com
 0.0.0.0 hb.afl.rakuten.co.jp
 0.0.0.0 hb.aralego.com
+0.0.0.0 hb.ascendeummedia.com
 0.0.0.0 hb.brainlyads.com
 0.0.0.0 hb.bumlam.com
 0.0.0.0 hb.contentexchange.me
@@ -49999,6 +50004,8 @@
 0.0.0.0 log.rutube.ru
 0.0.0.0 log.sdk.zadn.vn
 0.0.0.0 log.seekda.com
+0.0.0.0 log.shortbread.analytics.console.aws.a2z.com
+0.0.0.0 log.shortbread.aws.dev
 0.0.0.0 log.shufoo.net
 0.0.0.0 log.sina.cn
 0.0.0.0 log.smaato.net
@@ -51148,7 +51155,6 @@
 0.0.0.0 mail.topsummerapps.net
 0.0.0.0 mail.trafficmoon.com
 0.0.0.0 mail.webmine.cz
-0.0.0.0 mail.webpower.eu
 0.0.0.0 mail.wholeactualjournal.com
 0.0.0.0 mail.wholecoolposts.com
 0.0.0.0 mail.wholedailyfeed.com
@@ -52936,6 +52942,7 @@
 0.0.0.0 mobile-events.ometria.com
 0.0.0.0 mobile-facebook.com.vn
 0.0.0.0 mobile-lon-lambda.covatic.io
+0.0.0.0 mobile-production.content-square.net
 0.0.0.0 mobile-remote-config.forter.com
 0.0.0.0 mobile-sdk-lib-ca-1.brilliantcollector.com
 0.0.0.0 mobile-sdk-lib-eu-1.brilliantcollector.com
@@ -58055,6 +58062,7 @@
 0.0.0.0 pbbhhxm.xyz
 0.0.0.0 pbbl.co
 0.0.0.0 pbbqzqi.com
+0.0.0.0 pbc.agma-analytics.de
 0.0.0.0 pbc.bricks-co.com
 0.0.0.0 pbc.nextmillmedia.com
 0.0.0.0 pbc.pubpowerplatform.io
@@ -81694,6 +81702,8 @@
 0.0.0.0 prod.k8s.amobee.com
 0.0.0.0 prod.kargo.com
 0.0.0.0 prod.leanplum.com
+0.0.0.0 prod.log.shortbread.analytics.console.aws.a2z.com
+0.0.0.0 prod.log.shortbread.aws.dev
 0.0.0.0 prod.metrics.imdb.a2z.com
 0.0.0.0 prod.metrics.imdb.com
 0.0.0.0 prod.mt.skyadsmart.com
@@ -86460,6 +86470,7 @@
 0.0.0.0 s.phewhouhopse.com
 0.0.0.0 s.phoobsoalrie.com
 0.0.0.0 s.phuluzoaxoan.com
+0.0.0.0 s.pie.org
 0.0.0.0 s.pixanalytics.com
 0.0.0.0 s.pixsrvcs.com
 0.0.0.0 s.primead.jp
@@ -87389,6 +87400,7 @@
 0.0.0.0 sdk.adtiming.com
 0.0.0.0 sdk.airbridge.io
 0.0.0.0 sdk.appsflyer.com
+0.0.0.0 sdk.ascendeummedia.com
 0.0.0.0 sdk.conf.getui.com
 0.0.0.0 sdk.conscent.in
 0.0.0.0 sdk.dcmn.io
@@ -87956,6 +87968,7 @@
 0.0.0.0 server.exposebox.com
 0.0.0.0 server.gblcdn.com
 0.0.0.0 server.jp1media.com
+0.0.0.0 server.megabrain.co
 0.0.0.0 server.prebid.dianomi.com
 0.0.0.0 server.pubnative.net
 0.0.0.0 server.quanta.la
@@ -91569,7 +91582,6 @@
 0.0.0.0 statsv2.propellerads.com
 0.0.0.0 status-ipv6.jpush.cn
 0.0.0.0 status.evergage.com
-0.0.0.0 status.techtarget.itmedia.co.jp
 0.0.0.0 status.tubeadvertising.eu
 0.0.0.0 statwup.huya.com
 0.0.0.0 statwup.nimo.tv
@@ -93008,6 +93020,7 @@
 0.0.0.0 t.phewhouhopse.com
 0.0.0.0 t.phoobsoalrie.com
 0.0.0.0 t.phuluzoaxoan.com
+0.0.0.0 t.pie.org
 0.0.0.0 t.pointandplace.com
 0.0.0.0 t.poki.io
 0.0.0.0 t.powerreviews.com
@@ -98483,6 +98496,7 @@
 0.0.0.0 us-east-1-3.telemetry.insights.video.a2z.com
 0.0.0.0 us-east-1-classic.xad.com
 0.0.0.0 us-east-1-decisionapi.lift.acquia.com
+0.0.0.0 us-east-1-production-rtb-wins.ascendeummedia.com
 0.0.0.0 us-east-1-production-rtb-wins.yellowblue.io
 0.0.0.0 us-east-1-x.adroll.com
 0.0.0.0 us-east-1.ads.digital.disneyadvertising.com
@@ -98584,6 +98598,7 @@
 0.0.0.0 us-west-2-2.telemetry.insights.video.a2z.com
 0.0.0.0 us-west-2-3.telemetry.insights.video.a2z.com
 0.0.0.0 us-west-2-ingress.clicktripz.com
+0.0.0.0 us-west-2-production-rtb-wins.ascendeummedia.com
 0.0.0.0 us-west-2-production-rtb-wins.yellowblue.io
 0.0.0.0 us-west-2-www.clicktripz.com
 0.0.0.0 us-west-2-x.adroll.com
@@ -101319,7 +101334,6 @@
 0.0.0.0 webpinp.com
 0.0.0.0 webpixel.smartmeapp.com
 0.0.0.0 webportal.criteo.com
-0.0.0.0 webpower.eu
 0.0.0.0 webprospector.de
 0.0.0.0 webpush.pushe.co
 0.0.0.0 webpush.vn
