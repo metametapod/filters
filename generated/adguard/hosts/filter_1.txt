@@ -18461,7 +18461,6 @@
 0.0.0.0 aiwlxmy.com
 0.0.0.0 aixcdn.com
 0.0.0.0 aixuntupian.oss-cn-hongkong.aliyuncs.com
-0.0.0.0 aizhantj.com
 0.0.0.0 aj.adjungle.com
 0.0.0.0 aj1.ebis.ne.jp
 0.0.0.0 aj1070.online
@@ -22699,6 +22698,7 @@
 0.0.0.0 bachoaxanhh.com
 0.0.0.0 bacishushaby.com
 0.0.0.0 back-drag.pro
+0.0.0.0 back.k-words.io
 0.0.0.0 back.marketing
 0.0.0.0 back.revrelations.com
 0.0.0.0 backbeatmedia.com
@@ -27851,6 +27851,7 @@
 0.0.0.0 chijauqybb.xyz
 0.0.0.0 childbirthabolishment.com
 0.0.0.0 childbirthprivaterouge.com
+0.0.0.0 childhoodstudioconversation.com
 0.0.0.0 childhoodtilt.com
 0.0.0.0 childishenough.com
 0.0.0.0 childlessporcupinevaluables.com
@@ -30425,6 +30426,7 @@
 0.0.0.0 cpm.programattik.com
 0.0.0.0 cpm.pubgenius.io
 0.0.0.0 cpm.qortex.ai
+0.0.0.0 cpm.revbid.net
 0.0.0.0 cpm.unibots.in
 0.0.0.0 cpm.vuukle.net
 0.0.0.0 cpm.worldoftanks.com
@@ -47336,6 +47338,7 @@
 0.0.0.0 k-eu1.az.contentsquare.net
 0.0.0.0 k-oggwkhhxt.love
 0.0.0.0 k-us1.az.contentsquare.net
+0.0.0.0 k-words.io
 0.0.0.0 k.a14net.com
 0.0.0.0 k.aa.contentsquare.net
 0.0.0.0 k.af.contentsquare.net
@@ -49708,6 +49711,7 @@
 0.0.0.0 load.instinctiveads.com
 0.0.0.0 load.mediation-sdk.chartboost.com
 0.0.0.0 load.sjc1.exelator.com
+0.0.0.0 load.ss.chatbotapp.ai
 0.0.0.0 load.sumome.com
 0.0.0.0 load.us.exelator.com
 0.0.0.0 load77.exelator.com
@@ -80646,6 +80650,7 @@
 0.0.0.0 platformsrat.com
 0.0.0.0 plausible.ams.to
 0.0.0.0 plausible.citynews.ovh
+0.0.0.0 plausible.k-words.io
 0.0.0.0 plausible.omgapi.org
 0.0.0.0 plausible.paimon.moe
 0.0.0.0 plausible.pronouns.cc
@@ -81377,6 +81382,7 @@
 0.0.0.0 prebid.publir.com
 0.0.0.0 prebid.pubmatic.com
 0.0.0.0 prebid.relestar.com
+0.0.0.0 prebid.revbid.net
 0.0.0.0 prebid.s-onetag.com
 0.0.0.0 prebid.scupio.com
 0.0.0.0 prebid.serve.admatic.com.tr
@@ -84930,6 +84936,7 @@
 0.0.0.0 revampcdn.com
 0.0.0.0 revaza-analytic.prezna.com
 0.0.0.0 revaza.prezna.com
+0.0.0.0 revbid.net
 0.0.0.0 revcatch.com
 0.0.0.0 revcontent.com
 0.0.0.0 reve.leafmedia.io
@@ -85622,6 +85629,7 @@
 0.0.0.0 rtb-admeld-lon5.everesttech.net
 0.0.0.0 rtb-analytics.brand-display.com
 0.0.0.0 rtb-apac-v4.afkwa.com
+0.0.0.0 rtb-apac-v4.revbid.net
 0.0.0.0 rtb-apac.adsolut.in
 0.0.0.0 rtb-apac.appocean.media
 0.0.0.0 rtb-apac.bidmyqps.xyz
@@ -85655,6 +85663,7 @@
 0.0.0.0 rtb-eu-v4.aserve1.net
 0.0.0.0 rtb-eu-v4.clickmi.net
 0.0.0.0 rtb-eu-v4.pixelpluses.com
+0.0.0.0 rtb-eu-v4.revbid.net
 0.0.0.0 rtb-eu.152media.com
 0.0.0.0 rtb-eu.adjux.com
 0.0.0.0 rtb-eu.adsolut.in
@@ -85723,6 +85732,7 @@
 0.0.0.0 rtb-useast-v4.didna.io
 0.0.0.0 rtb-useast-v4.ezmob.com
 0.0.0.0 rtb-useast-v4.qortex.ai
+0.0.0.0 rtb-useast-v4.revbid.net
 0.0.0.0 rtb-useast-v4.vuukle.net
 0.0.0.0 rtb-useast.152media.com
 0.0.0.0 rtb-useast.adsolut.in
@@ -85747,6 +85757,7 @@
 0.0.0.0 rtb-uswest-v4.clickmi.net
 0.0.0.0 rtb-uswest-v4.didna.io
 0.0.0.0 rtb-uswest-v4.qortex.ai
+0.0.0.0 rtb-uswest-v4.revbid.net
 0.0.0.0 rtb-uswest-v4.vuukle.net
 0.0.0.0 rtb-uswest.152media.com
 0.0.0.0 rtb-uswest.andbeyond.media
@@ -87418,6 +87429,7 @@
 0.0.0.0 sdk.iad-08.braze.com
 0.0.0.0 sdk.inmobi.cn
 0.0.0.0 sdk.inmobi.com
+0.0.0.0 sdk.k-words.io
 0.0.0.0 sdk.kochava.com
 0.0.0.0 sdk.kokocads.com
 0.0.0.0 sdk.mediav.com
@@ -91140,6 +91152,7 @@
 0.0.0.0 static.realtime-bid.com
 0.0.0.0 static.reechegraih.com
 0.0.0.0 static.renadomsey.com
+0.0.0.0 static.revbid.net
 0.0.0.0 static.revrtb.com
 0.0.0.0 static.rooglomitaiy.com
 0.0.0.0 static.rookechew.com
@@ -91495,6 +91508,7 @@
 0.0.0.0 stats.rbc.ua
 0.0.0.0 stats.realclick.vn
 0.0.0.0 stats.restartad.com
+0.0.0.0 stats.revbid.net
 0.0.0.0 stats.rip
 0.0.0.0 stats.rustore.ru
 0.0.0.0 stats.sa-as.com
@@ -92688,6 +92702,7 @@
 0.0.0.0 syndication.realsrv.com
 0.0.0.0 syndication.traffichaus.com
 0.0.0.0 syndication.trafficreps.com
+0.0.0.0 syndication.twitter.com
 0.0.0.0 syndication3.traffichaus.com
 0.0.0.0 syndromeentered.com
 0.0.0.0 syndromegarlic.com
@@ -93700,6 +93715,7 @@
 0.0.0.0 tcb-prod.actioniq.mr-in.com
 0.0.0.0 tcc.conative.de
 0.0.0.0 tcc.demdex.net
+0.0.0.0 tccd.douglas.de.greylabeldelivery.com
 0.0.0.0 tcd.tourn.se
 0.0.0.0 tcdypeptz.com
 0.0.0.0 tcfcu.evergage.com

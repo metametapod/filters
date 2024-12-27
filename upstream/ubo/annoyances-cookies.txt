@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 24 Dec 2024 20:56:03 +0000
+! Last modified: Thu, 26 Dec 2024 22:51:35 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -1505,6 +1505,14 @@ eurobaustoff.com##+js(trusted-set-local-storage-item, ccm_consent, '{"/":{"gen":
 dr-beckmann.com##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-deny-all-button"])
 @@||usercentrics.eu^$domain=dr-beckmann.com
 
+! usercentrics consents
+! deny consent
+srf.ch,alternate.de,bayer04.de,douglas.de,falke.com,flaschenpost.de,hornbach.nl,postbank.de##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-deny-all-button"], , 1000)
+! accept (no other option)
+immowelt.de,joyn.*,morenutrition.de##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-accept-all-button"], , 1000)
+! custom, accept and close
+moebel24.ch,meubles.fr,meubelo.nl,moebel.de##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-button-accept-and-close"], , 1000)
+
 ! https://github.com/uBlockOrigin/uAssets/issues/23499 - Necessary and marketing
 @@||cookiebot.com^$~image,3p,domain=fastnedcharging.com
 fastnedcharging.com##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:true})
@@ -2018,3 +2026,15 @@ negociardivida.spcbrasil.org.br##+js(trusted-click-element, button.sc-9a9fe76b-0
 
 ! reject 
 adidas.*##+js(trusted-click-element, button[data-auto-id="glass-gdpr-default-consent-reject-button"], , 1000)
+
+! non-essential
+crumblcookies.com##+js(trusted-set-local-storage-item, userTrackingConsent, '{"necessary":true,"marketing":false}')
+
+! accept https://www.topreality.sk/
+privacy.topreality.sk##+js(trusted-click-element, button[aria-label="Prijať všetko"])
+
+! ilmatieteenlaitos.fi
+ilmatieteenlaitos.fi##+js(trusted-set-cookie, FMI_COOKIE_CONSENT, %7B%22ts%22%3A%221970-01-01T00%3A00%3A00.000Z%22%2C%22allow%22%3A%7B%22necessary%22%3A%7B%22fmi_necessary%22%3A1%7D%2C%22preferences%22%3A%7B%22fmi_preferences%22%3A1%7D%2C%22analytics%22%3A%7B%22rs%22%3A1%2C%22userneeds%22%3A2%7D%2C%22other%22%3A%7B%22youtube%22%3A1%2C%22fyrebox%22%3A1%7D%7D%7D, 1year)
+
+! At least chat needs cookies
+s-pankki.fi##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-accept-all-button"])
