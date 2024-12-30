@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-12-29T01:05:12Z
+! Last modified: 2024-12-30T01:01:42Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: WsJJN1v9dYdx/QHs+R1DAg
-! Diff-Path: ../patches/18/18-s-1735407509-3600.patch
+! Checksum: 7AIdSvw4zILYD4rLs/AOBQ
+! Diff-Path: ../patches/18/18-s-1735501104-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.53.66
-! TimeUpdated: 2024-12-28T17:34:46+00:00
+! Version: 2.0.53.69
+! TimeUpdated: 2024-12-29T19:34:51+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2485,6 +2485,7 @@ scootertechno.com#$?#div[consent-skip-blocker] { remove: true; }
 !
 ! NOTE: Regular rules
 !
+piotrovsky.store##.js-popup-cookie
 foreignaffairs.com##._gdpr-banner
 antpool.com##.f-cookie
 infoyatirim.com#$##modal-cookie-policy { display: none !important; }
@@ -8592,6 +8593,7 @@ caseking.de###cookie_consent_modal
 autostadt.de###cookies-setting
 icecat.biz##div[class^="src-containers-cookie-notice-"]
 bonami.ro#?#body > div.rcic:has(a[href="https://www.bonami.ro/i/politica-de-utilizare-cookie-uri"])
+orange.es#$#html { overflow: visible !important; }
 partenamut.be,orange.es#$#body { overflow: visible !important; }
 partenamut.be,orange.es#$##__tealiumGDPRecModal { display: none !important; }
 ofenkieker.de##[data-borlabs-cookie-wrap]
