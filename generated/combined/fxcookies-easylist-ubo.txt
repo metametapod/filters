@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2024-12-31T00:59:11Z
+! Last modified: 2025-01-01T01:04:50Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Mon, 30 Dec 2024 13:03:24 +0000
+! Last modified: Tue, 31 Dec 2024 21:50:05 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -20610,7 +20610,7 @@ freshcart.se,ninelife.no,store.pw.live##.FeatureBar_root___INU8
 !! .v-overlay
 abnt.org.br,adressen.schober.de,andyguitar.co.uk,bimedis.ru,ichbindeinauto.de,mp.cz,order.fiveguys.fr,promotionbasis.de,rypsv.scot,trustpid.com##.v-overlay
 !! .cky-consent-container
-abels.co.uk,beebeeboard.com,cetpenedes.cat,christmasworld.net,coolmaterial.com,cvonline.varbamisteenused.ee,eurooptions.co.uk,wintermeeting.escrs.org##.cky-consent-container
+abels.co.uk,beebeeboard.com,cetpenedes.cat,christmasworld.net,coolmaterial.com,cvonline.varbamisteenused.ee,eurooptions.co.uk,saperesalute.it,wintermeeting.escrs.org##.cky-consent-container
 !! Cookie_
 appmetrica.yandesook.space##[class^="Cookie_"]
 !! .tws-accept-cookies--wrapper
@@ -20826,7 +20826,7 @@ dryg.pl##div[class^="CookiesNoti"]
 !! .cookie-notice
 acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,castlefineart.com,drgerard.eu,estately.com,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,tvsquared.com,viboom.com,vidal.ru,vixx.nl,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
 !! #cookie-notice
-aschendorff-buchverlag.de,avm-verlag.de,bahai-verlag.de,blog.oup.com,dersportverlag.de,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,mangabuddy.com,novelbuddy.com,sax-verlag.de###cookie-notice
+aschendorff-buchverlag.de,avm-verlag.de,bahai-verlag.de,blog.oup.com,dersportverlag.de,foodbloggermania.it,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,mangabuddy.com,novelbuddy.com,sax-verlag.de###cookie-notice
 !! #toast-container
 alppimatkat.fi,als.royalholloway.ac.uk,ecosto.fi,homenet.no,kialo.com,kindredgroup.com,kuntarekry.fi,lokinn.com,nelly.com,nlyman.com,quedo.es,schoolworkspace.co.uk,sozialleistungen.info,telecomtv.com###toast-container
 !! .toast
@@ -20904,7 +20904,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 !! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 !! .cookie-consent
-560theanswer.com,abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,inleed.se,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,vinkkoeltechniek.com,werkenbijversluis.nl##.cookie-consent
+560theanswer.com,abconcerts.be,congeo.nl,forcepoint.com,geeksforgeeks.org,inleed.se,merosch.nl,niaiu.pl,peoplematters.in,plmxpert.nl,podcast.de,pukkelpop.be,sodutch.nl,springaqua.com,toneelhuis.be,vinkkoeltechniek.com,webhallen.com,werkenbijversluis.nl##.cookie-consent
 !! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 !! #my-ctc-widget
@@ -21170,7 +21170,7 @@ abnova.com.tw,albumartexchange.com,benelli-motor.cz,bio-rad.com,dofus-le-film.co
 !! .ui-widget-overlay
 abnova.com.tw,albumartexchange.com,americantourister.at,americantourister.hu,apteekkini.fi,belizia.fi,benelli-motor.cz,bintercanaribio-rad.com,boggi.com,cashconverters.es,compilatio.net,dcshoes-uk.co.uk,dofus-le-film.com,dofus.com,gregorypacks.com,hillwig.de,infowine.com,kondomiverkkokauppa.fi,krosmaster.com,lekarna.us,lipault.fr,lookandlearn.com,miastograf.pl,mympchain.com,nacex.es,neue-impulse-verlag.de,portwell.com.tw,quiksilver-europe.at,quiksilver-store.se,quiksilver.be,quiksilver.ch,quiksilver.co.uk,quiksilver.de,quiksilver.dk,quiksilver.es,quiksilver.fi,quiksilver.fr,quiksilver.ie,quiksilver.it,quiksilver.lu,quiksilver.nl,quiksilver.pt,rollingluggage.com,rollingluggage.de,rollingluggage.dk,rollingluggage.fr,rollingluggage.hu,rollingluggage.nl,rollingluggage.no,rollingluggage.pl,roxy-germany.de,spaetzlesuche.de,strandlins.com,tumi.com,tumi.com.mx,tumi.pt,wescobroadcast.com,yocasino.es##.ui-widget-overlay
 !! .disclaimer
-apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,domenus.ru,e-domizil.de,earthcp.com,foxsports.com.au,froneri.pl,goyabu.vip,gregorys.gr,hafnarfjordur.is,hoster.ru,hsleiden.nl,ima.is,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,migliori-siti-di-incontri.it,myanimelist.vip,naturgenussfestival.de,news.com.au,rosatomflot.ru,sgtech.co.il,sinfonia.is,swapspace.co,totalplay.com.mx,tudogostoso.com.br,wardvillage.com,webhint.io##.disclaimer
+apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,domenus.ru,e-domizil.de,earthcp.com,foxsports.com.au,froneri.pl,goyabu.vip,gregorys.gr,hafnarfjordur.is,hoster.ru,hsleiden.nl,ima.is,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,migliori-siti-di-incontri.it,myanimelist.vip,naturgenussfestival.de,news.com.au,rosatomflot.ru,sgtech.co.il,sinfonia.is,socalgswapspace.co,totalplay.com.mx,tudogostoso.com.br,wardvillage.com,webhint.io##.disclaimer
 !! #disclaimer
 1ps.ru,albaparty.org,aldeparty.eu,amundi.pl,animesdigital.org,animesgames.net,biodiv.be,bitmoji.com,clementoni.com,decisiondeskhq.com,future.mcmaster.ca,gloss.ua,greyboicanw.org,limscave.com,liveradio.ie,snp.org,volksbuehne.berlin###disclaimer
 !! #__tealiumGDPRecModal
@@ -22695,6 +22695,9 @@ shop.ba.com##+js(set-local-storage-item, iag-targeting-consent, "no")
 shop.ba.com##+js(set-local-storage-item, iag-performance-consent, "no")
 uc.pt##+js(set-local-storage-item, userDeniedCookies, 1)
 geizhals.at##+js(set-local-storage-item, dnt_message_shown, 1)
+webhallen.com##+js(set-local-storage-item, necessaryConsent, true)
+webhallen.com##+js(set-local-storage-item, marketingConsent, false)
+webhallen.com##+js(set-local-storage-item, personalisationConsent, false)
 olx.com.br##+js(set-local-storage-item, open_modal_update_policy, 1)
 unobike.com##+js(set-local-storage-item, cookieinfo, 1)
 mod.io##+js(set-local-storage-item, cookies, 1)
