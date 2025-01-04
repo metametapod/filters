@@ -17215,6 +17215,7 @@
 0.0.0.0 adservetx.media.net
 0.0.0.0 adservf.com
 0.0.0.0 adservfnt-asia.adsmoloco.com
+0.0.0.0 adservfnt-eu.dsp-api.moloco.com
 0.0.0.0 adservg.com
 0.0.0.0 adservice.google.ac
 0.0.0.0 adservice.google.ad
@@ -26845,6 +26846,7 @@
 0.0.0.0 cdn.medyanetads.com
 0.0.0.0 cdn.megadata.co.kr
 0.0.0.0 cdn.membrana.media
+0.0.0.0 cdn.mentionideablit.com
 0.0.0.0 cdn.mercent.com
 0.0.0.0 cdn.metrix.ir
 0.0.0.0 cdn.mgid.com
@@ -34550,6 +34552,7 @@
 0.0.0.0 dsp-ams1.adkernel.com
 0.0.0.0 dsp-ap.eskimi.com
 0.0.0.0 dsp-apac.adkernel.com
+0.0.0.0 dsp-api.moloco.com
 0.0.0.0 dsp-cdn.gammaplatform.com
 0.0.0.0 dsp-cookie.adfarm1.adition.com
 0.0.0.0 dsp-creative-cdn.tenmax.io
@@ -52182,6 +52185,7 @@
 0.0.0.0 mensa.iad.appboy.com
 0.0.0.0 mentallyissue.com
 0.0.0.0 mentionedpretentious.com
+0.0.0.0 mentionideablit.com
 0.0.0.0 mentmastsa.org
 0.0.0.0 mentoremotionapril.com
 0.0.0.0 mentrandingswo.com
@@ -55259,6 +55263,9 @@
 0.0.0.0 nszeybs.com
 0.0.0.0 nt-compass-fit-jp.logly.co.jp
 0.0.0.0 nt-p.alcmpn.com
+0.0.0.0 nt-sdkfnt-asia.dsp-api.moloco.com
+0.0.0.0 nt-sdkfnt-eu.dsp-api.moloco.com
+0.0.0.0 nt-sdkfnt-us.dsp-api.moloco.com
 0.0.0.0 nt.alcmpn.com
 0.0.0.0 nt.compass-fit.jp
 0.0.0.0 nt.smartclick.net
@@ -87347,14 +87354,21 @@
 0.0.0.0 sdk.vindicosuite.com
 0.0.0.0 sdk2api.getui.com
 0.0.0.0 sdk4push.com
+0.0.0.0 sdkapi.dsp-api.moloco.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkconfig.pulse.m10s.io
 0.0.0.0 sdkconfig.pulse.schibsted.io
 0.0.0.0 sdkfjxjertertry.com
+0.0.0.0 sdkfnt-asia.dsp-api.moloco.com
+0.0.0.0 sdkfnt-eu.dsp-api.moloco.com
+0.0.0.0 sdkfnt-us.dsp-api.moloco.com
 0.0.0.0 sdkl.info
 0.0.0.0 sdkm.w.inmobi.cn
 0.0.0.0 sdkm.w.inmobi.com
+0.0.0.0 sdkopmetrics-asia.dsp-api.moloco.com
+0.0.0.0 sdkopmetrics-eu.dsp-api.moloco.com
+0.0.0.0 sdkopmetrics-us.dsp-api.moloco.com
 0.0.0.0 sdkrec.tf.360.cn
 0.0.0.0 sdkreport.e.qq.com
 0.0.0.0 sdks.automizely-analytics.com
@@ -94186,6 +94200,7 @@
 0.0.0.0 thinkdigitaladro.hit.gemius.pl
 0.0.0.0 thinkdigitalro.adocean.pl
 0.0.0.0 thinkingaccommodate.com
+0.0.0.0 thinksclingingentertainment.com
 0.0.0.0 thinksuggest.org
 0.0.0.0 thinnertrout.com
 0.0.0.0 thinnerwishingeccentric.com

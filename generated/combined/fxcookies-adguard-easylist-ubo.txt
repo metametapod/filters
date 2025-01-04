@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-01-03T00:59:48Z
+! Last modified: 2025-01-04T00:58:31Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: B7YC+MOI+FZybsVRP5upVA
-! Diff-Path: ../patches/18/18-s-1735829247-3600.patch
+! Checksum: H8sPKgaFZPMxIgAFXrpJHQ
+! Diff-Path: ../patches/18/18-s-1735937043-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.53.90
-! TimeUpdated: 2025-01-02T14:43:39+00:00
+! Version: 2.0.53.96
+! TimeUpdated: 2025-01-03T20:40:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2486,6 +2486,7 @@ scootertechno.com#$?#div[consent-skip-blocker] { remove: true; }
 !
 ! NOTE: Regular rules
 !
+wordmark.it##+js(set-local-storage-item, cookie_notice, true)
 store.drivereasy.com###cookie-management
 freenet.de##+js(remove-class, fn-sp, body.fn-sp)
 fastwebvodafone.it##iframe.ck_if
@@ -2597,7 +2598,6 @@ theprotocol.it###__next > div > div > div:has(> aside[data-test="section-cookieM
 bookings.hermesairports.com##.cookie-panel-wrapper
 bookings.hermesairports.com##.cookie-settings-float
 drm.cloud,cercojobs.it,mangooutlet.com##div[class^="Cookies"]
-foodandwine.com##body #onetrust-consent-sdk
 mobility.ch##.c-modal--cookie
 nch.com.au,nchsoftware.com###ckndiv
 osu.cz###souhlas
@@ -8570,7 +8570,7 @@ getabstract.com##.notifybar--note
 port.ac.uk##div[data-module="CookieMessage"]
 taylorfrancis.com##.tnf-cookie
 financer.com##.modal-gdpr-full
-btn.com,tecnoandroid.net,medicinenet.com##.privacy-bar
+cna.com.tw,btn.com,tecnoandroid.net,medicinenet.com##.privacy-bar
 pi-ag.com,rankeffect.de##.cookie-banner-overlay
 bremerhaven.de#$#body { overflow: auto !important; }
 bremerhaven.de#$#.cookie-banner ~ div.modal-backdrop { display: none !important; }
@@ -10023,7 +10023,7 @@ sport-plus-online.com#$##cookieModal { display: none !important; }
 sport-plus-online.com#$##cookieModal ~ div.modal-overlay { display: none !important; }
 sport-plus-online.com#$#body { overflow: auto !important; }
 hommeprive.com###idxrcookies
-spektrum.de,myspreadshop.fr,spreadshirt.fr,formel1.de,gq-magazine.co.uk##body #onetrust-consent-sdk
+foodandwine.com,spektrum.de,myspreadshop.fr,spreadshirt.fr,formel1.de,gq-magazine.co.uk##body #onetrust-consent-sdk
 ndmais.com.br###aviso-info
 giveagradago.com,support.forzamotorsport.net##.ns-box
 zoobedarf24.de##div[class^="alternative_cookie_layer_"]
@@ -10279,7 +10279,7 @@ mega.io,mega.nz##.anouncement:has(> .content-box > button[data-continue-link*="t
 tcm.com##.universal-footer__ribbon
 ||assets.uchi.ru/assets/check_cookies$script
 infranken.de#$#body { overflow: visible !important; }
-greengogroup.com,ekstraklasa.org,skillbox.ru##app-cookies
+jobs.mango.com,greengogroup.com,ekstraklasa.org,skillbox.ru##app-cookies
 ||bratpfannentest.de/wp-content/plugins/borlabs-cookie^
 dataprotection.com.ua,drweb-av.de,drweb-av.es,drweb-av.it,drweb-av.pl,drweb.cn,drweb.co.jp,drweb.com,drweb.fr,drweb.kz,drweb.ru###cookie_accept_msg_block
 senec.com,selgros.de,transgourmet.de###overlay-oiljs
@@ -12434,7 +12434,7 @@ shopwelt.de,mobile.de,nordic.businessinsider.com###consentBanner
 moomoo.io,krunker.io###consentBlock
 thehindu.com,sandisk.com,support-en.wd.com,westerndigital.com,infowarsstore.com,reebok.pl,origin.com,philips.hu,marriott.com.ru###consent_blackbar
 travelplanet.pl###cookie--info-wrapper
-metromodels.com,besplatka.ua###cookie-bottom
+bon.ua,metromodels.com,besplatka.ua###cookie-bottom
 gjensidige.lv###cookie-consent-message
 serato.com###cookie-info-banner
 saggiamente.com###cookie-law-padding
@@ -13120,7 +13120,7 @@ galeriasavaria.hu###notyCookie
 evamagazin.hu,instyle.hu,joy.hu,playboy.hu,runnersworld.hu,shape.hu###ownCookieLayer
 bambu-difunde.net###pantalla_cookies
 emathhelp.net,hackedarcadegames.com###pg-gdpr
-apkpure.*###policy-info
+upload.app,apkpure.*###policy-info
 popsugar.co.uk###policy-modal-banner
 laptopmag.com,livescience.com,tomsguide.com,toptenreviews.com###prism-modal[data-template="banner"]
 allrecipes.com###privacyNotification
@@ -14898,7 +14898,7 @@ rynekpierwotny.pl##+js(set-local-storage-item, lscache-cookieMessageIsRead, true
 uxfeedback.ru##+js(set-local-storage-item, uxfb_cookies, true)
 premiumkino.de##+js(set-cookie, cookie_required, true)
 happydog.de##+js(set-cookie, mnd-cookie-accepted-happydogde4, 1)
-blueshopfashion.de,anderweltverlag.com,trolley-center.com,rabe-markt.com,holland-shop.com,hanse-soft.de,bamboo-nr-1.de,kvm-ip.de,team-undercover.de,superpreis-moebel.de,kantenschutzprofi.shop,diorama-world.com,colvital.de##+js(set-cookie-reload, epCookieConsent, 0)
+schanzenfit-shop.de,blueshopfashion.de,anderweltverlag.com,trolley-center.com,rabe-markt.com,holland-shop.com,hanse-soft.de,bamboo-nr-1.de,kvm-ip.de,team-undercover.de,superpreis-moebel.de,kantenschutzprofi.shop,diorama-world.com,colvital.de##+js(set-cookie-reload, epCookieConsent, 0)
 lolaliza.com##+js(set-cookie, enableTracking, false)
 peakd.com##+js(set-cookie, COOKIE_CONSENT_ACCEPTED, true)
 refurbishedstore.de##+js(set-cookie-reload, COOKIE_CONSENT, true)
@@ -15379,6 +15379,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/195649
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=pagesix.com
 ! https://github.com/uBlockOrigin/uAssets/issues/26670
 @@||remington-europe.com/static/version1735728075/frontend/Magento/base/default/Amasty_GdprFrontendUi/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/195613
