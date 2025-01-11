@@ -14631,6 +14631,7 @@
 0.0.0.0 9l6ha.publishers.tremorhub.com
 0.0.0.0 9nl.eu
 0.0.0.0 9ohy40tok.com
+0.0.0.0 9pub.io
 0.0.0.0 9qtwdtpq9efsnaish.ay.delivery
 0.0.0.0 9revr.lycheenews.com
 0.0.0.0 9s4l9nik.de
@@ -22454,6 +22455,7 @@
 0.0.0.0 ab8357d53cc91e55b3d28205f088ebaad24c4c5a98b69fa0728cb85e3e773f5.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 ab93t2kc.de
 0.0.0.0 aba.gumgum.com
+0.0.0.0 aba.hdjthzg.cn
 0.0.0.0 abamatoyer.com
 0.0.0.0 abaolokvmmwrb.top
 0.0.0.0 abarbollidate.com
@@ -23673,6 +23675,7 @@
 0.0.0.0 adk2.com
 0.0.0.0 adkaora.space
 0.0.0.0 adkernel.com
+0.0.0.0 adkit.9pub.io
 0.0.0.0 adklick.de
 0.0.0.0 adklick.net
 0.0.0.0 adklimages.com
@@ -28093,6 +28096,7 @@
 0.0.0.0 api.luckyorange.com
 0.0.0.0 api.lytics.io
 0.0.0.0 api.manager.atf-tagmanager.de
+0.0.0.0 api.mantis-intelligence.com
 0.0.0.0 api.mediaad.org
 0.0.0.0 api.mediacategory.com
 0.0.0.0 api.mediaforge.com
@@ -34888,6 +34892,7 @@
 0.0.0.0 cdn.otnolatrnup.com
 0.0.0.0 cdn.ourscience.info
 0.0.0.0 cdn.p.analitik.bik.gov.tr
+0.0.0.0 cdn.pabidding.io
 0.0.0.0 cdn.pagesense.io
 0.0.0.0 cdn.paluinho.cloud
 0.0.0.0 cdn.parrable.com
@@ -36134,6 +36139,7 @@
 0.0.0.0 claudfront.net
 0.0.0.0 clauseantarcticlibel.com
 0.0.0.0 clausepredatory.com
+0.0.0.0 claw.mantis-intelligence.com
 0.0.0.0 claynelsonlifebalance.actonservice.com
 0.0.0.0 clb.yahoo.co.jp
 0.0.0.0 clbanners9.com
@@ -50700,6 +50706,7 @@
 0.0.0.0 graitsie.com
 0.0.0.0 graivampouth.net
 0.0.0.0 graizoah.com
+0.0.0.0 grallichalvas.com
 0.0.0.0 gralneurooly.com
 0.0.0.0 grammarselfish.com
 0.0.0.0 gramotherwise.com
@@ -51901,6 +51908,7 @@
 0.0.0.0 hde.tynt.com
 0.0.0.0 hdfcbank.demdex.net
 0.0.0.0 hdfcbankprod.112.2o7.net
+0.0.0.0 hdjthzg.cn
 0.0.0.0 hdp-raw-log.cn-shanghai.log.aliyuncs.com
 0.0.0.0 hdr.sundaysky.com
 0.0.0.0 hdrbd.ivstracker.net
@@ -59151,6 +59159,7 @@
 0.0.0.0 loader-adserv.snigelweb.com
 0.0.0.0 loader-cdn.azureedge.net
 0.0.0.0 loader.adrelayer.com
+0.0.0.0 loader.mantis-intelligence.com
 0.0.0.0 loader.netzwelt.de
 0.0.0.0 loader.tapsell.ir
 0.0.0.0 loader.topadvert.ru
@@ -60805,6 +60814,7 @@
 0.0.0.0 mansudee.net
 0.0.0.0 mansueto-d.openx.net
 0.0.0.0 mansueto.blueconic.net
+0.0.0.0 mantis-intelligence.com
 0.0.0.0 mantisadnetwork.com
 0.0.0.0 manualquiet.com
 0.0.0.0 manucustomerprod.112.2o7.net
@@ -66205,6 +66215,7 @@
 0.0.0.0 optin.shinystat.com
 0.0.0.0 optinmonster.com
 0.0.0.0 optis-world.actonservice.com
+0.0.0.0 optiyield.opti-digital.com
 0.0.0.0 optmnstr.com
 0.0.0.0 optnmnstr.com
 0.0.0.0 optout-api.tr.line.me
@@ -67204,6 +67215,7 @@
 0.0.0.0 paapi935.d41.co
 0.0.0.0 paapi9910.d41.co
 0.0.0.0 paata5465.d41.co
+0.0.0.0 pabidding.io
 0.0.0.0 pac.thesun.co.uk
 0.0.0.0 pac.thetimes.co.uk
 0.0.0.0 pacekami.com
@@ -97460,6 +97472,7 @@
 0.0.0.0 scripts.kissmetrics.com
 0.0.0.0 scripts.kissmetrics.io
 0.0.0.0 scripts.makeinfluence.com
+0.0.0.0 scripts.mantis-intelligence.com
 0.0.0.0 scripts.mediavine.com
 0.0.0.0 scripts.mf.webcontentassessor.com
 0.0.0.0 scripts.mycounter.ua
@@ -102114,6 +102127,7 @@
 0.0.0.0 stream-log.dditscdn.com
 0.0.0.0 stream.adbrix.io
 0.0.0.0 stream.adtimaserver.vn
+0.0.0.0 stream.datago.ru
 0.0.0.0 stream.org.adtimaserver.vn
 0.0.0.0 stream.reyden-x.com
 0.0.0.0 stream.stat-rock.com
@@ -105282,6 +105296,7 @@
 0.0.0.0 tn.alphonso.tv
 0.0.0.0 tn.flashb.id
 0.0.0.0 tn.fowlerexplore.com
+0.0.0.0 tn.porngo.xxx
 0.0.0.0 tnaczwecikco.online
 0.0.0.0 tnative.ru
 0.0.0.0 tnc16-alisg.byteoversea.com
