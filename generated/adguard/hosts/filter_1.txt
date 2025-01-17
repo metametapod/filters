@@ -29987,7 +29987,11 @@
 0.0.0.0 b-dec.adx.opera.com
 0.0.0.0 b-eu.adx.opera.com
 0.0.0.0 b-gi.getui.com
+0.0.0.0 b-gi.getui.net
 0.0.0.0 b-gtc.getui.com
+0.0.0.0 b-gtc.getui.net
+0.0.0.0 b-gy.getui.net
+0.0.0.0 b-phonev6.getui.net
 0.0.0.0 b-sg.adx.opera.com
 0.0.0.0 b-sgo.adx.opera.com
 0.0.0.0 b-us.adx.opera.com
@@ -32967,6 +32971,7 @@
 0.0.0.0 bz-24.fin.ovh
 0.0.0.0 bz-sdk.open.extension.getui.com
 0.0.0.0 bz.getui.com
+0.0.0.0 bz.getui.net
 0.0.0.0 bz4.welrauns.top
 0.0.0.0 bzclk.baidu.com
 0.0.0.0 bzelzfnj.xyz
@@ -32983,9 +32988,13 @@
 0.0.0.0 c-gi.getui.com
 0.0.0.0 c-gs.getui.com
 0.0.0.0 c-gtc.getui.com
+0.0.0.0 c-gtc.getui.net
+0.0.0.0 c-gy.getui.net
 0.0.0.0 c-hzgt2.getui.com
+0.0.0.0 c-ido.getui.net
 0.0.0.0 c-o-u-n-t.com
 0.0.0.0 c-on-text.com
+0.0.0.0 c-oneid.getui.net
 0.0.0.0 c-points.de
 0.0.0.0 c-ss.getui.com
 0.0.0.0 c-tdbank.lytics.io
@@ -49882,6 +49891,7 @@
 0.0.0.0 gettraffnews.com
 0.0.0.0 gettrf.org
 0.0.0.0 getui.com
+0.0.0.0 getui.net
 0.0.0.0 getunik01.webtrekk.net
 0.0.0.0 getxmlisi.com
 0.0.0.0 getyourbitco.in
@@ -49968,6 +49978,7 @@
 0.0.0.0 ghzs.cn-qingdao.log.aliyuncs.com
 0.0.0.0 gi-client-tracking.goodgamestudios.com
 0.0.0.0 gi-js.genieessp.com
+0.0.0.0 gi.getui.net
 0.0.0.0 gi0.icu
 0.0.0.0 giacatloi.info
 0.0.0.0 giantaffiliates.com
@@ -50358,6 +50369,7 @@
 0.0.0.0 go.doubleonclick.com
 0.0.0.0 go.eabids.com
 0.0.0.0 go.ero-advertising.com
+0.0.0.0 go.ero-vtuber.com
 0.0.0.0 go.eroadvertising.com
 0.0.0.0 go.eu.bbelements.com
 0.0.0.0 go.ezodn.com
@@ -51014,6 +51026,7 @@
 0.0.0.0 gs-ad.jp
 0.0.0.0 gs.adspeed.net
 0.0.0.0 gs.getui.com
+0.0.0.0 gs.getui.net
 0.0.0.0 gs.mountain.com
 0.0.0.0 gsa.notifysrv.com
 0.0.0.0 gsa24.giaythethaonuhcm.com
@@ -51057,6 +51070,7 @@
 0.0.0.0 gtag.yieldoptimizer.com
 0.0.0.0 gtau.demdex.net
 0.0.0.0 gtbdhr.com
+0.0.0.0 gtc.getui.net
 0.0.0.0 gtm-cn-9lb37oei902.tradplusad.com
 0.0.0.0 gtm-cn-lbj37odoz05.tradplusad.com
 0.0.0.0 gtm-server.healthline.com
@@ -51255,6 +51269,7 @@
 0.0.0.0 gxpomhvalxwuh.com
 0.0.0.0 gxsdfcnyrgxdb.com
 0.0.0.0 gxtmsmni.com
+0.0.0.0 gy.getui.net
 0.0.0.0 gyeapology.top
 0.0.0.0 gyh1lh20owj.ru
 0.0.0.0 gyl.forenteion.com
@@ -53845,6 +53860,7 @@
 0.0.0.0 idm-d.openx.net
 0.0.0.0 idm.hit.gemius.pl
 0.0.0.0 idntfy.ru
+0.0.0.0 ido.getui.net
 0.0.0.0 ido4-6.cname.getui.com
 0.0.0.0 idolbucks.com
 0.0.0.0 idolsstars.com
@@ -61478,6 +61494,7 @@
 0.0.0.0 measuring-pixel-service.alza.cz
 0.0.0.0 measuringcabinetclerk.com
 0.0.0.0 measuringrules.com
+0.0.0.0 meatabdicatedelicatessen.com
 0.0.0.0 meatjav11.fun
 0.0.0.0 mebohjhh.xyz
 0.0.0.0 mec1-spiky.clevertap-prod.com
@@ -65096,6 +65113,7 @@
 0.0.0.0 nyuo2o7w.emltrk.com
 0.0.0.0 nz-gmtdmp.mookie1.com
 0.0.0.0 nz4.getui.com
+0.0.0.0 nz4.getui.net
 0.0.0.0 nzfcvv.xyz
 0.0.0.0 nzfhloo.com
 0.0.0.0 nzhzzd.xyz
@@ -65972,6 +65990,7 @@
 0.0.0.0 onefootballgmbh-onefootballsoccernews.adsbynimbus.com
 0.0.0.0 onefuq.xyz
 0.0.0.0 onegamespicshere.com
+0.0.0.0 oneid.getui.net
 0.0.0.0 oneid.mmstat.com
 0.0.0.0 onelink.appsflyer.com
 0.0.0.0 onelivetra.com
@@ -66137,6 +66156,7 @@
 0.0.0.0 open.oneplus.net
 0.0.0.0 open.securedvisit.com
 0.0.0.0 open.talk.getui.com
+0.0.0.0 open.talk.getui.net
 0.0.0.0 openadserving.com
 0.0.0.0 openapi-smsp.getui.com
 0.0.0.0 openbid-sfo-new.pubmatic.com
@@ -68343,6 +68363,7 @@
 0.0.0.0 pinaffectionatelyaborigines.com
 0.0.0.0 pincersnap.com
 0.0.0.0 pinchingoverridemargin.com
+0.0.0.0 pinco225.win
 0.0.0.0 pincon.solution.weborama.fr
 0.0.0.0 pineappleconsideringpreference.com
 0.0.0.0 pinefluencydiffuse.com
@@ -93437,6 +93458,7 @@
 0.0.0.0 quesid.com
 0.0.0.0 questeelskin.com
 0.0.0.0 questintegrity.actonservice.com
+0.0.0.0 questioningcomplimentarypotato.com
 0.0.0.0 questioningexperimental.com
 0.0.0.0 questioningtosscontradiction.com
 0.0.0.0 questus.com
@@ -97664,6 +97686,7 @@
 0.0.0.0 sdk.ocmhood.com
 0.0.0.0 sdk.open.extension.getui.com
 0.0.0.0 sdk.open.talk.getui.com
+0.0.0.0 sdk.open.talk.getui.net
 0.0.0.0 sdk.playtem.com
 0.0.0.0 sdk.pulse.schibsted.com
 0.0.0.0 sdk.pushdi.com
@@ -100165,6 +100188,7 @@
 0.0.0.0 spicydigital.g2afse.com
 0.0.0.0 spicygirlshere.life
 0.0.0.0 spider-mich.com
+0.0.0.0 spider-tracker.xiaohongshu.com
 0.0.0.0 spiegel-relay.iocnt.net
 0.0.0.0 spiegel.met.vgwort.de
 0.0.0.0 spiegel.vgwort-de.2cnt.net
@@ -103749,8 +103773,11 @@
 0.0.0.0 talesapricot.com
 0.0.0.0 tali.iad-03.braze.com
 0.0.0.0 talk.bz.getui.com
+0.0.0.0 talk.bz.getui.net
 0.0.0.0 talk.getui.com
+0.0.0.0 talk.getui.net
 0.0.0.0 talk.nz4.getui.com
+0.0.0.0 talk.nz4.getui.net
 0.0.0.0 talkahead.com
 0.0.0.0 talkfusion.com
 0.0.0.0 talksmedia-d.openx.net
@@ -114609,6 +114636,7 @@
 0.0.0.0 www.mczbf.com
 0.0.0.0 www.meaningfunnyhotline.com
 0.0.0.0 www.measuremap.com
+0.0.0.0 www.meatabdicatedelicatessen.com
 0.0.0.0 www.media.net
 0.0.0.0 www.mediacategory.com
 0.0.0.0 www.mediaffiliation.com
@@ -114928,6 +114956,7 @@
 0.0.0.0 www.pillthingy.com
 0.0.0.0 www.pincersnap.com
 0.0.0.0 www.pinchingoverridemargin.com
+0.0.0.0 www.pinco225.win
 0.0.0.0 www.pineappleconsideringpreference.com
 0.0.0.0 www.pinetech.vn
 0.0.0.0 www.ping-fast.com
@@ -115114,6 +115143,7 @@
 0.0.0.0 www.quantserve.com
 0.0.0.0 www.quantummetric.com
 0.0.0.0 www.queergatewayeasier.com
+0.0.0.0 www.questioningcomplimentarypotato.com
 0.0.0.0 www.quick-counter.net
 0.0.0.0 www.quickieboilingplayground.com
 0.0.0.0 www.quitepoet.com

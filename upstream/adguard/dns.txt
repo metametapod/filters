@@ -1,12 +1,14 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.20.10
+! Version: 1.0.20.14
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2025-01-16T00:24:42.869Z
+! Last modified: 2025-01-17T00:24:33.782Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.34
 !
+||pinco225.win^
+||reachableads-av.*.amazonaws.com^
 ||news.jennydanny.com^
 ||u57.muzikguide.com^
 ||9pub.io^
@@ -5105,6 +5107,7 @@ vkcdnservice.appspot.com^
 ||bitx.tv^
 ||biunialpawnie.top^
 ||biuskye.com^
+||biuyuximbrutr.com^
 ||bivos.xyz^
 ||biwipuque.com^
 ||bizographics.com^
@@ -9741,6 +9744,7 @@ vkcdnservice.appspot.com^
 ||erniphiq.com^
 ||ero-advertising.com^
 ||ero-cupid.com^
+||ero-vtuber.com^
 ||erofherlittleboy.com^
 ||erosionyonderviolate.com^
 ||erosyndc.com^
@@ -10878,6 +10882,7 @@ vkcdnservice.appspot.com^
 ||foulfurnished.com^
 ||foundationhemispherebossy.com^
 ||foundationhorny.com^
+||foupeestokiy.net^
 ||foupeethaija.com^
 ||fourteenthcongratulate.com^
 ||fouwheepoh.com^
@@ -14819,6 +14824,7 @@ vkcdnservice.appspot.com^
 ||kolerevprivatedqu.com^
 ||koleyo.xyz^
 ||kolkwi4tzicraamabilis.com^
+||kolleqasforsale.com^
 ||kologyrtyndwean.info^
 ||koluraishimtouw.net^
 ||komarchlupoid.com^
@@ -16316,6 +16322,7 @@ vkcdnservice.appspot.com^
 ||measuredshared.com^
 ||measuringcabinetclerk.com^
 ||measuringrules.com^
+||meatabdicatedelicatessen.com^
 ||meatjav11.fun^
 ||meawo.cloud^
 ||mechaelpaceway.com^
@@ -19321,6 +19328,7 @@ vkcdnservice.appspot.com^
 ||peasbishopgive.com^
 ||pebadu.com^
 ||pebbleoutgoing.com^
+||pecantinglytripod.com^
 ||pecialukizeias.info^
 ||pecifyspacing.com^
 ||peckrespectfully.com^
@@ -19754,6 +19762,7 @@ vkcdnservice.appspot.com^
 ||pjsos.xyz^
 ||pjtoaewbccpchu.com^
 ||pjvartonsbewand.info^
+||pjwfihbmwq.com^
 ||pk0grqf29.com^
 ||pk910324e.com^
 ||pkazd.xyz^
@@ -20338,6 +20347,7 @@ vkcdnservice.appspot.com^
 ||privacycounter.com^
 ||privacynicerresumed.com^
 ||privacysearching.com^
+||private-stage.com^
 ||privateappealingsymphony.com^
 ||privatelydevotionrewind.com^
 ||privilegedmansfieldvaguely.com^
@@ -21203,6 +21213,7 @@ vkcdnservice.appspot.com^
 ||querysteer.com^
 ||quesid.com^
 ||questeelskin.com^
+||questioningcomplimentarypotato.com^
 ||questioningexperimental.com^
 ||questioningsanctifypuberty.com^
 ||questioningtosscontradiction.com^
@@ -22902,6 +22913,7 @@ vkcdnservice.appspot.com^
 ||seaboblit.com^
 ||seafoodclickwaited.com^
 ||seafooddiscouragelavishness.com^
+||seafoodmesarch.top^
 ||sealeryshilpit.com^
 ||sealthatleak.com^
 ||seamanphaseoverhear.com^
@@ -23258,6 +23270,7 @@ vkcdnservice.appspot.com^
 ||sherryfaithfulhiring.com^
 ||shertuwipsumt.net^
 ||sheschemetraitor.com^
+||shetchoultoocha.net^
 ||shexawhy.net^
 ||shfewojrmxpy.xyz^
 ||shfsdvc.com^
@@ -23498,6 +23511,7 @@ vkcdnservice.appspot.com^
 ||siruperunlinks.com^
 ||sirwcniydewu.com^
 ||sisewepod.com^
+||sisfulylydevelope.com^
 ||sismoycheii.cc^
 ||sisteraboveaddition.com^
 ||sisterexpendabsolve.com^
@@ -24353,6 +24367,7 @@ vkcdnservice.appspot.com^
 ||stixeepou.com^
 ||stjpezyt.com^
 ||stoachaigog.com^
+||stoachdarts.com^
 ||stoadivap.com^
 ||stoaglauksargoo.xyz^
 ||stoagnejums.net^
@@ -32534,7 +32549,6 @@ vkcdnservice.appspot.com^
 ||vs-api.voodoo-tech.io^
 ||psvpromo.psvgamestudio.com^
 -adx-*.rayjump.com^
-||reachableads-av.*.amazonaws.com^
 ||static.timetreeads.com^
 ||kfvjdvjzhddhc.com^
 ||zgzxs.weathercn.com^
@@ -33406,6 +33420,7 @@ vkcdnservice.appspot.com^
 ||gtm.taginstall.com^
 ||mdstats.info^
 ||site-config.com^
+||getui.net^
 ||getui.com^
 ||pixel.glimr.io^
 ||scripts.jixie.media^
@@ -36822,6 +36837,7 @@ vkcdnservice.appspot.com^
 
 ||tagman.britishairways.com^
 |piwik.
+||hikari.jiocinema.com^
 ||s.c-ctrip.com^
 ||ma-adx.ctrip.com^
 ||logs.mezmo.com^
@@ -39514,6 +39530,7 @@ inapps.appsflyersdk.com^
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||spider-tracker.xiaohongshu.com^
 ||tp2p.kg.qq.com^
 ||twns.p2ptun.qq.com^
 ||nstool.netease.com^
@@ -41784,6 +41801,7 @@ inapps.appsflyersdk.com^
 ||adclient-uol.lp.uol.com.br^
 ||adv.r7.com^
 
+||butlercdn.com^
 ||classic-bonus.com^
 ||assets.etus.digital^
 ||lyappreciat.info^
@@ -48936,6 +48954,7 @@ inapps.appsflyersdk.com^
 ||mcfa11.com^
 ||mcnodes.zapto.org^
 ||mcredit.vaynhanh-bankcredits.com^
+||me-fb.site^
 ||meetamate.site^
 ||member-gaarena.com^
 ||member-garena-lienquan.com^
@@ -51891,11 +51910,17 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||lagzoids.com^
+||njnhzh.icu^
 ||ztgha.xyz^
 ||djsxm.xyz^
 ||0vc.fun^
 ||cralphal.com^
 ||ptrmnx.icu^
+||iwpkp.xyz^
+||4gu.fun^
+||krikului.com^
+||ed2.fun^
 ||zxpaa.xyz^
 ||etallkiq.com^
 ||tbyfz.xyz^
