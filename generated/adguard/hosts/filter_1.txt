@@ -28224,6 +28224,7 @@
 0.0.0.0 api.subiz.net
 0.0.0.0 api.sumatra.ai
 0.0.0.0 api.taboola.com
+0.0.0.0 api.taggrs.io
 0.0.0.0 api.takeads.com
 0.0.0.0 api.taplytics.com
 0.0.0.0 api.tappx.com
@@ -40070,6 +40071,7 @@
 0.0.0.0 d.kooboaphe.com
 0.0.0.0 d.kouceeptait.com
 0.0.0.0 d.koucerie.com
+0.0.0.0 d.kugou.com
 0.0.0.0 d.kuvoansub.com
 0.0.0.0 d.laihoana.com
 0.0.0.0 d.laitushous.com
@@ -53718,6 +53720,7 @@
 0.0.0.0 ib.anycast.adnxs.com
 0.0.0.0 ib.bounceads.net
 0.0.0.0 ib.mookie1.com
+0.0.0.0 ib.spninxcuppas.com
 0.0.0.0 iba.feedblitz.com
 0.0.0.0 ibaglhc.icu
 0.0.0.0 ibamolecular.actonservice.com
@@ -56153,6 +56156,7 @@
 0.0.0.0 jeopardyselfservice.com
 0.0.0.0 jeoway.com
 0.0.0.0 jeperdee.net
+0.0.0.0 jepsauveel.net
 0.0.0.0 jergocast.com
 0.0.0.0 jerkisle.com
 0.0.0.0 jeroud.com
@@ -57128,6 +57132,7 @@
 0.0.0.0 kaijooth.net
 0.0.0.0 kailsfrot.com
 0.0.0.0 kaipteet.com
+0.0.0.0 kaisauwoure.net
 0.0.0.0 kaiseki-website.com
 0.0.0.0 kaiser.demdex.net
 0.0.0.0 kaiserpermanente19051z.btttag.com
@@ -59056,6 +59061,7 @@
 0.0.0.0 lippi-report-sls.cn-zhangjiakou-2.log.aliyuncs.com
 0.0.0.0 lippi-suite-common-log.cn-shanghai.log.aliyuncs.com
 0.0.0.0 lipqkoxzy.com
+0.0.0.0 lipsoowesto.net
 0.0.0.0 liqikxqpx.com
 0.0.0.0 liquidfire.mobi
 0.0.0.0 liquorelectric.com
@@ -63979,6 +63985,8 @@
 0.0.0.0 nba.com.102.112.2o7.net
 0.0.0.0 nba.demdex.net
 0.0.0.0 nbcent.demdex.net
+0.0.0.0 nbcollect.kugou.com
+0.0.0.0 nbcollectretry.kugou.com
 0.0.0.0 nbcu-d.openx.net
 0.0.0.0 nbcu-nv-cvc-prod.covatic.io
 0.0.0.0 nbcu.adsmeasurement.com
@@ -66107,6 +66115,7 @@
 0.0.0.0 oobe.6820tp1.com
 0.0.0.0 oobitsou.net
 0.0.0.0 oobsaurt.net
+0.0.0.0 oockighuchee.com
 0.0.0.0 oocmoaghurs.net
 0.0.0.0 oodalsarg.com
 0.0.0.0 oodalsarg.psaumpoum.com
@@ -98280,6 +98289,7 @@
 0.0.0.0 server4ads.com
 0.0.0.0 server5.easywbdesign.com
 0.0.0.0 server7.notifysrv.com
+0.0.0.0 serveraddr.service.kugou.com
 0.0.0.0 serverbid.com
 0.0.0.0 serverc.shoofle.tv
 0.0.0.0 servereplacementcycle.com
@@ -98916,6 +98926,7 @@
 0.0.0.0 sic.33across.com
 0.0.0.0 sicariimedia.rtb.adx1.com
 0.0.0.0 sicilywring.com
+0.0.0.0 sickbedjibboom.com
 0.0.0.0 sicklybates.com
 0.0.0.0 sicklypercussivecoordinate.com
 0.0.0.0 siconoi.com
@@ -100252,6 +100263,7 @@
 0.0.0.0 spnativeapi.i-mobile.co.jp
 0.0.0.0 spnet2-1.i-mobile.co.jp
 0.0.0.0 spnet33.i-mobile.co.jp
+0.0.0.0 spninxcuppas.com
 0.0.0.0 spnx.jp
 0.0.0.0 spo-play.live
 0.0.0.0 spoiledpresence.com
@@ -118208,6 +118220,7 @@
 0.0.0.0 zoopsame.com
 0.0.0.0 zoosnet.net
 0.0.0.0 zoowhausairoun.net
+0.0.0.0 zoowunagraglu.net
 0.0.0.0 zoozishooh.com
 0.0.0.0 zopuqv.icu
 0.0.0.0 zorango.com
