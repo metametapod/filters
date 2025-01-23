@@ -37582,8 +37582,12 @@
 0.0.0.0 collector-pxebumdlwe.px-cdn.net
 0.0.0.0 collector-pxebumdlwe.px-cloud.net
 0.0.0.0 collector-pxrf8vapwa.px-cdn.net
+0.0.0.0 collector-pxrf8vapwa.px-client.net
 0.0.0.0 collector-pxrf8vapwa.px-cloud.net
 0.0.0.0 collector-pxrf8vapwa.pxchk.net
+0.0.0.0 collector-pxrw7m6iav.px-client.net
+0.0.0.0 collector-pxss13u803.px-client.net
+0.0.0.0 collector-pxu6b0qd2s.px-client.net
 0.0.0.0 collector-roku.tvsquared.com
 0.0.0.0 collector-statistics.nhn-commerce.com
 0.0.0.0 collector-videoplayer.5centscdn.net
@@ -43045,7 +43049,6 @@
 0.0.0.0 dmzjmp.com
 0.0.0.0 dmzls.safe-installation.com
 0.0.0.0 dn.adflex.vn
-0.0.0.0 dn0qt3r0xannq.cloudfront.net
 0.0.0.0 dn34cbtcv9mef.cloudfront.net
 0.0.0.0 dn6rwwtxa647p.cloudfront.net
 0.0.0.0 dn7u3i0t165w2.cloudfront.net
@@ -48414,6 +48417,7 @@
 0.0.0.0 formats.triplelift.com
 0.0.0.0 formatstock.com
 0.0.0.0 formedwrapped.com
+0.0.0.0 formerdisagreepectoral.com
 0.0.0.0 formerlyhorribly.com
 0.0.0.0 formerlyparsleysuccess.com
 0.0.0.0 formidableprovidingdisguised.com
@@ -51185,6 +51189,7 @@
 0.0.0.0 guitarcenter.demdex.net
 0.0.0.0 guitarfelicityraw.com
 0.0.0.0 guitarjavgg124.fun
+0.0.0.0 gukrathokeewhi.net
 0.0.0.0 gulf.moneroocean.stream
 0.0.0.0 gulfimply.com
 0.0.0.0 gullibleanimated.com
@@ -57146,6 +57151,7 @@
 0.0.0.0 kaleidoscopeadjacent.com
 0.0.0.0 kaleidoscopefingernaildigging.com
 0.0.0.0 kaleidoscopepincers.com
+0.0.0.0 kalkvisrecit.shop
 0.0.0.0 kaltoamsouty.net
 0.0.0.0 kamachilinins.com
 0.0.0.0 kamahiunvisor.shop
@@ -59671,6 +59677,7 @@
 0.0.0.0 logging.admicro.vn
 0.0.0.0 logging.api.intuit.com
 0.0.0.0 logging.e-himart.co.kr
+0.0.0.0 logging.g.sst.secureserver.net
 0.0.0.0 logging.goodgamestudios.com
 0.0.0.0 logging.je-apps.com
 0.0.0.0 logging.kinhtedothi.vn
@@ -61928,6 +61935,7 @@
 0.0.0.0 metric.nimo.tv
 0.0.0.0 metric.rediff.com
 0.0.0.0 metrica-yandex.com
+0.0.0.0 metricreceiver.cellrebel.com
 0.0.0.0 metrics-1.api.mediation.adxcorp.kr
 0.0.0.0 metrics-2.api.mediation.adxcorp.kr
 0.0.0.0 metrics-3.api.mediation.adxcorp.kr
@@ -65899,6 +65907,7 @@
 0.0.0.0 olxpl-d.openx.net
 0.0.0.0 olxro-d.openx.net
 0.0.0.0 olxwweaf.com
+0.0.0.0 olympuscracowe.shop
 0.0.0.0 olytics.omeda.com
 0.0.0.0 olzuvgxqhozu.com
 0.0.0.0 om.ads.justpremium.com
@@ -95319,6 +95328,7 @@
 0.0.0.0 rinsouxy.com
 0.0.0.0 riotousunspeakablestreet.com
 0.0.0.0 riowrite.com
+0.0.0.0 ripe-heart.com
 0.0.0.0 ripeautobiography.com
 0.0.0.0 ripencompatiblefreezing.com
 0.0.0.0 ripenstreet.com
@@ -97159,6 +97169,7 @@
 0.0.0.0 salvagefloat.com
 0.0.0.0 sam.msn.com
 0.0.0.0 samage-bility.icu
+0.0.0.0 samalcuratic.shop
 0.0.0.0 samba.notifysrv.com
 0.0.0.0 same.eastmoney.com
 0.0.0.0 same.stockstar.com
@@ -112805,6 +112816,7 @@
 0.0.0.0 wsi-as-pxl.jivox.com
 0.0.0.0 wsi.demdex.net
 0.0.0.0 wsib2b-as-pxl.jivox.com
+0.0.0.0 wsknow.net
 0.0.0.0 wsmcdn.audioeye.com
 0.0.0.0 wsmetrics.batch.com
 0.0.0.0 wsokomw.com
@@ -116868,6 +116880,7 @@
 0.0.0.0 xtroglobal.com
 0.0.0.0 xtube.chat
 0.0.0.0 xtvrtrya.xyz
+0.0.0.0 xu.olympuscracowe.shop
 0.0.0.0 xubcnzfex.com
 0.0.0.0 xudarl.xyz
 0.0.0.0 xuhabkmwro.com

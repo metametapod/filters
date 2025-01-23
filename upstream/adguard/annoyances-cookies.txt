@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: HtkVxFiyNGYLAOukeX+EHg
-! Diff-Path: ../patches/18/18-s-1737481809-3600.patch
+! Checksum: szIiWhtkVEHl+lKPcg5tNA
+! Diff-Path: ../patches/18/18-s-1737578611-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.55.5
-! TimeUpdated: 2025-01-21T17:46:11+00:00
+! Version: 2.0.55.15
+! TimeUpdated: 2025-01-22T20:39:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2429,6 +2429,12 @@ scootertechno.com#$?#div[consent-skip-blocker] { remove: true; }
 !
 ! NOTE: Regular rules
 !
+||itau.com.br/gestao-de-cookies/
+||santander.com.br/mfe-cookies/$domain=santander.com.br
+passport.vivo.com##.cookie-dialog
+lenco.com###cookies-banner-overlay
+mironet.cz###cookiesDialog
+bunq.me##+js(set-local-storage-item, bunq:CookieConsentStore:isBannerVisible, false)
 lime-shop.com##.l-accept-cookies
 lamoda.by##section[class^="_notifyForm_"]
 synlab.cz#$##cookieman-modal { display: none !important; }
@@ -2558,7 +2564,6 @@ kaspersky.ru##section[data-at-selector="cookie-banner"]
 freebetrange.com##.landing__cookie-info
 cirkev.cz##.cookies-toolbar-wrapper
 fresha.com##div[class*="Banner_banner_"]:has(> div[role="dialog"] > div > p > a[href$="/cookies"])
-evarkadasi.com##.kvkk-container
 bookmyname.com##+js(set-cookie-reload, _scw_rgpd_analytics, false)
 eliandelm.com##+js(set-cookie, _klv_common_ext_int_popup_shown, true)
 nationalgeographic.ee##div[class^="CookieBar__"]
@@ -4301,7 +4306,7 @@ psbank.ru##+js(set-local-storage-item, cookie-consent, true)
 realt.by###gdpr-portal-root
 npo.nl##ccm-notification
 cnyes.com#?##content div[class^="_"]:has(> div[class^="_"] > img[alt="cookies"])
-infopedia.pt###gpe-cookies-warn
+wook.pt,infopedia.pt###gpe-cookies-warn
 waves.com,naslovi.net,biglobe.ne.jp###gdpr-box
 ||cookies.eo.nl^
 calm.com###cookie-preferences-banner
@@ -4722,7 +4727,7 @@ fitx.de#$#body { overflow: auto !important; }
 fitx.de#$#.cookie_overlay { display: none !important; }
 mydirtyhobby.com###modals
 epocacosmeticos.com##div[data-testid="politica-modal"]
-hepsijet.com##div[class^="cookie-policy"]
+sf-express.com,hepsijet.com##div[class^="cookie-policy"]
 asus.com###cookie-policy-info-bg
 shop.braun.de##.stickyOptanonCookieButton
 0815.at,0815.eu#$#html { overflow: auto !important; }
@@ -5406,7 +5411,7 @@ blinkcats.co.uk##div[style^="position: fixed; left: 0px; top: 0px; width: 100%; 
 android.com.pl##.cmp-btn
 abw.by##.accept-cookie-wrapper
 studyinjapan.go.jp###js_cookie_modal
-benessererboristico.it,open-minds.it###my-agile-privacy-notification-area
+shareradio.it,benessererboristico.it,open-minds.it###my-agile-privacy-notification-area
 pobeda.aero#?##__next > div[style]:has(> div > p > a[href$="/privacy_policy"])
 ||cypruspost.post/themes/post-office/js/cookies-consent.js
 toranoana.jp##.p-cookie-popup
@@ -12110,7 +12115,7 @@ dm.hu##div[data-dmid="cookiebar"]
 scania.com##.c-cookie-message
 aboutyou.de,aboutyou.hu##div[data-test-id="CookieBanner"]
 m.aboutyou.hu##div[data-cy-id="cookieBanner"]
-annsummers.com##.cookie-top
+sf-international.com,annsummers.com##.cookie-top
 peugeot.com.tr,peugeot.cz,peugeot.es,peugeot.fr,peugeot.hu,peugeot.pl,peugeot.se,peugeot.sk,citroen.com,citroen.com.tr,citroen.cz,citroen.es,citroen.fr,citroen.hu,citroen.pl,citroen.se,citroen.sk###_psaihm_main_div
 peugeot.com.tr,peugeot.cz,peugeot.es,peugeot.fr,peugeot.hu,peugeot.pl,peugeot.se,peugeot.sk,citroen.com,citroen.com.tr,citroen.cz,citroen.es,citroen.fr,citroen.hu,citroen.pl,citroen.se,citroen.sk###_psaihm_overlay
 netpincer.hu###cookie-popup-container
@@ -14783,6 +14788,8 @@ befestigungsfuchs.de,jawoll.de,cafe-royal.com,campingplus.de,bikebox-shop.de,mli
 !
 !
 !+ NOT_OPTIMIZED
+evarkadasi.com##.kvkk-container
+!+ NOT_OPTIMIZED
 thebell.io##app-root privacy-consent-widget
 !+ NOT_OPTIMIZED
 f-secure.com##.fs-consent
@@ -15723,6 +15730,14 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/196933
+@@||sdk.privacy-center.org^$domain=pb.pl
+! https://github.com/AdguardTeam/AdguardFilters/issues/196709
+@@||collector.appconsent.io/hello$domain=journaldunet.com
+@@||cdn.appconsent.io/*.js$domain=journaldunet.com
+! iclicker.com - accept cookies is reqired
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=iclicker.com
+iclicker.com#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/196812
 oxfam.org#@#.cookie-wrapper
 oxfam.org#@#.cookie-banner:not(body):not(html)
