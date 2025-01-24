@@ -25722,7 +25722,6 @@
 0.0.0.0 affiliride.com
 0.0.0.0 affilist.com
 0.0.0.0 affilixxl.de
-0.0.0.0 affilizz.com
 0.0.0.0 affilsoft.gotrackier.com
 0.0.0.0 affilynx.g2afse.com
 0.0.0.0 affinesystems.com
@@ -28510,7 +28509,6 @@
 0.0.0.0 app.adroll.com
 0.0.0.0 app.adtrace.io
 0.0.0.0 app.adtrace.world
-0.0.0.0 app.affilizz.com
 0.0.0.0 app.agency360.io
 0.0.0.0 app.airtrack.jp
 0.0.0.0 app.appsflyer.com
@@ -33366,6 +33364,7 @@
 0.0.0.0 c.uarating.com
 0.0.0.0 c.ugloopie.com
 0.0.0.0 c.unoakrookroo.com
+0.0.0.0 c.us.heap-api.com
 0.0.0.0 c.usefulcontentsites.com
 0.0.0.0 c.usheeptuthoa.com
 0.0.0.0 c.uwastehons.com
@@ -33864,6 +33863,7 @@
 0.0.0.0 captcha.perfdrive.com
 0.0.0.0 captchafine.live
 0.0.0.0 captify.co.uk
+0.0.0.0 captionconjecture.com
 0.0.0.0 captivatepestilentstormy.com
 0.0.0.0 captivebleed.com
 0.0.0.0 captivityhandleicicle.com
@@ -34462,7 +34462,6 @@
 0.0.0.0 cdn.adx1.com
 0.0.0.0 cdn.adxcontent.com
 0.0.0.0 cdn.adxfire.com
-0.0.0.0 cdn.affilizz.com
 0.0.0.0 cdn.afp.ai
 0.0.0.0 cdn.agajx.com
 0.0.0.0 cdn.aimatch.com
@@ -34633,6 +34632,7 @@
 0.0.0.0 cdn.districtm.ca
 0.0.0.0 cdn.districtm.io
 0.0.0.0 cdn.dj2550.com
+0.0.0.0 cdn.dmtgvn.com
 0.0.0.0 cdn.doublemax.net
 0.0.0.0 cdn.doublepimpssl.com
 0.0.0.0 cdn.doubleverify.com
@@ -68988,6 +68988,7 @@
 0.0.0.0 pixels.ad.gt
 0.0.0.0 pixels.adzmedia.com
 0.0.0.0 pixels.afcdn.com
+0.0.0.0 pixels.argusplatform.com
 0.0.0.0 pixels.ingbank.com.tr
 0.0.0.0 pixels.omnitagjs.com
 0.0.0.0 pixels.spotify.com
@@ -97372,7 +97373,6 @@
 0.0.0.0 sc-static.net
 0.0.0.0 sc.actonservice.com
 0.0.0.0 sc.adelement.com
-0.0.0.0 sc.affilizz.com
 0.0.0.0 sc.amoad.com
 0.0.0.0 sc.lfeeder.com
 0.0.0.0 sc.pages05.net
@@ -103140,6 +103140,7 @@
 0.0.0.0 t.clic2buy.com
 0.0.0.0 t.clicktale.net
 0.0.0.0 t.cometlytrack.com
+0.0.0.0 t.commandbar.com
 0.0.0.0 t.company-target.com
 0.0.0.0 t.contentinsights.com
 0.0.0.0 t.contentsquare.net
@@ -108274,6 +108275,7 @@
 0.0.0.0 ulktyi.xyz
 0.0.0.0 ulmoyc.com
 0.0.0.0 ulnhz.site
+0.0.0.0 ulog.kwai-pro.com
 0.0.0.0 ulog.kwaipros.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
@@ -112528,6 +112530,7 @@
 0.0.0.0 woapheer.com
 0.0.0.0 woapimaugu.net
 0.0.0.0 woareejoaley.net
+0.0.0.0 wobbly-birth.com
 0.0.0.0 wocute-frankfurt.eu-central-1.log.aliyuncs.com
 0.0.0.0 wocwibkfutrj.com
 0.0.0.0 woefifty.com
