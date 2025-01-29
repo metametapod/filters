@@ -1,12 +1,13 @@
 !
 ! Title: AdGuard DNS filter
 ! Description: List composed of several filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking
-! Version: 1.0.20.59
+! Version: 1.0.20.63
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
-! Last modified: 2025-01-28T00:24:59.554Z
+! Last modified: 2025-01-29T00:24:47.268Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.34
 !
+||land.izuchai.dance^
 ||parteonroll.xyz^
 ||qjvksieybn.vip^
 ||wobbly-birth.com^
@@ -4135,6 +4136,7 @@ vkcdnservice.appspot.com^
 ||audiencefuel.com^
 ||audiencegarret.com^
 ||audienceprofiler.com^
+||audientaphasia.com^
 ||audiobenasty.shop^
 ||audionews.fm^
 ||auditioneasterhelm.com^
@@ -5117,6 +5119,7 @@ vkcdnservice.appspot.com^
 ||biopsyheadless.com^
 ||biopsyintruder.com^
 ||biosda.com^
+||bipeedsoubsie.xyz^
 ||bipgialxcfvad.xyz^
 ||biphic.com^
 ||biplihopsdim.com^
@@ -5507,6 +5510,7 @@ vkcdnservice.appspot.com^
 ||bowldescended.com^
 ||bowlprick.com^
 ||bowlpromoteintimacy.com^
+||bownunseel.com^
 ||boxappellation.com^
 ||boxernightdilution.com^
 ||boxernipplehopes.com^
@@ -5600,6 +5604,7 @@ vkcdnservice.appspot.com^
 ||breedingpulverize.com^
 ||breedtagask.com^
 ||breezefraudulent.com^
+||brethelkumys.com^
 ||brewailmentsubstance.com^
 ||brewingjoie.com^
 ||brewsuper.com^
@@ -5613,6 +5618,7 @@ vkcdnservice.appspot.com^
 ||brieflizard.com^
 ||briefready.com^
 ||briefredos.click^
+||briersiconv.com^
 ||brightcriticism.com^
 ||brightenpleasurejest.com^
 ||brighteroption.com^
@@ -5830,6 +5836,7 @@ vkcdnservice.appspot.com^
 ||buqkrzbrucz.com^
 ||buram.xyz^
 ||burbarkholpen.com^
+||burdenmapwise.com^
 ||bureauelderlydivine.com^
 ||bureautrickle.com^
 ||bureauxcope.casa^
@@ -6396,10 +6403,12 @@ vkcdnservice.appspot.com^
 ||chalconvex.top^
 ||chalkedretrieval.com^
 ||challengetoward.com^
+||chalonbinge.com^
 ||chambermaidthree.xyz^
 ||chambershoist.com^
 ||chambersinterdependententirely.com^
 ||chambersthanweed.com^
+||chambulwacs.com^
 ||chameleostudios.com^
 ||champerwatts.com^
 ||championshipcoma.com^
@@ -6435,6 +6444,7 @@ vkcdnservice.appspot.com^
 ||chauinubbins.com^
 ||chauksoam.xyz^
 ||chaunsoops.net^
+||chaupheebe.net^
 ||chaussew.net^
 ||chautcho.com^
 ||chbwe.space^
@@ -7618,6 +7628,7 @@ vkcdnservice.appspot.com^
 ||crouchyearbook.com^
 ||crowdeddisk.pro^
 ||crowdnextquoted.com^
+||crowdsshook.com^
 ||crptentry.com^
 ||crptgate.com^
 ||crrepo.com^
@@ -10053,6 +10064,7 @@ vkcdnservice.appspot.com^
 ||excessivelybeveragebeat.com^
 ||excessstumbledvisited.com^
 ||exchange-traffic.com^
+||excidekombu.com^
 ||excitead.com^
 ||excitementcolossalrelax.com^
 ||excitementoppressive.com^
@@ -10996,6 +11008,7 @@ vkcdnservice.appspot.com^
 ||fouderezaifi.net^
 ||foughtdiamond.com^
 ||fouguesteenie.com^
+||fouhoushaugoak.xyz^
 ||fouleewu.net^
 ||foulfurnished.com^
 ||foundationhemispherebossy.com^
@@ -12038,6 +12051,7 @@ vkcdnservice.appspot.com^
 ||gqrvpwdps.com^
 ||gquwuefddojikxo.xyz^
 ||gr3hjjj.pics^
+||grabmannipmuc.top^
 ||graboverhead.com^
 ||gracefullisten.pro^
 ||gracefullouisatemperature.com^
@@ -12743,11 +12757,13 @@ vkcdnservice.appspot.com^
 ||herbamplesolve.com^
 ||hercockremarke.info^
 ||herconsequence.com^
+||herdersfiches.com^
 ||herdmenrations.com^
 ||hereaftertriadcreep.com^
 ||herebybrotherinlawlibrarian.com^
 ||hereincigarettesdean.com^
 ||heremployeesihi.info^
+||hereofcineols.com^
 ||hereonline.online^
 ||heresanothernicemess.com^
 ||heretopgirls.net^
@@ -14485,6 +14501,7 @@ vkcdnservice.appspot.com^
 ||jorbfstarn.com^
 ||jorttiuyng.com^
 ||josephineravine.com^
+||josephtotters.top^
 ||josfrvq.com^
 ||josiehopeless.com^
 ||josiepigroot.com^
@@ -14856,6 +14873,7 @@ vkcdnservice.appspot.com^
 ||kindnessmarshalping.com^
 ||kineckekyu.com^
 ||kinedivast.top^
+||kinemasswipper.com^
 ||king3rsc7ol9e3ge.com^
 ||kingads.mobi^
 ||kingrecommendation.com^
@@ -15610,6 +15628,7 @@ vkcdnservice.appspot.com^
 ||linksecurecd.com^
 ||linksprf.com^
 ||linsaicki.net^
+||linterngantlet.shop^
 ||lintgallondissipate.com^
 ||lintyahimsas.com^
 ||liondolularhene.com^
@@ -15793,6 +15812,7 @@ vkcdnservice.appspot.com^
 ||longlakeweb.com^
 ||longmansuchcesu.info^
 ||loobilysubdebs.com^
+||loobyfleyed.com^
 ||loodauni.com^
 ||loohiwez.net^
 ||lookandfind.me^
@@ -16397,6 +16417,7 @@ vkcdnservice.appspot.com^
 ||mattockpackall.com^
 ||mattressashamed.com^
 ||mattressstumpcomplement.com^
+||matzaslaminar.com^
 ||mauchopt.net^
 ||maudau.com^
 ||maugrewuthigeb.net^
@@ -19272,6 +19293,7 @@ vkcdnservice.appspot.com^
 ||pajamasgnat.com^
 ||pajamasguests.com^
 ||pajnutas.com^
+||pajockpomme.com^
 ||palaroleg.guru^
 ||palatablelay.pro^
 ||palatedaylight.com^
@@ -19403,6 +19425,7 @@ vkcdnservice.appspot.com^
 ||pasaltair.com^
 ||pasbstbovc.com^
 ||paservices.tech^
+||pashulroak.net^
 ||paslsa.com^
 ||passagessixtyseeing.com^
 ||passeura.com^
@@ -19704,6 +19727,7 @@ vkcdnservice.appspot.com^
 ||petrosunnier.shop^
 ||pettyachras.shop^
 ||petulanthamsterunless.com^
+||pewitspyuria.com^
 ||pexuvais.net^
 ||pezoomsekre.com^
 ||pf34zdjoeycr.com^
@@ -23770,6 +23794,7 @@ vkcdnservice.appspot.com^
 ||sixft-apart.com^
 ||sixuzxwdajpl.com^
 ||siyaukq.com^
+||sizedcalas.com^
 ||sjetnf-oizyo.buzz^
 ||sjilyhwpu.xyz^
 ||sjsabb.com^
@@ -33493,6 +33518,7 @@ vkcdnservice.appspot.com^
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||plausible.flamekiller.org^
 ||mktp-base.mktplatforms.com^
 ||f-tra.com^
 ||event.dfinery.io^
@@ -37153,6 +37179,8 @@ vkcdnservice.appspot.com^
 
 ||tagman.britishairways.com^
 |piwik.
+||fnl.quizizz.com^
+||jg7y.quizlet.com^
 ||apmplus.ap-southeast-1.volces.com^
 ||pixels.argusplatform.com^
 ||egg.afisha.ru^
@@ -52248,6 +52276,11 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||v4p.fun^
+||addalzq.com^
+||6qo.fun^
+||bhanphevg.com^
+||hdinmiu.top^
 ||xxsmad5.com^
 ||hostolhg.com^
 ||4zn.fun^
@@ -52255,6 +52288,7 @@ inapps.appsflyersdk.com^
 ||tuhmkjce.icu^
 ||as01280kkp.xyz^
 ||as01271kkp.xyz^
+||as01281kkp.xyz^
 ||veilengh.com^
 ||fcbdpock.icu^
 ||t2s.fun^
@@ -56046,6 +56080,7 @@ inapps.appsflyersdk.com^
 @@||captcha.su.baidu.com^
 @@||img.ads.tvb.com^
 ||27gh.cc^
+||reke.at.sohu.com^
 ||hcirentgh.360doc.cn^
 ||a1.cyyangqiguan.com^
 ||jbdch1.appmobile.cn^
