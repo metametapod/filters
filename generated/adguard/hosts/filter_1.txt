@@ -27041,6 +27041,7 @@
 0.0.0.0 analytics.asiatech.ir
 0.0.0.0 analytics.atlassian.com
 0.0.0.0 analytics.audioeye.com
+0.0.0.0 analytics.avcdn.net
 0.0.0.0 analytics.aweber.com
 0.0.0.0 analytics.b2.ai
 0.0.0.0 analytics.baliusuperapp.xyz
@@ -67800,6 +67801,7 @@
 0.0.0.0 pbc.nextmillmedia.com
 0.0.0.0 pbc.pubpowerplatform.io
 0.0.0.0 pbc.vliplatform.com
+0.0.0.0 pbc.wsj.com
 0.0.0.0 pbcde.com
 0.0.0.0 pbcs.decider.com
 0.0.0.0 pbcs.nypost.com
@@ -106596,6 +106598,7 @@
 0.0.0.0 tracking.allehanda.se
 0.0.0.0 tracking.americaneagle.com
 0.0.0.0 tracking.api.media.zapps.vn
+0.0.0.0 tracking.api.shoppinggives.com
 0.0.0.0 tracking.appmetrica.yandex.net
 0.0.0.0 tracking.appwifi.com
 0.0.0.0 tracking.arbetarbladet.se
