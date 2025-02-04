@@ -23866,7 +23866,6 @@
 0.0.0.0 adnetwork-tracking-proxy.aiactiv.io
 0.0.0.0 adnetwork.adasiaholdings.com
 0.0.0.0 adnetwork.admicro.vn
-0.0.0.0 adnetwork.vn
 0.0.0.0 adnetworkperformance.com
 0.0.0.0 adnext.pl
 0.0.0.0 adngin.com
@@ -26039,7 +26038,6 @@
 0.0.0.0 aj2178.online
 0.0.0.0 aj2204.online
 0.0.0.0 aj2218.online
-0.0.0.0 aj2393.online
 0.0.0.0 aj2396.online
 0.0.0.0 aj2517.bid
 0.0.0.0 aj2532.bid
@@ -28105,6 +28103,7 @@
 0.0.0.0 api.linkmine.co.kr
 0.0.0.0 api.localytics.com
 0.0.0.0 api.logentries.com
+0.0.0.0 api.logg9r.io
 0.0.0.0 api.luckyorange.com
 0.0.0.0 api.lytics.io
 0.0.0.0 api.manager.atf-tagmanager.de
@@ -28222,6 +28221,7 @@
 0.0.0.0 api.stack-sonar.com
 0.0.0.0 api.statcounter.visitor-analytics.io
 0.0.0.0 api.stathat.com
+0.0.0.0 api.statsig.com
 0.0.0.0 api.subiz.com.vn
 0.0.0.0 api.subiz.net
 0.0.0.0 api.sumatra.ai
@@ -28392,6 +28392,7 @@
 0.0.0.0 apodiscounterde01.webtrekk.net
 0.0.0.0 apodiscounterpl01.webtrekk.net
 0.0.0.0 apollo.demdex.net
+0.0.0.0 apollo.miniclip.com
 0.0.0.0 apollofind.com
 0.0.0.0 apologizingrigorousmorally.com
 0.0.0.0 apomiogmbh01.webtrekk.net
@@ -31457,6 +31458,7 @@
 0.0.0.0 bewoobaton.com
 0.0.0.0 bewperspiths.top
 0.0.0.0 beyanmaan.com
+0.0.0.0 beyondwickedmapping.org
 0.0.0.0 beyourxfriend.com
 0.0.0.0 bf-ad.net
 0.0.0.0 bf-tools.net
@@ -34826,6 +34828,7 @@
 0.0.0.0 cdn.livetrafficfeed.com
 0.0.0.0 cdn.lndata.com
 0.0.0.0 cdn.lodeo.io
+0.0.0.0 cdn.logg9r.io
 0.0.0.0 cdn.logly.co.jp
 0.0.0.0 cdn.logrocket.com
 0.0.0.0 cdn.logsnag.com
@@ -47596,6 +47599,7 @@
 0.0.0.0 feature.fm
 0.0.0.0 feature1-adengine.snigelweb.com
 0.0.0.0 feature2-adengine.snigelweb.com
+0.0.0.0 featureassets.org
 0.0.0.0 featured.perfectionholic.com
 0.0.0.0 featuremedicine.com
 0.0.0.0 featuresthrone.com
@@ -49600,6 +49604,7 @@
 0.0.0.0 gbztputcfgp.com
 0.0.0.0 gc-adsrv-static.rtbsuperhub.com
 0.0.0.0 gc-adsrv.rtbsuperhub.com
+0.0.0.0 gc.newsweek.com
 0.0.0.0 gc.s.360.cn
 0.0.0.0 gc.zgo.at
 0.0.0.0 gcc.notifysrv.com
@@ -54866,6 +54871,7 @@
 0.0.0.0 initialization.mediation-sdk.chartboost.com
 0.0.0.0 initiallycoffee.com
 0.0.0.0 initiallycompetitionunderwear.com
+0.0.0.0 initiategunpowder.com
 0.0.0.0 injcxwircl.com
 0.0.0.0 injectshrslinkblog.com
 0.0.0.0 injuredjazz.com
@@ -56465,6 +56471,7 @@
 0.0.0.0 jppixel.adsafeprotected.com
 0.0.0.0 jprtb.c.appier.net
 0.0.0.0 jpush.cn
+0.0.0.0 jpush.io
 0.0.0.0 jpwsuix.icu
 0.0.0.0 jqbddp.xyz
 0.0.0.0 jqctrvodhb.eoapxl.com
@@ -59671,6 +59678,7 @@
 0.0.0.0 logentries.com
 0.0.0.0 logevt.pubfinity.com
 0.0.0.0 logful.getui.com
+0.0.0.0 logg9r.io
 0.0.0.0 logger.21wiz.com
 0.0.0.0 logger.adthrive.com
 0.0.0.0 logger.applovefrom.com
@@ -61485,7 +61493,9 @@
 0.0.0.0 mcpuwpush.com
 0.0.0.0 mcrertpgdjbvj.com
 0.0.0.0 mcs-sg.tiktok.com
+0.0.0.0 mcs-ttp.lemon8-app.us
 0.0.0.0 mcs-va-useast2a.tiktokv.com
+0.0.0.0 mcs-va.tiktok.com
 0.0.0.0 mcs-va.tiktokv.com
 0.0.0.0 mcs.snssdk.com
 0.0.0.0 mcs.volceapplog.com
@@ -61589,7 +61599,6 @@
 0.0.0.0 media.adfrontiers.com
 0.0.0.0 media.admission.net
 0.0.0.0 media.admob.com
-0.0.0.0 media.adnetwork.vn
 0.0.0.0 media.adop.asia
 0.0.0.0 media.adpnut.com
 0.0.0.0 media.adsrv.net
@@ -62726,8 +62735,10 @@
 0.0.0.0 mon-boot.capcutapi.com
 0.0.0.0 mon-i18n.tiktokv.com
 0.0.0.0 mon-ru.tiktokv.com
+0.0.0.0 mon-ttp.lemon8-app.us
 0.0.0.0 mon-va-us-looki.capcutapi.com
 0.0.0.0 mon-va.byteoversea.com
+0.0.0.0 mon-va.lemon8-app.com
 0.0.0.0 mon-va.tiktokv.com
 0.0.0.0 mon.byteoversea.com
 0.0.0.0 mon.domdog.io
@@ -63077,6 +63088,7 @@
 0.0.0.0 mssdk-sg.byteoversea.com
 0.0.0.0 mssdk-sg.tiktok.com
 0.0.0.0 mssdk-va.byteoversea.com
+0.0.0.0 mssdk-va.tiktok.com
 0.0.0.0 mssdk.bytedance.com
 0.0.0.0 mssdk.zijieapi.com
 0.0.0.0 mst.rnd.de
@@ -99155,6 +99167,7 @@
 0.0.0.0 sirwcniydewu.com
 0.0.0.0 sis-ipv6.jpush.cn
 0.0.0.0 sis.a8.net
+0.0.0.0 sis.jpush.io
 0.0.0.0 sisteraboveaddition.com
 0.0.0.0 sisterexpendabsolve.com
 0.0.0.0 sisterlockup.com
@@ -103152,6 +103165,7 @@
 0.0.0.0 t.authookroop.com
 0.0.0.0 t.awelsorsulte.com
 0.0.0.0 t.awhausaifoog.com
+0.0.0.0 t.babelmedia.global
 0.0.0.0 t.badrookrafta.com
 0.0.0.0 t.bailihaiw.com
 0.0.0.0 t.baiweero.com
@@ -110086,7 +110100,6 @@
 0.0.0.0 vektor-dc11b.axonix.com
 0.0.0.0 vela.iad-01.braze.com
 0.0.0.0 velasresorts.evergage.com
-0.0.0.0 velloxfire.pro
 0.0.0.0 velocecdn.com
 0.0.0.0 velocitycdn.com
 0.0.0.0 velocitypaperwork.com
@@ -114546,6 +114559,7 @@
 0.0.0.0 www.joltidiotichighest.com
 0.0.0.0 www.jouchuthin.com
 0.0.0.0 www.joycreatorheader.com
+0.0.0.0 www.jpush.io
 0.0.0.0 www.js-agent.newrelic.com
 0.0.0.0 www.js7k.com
 0.0.0.0 www.jscdndel.com
