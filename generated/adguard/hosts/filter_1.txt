@@ -22896,6 +22896,7 @@
 0.0.0.0 ad-emea.doubleclick.net
 0.0.0.0 ad-ettoday.cdn.hinet.net
 0.0.0.0 ad-eu.p.otm-r.com
+0.0.0.0 ad-events.flashtalking.com
 0.0.0.0 ad-experience.g2afse.com
 0.0.0.0 ad-fam.com
 0.0.0.0 ad-files.classting.com
@@ -25442,8 +25443,10 @@
 0.0.0.0 adx-os-bid.anythinktech.com
 0.0.0.0 adx-os-bid.toponadss.com
 0.0.0.0 adx-os.anythinktech.com
+0.0.0.0 adx-os.bridgeoos.com
 0.0.0.0 adx-os.toponadss.com
 0.0.0.0 adx-sg-req.anythinktech.com
+0.0.0.0 adx-sg-req.bridgeoos.com
 0.0.0.0 adx-sg-req.mosspf.com
 0.0.0.0 adx-sg-req.mossru.com
 0.0.0.0 adx-sg-req.toponadss.com
@@ -25965,6 +25968,7 @@
 0.0.0.0 aimediagroup.com
 0.0.0.0 aimfar.solution.weborama.fr
 0.0.0.0 aimg.fc2.com
+0.0.0.0 aimon.applicationinsights.azure.com
 0.0.0.0 aimportfoliosquid.com
 0.0.0.0 aimukreegee.net
 0.0.0.0 ainsyndication.com
@@ -27357,6 +27361,7 @@
 0.0.0.0 analytics.styria.hr
 0.0.0.0 analytics.superstructure.ai
 0.0.0.0 analytics.supplyframe.com
+0.0.0.0 analytics.sve.cc
 0.0.0.0 analytics.svenskdam.se
 0.0.0.0 analytics.svt.se
 0.0.0.0 analytics.tebilisim.com
@@ -27956,6 +27961,7 @@
 0.0.0.0 api.analytics.redbubble.com
 0.0.0.0 api.antibanads.com
 0.0.0.0 api.anythinktech.com
+0.0.0.0 api.applicationinsights.azure.com
 0.0.0.0 api.applovefrom.com
 0.0.0.0 api.applovin.com
 0.0.0.0 api.appnxt.net
@@ -27985,6 +27991,7 @@
 0.0.0.0 api.bounceexchange.com
 0.0.0.0 api.branch.io
 0.0.0.0 api.brandlabs.ai
+0.0.0.0 api.bridgeoos.com
 0.0.0.0 api.brightedge.com
 0.0.0.0 api.brs.intl.miui.com
 0.0.0.0 api.btloader.com
@@ -28094,6 +28101,7 @@
 0.0.0.0 api.jpush.cn
 0.0.0.0 api.june.so
 0.0.0.0 api.kaiu-marketing.com
+0.0.0.0 api.kickoffo.site
 0.0.0.0 api.kochava.com
 0.0.0.0 api.kostprice.com
 0.0.0.0 api.lab.amplitude.com
@@ -28134,6 +28142,7 @@
 0.0.0.0 api.moneyoyo.org
 0.0.0.0 api.mosspf.com
 0.0.0.0 api.mossru.com
+0.0.0.0 api.myadsget.com
 0.0.0.0 api.najva.com
 0.0.0.0 api.nanigans.com
 0.0.0.0 api.native-track.com
@@ -28226,7 +28235,9 @@
 0.0.0.0 api.subiz.com.vn
 0.0.0.0 api.subiz.net
 0.0.0.0 api.sumatra.ai
+0.0.0.0 api.sve.cc
 0.0.0.0 api.taboola.com
+0.0.0.0 api.taboola.sve.cc
 0.0.0.0 api.taggrs.io
 0.0.0.0 api.takeads.com
 0.0.0.0 api.taplytics.com
@@ -28273,6 +28284,7 @@
 0.0.0.0 api.yieldkit.com
 0.0.0.0 api.yieldlab.net
 0.0.0.0 api.yieldlove-ad-serving.net
+0.0.0.0 api.youngle.tech
 0.0.0.0 api.zanox.com
 0.0.0.0 api1-stat.adtelligent.com
 0.0.0.0 api1139.d41.co
@@ -28646,6 +28658,7 @@
 0.0.0.0 appleglobal.102.112.2o7.net
 0.0.0.0 applepstcrmprod.112.2o7.net
 0.0.0.0 applets.ebxcdn.com
+0.0.0.0 applicationinsights.azure.com
 0.0.0.0 applicationmoleculepersonal.com
 0.0.0.0 applicationplasticoverlap.com
 0.0.0.0 applieddatafinance.demdex.net
@@ -29634,6 +29647,9 @@
 0.0.0.0 austere-familiar.com
 0.0.0.0 austeritylegitimate.com
 0.0.0.0 austin.logs.roku.com
+0.0.0.0 australiaeast-0.in.applicationinsights.azure.com
+0.0.0.0 australiaeast-1.in.applicationinsights.azure.com
+0.0.0.0 australiaeast-global.in.applicationinsights.azure.com
 0.0.0.0 aut.yieldlab.net
 0.0.0.0 autchoog.net
 0.0.0.0 autchopord.net
@@ -30287,6 +30303,7 @@
 0.0.0.0 b.totalnicefeed.com
 0.0.0.0 b.totalwownews.com
 0.0.0.0 b.touptaisu.com
+0.0.0.0 b.trueanthem.com
 0.0.0.0 b.tubecorp.com
 0.0.0.0 b.turgelrouph.com
 0.0.0.0 b.ugloopie.com
@@ -32459,6 +32476,8 @@
 0.0.0.0 brawlperennialcalumny.com
 0.0.0.0 brax01.webtrekk.net
 0.0.0.0 brazenwholly.com
+0.0.0.0 brazilsouth-0.in.applicationinsights.azure.com
+0.0.0.0 brazilsouth-1.in.applicationinsights.azure.com
 0.0.0.0 brcdn.com
 0.0.0.0 brdtest.com
 0.0.0.0 brdtnet.com
@@ -33809,6 +33828,9 @@
 0.0.0.0 can-get-some.in
 0.0.0.0 can-get-some.net
 0.0.0.0 canada.demdex.net
+0.0.0.0 canadacentral-0.in.applicationinsights.azure.com
+0.0.0.0 canadacentral-1.in.applicationinsights.azure.com
+0.0.0.0 canadaeast-0.in.applicationinsights.azure.com
 0.0.0.0 canadapost.demdex.net
 0.0.0.0 canadianbedevil.com
 0.0.0.0 canadianimperialbankofcommerce.demdex.net
@@ -35542,7 +35564,12 @@
 0.0.0.0 central01.webtrekk.net
 0.0.0.0 central1creditunion.112.2o7.net
 0.0.0.0 centralads.simpli.fi
+0.0.0.0 centralindia-0.in.applicationinsights.azure.com
 0.0.0.0 centralized.zaloapp.com
+0.0.0.0 centralus-0.in.applicationinsights.azure.com
+0.0.0.0 centralus-2.in.applicationinsights.azure.com
+0.0.0.0 centralus-3.in.applicationinsights.azure.com
+0.0.0.0 centralus.in.applicationinsights.azure.com
 0.0.0.0 centrastage.evergage.com
 0.0.0.0 centredrag.com
 0.0.0.0 centrenicelyteaching.com
@@ -41575,6 +41602,7 @@
 0.0.0.0 dc-tag.jp
 0.0.0.0 dc.actonservice.com
 0.0.0.0 dc.ads.linkedin.com
+0.0.0.0 dc.applicationinsights.azure.com
 0.0.0.0 dc.banggood.com
 0.0.0.0 dc.bizographics.com
 0.0.0.0 dc.cux.io
@@ -44565,6 +44593,7 @@
 0.0.0.0 east.microad.jp
 0.0.0.0 east.srv.stackadapt.com
 0.0.0.0 eastads.simpli.fi
+0.0.0.0 eastasia-0.in.applicationinsights.azure.com
 0.0.0.0 easter-analytics.com
 0.0.0.0 eastergurgle.com
 0.0.0.0 eastevents.simpli.fi
@@ -44572,8 +44601,20 @@
 0.0.0.0 easti7kb2iicom98kb2iis3.com67.5kb3i1cdn.callnet-v2rail.vmodelorc.amazonaws.com98kb2iis3.amazonaws.com499kb2iis3.amazonaws.com181kb2iis3.amazonaws.com372kb2iibirwbstoolsye.threadexit.callrail.com
 0.0.0.0 eastrk-dn.com
 0.0.0.0 eastrk-lg.com
+0.0.0.0 eastus-0.in.applicationinsights.azure.com
+0.0.0.0 eastus-1.in.applicationinsights.azure.com
+0.0.0.0 eastus-2.in.applicationinsights.azure.com
+0.0.0.0 eastus-3.in.applicationinsights.azure.com
+0.0.0.0 eastus-4.in.applicationinsights.azure.com
+0.0.0.0 eastus-5.in.applicationinsights.azure.com
+0.0.0.0 eastus-6.in.applicationinsights.azure.com
+0.0.0.0 eastus-8.in.applicationinsights.azure.com
+0.0.0.0 eastus-global.in.applicationinsights.azure.com
 0.0.0.0 eastus-ssp.appgw.inmobi.com
 0.0.0.0 eastus.trafficmanager.inmobi.com
+0.0.0.0 eastus2-0.in.applicationinsights.azure.com
+0.0.0.0 eastus2-3.in.applicationinsights.azure.com
+0.0.0.0 eastus2-4.in.applicationinsights.azure.com
 0.0.0.0 eastyewebaried.info
 0.0.0.0 easy-ads.com
 0.0.0.0 easy.au.ru
@@ -48618,6 +48659,7 @@
 0.0.0.0 frailfederaldemeanour.com
 0.0.0.0 frameworkjaw.com
 0.0.0.0 framingmanoeuvre.com
+0.0.0.0 francecentral-1.in.applicationinsights.azure.com
 0.0.0.0 francescas.evergage.com
 0.0.0.0 franecki.net
 0.0.0.0 franeski.net
@@ -49875,6 +49917,8 @@
 0.0.0.0 geozo.com
 0.0.0.0 geraflows.com
 0.0.0.0 germanize24.fun
+0.0.0.0 germanywestcentral-0.in.applicationinsights.azure.com
+0.0.0.0 germanywestcentral-1.in.applicationinsights.azure.com
 0.0.0.0 germinatewishesholder.com
 0.0.0.0 germmasonportfolio.com
 0.0.0.0 gerryweb02.webtrekk.net
@@ -54584,9 +54628,11 @@
 0.0.0.0 in-view.gammaplatform.com
 0.0.0.0 in.ad.lgsmartad.com
 0.0.0.0 in.ads.justpremium.com
+0.0.0.0 in.aimon.applicationinsights.azure.com
 0.0.0.0 in.algo.at.re.getclicky.com
 0.0.0.0 in.analytics.glance.inmobi.com
 0.0.0.0 in.api.glance.inmobi.com
+0.0.0.0 in.applicationinsights.azure.com
 0.0.0.0 in.c.appier.net
 0.0.0.0 in.cb.wzrkt.com
 0.0.0.0 in.clevertap-prod.com
@@ -56091,6 +56137,8 @@
 0.0.0.0 januaryprinter.com
 0.0.0.0 japanbros.com
 0.0.0.0 japancrate.refersion.com
+0.0.0.0 japaneast-0.in.applicationinsights.azure.com
+0.0.0.0 japaneast-1.in.applicationinsights.azure.com
 0.0.0.0 japanhotties.jp
 0.0.0.0 japootchust.net
 0.0.0.0 jaqxaqoxwhce.com
@@ -59155,6 +59203,7 @@
 0.0.0.0 live-tag.bannersnack.com
 0.0.0.0 live-us-sc.sekindo.com
 0.0.0.0 live.advotoffer.com
+0.0.0.0 live.applicationinsights.azure.com
 0.0.0.0 live.careplusvn.com
 0.0.0.0 live.chartboost.com
 0.0.0.0 live.demand.supply
@@ -60092,6 +60141,7 @@
 0.0.0.0 lukeaccesspopped.com
 0.0.0.0 lukeexposure.com
 0.0.0.0 lukpush.com
+0.0.0.0 lukyday.xyz
 0.0.0.0 lululemon.btttag.com
 0.0.0.0 lululemonathleticacanadainc.demdex.net
 0.0.0.0 lululemoncanada.us-4.evergage.com
@@ -64800,8 +64850,13 @@
 0.0.0.0 normkela.com
 0.0.0.0 norrisengraveconvertible.com
 0.0.0.0 norrissoundinghometown.com
+0.0.0.0 northcentralus-0.in.applicationinsights.azure.com
 0.0.0.0 northerntoolandequipment.demdex.net
 0.0.0.0 northerntrust.demdex.net
+0.0.0.0 northeurope-0.in.applicationinsights.azure.com
+0.0.0.0 northeurope-2.in.applicationinsights.azure.com
+0.0.0.0 northeurope-3.in.applicationinsights.azure.com
+0.0.0.0 northeurope-global.in.applicationinsights.azure.com
 0.0.0.0 northplains.actonservice.com
 0.0.0.0 northsidemediagroup.actonservice.com
 0.0.0.0 northwell.us-4.evergage.com
@@ -64810,6 +64865,7 @@
 0.0.0.0 northwire.actonservice.com
 0.0.0.0 norton-app.quantummetric.com
 0.0.0.0 norton.ow5a.net
+0.0.0.0 norwayeast-0.in.applicationinsights.azure.com
 0.0.0.0 nosebleedjumbleblissful.com
 0.0.0.0 noslugut.com
 0.0.0.0 nossairt.net
@@ -99868,6 +99924,7 @@
 0.0.0.0 sofi.glassboxdigital.io
 0.0.0.0 sofia.trustx.org
 0.0.0.0 sofinpushpile.com
+0.0.0.0 sofire.1024tera.com
 0.0.0.0 sofire.bdstatic.com
 0.0.0.0 soft-com.biz
 0.0.0.0 softclick.com.br
@@ -100014,6 +100071,11 @@
 0.0.0.0 sourcelink.evergage.com
 0.0.0.0 sourcetobin.com
 0.0.0.0 sourishpuler.com
+0.0.0.0 southafricanorth-0.in.applicationinsights.azure.com
+0.0.0.0 southcentralus-0.in.applicationinsights.azure.com
+0.0.0.0 southcentralus-3.in.applicationinsights.azure.com
+0.0.0.0 southeastasia-0.in.applicationinsights.azure.com
+0.0.0.0 southeastasia-1.in.applicationinsights.azure.com
 0.0.0.0 southerncaliforniaedison.demdex.net
 0.0.0.0 southernco.demdex.net
 0.0.0.0 southernwine.demdex.net
@@ -102808,6 +102870,7 @@
 0.0.0.0 swasthis-d.openx.net
 0.0.0.0 sweatditch.com
 0.0.0.0 sweaterreduce.com
+0.0.0.0 swedencentral-0.in.applicationinsights.azure.com
 0.0.0.0 sweepfrequencydissolved.com
 0.0.0.0 sweeps.lp-preview.net
 0.0.0.0 sweetheartshippinglikeness.com
@@ -102842,6 +102905,7 @@
 0.0.0.0 swissmg-cdn.relevant-digital.com
 0.0.0.0 swissreextranet.piwik.pro
 0.0.0.0 switch.rtbsystem.com
+0.0.0.0 switzerlandnorth-0.in.applicationinsights.azure.com
 0.0.0.0 swlogic.wpu.sh
 0.0.0.0 swollencompletely.com
 0.0.0.0 swoonseneid.com
@@ -108322,6 +108386,9 @@
 0.0.0.0 uksjogersamyre.com
 0.0.0.0 ukskxmh.com
 0.0.0.0 uksofthecomp.com
+0.0.0.0 uksouth-0.in.applicationinsights.azure.com
+0.0.0.0 uksouth-1.in.applicationinsights.azure.com
+0.0.0.0 ukwest-0.in.applicationinsights.azure.com
 0.0.0.0 ukzoweq.com
 0.0.0.0 ul.alcmpn.com
 0.0.0.0 ul.pubpowerplatform.io
@@ -111976,6 +112043,8 @@
 0.0.0.0 west.ads.simpli.fi
 0.0.0.0 west.statisticplatform.com
 0.0.0.0 westads.simpli.fi
+0.0.0.0 westcentralus-0.in.aimon.applicationinsights.azure.com
+0.0.0.0 westcentralus-global.in.aimon.applicationinsights.azure.com
 0.0.0.0 westcongroupprod.112.2o7.net
 0.0.0.0 westelm.open.securedvisit.com
 0.0.0.0 western-unions24h.weebly.com
@@ -111989,9 +112058,23 @@
 0.0.0.0 westernunionbankvn.wixsite.com
 0.0.0.0 westernunions6886z.weebly.com
 0.0.0.0 westernwhetherowen.com
+0.0.0.0 westeurope-0.in.applicationinsights.azure.com
+0.0.0.0 westeurope-1.in.applicationinsights.azure.com
+0.0.0.0 westeurope-2.in.applicationinsights.azure.com
+0.0.0.0 westeurope-3.in.applicationinsights.azure.com
+0.0.0.0 westeurope-4.in.applicationinsights.azure.com
+0.0.0.0 westeurope-5.in.applicationinsights.azure.com
+0.0.0.0 westeurope-global.in.applicationinsights.azure.com
 0.0.0.0 westeurope2.caroda.io
 0.0.0.0 westjetanalbertapartnership.demdex.net
 0.0.0.0 westthomson.demdex.net
+0.0.0.0 westus-0.in.applicationinsights.azure.com
+0.0.0.0 westus2-0.in.applicationinsights.azure.com
+0.0.0.0 westus2-1.in.applicationinsights.azure.com
+0.0.0.0 westus2-2.in.applicationinsights.azure.com
+0.0.0.0 westus2-5.in.applicationinsights.azure.com
+0.0.0.0 westus2-global.in.applicationinsights.azure.com
+0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 westwing01.webtrekk.net
 0.0.0.0 wetfs.global-1.telemetry.insights.video.a2z.com
 0.0.0.0 wetfs.global-2.telemetry.insights.video.a2z.com
@@ -118036,6 +118119,7 @@
 0.0.0.0 zalnouiy.com
 0.0.0.0 zalo-ads-480.zadn.vn
 0.0.0.0 zalo-ads.mediaz.vn
+0.0.0.0 zalo-web.me
 0.0.0.0 zaloads-480.zdn.vn
 0.0.0.0 zalora.evergage.com
 0.0.0.0 zalorathailand.evergage.com
