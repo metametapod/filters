@@ -12340,6 +12340,7 @@
 0.0.0.0 7ffd2622f8.990828ab3d.com
 0.0.0.0 7fverver.lycheenews.com
 0.0.0.0 7jrahgc.de
+0.0.0.0 7kprtners.com
 0.0.0.0 7lyonline.com
 0.0.0.0 7me0ssd6.de
 0.0.0.0 7ng6v3lu3c.execute-api.us-east-1.amazonaws.com
@@ -26049,6 +26050,7 @@
 0.0.0.0 aj2550.bid
 0.0.0.0 aj2555.bid
 0.0.0.0 aj2627.bid
+0.0.0.0 aj2635.bid
 0.0.0.0 aj3038.bid
 0.0.0.0 aj7.info.lgsmartad.com
 0.0.0.0 ajaiguhubeh.com
@@ -28591,6 +28593,7 @@
 0.0.0.0 app.signifyd.com
 0.0.0.0 app.simpli.fi
 0.0.0.0 app.smrtb.com
+0.0.0.0 app.squeezely.tech
 0.0.0.0 app.ssp.yahoo.com
 0.0.0.0 app.subiz.com.vn
 0.0.0.0 app.truconversion.com
@@ -33588,6 +33591,7 @@
 0.0.0.0 ca-central-1-3.telemetry.insights.video.a2z.com
 0.0.0.0 ca-conv.amoad.com
 0.0.0.0 ca-gmtdmp.mookie1.com
+0.0.0.0 ca-lapresse-main.collector.snplow.net
 0.0.0.0 ca.102.122.2o7.net
 0.0.0.0 ca.ad.lgsmartad.com
 0.0.0.0 ca.ads.justpremium.com
@@ -34390,6 +34394,7 @@
 0.0.0.0 cdn.360yield.com
 0.0.0.0 cdn.3lift.com
 0.0.0.0 cdn.7amz.com
+0.0.0.0 cdn.7kprtners.com
 0.0.0.0 cdn.a00s.net
 0.0.0.0 cdn.ablyft.com
 0.0.0.0 cdn.actiflex.org
@@ -36401,6 +36406,7 @@
 0.0.0.0 clickfilter.co
 0.0.0.0 clickfuse.com
 0.0.0.0 clickganic.rtb.adx1.com
+0.0.0.0 clickguard.com
 0.0.0.0 clickguardian.app
 0.0.0.0 clickheat.dtiserv2.com
 0.0.0.0 clickhere.ru
@@ -37059,6 +37065,7 @@
 0.0.0.0 cnzz.mmstat.com
 0.0.0.0 cnzz.trafficmanager.net
 0.0.0.0 co-gmtdmp.mookie1.com
+0.0.0.0 co-prolific-prod1.collector.snplow.net
 0.0.0.0 co.ad.lgsmartad.com
 0.0.0.0 co.ads.justpremium.com
 0.0.0.0 co.akisinn.info
@@ -37667,6 +37674,7 @@
 0.0.0.0 collector.retailcrm.pro
 0.0.0.0 collector.schibsted.io
 0.0.0.0 collector.scopely.io
+0.0.0.0 collector.snplow.net
 0.0.0.0 collector.sspinc.io
 0.0.0.0 collector.statowl.com
 0.0.0.0 collector.superwall.me
@@ -37726,16 +37734,39 @@
 0.0.0.0 columnistcandour.com
 0.0.0.0 columnisteverything.com
 0.0.0.0 com-acura.netmng.com
+0.0.0.0 com-angi-prod1.collector.snplow.net
+0.0.0.0 com-baublebar-prod1.collector.snplow.net
 0.0.0.0 com-bmwusa.netmng.com
+0.0.0.0 com-condenast-prod1.collector.snplow.net
+0.0.0.0 com-disconetwork-prod1.collector.snplow.net
 0.0.0.0 com-disqus.netmng.com
+0.0.0.0 com-evvnt-prod1.collector.snplow.net
+0.0.0.0 com-fedex-prods1.collector.snplow.net
 0.0.0.0 com-fga.netmng.com
+0.0.0.0 com-fourthline-prod1.collector.snplow.net
+0.0.0.0 com-getbento-prod1.collector.snplow.net
+0.0.0.0 com-hellosimply-prod1.collector.snplow.net
 0.0.0.0 com-keen.netmng.com
 0.0.0.0 com-kia.netmng.com
+0.0.0.0 com-kindredgroup-prod1.collector.snplow.net
 0.0.0.0 com-landrover.netmng.com
+0.0.0.0 com-logojoy-prod1.collector.snplow.net
+0.0.0.0 com-ltk-prod1.collector.snplow.net
+0.0.0.0 com-marketwise-prod1.collector.snplow.net
 0.0.0.0 com-memberdeals.netmng.com
 0.0.0.0 com-mitsubishi.netmng.com
+0.0.0.0 com-quizlet-prod1.collector.snplow.net
+0.0.0.0 com-secretescapes.collector.snplow.net
+0.0.0.0 com-smugmug-prod1.collector.snplow.net
+0.0.0.0 com-starsgroup-prod1.collector.snplow.net
+0.0.0.0 com-tastytrade-prod1.collector.snplow.net
 0.0.0.0 com-theknot.netmng.com
 0.0.0.0 com-theknotpro.netmng.com
+0.0.0.0 com-thepetlabco-prod1.collector.snplow.net
+0.0.0.0 com-tourlane-main.collector.snplow.net
+0.0.0.0 com-upday-main.collector.snplow.net
+0.0.0.0 com-vonq-main.collector.snplow.net
+0.0.0.0 com-ziffmedia-prod1.collector.snplow.net
 0.0.0.0 com.102.112.2o7.net
 0.0.0.0 com.102.122.2o7.net
 0.0.0.0 com.112.2o7.net
@@ -38856,6 +38887,7 @@
 0.0.0.0 cookiex.ngd.yahoo.com
 0.0.0.0 cookinghither.com
 0.0.0.0 cookingsorting.com
+0.0.0.0 cool-slay-prod1.collector.snplow.net
 0.0.0.0 cooladata.com
 0.0.0.0 coolappland.com
 0.0.0.0 coolappland1.com
@@ -42944,6 +42976,7 @@
 0.0.0.0 djvby0s5wa7p7.cloudfront.net
 0.0.0.0 djxpnuo.xyz
 0.0.0.0 dk-gmtdmp.mookie1.com
+0.0.0.0 dk-jppol-prod1.collector.snplow.net
 0.0.0.0 dk.ads.justpremium.com
 0.0.0.0 dk.info.lgsmartad.com
 0.0.0.0 dk1.siteimprove.com
@@ -42964,6 +42997,7 @@
 0.0.0.0 dkupaw9ae63a8.cloudfront.net
 0.0.0.0 dkvhqgnyrnbxsi.com
 0.0.0.0 dkvtbjavjme96.cloudfront.net
+0.0.0.0 dkweuy.com
 0.0.0.0 dkxrubgc.com
 0.0.0.0 dl-adx.op-mobile.opera.com
 0.0.0.0 dl.ad-stir.com
@@ -44088,6 +44122,7 @@
 0.0.0.0 e.fausothaur.com
 0.0.0.0 e.femsurgo.com
 0.0.0.0 e.foakiwhazoja.com
+0.0.0.0 e.fomo.com
 0.0.0.0 e.foothoupaufa.com
 0.0.0.0 e.fozoothezou.com
 0.0.0.0 e.gaishaisteth.com
@@ -50410,6 +50445,7 @@
 0.0.0.0 gnezdo.ru
 0.0.0.0 gnnnzxuzv.com
 0.0.0.0 gnsdigital.co.il
+0.0.0.0 gnsnpaw.com
 0.0.0.0 gnv-v4.pops.fastly-insights.com
 0.0.0.0 gnyjxyzqdcjb.com
 0.0.0.0 go-corsair-com.ct.impactradius.com
@@ -52752,6 +52788,7 @@
 0.0.0.0 hopefulstretchpertinent.com
 0.0.0.0 hopelessrolling.com
 0.0.0.0 hopesteapot.com
+0.0.0.0 hoplekhornnist.space
 0.0.0.0 hoppermagazineprecursor.com
 0.0.0.0 hoppershortercultivate.com
 0.0.0.0 hoppersill.com
@@ -55305,7 +55342,10 @@
 0.0.0.0 inwardinjustice.com
 0.0.0.0 inwraptsekane.com
 0.0.0.0 inx-corp.actonservice.com
+0.0.0.0 io-candivore-prod1.collector.snplow.net
 0.0.0.0 io-cdn.bfmio.com
+0.0.0.0 io-greenhouse-prod1.collector.snplow.net
+0.0.0.0 io.clickguard.com
 0.0.0.0 io.mediarithmics.com
 0.0.0.0 io.narrative.io
 0.0.0.0 io.programmatic.cz
@@ -60249,6 +60289,7 @@
 0.0.0.0 lxqjy-obtr.love
 0.0.0.0 lxryhx.xyz
 0.0.0.0 lxstat.com
+0.0.0.0 ly-bit-prod1.collector.snplow.net
 0.0.0.0 ly.ads.justpremium.com
 0.0.0.0 ly55442.com
 0.0.0.0 lyappreciat.info
@@ -64689,6 +64730,8 @@
 0.0.0.0 nl-new-cdn-europe-west4-c-hb-bid-feedback.mtgglobals.com
 0.0.0.0 nl-new-cdn-ssplib-europe-west4-b-hb.mtgglobals.com
 0.0.0.0 nl-new-cdn-ssplib-europe-west4-c-hb.mtgglobals.com
+0.0.0.0 nl-ns-prod1.collector.snplow.net
+0.0.0.0 nl-rtl-prod1.collector.snplow.net
 0.0.0.0 nl.ad.lgsmartad.com
 0.0.0.0 nl.ads.justpremium.com
 0.0.0.0 nl.alcmpn.com
@@ -67268,6 +67311,7 @@
 0.0.0.0 p.totalwownews.com
 0.0.0.0 p.touptaisu.com
 0.0.0.0 p.turgelrouph.com
+0.0.0.0 p.tvpixel.com
 0.0.0.0 p.typekit.net
 0.0.0.0 p.ugloopie.com
 0.0.0.0 p.ura.news
@@ -92647,6 +92691,7 @@
 0.0.0.0 pulpreferred.com
 0.0.0.0 puls.lv
 0.0.0.0 pulsar.xlisting.jp
+0.0.0.0 pulse.clickguard.com
 0.0.0.0 pulse.inmobi.com
 0.0.0.0 pulse.shopflo.com
 0.0.0.0 pulse.w3counter.com
@@ -98358,6 +98403,7 @@
 0.0.0.0 serve-west.acuityplatform.com
 0.0.0.0 serve.360playvid.info
 0.0.0.0 serve.5visions.com
+0.0.0.0 serve.7kprtners.com
 0.0.0.0 serve.admatic.com.tr
 0.0.0.0 serve.adspruce.com
 0.0.0.0 serve.adworldmedia.com
@@ -100537,6 +100583,7 @@
 0.0.0.0 squatcowarrangement.com
 0.0.0.0 squawalpine.evergage.com
 0.0.0.0 squeaknicheentangled.com
+0.0.0.0 squeezely.tech
 0.0.0.0 squidanalytics.com
 0.0.0.0 squintopposed.com
 0.0.0.0 squirrelformatapologise.com
@@ -103530,6 +103577,7 @@
 0.0.0.0 t.splicky.com
 0.0.0.0 t.sports.ru
 0.0.0.0 t.spot.im
+0.0.0.0 t.squeezely.tech
 0.0.0.0 t.ssp.hinet.net
 0.0.0.0 t.staiwhaup.com
 0.0.0.0 t.stassaxouwa.com
@@ -106521,6 +106569,7 @@
 0.0.0.0 tracker.cauly.co.kr
 0.0.0.0 tracker.cdn-moneysmart.com
 0.0.0.0 tracker.citicsinfo.com
+0.0.0.0 tracker.clickguard.com
 0.0.0.0 tracker.connectif.cloud
 0.0.0.0 tracker.contentexchange.me
 0.0.0.0 tracker.convead.io
@@ -107752,6 +107801,7 @@
 0.0.0.0 tvn.hit.gemius.pl
 0.0.0.0 tvn2.adocean.pl
 0.0.0.0 tvpgapl.hit.gemius.pl
+0.0.0.0 tvpixel.com
 0.0.0.0 tvpnnrungug.xyz
 0.0.0.0 tvppa.actonservice.com
 0.0.0.0 tvppl.hit.gemius.pl
@@ -112712,6 +112762,7 @@
 0.0.0.0 wonnauseouswheel.com
 0.0.0.0 wonoddgiris.com
 0.0.0.0 wooballast.com
+0.0.0.0 woochithoothie.net
 0.0.0.0 woodejou.net
 0.0.0.0 woodenguardsheartburn.com
 0.0.0.0 woodlandanyone.com
@@ -118297,6 +118348,7 @@
 0.0.0.0 zitaptugo.com
 0.0.0.0 zitbulled.com
 0.0.0.0 zitchuhoove.com
+0.0.0.0 ziweuu.com
 0.0.0.0 zixokseelta.com
 0.0.0.0 ziyhd.fun
 0.0.0.0 zizoxozoox.com
