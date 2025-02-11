@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sun, 09 Feb 2025 21:21:43 +0000
+! Last modified: Mon, 10 Feb 2025 19:10:21 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -450,6 +450,8 @@ skandia.se##+js(trusted-set-cookie, SK_CONSENT, {%22hasAccepted%22:true%2C%22fun
 welcomestores.gr##+js(trusted-set-cookie, ConsentChecked, '{"userHasSetCookies":true,"functionalityCookies":false,"statisticCookies":false,"marketingCookies":false}')
 ! https://github.com/uBlockOrigin/uAssets/issues/27140
 cosmo-hairshop.de##+js(trusted-click-element, #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll)
+! https://www.siivous.fi/
+siivous.fi##+js(trusted-set-cookie, cc_cookie, %7B%22level%22%3A%5B%22necessary%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22rfc_cookie%22%3Atrue%7D, 1year)
 
 
 !! Needs additional cookies
@@ -1727,7 +1729,7 @@ cdn.privacy-mgmt.co##+js(trusted-click-element, button[title="TILLAD NØDVENDIGE
 consent.spielaffe.de##+js(trusted-click-element, button[title="Accept All & Close"], ,1000)
 
 ! just Use necessary cookies only
-degiro.*,vikingline.com,tfl.gov.uk##+js(trusted-click-element, #CybotCookiebotDialogBodyButtonDecline)
+degiro.*,vikingline.com,tfl.gov.uk##+js(trusted-click-element, #CybotCookiebotDialogBodyButtonDecline, , 1000)
 
 ! Necessary + functional cookies
 interactivebrokers.com##+js(trusted-set-local-storage-item, consentMode, '{"functionality_storage":"granted","security_storage":"granted","ad_storage":"denied","analytics_storage":"denied","ad_personalization":"denied","ad_user_data":"denied"}')
@@ -2379,7 +2381,7 @@ linsenplatz.de##+js(trusted-click-element, button.btn-outline-secondary, , 1000)
 turvakauppa.com##+js(trusted-set-cookie, pr-cookie-consent, [])
 
 ! necessary (option 2)
-budni.de##+js(trusted-click-element, button#footer_tc_privacy_button_2, , 1000)
+budni.de,erstecardclub.hr##+js(trusted-click-element, button#footer_tc_privacy_button_2, , 1000)
 
 ! necessary/ date=1
 maandag.com##+js(trusted-set-cookie, maandag-cookie-consent, '{"functional":true,"analytics":false,"advertising":false,"personalisation":false,"maccepted":1}', , , reload, 1)
@@ -2435,7 +2437,7 @@ bfarm.de,ganztagsschulen.org##+js(trusted-set-cookie, gsbbanner, closed)
 ! "ok"
 huddle.today##+js(set-cookie, cmplz_rt_banner-status, dismissed)
 ! necessary
-eurogrow.es##+js(trusted-click-element, button[data-role="necessary"], , 1000)
+vakgaragevannunen.nl,fortuluz.es,finna.fi,eurogrow.es,vakgaragevandertholen.nl##+js(trusted-click-element, button[data-role="necessary"], , 1000)
 
 ! selected
 envafors.dk##+js(trusted-click-element, input[value="Acceptér valgte"], , 1000)
@@ -2454,9 +2456,6 @@ daruk-emelok.hu##+js(trusted-click-element, .dmc-accept-all, , 1000)
 
 ! decline
 exakta.se##+js(trusted-click-element, button#hs-eu-decline-button, , 1000)
-
-! reject
-fortuluz.es##+js(trusted-click-element, button[data-role="necessary"], , 1000)
 
 ! decline/time=1
 elavon.ie##+js(trusted-set-cookie, cookiesPolicy, '{"analytics":false,"marketing":false,"functional":false,"essential":true}')
@@ -2774,7 +2773,11 @@ hej-natural.*##+js(trusted-click-element, button.cookie-select-mandatory, , 1000
 ib-hansmeier.de##+js(trusted-click-element, a#obcookies_box_close, , 1000)
 
 ! necessary
-rsag.de##+js(trusted-click-element, a[data-button-action="essential"], , 1000)
+rsag.de,esaa-eu.org##+js(trusted-click-element, a[data-button-action="essential"], , 1000)
+
+! basic/date=2029 expiry
+statech.*##+js(trusted-set-local-storage-item, lib-cookieconsent, [])
+statech.*##+js(trusted-set-local-storage-item, lib-cookieconsent-expire, 1870726742772)
 
 ! necessary
 envirodesign.eu,isstbn.cz##+js(trusted-set-cookie, cookie-ag, '{"necessary":1,"functional":0,"performance":0,"marketing":0}')
@@ -3238,9 +3241,6 @@ hitchcoq.order.app.hd.digital##+js(trusted-set-cookie, complianceCookie, '{"nece
 ! mandatory
 podleze-piekielko.pl##+js(trusted-set-cookie, CookieConsent, mandatory)
 
-! necessary
-finna.fi##+js(trusted-click-element, button[data-role="necessary"], , 1000)
-
 ! reject
 betterhomes.ch,betterhomes.at,betterhomes-international.com,betterhomes.de##+js(trusted-set-cookie, gdprCookiesAccepted, bhWebsiteAccepted:true)
 
@@ -3277,6 +3277,10 @@ uza.be,uzafoundation.be,uzajobs.be##+js(trusted-click-element, a.eu-cookie-compl
 ! reject
 programmes.uliege.be##+js(trusted-set-cookie, CookieScriptConsent, '{"action":"reject","categories":"[]"}')
 
+! reject
+bergzeit.*##+js(trusted-click-element, button[class="cookie-disclaimer__button-save | button"], , 1000)
+bergzeit.*##+js(trusted-click-element, button[class="cookie-disclaimer__button | button button--secondary"], , 1000)
+
 ! required
 renault-hoffmann-niedernhausen.de##+js(set-cookie, hide-gdpr-bar, true)
 renault-hoffmann-niedernhausen.de##+js(trusted-set-cookie, gdpr-opt-ins, '[]')
@@ -3305,6 +3309,15 @@ webfleet.com##+js(trusted-click-element, button#wi-CookieConsent_Selection, , 10
 
 ! required
 kunsthauswien.com##+js(trusted-set-cookie, accepted_optional_cookies, statistics:0|marketing:0, , , reload, 1)
+
+! reject
+broekhuis.nl##+js(trusted-click-element, button#CookieInfoDialogDecline, , 1000)
+
+! reject
+nemck.cz##+js(trusted-click-element, button[aria-label="vypnout personalizaci"], , 1800)
+
+! continue without accepting
+church-footwear.com##+js(trusted-click-element, a.cookie__close_text, , 1000)
 
 ! deny
 parliament.scot##+js(trusted-set-cookie, GoogleAnalyticsUserConsentCookie, '{"ad_storage":"denied","analytics_storage":"denied","functionality_storage":"denied","personalization_storage":"denied","security_storage":"denied"}')
