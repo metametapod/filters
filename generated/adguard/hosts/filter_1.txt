@@ -14673,11 +14673,8 @@
 0.0.0.0 a-uap.iads.unity3d.com
 0.0.0.0 a-usa.applovin.com
 0.0.0.0 a-waiting.com
-0.0.0.0 a.07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com
 0.0.0.0 a.1gr.cz
 0.0.0.0 a.1nimo.com
-0.0.0.0 a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com
-0.0.0.0 a.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com
 0.0.0.0 a.7amz.com
 0.0.0.0 a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.myniceposts.com
 0.0.0.0 a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.a.myniceposts.com
@@ -22897,6 +22894,14 @@
 0.0.0.0 ad-emea.doubleclick.net
 0.0.0.0 ad-ettoday.cdn.hinet.net
 0.0.0.0 ad-eu.p.otm-r.com
+0.0.0.0 ad-events-ash11.g.flashtalking.com
+0.0.0.0 ad-events-dub11.g.flashtalking.com
+0.0.0.0 ad-events-frk11.g.flashtalking.com
+0.0.0.0 ad-events-lhr11.g.flashtalking.com
+0.0.0.0 ad-events-ore11.g.flashtalking.com
+0.0.0.0 ad-events-sjc11.g.flashtalking.com
+0.0.0.0 ad-events-syd11.g.flashtalking.com
+0.0.0.0 ad-events-tky11.g.flashtalking.com
 0.0.0.0 ad-events.flashtalking.com
 0.0.0.0 ad-experience.g2afse.com
 0.0.0.0 ad-fam.com
@@ -24220,6 +24225,7 @@
 0.0.0.0 ads.altitude-arena.com
 0.0.0.0 ads.annonsbladet.com
 0.0.0.0 ads.api.vungle.com
+0.0.0.0 ads.appbundledownload.com
 0.0.0.0 ads.appsgeyser.com
 0.0.0.0 ads.aralego.com
 0.0.0.0 ads.as.criteo.com
@@ -25117,6 +25123,7 @@
 0.0.0.0 adstrategy.biz.weibo.com
 0.0.0.0 adstreamer.ru
 0.0.0.0 adstreampro.com
+0.0.0.0 adstudio-asset-lib.flashtalking.com
 0.0.0.0 adstudio.cloud
 0.0.0.0 adstuna.com
 0.0.0.0 adsturn.com
@@ -26397,6 +26404,7 @@
 0.0.0.0 almightyroomsimmaculate.com
 0.0.0.0 almondusual.com
 0.0.0.0 almonryminuter.com
+0.0.0.0 almostmakes.com
 0.0.0.0 almstda.tv
 0.0.0.0 alnormaticalacyc.org
 0.0.0.0 alnzupnulzaw.com
@@ -28984,6 +28992,7 @@
 0.0.0.0 artifacts.dev.kochava.com
 0.0.0.0 artisan.actonservice.com
 0.0.0.0 artistictastesnly.info
+0.0.0.0 artlesscontagionseated.com
 0.0.0.0 artlessdeprivationunfriendly.com
 0.0.0.0 artlist.postaffiliatepro.com
 0.0.0.0 artmoby.g2afse.com
@@ -34730,6 +34739,7 @@
 0.0.0.0 cdn.firstimpression.io
 0.0.0.0 cdn.firstpromoter.com
 0.0.0.0 cdn.fivecdm.com
+0.0.0.0 cdn.flashtalking.com
 0.0.0.0 cdn.flixtrial.com
 0.0.0.0 cdn.flurry.com
 0.0.0.0 cdn.forter.com
@@ -41242,6 +41252,7 @@
 0.0.0.0 d8dkar87wogoy.cloudfront.net
 0.0.0.0 d8wiaeu7gfa3mdsa9.ay.delivery
 0.0.0.0 d8xy39jrbjbcq.cloudfront.net
+0.0.0.0 d9.flashtalking.com
 0.0.0.0 d90z5o386dhs7.cloudfront.net
 0.0.0.0 d91i6bsb0ef59.cloudfront.net
 0.0.0.0 d985a9d2clzq5.cloudfront.net
@@ -45123,6 +45134,7 @@
 0.0.0.0 elastoproxy.actonservice.com
 0.0.0.0 elatedynast.com
 0.0.0.0 elaydark.com
+0.0.0.0 elb.flashtalking.com
 0.0.0.0 elb.myaffiliates.com
 0.0.0.0 elb.the-ozone-project.com
 0.0.0.0 elconfidencial-cdn.relevant-digital.com
@@ -45380,6 +45392,7 @@
 0.0.0.0 engine.sponsorpay.com
 0.0.0.0 engine.spotscenered.info
 0.0.0.0 engine.spoutable.com
+0.0.0.0 engine.trialhd.com
 0.0.0.0 engine.trklnks.com
 0.0.0.0 engine.tronads.io
 0.0.0.0 engine.voluumtlkrnarketing.com
@@ -47702,6 +47715,7 @@
 0.0.0.0 fdtlfl.xyz
 0.0.0.0 fdxbilemeofrx.com
 0.0.0.0 fdyn.pubwise.io
+0.0.0.0 fdz.flashtalking.com
 0.0.0.0 fe.ono.axp.amazon-adsystem.com
 0.0.0.0 fe.powergloverail.com167b2iis3.amazonaws.com98kb2iis3.amazonaws.com499kb2iis3.amazonaws.com181kb2iis3.amazonaws.com372kb2iibirdeye.com248b2iicdn.callrail.com
 0.0.0.0 fe313be9ba.61598081d6.com
@@ -48218,6 +48232,7 @@
 0.0.0.0 flashmovingsmoney-online.weebly.com
 0.0.0.0 flashnetic.com
 0.0.0.0 flashstats.libsyn.com
+0.0.0.0 flashtalking.com
 0.0.0.0 flask.us.nextdoor.com
 0.0.0.0 flat-ads.com
 0.0.0.0 flatepicbats.com
@@ -48369,6 +48384,7 @@
 0.0.0.0 flyroll.ru
 0.0.0.0 flytechb.com
 0.0.0.0 fm-analytics-api.pocketfm.com
+0.0.0.0 fm.flashtalking.com
 0.0.0.0 fm.ipinyou.com
 0.0.0.0 fm.nakanohito.jp
 0.0.0.0 fmbankva.actonservice.com
@@ -48645,6 +48661,7 @@
 0.0.0.0 foundationhemispherebossy.com
 0.0.0.0 foundationhorny.com
 0.0.0.0 foupeethaija.com
+0.0.0.0 fourier.alibaba.com
 0.0.0.0 fourm-d.openx.net
 0.0.0.0 fourmtagservices.appspot.com
 0.0.0.0 fourseasonshotels.demdex.net
@@ -49194,6 +49211,7 @@
 0.0.0.0 g.fauneeptoaso.com
 0.0.0.0 g.fausothaur.com
 0.0.0.0 g.femsurgo.com
+0.0.0.0 g.flashtalking.com
 0.0.0.0 g.foakiwhazoja.com
 0.0.0.0 g.fozoothezou.com
 0.0.0.0 g.gaishaisteth.com
@@ -53509,6 +53527,7 @@
 0.0.0.0 i.moocaicaico.com
 0.0.0.0 i.moshimo.com
 0.0.0.0 i.muchezougree.com
+0.0.0.0 i.mxplayer.j2inter.com
 0.0.0.0 i.mydailynewz.com
 0.0.0.0 i.myfreshspot.com
 0.0.0.0 i.myhugewords.com
@@ -54392,6 +54411,7 @@
 0.0.0.0 img.e-planning.net
 0.0.0.0 img.fam-8.net
 0.0.0.0 img.fam-ad.com
+0.0.0.0 img.flashtalking.com
 0.0.0.0 img.footprintlive.com
 0.0.0.0 img.gs-ad.jp
 0.0.0.0 img.gsspat.jp
@@ -54432,6 +54452,7 @@
 0.0.0.0 img2.mobon.net
 0.0.0.0 img2.titan007.com
 0.0.0.0 img3.126.net
+0.0.0.0 imgcf.flashtalking.com
 0.0.0.0 imgcn.socdm.com
 0.0.0.0 imgfly.scarabresearch.com
 0.0.0.0 imgg-cdn.mgid.com
@@ -59724,7 +59745,6 @@
 0.0.0.0 log.snssdk.com
 0.0.0.0 log.streamagent.sensic.net
 0.0.0.0 log.strm.yandex.ru
-0.0.0.0 log.suumo.jp
 0.0.0.0 log.tagdeliver.com
 0.0.0.0 log.tagtic.cn
 0.0.0.0 log.talkie-ai.com
@@ -59984,6 +60004,7 @@
 0.0.0.0 lon.infinity-tracking.com
 0.0.0.0 lon.infinity-tracking.net
 0.0.0.0 lonb.nend.net
+0.0.0.0 loneinner.com
 0.0.0.0 lonelytransienttrail.com
 0.0.0.0 lonerdrawn.com
 0.0.0.0 lonerprevailed.com
@@ -64122,6 +64143,7 @@
 0.0.0.0 native.triplelift.com
 0.0.0.0 native.wpu.sh
 0.0.0.0 native.yektanet.com
+0.0.0.0 nativead.flashtalking.com
 0.0.0.0 nativead.s3.amazonaws.com
 0.0.0.0 nativeads.com
 0.0.0.0 nativeadsfeed.com
@@ -97231,6 +97253,7 @@
 0.0.0.0 s324.wcexaminer.com
 0.0.0.0 s333.adxpremium.services
 0.0.0.0 s372.meetrics.net
+0.0.0.0 s3cf.flashtalking.com
 0.0.0.0 s3enpwpv.emltrk.com
 0.0.0.0 s3g6.com
 0.0.0.0 s3m.mediav.com
@@ -98116,6 +98139,7 @@
 0.0.0.0 secure.facesnotebook.com
 0.0.0.0 secure.fastclick.net
 0.0.0.0 secure.firstimpression.io
+0.0.0.0 secure.flashtalking.com
 0.0.0.0 secure.gatetodisplaycontent.com
 0.0.0.0 secure.gaug.es
 0.0.0.0 secure.gloonseetaih.com
@@ -98473,6 +98497,7 @@
 0.0.0.0 servebom.com
 0.0.0.0 servecontent.net
 0.0.0.0 served-by.pixfuture.com
+0.0.0.0 servedby-us.flashtalking.com
 0.0.0.0 servedby.adxpose.com
 0.0.0.0 servedby.aqua-adserver.com
 0.0.0.0 servedby.eleavers.com
@@ -101259,6 +101284,7 @@
 0.0.0.0 stat.eagleplatform.com
 0.0.0.0 stat.enter-system.com
 0.0.0.0 stat.familjeliv.se
+0.0.0.0 stat.flashtalking.com
 0.0.0.0 stat.fly.codes
 0.0.0.0 stat.flygame.io
 0.0.0.0 stat.gc.my.games
@@ -101321,6 +101347,8 @@
 0.0.0.0 stat.ws.126.net
 0.0.0.0 stat.y.qq.com
 0.0.0.0 stat3.1internet.tv
+0.0.0.0 stat7.flashtalking.com
+0.0.0.0 stat8.flashtalking.com
 0.0.0.0 statad.ru
 0.0.0.0 statclick.nate.com
 0.0.0.0 statcollector.sidearmsports.com
@@ -113654,6 +113682,7 @@
 0.0.0.0 www.aroundpayslips.com
 0.0.0.0 www.arrivedeuropean.com
 0.0.0.0 www.artfut.com
+0.0.0.0 www.artlesscontagionseated.com
 0.0.0.0 www.artsai.com
 0.0.0.0 www.ascensionunfinished.com
 0.0.0.0 www.ascentloinconvenience.com
@@ -114388,6 +114417,7 @@
 0.0.0.0 www.flash-counter.com
 0.0.0.0 www.flashadtools.com
 0.0.0.0 www.flashb.id
+0.0.0.0 www.flashtalking.com
 0.0.0.0 www.flat-ads.com
 0.0.0.0 www.fleenaive.com
 0.0.0.0 www.flickerbridge.com
