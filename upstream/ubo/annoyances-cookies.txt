@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Wed, 26 Feb 2025 19:01:11 +0000
+! Last modified: Thu, 27 Feb 2025 17:30:30 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -452,7 +452,8 @@ welcomestores.gr##+js(trusted-set-cookie, ConsentChecked, '{"userHasSetCookies":
 cosmo-hairshop.de,storyhouseegmont.no##+js(trusted-click-element, #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll)
 ! https://www.siivous.fi/
 siivous.fi##+js(trusted-set-cookie, cc_cookie, %7B%22level%22%3A%5B%22necessary%22%5D%2C%22revision%22%3A0%2C%22data%22%3Anull%2C%22rfc_cookie%22%3Atrue%7D, 1year)
-
+! Necessary
+s-pankki.fi##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-deny-all-button"])
 
 !! Needs additional cookies
 
@@ -1036,7 +1037,7 @@ snowandrock.com##+js(trusted-set-cookie, consent_setting, analytics%3A0%7Cfuncti
 ! All store information on device cookies
 bnn.de,dosenbach.ch,dw.com,kinepolis.*,winfuture.de,lippu.fi,racingnews365.com,vaillant.*##+js(trusted-click-element, #cmpwrapper >>> #cmpbntyestxt, , 1000)
 ! .cmptxt_btn_no (shadowroot)
-bauhaus.no,beko-group.de,billiger.de,vanharen.nl,deichmann.com,meraluna.de,slashdot.org##+js(trusted-click-element, #cmpwrapper >>> .cmptxt_btn_no, , 1000)
+bauhaus.no,beko-group.de,billiger.de,vanharen.nl,deichmann.com,meraluna.de,slashdot.org,hermann-saunierduval.it,protherm.cz,saunierduval.es,protherm.sk,protherm.ua,saunierduval.hu,saunierduval.ro,saunierduval.at,awb.nl##+js(trusted-click-element, #cmpwrapper >>> .cmptxt_btn_no, , 1000)
 ! .cmptxt_btn_save
 spar.hu,group.vattenfall.com##+js(trusted-click-element, #cmpwrapper >>> .cmptxt_btn_save, , 1000)
 
@@ -1112,9 +1113,9 @@ mafu.de##+js(trusted-set-cookie, wmm-visitor_token, 4cb8860d-4194-4ab5-be04-10f9
 ! essential only
 paf.com##+js(trusted-set-cookie, cookieConsent, {%22essential%22:true%2C%22tracking%22:false%2C%22marketing%22:false})
 ! Continue without agreeing, hide consent flash (.didomi-continue-without-agreeing)
-auto.it,boursobank.com,canalplus.com,eden-park.com,frandroid.com,jobijoba.*,hotelsbarriere.com,intersport.*,idealista.it,o2.fr,meteofrance.com,mondialtissus.fr,oscaro.com,publicsenat.fr,rmcbfmplay.com,seloger.com,suzuki.fr###didomi-host
-auto.it,boursobank.com,canalplus.com,eden-park.com,frandroid.com,jobijoba.*,hotelsbarriere.com,intersport.*,idealista.it,o2.fr,meteofrance.com,mondialtissus.fr,oscaro.com,publicsenat.fr,rmcbfmplay.com,seloger.com,suzuki.fr##+js(trusted-click-element, .didomi-continue-without-agreeing, , 1000)
-auto.it,boursobank.com,canalplus.com,eden-park.com,frandroid.com,jobijoba.*,hotelsbarriere.com,intersport.*,idealista.it,o2.fr,meteofrance.com,mondialtissus.fr,oscaro.com,publicsenat.fr,rmcbfmplay.com,seloger.com,suzuki.fr##body.didomi-popup-open:style(overflow: auto !important;)
+auto.it,boursobank.com,boursorama.com,canalplus.com,eden-park.com,frandroid.com,jobijoba.*,hotelsbarriere.com,intersport.*,idealista.it,o2.fr,meteofrance.com,mondialtissus.fr,oscaro.com,publicsenat.fr,rmcbfmplay.com,seloger.com,suzuki.fr###didomi-host
+auto.it,boursobank.com,boursorama.com,canalplus.com,eden-park.com,frandroid.com,jobijoba.*,hotelsbarriere.com,intersport.*,idealista.it,o2.fr,meteofrance.com,mondialtissus.fr,oscaro.com,publicsenat.fr,rmcbfmplay.com,seloger.com,suzuki.fr##+js(trusted-click-element, .didomi-continue-without-agreeing, , 1000)
+auto.it,boursobank.com,boursorama.com,canalplus.com,eden-park.com,frandroid.com,jobijoba.*,hotelsbarriere.com,intersport.*,idealista.it,o2.fr,meteofrance.com,mondialtissus.fr,oscaro.com,publicsenat.fr,rmcbfmplay.com,seloger.com,suzuki.fr##body.didomi-popup-open:style(overflow: auto !important;)
 ! functional only, ad/analytics denied
 flip.gr##+js(trusted-set-cookie, consts, '{%22ad_storage%22:%22denied%22%2C%22analytics_storage%22:%22denied%22%2C%22functionality_storage%22:%22granted%22}')
 ! necessarry
@@ -1724,6 +1725,7 @@ cdn.privacy-mgmt.co##+js(trusted-click-element, button[title="TILLAD NØDVENDIGE
 consent.spielaffe.de##+js(trusted-click-element, button[title="Accept All & Close"], ,1000)
 
 ! just Use necessary cookies only
+tfl.gov.uk###cb-cookieoverlay
 degiro.*,vikingline.com,tfl.gov.uk,drklein.de##+js(trusted-click-element, #CybotCookiebotDialogBodyButtonDecline, , 1000)
 
 ! Necessary + functional cookies
@@ -2035,9 +2037,6 @@ privacy.topreality.sk,privacy.autobazar.eu##+js(trusted-click-element, button[ar
 ! ilmatieteenlaitos.fi
 ilmatieteenlaitos.fi##+js(trusted-set-cookie, FMI_COOKIE_CONSENT, %7B%22ts%22%3A%221970-01-01T00%3A00%3A00.000Z%22%2C%22allow%22%3A%7B%22necessary%22%3A%7B%22fmi_necessary%22%3A1%7D%2C%22preferences%22%3A%7B%22fmi_preferences%22%3A1%7D%2C%22analytics%22%3A%7B%22rs%22%3A1%2C%22userneeds%22%3A2%7D%2C%22other%22%3A%7B%22youtube%22%3A1%2C%22fyrebox%22%3A1%7D%7D%7D, 1year)
 
-! At least chat needs cookies
-s-pankki.fi##+js(trusted-click-element, #usercentrics-root >>> button[data-testid="uc-accept-all-button"])
-
 ! Necessary
 vu.lt##+js(trusted-click-element, a.cc-btn.cc-allow, , 1000)
 
@@ -2313,7 +2312,7 @@ kijk.nl##+js(trusted-click-element, button.ot-bnr-save-handler, , 1000)
 bandcamp.com##+js(trusted-set-cookie, cookie_preferences, '{"allow":[]}')
 
 ! accept necessary
-nordania.dk,danskebank.*,danskeci.com,danicapension.dk##+js(trusted-click-element, button#button-accept-necessary, , 1000)
+nordania.dk,danskebank.*,danskeci.com,danicapension.dk##+js(trusted-click-element, button#button-accept-necessary, , 1500)
 
 ! save selected, marketing=disabled
 dehn.*##+js(trusted-click-element, button[data-cookie-layer-accept="selected"], , 1000)
@@ -3613,6 +3612,10 @@ nsinternational.com##+js(trusted-click-element, span.cookie-overlay__modal__foot
 ! Continue without accepting
 laposte.fr##+js(trusted-click-element, button[title="Continue without accepting"], , 1000)
 
+! reject
+br-dge.to##+js(set-cookie, cookieConsent, 1)
+br-dge.to##+js(trusted-set-cookie, cookieConsentGroups, '{"adConsentGranted":false,"adPersonalizationConsentGranted":false,"adUserDataConsentGranted":false,"analyticsConsentGranted":false,"functionalityConsentGranted":true,"personalizationConsentGranted":false,"securityConsentGranted":true}')
+
 ! refuse
 meinbildkalender.de##+js(trusted-click-element, button[onclick="setCOOKIENOTIFYOK()"], , 1000)
 
@@ -3641,3 +3644,8 @@ chillamo.com##+js(trusted-set-cookie, _pandectes_gdpr, eyJzdGF0dXMiOiJjdXN0b20iL
 
 ! Necessary + functional (2 months expire time)
 on24.fi##+js(trusted-set-cookie, cookieConsent, a100, 5256000)
+
+! https://forums.lanik.us/viewtopic.php?t=48694-technomarket-bg
+technomarket.bg#@#.cdk-overlay-container
+technomarket.bg#@#html:style(position: static !important; overflow: auto !important; width: auto !important;)
+technomarket.bg##+js(trusted-click-element, button.tm-button.secondary-invert, , 1000)
