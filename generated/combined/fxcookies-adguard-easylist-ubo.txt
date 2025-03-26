@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-03-25T01:05:25Z
+! Last modified: 2025-03-26T01:04:06Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: Z93isPYRpZx4nxpBt/J5vw
-! Diff-Path: ../patches/18/18-s-1742827066-3600.patch
+! Checksum: CWyuXH6uh/DIEZH2BBGoAw
+! Diff-Path: ../patches/18/18-s-1742931411-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.58.77
-! TimeUpdated: 2025-03-24T14:32:39+00:00
+! Version: 2.0.58.83
+! TimeUpdated: 2025-03-25T19:32:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2340,8 +2340,8 @@ motor-oel-guenstig.de,stratic.de,einrichten-design.de,vandenhoeck-ruprecht-verla
 ! ###didomi-host
 lidovky.cz,theobjective.com,dziennikzachodni.pl,closermag.fr,elnortedecastilla.es,ibtimes.co.uk,letelegramme.fr,mallorcamagazin.com,mitele.es,newsweek.com,periodicodeibiza.es###didomi-host
 ! For the case if the scroll page is blocked
-elespanol.com,shadow.tech,letemps.ch,nicematin.com,puregoplay.be,lavozdegalicia.es,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,marca.com,joabet.fr,xataka.com,lejdd.fr,speedy.fr,talent-soft.com,m.elmundo.es,vecernji.hr,zive.cz#$##didomi-host { display: none !important; }
-elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,marca.com,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$#html > body.didomi-popup-open { overflow: auto !important; position: unset !important; }
+elespanol.com,shadow.tech,letemps.ch,nicematin.com,puregoplay.be,lavozdegalicia.es,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,speedy.fr,talent-soft.com,m.elmundo.es,vecernji.hr,zive.cz#$##didomi-host { display: none !important; }
+elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz#$#html > body.didomi-popup-open { overflow: auto !important; position: unset !important; }
 corrieredellosport.it#$#body { overflow: auto !important; }
 lavozdegalicia.es#$#body.blocked::before { display: none !important; }
 !
@@ -2466,6 +2466,10 @@ scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl
 !
 ! NOTE: Regular rules
 !
+medisup.com#$#body { overflow: auto !important; position: static !important; }
+medisup.com#$#.orejime-NoticeOverlay { display: none !important; }
+beliani.nl##.cookie_warning_overlay
+mysoftware.de##.cookie-permission-container:not(#style_important)
 otrium.*##div[data-testid="consent-manager-banner"]
 lesen.amazon.de###cookies-popover-overlay
 lesen.amazon.de##ion-toast
@@ -3259,6 +3263,7 @@ flypobeda.ru##cookie-warning
 app.zasta.de,tester.userbrain.com##+js(set-cookie, CookieConsent, true)
 pethelpful.com##.m-in-content-recommendation
 music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link[aria-label*="ookie"])
+music.amazon.*###banner:has(> div[class]:only-child > #bannerFooter > music-link > span[aria-label*="cookies"])
 onb.ac.at#$#.fcc-cookie-modal { position: absolute !important; left: -3000px !important; }
 onb.ac.at##+js(set-cookie, cookie_ytvideo, 1)
 statistik-berlin-brandenburg.de##.afs-cookie-banner
@@ -13777,7 +13782,6 @@ mseuf.edu.ph,linhauni.com.br,tesda.gov.ph,polizei.de,bafa.de,bka.de,antyweb.pl,s
 beaconstac.com,asics.com###privacy-policy-modal
 tu-dresden.de###privacy-statement
 cottodeste.it###privacyBox
-marca.com###privacyPolicyLayerN
 motorsport.com###privacy_accept
 zorgenzekerheid.nl###ps-bottombar
 ray-ban.com###rb_cookieBox
@@ -15574,6 +15578,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/201315
+@@||sdk.privacy-center.org^$domain=marca.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201262
 @@||cp.gutefrage.net^$domain=gutefrage.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201256
@@ -15581,6 +15587,9 @@ kenamobile.it#@##cookie-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201071
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201280
 @@||trychatgpt.ru/chunk/cookie-banner-*.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/201417
+@@||sdk.privacy-center.org/*/loader.js$domain=expressen.se
+@@||sdk.privacy-center.org/sdk/*/sdk.*.js$domain=expressen.se
 ! leki.pl - unable to scroll
 leki.pl#@##cookie-popup
 leki.pl#@#.cookie-popup:not(body):not(html)
