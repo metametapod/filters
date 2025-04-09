@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-04-08T01:05:40Z
+! Last modified: 2025-04-09T01:04:44Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: WYcdHNVIjJ30TKgpQAZOWA
-! Diff-Path: ../patches/18/18-s-1744053008-3600.patch
+! Checksum: 0PILPD307NOQGfKmJEicMw
+! Diff-Path: ../patches/18/18-s-1744118252-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.59.54
-! TimeUpdated: 2025-04-07T19:06:21+00:00
+! Version: 2.0.59.58
+! TimeUpdated: 2025-04-08T13:14:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2471,6 +2471,8 @@ scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl
 !
 ! NOTE: Regular rules
 !
+id.io.net#?#body > div[id^="radix-:"][role="dialog"]:contains(Accept All Cookies)
+womenshealthmag.com##div[aria-label="Privacy Disclosure"]
 ionos.com##.tw-fixed.tw-bottom-0
 ||conductor.com/api/record-cookie-consent/
 rumble.com###js-client-storage-consent__popup
@@ -2823,8 +2825,8 @@ xlogic.org#$##wpca-lay-out-wrapper { display: none !important; }
 xlogic.org#$#html { overflow: auto !important; }
 tama.com###header-gdpr
 nic.ru###inform-notification
-spawtech.pl#$#.x13eucookies { display: none !important; }
-spawtech.pl#$?#.x13eucookies-block { overflow: auto !important; }
+iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk,iiyama-sklep.pl,spawtech.pl#$#.x13eucookies { display: none !important; }
+iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk,iiyama-sklep.pl,spawtech.pl#$#.x13eucookies-block:not(#style_important) { overflow: auto !important; }
 infoldgames.com##div[class^="CookieTips_"]
 mightyjaxx.com##div[data-testid="modal-cookies"]
 warta.pl#$#.modal-backdrop { display: none !important; }
@@ -12354,7 +12356,7 @@ justwatch.com##.consent-notification--shown
 motherless.com,einprozent.de##.cookie-accept-wrapper
 hwinfo.com##.cookie-agree-with-use
 splunk.com##.cookie-banner-centered
-zing.me,reformagkh.ru,aspiegel.com,swish.nu,coeur-de-lion.org,enroll.virginpulse.com,taschenkaufhaus.de,golotto.de##.cookie-banner-container
+motoblouz.com,zing.me,reformagkh.ru,aspiegel.com,swish.nu,coeur-de-lion.org,enroll.virginpulse.com,taschenkaufhaus.de,golotto.de##.cookie-banner-container
 englishclass101.com,nejbaby.cz,fastwork.id,codingcompetitions.withsitejet.io,zemana.com##.cookie-consent-bar
 berliner-philharmoniker.de##.cookie-hint-wrapper
 sunexpress.com##.cookie-identification
@@ -12937,7 +12939,7 @@ ebrokerpartner.pl##.cookie_plugin
 dfiles.ru##.cookie_popup
 mrskin.com##.cookie_usage
 kla.tv##.cookie_warn_box
-sq.com.ua,mtt.ru,nexttechnology.io,lacalut.ru,novatours.ee,empik.com##.cookies-accept
+adindex.ru,sq.com.ua,mtt.ru,nexttechnology.io,lacalut.ru,novatours.ee,empik.com##.cookies-accept
 coastcapitalsavings.com,vamprivet.ru,skgelios.ru,lexception.com,mtb.ua,kiehls.ru,privetmir.ru,eventvods.com,fendi.com##.cookies-disclaimer
 komputerswiat.pl##.cookies-eu
 denik.cz##.cookies-lista
@@ -13820,7 +13822,7 @@ mseuf.edu.ph,linhauni.com.br,tesda.gov.ph,polizei.de,bafa.de,bka.de,antyweb.pl,s
 beaconstac.com,asics.com###privacy-policy-modal
 tu-dresden.de###privacy-statement
 cottodeste.it###privacyBox
-motorsport.com###privacy_accept
+checko.ru,motorsport.com###privacy_accept
 zorgenzekerheid.nl###ps-bottombar
 ray-ban.com###rb_cookieBox
 edisound.com,auto-moto.com,dzfoot.com,be.com,buzz.be.com,football365.fr,mercato365.com,rugby365.fr,sport365.fr###rw_alert_cookies
