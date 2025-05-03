@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: U5jy24AkXqsTf+m312bFOw
-! Diff-Path: ../patches/18/18-s-1746123177-3600.patch
+! Checksum: 1Uu9Y83WuQe2FrMOkqEwZQ
+! Diff-Path: ../patches/18/18-s-1746195054-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.60.95
-! TimeUpdated: 2025-05-01T18:09:12+00:00
+! Version: 2.0.61.3
+! TimeUpdated: 2025-05-02T14:07:12+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1690,6 +1690,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||podname.com^
 ||cmpv2.tori.fi^
 ||cookies.pro-idea.cz^
 ||cookies.praguebest.cz^
@@ -2465,6 +2466,10 @@ scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl
 !
 ! NOTE: Regular rules
 !
+ahbmedya.com##.policy
+m3datarecovery.com###user_popup
+otpbank.md#$#body { overflow: auto !important; }
+otpbank.md#$#.cookie-panel { display: none !important; }
 travelweekly.co.uk###aos-CookiePolicy
 mhwildshub.com##.mantine-Affix-root
 sputnik8.com##.uses-cookies-banner
@@ -12719,7 +12724,7 @@ aldi-nord.de##.mod-cookie-consent
 issuu.com##.msgbox-CookieConsent
 praxis.nl##.mxd-cookie-bar
 csmbucuresti.ro##.my-cookie-banner
-nimbusweb.me##.ncp1-message
+thefusebase.com,nimbusweb.me##.ncp1-message
 sagat.no,svalbardposten.no##.nf-js-cookiebox
 pokemongolive.com##.nl-cpb
 warhead.su##.notice--wide
@@ -13163,7 +13168,7 @@ seikowatches.com##.blk-Disclaimer
 bnf.fr##.block-bnf-cookies
 bose.ae,bose.at,bose.ca,bose.ch,bose.cl,bose.cn,bose.co,bose.co.jp,bose.co.nz,bose.co.uk,bose.com,bose.com.au,bose.de,bose.dk,bose.es,bose.fi,bose.fr,bose.hk,bose.hu,bose.ie,bose.it,bose.lu,bose.mx,bose.nl,bose.no,bose.pe,bose.pl,bose.se,bose.sg,bose.tw,bose.vn,bosebelgium.be,boseindia.com,boselatam.com##.bose-infoBar2016--cookie
 my.avira.com##.bottom-page-notification[ng-show="cookiePolicyCtrl.isNotificationVisible"]
-old-games.ru##.bottomFixer > div.Notices
+beamng.com,old-games.ru##.bottomFixer > div.Notices
 nhl.com##.btm-nhl-announcement-modal[data-cookie-id]
 handy-games.com##.bugme-fixed
 cda.pl##.bx-info-cookie
@@ -13699,9 +13704,10 @@ hsbc.co.jp,plarium.com##.c-cookie-notification
 mein-glueck.de##.c-cookiesBox
 mirror.co.uk##.captify-widget
 gsp.ro##.center-gdpr
-forbes.pl,onet.pl,pclab.pl##.cmp-app_gdpr
+forbes.pl,onet.pl##.cmp-app_gdpr
 voghion.com###app > .shade
-voghion.com,madamecoco.com,businessinsider.in,gadgetsnow.com,indiatimes.com##.consent-popup
+tecadmin.net##a#manage-preferences
+tecadmin.net,voghion.com,madamecoco.com,businessinsider.in,gadgetsnow.com,indiatimes.com##.consent-popup
 zebra.cn,sanook.com,inexchange.se##.consentBanner
 tempmailaddress.com##.container > footer.text-center.hidden-xs
 downdetector.ru##.container[style="display: block;"]
@@ -16025,6 +16031,11 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/204432
+otpbank.md#@#.cookie-panel:not(body):not(html)
+! https://github.com/AdguardTeam/AdguardFilters/issues/204399
+@@||cdn.privacy-mgmt.com/mms/v2/get_site_data$domain=aamulehti.fi
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=aamulehti.fi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204115
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=spektrum.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204277
