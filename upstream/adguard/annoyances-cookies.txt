@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: DfHvIy0rYJ8v2wkZ1YOGog
-! Diff-Path: ../patches/18/18-s-1746465076-3600.patch
+! Checksum: AvrSa2M9wOLYRXTk2L3lkw
+! Diff-Path: ../patches/18/18-s-1746551485-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.61.14
-! TimeUpdated: 2025-05-05T17:07:11+00:00
+! Version: 2.0.61.24
+! TimeUpdated: 2025-05-06T17:07:05+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1888,7 +1888,7 @@
 -privacy-cookie-
 .cookie-law.$script
 .cookie_law.
-.cookieconsent.
+.cookieconsent.$domain=~cookieconsent.io
 .cookiecuttr.^$domain=~argeweb.nl
 .cookielaw.js
 .cookienotice.
@@ -2466,11 +2466,24 @@ scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl
 !
 ! NOTE: Regular rules
 !
+aliexpress.ru##div[class^="SnowPrivacyPolicyBanner_"]
+||default.beam-emea.prd.api.max.com/legal/*/consentExperience?
+lio-trafic-occitanie.fr##.cdk-overlay-container > div.cdk-overlay-backdrop-showing
+apps.dirittopratico.it#$##cookieChoiceInfo { display: none !important; }
+apps.dirittopratico.it#$##contenitore { filter: none !important; }
+chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl#$#.gdpr-layer { display: none; }
+chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.de,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp,chrono24.nl#$#body:not(#style_important) { overflow: auto !important; padding-right: 0 !important; position: unset !important; }
+||fundingchoicesmessages.google.com^$domain=picmix.com
+remarkable.com#$?#.ark-dialog--prevent-body-scroll { remove: true; }
+riamoneytransfer.com##main > div[class]:has(> div[class][style*="opacity"]:only-child)
+javmodel.com###example1
+vitalvet.sk##.cm-cookie-block
+hostzealot.*##div[x-data="gdprComponent"]
 publix.com##.tou-prompt-wrapper
 ptt.gov.tr##div[class^="styles_cookieBanner"]
 robolinkmarket.com##.w-full > div.fixed[class*="bottom-"]:has(a[href="https://robolinkmarket.com/pages/bilgi-guvenligi-politikasi"])
 9to5linux.com###wpconsent-root
-tigo.com.co,tigo.com.pa##app-cookieconsent
+tigo.com.gt,tigo.com.hn,tigo.com.ni,tigo.com.bo,tigo.com.py,tigo.com.sv,tigo.cr,tigo.com.co,tigo.com.pa##app-cookieconsent
 ahbmedya.com##.policy
 m3datarecovery.com###user_popup
 otpbank.md#$#body { overflow: auto !important; }
@@ -5308,8 +5321,6 @@ witway.be,witway.nl#$#body.locked { position: static !important; }
 reolink.com##div[class^="_gdpr-cookie-popup_"]
 singkinderlieder.de#?##__next > .overflow-x-hidden:has(a[href="/impressum"] ~ a[href="/datenschutz"])
 singkinderlieder.de#?##__next > .overflow-x-hidden:has(a[href="/impressum"] ~ a[href="/datenschutz"]) + .inset-0.z-40
-chrono24.*#$#.gdpr-layer { display: none; }
-chrono24.*#$#body:not(#style_important) { overflow: auto !important; padding-right: 0 !important; position: unset !important; }
 son-video.com##div[data-context="cookies-banner"]
 capcut.com##.lv_cookie_banner-wrapper
 petsathome.com##.onetrust
@@ -6014,7 +6025,6 @@ shop.tecsafe.de##+js(remove-class, cookie--not-set, body)
 sdelsol.com##.COOKIES
 commsec.com.au#?#.announcements > .closeable.priority-2:has(> .container > span > p > a[href*="/cookies.html"])
 /privacy-layer$domain=teufel.de|teufel.ch|teufelaudio.*
-promotion.aliexpress.ru###policyContainer
 stilkuhni.ru##.js-cookie-popup-container
 wubertools.pl,kocbayi.com.tr#$#.cookie-modal { display: none !important; }
 wubertools.pl,kocbayi.com.tr#$#.modal-backdrop { display: none !important; }
@@ -8451,7 +8461,7 @@ benchmark.unigine.com##.bottom-notice
 recantodasletras.com.br##.cookie-consent-dialog
 ||dictionary.university/*/cookiewarning/cookiewarning-nosql.js.php
 qmee.com##div[class^="prerender-"] > div[class^="Overlay-root-"].mobile-app-hidden
-onexgroup.pl,aliexpress.ru##[class*="PrivacyPolicyBanner"]
+onexgroup.pl##[class*="PrivacyPolicyBanner"]
 cian.ru##div[data-name="CookiesNotification"]
 2captcha.com##.app-level-notifications
 simpl.rent##header + div[class^="NotificationBox__Wrapper-"]
@@ -8557,7 +8567,6 @@ riverisland.com#$#html { position: static !important; overflow: auto !important;
 sex-jav.com##.divVR
 bca.co.id#$#.popup--disclaimer { display: none !important; }
 my.ua#?##__next > div:last-child:has(button.privacy-policy__btn)
-aliexpress.ru##.styles_wrapper__3isR2
 kalitelial.com###cookiesor
 privacybunker.io##div[id^="bettergdpr_"]
 superesportes.com.br###bannerLGPD
@@ -10489,7 +10498,6 @@ zoobedarf24.de##div[class^="alternative_cookie_layer_"]
 ||exchange.uk.com/Public/Site/bundles/cookie?v=
 ||exchange.uk.com/Public/Login/Scripts/ibox.js
 librarie.net###div_cookies_note
-aliexpress.ru###ae-ru-privacy-banner
 foundryvtt.com###privacy-policy-prompt
 kanebo-global.com##.tmp-privacyNotice
 nolvus.net,theshoregame.com##.nk-cookie-alert
@@ -11620,7 +11628,6 @@ sadnescity.it,baydoner.com##body > .alert-dismissible[role="alert"]
 yellowpages.pl###section-cookies
 advice.co.th,fitcurves.org##.foot-cookie
 opowi.pl###ci-info-box
-||chrono24.*/cookie/*
 citibank.ru##.bn-alert-tracking-block
 techxplore.com,phys.org###js-popup-cookies
 kartotekaonline.pl##body > .ui-pnotify[style^="width: 300px; opacity:"]
@@ -16034,6 +16041,9 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/204690
+apps.dirittopratico.it#@##cookieChoiceInfo
+apps.dirittopratico.it#@##cookieinfo
 ! metacritic.com - videos not playing
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=metacritic.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204432
