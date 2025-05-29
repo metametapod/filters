@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-05-28T01:11:00Z
+! Last modified: 2025-05-29T01:10:34Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 27 May 2025 13:20:28 +0000
+! Last modified: Wed, 28 May 2025 13:20:40 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17312,6 +17312,7 @@ betsson.com###msgwrapper
 extreme.com,mtn.co.za,mtnbusiness.co.za###my-welcome-message
 rockstarcoders.com###myAlert
 interface.com,kon-boot.com,southerntravelsindia.com,tcf.org###myModal
+blog.n8n.io###n8n-consent-modal
 spandidos-publications.com###navbar
 anthonytravel.com###nb
 vsp.com###new_do_not_sell_button
@@ -17420,6 +17421,7 @@ community.creative-assembly.com###privacy-policy-20180518
 philstarlife.com###privacy-policy-container
 foundryvtt.com###privacy-policy-prompt
 fa-mag.com###privacy-policy-sticky
+utas.edu.au###privacy-popup
 supermicro.com###privacy-popup-agree
 toomics.com###privacy-popup-msg
 amazon.jobs###privacy-preferences-banner
@@ -18993,6 +18995,7 @@ razor.com##.policy-pop-up
 likeyouth.org##.policy-popup
 azizibank.af##.policyNote
 next4biz.com##.policy__area
+popmart.com##.policy_aboveFixedContainer__KfeZi
 top-password.com,tribel.com##.policy_popup
 guitarinstructor.com##.policybanner
 nh-collection.com,nh-hotels.com##.politicaRewards
@@ -22180,6 +22183,7 @@ bw.vdk.de##+js(set-local-storage-item, vdk-iframe-enabled, true)
 bw.vdk.de##+js(set-local-storage-item, vdk-status, accept)
 netbank.avida.no##+js(set-local-storage-item, cookiesAccepted, true)
 gdh.digital##+js(set-local-storage-item, cookieBarVisible, false)
+popmart.com##+js(set-local-storage-item, HAS_AGREE_POLICY, true)
 rozklady.bielsko.pl##+js(set-local-storage-item, cookie-accepted, 1)
 typeform.com##+js(set-local-storage-item, CustomCookieBannerAcceptIntent, true)
 erlus.com##+js(set-local-storage-item, pc-cookie-accepted, true)
