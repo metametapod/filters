@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Vcbb5RYEfhCZTUlPkXxZ5A
-! Diff-Path: ../patches/18/18-s-1748902301-3600.patch
+! Checksum: Pa6E19wt+5vmQX/YvRHWPA
+! Diff-Path: ../patches/18/18-s-1748981486-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.63.13
-! TimeUpdated: 2025-06-02T22:07:33+00:00
+! Version: 2.0.63.24
+! TimeUpdated: 2025-06-03T20:07:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -25,6 +25,7 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.woodmart-cookies-popup
 ###consent-box-lgpd
 ##.Cookie--bottom
 ###fupi_cookie_notice
@@ -2470,6 +2471,15 @@ teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfil
 !
 ! NOTE: Regular rules
 !
+vktry.com###polaris-css-lockdown-container
+fusetter.com##div[class^="CookiePopup_"]
+horeca.com#$#.modal-consent { display: none !important; }
+horeca.com#$#.modal-backdrop:not(.modal-backdrop + .modal-backdrop) { display: none !important; }
+horeca.com#$#body:not([data-bs-overflow]) { overflow: auto !important; padding-right: 0 !important; }
+mak.by##.section--cookie
+hansa.ru##div[class*="modal_cookie"]
+eatstreet.com##cipa-banner
+budgey.de##app-cookie-rules
 cam4.com##footer + div[class]:has(> div > div > a[href="/legal/cookies"])
 noon.com##div[class^="CookieConsentNotice_wrapper"]
 pdf-xchange.com##.cookie-fixed-hint
@@ -4856,8 +4866,8 @@ centrumzdrowegowlosa.pl###gmgdpr-overlay
 domclick.ru##+js(set-cookie, cookieAlert, true)
 skratchlabs.com##div[aria-describedby^="cookieconsent"]
 citidirect.com###divCookieConsentBanner
-citibank.pl#$#.CookieStyle { display: none !important; }
-citibank.pl#$#body.ScrollLock { overflow: auto !important; }
+citibankonline.pl,citibank.pl#$#.CookieStyle { display: none !important; }
+citibankonline.pl,citibank.pl#$#body.ScrollLock { overflow: auto !important; }
 gospeedcheck.com,temporarymail.com###consentBox
 ||biolib.cz/*/consent.min.js
 mammothbikes.com###capaAvisoPoliticaCookies
@@ -7061,7 +7071,7 @@ paz.de#$##cookieSelect { display: none !important; }
 paz.de#$##cookieSelect ~ div.modal-backdrop { display: none !important; }
 teijin.co.jp,kapook.com,teijin-nakashima.co.jp##.footer-policy
 teamgullit.com,kritikos-sm.gr##section[class^="CookieBar_"]
-xgroovy.com##.cookie_warn
+anysex.com,xgroovy.com##.cookie_warn
 satis.amazon.com.tr###cookie-consent-window
 motonet.fi###cookienotify
 toulousemetro3.fr##.janusbanner
@@ -8981,7 +8991,7 @@ mtu.pl,ergohestia.pl##div[id^="cookie"][id$="_outer"]
 ihunt.ro###cookiessection
 routledge.com###cconsent-pop
 talentedge.com##.cookie-strip-bar
-seudinheiro.com###agreement-cookies
+moneytimes.com.br,seudinheiro.com###agreement-cookies
 bebeez.it###gdpr_cookie_banner
 dizioneri.com,samokat.ru,alfazdrav.ru###modalcookie
 spiritlegal.com###hofff-consent-banner
@@ -9001,7 +9011,7 @@ tresorit.com##footer + aside
 thecap.com.br##body > div[style$="position: fixed; width: 100%; z-index: 99999999;"]
 ||infopedia.pt/*klaro/klaro-pe.js
 nostter.app,todtv.com.tr,cryptonews.com,duellinksmeta.com##.cookieConsentWrapper
-ch1n.com.br,zapowiedzi24.blogspot.com,rockmods.net##.cookies-show
+elaoffcial.com,ch1n.com.br,zapowiedzi24.blogspot.com,rockmods.net##.cookies-show
 anthropologie.com,urbanoutfitters.com##.cookie-message__cookieMessage
 adslgr.com,cxense.com###cookieConsentDiv
 discoverybrasil.com##div[data-testid="test-root"]
@@ -11104,7 +11114,7 @@ shop.apotal.de##footer::after
 ggbet.ru##.info-message--cookie-agreement
 french.peopledaily.com.cn###shengmingTip
 kartoteka.ru,gry.lotto.pl###cookie__note
-nsfavourites.nl,totalizator.pl,lotto.pl,steigenberger.com,aegon.nl##.cookie-wall
+twoje-lampy.pl,nsfavourites.nl,totalizator.pl,lotto.pl,steigenberger.com,aegon.nl##.cookie-wall
 lotto.pl#$#body { overflow: auto !important; }
 lotto.pl#$#.privacy-popup { display: none !important; }
 holidu.at,holidu.ch,holidu.ie,holidu.ca,holidu.com.au,holidu.co.nz,holidu.fr,holidu.be,holidu.nl,holidu.es,holidu.dk,holidu.it,holidu.se,holidu.no,holidu.pl,holidu.pt,holidu.com.br,holidu.com.mx,holidu.co.uk,holidu.de,holidu.com###cookie-selector
@@ -11454,7 +11464,7 @@ nordkurier.de###nk-cookie-consent
 qp.com.tr##.porto-block-html-top
 makfa.ru##.bottom-disclaimer
 nebo.app##.app-notifications
-gamesvillage.it,vgmag.it,rgb.vn,pokeharbor.com,hdwalle.com,kolsuzkafasi.com,fmmods.com,dijitalgundem.net,teknotaci.com,nays.tr###rb-cookie
+gamesvillage.it,vgmag.it,rgb.vn,pokeharbor.com,hdwalle.com,kolsuzkafasi.com,dijitalgundem.net,teknotaci.com,nays.tr###rb-cookie
 nkolayode.com##.sticky-info-band
 ||economictimes.indiatimes.com/gdpr_consent.cms
 kutahyaporselen.com.tr###mcTopTooltip
@@ -11737,7 +11747,7 @@ energylandia.pl##.message-popup-cookie-lq
 lubiehrubie.pl,energylandia.pl,bedietcatering.pl,wsei.edu.pl,wealthseed.eu,actavera.eu,inwestomat.eu,itsf.com.pl,kresy.pl,software-on.com,desktopsolution.org,eteknix.com,blog-rct.com##body #cookie-law-info-bar
 laiguana.tv,dopedgeeks.com,victorytale.com,designcorral.com,kolanbritish.com,yubico.com,knote.com.tr,vrworld.com,varta1.com.ua,sexgifs.me,desktopsolution.org###cookie-law-info-again
 marc-o-polo.com##.overlay__shadow--cookie-settings
-karriere.nrw,muzeumslaskie.pl##body > #popup
+remont-samokatov-msk.ru,karriere.nrw,muzeumslaskie.pl##body > #popup
 gelia.fi,gelia.no,gelia.se#$#.cookie-information { display: none !important; }
 coolors.co##body > div.banner
 famedly.com###concord-banner-container
@@ -12886,7 +12896,6 @@ westjet.com##.wj-header-usercookies
 theweathernetwork.com##.woahbar
 tiendeo.com.tr,tiendeo.it##section[data-testid="cookies_footer"]
 buson.com.br##.gv-cookie-lgpd-alert-container
-krowkomania.pl,retroreiz.de,handies.com,cepport.com.tr,realhomes.com.tr,calitte.com,digikitz.net,uygunpencere.com##.woodmart-cookies-popup
 bombbar.ru##.wrap_info_cookie
 rhein-kreis-neuss.de##.ym-row-footer-cookie-notice
 /messaging.js$~third-party,domain=macwelt.de|pcwelt.de
@@ -16143,7 +16152,7 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! Bad:  example.org###cookie (should be in cookies_specific.txt)
 !
 ! @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl|irishtimes.com|tntsports.com.br|sonos.com|rossmann.pl|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball|fnac.com|twojapogoda.pl|pagesix.com|sony.pl|dhl.de|questdiagnostics.com|payback.de|kfc.fr|kfc.es|kfc.de|canadiantire.ca|drafthouse.com|gardenoflife.com|colliers.com|swissotel.com|darntough.com|merrell.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl|irishtimes.com|tntsports.com.br|sonos.com|rossmann.pl|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball|fnac.com|twojapogoda.pl|pagesix.com|sony.pl|dhl.de|questdiagnostics.com|payback.de|kfc.fr|kfc.es|kfc.de|canadiantire.ca|drafthouse.com|gardenoflife.com|colliers.com|swissotel.com|darntough.com|merrell.com|ew.com
 ! Required for apps only
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
