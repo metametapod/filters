@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 08 Jun 2025 02:35:43 +0000
+! Last modified: Mon, 09 Jun 2025 13:20:32 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -2802,7 +2802,6 @@
 ###cookie-conset-bar
 ###cookie-cont
 ###cookie-container2
-###cookie-content
 ###cookie-content_placeholder
 ###cookie-contest
 ###cookie-contract
@@ -16472,6 +16471,7 @@
 ||consentframework.com^$third-party
 ||consentik.com^$third-party
 ||consentmanager.net^$third-party
+||consentmo-geo.com^$third-party
 ||controlcookies.com^$third-party
 ||cookie-accept.com^$third-party
 ||cookie-lista.cz^$third-party
@@ -17043,7 +17043,7 @@ velosure.co.uk###cookie-bar-template
 dnschecker.org,ruedasgordas.es###cookie-box
 yousign.com###cookie-consent-app
 store.azeron.eu###cookie-consent-background
-albar.co.il,eurocommercialproperties.com,joinstellar.ai###cookie-consent-banner
+albar.co.il,eurocommercialproperties.com,joinstellar.ai,news.stanford.edu###cookie-consent-banner
 hermesairports.com,stredoceskykraj.cz###cookie-consent-container
 jigsy.com###cookie-consent-dialog
 store.azeron.eu###cookie-consent-foreground
@@ -17556,6 +17556,7 @@ equalweb.com###topbar
 gamepedia.com,mmo-champion.com###tos-banner
 cartoonnetwork.com###tos-bar
 toughnickel.com###tos_update_band
+weather.com###tou-notice
 tp-link.com###tp-cookie
 applytojob.com###tracking-consent-banner
 ergonbike.com###tracking-modal
@@ -17875,6 +17876,7 @@ subaru.com##.at-banner-container
 atptour.com##.atp_cookie-message
 scandalbeauties.com##.attention-msg
 alivecolors.com##.awarning
+airwallex.com##.awx-privcbanner-root
 welcometothejungle.com##.axeptio_mount
 hush-uk.com##.b-header-message
 makingyourmoneysimple.com,rimowa.com##.b-modal
@@ -18244,6 +18246,7 @@ rebeltech.co.za##.cookie-wall
 fishermap.org##.cookie-window
 btimesonline.com##.cookieAcceptBar
 woktowalk.com##.cookieAceptance
+weeklyrust.substack.com##.cookieBanner-fZ6hup
 oxefit.com##.cookieBar
 fydeos.com,fydeos.io##.cookieBox___2OASs
 vevor.ca,vevor.com,vevor.com.au,vevor.de,vevor.es,vevor.fr,vevor.it,vevor.mx,vevor.nl,vevor.pl##.cookieConfirm
@@ -19756,7 +19759,7 @@ brightlands.com,cnmc.es,confea.org.br,elbitsystems.com,frequentis.com,gmv.com,iu
 ! #cookieConsent
 abcsinsights.com,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,nova.es,psiphon.ca,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
 ! #moove_gdpr_cookie_info_bar
-3d-sd.dk,adventori.com,ajor.org.br,alpine-space.eu,amonncolor.com,auto-dubina.cz,cbic.org.br,comunicacio21.cat,conectaja.proteste.org.br,cultura21.cat,digital-vm.com,ence.es,equativ.com,espai.media,espailinia.cat,euroclima.com,exterior.cat,fgp.com,glofox.com,hasenoehrl.at,hautek.dk,homeopatiabrasil.com.br,instabilefirenze.it,intentiq.com,intergast.cz,iru.de,izt-labs.de,kapis.si,konzernverantwortung.ch,koper.si,moiphilly.com,montagneepaesi.com,orgalim.eu,parlamentario.com,phr.cz,politicaexterior.com,prilogy-systems.com,ragusah24.it,railtraction.it,rottenmann.at,seafarmersbynature.com,tropic.ba,wamu.org###moove_gdpr_cookie_info_bar
+3d-sd.dk,adventori.com,ajor.org.br,alpine-space.eu,amonncolor.com,auto-dubina.cz,cbic.org.br,comunicacio21.cat,conectaja.proteste.org.br,cultura21.cat,digital-vm.com,emporioitalia.pt,ence.es,equativ.com,espai.media,espailinia.cat,euroclima.com,exterior.cat,fgp.com,glofox.com,hasenoehrl.at,hautek.dk,homeopatiabrasil.com.br,instabilefirenze.it,intentiq.com,intergast.cz,iru.de,izt-labs.de,kapis.si,konzernverantwortung.ch,koper.si,moiphilly.com,montagneepaesi.com,orgalim.eu,parlamentario.com,phr.cz,politicaexterior.com,prilogy-systems.com,ragusah24.it,railtraction.it,rottenmann.at,seafarmersbynature.com,tropic.ba,wamu.org###moove_gdpr_cookie_info_bar
 ! .cookies-consent
 campax.org,pelephone.co.il##.cookies-consent
 ! #cookie-message
@@ -20245,7 +20248,7 @@ decovarrubias.es,q10gestion.com###sliding-popup-cookies
 !! .qc-cmp2-container
 centrometeoitaliano.it,in.gr,oraridiapertura24.it,order-order.com##.qc-cmp2-container
 !! .cookie-consent
-560theanswer.com,abcdinamo.com,abconcerts.be,adbro.com,adrianlimani.com,ascoltareradio.com,authorized.by,bcc.nl,bg-radio.org,bioespecie.com,bitstamp.net,cecotec.es,ceskaradiaonline.cz,chacoonline.com.ar,comunicacionsmt.gob.ar,congeo.nl,crypto.news,diarioalfil.com.ar,diariosumario.com.ar,dnb.nl,doaj.org,ecouterradioenligne.com,egyptradio.net,eldiadehigueras.com.ar,emisora.cl,emisora.org.es,emisoras.com.gt,emisoras.com.mx,emisoras.com.py,faberlic.com,forcepoint.com,gault-millau.nl,gaultmillau.be,gaultmillau.lu,geeksforgeeks.org,group.softbank,heinz.st,hisense.com,ieradio.org,ifminvestors.com,inforegister.ee,informatesalta.com.ar,inleed.se,instant.audio,internetradiouk.com,israelnationalnews.com,jamaicaradio.net,jpradio.jp,lagacetadegrancanaria.com,latvijasradio.com,letsgomartin.com,lmdiario.com.ar,logoplaste.com,lu17.com,mediaserve.com,merosch.nl,mutualart.com,nederlandseradio.nl,nettiradiot.org,nettradionorge.com,niaiu.pl,noor-book.com,onlineradio.pl,onlineradios.in,osa.cz,pastelink.net,peoplematters.in,plmxpert.nl,podcast.de,preciosa.com,pukkelpop.be,raadiod.com,radijas.org,radio-bd.com,radio.cd,radio.co.ci,radio.co.cm,radio.co.dk,radio.co.ma,radio.co.ug,radio.co.ve,radio.com.gh,radio.com.lk,radio.ht,radio.mg,radio.net.pk,radio.or.ke,radio.org.ng,radio.org.nz,radio.org.ph,radio.org.ro,radio.org.se,radio.pp.ru,radio.sn,radioalgerie.eu,radioarg.com,radioau.net,radiofona.com.gr,radiohallgatas.hu,radiolisten.de,radionp.com,radioonline.co.id,radioonline.com.pt,radioonline.kr,radioonline.my,radios.co.at,radios.co.cr,radios.co.ni,radios.com.bo,radios.com.co,radios.com.do,radios.com.ec,radios.com.pa,radios.com.pe,radios.com.sv,radios.com.uy,radios.hk,radios.hn,radios.hr,radios.lu,radios.org.il,radios.tw,radiosa.org,radiosaovivo.net,radiosdecuba.com,radiosdepuertorico.com,radiosingapore.org,radiosonline.be,radiosonline.ch,radiostanice.rs,radioth.net,radiotunisienne.org,radioua.net,regionoeste.com.ar,ricos.ltd,riverelmasgrande.com,siradio.si,snowworld.com,sodutch.nl,springaqua.com,sqlservercentral.com,surinaamseradio.com,teinvitoalcine.com,tether.io,toneelhuis.be,trafficstars.com,trinidadradiostations.net,truyenyy.vip,truyenyy.xyz,twinsfun.com,vietnamradio.org,vinkkoeltechniek.com,vitrosearch.ch,webhallen.com,werkenbijversluis.nl,zhibo.fm##.cookie-consent
+560theanswer.com,abcdinamo.com,abconcerts.be,adbro.com,adrianlimani.com,ascoltareradio.com,authorized.by,bcc.nl,bg-radio.org,bioespecie.com,bitstamp.net,cecotec.es,ceskaradiaonline.cz,chacoonline.com.ar,comunicacionsmt.gob.ar,congeo.nl,crypto.news,diarioalfil.com.ar,diariosumario.com.ar,dnb.nl,doaj.org,ecouterradioenligne.com,egyptradio.net,eldiadehigueras.com.ar,emisora.cl,emisora.org.es,emisoras.com.gt,emisoras.com.mx,emisoras.com.py,faberlic.com,forcepoint.com,gault-millau.nl,gaultmillau.be,gaultmillau.lu,geeksforgeeks.org,group.softbank,heinz.st,hisense.com,ieradio.org,ifminvestors.com,inforegister.ee,informatesalta.com.ar,inleed.se,instant.audio,internetradiouk.com,israelnationalnews.com,jamaicaradio.net,jpradio.jp,lagacetadegrancanaria.com,latvijasradio.com,letsgomartin.com,lmdiario.com.ar,logoplaste.com,lu17.com,mediaserve.com,merosch.nl,mutualart.com,nederlandseradio.nl,nettiradiot.org,nettradionorge.com,niaiu.pl,noor-book.com,onlineradio.pl,onlineradios.in,osa.cz,pastelink.net,peoplematters.in,plmxpert.nl,podcast.de,preciosa.com,pukkelpop.be,raadiod.com,radijas.org,radio-bd.com,radio.cd,radio.co.ci,radio.co.cm,radio.co.dk,radio.co.ma,radio.co.ug,radio.co.ve,radio.com.gh,radio.com.lk,radio.ht,radio.mg,radio.net.pk,radio.or.ke,radio.org.ng,radio.org.nz,radio.org.ph,radio.org.ro,radio.org.se,radio.pp.ru,radio.sn,radioalgerie.eu,radioarg.com,radioau.net,radiofona.com.gr,radiohallgatas.hu,radiolisten.de,radionp.com,radioonline.co.id,radioonline.com.pt,radioonline.kr,radioonline.my,radios.co.at,radios.co.cr,radios.co.ni,radios.com.bo,radios.com.co,radios.com.do,radios.com.ec,radios.com.pa,radios.com.pe,radios.com.sv,radios.com.uy,radios.hk,radios.hn,radios.hr,radios.lu,radios.org.il,radios.tw,radiosa.org,radiosaovivo.net,radiosdecuba.com,radiosdepuertorico.com,radiosingapore.org,radiosonline.be,radiosonline.ch,radiostanice.rs,radioth.net,radiotunisienne.org,radioua.net,regionoeste.com.ar,ricos.ltd,riverelmasgrande.com,siradio.si,snowworld.com,sodutch.nl,sohohouse.com,springaqua.com,sqlservercentral.com,surinaamseradio.com,teinvitoalcine.com,tether.io,toneelhuis.be,trafficstars.com,trinidadradiostations.net,truyenyy.vip,truyenyy.xyz,twinsfun.com,vietnamradio.org,vinkkoeltechniek.com,vitrosearch.ch,webhallen.com,werkenbijversluis.nl,zhibo.fm##.cookie-consent
 !! cookiesConsentModal
 latitudeandlongitude.net###cookiesConsentModal
 !! #spopupCont
