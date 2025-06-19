@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 17 Jun 2025 13:20:37 +0000
+! Last modified: Wed, 18 Jun 2025 21:49:52 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -10053,7 +10053,6 @@
 ##.consent-wrap-outer
 ##.consent-wrapper-active
 ##.consentBarWrapper
-##.consentContainer
 ##.consentLayover
 ##.consentOverlayContent
 ##.consentWrapper
@@ -17249,6 +17248,7 @@ playstation.com###js-SIEWS1lib-header-Base
 ebookrenta.com###js-ccpa-dialog
 police.uk###js-consent-banner
 lawrievetgroup.co.uk###js-consent-wrapper
+sportsmans.com###js-cookie-notification
 unbound.com###js-cookies
 shellenergy.co.uk###js-footer
 accounts.pixiv.net###js-privacy-policy-banner
@@ -19604,6 +19604,7 @@ success.trendmicro.com##c-dcx-cookie
 qualified.io##consent-cookie-popup
 23degrees.io##consent-toast
 access.login.nhs.uk##core-cookie-banner
+czds.icann.org##czds-cookie-notification
 medium.com##div > .branch-journeys-top
 c.realme.com##div > .cookie-privacy
 yahoo.com##div.js-applet-view-container-main > div.fixed-win[style^="background:"]
@@ -20313,7 +20314,7 @@ cancerfonden.se##div[class^="CookieDisclaimer"]
 !! .overLay
 abundantgracetabernacle.org.uk,destemma.org,pacificandgold.co.uk##.overLay
 !! .CookieConsent
-bakkenbaeck.com,bluemail.me,breakingthenews.net,buildclub.com,business-standard.com,cmodx.com,coolcats.com,cuevana-3.eu,cuevana3.eu,e-ville.com,fanatical.com,fiorentinabaseball.it,flyrevo.com,fmc.hu,forbesafrica.com,fotmob.com,fundacaoitau.org.br,galea.co,geerly.com,gostateparks.hawaii.gov,greekflavours.com,haveibeentrained.com,hubitat.com,hysky.de,ietf.org,ingresse.com,ingresso.com,kaleidescape.com,likewisetv.com,litovel.cz,lottiefiles.com,lynettezang.com,marias-alm.at,meld.io,nebula.tv,nifty.com,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,pixme.co.uk,polyhaven.com,pptr.dev,puhekupla.com,quoted.tech,rcskinclinic.com,recalbox.com,reflexer.finance,royanews.tv,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,sezzle.com,sharpsecd.com,shlomo.co.il,shuttle.rs,skpay.sk,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,solidariteit.co.za,sprintmedical.in,stakingrewards.com,streamerbans.com,suzuki.ua,tally.xyz,tayama.pl,temporal.cloud,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
+bakkenbaeck.com,bluemail.me,breakingthenews.net,buildclub.com,business-standard.com,cmodx.com,coolcats.com,cuevana-3.eu,cuevana3.eu,e-ville.com,fanatical.com,fiorentinabaseball.it,flyrevo.com,fmc.hu,forbesafrica.com,fotmob.com,fundacaoitau.org.br,galea.co,geerly.com,gostateparks.hawaii.gov,greekflavours.com,haveibeentrained.com,hubitat.com,hysky.de,ietf.org,ingresse.com,ingresso.com,kaleidescape.com,likewisetv.com,litovel.cz,lottiefiles.com,lynettezang.com,marias-alm.at,meld.io,nebula.tv,nifty.com,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,pixme.co.uk,polyhaven.com,pptr.dev,puhekupla.com,quoted.tech,rcskinclinic.com,recalbox.com,reflexer.finance,royanews.tv,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,sezzle.com,sharpsecd.com,shlomo.co.il,shuttle.rs,skpay.sk,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,solidariteit.co.za,sprintmedical.in,stakingrewards.com,streamerbans.com,suzuki.ua,tally.xyz,tayama.pl,temporal.cloud,tervareitti.fi,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
 !! .m-smartbar-container
 hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 !! #policy-ribbon
@@ -20747,6 +20748,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 debijenkorf.nl##+js(set-cookie, dbk_cookie_acceptance, declined)
+cinemark.com.br##+js(set-cookie, cookies_config, deny)
 elliberal.cat##+js(set-cookie, wpl_viewed_cookie, no)
 bequiet.com##+js(set-cookie, _CookiePolicyHint, true)
 hifitest.de##+js(set-cookie, cookie-set-popup, 0, , reload, 1)
@@ -22053,7 +22055,7 @@ gigasport.at,gigasport.de,gigasport.ch##+js(set-cookie, consentAll, 1)
 velleahome.gr##+js(set-cookie, hide_cookies_consent, 1)
 nicequest.com##+js(set-cookie, nicequest_optIn, 1)
 handelsbanken.no,handelsbanken.com,handelsbanken.co.uk,handelsbanken.se,handelsbanken.dk,handelsbanken.fi##+js(set-cookie, shb-consent-cookies, false)
-apyhub.com,ilarahealth.com,paderborn.de##+js(set-cookie, cookies-accepted, true, , reload, 1)
+apyhub.com,ilarahealth.com,paderborn.de,ksaexpo2025.sa##+js(set-cookie, cookies-accepted, true, , reload, 1)
 bppulse.com##+js(set-cookie, advertising-cookie-consent, denied)
 bppulse.com##+js(set-cookie, performance-cookie-consent, denied)
 songtradr.com##+js(set-cookie, cpaccepted, true)
@@ -27380,7 +27382,7 @@ cgslb.be#@#.eu-cookie-compliance-banner
 imt-mines-ales.fr#@#.eu-cookies
 govern.ad#@#.footer-cookies
 ocre-project.eu#@#.footer-gdpr
-ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner
+bb-parkhaus.de,ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner
 ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner-wrapper
 washingtonpost.com#@#.gdpr-consent
 washingtonpost.com#@#.gdpr-consent-container

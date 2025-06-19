@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-06-18T01:11:27Z
+! Last modified: 2025-06-19T01:11:58Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 17 Jun 2025 13:20:37 +0000
+! Last modified: Wed, 18 Jun 2025 21:49:52 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -10061,7 +10061,6 @@
 ##.consent-wrap-outer
 ##.consent-wrapper-active
 ##.consentBarWrapper
-##.consentContainer
 ##.consentLayover
 ##.consentOverlayContent
 ##.consentWrapper
@@ -17237,6 +17236,7 @@ jif.com###jms__cookie-consent__screen
 ebookrenta.com###js-ccpa-dialog
 police.uk###js-consent-banner
 lawrievetgroup.co.uk###js-consent-wrapper
+sportsmans.com###js-cookie-notification
 unbound.com###js-cookies
 shellenergy.co.uk###js-footer
 accounts.pixiv.net###js-privacy-policy-banner
@@ -19496,6 +19496,7 @@ success.trendmicro.com##c-dcx-cookie
 qualified.io##consent-cookie-popup
 23degrees.io##consent-toast
 access.login.nhs.uk##core-cookie-banner
+czds.icann.org##czds-cookie-notification
 medium.com##div > .branch-journeys-top
 c.realme.com##div > .cookie-privacy
 corrupt.wiki,developer.rocket.chat,docs.abaddon.me,docs.betterupdocs.coreframework.com,docs.fluentbit.io,docs.flutterflow.io,docs.ibracorp.io,docs.jabref.org,docs.kickbot.app,electronforge.io,filebrowser.org,guides.cryptowat.ch,meshnet.nordvpn.com,support.saleae.com,wiki.valhelsia.net##div.r-1xcajam.css-175oi2r
@@ -20198,7 +20199,7 @@ cancerfonden.se##div[class^="CookieDisclaimer"]
 !! .overLay
 abundantgracetabernacle.org.uk,destemma.org,pacificandgold.co.uk##.overLay
 !! .CookieConsent
-bakkenbaeck.com,bluemail.me,breakingthenews.net,buildclub.com,business-standard.com,cmodcoolcats.com,cuevana-3.eu,cuevana3.eu,e-ville.com,fanatical.com,fiorentinabaseball.it,flyrevo.com,fmc.hu,forbesafrica.com,fotmob.com,fundacaoitau.org.br,galea.co,geerly.com,gostateparks.hawaii.gov,greekflavours.com,haveibeentrained.com,hubitat.com,hysky.de,ietf.org,ingresse.com,ingresso.com,kaleidescape.com,likewisetv.com,litovel.cz,lottiefiles.com,lynettezang.com,marias-alm.at,meld.io,nebula.tv,nifty.com,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,pixme.co.uk,polyhaven.com,pptr.dev,puhekupla.com,quoted.tech,rcskinclinic.com,recalboreflexer.finance,royanews.tv,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,sezzle.com,sharpsecd.com,shlomo.co.il,shuttle.rs,skpay.sk,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,solidariteit.co.za,sprintmedical.in,stakingrewards.com,streamerbans.com,suzuki.ua,tally.xyz,tayama.pl,temporal.cloud,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
+bakkenbaeck.com,bluemail.me,breakingthenews.net,buildclub.com,business-standard.com,cmodcoolcats.com,cuevana-3.eu,cuevana3.eu,e-ville.com,fanatical.com,fiorentinabaseball.it,flyrevo.com,fmc.hu,forbesafrica.com,fotmob.com,fundacaoitau.org.br,galea.co,geerly.com,gostateparks.hawaii.gov,greekflavours.com,haveibeentrained.com,hubitat.com,hysky.de,ietf.org,ingresse.com,ingresso.com,kaleidescape.com,likewisetv.com,litovel.cz,lottiefiles.com,lynettezang.com,marias-alm.at,meld.io,nebula.tv,nifty.com,nordlayer.com,nordlocker.com,nyctourism.com,ocbase.com,officedepot.hu,opyn.co,pango.education,pcsx2.net,pichau.com.br,pixme.co.uk,polyhaven.com,pptr.dev,puhekupla.com,quoted.tech,rcskinclinic.com,recalboreflexer.finance,royanews.tv,salvagemarket.co.uk,sankei.com,senda.pl,senpa.io,sezzle.com,sharpsecd.com,shlomo.co.il,shuttle.rs,skpay.sk,soldfy.com,soldfy.dk,soldfy.fi,soldfy.no,soldfy.se,solidariteit.co.za,sprintmedical.in,stakingrewards.com,streamerbans.com,suzuki.ua,tally.xyz,tayama.pl,temporal.cloud,tervareitti.fi,u.sb,ubank.co.za,upgrade.chat,wheels.ca,zakzak.co.jp##.CookieConsent
 !! .m-smartbar-container
 hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 !! #policy-ribbon
@@ -20612,6 +20613,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 debijenkorf.nl##+js(set-cookie, dbk_cookie_acceptance, declined)
+cinemark.com.br##+js(set-cookie, cookies_config, deny)
 elliberal.cat##+js(set-cookie, wpl_viewed_cookie, no)
 hifitest.de##+js(set-cookie, cookie-set-popup, 0, , reload, 1)
 ibkrcampus.com##+js(set-cookie, IBKRcampus_mktng_optIn, false)
@@ -21895,7 +21897,7 @@ gigasport.at,gigasport.de,gigasport.ch##+js(set-cookie, consentAll, 1)
 velleahome.gr##+js(set-cookie, hide_cookies_consent, 1)
 nicequest.com##+js(set-cookie, nicequest_optIn, 1)
 handelsbanken.no,handelsbanken.com,handelsbanken.co.uk,handelsbanken.se,handelsbanken.dk,handelsbanken.fi##+js(set-cookie, shb-consent-cookies, false)
-apyhub.com,ilarahealth.com,paderborn.de##+js(set-cookie, cookies-accepted, true, , reload, 1)
+apyhub.com,ilarahealth.com,paderborn.de,ksaexpo2025.sa##+js(set-cookie, cookies-accepted, true, , reload, 1)
 bppulse.com##+js(set-cookie, advertising-cookie-consent, denied)
 bppulse.com##+js(set-cookie, performance-cookie-consent, denied)
 songtradr.com##+js(set-cookie, cpaccepted, true)
@@ -27156,7 +27158,7 @@ cgslb.be#@#.eu-cookie-compliance-banner
 imt-mines-ales.fr#@#.eu-cookies
 govern.ad#@#.footer-cookies
 ocre-project.eu#@#.footer-gdpr
-ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner
+bb-parkhaus.de,ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner
 ford-diermeier-muenchen.de,ford-kt-automobile-coesfeld.de,ford-nrw-garage-duesseldorf.de,ford-strunk-koeln.de,ford-weege-bad-salzuflen.de#@#.gdpr-banner-wrapper
 washingtonpost.com#@#.gdpr-consent
 washingtonpost.com#@#.gdpr-consent-container
@@ -27633,7 +27635,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 17 Jun 2025 19:39:37 +0000
+! Last modified: Wed, 18 Jun 2025 11:30:32 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28308,7 +28310,7 @@ technopat.net##+js(trusted-set-cookie, cmplz_consented_services, {"youtube":true
 technopat.net##+js(trusted-set-cookie, xf_consent, %5B%22_third_party%22%5D, , , reload, 1)
 
 ! https://github.com/easylist/easylist/pull/16852 - Functional cookie
-just-eat.*,justeat.it,lieferando.*,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, cookieConsent, functional, 1year, , reload, 1)
+just-eat.*,justeat.it,lieferando.*,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(set-cookie, cookieConsent, functional)
 just-eat.*,justeat.it,lieferando.*,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, je-cookieConsent, necessary, 1year)
 just-eat.*,justeat.it,lieferando.*,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, customerCookieConsent, %5B%7B%22consentTypeId%22%3A103%2C%22consentTypeName%22%3A%22necessary%22%2C%22isAccepted%22%3Atrue%7D%2C%7B%22consentTypeId%22%3A104%2C%22consentTypeName%22%3A%22functional%22%2C%22isAccepted%22%3Atrue%7D%2C%7B%22consentTypeId%22%3A105%2C%22consentTypeName%22%3A%22analytical%22%2C%22isAccepted%22%3Afalse%7D%2C%7B%22consentTypeId%22%3A106%2C%22consentTypeName%22%3A%22personalized%22%2C%22isAccepted%22%3Afalse%7D%5D, 1year)
 
@@ -31053,7 +31055,7 @@ finom.co##+js(trusted-click-element, button[data-test="cookie-finom-card-continu
 hummel.dk##.veil
 fdm-travel.dk,hummel.dk,jysk.nl,power.no,skousen.dk,velliv.dk,whiteaway.com,whiteaway.no,whiteaway.se,skousen.no,energinet.dk##+js(trusted-click-element, button#declineButton, , 1000)
 ! decline
-elkjop.no##+js(trusted-click-element, button#wp-declineButton, , 1000)
+elkjop.no##+js(trusted-click-element, button#declineButton, , 1000)
 
 ! basic
 medimax.de##+js(trusted-click-element, button.cookies-overlay-dialog__save-btn, , 1000)
