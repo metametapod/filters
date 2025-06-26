@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 24 Jun 2025 21:50:01 +0000
+! Last modified: Wed, 25 Jun 2025 18:57:09 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -16549,7 +16549,7 @@
 ||jimstatic.com/ckies.js
 ||jsdelivr.net/gh/accept-all/cdn/banner-2024.js
 ||jsdelivr.net/gh/accept-all/cdn/banner.js
-||ketchcdn.com^$third-party,domain=~forbes.com
+||ketchcdn.com^$third-party,domain=~chipotle.com|~forbes.com
 ||ketchjs.com/lanyard/
 ||kiprotect.com/v1/privacy-managers/
 ||kookiecheck.cz/static/script/
@@ -16668,7 +16668,6 @@
 ||cmp.playpilot.com^
 ||cmp.springer.com^
 ||cmp.springernature.com^
-||cmp.tek.no^
 ||cmp.telerama.fr^
 ||cmp.uniconsent.com^
 ||cmpv2.pcworld.com^
@@ -16771,7 +16770,7 @@
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||terencehill.com/modules/hicookielaw/
 ||therapynotes.com/cdn-cgi/zaraz/
-||transcend-cdn.com^$domain=1password.com|anaconda.com|chubbiesshorts.com|classy.org|costco.ca|costco.com|etsy.com|eyeconic.com|fashionnova.com|gofundme.com|indiegogo.com|kickstarter.com|lifetouch.com|mountaineast.org|netapp.com|patreon.com|shutterfly.com|vimeo.com|visible.com|vsp.com|vspdirect.com
+||transcend-cdn.com^$domain=1password.com|anaconda.com|chubbiesshorts.com|classy.org|costco.ca|costco.com|costcobusinessdelivery.com|etsy.com|eyeconic.com|fashionnova.com|gofundme.com|indiegogo.com|kickstarter.com|lifetouch.com|mountaineast.org|netapp.com|patreon.com|shutterfly.com|vimeo.com|visible.com|vsp.com|vspdirect.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -18200,6 +18199,7 @@ tachyon.eco##.cookie-exp
 beautybay.com##.cookie-focus
 spacenighthotel.top##.cookie-locker
 answerthepublic.com##.cookie-main
+utilitybend.com##.cookie-manage-wrap
 british-assessment.co.uk##.cookie-management-intro
 ourworldindata.org,parliament.uk,theaterhaus.com##.cookie-manager
 holobuilder.com##.cookie-manager-main-container
@@ -19935,7 +19935,7 @@ kaluga-poisk.ru,vologda-poisk.ru##.lawcookie
 !! PrivacyBanner_
 holidayinnclub.com,payloadcms.com##[class^="PrivacyBanner_"]
 !! #pandectes-banner
-aeropress.com,alpkit.com,gorillasports.de,imperial1916.com,kijimea.it,movement-made.com,oliviavonhalle.com,pipliakauppa.fi,suomikauppa.fi,wearewild.com###pandectes-banner
+aeropress.com,alpkit.com,caudabe.com,gorillasports.de,imperial1916.com,kijimea.it,movement-made.com,oliviavonhalle.com,pipliakauppa.fi,suomikauppa.fi,wearewild.com###pandectes-banner
 !! #cookies_acceptance
 courtika.com,essor.ca,groupedpa.com,laturquoise.ca,pmtroy.com,rockebilly.com,tremblayassurance.com,univesta.com###cookies_acceptance
 !! .consent-box
@@ -27489,7 +27489,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js$domain=zagreb.mozemo.hr
 @@||cdn.jsdelivr.net^*/cookie-consent.js$domain=fluentify.com|notdiamond.ai|webtic.it
 @@||cdn.jsdelivr.net^*/cookieconsent.min.js$domain=electrobueno.com|papekenworth.com
-@@||cdn.ketchjs.com/lanyard/$script,domain=realtruck.com
+@@||cdn.ketchjs.com/lanyard/$script,domain=chipotle.com|realtruck.com
 @@||cdn.opencmp.net/tcf-v2/cmp-latest.js$script,domain=foraum.de
 @@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$script,domain=idowa.de
 @@||cdn.shopify.com/extensions/*/complianz-gdpr-cookie-consent-33/$domain=thebarn.de
