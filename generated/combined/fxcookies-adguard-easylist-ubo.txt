@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-06-29T01:20:04Z
+! Last modified: 2025-06-30T01:16:55Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: 1PeB58WxVlZPJEjPwq66MQ
-! Diff-Path: ../patches/18/18-s-1751134345-3600.patch
+! Checksum: soVeu7IfCTFWhLkvTb51sA
+! Diff-Path: ../patches/18/18-s-1751231431-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.64.84
-! TimeUpdated: 2025-06-28T18:08:22+00:00
+! Version: 2.0.64.87
+! TimeUpdated: 2025-06-29T21:06:42+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2559,7 +2559,7 @@ podorozhnik.spb.ru##.ppa-cookie-confirm-message
 geekbuying.com##div[class^="gkb-consent-"]
 aihumanizer.ai,humbot.ai#$##cc-main { display: none !important; }
 aihumanizer.ai,humbot.ai#$#.disable--interaction { overflow: auto !important; }
-vktry.com###polaris-css-lockdown-container
+vktry.com,gearaid.com###polaris-css-lockdown-container
 fusetter.com##div[class^="CookiePopup_"]
 horeca.com#$#.modal-consent { display: none !important; }
 horeca.com#$#.modal-backdrop:not(.modal-backdrop + .modal-backdrop) { display: none !important; }
@@ -4268,7 +4268,7 @@ ruggable.de,talentdays.pl#$##headlessui-portal-root { display: none !important; 
 ruggable.de,talentdays.pl#$#html { overflow: auto !important; padding-right: 0 !important; }
 ruggable.de,talentdays.pl#$#body { overflow: auto !important; padding-right: 0 !important; }
 emu-land.net##.policy-validation
-codedead.com,etelecinema.hu##div[role="alert"]
+codedead.com,etelecinema.hu,drive.gsb.gov.tr##div[role="alert"]
 iotransfer.itopvpn.com##.fl-accept
 3dmodelshare.org##.flatsome-cookies
 chessly.com##span > div[class^="NotificationPanel_"]:has(> div[class^="CookieConsentForm_"])
@@ -6283,7 +6283,7 @@ displayspecifications.com#$#body { overflow: auto !important; }
 oficinasmontiel.com###darklayer
 spiele-offensive.de###consentContainer
 ras.bz.it##body.dp--cookie-consent .body-inner::before
-docs.libretro.com,hiddify.com,baslerweb.com,nokogiri.org,github.io,docs.nefarius.at,forethought.ai##.md-consent
+docs.libretro.com,hiddify.com,baslerweb.com,nokogiri.org,github.io,docs.nefarius.at,forethought.ai,psmodule.io##.md-consent
 prensariomusica.com##.rgpd-leyend
 st-andrews.ac.uk##div[id^="sta-cc"][aria-label^="Cookie preferences"]
 similarweb.com,book24.ru##.app-cookies-notification
