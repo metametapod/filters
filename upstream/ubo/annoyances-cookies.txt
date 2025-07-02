@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sun, 29 Jun 2025 21:56:40 +0000
+! Last modified: Tue, 01 Jul 2025 12:02:05 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -3225,8 +3225,8 @@ hepster.com##+js(trusted-click-element, button#saveChoice, , 1000)
 ! necessary
 pointomega.de##+js(trusted-set-local-storage-item, cookieMonster, 'war schon da')
 
-! refuse
-ellisphere.fr##+js(trusted-click-element, button#refuseCookiesBtn, , 1000)
+! necessary + pref
+ellisphere.com##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false}, 1year)
 
 ! necessary 
 peterstaler.de,blackforest-still.de##+js(trusted-click-element, button.p-button.p-privacy-settings__accept-selected-button, , 2500)
@@ -4607,3 +4607,6 @@ bistro.sk##pie-cookie-banner
 ! https://logistics.vr.fi/fi/vr-logistiikka/linked/artikkeli/jattimuuntaja-matkasi-halki-suomen-301120201145/#
 ! All cookies, needed for videos
 logistics.vr.fi##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true}, 1year)
+
+! https://github.com/uBlockOrigin/uAssets/issues/29037 - preferences
+kabasakalonline.com##+js(trusted-set-local-storage-item, cookie-consent, '{"name":"cookie-consent","default":false,"date":"$currentDate$","permissions":{"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","personalization_storage":"denied","functionality_storage":"granted","security_storage":"granted"}}')
