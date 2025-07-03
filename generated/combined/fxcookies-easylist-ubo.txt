@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-07-02T01:11:52Z
+! Last modified: 2025-07-03T01:12:43Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 01 Jul 2025 13:21:30 +0000
+! Last modified: Wed, 02 Jul 2025 13:20:59 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18208,6 +18208,7 @@ aanstellingspas.nl##.cookieWallContainer
 athleticgreens.com##.cookie_LRb5A
 elegantflyer.com##.cookie__form
 deepseek.com##.cookie_banner-wrap
+micro1.ai##.cookie_bar-wrapper
 sasa.co.id##.cookie_consent
 arcol.io##.cookie_consent_component_wrap
 m.emsc.eu,mallplaza.com##.cookie_container
@@ -19653,7 +19654,7 @@ just-eat.fr,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-setting
 ! #cookiesjsr
 brightlands.com,cnmc.es,confea.org.br,elbitsystems.com,frequentis.com,gmv.com,iucn.org,iucncongress2025.org,land.nrw,mmkv.cz,portdebarcelona.cat,puertos.es,red.es,sagemcom.com,santiagodecompostela.gal,tecnoalarm.com,thecommonwealth.org###cookiesjsr
 ! #cookieConsent
-abcsinsights.com,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,nova.es,psiphon.ca,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
+abcsinsights.com,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,my.eekgames.com,nova.es,psiphon.ca,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
 ! .cookies-consent
 campax.org,pelephone.co.il##.cookies-consent
 ! #cookie-message
@@ -20830,6 +20831,7 @@ benvenuti.com##+js(set-cookie, CakeCookie[cookie_consent], 1)
 enzobertini.ro##+js(set-cookie, CakeCookie[cookie_consent_eb], 1)
 jelgava.lv##+js(set-cookie, user_gave_consent, 1)
 jelgava.lv##+js(set-cookie, user_gave_consent_analytics, 0)
+optimism.io##+js(set-cookie, cookieAccepted, true)
 jobs2work.*,magdeleyns.be,omniwood.be,sandboxservices.be##+js(set-cookie, cookiesallowedbyuser, 1, , ,reload, 1)
 bylena.com##+js(set-cookie, privacy_consent, 1)
 editorajuspodivm.com.br##+js(set-cookie, googleConsent, 1)
@@ -22267,6 +22269,7 @@ tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-tilastointi, no)
 ! set-local-storage-item
 teamtailor.com##+js(set-local-storage-item, CookieConsent--hideCookieConsent, true)
 notthebee.com##+js(set-local-storage-item, cookieConsent, granted)
+manuals.annafreud.org##+js(set-local-storage-item, COOKIE_CONSENT, no)
 granola.ai,polar.sh,posthog.com,hatchet.run##+js(set-local-storage-item, cookie_consent, no)
 nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-other, false)
 cape.co##+js(set-local-storage-item, no-cookie-notice-dismissed, true)
