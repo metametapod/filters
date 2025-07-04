@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-07-03T01:12:43Z
+! Last modified: 2025-07-04T01:12:26Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 02 Jul 2025 13:20:59 +0000
+! Last modified: Thu, 03 Jul 2025 02:30:40 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18227,6 +18227,7 @@ spotlight.cn##.cookiebox
 paymentcloudinc.com##.cookiebtn
 bairdwarner.com##.cookieinfo
 wildwoodrestaurants.co.uk##.cookiely
+premierhealth.com##.cookiemessage
 uplink.xyz##.cookies--w
 autotoll.com.hk##.cookies-agreement-container
 gstarcad.net##.cookies-ask
@@ -20027,7 +20028,7 @@ dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,krepling.com,kritikos-sm.gr
 !! .cookie-check
 connection.com,eink.com,govconnection.com,iphotel.com.br,macconnection.com##.cookie-check
 !! .cc-window
-ablebits.com,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,e-infra.com,eingutertag.org,gesundheit-nds.de,getrawnutrition.com,gilli-food.it,goldammer.me,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,ionos-group.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sf311.org,siebenfoercher.it,tann.it,technoalpin.com,tiom.pl,webit.org,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
+ablebits.com,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,e-infra.com,eingutertag.org,gesundheit-nds.de,getrawnutrition.com,gilli-food.it,goldammer.me,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,ionos-group.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sf311.org,siebenfoercher.it,tann.it,technoalpin.com,tiom.pl,webit.org,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
 !! .popup
 advgazeta.ru,agcopartsbooks.com,beiersdorf.com,czc.cz,digitfoto.de,efootwear.eu,engeo.ch,gps-viewer.com,hypeauditor.com,kiswe.com,kolesnic.ru,mellerud.de,mesampoulesgratuites.fr,mindmatrix.net,renewal.ru,salesmanago.pl,swayhotels.com,topographic-map.com,travelexpress.pl,yclients.com,zabkagroup.com##.popup
 !! .popup-container
@@ -20629,6 +20630,7 @@ campingdusoleil.com,hotel-la-chaumiere.com,les-anges-gardiens.fr,croco-kid.com,c
 toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
+megasport.co.il##+js(set-cookie, YourCoockieName, true)
 debijenkorf.nl##+js(set-cookie, dbk_cookie_acceptance, declined)
 samsungsds.com##+js(set-cookie, cookie_policy_level, '"1"')
 cms-wheels.com##+js(set-cookie, cmswheels_cookie, no)
@@ -27624,7 +27626,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 01 Jul 2025 12:02:05 +0000
+! Last modified: Thu, 03 Jul 2025 17:16:14 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -27675,6 +27677,9 @@ partner.co.il##.cookie-message
 !!! Trusted scriptlets------------------------------------------------------------
 
 !! Accept mandatory cookies / reject all additional cookies
+! Do not use trusted-set-cookie for Google - it will cause captcha prompts for many users (maybe Google's antibot systems don't like the same cookie value being shared?) The issue doesn't appear in every region though
+! https://old.reddit.com/r/uBlockOrigin/comments/1l8i7qu/unusual_traffic_warning_from_google_search_in/
+www.google.*##+js(trusted-click-element, button#W0wltc, , 500)
 ! When moving from Google search to other Google services or opening them directly. E.G. https://translate.google.com/ 
 consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"])
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-8260397
@@ -28074,16 +28079,6 @@ cencenelec.eu##+js(trusted-set-cookie, cookieconsent, saved=1&functional=0&analy
 kick.com##+js(trusted-set-cookie, cookie_preferences_set_v1, %7B%22state%22%3A%7B%22preferences%22%3A%7B%22necessary%22%3Atrue%2C%22functional%22%3Afalse%2C%22performance%22%3Afalse%2C%22targeting%22%3Afalse%2C%22userHasMadeChoice%22%3Atrue%7D%2C%22functionalEnabled%22%3Afalse%2C%22performanceEnabled%22%3Afalse%2C%22targetingEnabled%22%3Afalse%7D%2C%22version%22%3A0%7D, , , domain, .kick.com)
 
 !! Needs additional cookies
-
-! https://github.com/uBlockOrigin/uAssets/issues/23701
-! Doesn't enable search customization anymore, reject all now
-! Expire time can't be for a session only: https://www.reddit.com/r/uBlockOrigin/comments/1dh4mi4/google_reverts_to_light_theme_between_sessions_in/
-! https://www.reddit.com/r/uBlockOrigin/comments/1ekkkp1/google_constantly_reverting_to_light_mode_and/
-! https://github.com/uBlockOrigin/uAssets/issues/26537#issuecomment-2952259241
-! Better to use domain option to make sure the scriptlet sets the cookie to the same place as the site would naturally set it
-! https://old.reddit.com/r/uBlockOrigin/comments/1l8i7qu/unusual_traffic_warning_from_google_search_in/
-! Trusted-set-cookie causes Google captcha issues, clicker is safer
-www.google.*##+js(trusted-click-element, button#W0wltc, , 500)
 
 ! Closing Optanon Alert Box
 1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,elkspel.nl,giochixl.it,glamour.com,grajteraz.pl,isladejuegos.com,jatekokxl.hu,paixnidiaxl.gr,pushsquare.com,spelo.se,spillespill.no,spilxl.dk,thejournal.ie,thetrainline.com,vkmag.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
@@ -28540,7 +28535,7 @@ chron.com,greenwichhoustonchronicle.com,mysanantonio.com,seattlepi.com,sfchronic
 
 ! https://github.com/uBlockOrigin/uAssets/issues/21749
 ! button[title="Accepter"]
-consent.capital.fr,consent.voici.fr,programme-tv.net##+js(trusted-click-element, button[title="Accepter"])
+consent.capital.fr,consent.programme.tv,consent.voici.fr,programme-tv.net##+js(trusted-click-element, button[title="Accepter"])
 
 ! hide banner, allow embeeded social 
 24ur.com##.cookies
