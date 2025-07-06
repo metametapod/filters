@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-07-05T01:09:30Z
+! Last modified: 2025-07-06T01:18:56Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 04 Jul 2025 15:50:56 +0000
+! Last modified: Sat, 05 Jul 2025 13:14:23 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -20633,6 +20633,7 @@ toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 megasport.co.il##+js(set-cookie, YourCoockieName, true)
+frontieresmedia.fr##+js(set-cookie, frtnrs_consent, true)
 debijenkorf.nl##+js(set-cookie, dbk_cookie_acceptance, declined)
 samsungsds.com##+js(set-cookie, cookie_policy_level, '"1"')
 cms-wheels.com##+js(set-cookie, cmswheels_cookie, no)
@@ -27016,7 +27017,7 @@ admit-one.co.uk#@##cookieOverlay
 search.itaa.be#@##cookieWrapper
 gogolf.fi#@##cookie_hdr_showagain
 play-cricket.com#@##cookieaccept
-buendnisse-fuer-bildung.de,drklein.de,oxfamnovib.nl,zensus2022.de#@##cookiebanner
+buendnisse-fuer-bildung.de,drklein.de,oxfamnovib.nl,thw-ausbildungszentrum.de,zensus2022.de#@##cookiebanner
 icscards.nl#@##cookiebar
 skyrc.com#@##cookiebox
 rodekruis.be#@##cookieconsent-banner
