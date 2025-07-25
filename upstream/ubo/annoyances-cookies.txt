@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 22 Jul 2025 20:08:00 +0000
+! Last modified: Thu, 24 Jul 2025 15:55:20 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -180,9 +180,10 @@ vivantis.*,vivantis-shop.at##+js(set-local-storage-item, gdpr-done, true)
 vivantis.*,vivantis-shop.at##+js(trusted-set-local-storage-item, cookiesSettings, '{"remarketing":false,"personalisation":false,"statistics":false}')
 ! https://www.gereedschapcentrum.nl/
 gereedschapcentrum.nl##+js(trusted-set-cookie, fixami.app_state, eyJzdGF0ZSI6eyJpc1RheEluY2x1ZGVkIjp0cnVlLCJpc0ZpcnN0VmlzaXQiOnRydWUsImlzQ3VzdG9tZXJTZXJ2aWNlTW9kYWxPcGVuIjpmYWxzZSwiYWNjZXB0ZWRDb29raWVzIjoiMCIsImhhc0FjY2VwdGVkQ29va2llcyI6dHJ1ZSwiaGFzQWNjZXB0ZWRNYXJrZXRpbmdDb29raWVzIjp0cnVlLCJoYXNBY2NlcHRlZFN0YXRpc3RpY3NDb29raWVzIjp0cnVlfSwidmVyc2lvbiI6MH0=)
-! Tumblr, sample page: https://urshunt.tumblr.com/
+! Tumblr, sample page: https://urshunt.tumblr.com/ & https://jhlcolorizing.tumblr.com/ (both have different kind of dialog)
 tumblr.com##+js(trusted-click-element, .cmp__dialog-footer-buttons > .is-secondary)
 tumblr.com##.components-modal__screen-overlay
+tumblr.com##.tmblr-iframe--gdpr-banner
 ! https://ontinet.com/
 ontinet.com##+js(trusted-set-cookie, website_cookies_bar, '{"required": true, "optional": false}')
 ! fplstatistics .co.uk/.com
@@ -1588,10 +1589,10 @@ tvsyd.dk##+js(trusted-set-cookie, tv2reg_cookie_consent, '{"revision":1,"consent
 ! required/comfort=true
 suedtirolerjobs.it,kaerntnerjobs.at,tirolerjobs.at,salzburgerjobs.at,wienerjobs.at##+js(trusted-set-cookie, cookieConsents, '{%22required%22:true%2C%22statistics%22:null%2C%22comfort%22:true%2C%22personalization%22:null}')
 
-bunte.de,chip.de,focus.de##[id^="sp_message_container"]
-bunte.de,chip.de,focus.de##html.sp-message-open > body:style(position: unset !important; overflow: unset !important)
+bunte.de,chip.de,focus.de,tvspielfilm.de,tvtoday.de##[id^="sp_message_container"]
+bunte.de,chip.de,focus.de,tvspielfilm.de,tvtoday.de##html.sp-message-open > body:style(position: unset !important; overflow: unset !important)
 ! cdn.privacy-mgmt.com/stol.it
-cmp.tvspielfilm.de,cmp.bunte.de,cmp.chip.de,cmp.focus.de,cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Akzeptieren"], , 1000)
+cmp.tvtoday.de,cmp.tvspielfilm.de,cmp.bunte.de,cmp.chip.de,cmp.focus.de,cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Akzeptieren"], , 1000)
 
 ! Mandatory + Functional - for customer service chat
 posti.fi##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year, , domain, posti.fi)
@@ -4683,3 +4684,9 @@ bbbank.de,bib-fairbanking.de,cvw-privatbank-ag.de,dkm.de,eb.de,edekabank.de,even
 
 ! https://github.com/uBlockOrigin/uAssets/issues/29174#issuecomment-3094590442
 metro.co.uk##+js(trusted-click-element, div[data-project="mol-fe-cmp"] button[class*="level1PrimaryButton-"]:not([class*="reject"]))
+
+! https://github.com/uBlockOrigin/uAssets/issues/29295 - security + functionality
+egdata.app##+js(trusted-set-cookie, EGDATA_COOKIES_2, eyJnb29nbGVBbmFseXRpY3MiOmZhbHNlLCJzZWxmSG9zdGVkQW5hbHl0aWNzIjp0cnVlLCJnb29nbGVDb25zZW50Ijp7ImFkX3N0b3JhZ2UiOiJkZW5pZWQiLCJhZF91c2VyX2RhdGEiOiJkZW5pZWQiLCJhZF9wZXJzb25hbGl6YXRpb24iOiJkZW5pZWQiLCJhbmFseXRpY3Nfc3RvcmFnZSI6ImRlbmllZCIsImZ1bmN0aW9uYWxpdHlfc3RvcmFnZSI6ImdyYW50ZWQiLCJwZXJzb25hbGl6YXRpb25fc3RvcmFnZSI6ImRlbmllZCIsInNlY3VyaXR5X3N0b3JhZ2UiOiJncmFudGVkIn0sImFocmVmc0FuYWx5dGljcyI6ZmFsc2V9, , , domain, .egdata.app)
+
+! https://www.rikstoto.no/ - Necessary only
+rikstoto.no##+js(trusted-set-cookie, consent_status, 'analytics:false,personalization:false,marketing:false,necessary:true')
