@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 4ShdJk5jF+aZTiDU3Rwelg
-! Diff-Path: ../patches/18/18-s-1753989156-3600.patch
+! Checksum: i63aWQQMGFEeN0dm5XRnrQ
+! Diff-Path: ../patches/18/18-s-1754050523-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.66.96
-! TimeUpdated: 2025-07-31T19:08:52+00:00
+! Version: 2.0.67.1
+! TimeUpdated: 2025-08-01T12:11:45+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2480,6 +2480,11 @@ kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-w
 !
 ! NOTE: Regular rules
 !
+dunyakatilim.com.tr##body .footer-cookie-policy
+.co/geoconsent?$domain=geotargetly.com
+ashild.no##.cookie-shadow
+profile.tarkov.com##.bsg-ac-cookie-agreement
+gamermarkt.com###fccm_alert
 m6.fr#$#body > div#__brk ~ div:has(> aside[aria-modal] a[href^="/politique-de-confidentialite/"]) { display: none !important; }
 m6.fr#$#body[style="overflow: hidden;"] { overflow: auto !important; }
 imirante.com##.bannerLGPD
@@ -7583,8 +7588,6 @@ mubi.pl##div[aria-label="Cookie Agreement"]
 england.de###apccookies
 futuregames.se##.cookies-pwrap
 officebase.info,ergonbike.com##.ch-cookie-consent
-motointegrator.de#$##fancybox-overlay { display: none !important; }
-motointegrator.de#?##fancybox-wrap:has(div#fancybox-content > div[style] > div.gdpr-modal)
 fau.de,fau.eu##.show-cookie-box
 projectfastos.top,techtracker.in,loukoala.blogspot.com###vtrick-pro-cookie-ify
 sber-bank.by##.CookiesMessageBlock
