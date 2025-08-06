@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-05T01:18:58Z
+! Last modified: 2025-08-06T01:17:24Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: KBHbQ4NC7XdHcxaiCFDHfg
-! Diff-Path: ../patches/18/18-s-1754349057-3600.patch
+! Checksum: pbWrV5uvkpZbNto6oYIQlg
+! Diff-Path: ../patches/18/18-s-1754431889-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.67.16
-! TimeUpdated: 2025-08-04T23:07:23+00:00
+! Version: 2.0.67.26
+! TimeUpdated: 2025-08-05T22:07:41+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -36,6 +36,7 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##div[data-testid="cookies-dialog"]
 ##.cookie-confirmation-banner
 ###pi_tracking_opt_in_div
 ###data-controller-stripe
@@ -2297,7 +2298,7 @@ allianz.de,easybib.com,st.com,mauijim.com,citationmachine.net,idevice.ro,tagheue
 ! ##div[aria-label="cookieconsent"]
 track24.ru,wakacje.pl,argyle.com,mous.co,treetotub.com,lff.playfulpromises.com,zyro.com,ignshop.hu,download.pixelexperience.org,waterdrop.com,exvital.de,mobile01.com,duckduckgo.merchmadeeasy.com,bear-family.com,r-pur.com##div[aria-label="cookieconsent"]
 ! ###cookie-box
-bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntteknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
+24u.app,bankadunyasi.com,gazikent27.com,mansetebak.com,url-decode.com,birsenaltuntteknoinfo.com.tr,iplocation.io,engelli.com,cheatermad.com,arabateknik.com,dizihastasi.com,zamaninvarken.com,kriptoradar.com,korsanedebiyat.com,stakingrewards.com,hockerty.de,izlemedia.com,tilki.net,mustafabukulmez.com,konuneydi.com,ozgunbilgi.com,bilisimogretmeni.com,azbuz.org,teknobird.com,ultrabilgi.com,aksaelektrik.com.tr,ergo.de,fosforludusunceler.com,denizcilikbilgileri.com,dnschecker.org,krombacher.de###cookie-box
 ! ##.avia-cookie-consent
 intern.gardengirls.de,catchbudapest.com,lc-nachhilfe.de,tredition.de,schiffchen-ahoi.de,kernsgalabau.de,octopus-itsm.com,sosort.org,bogaziciyonetim.istanbul,drivers.plus,readymade-furniture.de,schieb.de,my-digital-home.de,celesta-schiedmayer.de,sheerid.com,vantec.de,anlegen-in-immobilien.de##.avia-cookie-consent
 ! ##.policy
@@ -2341,7 +2342,7 @@ kanalben.com,tarsushaber.com,mhrs.gov.tr,malatyasoz.com,nehir.net,yeniufuk.com.t
 ! ##.MuiSnackbar-anchorOriginBottomCenter
 creativefabrica.com,flickplay.co,globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com,shoppingcidademaringa.com.br##.MuiSnackbar-anchorOriginBottomCenter
 ! ###cc-main
-videspratiba.lv,soleretriever.com,healf.com,gameship.io,xzone.pl,givesendgo.com,workstreams.ai,trae.ai,jimms.fi,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,kurczakiodeliasza.com,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,grepnewsinslowfrench.com,happyscribe.com###cc-main
+escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,xzone.pl,givesendgo.com,workstreams.ai,trae.ai,jimms.fi,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,kurczakiodeliasza.com,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,grepnewsinslowfrench.com,happyscribe.com###cc-main
 ! consentmanager.net (check, if embed content and videos are not broken)
 ||consentmanager.net^$domain=visions.de|gartenlexikon.de|tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|wolfsburger-nachrichten.de|mediengestalter.info|sugafari.com|gdv.de|uk-essen.de|dieversicherer.de|tomaten.de|aquarienpflanzen-shop.de|jobs.shz.de|leichtathletik.de|ikz-online.de|radiobollerwagen.de|hervis.at|frustfrei-lernen.de|entsorgen.org|wr.de|harzkurier.de|consentmanager.net|juraforum.de|history.de|inrlp.de|teslamag.de|e-konomista.pt|cylex-polska.pl|agrarheute.com|allesbeste.de|azubiyo.de|olympia-einkaufszentrum.de|mannheimer-morgen.de|autopay.pl|r.pl|datacenter-insider.de|eternalgod.de|news.de|quoka.de|correctiv.org|ak-kurier.de|verliebt-in-den-westerwald.de|ww-kurier.de|nzz.ch|masterstudies.com|littlebigsnake.com|skr.de|morgenpost.de|astat.pl|9monate.de|bildderfrau.de|donna-magazin.de|eatclub.tv|heftig.de|reviersport.de|winfuture-forum.de|chemie.de|sylt.de|grin.com
 ! privacy-center.org / didomi
@@ -2489,6 +2490,8 @@ kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-w
 !
 ! NOTE: Regular rules
 !
+cop30.br##.lgpd-cookiebanner
+kari.com##+js(set-local-storage-item, cookie_consent, true)
 mcdonalds.com##.embed:has(> #usTnCBanner)
 screenbeam.com##.wcc-consent-container
 pro32.com###agreeCookieContainer
@@ -2575,7 +2578,6 @@ blog.domclick.ru##div[data-e2e-id="topline__cookie-alert"]
 deps.dev##div[style^="left: calc("][style*=" top: calc("][style$="position: fixed;"]
 ||4chanarchives.com/js/silktide-consent-manager.js
 sber.ru##div[data-testid="cookie_banner"]
-developers.eyeo.com##div[data-testid="cookies-dialog"]
 zenhotels.com##div[class^="Card"]:has(> div[class^="CookieBanner"])
 nspk.ru##.modals-cookies
 d5render.com##.home-hero-section ~ div > div[style^="box-sizing:border-box; position:fixed; bottom:0; left:0; z-index:9999; width:100%; display:flex;"]
@@ -2887,7 +2889,7 @@ tripleaction.de,schuh-vormbrock.de,maxmo.de##+js(set-cookie, cookie-preference, 
 vercel.com###fides-overlay
 dasreda.ru##div[data-qa="Cookie-notice-agreement"]
 amcharts.com###amcharts-utils-consent
-brisanet.com.br##div[aria-labelledby="cookie-consent-title"]
+postly.ai,brisanet.com.br##div[aria-labelledby="cookie-consent-title"]
 gtaweb.eu##+js(set-cookie, gweb_cookie_general, 1)
 ||static.coros.com/coros-v2/static/js/cookieconsent
 anm.cx##+js(set-cookie, null_cookie_notice, 1)
@@ -2945,7 +2947,6 @@ amazon.*###sp-cc-wrapper
 atribuna.com.br##.ThemeProvider div[class^="pds-c-"]:has(> div[class] > span > a[href^="/institucional/politica-de-privacidade"])
 homecinesolutions.fr###consent-loader-component
 deepseek.com##.cookie_banner-wrap
-bugzilla.mozilla.org##.moz-consent-banner
 worthepenny.com###privacy_policy_popup
 ortorex.de###cookie-overlay-q
 focusgarden.pl#$#div[class^="cookieBar"] { display: none !important; }
@@ -3752,7 +3753,6 @@ porque.com.br###termos_analytics
 ccaa.com.br###banner-footer-lgpd
 suspilne.media##.cookies-popup-suspilne
 retouch4.me##div[class*="CookieConsentBanner"]
-docs.usetrmnl.com,developers.oxylabs.io,docs.edgeimpulse.com,opencollective.com,help.quantower.com,docs.nexthink.com##div[data-testid="cookies-dialog"]
 canva.com##body > div[style^="z-index:"]:has(p > span > a[href*="cookie"])
 super.ru##+js(set-cookie, _super_privacy_accepted, true)
 mixcloud.com##div[class*="CookieWarning__"]
@@ -5715,7 +5715,7 @@ cannondale-bikes.hu,cannondalebikes.pl,cannondalebikes.sk,cannondalebikes.cz###c
 ambassadorcruiseline.com##div[class*="--cookies"]
 ||landrover.co.jp/*/components-cookie-notification-cookie-notification-js
 ipevo.com,megacomshop.com,hangfire.io##.wpcb-container
-3dexperience.3ds.com,duunitori.fi,l-a.no,deptagency.com,soshace.com##.gdpr-modal
+ohga.it,3dexperience.3ds.com,duunitori.fi,l-a.no,deptagency.com,soshace.com##.gdpr-modal
 elizawashere.nl##.w-cookie-consent
 kundenservice.logpay.de#$##cookie_wrapper { display: none !important; }
 kundenservice.logpay.de#$#*[style*="blur"] { filter: none !important; }
@@ -8340,7 +8340,7 @@ hahnair.com###cookieRequestBox
 britishairways.com#$#body[style^="overflow:"] { overflow: auto !important; }
 britishairways.com#$##ensNotifyBanner[aria-label="Consent Banner"] { display: none !important; }
 britishairways.com#$##overlay { display: none !important; }
-ayedas.com.tr,toroslaredas.com.tr,baskentedas.com.tr##.footer_cerezpolitikasi
+meramedas.com.tr,ayedas.com.tr,toroslaredas.com.tr,baskentedas.com.tr##.footer_cerezpolitikasi
 xoxowifi.com###cookies_message_container
 tylko.com##.ty-settings
 cn.momondo.com#$#body { position: static !important; overflow: auto !important; }
@@ -8901,7 +8901,7 @@ blog.masmovil.es,blog.grupomasmovil.com#?#.gmm-cookies
 blog.masmovil.es,blog.grupomasmovil.com#$#body.scroll-locked { overflow-y: auto !important; }
 masmovil.es#$#div[data-hook="cookies-modal-container"] { display: none !important; }
 masmovil.es#$#body[style*="overflow:"] { overflow: auto !important; padding-right: 0 !important; }
-design-homes.ru##.politika
+seddesign-homes.ru##.politika
 catracalivre.com.br###lgpd-box
 red-by-sfr.fr###CkC
 compass.education##.cookieconsentcomponent
@@ -14991,6 +14991,8 @@ befestigungsfuchs.de,jawoll.de,cafe-royal.com,campingplus.de,bikebox-shop.de,mli
 !
 !
 !+ NOT_OPTIMIZED
+bugzilla.mozilla.org##.moz-consent-banner
+!+ NOT_OPTIMIZED
 la3eb.com##div[class^="AllowCookiesDisclaimer"]
 !+ NOT_OPTIMIZED
 insideclimatenews.org##.icn-cookie-notice
@@ -15924,6 +15926,11 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/210771
+bikepark24.pl#@#.shop_index > div.consents
+bikepark24.pl#@##shoper-foot ~ div.consents
+! https://github.com/AdguardTeam/AdguardFilters/issues/210417
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=outdoorsy.com
 ! rte.ie
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=rte.ie
 rte.ie#@##onetrust-consent-sdk
