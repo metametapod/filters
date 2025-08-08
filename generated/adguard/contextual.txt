@@ -1,6 +1,6 @@
 ! Title: Unblock Contextual Ads (reduced)
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-07T01:18:55Z
+! Last modified: 2025-08-08T01:17:34Z
 ! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
 ! Description: AdGuard Unblock Contextual Ads filter applied to select privacy-friendly sites only.
@@ -19,6 +19,7 @@ startpage.com#@?##main > div[class^="css-"]:has(> div[class^="css-"] > p[class^=
 startpage.com#@?#.main-results-container > div.shopping-header > div[class^="css-"] > div[class^="css-"] > div.information-container + div[class^="css-"]:has(> span:contains(/Sponsoreret|Gesponsert|Sponsored|Patrocinad|Sponsorisé|Gesponsord|Sponset|Sponsorowane|Sponsrad/))
 etsy.com#@?#.responsive-listing-grid > li:has( > div > a div > .ad-iindicator)
 etsy.com#@?#div[data-search-results-region] li:has( div[class*="merch-stash"]:only-child > a > div[class*="listing-card__info"] p > span:not([aria-hidden="true"]):contains(Etsy))
+duckduckgo.com#@#main[data-testid="zci-products"] > nav + div > div:has( > h2 button[data-testid="ad-badge"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion#@#li[data-layout="products"]
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion#@#.module--carousel-products
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion#@#[data-layout="ad"]

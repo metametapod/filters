@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-07T01:18:55Z
+! Last modified: 2025-08-08T01:17:35Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 06 Aug 2025 13:30:01 +0000
+! Last modified: Thu, 07 Aug 2025 15:53:25 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -21613,6 +21613,8 @@ forschung-fachhochschulen.de,bafa.de,bka.de,buendnisse-fuer-bildung.de,bmleh.de#
 uk.rs-online.com##+js(set-cookie, RSCOMPONENTS_ENSIGHTEN_PRIVACY_BANNER_LOADED, 1)
 uk.rs-online.com##+js(set-cookie, RSCOMPONENTS_ENSIGHTEN_PRIVACY_Analytics, 0)
 uk.rs-online.com##+js(set-cookie, RSCOMPONENTS_ENSIGHTEN_PRIVACY_BANNER_VIEWED, 1)
+bad-scherer.de##+js(set-cookie, _cookietools, 1)
+bad-scherer.de##+js(set-cookie, _cookieaccept, 1)
 bolist.se##+js(set-cookie, cookies_marketing_ok, false)
 bolist.se##+js(set-cookie, cookies_ok, true)
 turvakilvet.fi##+js(set-cookie, GBaseConsent, 0)
@@ -26970,7 +26972,7 @@ snp.nl#@##cookieLayer
 admit-one.co.uk#@##cookieOverlay
 search.itaa.be#@##cookieWrapper
 gogolf.fi#@##cookie_hdr_showagain
-play-cricket.com#@##cookieaccept
+bad-scherer.de,play-cricket.com#@##cookieaccept
 buendnisse-fuer-bildung.de,drklein.de,oxfamnovib.nl,thw-ausbildungszentrum.de,zensus2022.de#@##cookiebanner
 icscards.nl,wellness-point.com#@##cookiebar
 skyrc.com#@##cookiebox
