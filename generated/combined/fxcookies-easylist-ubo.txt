@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-10T01:21:21Z
+! Last modified: 2025-08-11T01:18:55Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sat, 09 Aug 2025 04:15:34 +0000
+! Last modified: Sun, 10 Aug 2025 15:50:47 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18147,7 +18147,7 @@ goodlawproject.org##.cookie-card
 allyouplay.com##.cookie-card_container
 chronoodyssey.com##.cookie-con
 moneycontrol.com##.cookie-concern-wrapper
-agados.cz,concert.ua,delfortgroup.com,githubstatus.com##.cookie-consent-banner
+agados.cz,concert.ua,delfortgroup.com,githubstatus.com,puffy.com##.cookie-consent-banner
 monarchmoney.com##.cookie-consent-banner--container
 meest-shop.com##.cookie-consent-banner_root__M9V7x
 dreamingreece.com##.cookie-consent-inner
@@ -18518,6 +18518,7 @@ novantas.com##.foobar-container
 cioapplicationseurope.com,doubleviking.com,fallentitans.com,peakd.com##.footer
 subzero-wolf.com##.footer-announcement
 thesynergydentalpartners.com##.footer-bar
+publicmobile.ca##.footer-consent-main
 clausporto.com##.footer-fixed-bar
 liberal-international.org##.footer-message
 swipe.io##.footer-notice
@@ -19698,7 +19699,7 @@ brightlands.com,cnmc.es,confea.org.br,elbitsystems.com,frequentis.com,gmv.com,iu
 ! #cookieConsent
 abcsinsights.com,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,julesjordan.com,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,my.eekgames.com,myperfectnova.es,psiphon.ca,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
 ! .cookies-consent
-actie.degoedezaak.org,campax.org,pelephone.co.il##.cookies-consent
+actie.degoedezaak.org,campax.org,pelephone.co.il,voicemod.net##.cookies-consent
 ! #cookie-message
 antimoon.com,apotheke-gleichen.de,bavaria-apotheke-berlin.de,cdooperesociali.org,charmanthotel.com,irisapo.de,lilabaer.de,nordbahnhof-apotheke-stuttgart.de,preins-apotheken.de,pzn24.de,sparapo.de,surf-in-apotheke.de,szynalski.com###cookie-message
 ! #cookie-wrapper
@@ -20079,7 +20080,7 @@ dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,krepling.com,kritikos-sm.gr
 !! .cookie-check
 connection.com,eink.com,govconnection.com,iphotel.com.br,macconnection.com##.cookie-check
 !! .cc-window
-ablebits.com,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,e-infra.com,eingutertag.org,gesundheit-nds.de,getrawnutrition.com,gilli-food.it,goldammer.me,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sf311.org,siebenfoercher.it,tann.it,technoalpin.com,tiom.pl,tuxedocomputers.com,webit.org,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
+ablebits.com,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,e-infra.com,eingutertag.org,gesundheit-nds.de,getrawnutrition.com,gilli-food.it,goldammer.me,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sf311.org,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,tuxedocomputers.com,webit.org,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
 !! .popup
 advgazeta.ru,agcopartsbooks.com,beiersdorf.com,czc.cz,digitfoto.de,efootwear.eu,engeo.ch,gps-viewer.com,hypeauditor.com,kiswe.com,kolesnic.ru,mellerud.de,mesampoulesgratuites.fr,mindmatrix.net,renewal.ru,salesmanago.pl,swayhotels.com,topographic-map.com,travelexpress.pl,yclients.com,zabkagroup.com##.popup
 !! .popup-container
@@ -25197,7 +25198,8 @@ knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
 moresco.co.jp##.box_cookie_allow
 ebarafoods.com##.consent_c
-kanazawalabo.net##.cookie-consent
+get-cp.jp##.cookie-agreement
+kanazawalabo.net,liver.main.jp##.cookie-consent
 more.hpplus.jp##.cookie-inquiry
 beforward.jp##.cookie-permission
 camp-fire.jp##.cookie-policy-agreement-notification
@@ -27602,7 +27604,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Fri, 08 Aug 2025 22:45:40 +0000
+! Last modified: Sun, 10 Aug 2025 15:04:12 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28073,6 +28075,11 @@ ditjesendatjes.nl##+js(trusted-set-local-storage-item, user_consent, '{"analytic
 trafino.fi##+js(trusted-set-cookie, _gdprConsents, essentials:true|analytics:false|preferences:false|marketing:false, 1year)
 ! https://www.pirha.fi/
 pirha.fi##+js(trusted-set-cookie, p_cc, min, 1year)
+! https://github.com/uBlockOrigin/uAssets/issues/29570
+@@||consent.cookiebot.com^$script,domain=dimensione.com
+dimensione.com##+js(trusted-click-element, button#CybotCookiebotDialogBodyButtonDecline)
+! https://github.com/uBlockOrigin/uAssets/issues/29571
+hvr-amazon.my.site.com##+js(trusted-set-cookie, apex__cookiePreferences, Operational)
 
 !! Needs additional cookies
 
@@ -28945,9 +28952,12 @@ derstandard.at,derstandard.de,faz.net##+js(trusted-click-element, button[title="
 
 ! iubenda-cs-accept-btn
 ! https://github.com/uBlockOrigin/uAssets/pull/24738
-automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 1000)
-automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/20299#issuecomment-3170662344
+automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 2000)
+!#if !ext_ubol
+automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important; opacity: 0 !important;)
 automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
+!#endif
 ! https://github.com/uBlockOrigin/uAssets/pull/25606
 ! https://github.com/uBlockOrigin/uAssets/pull/25324
 ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it###iubenda-cs-banner:style(visibility: hidden !important;)
@@ -29215,11 +29225,13 @@ volksfreund.de,rp-online.de##+js(trusted-click-element, custom-button[id="consen
 pekro.cz##+js(trusted-set-cookie, ck, bbc3afa1f99650a097dc655e829ea82db262c98c%7Ee452fcf3a43bf2d79554343150020333, , , reload, 1)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25759
-@@||cmp.inmobi.com^$script,domain=dailypost.co.uk|the-express.com
-@@||cmp.inmobi.com/*.json^$xhr,domain=dailypost.co.uk|the-express.com
+@@||cmp.inmobi.com^$script,domain=dailypost.co.uk|dailyrecord.co.uk|the-express.com
+@@||cmp.inmobi.com/*.json^$xhr,domain=dailypost.co.uk|dailyrecord.co.uk|the-express.com
+@@||cmp.inmobi.com/geoip$xhr,domain=dailypost.co.uk|dailyrecord.co.uk|the-express.com
 @@||cdn-images.the-express.com/*/dist/gdpr-$script,1p
 dailypost.co.uk,the-express.com##+js(trusted-click-element, button[mode="primary"])
-dailypost.co.uk,the-express.com###qc-cmp2-container:style(visibility: hidden !important;)
+dailyrecord.co.uk##+js(trusted-click-element, #qc-cmp2-container button#accept-btn)
+! dailypost.co.uk,the-express.com###qc-cmp2-container:style(visibility: hidden !important;)
 
 ! reject
 bluray-disc.de,elio-systems.com,stagatha-fachklinik.de,tarife.lz.de,gaggenau.com##+js(trusted-click-element, a.cmptxt_btn_no, , 1000)
