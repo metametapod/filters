@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-11T01:18:55Z
+! Last modified: 2025-08-12T01:11:10Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 10 Aug 2025 15:50:47 +0000
+! Last modified: Mon, 11 Aug 2025 15:54:01 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -3294,7 +3294,6 @@
 ###cookieBannerBG
 ###cookieBannerContainer
 ###cookieBannerD
-###cookieBannerDiv
 ###cookieBannerInfo
 ###cookieBannerMain
 ###cookieBannerOverlay
@@ -17063,6 +17062,7 @@ clacson24.com###cookieInfo
 sharphomeappliances.com###cookieModuleModal
 moringa.com###cookieNoticeSoww
 hotpot.ai,supercamps.co.uk###cookieOverlay
+wildberries.by###cookiePolicyRoot
 forbestravelguide.com###cookiePolicyWrap
 viavisolutions.com###cookieRibbon
 turkishairlines.com###cookieWarningMessageNew
@@ -17495,6 +17495,7 @@ wasserklinik.com###snppopup-welcome
 eumostwanted.eu###sortingPreference
 sotio.com###sotio-super-cookie
 m.emsc.eu###splashscreen
+thoughttechnology.com###spopupCont
 selectcamp.com###ssobar
 killstar.com###static-cookie-bar
 openweather.co.uk###stick-footer-panel
@@ -18190,7 +18191,7 @@ evocsports.com##.cookie-permission-overlay
 mindworks-creative.com##.cookie-permission-popup
 vetstoria.com##.cookie-policy-acceptance-banner
 oddsscanner.com##.cookie-policy-pop-up
-campfimfo.com,compreconfie.com.br,evraz.com,hampers.com,icmarkets.eu,mediathek.lfv-mts.ru,mysky.com.ph,nobliecustomknives.com,revolutionrace.com,rsna.org,superrichthailand.com,supersport.hr,teemill.com,trt.net.tr##.cookie-popup
+campfimfo.com,compreconfie.com.br,evraz.com,hampers.com,icmarkets.eu,mediathek.lfv-mts.ru,mysky.com.ph,nobliecustomknives.com,revolutionrace.com,rsna.org,superrichthailand.com,supersport.hr,teemill.com,trt.net.tr,zamnesia.com##.cookie-popup
 slidelizard.com##.cookie-popup-dialog
 revolutionrace.com##.cookie-popup__content
 acquire.io,brkfree.com,dfine.at,esim.guru,kiron.ngo##.cookie-popup_component
@@ -18634,6 +18635,7 @@ esimplus.me##.iZOOOK
 iaawg.com##.iaawg-cookie-consent
 base.org##.ibcDCs
 docs.base.org##.ibcDCs.sc-dhKdcB
+trip.com##.ibu-cookie-banner
 insideclimatenews.org##.icn-sticky-footer
 vinylgourmet.com##.icon_rollingtext
 quora.com##.idETaN
@@ -22358,6 +22360,7 @@ tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-tilastointi, no)
 teamtailor.com##+js(set-local-storage-item, CookieConsent--hideCookieConsent, true)
 dewesoft.com##+js(set-local-storage-item, consent, false)
 notthebee.com##+js(set-local-storage-item, cookieConsent, granted)
+negrasport.pl##+js(set-local-storage-item, show_consent_modal, 1)
 manuals.annafreud.org##+js(set-local-storage-item, COOKIE_CONSENT, no)
 pancernik.eu##+js(set-local-storage-item, show_consent_modal, 1)
 pancernik.eu##+js(set-local-storage-item, df-cookies-allowed, true)
@@ -22690,6 +22693,7 @@ aida64.co.uk,aida64.com.ua,aida64.de,aida64.hu,aida64.it,aida64russia.com##+js(s
 ! set-session-storage-item
 iscc-system.org##+js(set-session-storage-item, aesirx-analytics-rejected, true)
 workwide.de##+js(set-session-storage-item, cookieModal2, 1)
+getyournec.scot##+js(set-session-storage-item, cookiePref, 1 )
 erco.com##+js(set-session-storage-item, cookieMessageDisagree, true)
 threads.com##+js(set-session-storage-item, cb, 1)
 communitycrimemap.com##+js(set-session-storage-item, disclaimerOpened, 1)
@@ -23107,6 +23111,9 @@ vadhander.hogakusten.com,vadhander.kramfors.se##+js(set, settings.consent, true)
 stewes.de##+js(set, HB.CookieSettings.init, noopFunc)
 ! gadgethacks cookie
 gadgethacks.com##+js(set, WHT.ShowConsentForm, trueFunc)
+! saos.org.pl
+saos.org.pl##+js(set, CookiePolicy, {})
+saos.org.pl##+js(set, CookiePolicy.init, noopFunc)
 ! qastack.fr
 qastack.fr##+js(set, useGDPR, false)
 ! xvideos.com
@@ -27290,7 +27297,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookie-script.com^$domain=lr-shop-direkt.de|swiss-sport.tv
 @@||cookiebot.com/uc.js$domain=bakingmad.com|cordaid.org|cosmohairshop.de|developer.opencv.fr|flughafen-zuerich.ch|gls-info.nl|lidl.gr|otto.fi|stock3.com|zuiderzeemuseum.nl
-@@||cookiebot.com^$domain=apetro.pt|apoteket.se|asambeauty.com|bankia.es|bergbauernmilch.de|biomarkt.de|bondekompaniet.no|caisse-epargne.fr|cajamar.es|cineplex.de|coinshares.com|dailybreak.com|danbolig.dk|dasinvestment.com|derivate.bnpparibdigimon.kochfilms.de|digitaltrends.com|egmont.com|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|golf.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|mineralstech.com|neue.at|nngroup.com|nordiskfilm.com|plaion.com|portofoonwinkel.nl|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|rmg.co.uk|robertsspaceindustries.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|tfl.gov.uk|tme.com|toyota-forklifts.se|vikingline.com|vn.at|volunteer.digitalboost.org.uk|warscrap.io|web.ub.edu|wells.pt|werder.de|werkenbijlidl.nl|wero-wallet.eu|woo.pt|wwf.fi|xn--myeblttle-z2a.de|zugspitze.de
+@@||cookiebot.com^$domain=apetro.pt|apoteket.se|asambeauty.com|bankia.es|bergbauernmilch.de|biomarkt.de|bondekompaniet.no|caisse-epargne.fr|cajamar.es|cineplex.de|coinshares.com|dailybreak.com|danbolig.dk|dasinvestment.com|derivate.bnpparibdigimon.kochfilms.de|digitaltrends.com|dimensione.com|egmont.com|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|golf.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|mineralstech.com|neue.at|nngroup.com|nordiskfilm.com|plaion.com|portofoonwinkel.nl|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|rmg.co.uk|robertsspaceindustries.com|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|tfl.gov.uk|tme.com|toyota-forklifts.se|vikingline.com|vn.at|volunteer.digitalboost.org.uk|warscrap.io|web.ub.edu|wells.pt|werder.de|werkenbijlidl.nl|wero-wallet.eu|woo.pt|wwf.fi|xn--myeblttle-z2a.de|zugspitze.de
 @@||cookielawinfo.com^$~third-party
 @@||cookiemanager.onm.de^$domain=eurobaustoff.com
 @@||cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js$domain=orteil.dashnet.org
