@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-21T01:07:07Z
+! Last modified: 2025-08-22T01:08:00Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 20 Aug 2025 09:50:39 +0000
+! Last modified: Thu, 21 Aug 2025 13:18:31 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18275,6 +18275,7 @@ herbiesheadshop.com##.cookies-politic__section
 12crystalroll34.com,alpinasports.com,bollywoodlife.com,cashconverters.co.za,india.com,proactiveinvestors.co.uk,thehealthsite.com##.cookies-popup
 altingunband.com##.cookies-regulation
 keralanotes.com,rockmods.net##.cookies-show
+athome.com##.cookies-toast
 2ocr.com##.cookies-toolbar
 germanospalhasitalianas.com.br,private.rockmods.net,ucoin.net##.cookies-warning
 n-ix.com##.cookiesBlock
@@ -20351,7 +20352,7 @@ blueflag.global,lemoncode.net,records.team,stoeger.net##.sqs-announcement-bar
 atract.at,chadwickandco.co.uk,einbecker-morgenpost.de,filati-outlet.com,filati.cc,filati.de,filati.ru,heizung-billiger.de,hotelspreference.com,knieskinderzoo.ch,markpolimi.it,ritten.com,rittenarena.com,sjacymru.org.uk,temptingplaces.com,umu.se##.klaro
 vorwaerts.de##.klaro-button
 !! #cc
-bistum-essen.de,bundesanzeiger-verlag.de,camerapricebuster.co.uk,domicile-emploi.net,fairtrade.at,hey.bayern,lockweiler-werke.com,mariahimmelfahrtimtaunus.de,mouldplast.eu,radioemu.com,scherer.it,tood.it,wez.ch###cc
+bistum-essen.de,bundesanzeiger-verlag.de,camerapricebuster.co.uk,domicile-emploi.net,fairtrade.at,hey.bayern,horage.com,lockweiler-werke.com,mariahimmelfahrtimtaunus.de,mouldplast.eu,radioemu.com,scherer.it,tood.it,wez.ch###cc
 !! schaefer
 schaefer-container-systems.com,schaefer-container-systems.de,schaefer-ischaefer-it-systems.de##.bg-overlay
 schaefer-container-systems.com,schaefer-container-systems.de,schaefer-ischaefer-it-systems.de##.cc-window
@@ -21895,7 +21896,7 @@ supply.amazon.co.uk##+js(set-cookie, ccs-supplierconnect, ACCEPTED)
 bhaptics.com##+js(set-cookie, accepted_cookies, yes)
 cleverbot.com##+js(set-cookie, note, 1)
 watchaut.film##+js(set-cookie, cookieConsent, required)
-tuffaloy.com,fanvue.com,seacom.com,seacom.co.za##+js(set-cookie, cookieConsent, accepted)
+407etr.com,tuffaloy.com,fanvue.com,seacom.com,seacom.co.za##+js(set-cookie, cookieConsent, accepted)
 electronoobs.com##+js(set-cookie, pd_cc, 1)
 xn--lkylen-vxa.se##+js(set-cookie, gdpr_ok, necessary)
 tiefenthaler-landtechnik.at,tiefenthaler-landtechnik.ch,tiefenthaler-landtechnik.de##+js(set-cookie, allowTracking, false)
@@ -25216,6 +25217,7 @@ sansyu-pr.co.jp###privacy-panel
 medience.co.jp###sec_cookie
 maruchiba.jp###tmp_wrap_info_box
 narita-koi.com##.CookieConfirm
+japan.calvinklein.com##.agreeCookie
 tokyotokyo.jp##.annotation-area
 knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
@@ -25366,6 +25368,7 @@ centrumrowerowe.pl###consentsPolicyDialog
 przyspiesz.pl###container_vsm
 krsystem.pl###cook
 krsystem.pl###cook_cover
+login.ingbank.pl###cookie-banner-region
 eastnews.pl###cookie-frame
 przystanki.bialystok.pl,przystanki.mzktomaszow.pl###cookie-info-overlay
 stylchen.pl###cookieMonsterOvr
