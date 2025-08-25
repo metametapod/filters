@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: fqoXwBsW39Dv5j4YYqa8cA
-! Diff-Path: ../patches/18/18-s-1755897050-3600.patch
+! Checksum: JwNW0kvmo0bXbk+iW4M9dQ
+! Diff-Path: ../patches/18/18-s-1756069804-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.68.53
-! TimeUpdated: 2025-08-22T21:07:03+00:00
+! Version: 2.0.68.55
+! TimeUpdated: 2025-08-24T21:06:22+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -25,6 +25,8 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.cookieadmin_cookie_modal
+##.cookieadmin_law_container
 ##div[data-testid="cookies-dialog"]
 ##.cookie-confirmation-banner
 ###pi_tracking_opt_in_div
@@ -1699,6 +1701,8 @@
 !
 ! SECTION: Cookies - General URL
 !
+/wp-content/plugins/cookieadmin/assets/*
+/wp-content/plugins/cookieadmin-pro/assets/*
 ||sp.api.no^
 ||cmp.bonniernews.se^
 ||cdn.sypher.eu/consent/
@@ -2485,6 +2489,7 @@ entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,g
 !
 ! NOTE: Regular rules
 !
+city.tonami.lg.jp##.sitecookie
 finance.ozon.ru##.biscuits
 narita-airport.jp##+js(set-cookie, gdpr_accept, 1)
 esimplus.me##footer ~ div[class^="styles_wrapper__"]:has(> p > a[href*="/privacy"])
