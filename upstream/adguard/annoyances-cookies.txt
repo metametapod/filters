@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 05NNKXcCcHw70spsqz4Uqg
-! Diff-Path: ../patches/18/18-s-1756408236-3600.patch
+! Checksum: BLI985xNNWC2d3s0CONNRg
+! Diff-Path: ../patches/18/18-s-1756491160-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.68.96
-! TimeUpdated: 2025-08-28T19:06:44+00:00
+! Version: 2.0.69.3
+! TimeUpdated: 2025-08-29T18:08:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1939,7 +1939,7 @@
 /cookie-accept.js
 /cookie-alert.
 /cookie-bandeau.
-/cookie-banner$domain=~github.com|~praxismarketing-institut.com
+/cookie-banner$domain=~github.com|~praxismarketing-institut.com|~antritt-hilden.de
 /cookie-bar-
 /cookie-bar.
 /cookie-check.js
@@ -2486,6 +2486,7 @@ entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,g
 !
 ! NOTE: Regular rules
 !
+egdata.app##main ~ div.fixed.bottom-4
 pewresearch.org##.prc-privacy-consent-wrapper
 /wp-content/plugins/prc-privacy-consent/build/consent-banner/*$domain=pewresearch.org
 scripterswar.com##body > div[style^="pointer-events: none"]:has(> div[style] > a[href="/legal"])
@@ -2512,6 +2513,7 @@ ctc.ru##div[data-cy="cookie-concent"]
 bundesfinanzministerium.de##.bhh-cookie-banner
 uteka.ru##+js(set-cookie-reload, uteka_app_accept_cookie_policy_hidden, true, /, uteka.ru)
 city.tonami.lg.jp##.sitecookie
+finance.ozon.ru##.app > .wrapper > .wrapper:has(> .biscuits)
 finance.ozon.ru##.biscuits
 narita-airport.jp##+js(set-cookie, gdpr_accept, 1)
 esimplus.me##footer ~ div[class^="styles_wrapper__"]:has(> p > a[href*="/privacy"])
@@ -2933,7 +2935,7 @@ shop.mts.ru##.cookies-massage-wrapper
 ground.news##div[class^="__className_"] > .bg-light-light.text-dark-primary.justify-center
 cmlink.com#$#.cookie-dialog { display: none !important; }
 cmlink.com#$#.van-overlay { display: none !important; }
-cmlink.com#$#.van-overflow-hidden { overflow: auto !important; }
+cmlink.com#$#html > .van-overflow-hidden:not(#style_important) { overflow: auto !important; }
 tise.com##.ReactModalPortal:has(a[href="/terms/cookies"])
 tise.com#$#body { overflow-y: auto !important; }
 comexlive.org###terms-bar
@@ -10865,7 +10867,7 @@ detmir.ru##footer + div[class="R S"]
 gartengestaltung-andre-keller.de,uthmann-gartenbau.de,gartenbau-foerster.de,gartenbauschlachter.de,stephan-gartenbau.de,rechtsanwalt-baumann.de,radiologie-saale-klinik.de###infobar
 acordacidade.com.br,canalrural.com.br###box-cookies
 domainnameapi.com,atakdomain.com###site-cookie
-otonomi.com##.footer-kvkk
+tarnnetwork.org,otonomi.com##.footer-kvkk
 carlrippon.com#?#header > div:has(> a[href="/privacy"])
 autohaus24.de#$#.cookie-banner { display: none !important; }
 autohaus24.de#$#header ~ .cookie-banner + div[class]:empty { display: none !important; }
@@ -13071,7 +13073,7 @@ guideautoweb.com##.notification[data-nots-uid="gdpr-guideauto"]
 orange.fr##.o-cookie-consent
 viarail.ca##.opened-cookie-alert
 origin.com##.otknotice-stripe
-sport.ua##.policy-accept
+ac.mos.ru,sport.ua##.policy-accept
 mnb.hu##.popupDialog
 webatic.com##.ppa-notice
 ultimaker.com##.preferences-bar
@@ -16361,6 +16363,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/212371
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=registration.lovoo.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/212271
 newyorkpizza.nl#@#.cookie-banner:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/212011
