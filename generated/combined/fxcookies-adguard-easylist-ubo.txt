@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-09-04T01:01:54Z
+! Last modified: 2025-09-05T01:05:16Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: NTIj5S7SDVHmWIbXQvfB3g
-! Diff-Path: ../patches/18/18-s-1756941062-3600.patch
+! Checksum: fWV7QSQ47d1bdqUCOYCxOA
+! Diff-Path: ../patches/18/18-s-1757016723-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.69.39
-! TimeUpdated: 2025-09-03T23:07:12+00:00
+! Version: 2.0.69.43
+! TimeUpdated: 2025-09-04T20:08:20+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2497,6 +2497,7 @@ accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,ae
 !
 ! NOTE: Regular rules
 !
+nrk.no##nrkno-cookie-banner
 uzairways.com##.notifyCookies
 siirthaberci.com##body > div[style^="padding: 0 1rem;"]
 bcs-express.ru##div[data-component="cookie-agreement"]
@@ -6788,7 +6789,7 @@ playngo.com##.deobxn
 bbc.com#?#header[role="banner"] > div > div:has(> div  > div > h2)
 ||sportrar.tv/js/cookiepop.js
 artnews.com,dirt.com,deadline.com,billboard.com,indiewire.com###pmc_toupp_notice
-my.nintendo.com##div[class^="Cookie"]
+navigator-tmn.ru,my.nintendo.com##div[class^="Cookie"]
 scherzo.es###pdcc-modal-bg
 dyzurnet.pl#$?#.modal:has(> .cookies-modal) { display: none !important; }
 dyzurnet.pl#$?#.modal:has(> .cookies-modal) + .modal-backdrop { display: none !important; }
@@ -13321,7 +13322,7 @@ toptanci.com,bijuteri.net,kriterdergi.com,natro.com###readed_contract_row
 armfight.eu##.coockiesfixed
 rijksmuseum.nl##.cookie-bar-mask
 dvtk.eu##.cookie-cnt
-troisdorf.de,pirmasens.de,speyer.de,skoda.com.tr##.cookie-consent-dialogue
+ruedersdorf.de,troisdorf.de,pirmasens.de,speyer.de,skoda.com.tr##.cookie-consent-dialogue
 clark.de,intergastro.de,komplett.se,komplettbedrift.no,farmasiet.no,komplett.no##.cookie-consent-overlay
 visitukraine.today,parametrixinsurance.com,docsumo.com,sdi-muenchen.de,hearing-screener.beyondhearing.org,moebel-as.de,dji.de,boesendorfer.com,finnair.com##.cookie-consent-wrapper
 clark.de##.modal__overlay
@@ -16048,6 +16049,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/212824
+@@||cronosnewdawn.com/js/cookie-consent.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/212779
 @@||cache.consentframework.com/js/*/stub$domain=gizmodo.com
 @@||cache.consentframework.com/js/*/cmp$domain=gizmodo.com

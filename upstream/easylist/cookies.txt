@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 03 Sep 2025 09:50:01 +0000
+! Last modified: Thu, 04 Sep 2025 18:52:50 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17035,7 +17035,7 @@ dnschecker.org,iplocation.io,ruedasgordas.es###cookie-box
 loversstores.com###cookie-check
 yousign.com###cookie-consent-app
 store.azeron.eu###cookie-consent-background
-albar.co.il,chicagobooth.edu,eurocommercialproperties.com,joinstellar.ai,news.stanford.edu,rfdtvcanada.ca,softexia.com,thecowboychannelcanada.ca,thewaterchannel.ca,wildtv.ca###cookie-consent-banner
+albar.co.il,chicagobooth.edu,eurocommercialproperties.com,fundrazr.com,joinstellar.ai,news.stanford.edu,rfdtvcanada.ca,softexia.com,thecowboychannelcanada.ca,thewaterchannel.ca,wildtv.ca###cookie-consent-banner
 ames-surgery.com,baxtercycle.com,centralstate.bank,cumedicine.us,cyprus-childrensfund.org,dickinsonbradshaw.com,finleylaw.com,gabrielsonclinic4women.com,globalreach.com,gocivilairpatrol.com,halloumicheese.eu,hermesairports.com,heylroyster.com,iowaspecialtyhospital.com,mavroudis.com.cy,mcfarlandclinic.com,ombudsman.iowa.gov,pcbaonline.org,slots-cyprus.eu,smaluminium.com.cy,stephanis.com.cy,stredoceskykraj.cz,thewayhomedc.org,toumbas.com,welcomemagazinecy.com###cookie-consent-container
 jigsy.com###cookie-consent-dialog
 store.azeron.eu###cookie-consent-foreground
@@ -17160,6 +17160,7 @@ tenerife-guided-walks.com###dmPopupMask
 dobbies.com###dobbies_cookie_widget
 uga.edu###dp-cookie-notification
 drupal.org###drupalorg-crosssite-gdpr
+shopify.com###dux-privacy
 dyclassroom.com###dy-cookieInfo-container
 starwest-botanicals.com###eapps-cookie
 swann-morton.com###easyNotification
@@ -19210,6 +19211,7 @@ getdigital.co.uk##.privacy-wrapper
 teamgroupinc.com##.privacyArea
 kingspec.com##.privacyBox
 intelligentinsurer.com##.privacyLaw
+visitstore.bio##.privacyPolicyPopupContainer__3MOs3
 zmags.com##.privacyPrompt
 modernatx.com##.privacy__content
 modernatx.com##.privacy__overlay
@@ -19883,7 +19885,7 @@ alibabagroup.com,confuciusinstitute.ac.uk,construtoraelevacao.com.br,driver61.co
 ! .cookies-container
 airtel.in,habblet.city,interativa.ind.br,moex.com,seedtag.com,snoopza.com,trensurb.gov.br##.cookies-container
 !! .consent-banner-root
-2lprodutora.com,abrahamartimpressions.com,aef.bz,allelitewrestling.com,babyspullen-advies.nl,barkanmounts.com,bodenlager24.de,bruni.biz,burobraak.nl,clorin.com.br,conteudoscatolicos.com,crestcare.co.za,dealleadersint.com,eco-valves.com,elektropartner.com,eriestgastropub.com,essentialhealthsa.com,euroctp.eu,fahrschule-delert.de,feitodabananeira.com,ffwinnebach.it,flywhite.com,franzenshoehe.com,geowgs84.com,hafner-konrad.it,herbatio.com,hoper.com.br,iiole.com,interalco.es,journafonds.ch,ketikotitafel.nl,maierhofer.at,maldivealternative.com,mysterium.network,naturalia.it,nbs-bouwmaterialen.nl,omnihandling.com,opticron.net,p-b-holding.com,perritocal-tienda.com,petruz.com,piessegroup.it,pipeway.com,popentertainmentarchives.com,radegastuvsenk.cz,reservamundi.com.br,sd-fiber.ch,sigmapumpy.com,smoenova.de,stimmungsgarten.tv,studiobera.it,tgtglas.es,thegnet.org,vuseum.it,wernergevers.be,wewillnomad.com,yesradiodance.com,zeleny.cz,zeppelin-la.com##.consent-banner-root
+2lprodutora.com,abrahamartimpressions.com,aef.bz,allelitewrestling.com,babyspullen-advies.nl,barkanmounts.com,bodenlager24.de,bruni.biz,burobraak.nl,clorin.com.br,conteudoscatolicos.com,crestcare.co.za,dealleadersint.com,eco-valves.com,elektropartner.com,eriestgastropub.com,essentialhealthsa.com,euroctp.eu,fahrschule-delert.de,feitodabananeira.com,ffwinnebach.it,flywhite.com,franzenshoehe.com,geowgs84.com,hafner-konrad.it,herbatio.com,hoper.com.br,iiole.com,interalco.es,journafonds.ch,ketikotitafel.nl,maierhofer.at,maldivealternative.com,mysterium.network,naturalia.it,nbs-bouwmaterialen.nl,omnihandling.com,opticron.net,p-b-holding.com,perritocal-tienda.com,petruz.com,piessegroup.it,pipeway.com,popentertainmentarchives.com,radegastuvsenk.cz,reservamundi.com.br,sd-fiber.ch,sigmapumpy.com,smoenova.de,stimmungsgarten.tv,studiobera.it,tgtglas.es,thegnet.org,villagioia.net,vuseum.it,wernergevers.be,wewillnomad.com,yesradiodance.com,zeleny.cz,zeppelin-la.com##.consent-banner-root
 !! #cookiescript_injected
 amministrazionicomunali.it,rual-travel.com###cookiescript_injected
 ! roninwear.
@@ -20848,7 +20850,10 @@ d5render.com##+js(set-cookie, accept_cookie_flag, 1)
 clinicadelsudor.es##+js(set-cookie, allow_hiper_cookie, true)
 global-messer.shop##+js(set-cookie, youtube-video, 1)
 stagewise.io##+js(set-cookie, stagewise-cookie-consent, denied)
+kjell.com##+js(set-cookie, ccValues, 1)
 careers.omedastudios.com##+js(set-cookie, _ttCookiePermissions, 0)
+plantasjen.no##+js(set-cookie, _ca, false)
+plantasjen.no##+js(set-cookie, _ftu, false)
 gandwfurniture.co.uk##+js(set-cookie, as-set-cookies, true, , reload, 1)
 nationalholidays.com##+js(set-cookie, cookiePermission, essential)
 megasport.co.il##+js(set-cookie, YourCoockieName, true)
@@ -25547,6 +25552,7 @@ ngi.no##.bcc-container
 dagbladet.no##.cIwTNh
 seher.no##.cbxMtF
 smakmagasinet.no##.coco-wrapper
+fotoknudsen.no##.cookie-consent-modal
 dagbladet.no##.css-pp-box
 ruter.no##.fixed-messages
 oslosportslager.no##.footerCurtainCookie
@@ -25563,6 +25569,7 @@ direktesport.no##[aria-label="Informasjonskapsler"]
 norsk-tipping.no##div[data-test="cookie-toaster"]
 aftenposten.no##div[id^="sp_message_"]
 digiforms.no##fieldset
+nrk.no##nrkno-cookie-banner
 ! ---------- Philippines -----
 paynet.ph###data-privacy
 dunelondon.ph###header0
@@ -27157,6 +27164,7 @@ ants.vn##.sg-popup-content
 ! ---------- Latvian ----------
 ! ---------- Norwegian ----------
 ||matprat.no/Sites/OEK.MatPrat.AddOn/Content/Scripts/build/static/js/cookiesPopup.
+||ruter.no/_astro/cookie-banner.
 ||widforss.no/bundles/consent-init
 ! ---------- Polish ----------
 ||4hifi.pl/scripts/jquery.cookie.js
@@ -27539,6 +27547,8 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||brandexperience-group.com/assets/js/cookie.notice.min.js$script,~third-party
 @@||budgetthuis.nl^*/cookieBar-$script,~third-party
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
+@@||cache.consentframework.com/js/*/cmp$domain=gizmodo.com
+@@||cache.consentframework.com/js/*/stub$domain=gizmodo.com
 @@||cafedelapaix.fr/assets/plugins/bwp-minify/min/$script,~third-party
 @@||campus.arte.tv/js/components/cookie-banner.js
 @@||carport-diagnose.de/script/cookieconsent.min.js$~third-party
