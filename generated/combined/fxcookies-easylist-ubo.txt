@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-09-07T01:09:08Z
+! Last modified: 2025-09-09T01:06:17Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sat, 06 Sep 2025 03:50:16 +0000
+! Last modified: Mon, 08 Sep 2025 03:56:07 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -9787,7 +9787,6 @@
 ##.cc-fixed-bottom
 ##.cc-fullscreen-bg
 ##.cc-message-bottom
-##.cc-nb-main-container
 ##.cc-notification
 ##.cc-onconsent-analytics
 ##.cc-onconsent-social
@@ -16839,6 +16838,7 @@ lvvwd.com###PolicyNotice
 phonevalidator.com,skipsmasher.com,spydialer.com###PopupMessage
 findhs.codes###PrivacyAlert
 brighteon.tv###PrivacyNotice
+forestriverinc.com###PrivacyPolicyNotice
 theregister.com###RegCTBWF
 charmsoflight.com###SCAhldr
 creativecow.net###SCK
@@ -18210,7 +18210,7 @@ lenovo.com##.cookie-remind-warpper
 mymetpolicepension.equiniti.com##.cookie-section-fixed-top
 outfit7.com,tkhgroup.com##.cookie-settings
 rebeltech.co.za##.cookie-wall
-fishermap.org##.cookie-window
+fishermap.org,ittelo.ru##.cookie-window
 btimesonline.com##.cookieAcceptBar
 woktowalk.com##.cookieAceptance
 weeklyrust.substack.com,zeropartydata.es##.cookieBanner-fZ6hup
@@ -19559,6 +19559,7 @@ iryo.eu##app-cookies-manager
 e-aperam.com##app-privacy-policy
 duelz.com##app-tiny-alert
 essential.gg##banner-content
+cherytr.com,cine-max.sk##body .cc-nb-main-container
 openbookpublishers.com##body > .menu-header
 goodboy.ninja##body > div > .card
 community.nexthink.com##c-community-cookie-consent-banner
@@ -20052,7 +20053,7 @@ abrakadabra.com,etherealmechanics.info,evaair.com,flender.com.cn,heuristic.pl,la
 !! .cookies-component
 proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
-14000.cz,aitum.tv,aktivia.it,andromede-cms.com,any.run,bienpreter.com,bistrono.cz,boldem.cz,caesium.app,capriz.it,century21.pt,codesandbox.io,cointracker.io,corporate.freedompay.com,datawrapper.de,derslig.com,dervit.cz,devunus.com,edb.cz,edb.eu,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,loetje.nl,modeliukai.lt,msha.ke,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
+14000.cz,aitum.tv,aktivia.it,andromede-cms.com,any.run,bienpreter.com,bistrono.cz,boldem.cz,caesium.app,capriz.it,century21.pt,codesandbox.io,cointracker.io,corporate.freedompay.com,datawrapper.de,derslig.com,dervit.cz,devunus.com,edb.cz,edb.eu,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,loetje.nl,modeliukai.lt,mostostal.waw.pl,msha.ke,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
 !! #cc--main
 acelen.com.br,advtraining.it,albengacorsara.it,alde.se,alper.cz,arbetsgivarverket.se,asbis.com,auxologico.it,bambulab.com,bigmotoringworld.co.uk,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,bokomo.co.za,cdw.com,cdwg.com,cnb.cz,coros.com,czechuniversities.com,danielroth.com,data.defector.com,delhivery.com,doctoranytime.be,eufymake.com,eujicha.cz,excellentmagazine.it,excellentmarketing.it,fangear.cz,fashionnetwork.com,feedoptimise.com,flowforge.com,garfidi.it,gatehousebank.com,gls-group.com,hc-slavia.cz,hc-vsetin.cz,hcdukla.cz,hcdynamo.cz,hcf-m.cz,hcporuba.cz,hokejprerov.cz,holba.cz,hotelvillaastra.com,hstrebic.cz,idfnet.net,kroo.com,krusovice.cz,lajairadeana.com,lataco.com,levior.cz,linaro.org,login.mercedes-benz.com,luxardo.it,marken.cz,mcsystems.cz,mightybytes.com,mojecity.cz,msem.cz,myenlightencommunity.com,myjob.ch,nowpatient.com,olkraj.cz,omegasport.cz,packtpub.com,piratichomutov.cz,psg.cz,reteimprese.it,returnsportal.online,royalbelgiancaviar.be,runnea.co.uk,shmu.sk,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,superspeedyplugins.com,teksavvy.com,theactive.thaipbs.or.th,toscana-notizie.it,toscana.it,ungeziefer-ratgeber.info,urbantufting.com,watchesbysjwebtic.it,wifiwijs.nl,woche-bb.ch,woergl.at,wongnai.com,worldmarathonmajors.com,zlinskykraj.cz,zubr.cz###cc--main
 !! .c--anim
@@ -20106,7 +20107,7 @@ dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,krepling.com,kritikos-sm.gr
 !! .cookie-check
 connection.com,eink.com,govconnection.com,iphotel.com.br,macconnection.com##.cookie-check
 !! .cc-window
-ablebits.com,actu.epfl.ch,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blenderartists.org,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,e-infra.com,eingutertag.org,gesundheit-nds.de,getrawnutrition.com,gg.deals,gilli-food.it,goldammer.me,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,paulinwatches.com,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sf311.org,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,tuxedocomputers.com,webit.org,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
+ablebits.com,actu.epfl.ch,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blenderartists.org,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,e-infra.com,eingutertag.org,gesundheit-nds.de,getrawnutrition.com,gg.deals,gilli-food.it,goldammer.me,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,monochrome-watches.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,paulinwatches.com,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sf311.org,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,tuxedocomputers.com,webit.org,wedolit.eu,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
 !! .popup
 advgazeta.ru,agcopartsbooks.com,beiersdorf.com,czc.cz,digitfoto.de,efootwear.eu,engeo.ch,gps-viewer.com,hypeauditor.com,kiswe.com,kolesnic.ru,mellerud.de,mesampoulesgratuites.fr,mindmatrix.net,renewal.ru,salesmanago.pl,swayhotels.com,topographic-map.com,travelexpress.pl,yclients.com,zabkagroup.com##.popup
 !! .popup-container
@@ -23511,6 +23512,8 @@ cencenelec.eu###body,html:style(overflow: auto !important; position: initial !im
 ! anjunadeep.co
 anjunadeep.co##.privacy-notice-gdpr-container
 anjunadeep.co###body,html:style(overflow: auto !important; position: initial !important;)
+! gpiaaf.gov.pt
+gpiaaf.gov.pt##+js(set-cookie, WarningsAndPolicyAccepted, true)
 !------------------------Rules for international sites------------------------!
 ! *** easylist:easylist_cookie/easylist_cookie_international_specific_hide.txt ***
 alte-apotheke-hamm.de,delta4x4.com,fagron.de,ga-service.at,harmtodt.com,immotech-austria.at,reinhold-keller.com###BorlabsCookieBox
@@ -27038,7 +27041,7 @@ youtube.com#@##consent-bump
 bbc.com,kleinanzeigen.de#@##consentBanner
 wacom.com#@##consent_blackbar
 voas.fi#@##coockie-modal
-br-dge.to,citaalen.com,feierabend.de,hoesjesdirect.nl,kmudigital.at,kontostand.at,serveminecraft.net,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
+br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,kmudigital.at,kontostand.at,serveminecraft.net,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
 channel4.com#@##cookie-consent-banner
 tingstad.com#@##cookie-consent-popup
 notify.events#@##cookie-gdpr
@@ -27095,7 +27098,7 @@ ibkrcampus.com#@##privacy-bar
 fortune.com,lighting.philips.de#@##teconsent
 forgeandfortune.com#@##toasts > #toastsWrapper
 kna-bild.de#@##uiCookieConsent
-skandia.se#@#.CookieBanner
+gpiaaf.gov.pt,skandia.se#@#.CookieBanner
 isarradweg.de#@#.CookieBar
 aruba.com#@#.CookiePopup
 rai.it,rainews.it,raiplay.it,raiplaysound.it#@#.PositionBottom.as-oil
@@ -27693,7 +27696,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sat, 06 Sep 2025 07:14:08 +0000
+! Last modified: Mon, 08 Sep 2025 08:36:31 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28988,7 +28991,7 @@ costcobusinessdelivery.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $curr
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23727
 ! https://github.com/uBlockOrigin/uAssets/issues/25509
-seznam.cz##+js(trusted-set-cookie, euconsent-v2, CP-wiwAP-wiwAD3ACLCSA1EsAP_gAEPgAATIJVwQgAAwAKAAsACAAFQALgAZAA6ACAAFAAKgAWgAyABoADmAIgAigBHACSAEwAJwAVQAtgBfgDCAMUAgACEgEQARQAjoBOAE6AL4AaQA4gB3ADxAH6AQgAkwBOACegFIAKyAWYAuoBgQDTgG0APkAjUBHQCaQE2gJ0AVIAtQBbgC8wGMgMkAZcA0oBqYDugHfgQHAhcBGYCTQEqwQugRQAKAAsACoAFwAQAAyABoAEQAI4ATAAqgBiAD8AISARABEgCOAE4AMsAZoA7gB-gEIAIsAXUA2gCbQFSALUAW4AvMBggDJAGXANTAhcAA.YAAAAAAAAWAA, , , domain, seznam.cz)
+seznam.cz##+js(trusted-set-cookie, euconsent-v2, CQXRZAAQXRZAAD3ACQCSB6FsAP_gAEPgAATIJNQJgAFAAQAAqABkAEAAKAAZAA0ACSAEwAJwAWwAvwBhAGIAQEAggCEAEUAI4ATgAoQBxADuAIQAUgA04COgE2gKkAVkAtwBeYDGQGWAMuAf4BAcCMwEmgSrgKgAVABAADIAGgATAAxAB-AEIAI4ATgA7gCEAEWATaAqQBWQC3AF5gMsAZcBKsAA.YAAAAAAAAWAA, '', '', domain, seznam.cz)
 cmp.seznam.cz##+js(trusted-click-element, .szn-cmp-dialog-container >>> button[data-testid="cw-button-agree-with-ads"], , 2000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/23809 - multimedia player
@@ -31933,8 +31936,8 @@ washingtonpost.com##+js(trusted-click-element, button#CTA_BUTTON_TEXT_CTA_WRAPPE
 ! Necessary
 nomorobo.com##+js(trusted-set-local-storage-item, cookiesAllowed, '["strictly"]')
 
-! Necessary
-univie.ac.at##+js(trusted-set-cookie, cookie-consent-settings, '{"necessary":true,"analyses":false,"personalization":false}')
+! reject
+univie.ac.at##+js(trusted-click-element, button#s-rall-bn, , 1000)
 
 ! Necessary
 brillenplatz.de,angelplatz.de##+js(trusted-click-element, button#js_keksNurNotwendigeKnopf, , 1000)
