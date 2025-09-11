@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: qMmIRdCobx4YYhi64gE8Yw
-! Diff-Path: ../patches/18/18-s-1757448786-3600.patch
+! Checksum: mMVukm+ZW0HiWFgAjSUdaA
+! Diff-Path: ../patches/18/18-s-1757550510-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.69.77
-! TimeUpdated: 2025-09-09T20:09:04+00:00
+! Version: 2.0.69.84
+! TimeUpdated: 2025-09-11T00:24:49+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -25,6 +25,7 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.cookies-modal
 ##.wtm-cookies
 ##.cookieadmin_cookie_modal
 ##.cookieadmin_law_container
@@ -2490,13 +2491,16 @@ accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,ae
 !
 ! NOTE: Regular rules
 !
+av.ru##.av-cookie-banner
+platanitos.com###policy-notice
+nabchelny.ru###polyticaC
 shop.cosmed.com.tw##div:has(> div:first-child > p:first-child > a[href^="//shop.cosmed.com.tw/MyAccount/Privacy"])
 zakonyprolidi.cz##.CookiePerm
 flysmartavia.com##.cookies-policy-wrapper
 bandcamp.com##page-footer[is-legacy-cookie-control-automatic]
 insert.com.pl##.privacyAndCookiePolicy_wrapper
 transfernow.net##div[class^="custom_cmp_wrapper"]
-komoot.com##.page > div > div#banner_portal_container ~ dialog
+komoot.com##+js(set-local-storage-item, komoot_gdpr_data, emptyObj)
 buero-bedarf-thueringen.de##+js(abort-on-property-write, openCookieConsentDialog)
 bloknot-volgograd.ru##body > div[style*="fixed"]:has(> p > a[href="/bloknot/privacy-policy.php"])
 nearme.jp#@#+js(set-local-storage-item, @hidePrivacyPopup, true)
@@ -2611,7 +2615,7 @@ hkticketing.com###policy_new
 trip.com##.ibu-cookie-banner
 vitaexpress.ru##.info-processing-personal-data-container
 hitech-gamer.com##.modal-backdrop
-||global.ketchcdn.com/web/v*/config/*/boot.js$domain=debrox.com|drinkag1.com|newsweek.com|loeb.com|boxingscene.com
+||global.ketchcdn.com/web/v*/config/*/boot.js$domain=debrox.com|drinkag1.com|newsweek.com|loeb.com|boxingscene.com|tailscale.com
 mega.ru##+js(set-cookie, consent_cookie_settings, true)
 gazobezopasnost.gazprom.ru##.message-consent
 cwc.utah.gov##+js(set-cookie, wp-disclamer-popup, allow)
@@ -4254,7 +4258,7 @@ events.ultraceofficial.com##body > div > div[tabindex] > div.vi-fixed
 f1-insider.com##+js(set-cookie, perfectSub, true)
 fashiontechnews.zozo.com##div[class^="style-module--consent--"]
 corp.zozo.com##.m-box-policy
-roughradical.com.pl##div[id^="lgcookieslaw"]
+dragonbox.de,roughradical.com.pl##div[id^="lgcookieslaw"]
 iko.pkobp.pl##.pko-cookie-rodo-overlay
 footballista.jp###cookie_background
 ||cookiecdn.com/cwc.js
@@ -7417,7 +7421,7 @@ in-win.com###gdpr_container
 flip.ro#$#body .cookie-modal { display: none !important; }
 flip.ro#$#.cookie-modal + .modal-backdrop { display: none !important; }
 flip.ro#$#body.modal-open { overflow-y: auto !important; padding-right: 0 !important; }
-thegraph.com,followalice.com##+js(set-cookie, cookie-consent, false)
+netbird.io,thegraph.com,followalice.com##+js(set-cookie, cookie-consent, false)
 maximum.com.tr##.ucookieC
 kuveytturk.com.tr##.ins-politika
 amara.org#$#div[class^="cookie-consent"] { display: none !important; }
@@ -7483,7 +7487,6 @@ playcentral.de#$#body[style="overflow: hidden;"] > div[id][data-bg^="background-
 playcentral.de#$#body[style="overflow: hidden;"] * { filter: none !important; }
 playcentral.de#$?#body > div[id]:has(> div.wp-exclude-emoji > div.animate__animated > div[id] a[href="https://www.playcentral.de/datenschutz/"]) { display: none !important; }
 miloan.pl##.cookies-pan
-payment.kurogame-service.com,wutheringwaves.kurogames.com,budownictwo.org,insales.ru,hdsex2.com,hdsex.org,clubpremier.com,inpower.com.br,rivegauche.ru,mkcafehoreca.pl,netcredit.pl##.cookies-modal
 lefeld.de#$#div[data-feature*="PrivacyCategory"] { display: none !important; }
 lefeld.de#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 dailymotion.com#$#div[class^="CookiePopup_"] { position: absolute !important; left: -3000px !important; }
@@ -13462,7 +13465,7 @@ nhk.or.jp###nw_gdpr_view_id
 academic.oup.com###oupcookiepolicy_message
 namdalsavisa.no###pm-privacy-banner
 brw.pl###poityka-ciastek
-delo-vcusa.ru,omcar.pl,medicinadent.ru,milleni.com.tr###policy
+spareparts.sale,delo-vcusa.ru,omcar.pl,medicinadent.ru,milleni.com.tr###policy
 mlg.com###policy-banner
 ecs.com.tw,aorus.com,gigabyte.bg,gigabyte.by,gigabyte.cn,gigabyte.com,gigabyte.com.gr,gigabyte.com.tr,gigabyte.cz,gigabyte.dk,gigabyte.lv,gigabyte.no,gigabyte.pl,gigabyte.pt,gigabyte.rs,gigabyte.ru,gigabyte.ua,gigabyte.uz###policy-div
 fotospor.com,finansowysupermarket.pl###policy-popup
@@ -13647,7 +13650,7 @@ angel.co##.eu_cookie_consent
 etcanada.com,globalnews.ca,ign.com,downdetector.it,pfizer.de,downdetector.in,downdetector.com,pfizeryaninizda.com,pfizer.com.tr,crucial.com,popsugar.co.uk,popsugar.com,popsugar.com.au##.evidon-consent-button
 iotransfer.net,macbooster.net##.fl-accept
 drivereasy.com,iobit.com##body > .float-bar
-doctoralia.com.br,doktortakvimi.com,znanylekarz.pl##.floating-cookie-info
+doctoralia.*,doktortakvimi.com,znanylekarz.pl##.floating-cookie-info
 dressupmix.com##.footer > .dialog-wrapper
 poulpeo.com##.footer-fixed .c-legalBanner
 trizer.pl##.ft__cookies
@@ -16411,6 +16414,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/213120
+@@||cdn.cookielaw.org/consent/*.json$domain=southparkstudios.com.br|southpark.lat|southparkstudios.com|southpark.de
 ! Never loads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/212989
 @@||cdn.cookielaw.org/consent/$domain=ryobitools.eu
