@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-09-19T01:05:09Z
+! Last modified: 2025-09-20T01:02:59Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: W40ALNUPzH8lAoEtuZvSXA
-! Diff-Path: ../patches/18/18-s-1758204722-3600.patch
+! Checksum: IoINIduqtRWSDNBmd6nciQ
+! Diff-Path: ../patches/18/18-s-1758305611-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.70.43
-! TimeUpdated: 2025-09-18T14:08:09+00:00
+! Version: 2.0.70.50
+! TimeUpdated: 2025-09-19T18:09:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2500,6 +2500,14 @@ accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,ae
 !
 ! NOTE: Regular rules
 !
+koleso.ru##div[class^="BlockCookies_wrapper"]
+regiojet.pl##+js(set-cookie, functional, false)
+regiojet.pl##+js(set-cookie, marketing, false)
+regiojet.pl##+js(set-cookie, performance, false)
+regiojet.pl##+js(set-cookie, personalization, false)
+regiojet.pl##+js(set-cookie, userData, false)
+regiojet.pl##+js(set-cookie, required, true)
+es.kruk.eu##+js(set-cookie, CookieAgreement, 0)
 phys.org##.grecaptcha-badge
 ordrepsy.qc.ca#$#body.ordrepsy.cookies-banner-visible { overflow: auto !important; }
 enerji-dunyasi.com###cerezOnayKutusu
@@ -2958,7 +2966,7 @@ unimedbauru.com.br###protegON-full-content-cookies
 remaker.ai##.remaker-container-footer-cookie
 helloclue.com###gatsby-focus-wrapper > section:has(> p[class*="CookieNotification"])
 longos.com##gg-cookies-consent-pop-up
-kamrti.com,gorenje-ru.ru,italiadomani.gov.it,msvsphere-os.ru,sms-activate.page,u-mama.ru,visionexpress.pl,psoriaz.life,poisknews.ru##.cookie
+investcapital.com.mt,kamrti.com,gorenje-ru.ru,italiadomani.gov.it,msvsphere-os.ru,sms-activate.page,u-mama.ru,visionexpress.pl,psoriaz.life,poisknews.ru##.cookie
 wegmans.com##.component--cookie-banner
 vod3.pl#$#body { overflow: auto !important; }
 podarkus.ru##div[class^="style_cookies"]
@@ -3773,7 +3781,7 @@ poliklinikaprosek.cz##.cookie_opruz
 mcdonalds.cz###cookie-bar-dialog
 ||cd.cz/js/c22.js
 officeshoes.hu,officeshoes.ro,officeshoes.cz,officeshoesonline.sk,officeshoes.hr,officeshoes.pl,officeshoes.si,officeshoes.pl###s-cnt
-medium.seznam.cz,sreality.cz,stream.cz,zbozi.cz,firmy.cz,sauto.cz,sbazar.cz##szn-cwl
+seznamzpravy.cz,medium.seznam.cz,sreality.cz,stream.cz,zbozi.cz,firmy.cz,sauto.cz,sbazar.cz##szn-cwl
 slevomat.cz##.message-overlay--disturbing-overlay
 idoctors.it#$#body { overflow: auto !important; padding-right: 0 !important; }
 idoctors.it#$##modal-cookies { display: none !important; }
@@ -3871,7 +3879,7 @@ portal.ccscollect.co.uk#$#.modal-backdrop { display: none !important; }
 tiesas.lv,portal.ccscollect.co.uk,jekabpils.lv,cvk.lv,seplp.lv,tieslietupadome.lv,unesco.lv,president.lv,zemgale.lv,aizkraukle.lv,adazunovads.lv,balvi.lv,bauskasnovads.lv,dkn.lv,dobele.lv,gulbene.lv,jurmala.lv,kraslava.lv,limbazunovads.lv,livani.lv,ludzasnovads.lv,ogresnovads.lv,preili.lv,ropazi.lv,smiltenesnovads.lv,talsunovads.lv,tukums.lv,valka.lv#$##cookieConsent { display: none !important; }
 tiesas.lv,portal.ccscollect.co.uk,jekabpils.lv,cvk.lv,seplp.lv,tieslietupadome.lv,unesco.lv,president.lv,zemgale.lv,aizkraukle.lv,adazunovads.lv,balvi.lv,bauskasnovads.lv,dkn.lv,dobele.lv,gulbene.lv,jurmala.lv,kraslava.lv,limbazunovads.lv,livani.lv,ludzasnovads.lv,ogresnovads.lv,preili.lv,ropazi.lv,smiltenesnovads.lv,talsunovads.lv,tukums.lv,valka.lv#$#body[style^="overflow:"] { overflow: auto !important; }
 neuralink.com##div[class^="_cookiePopup"]
-pancernik.eu,gps.lodz.pl,bikepark24.pl,teesa.pl,sklepzycia.pl##+js(set-local-storage-item, show_consent_modal, 1)
+nkk.pl,pancernik.eu,gps.lodz.pl,bikepark24.pl,teesa.pl,sklepzycia.pl##+js(set-local-storage-item, show_consent_modal, 1)
 omniplexcinemas.co.uk,omniplex.ie#$#body #cookieConsentBar { display: none !important; }
 omniplexcinemas.co.uk,omniplex.ie#$#body { overflow: auto !important; pointer-events: auto !important; }
 almashhad.com##div[class^="Cookie_consent_"]
@@ -6057,7 +6065,7 @@ apoya.canalred.tv#$#body::before { content: none !important; }
 apoya.canalred.tv#$?#body { overflow: auto !important; }
 apoya.canalred.tv#$#.aviso_cookies { display: none !important; }
 you-porn.com##.euCookieModal
-mixturabar.ru,berlinerdeutsch.ru,cloudkassir.ru,cloudtips.ru##div[data-storage-item^="t657cookiename_"]
+nbcomgroup.ru,mixturabar.ru,berlinerdeutsch.ru,cloudkassir.ru,cloudtips.ru##div[data-storage-item^="t657cookiename_"]
 shikoku-tourism.com,kagoshima-kankou.com,crossroadfukuoka.jp,nagasaki-tabinet.com,my-kagawa.jp,iyokannet.jp,niigata-kankou.or.jp,kanko-miyazaki.jp,fujiyoshida.net##.common-gdpr-box
 shopee.com.br###main > div > div[style="z-index: 100000;"]
 lastpass.com###LPST_trustarc
@@ -10832,7 +10840,7 @@ istockphoto.com##.banner.warning
 finanz-forum.de##.cinfo
 svo.aero,talktalk.co.uk##cookie
 inews.co.uk##div[data-project="mol-fe-cmp"] > div[class^="tooltip"]
-bbc.com,bbc.co.uk##div[class*="-ConsentBanner"]
+bbc.com,bbc.co.uk##[class*="-ConsentBanner"]
 wirkaufendeinauto.de###cookie-text-banner
 funpay.com,tractive.com,freshbooks.com##.banner-cookie-consent
 perthnow.com.au##.cookie-consent--normal
@@ -11873,7 +11881,7 @@ buttinette.com,ffeel.de##.cookiehinweis
 planet.com##.pl-cookies-cta-contain
 ||gsk.baycloud.com/tggsk.js
 4frontcarsales.co.uk###cookiepopup-horiz
-oppomobile.com,oppo.com##div[class^="cp-cookie-tip"]
+www-oppo-com.translate.goog,oppomobile.com,oppo.com##div[class^="cp-cookie-tip"]
 gram.pl###cookie-box-container-inner
 ||privacy-mgmt.com/mms^
 sadnescity.it,baydoner.com##body > .alert-dismissible[role="alert"]
@@ -12223,7 +12231,7 @@ radeberger.com##.cookieabfrage
 montiemare.de#$##cookieNotice { display: none !important; }
 montiemare.de#$#.modal-open { overflow: visible !important; }
 montiemare.de#$##cookieNotice + .modal-backdrop { display: none! important; }
-g4media.ro,rfi.ro,libertatea.ro,b1tv.ro,viva.ro,alephnews.ro,gds.ro,romaniatv.net,protv.ro,protvplus.ro,mastercard.de,vmstarcommunity.force.com,mastercard.com.tr,comicbook.com##body #ot-sdk-btn
+cbssports.com,g4media.ro,rfi.ro,libertatea.ro,b1tv.ro,viva.ro,alephnews.ro,gds.ro,romaniatv.net,protv.ro,protvplus.ro,mastercard.de,vmstarcommunity.force.com,mastercard.com.tr,comicbook.com##body #ot-sdk-btn
 expediagroup.com##.gdpr-wrap
 expedia.at,expedia.be,expedia.dk,expedia.fi,expedia.fr,expedia.ie,expedia.it,expedia.nl,expedia.no,expedia.es,expedia.se,expedia.ch,expedia.co.uk,expedia.de###gdpr-consent-banner
 expedia.at,expedia.be,expedia.dk,expedia.fi,expedia.fr,expedia.ie,expedia.it,expedia.nl,expedia.no,expedia.es,expedia.se,expedia.ch,expedia.co.uk,expedia.de##.uitk-gdpr-banner
@@ -16108,18 +16116,18 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/213650
-pancernik.eu#@#.shop_index > div.consents
-pancernik.eu#@##shoper-foot ~ div.consents
+! https://github.com/AdguardTeam/AdguardFilters/issues/213703
+e-kruk.pl,pl.kruk.eu#@#.cookie-notice:not(body):not(html)
+@@||cdn.cookiehub.eu/c2/*.$domain=ro.kruk.eu
+! https://github.com/AdguardTeam/AdguardFilters/issues/213704
+es.kruk.eu#@##cookie_accept
+es.kruk.eu#@##cookie_agreement
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213651
 oponyexpress.pl#@#body #cookie-policy
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213653
 emanuelberg.com#@##notice-cookie-block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213607
 fabrykarowerow.com#@#.js-cookies
-! https://github.com/AdguardTeam/AdguardFilters/issues/213608
-gps.lodz.pl#@#.shop_index > div.consents
-gps.lodz.pl#@##shoper-foot ~ div.consents
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213464
 @@||efarma.com/static/*/Amasty_GdprFrontendUi/js/$domain=efarma.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213369
@@ -16203,9 +16211,6 @@ user.huami.com#@#.gdpr-container:not(#style_important)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210977
 @@||app.usercentrics.eu/browser-ui/$domain=meineschufa.de
 @@||api.usercentrics.eu/settings/$domain=meineschufa.de
-! https://github.com/AdguardTeam/AdguardFilters/issues/210771
-bikepark24.pl#@#.shop_index > div.consents
-bikepark24.pl#@##shoper-foot ~ div.consents
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210417
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=outdoorsy.com
 ! rte.ie
@@ -16242,9 +16247,6 @@ hurt.com.pl#@##cookiePolicyBar
 allrecipes.com#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209389
 onlinepenztarca.hu#@#.cookie-container
-! https://github.com/AdguardTeam/AdguardFilters/issues/209387
-teesa.pl#@#.shop_index > div.consents
-teesa.pl#@##shoper-foot ~ div.consents
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209313
 thesting.com#@#.c-cookie-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209189
@@ -16685,9 +16687,15 @@ koreanair.com#@#.cookie-banner:not(body):not(html)
 koreanair.com#@##cookieBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192153
 @@||generali-cosweb-tech-prod.s3.eu-central-1.amazonaws.com/website/js/tagcommander
+! https://github.com/AdguardTeam/AdguardFilters/issues/213702
+! https://github.com/AdguardTeam/AdguardFilters/issues/213650
+! https://github.com/AdguardTeam/AdguardFilters/issues/213608
+! https://github.com/AdguardTeam/AdguardFilters/issues/210771
+! https://github.com/AdguardTeam/AdguardFilters/issues/209387
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192440
-pomadziarz.pl#@##shoper-foot ~ div.consents
-pomadziarz.pl#@#.shop_index > div.consents
+! TODO: consider to remove generic rules
+nkk.pl,pancernik.eu,gps.lodz.pl,bikepark24.pl,teesa.pl,pomadziarz.pl#@#.shop_index > div.consents
+nkk.pl,pancernik.eu,gps.lodz.pl,bikepark24.pl,teesa.pl,pomadziarz.pl#@##shoper-foot ~ div.consents
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191828
 @@||sdk.privacy-center.org^$domain=profil.at
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191731
