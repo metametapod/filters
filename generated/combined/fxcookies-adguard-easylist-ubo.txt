@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-09-23T01:03:45Z
+! Last modified: 2025-09-24T01:04:54Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: WnP7yZrjo6by2hg8GJxL9g
-! Diff-Path: ../patches/18/18-s-1758553913-3600.patch
+! Checksum: /izeL5UihbiN+tELyjDCFQ
+! Diff-Path: ../patches/18/18-s-1758636694-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.70.66
-! TimeUpdated: 2025-09-22T15:08:13+00:00
+! Version: 2.0.70.73
+! TimeUpdated: 2025-09-23T14:07:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2330,7 +2330,7 @@ sir-apfelot.de,kinoheld.de,racingnews365.com,continental-tires.com,kaufbei.tv,ge
 ! ##.privacy-policy
 gamemar.com,torex.ru,mesadepo.com,firstechllc.com,planbmedia.io,hyser.com.ua,ebrarbilgisayar.com,tvf.com.tr,ukrainianwall.com,hvylya.net,politeka.net,znaj.ua,cointelegraph.com,tupras.com.tr,hesapkurdu.com,ku.dk,auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##.privacy-policy
 ! ###consent
-stadt-brandenburg.de,vitaello.com.ua,uskudar.edu.tr,encycolorpedia.com,learn.innopolis.university,interhome.pl,alhadath.net,chiccentre.com,accredito.com,bonsai.de,diehumanisten.de,downloadfreecourse.com,interhome.de,techonthenet.com,ncalculators.com,editpad.org,katho-nrw.de,fiyatgrafik.com,gartenprofi.net,alibre.info,fisglobal.com,delamar.de,gnosis.io,anyclip.com,manybooks.net,cardzmania.com,antarestech.com,nperf.com,notebookinfo.de,telefuel.com,alarabiya.net,dijnet.hu###consent
+mathaeser.de,stadt-brandenburg.de,vitaello.com.ua,uskudar.edu.tr,encycolorpedia.com,learn.innopolis.university,interhome.pl,alhadath.net,chiccentre.com,accredito.com,bonsai.de,diehumanisten.de,downloadfreecourse.com,interhome.de,techonthenet.com,ncalculators.com,editpad.org,katho-nrw.de,fiyatgrafik.com,gartenprofi.net,alibre.info,fisglobal.com,delamar.de,gnosis.io,anyclip.com,manybooks.net,cardzmania.com,antarestech.com,nperf.com,notebookinfo.de,telefuel.com,alarabiya.net,dijnet.hu###consent
 ! ##.sticky-footer
 turkuvazkitap.com.tr,muhitkitap.com.tr,support.a1.by,kargomsende.com,aboneturkuvaz.com,omroepbrabant.nl,tdp.com.tr,turkuvazabone.com,turkuvazmatbaacilik.com##.sticky-footer
 ! ##.veriAltBar
@@ -2500,6 +2500,17 @@ accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,ae
 !
 ! NOTE: Regular rules
 !
+kdelo.ru##.CookieNotifyWidget
+||cookies.travyk.nl^
+dedistart.com##+js(set-cookie, acceptCookies, no)
+tsmc.com##+js(set-cookie, cookiePref, 0)
+arabunu.com##+js(set-local-storage-item, CookiePolicy, false)
+dvbsklep.pl,sklep.telmor.pl##+js(set-local-storage-item, user_consents, emptyArr)
+dvbsklep.pl,sklep.telmor.pl##+js(set-local-storage-item, show_consent_modal, 1)
+ladymakeup.com,ladymakeup.pl#$##CookieConsentForm { display: none !important; }
+ladymakeup.com,ladymakeup.pl#$#.modal-backdrop { display: none !important; }
+ladymakeup.com,ladymakeup.pl#$#.modal-open { overflow: auto !important; }
+/cookies/melindres/dist/*$domain=televes.com
 police.uk###js-consent-banner
 giga.chat##div[class^="GDPRBanner_"]
 bundesimmobilien.de#$#.cookie-banner:not(body):not(html) { display: none !important; }
@@ -2644,7 +2655,7 @@ store.webkul.com##.wk-cookie-wrapper
 teams.live.com##.gather-cookie-banner
 japan.calvinklein.com##.agreeCookie
 gidadedektifi.net##div[class^="XCookieBanner"]
-hentailib.me,animelib.org##+js(set-local-storage-item, cookies-toast-shown, true)
+mangalib.org,hentailib.me,animelib.org##+js(set-local-storage-item, cookies-toast-shown, true)
 mercusys.com###mercusys-cookie
 betters.pl,lebull.pl##div[overlayfit][position^="center"]:has( input#Functional)
 aap.co.jp###pro-cp-dialog-wrapper
@@ -3388,7 +3399,6 @@ fastwebvodafone.it##iframe.ck_if
 webhallen.com##+js(set-local-storage-item, necessaryConsent, true)
 webhallen.com##+js(set-local-storage-item, marketingConsent, false)
 webhallen.com##+js(set-local-storage-item, personalisationConsent, false)
-arbitr-praktika.ru##.customer-info-block__coockie
 boo.world##+js(set-cookie, cookieConsentAnalytics, false)
 boo.world##+js(set-cookie, cookieConsentPerformance, false)
 boo.world##+js(set-cookie, cookieConsentCheck, true)
@@ -11495,7 +11505,7 @@ aukey.com,bikopek.com##.fixed-cookie
 louie.com.br,devmedia.com.br,jacotei.com.br##.termos-politica
 zoom.com.br,buscape.com.br##div[class^="PrivacyPolicy"]
 molotov.tv##.eRnhI
-haloursynow.pl,bvpraevention.de,avolta.de,halle-entdecken.de###myModal
+haber365.com,haloursynow.pl,bvpraevention.de,avolta.de,halle-entdecken.de###myModal
 nebenan.de###main > .c-layout > .c-layout-wrap + article[class^="index-module_root__"]
 wehkamp.nl###header > aside.bg-light.full-width.full-height.z-higher.position-fixed.is-opaque
 rapidtables.org,rapidtables.com##body > #banner
@@ -12908,7 +12918,7 @@ rewasd.com,dt-updates.com,disk-tools.com,daemon-tools.cc,oreopeople.com##.cookie
 siemens.com##.cookiesnotification
 eu.aoc.com##.country-popup
 dinside.no##.css-pp-box
-e.gd.ru,e.budgetnik.ru##.customer-info-block__coockie
+e.kdelo.ru,arbitr-praktika.ru,e.gd.ru,e.budgetnik.ru##.customer-info-block__coockie
 cylance.com##.cylance-mod-cookiebanner
 nicequest.com##.dialog-cookies
 lequipe.fr##.didomi-regular-notice
@@ -13132,7 +13142,7 @@ dress-for-less.de###DFLCookieConsent
 shahid.mbc.net###DGPR
 dnslytics.com###EU_Cookie_Message
 nokaut.pl###GDPRModal
-computerlab.pl,hitech.com.pl,smalltronic.pl###InfoCookie
+hollex.pl,computerlab.pl,hitech.com.pl,smalltronic.pl###InfoCookie
 gazetevatan.com###KisiselVerilerinKorunmasi
 reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###SHORTCUT_FOCUSABLE_DIV > div > div[class][aria-hidden] + div > div[class] > form
 docinsider.de###__cookiemsg
@@ -16129,6 +16139,9 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/213966
+! https://github.com/AdguardTeam/AdguardFilters/issues/213965
+dvbsklep.pl,sklep.telmor.pl#@#.shop_index > div.consents
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213926
 @@||bundles.efilli.com/m.n11.com.prod.js$domain=m.n11.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213898
