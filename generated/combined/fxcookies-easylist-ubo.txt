@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-10-10T01:05:10Z
+! Last modified: 2025-10-12T01:08:40Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 09 Oct 2025 09:50:05 +0000
+! Last modified: Sat, 11 Oct 2025 13:02:44 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18045,7 +18045,8 @@ img.ly##.cke-overlay
 ruijie.com,ruijienetworks.com##.cke2022fr
 stayinwales.co.uk##.ckinfo-panel
 firstclasswatches.com##.cky-consent-bar
-firstclasswatches.com##.cky-overlay
+oiq.qc.ca##.cky-consent-container
+firstclasswatches.com,oiq.qc.ca##.cky-overlay
 clineva.com##.clineva-cookies-info
 oipc.bc.ca##.clsPopupContainer
 corporate.monro.com,expediagroup.com,macysinc.com,ppg.com##.cm
@@ -19025,6 +19026,7 @@ ideasoft.io##.police
 essayshark.com,pixlr.com##.policies
 designs.ai,globe.com.ph,parcfrontenac.com,protipster.com,riverterracegardens.com,star.com.tr,tvbs.com.tw,viber.com##.policy
 esquire.com##.policy-bar
+toooon.com##.policy-bottom-bar
 cgtn.com,cri.cn##.policy-dialog
 pxhere.com,wallhere.com##.policy-info
 shazam.com##.policy-label
@@ -24959,6 +24961,7 @@ ingyen-van.hu###figyu
 szegedvaros.hu###footer
 mvm.hu###footer-consent
 telekom.hu###frame-modals
+gourmetkave.hu###jpresta-rgpd-container
 liget.ro###jscookiemodal
 hrportal.hu###lableca
 ado1szazalek.com,boraszportal.hu,termalfurdo.hu###layout_advertising_bottom
@@ -27739,7 +27742,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Wed, 08 Oct 2025 20:32:23 +0000
+! Last modified: Sat, 11 Oct 2025 19:20:06 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -27797,6 +27800,7 @@ musee-moyenage.fr##body.tac-modal-open:style(overflow: auto !important;)
 !!! Trusted scriptlets------------------------------------------------------------
 
 !! Accept mandatory cookies / reject all additional cookies
+
 ! Do not use trusted-set-cookie for Google - it will cause captcha prompts for many users (maybe Google's antibot systems don't like the same cookie value being shared?) The issue doesn't appear in every region though
 ! https://old.reddit.com/r/uBlockOrigin/comments/1l8i7qu/unusual_traffic_warning_from_google_search_in/
 www.google.*##+js(trusted-click-element, button#W0wltc, , 500)
@@ -27805,6 +27809,7 @@ consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-8260397
 consent.google.*##[data-p*="/consent.google."]:has(button[jsname="tWT92d"])
 ! https://github.com/uBlockOrigin/uAssets/discussions/18598#discussioncomment-8651332
+
 ! decline (multilingual version)
 ! decline
 ! Sample page: https://www.bloomberg.com/live/europe || https://www.bloomberg.co.jp/live/asia
@@ -28432,6 +28437,7 @@ nordax.com##+js(trusted-set-cookie, cookie_consent, %7B%22allowEssentials%22%3At
 ! https://github.com/uBlockOrigin/uAssets/discussions/18598#discussioncomment-7362961
 ! https://github.com/DandelionSprout/adfilt/discussions/932#discussioncomment-8170867
 ! https://github.com/uBlockOrigin/uAssets/discussions/18598#discussioncomment-8618202
+
 ! https://www.empik.com/ - Functional + Social
 empik.com##+js(trusted-set-cookie, cad, $now$)
 empik.com##+js(trusted-set-cookie, cc, 2.4)
