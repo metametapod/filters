@@ -1,6 +1,6 @@
 ! Title: Unblock Contextual Ads (reduced)
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-08-08T01:17:34Z
+! Last modified: 2025-10-16T01:05:24Z
 ! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
 ! Description: AdGuard Unblock Contextual Ads filter applied to select privacy-friendly sites only.
@@ -15,6 +15,7 @@ search.brave.com#@#div[data-advertiser-id]
 @@||startpage.com^$elemhide,content
 ebay.com,ebay.co.uk,ebay.com.au#@?#div[itemtype="https://schema.org/Product"] div[id^="merch_html_"]:has(> div[id] .mfe-header > h2.mfe-pull-left:contains(Sponsored))
 ebay.com,ebay.co.uk,ebay.com.au#@?#div[itemtype="https://schema.org/Product"] div[id^="merch_html_"]:has(> div[id] h2.mfe-card-group-title:contains(sponsored))
+startpage.com#@##main > div[style^="margin-bottom:"] > div:has(> div[style^="margin-bottom:"] > svg)
 startpage.com#@?##main > div[class^="css-"]:has(> div[class^="css-"] > p[class^="css-"]:contains(/Annoncer|Anzeigen|Ads|Anuncios|Publicités|Advertenties|Annonser|Reklamy|Anúncios/))
 startpage.com#@?#.main-results-container > div.shopping-header > div[class^="css-"] > div[class^="css-"] > div.information-container + div[class^="css-"]:has(> span:contains(/Sponsoreret|Gesponsert|Sponsored|Patrocinad|Sponsorisé|Gesponsord|Sponset|Sponsorowane|Sponsrad/))
 etsy.com#@?#.responsive-listing-grid > li:has( > div > a div > .ad-iindicator)
