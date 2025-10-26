@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-10-24T01:02:45Z
+! Last modified: 2025-10-26T01:12:38Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 23 Oct 2025 13:20:51 +0000
+! Last modified: Sat, 25 Oct 2025 15:50:17 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17562,7 +17562,7 @@ wyze.com###wyze-cookie-banner
 xhorsetool.com###xri_GoogConsent
 hydramatics.co.za###zcb-banner
 spiceworks.com###zdprivacy-content-new
-avaloniaui.net,buildship.com,bunq.com,coworker.ai,enhanced.com,fitanalytics.com,framer.com,frigade.ai,gitbook.com,neon-free.ch,site.trasti.pl,strongcloud.online,syncly.app,walllet.com##.--framer-cookie-banner-container
+avaloniaui.net,buildship.com,bunq.com,coworker.ai,enhanced.com,fitanalytics.com,framer.com,frigade.ai,gitbook.com,iverify.io,neon-free.ch,site.trasti.pl,strongcloud.online,syncly.app,walllet.com##.--framer-cookie-banner-container
 dublininquirer.com##.-alert.-fixed.notice
 alpari.com,alpariforex.org##.-footer__notice
 nhl.com##.-left.nhl-c-toast
@@ -20666,6 +20666,7 @@ dmsg.de,bgk.pl,pflegezeit-berlin.de,gpd-nordost-onlineberatung.de,proabschluss-b
 werkenbijtrekpleister.nl,werkenbijkruidvat.be,rassenlijst.info,werkenbijiciparisxl.nl##+js(rc, is-active-cookiebar, , stay)
 campingdusoleil.com,hotel-la-chaumiere.com,les-anges-gardiens.fr,croco-kid.com,cambridge-centre.fr,equisud.com,allokebab-pau.fr,etre-visible.local.fr,mas-montebello66.com,camping-residentiel-les-marronniers-jura.fr,dj4events.fr,saintjoursexpertmariaz-renovation.fr,presquilemultiservices.com,hotel-aigoual.com,hotel-restaurant-pau.com,desrayaud-paysagistes.com,hotelsaintcharles.fr,agvillagecamarguais.com,joyella.com,gabriel-godard.com,artech-sellerie.com,motoclubernee.com,ledauphinhotel.com,cuisin-studio.com,biomeo-environnement.com,leman-instruments.com,esthetique-meyerbeer.com,institut-bio-naturel-nice.fr,nature-et-bois.fr,transmissions-bordeaukinechartreuse.com,corsegourmande.com,cotedecor.com,restaurant-la-badiane.fr,systelia.fr,lesjardinsinterieurs.com,helenevue.com,saubusse-thermes.com##+js(rc, unreadable-display, , stay)
 ! set-cookie
+search.upright-music.dk##+js(set-cookie, cookieConsent, true)
 toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
 hyte.com##+js(set-cookie, AcceptUseCookie, Accept)
@@ -26013,7 +26014,6 @@ keysight-technologies.ru###uni-notification
 incom.ru###use_cookies_message-block
 nord-news.ru###ym-cookie-notification
 bcs.ru##.Cbh_c
-litres.ru##.CookieAcceptPopup-module__container_UndPF
 prosv.ru##.CookieAccept_root__7K7ap
 tass.ru##.CookieAcceptance_container__DbL1S
 metaratings.ru##.CookieAllowance_cookiesAllowance__78hAO
@@ -26241,7 +26241,7 @@ bb.market##div[class^="_cookies_"]
 asna.ru##div[class^="modalCookies_"]
 russianfield.com##div[data-storage-item^="t886cookiename_"]
 knmoloko.ru##div[data-storage-item^="t887cookiename_"]
-litres.ru##div[data-test-id="cookieAcceptPopup"]
+litres.ru##div[data-testid="cookieAcceptPopup"]
 detmir.ru##div[data-testid="notification"]
 7dach.ru##div[style^="background-color:#fff3cd; color: #856404;"]
 chaynikam.info##div[style^="position: fixed; bottom: 0px;"]
