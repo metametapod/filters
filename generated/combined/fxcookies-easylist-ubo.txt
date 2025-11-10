@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-11-09T01:11:52Z
+! Last modified: 2025-11-10T01:13:21Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sat, 08 Nov 2025 06:52:16 +0000
+! Last modified: Sun, 09 Nov 2025 06:52:41 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -16957,6 +16957,7 @@ nch.com.au,nchsoftware.com###ckndiv
 bghotelite.com###clb_wr
 familytreenow.com###clym-widget-discrete
 cmegroup.com###cmePermissionQuestion
+polygon.technology###cmp
 c3ny.org,means-of-production.com###cnb
 courier.net###cnetc
 williamsburgcinemas.com###cnotify
@@ -18060,6 +18061,7 @@ cmon.sg##.cmon-privacy-disclaimer
 ford.co.nz##.cmp-cookiebanner
 icicibank.com##.cmp-experiencefragment--cookie-policy
 manulife.com##.cmp-ntfbanner
+polygon.technology##.cmp-overlay
 mediaportal.scania.com##.cmp-structure-cookie
 coupons.slickdeals.net,testerup.com##.cmpbox
 evoestate.com##.cnc-container
@@ -19670,7 +19672,7 @@ just-eat.fr,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-setting
 ! #cookiesjsr
 brightlands.com,cnmc.es,confea.org.br,elbitsystems.com,frequentis.com,gmv.com,iucn.org,iucncongress2025.org,land.nrw,mmkv.cz,portdebarcelona.cat,puertos.es,red.es,sagemcom.com,santiagodecompostela.gal,stadtlandwirtschaft.wien,tecnoalarm.com,thecommonwealth.org###cookiesjsr
 ! #cookieConsent
-abcsinsights.com,antena1.com.br,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,julesjordan.com,kaveverzum.hu,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,my.eekgames.com,myperfectnova.es,psiphon.ca,seguno.com,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
+abcsinsights.com,antena1.com.br,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,julesjordan.com,kaveverzum.hu,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,my.eekgames.com,myperfectnova.es,pingstalker.com,psiphon.ca,seguno.com,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
 ! .cookies-consent
 actie.degoedezaak.org,campax.org,mrfdev.com,pelephone.co.il,voicemod.net##.cookies-consent
 ! #cookie-message
@@ -19752,7 +19754,7 @@ laportecontemporaine.shop,meesterslijpers.nl###ism-consent-box
 !! .cookie-alert
 baden-wuerttemberg.de,cdek.ru,elektrikstore.hu,empresasnegocios.pt,kaveverzum.hu,leumi.co.il,pushwoosh.com,rzd.ru,salon24.pl,shoei-helmets.com,tipik.hu##.cookie-alert
 !! .amgdprjs-bar-template
-ctt.de,ironmaxx.de,johnsonsjewellers.co.uk,landyschemist.com,scienceinsport.com,theraband.com##.amgdprjs-bar-template
+ctt.de,ironmaxx.de,johnsonsjewellers.co.uk,landyschemist.com,plaidonline.com,scienceinsport.com,theraband.com##.amgdprjs-bar-template
 !! .cookie-notification
 carletonvillemall.co.za,cosmomall.co.za,e-recharge.net,eurotradefair.nl,iahsap.com,informationmagazine.com,jobs.tuwien.ac.at,kguttag.com,leitor.net,lifestylecrossing.co.za,mangalivre.net,netshoes.com.br,palmscentre.co.za,pnp.co.za,prostokvashino.ru,rabbitscams.sex,riverwalkcentre.co.za,schofieldwatchcompany.com,shoestock.com.br,spursteakranches.com,supercheapauto.co.nz,supercheapauto.com.au,supernovabih.ba,theatrium.co.za,theheasman.com,victoryparkcentre.co.za,vumatel.co.za,wretozattini.com.br,zheleza.net##.cookie-notification
 !! .cookie-alert-show
@@ -27768,7 +27770,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 04 Nov 2025 19:26:40 +0000
+! Last modified: Sun, 09 Nov 2025 17:10:57 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28277,6 +28279,9 @@ fyndiq.dk,fyndiq.fi,fyndiq.no,fyndiq.se##+js(trusted-set-cookie, euconsent-v2, C
 ! https://github.com/uBlockOrigin/uAssets/issues/30042
 ai.google.dev##+js(trusted-set-local-storage-item, glue.CookieNotificationBar, '[{"category":"2A","date":"$currentISODate$","eea":true,"siteId":"ai.google.dev","status":"ACCEPTED"}]')
 16100.fi##+js(trusted-set-cookie, cookie_consent, eyJpdiI6ImwwWXVzYitiUmpWSDJmMWtkdHMvanc9PSIsInZhbHVlIjoicERPYnN6akRVbCttQVBaSHhMTzd3TW4xZGJTVWxqK2JwTlNYWjhlZ29JanVXOWdQU2x5RVhaRVpuR0l3QjBYOSIsIm1hYyI6ImM4YmU4OTYzZjYwODEyMmRlMmFmZjU1ZmE0YjcyZDA0ZmQ2MmEyOWZhNjA5NzA4ZGQwOWY2NzgyNjEwOTBhMDAiLCJ0YWciOiIifQ%3D%3D, 1year, , reload, 1)
+! https://github.com/uBlockOrigin/uAssets/issues/30738
+pcgamer.com>>,~~~youtube.com##+js(trusted-click-element, button.message-button[aria-label="More Options"])
+pcgamer.com>>,~~~youtube.com##+js(trusted-click-element, button.sp_choice_type_REJECT_ALL, , 2000)
 
 !! Needs additional cookies
 
@@ -32260,6 +32265,8 @@ archon-studio.com##+js(trusted-set-cookie, sg_cookie_settings, '{"necessary":tru
 ! Necessary + functional
 wilfa.com##+js(trusted-set-cookie, _pandectes_gdpr, eyJjb3VudHJ5Ijp7ImNvZGUiOiJGSSIsInN0YXRlIjoiMTUiLCJkZXRlY3RlZCI6MTc0MDkyOTg5M30sInN0YXR1cyI6ImN1c3RvbSIsInRpbWVzdGFtcCI6MTc0MDkyOTkxMiwicHJlZmVyZW5jZXMiOjYsImlkIjoiNjdjNDdiNzgzN2MyYmQzZjQwMTJiMDM4In0=, 1year)
 
+! EU IP (consentwall)
+sourcepoint.theguardian.com##+js(trusted-click-element, button[title="Accept all"], , 1000)
 ! US IP (CPPA California)
 sourcepoint.theguardian.com##+js(trusted-click-element, button[title="Do not sell or share my personal information"], , 1000)
 
