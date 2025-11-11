@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-11-10T01:13:21Z
+! Last modified: 2025-11-11T01:10:00Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 09 Nov 2025 06:52:41 +0000
+! Last modified: Mon, 10 Nov 2025 21:50:00 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17527,6 +17527,7 @@ applytojob.com###tracking-consent-banner
 ergonbike.com###tracking-modal
 stingray.com###tracking-popup
 privacy.org.nz###trackingmessage
+visionworks.com###transcend-consent-manager
 undercurrentnews.com###ucn-gdpr-overlay
 strikermanager.com###ue
 search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion###usage-metrics
@@ -20010,7 +20011,7 @@ proprospan.ru,worksmile.com##.cookies-component
 !! #BorlabsCookieBox
 alte-apotheke-hamm.de,delta4x4.com,fagron.de,ga-service.at,granfondo-cycling.com,harmtodt.com,immotech-austria.at,reinhold-keller.com###BorlabsCookieBox
 !! #cc-main
-14000.cz,aitum.tv,aktivia.it,andromede-cms.com,any.run,art.org,bienpreter.com,bistrono.cz,boldem.cz,caesium.app,capriz.it,century21.pt,codesandbox.io,cointracker.io,corporate.freedompay.com,cortinabikes.com,datawrapper.de,derslig.com,dervit.cz,devunus.com,edb.cz,edb.eu,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,localizely.com,loetje.nl,mealsyoulove.com,modeliukai.lt,mostostal.waw.pl,msha.ke,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,renderai.app,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
+14000.cz,aitum.tv,aktivia.it,andromede-cms.com,any.run,art.org,bienpreter.com,bistrono.cz,boldem.cz,bytesauna.com,caesium.app,capriz.it,century21.pt,codesandbox.io,cointracker.io,corporate.freedompay.com,cortinabikes.com,datawrapper.de,derslig.com,dervit.cz,devunus.com,edb.cz,edb.eu,exquisitetimepieces.com,ferrari-tower.com,foxsports.com.mx,gitschberg.it,givesendgo.com,gl-inet.com,gmanetwork.com,goldplay.it,goodinternetmagazine.com,habito.com,hellochefs.es,home.s.id,jackbox.tv,jenmusic.ai,jurga.lt,kirchberg.ch,knihobot.cz,konverto.eu,liu.se,localidautore.it,localizely.com,loetje.nl,mealsyoulove.com,modeliukai.lt,mostostal.waw.pl,msha.ke,nabidka.net,ndsas.sk,new-dashboard.phishfort.com,nixcademy.com,openresearchlab.org,poptavka.net,primocanale.it,renderai.app,rogold.live,rustdesk.com,sampi.net.br,sardynkibiznesu.pl,soleretriever.com,sporthotel-zoll.com,trae.ai,trakt.tv,tutotoons.com,unibz.it,velostreet.com,whitebit.au,whitebit.com,whoisxmlapi.com,yodayo.com,ytlarge.com,zeno.fm,zitadel.com###cc-main
 !! #cc--main
 acelen.com.br,advtraining.it,albengacorsara.it,alde.se,alper.cz,arbetsgivarverket.se,asbis.com,auxologico.it,bambulab.com,bigmotoringworld.co.uk,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,bokomo.co.za,carteantennesuisse.ch,cdw.com,cdwg.com,cnb.cz,coros.com,czechuniversities.com,danielroth.com,data.defector.com,delhivery.com,doctoranytime.be,eufymake.com,eujicha.cz,excellentmagazine.it,excellentmarketing.it,fangear.cz,fashionnetwork.com,feedoptimise.com,flowforge.com,garfidi.it,gatehousebank.com,gls-group.com,hc-slavia.cz,hc-vsetin.cz,hcdukla.cz,hcdynamo.cz,hcf-m.cz,hcporuba.cz,hokejprerov.cz,holba.cz,hotelvillaastra.com,hstrebic.cz,idfnet.net,kroo.com,krusovice.cz,lajairadeana.com,lataco.com,levior.cz,linaro.org,login.mercedes-benz.com,luxardo.it,marken.cz,mcsystems.cz,mightybytes.com,mojecity.cz,msem.cz,myenlightencommunity.com,myjob.ch,nowpatient.com,olkraj.cz,omegasport.cz,packtpub.com,piratichomutov.cz,psg.cz,reteimprese.it,returnsportal.online,royalbelgiancaviar.be,runnea.co.uk,shmu.sk,soundcore.com,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,superspeedyplugins.com,teksavvy.com,theactive.thaipbs.or.th,toscana-notizie.it,toscana.it,ungeziefer-ratgeber.info,urbantufting.com,watchesbysjwebtic.it,wifiwijs.nl,woche-bb.ch,woergl.at,wongnai.com,worldmarathonmajors.com,zlinskykraj.cz,zubr.cz###cc--main
 !! .c--anim
@@ -22230,6 +22231,7 @@ hashop.nl##+js(set-cookie, cookie_preference, 1)
 gift.be##+js(set-cookie, CP_ESSENTIAL, 1)
 gift.be##+js(set-cookie, CP_PREFERENCES, 1)
 okfurniture.co.za,patricia.bg,lifestyle.focuscamera.com,weekend.ee,elevator.de,foryouehealth.de,merrell.pl,animaze.us,penn-elcom.com,curantus.de,mtbmarket.de,spanienweinonline.ch,novap.fr,shop.wf-education.com,holzkern.com,teodor.bg,teodor-shop.com,tehnomix.bg,anglingdirect.co.uk,erdbeerprofi.de##+js(set-cookie, amcookie_allowed, 1)
+moidom.citylink.pro##+js(set-cookie, md-cookies-dialog, 1)
 bizkaia.eus##+js(set-cookie, pc_analitica_bizkaia, false)
 bizkaia.eus##+js(set-cookie, pc_preferencias_bizkaia, true)
 bizkaia.eus##+js(set-cookie, pc_tecnicas_bizkaia, true)
