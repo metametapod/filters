@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: VbchHEt8cGcP4jjANNWEzQ
-! Diff-Path: ../patches/18/18-s-1763395955-3600.patch
+! Checksum: 4OUlOicMu9FsnUpYBobNjg
+! Diff-Path: ../patches/18/18-s-1763496782-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.74.79
-! TimeUpdated: 2025-11-17T16:08:51+00:00
+! Version: 2.0.74.87
+! TimeUpdated: 2025-11-18T20:09:34+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1704,6 +1704,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||bigidcmp.cloud/banner.js
 ||consent.preference-center.com^
 /gd-cookie2.js
 /modules/cookiesplus/views/js/cookiesplus-front.js
@@ -2475,7 +2476,7 @@ focus.it##+js(remove-class, cp-banner-visible, body)
 codesandbox.io,damota.me,pracazarogiem.pl,pracezarohem.cz,pracazarohom.sk,seduo.*##+js(remove-class, force--consent|show--consent, html)
 ||cdn.jsdelivr.net/npm/@lmc-eu/cookie-consent-manager$domain=teamio.com
 ! orestbida/cookieconsent
-/cookieconsent.$domain=qrcodemonkey.net|wedos.com|scssoft.com|umino.io|sklep.ledlumen.pl|megasobota.pl|emunia.pl
+/cookieconsent.$domain=qrcodemonkey.net|wedos.com|scssoft.com|umino.io|sklep.ledlumen.pl|megasobota.pl|emunia.pl|proxmox.com
 ! GitBook instances
 help.lurker.tv,help.zenky.io,docs.powershelluniversal.com,docs.snyk.io,docs.keeper.io,developers.deepl.com##[aria-label="Cookies"]
 !
@@ -2496,6 +2497,8 @@ raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apothe
 !
 ! NOTE: Regular rules
 !
+rooler.ua##.block_cookies
+opengovpartnership.org##div[data-controller="gdpr"]
 asv.org.ru##app-notification-cookie
 prav.io###privacy-widget
 revolutionrace.pl#$#body.body--modal { position: static !important; }
@@ -16708,6 +16711,11 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/217939
+@@||cdn.cookielaw.org/consent/*/otSDKStub.js$domain=soundcloud.com
+@@||cdn.cookielaw.org/consent/*.json$domain=soundcloud.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/217940
+topmediai.com#@#.cookie-content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/217534
 ditur.pl#@##cookie-popup:not(body, html)
 ditur.pl#@##cookie-popup
