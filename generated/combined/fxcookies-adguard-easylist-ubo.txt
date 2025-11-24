@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-11-23T01:18:02Z
+! Last modified: 2025-11-24T01:13:52Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: FcDDe/mcLsZY0UU7PvJYNw
-! Diff-Path: ../patches/18/18-s-1763806230-3600.patch
+! Checksum: SefsE3fWFs9BDFc6OLlh7w
+! Diff-Path: ../patches/18/18-s-1763921590-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.75.17
-! TimeUpdated: 2025-11-22T10:06:55+00:00
+! Version: 2.0.75.19
+! TimeUpdated: 2025-11-23T18:09:32+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
