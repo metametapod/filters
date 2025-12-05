@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-12-04T01:10:48Z
+! Last modified: 2025-12-05T01:11:33Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 03 Dec 2025 09:53:24 +0000
+! Last modified: Thu, 04 Dec 2025 13:24:08 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18404,6 +18404,7 @@ lumendatabase.org,thebodyshop.com##.first-time-visitor
 ecmsglobal.com##.firstTimeTip
 thefurnshop.co.uk##.fixBar
 privacysavvy.com##.fixed
+namesilo.com##.fixed-footer
 mobileshop.eu##.fixed-warning
 tomtom.com##.fixed.bottom-24
 thelatinonewsletter.org##.fixed.left-2
@@ -19507,8 +19508,7 @@ evertiq.*##.cc-container
 track.amazon.*##.wfbHK2
 wayfair.*##div[data-hb-id="Modal"] > div > [data-test-id="CookiePreferenceNotification"]
 !! #cookiePopup
-betway.*,reklama5.com,visitseoul.net###cookiePopup
-easyinsights.ai###cookiePopup
+betway.*,easyinsights.ai,reklama5.com,visitseoul.net###cookiePopup
 !! .cookie-popup
 athenaeumscheltema.nl,campfimfo.com,championat.ru,evraz.com,hampers.com,icmarkets.eu,kinoflex.ru,mediathek.lfv-mts.ru,mysky.com.ph,nobliecustomknives.com,revolutionrace.com,rsna.org,superrichthailand.com,supersport.hr,taxsummaries.pwc.com,teemill.com,trt.net.tr,zamnesia.com##.cookie-popup
 !! #cookieNotice
@@ -19707,7 +19707,7 @@ amiunique.org,armegoszto.hu,kaidee.com,rewardlink.io,stellarium-web.org##.v-snac
 !! .FeatureBar_root___INU8
 freshcart.se,ninelife.no,store.pw.live##.FeatureBar_root___INU8
 !! .v-overlay
-abnt.org.br,adressen.schober.de,andyguitar.co.uk,bimedis.ru,ichbindeinauto.de,mp.cz,order.fiveguys.fr,promotionbasis.de,rypsv.scot,trustpid.com##.v-overlay
+abnt.org.br,adressen.schober.de,andyguitar.co.uk,bimedis.ru,ichbindeinauto.de,order.fiveguys.fr,promotionbasis.de,rypsv.scot,trustpid.com##.v-overlay
 !! Cookie_
 10x.co.za,appmetrica.yandesook.space##[class^="Cookie_"]
 !! .tws-accept-cookies--wrapper
@@ -19887,8 +19887,7 @@ dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,krepling.com,kritikos-sm.gr
 !! .cookie-check
 connection.com,eink.com,govconnection.com,iphotel.com.br##.cookie-check
 !! .cc-window
-ablebits.com,actu.epfl.ch,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,blenderartists.org,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,discussion.fedoraproject.org,e-infra.com,eingutertag.org,eliebleu.com,flurry.com,gardinerbrothers.co.uk,getrawnutrition.com,gg.deals,gilli-food.it,goldammer.me,goldarts.co.uk,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlaw.cornell.edu,lightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,monochrome-watches.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,paulinwatches.com,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sbenny.com,sdxcentral.com,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,travelok.com,tuxedocomputers.com,webit.org,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
-bier-universum.*##.cc-window
+ablebits.com,actu.epfl.ch,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,bier-universum.*,blenderartists.org,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,discussion.fedoraproject.org,e-infra.com,eingutertag.org,eliebleu.com,flurry.com,gardinerbrothers.co.uk,getrawnutrition.com,gg.deals,gilli-food.it,goldammer.me,goldarts.co.uk,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlaw.cornell.edu,lightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,monochrome-watches.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,paulinwatches.com,pcpartpicker.com,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sbenny.com,sdxcentral.com,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,travelok.com,tuxedocomputers.com,webit.org,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
 !! .popup
 advgazeta.ru,beiersdorf.com,czc.cz,digitfoto.de,engeo.ch,hypeauditor.com,kiswe.com,kolesnic.ru,mellerud.de,mindmatrix.net,renewal.ru,salesmanago.pl,swayhotels.com,topographic-map.com,yclients.com,zabkagroup.com##.popup
 !! .popup-container
@@ -27542,7 +27541,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 02 Dec 2025 18:23:05 +0000
+! Last modified: Wed, 03 Dec 2025 20:38:52 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28082,21 +28081,8 @@ vkmag.com##+js(trusted-set-cookie, eupubconsent-v2, CPt6LrpPt6LrpAcABBENDKCgAAAA
 ! Mandatory, functional + social media (embedded content)
 ! https://www.mtvuutiset.fi/artikkeli/hallitusohjelma-kirvoittaa-epauskoisia-parahduksia-ja-kiitosta-lue-marinin-ja-monen-muun-kommentit-linjauksiin/8722768
 
-! https://github.com/finnish-easylist-addition/finnish-easylist-addition/discussions/416#discussioncomment-7740329
-! Click Accept to get rid of the GDPR window
-almamedia.fi>>,ampparit.com>>,arvopaperi.fi>>,kauppalehti.fi>>,mikrobitti.fi>>,talouselama.fi>>,tekniikkatalous.fi>>,tivi.fi>>,uusisuomi.fi>>##+js(trusted-click-element, button.alma-cmp-button[title="Hyväksy"])
-! Prevent GDPR dialog from "shaking" the page view
-almamedia.fi,ampparit.com,arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##html.sp-message-open:style(overflow: auto !important; width: initial !important)
-almamedia.fi,ampparit.com,arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##html.sp-message-open > body:style(position: unset !important; margin-top: 0 !important; overflow: visible !important)
-! Prevent the GDPR window flickering by hiding it before it's being clicked
-almamedia.fi,ampparit.com,arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi#@#[title="SP Consent Message"]
-! Change cookie values afterwards not to accept all cookies. Relaying only on trusted-set-cookie, doesn't always hide the GDPR window, that's why trusted-click-element is also required
-almamedia.fi,ampparit.com,arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##+js(trusted-set-cookie, consentUUID, 84561898-f8ab-4872-8ae3-b46523df21ba_38, 1year)
-almamedia.fi,ampparit.com,arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##+js(trusted-set-cookie, euconsent-v2, CQISSMAQISSMAAGABBENBOFsAP_gAAAAAApAAAAAAAAA.YAAAAAAAAAAA, 1year)
-almamedia.fi,ampparit.com,arvopaperi.fi,kauppalehti.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##+js(trusted-set-cookie, consentDate, $currentISODate$, 1year)
-! https://tilaukset.almamedia.fi/ --- login by using 3p services won't work
-almamedia.fi##+js(trusted-set-cookie, gravitoData, '{"TCString":"CQJXf4AQJXf4ABUASAFIBTFgAAAAAAAAAApAAAAAAAChIBoACwAKgAeABBADIANAAiABMAD8AIQAbIBIgDFALzHQDwAFgAVABBADIANAAiABMAD8ANEAbIBFgCRAGKAOoAmQBeZCAGAAsAxQB1CUAcABYARAAmADZAMUAdQBeZSAcAAsACoAIIAZABoAEQAJgAfgBogDZAIsASIAxQB1AF5g.YAAAAAAAAIAA","NonTCFVendors":[{"id":1,"name":"Facebook","consent":true},{"id":3,"name":"Google","consent":true},{"id":9,"name":"Twitter","consent":true},{"id":10,"name":"Wordpress","consent":true},{"id":15,"name":"Linkedin","consent":true},{"id":19,"name":"Vimeo","consent":true},{"id":27,"name":"Apple","consent":true}]}', 1year)
-almamedia.fi##+js(trusted-set-cookie, TcString, CQJXf4AQJXf4ABUASAFIBTFsAP_gAAAAAApAAAAAAAChIBoACwAKgAeABBADIANAAiABMAD8AIQAbIBIgDFALzHQDwAFgAVABBADIANAAiABMAD8ANEAbIBFgCRAGKAOoAmQBeZCAGAAsAxQB1CUAcABYARAAmADZAMUAdQBeZSAcAAsACoAIIAZABoAEQAJgAfgBogDZAIsASIAxQB1AF5g.YAAAAAAAAIAA, 1year)
+! Almamedia sites, accept
+almamedia.fi>>,ampparit.com>>,arvopaperi.fi>>,iltalehti.fi>>,kauppalehti.fi>>,mikrobitti.fi>>,talouselama.fi>>,tekniikkatalous.fi>>,tivi.fi>>,uusisuomi.fi>>##+js(trusted-click-element, button[title="Hyväksy"])
 
 ! Mandatory, performance + functional
 ! https://www.gamespot.com/videos/firearms-expert-reacts-to-crysis-franchise-guns/2300-6461700/
@@ -29001,10 +28987,6 @@ euronews.com###poool-fullscreen-widget
 
 ! just nessary 
 vroomly.com##+js(trusted-set-cookie, cookie_consent_202401, '{"sentry":false,"braze":false,"userpilot":false,"googleAnalytics":false,"amplitude":false,"hotjar":false,"facebookPixel":false,"googleAds":false,"kwanko":false}')
-
-! accept (to avoid further nags)
-! iltalehti.fi
-cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Hyväksy"], , 1000)
 
 ! reject
 nomonday.pl##+js(trusted-set-cookie, nmcmpv2, '{"ad":0,"analytics":0,"functionality":0,"personalization":0,"security":0}')
