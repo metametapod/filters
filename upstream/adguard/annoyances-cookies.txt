@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: BRavn3PgRMNO+hR53US4wA
-! Diff-Path: ../patches/18/18-s-1765566634-3600.patch
+! Checksum: AKQ0lSfptr30EcHGMb30Cg
+! Diff-Path: ../patches/18/18-s-1765739406-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.76.65
-! TimeUpdated: 2025-12-12T19:07:36+00:00
+! Version: 2.0.76.70
+! TimeUpdated: 2025-12-14T19:06:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2502,6 +2502,13 @@ raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apothe
 !
 ! NOTE: Regular rules
 !
+mr-7.ru##+js(set-local-storage-item, cookies-informer-close, true)
+vocali.se##+js(set-local-storage-item, GDPR:accepted, false)
+yazargazetesi.com###enews-cookie-box
+comiccave.de##+js(set-cookie, cookie-preference, 1)
+mim.gov.it##+js(set-cookie, cookie_privacy, accepted)
+betten-abc.de##+js(set-cookie, cookie-preference, 1)
+a101.ru##div[class^="_TheCookiesPanel_"]
 creativefabrica.com##footer  ~div.bg-primary-500
 sponsr.ru##div[class^="Cookie_container"]
 peterburg-kino.spb.ru##.notification-container
@@ -10011,9 +10018,9 @@ rheinbahn.de###cookiefrage
 /misc/cookie.js$domain=kurnik.pl|playok.com
 tbd.community###block-tbd-cookie-notice
 intercity.pl##.CookiePolicy-Contener
-bodman-ludwigshafen.de,performance-profis.de,freediscussions.com,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##body .ccm-root:style(display: none !important;)
-bodman-ludwigshafen.de,performance-profis.de,freediscussions.com,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##body[class].ccm-blocked:style(overflow: auto !important;)
-bodman-ludwigshafen.de,performance-profis.de,freediscussions.com,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##html[class].ccm-blocked:style(overflow: auto !important;)
+ks-auxilia.de,bodman-ludwigshafen.de,performance-profis.de,freediscussions.com,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##body .ccm-root:style(display: none !important;)
+ks-auxilia.de,bodman-ludwigshafen.de,performance-profis.de,freediscussions.com,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##body[class].ccm-blocked:style(overflow: auto !important;)
+ks-auxilia.de,bodman-ludwigshafen.de,performance-profis.de,freediscussions.com,treetop-walks.com,sportnahrung-engel.de,moto-akut.de,boxspring-welt.de,ssb-ag.de,filmdienst.de,penguinrandomhouse.de,vegdog.de,werner-mertz.de,lust-auf-vegan.com,5g-anbieter.info,firstname.de,velomobilforum.de,tanke-guenstig.de,pfh.de,herrenberg.de,landkreis-nu.de,versicherungsjournal.de,ikkbb.de,auerswald.de,wunschliste.de,hundund.de##html[class].ccm-blocked:style(overflow: auto !important;)
 vegdog.de##div[class^="overlay-"]:style(display: none !important;)
 intermiles.com###gdprBand
 alltours.de##div[class^="CookieNotificationBox__root--"]
@@ -12875,7 +12882,7 @@ calvinklein.us,sony.ru,pch.com,sony.com.br,royalmail.com,uber.com##.privacy_prom
 vergleich.org##.legal-note
 mynewsdesk.com###accept-page-cookies
 gethatch.com##.consently-bar
-bwkrankenhaus.de,bmvg.de,bundeswehr.de##.c-privacy-protection-banner
+bmvg.de,bundeswehr.de##.c-privacy-protection-banner
 tiendeo.de,tiendeo.com,tiendeo.com.tr###cookiesModal_bottom
 mammut.com##.mm-cookie-bar
 frohe-zukunft.de##.pn_notebox
@@ -14665,7 +14672,7 @@ onlinetvrecorder.com##body > div[id][style*="background: rgba(0, 0, 0, 0.8);"][s
 ipaddress.com##body > footer + #cc
 crossout.net##cookbox
 gq.ru##cookies-gdpr
-dryg.pl,ideco.ru,mercuryo.io,mycujoo.tv##div[class^="CookiesNotification_"]
+krost.ru,dryg.pl,ideco.ru,mercuryo.io,mycujoo.tv##div[class^="CookiesNotification_"]
 103.ua##.CookiesNotificationDefault
 dailymotion.com##div[class^="Header__gdpr"]
 eskago.pl,pcgamesn.com,trueachievements.com,tvcatchup.com##div[class^="app_gdpr"]
@@ -14851,7 +14858,7 @@ ing.nl###cookieCheck-app
 chip.de,main-echo.de###cookieChoiceInfo
 areamobile.de###cookieChooser
 okdiario.com###cookieLawPanel
-bikesportworld.de,soundstream.media,alko-garden.*,saubersaugen.de,nationalpark-eifel.de,bike-angebot.de,hoerr-edelstahl.de,bischoff-verlag.de,hsb-wr.de,alemannia-aachen.de,wohnorama.de,marc-cain.com,balthasar-ress.de,augustrichter.de,schuhcenter.de,driverfix.com,feedity.com,expert-technomarkt.de,kirstein.de,asgoodasnew.de,papierdirekt.de,zweirad-stadler.de,eustore.ifixit.com,basicbio.de,bigge-energie.de,erf.de,metabo.com,rewe.de,sangyoshinko.co.jp###cookieNote
+anime-figuren.de,bikesportworld.de,soundstream.media,alko-garden.*,saubersaugen.de,nationalpark-eifel.de,bike-angebot.de,hoerr-edelstahl.de,bischoff-verlag.de,hsb-wr.de,alemannia-aachen.de,wohnorama.de,marc-cain.com,balthasar-ress.de,augustrichter.de,schuhcenter.de,driverfix.com,feedity.com,expert-technomarkt.de,kirstein.de,asgoodasnew.de,papierdirekt.de,zweirad-stadler.de,eustore.ifixit.com,basicbio.de,bigge-energie.de,erf.de,metabo.com,rewe.de,sangyoshinko.co.jp###cookieNote
 bide-et-musique.com###cookieOK
 natgeotv.com###cookieStandar
 cravenherald.co.uk,eveningtimes.co.uk,greenocktelegraph.co.uk,heraldscotland.com,swindonadvertiser.co.uk,warringtonguardian.co.uk,wiltshiretimes.co.uk###cookieWarningR
