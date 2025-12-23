@@ -5,8 +5,8 @@
 // Please pull this list from, and only from https://publicsuffix.org/list/public_suffix_list.dat,
 // rather than any other VCS sites. Pulling from any other URL is not guaranteed to be supported.
 
-// VERSION: 2025-12-21_00-34-40_UTC
-// COMMIT: a0814017572883671d2f48e789e2173bb2a1e57d
+// VERSION: 2025-12-22_08-27-33_UTC
+// COMMIT: d3070bf6ac0c27fc1f711f13b3ed21a510c8fe50
 
 // Instructions on pulling and using this list can be found at https://publicsuffix.org/list/.
 
@@ -5673,7 +5673,9 @@ si
 sj
 
 // sk : https://www.iana.org/domains/root/db/sk.html
+// https://sk-nic.sk/
 sk
+org.sk
 
 // sl : http://www.nic.sl
 // Submitted by registry <adam@neoip.com>
