@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-12-27T01:11:29Z
+! Last modified: 2025-12-28T01:21:37Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 26 Dec 2025 09:52:01 +0000
+! Last modified: Sat, 27 Dec 2025 06:57:28 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19915,7 +19915,7 @@ dagrasso.pl,freedomtreks.co.uk,hiveon.com,hiveon.net,krepling.com,kritikos-sm.gr
 !! .cookie-check
 connection.com,eink.com,govconnection.com,iphotel.com.br##.cookie-check
 !! .cc-window
-ablebits.com,actu.epfl.ch,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,bier-universum.*,blenderartists.org,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,creativehut.com.br,discussion.fedoraproject.org,e-infra.com,ecpe.org,eingutertag.org,eliebleu.com,flurry.com,gardinerbrothers.co.uk,getrawnutrition.com,gg.deals,gilli-food.it,goldammer.me,goldarts.co.uk,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlaw.cornell.edu,lightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,monochrome-watches.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,paulinwatches.com,pcpartpicker.com,perrotin.com,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sbenny.com,sdxcentral.com,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,travelok.com,tuxedocomputers.com,webit.org,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
+ablebits.com,actu.epfl.ch,adsimple.at,anfarmag.org.br,augustiner-restaurant.com,aussenrollo.de,bier-universum.*,blenderartists.org,blisprobiotics.co.nz,bund-naturschutz.de,bws.co.at,camid.eu,cc-egov.de,cloud.thermoworks.com,creativehut.com.br,discussion.fedoraproject.org,e-infra.com,ecpe.org,eingutertag.org,eliebleu.com,flurry.com,gardinerbrothers.co.uk,getrawnutrition.com,gg.deals,gilli-food.it,goldammer.me,goldarts.co.uk,goruck.com,heissfenster.com,historicsouthtyrol.com,hotel-waldsee.com,huttersport.com,i2ocr.com,ionos-group.com,janestreet.com,justia.com,kattenberg.nl,khl.ru,krainz-loipersdlaw.cornell.edu,lightningmaps.org,lpderecho.pe,malaysiaairlines.com,mingpao.com,monochrome-watches.com,na-bibb.de,naturefund.de,osasco.sp.gov.br,paulinwatches.com,pcpartpicker.com,perrotin.com,plus.diolinux.com.br,poernbacher.net,rebinstitute.com,republicbharat.com,republicworld.com,sarnerholz.com,sarnerstiftung.it,sbenny.com,sdxcentral.com,siebenfoercher.it,starmicronics.com,tann.it,technoalpin.com,tiom.pl,travelok.com,tuxedocomputers.com,webit.org,wham.physics.wisc.edu,wisc.edu,zesty.tech##.cc-window
 !! .popup
 advgazeta.ru,beiersdorf.com,czc.cz,digitfoto.de,engeo.ch,hypeauditor.com,kiswe.com,kolesnic.ru,mellerud.de,mindmatrix.net,renewal.ru,salesmanago.pl,swayhotels.com,topographic-map.com,yclients.com,zabkagroup.com##.popup
 !! .popup-container
@@ -27214,6 +27214,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||aliunicorn.com^*/cookie-info.js
 @@||alphavps.com/assets/js/services/CookiesConsent.min.js
 @@||ampproject.org^*/amp-consent-$domain=9to59to5mac.com|amp-lasexta-com.cdn.ampproject.org|connectthewatts.com|dronedj.com|electrek.co|lelum.pl|martdroid.de|spaceexplored.com|www-history-com.cdn.ampproject.org
+@@||api.consentframework.com/api/$xmlhttprequest,domain=gizmodo.com
 @@||api.mercari.jp/experiments/get_running_experiments_by_name$xmlhttprequest,domain=jp.mercari.com
 @@||api.transcend.io/privacy/graphql$xmlhttprequest
 @@||apikeys.civiccomputing.com^$xmlhttprequest,domain=insights.com|videogameschronicle.com
@@ -27612,7 +27613,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Fri, 26 Dec 2025 16:47:57 +0000
+! Last modified: Sat, 27 Dec 2025 08:58:28 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -27910,6 +27911,11 @@ lastmile.lt##+js(trusted-set-cookie, __consent, %5B%22required%22%5D)
 springernature.com##+js(trusted-set-cookie, sncc, P%3D49%3AV%3D60.0.0%26C%3DC01%26D%3Dtrue, , , domain, springernature.com)
 palgrave.com##+js(trusted-set-cookie, sncc, P%3D65%3AV%3D14.0.0%26C%3DC01%26D%3Dtrue, , , domain, palgrave.com)
 apress.com##+js(trusted-set-cookie, sncc, P%3D71%3AV%3D9.0.0%26C%3DC01%26D%3Dtrue, , , domain, apress.com)
+! reject
+gizmodo.com,kotaku.com##+js(trusted-set-local-storage-item, sddan:cmp, '{"tc":"CQdF08AQdF08ABcAKCENCLFgAAAAAEPgAAqIJNQAASagZgALgAcAB4AFQALgAcABAACQAFQAMoAaABqADwAJkAXABdADEAGgAN4AfAA_ACEgEQARIAw4BlAGWANEAc8A-wD9AIQARQAiwBGICOAI6ASYAq4BcwC8gGKANEAa8A2gB_wEegJiATSAocBTQC1AFzALzAYsAyQBpoDkwAA","lp":$now$}')
+gizmodo.com,kotaku.com##+js(trusted-set-cookie, euconsent-v2, 'CQdF08AQdF08ABcAKBENCLFgAAAAAEPgAAqIJNQAASagZgALgAcAB4AFQALgAcABAACQAFQAMoAaABqADwAJkAXABdADEAGgAN4AfAA_ACEgEQARIAw4BlAGWANEAc8A-wD9AIQARQAiwBGICOAI6ASYAq4BcwC8gGKANEAa8A2gB_wEegJiATSAocBTQC1AFzALzAYsAyQBpoDkwAA')
+! reject
+webwave.me##+js(trusted-set-cookie, ww-cookie-settings, '{"functional":true,"preferences":false,"statistics":false,"marketing":false}')
 ! https://www.bol.com/nl/nl/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179998
 wesendit.com##+js(trusted-set-local-storage-item, cookieManagement, '{"googleAnalytics":false,"facebook":false}')
