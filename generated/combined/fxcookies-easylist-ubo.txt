@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-01-10T01:13:39Z
+! Last modified: 2026-01-12T01:18:59Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 09 Jan 2026 21:50:43 +0000
+! Last modified: Sun, 11 Jan 2026 13:19:05 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -296,6 +296,7 @@
 /cookieaccept.php
 /cookieacceptance.js
 /cookieacceptance.min.js
+/cookieadmin/assets/js/consent.js
 /cookieAgree.js
 /cookieAgree.min.js
 /cookieAgreement.js
@@ -19598,7 +19599,7 @@ baden-wuerttemberg.de,cdek.ru,elektrikstore.hu,empresasnegocios.pt,kaveverzum.hu
 !! .amgdprjs-bar-template
 ctt.de,ironmaxx.de,johnsonsjewellers.co.uk,landyschemist.com,plaidonline.com,scienceinsport.com,theraband.com##.amgdprjs-bar-template
 !! .cookie-notification
-carletonvillemall.co.za,cosmomall.co.za,e-recharge.net,eurotradefair.nl,iahsap.com,informationmagazine.com,jobs.tuwien.ac.at,kguttag.com,leitor.net,lifestylecrossing.co.za,mangalivre.net,mel.fm,netshoes.com.br,ngenix.net,palmscentre.co.za,pnp.co.za,prostokvashino.ru,rabbitscams.sex,riverwalkcentre.co.za,schofieldwatchcompany.com,shoestock.com.br,spursteakranches.com,supercheapauto.co.nz,supercheapauto.com.au,supernovabih.ba,theatrium.co.za,theheasman.com,victoryparkcentre.co.za,vumatel.co.za,wretozattini.com.br,zheleza.net,zorrolightersshop.com##.cookie-notification
+carletonvillemall.co.za,cosmomall.co.za,e-recharge.net,energypolicy.columbia.edu,eurotradefair.nl,iahsap.com,informationmagazine.com,jobs.tuwien.ac.at,kguttag.com,leitor.net,lifestylecrossing.co.za,mangalivre.net,mel.fm,netshoes.com.br,ngenix.net,palmscentre.co.za,pnp.co.za,prostokvashino.ru,rabbitscams.sex,riverwalkcentre.co.za,schofieldwatchcompany.com,shoestock.com.br,spursteakranches.com,supercheapauto.co.nz,supercheapauto.com.au,supernovabih.ba,theatrium.co.za,theheasman.com,victoryparkcentre.co.za,vumatel.co.za,wretozattini.com.br,zheleza.net,zorrolightersshop.com##.cookie-notification
 !! .cookie-alert-show
 shate-m.by,shate-m.kz##.cookie-alert-show
 !! .adn-message
@@ -20253,7 +20254,7 @@ aerored.es,biodramina.es,fisiocrem.es,franui.store##.modalcookies
 !! #cookie-container
 gov.br,haanindustrial.com,ippies.nl,picniq.co.uk,shopriteholdings.co.za,sophianum.nl,tatasteelonbrand.com###cookie-container
 !! .cookie-container
-24baby.nl,cameronhouse.co.uk,du.lv,licon.com,mbelik.com,mpt.mp.br,oeh-wu.at,postimees.ee,privacy.com.br,punchline-gloucester.com,quickconnect.to,regionorebrolan.se,sabesp.com.br,skatteetaten.no,tadeclinicagem.com.br##.cookie-container
+24baby.nl,cameronhouse.co.uk,du.lv,licon.com,mbelik.com,mpt.mp.br,oeh-wu.at,pcm.ru,postimees.ee,privacy.com.br,punchline-gloucester.com,quickconnect.to,regionorebrolan.se,sabesp.com.br,skatteetaten.no,tadeclinicagem.com.br##.cookie-container
 !! .cookie-background
 btc-city.com,hausgeraete-test.de,heimwerker-test.de,hifitest.de,skatteetaten.no##.cookie-background
 !! #cookieModal
@@ -20840,7 +20841,7 @@ tenvinilo-argentina.com##+js(set-cookie, _tv_cookie_consent, y)
 lasestrellas.tv##+js(set-cookie, _tvsPrivacy, true)
 uhrzeit123.de##+js(set-cookie, _u123_cc, yes)
 teket.jp##+js(set-cookie, _ul_cookie_consent, allow)
-cork.arccinema.ie,omniplex.ie##+js(set-cookie, a1wcc, NECESSARY)
+cork.arccinema.ie,omniplex.ie,thelivingroomcinema.co.uk##+js(set-cookie, a1wcc, NECESSARY)
 admit-one.co.uk,reelcinemas.co.uk##+js(set-cookie, a1wcc, all)
 aqua-store.fr##+js(set-cookie, abz_seo_choosen, 1)
 aurumcars.de##+js(set-cookie, ac_consent, f, , reload, 1)
@@ -24740,6 +24741,7 @@ lastprice.co.il##.PCConsent
 guidestar.org.il##.app-cookies-disclaimer-container
 israelpost.co.il##.cookie-agreement
 yad2.co.il##.cookie-implementation-disclaimer_popupRoot__CLI1m
+easy.co.il##.cookies-consent-banner
 pais.co.il##.cookies_sec
 yad-mordechai.co.il##.eupopup-container
 diners.co.il##.message-container
@@ -26937,7 +26939,7 @@ auhrii.dev#@##cookie-table
 dhbbank.be,dhbbank.com,dhbbank.de,dhbbank.nl#@##cookie-warning
 smartcentres.com#@##cookieAcceptBar
 londonpicturearchive.org.uk,mymojo.mojomortgages.com,wb.camra.org.uk#@##cookieBanner
-admit-one.co.uk,forestcinema.co.uk,majestic-cinema.co.uk#@##cookieBar
+admit-one.co.uk,forestcinema.co.uk,majestic-cinema.co.uk,thelivingroomcinema.co.uk#@##cookieBar
 constructionsales.com.au#@##cookieConsentBanner
 snp.nl#@##cookieLayer
 admit-one.co.uk#@##cookieOverlay
@@ -27253,9 +27255,9 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cloudfront.net^*/lib.f-cookie-banner.$script,domain=just-eat.co.uk|just-eat.es|just-eat.ie|justeat.it|menulog.com.au
 @@||cmp.datasign.co^$script,domain=info.yomiuri.co.jp
 @@||cmp.inmobi.com/geoip$domain=ilgiornale.it
-@@||cmp.inmobi.com/GVL-v3/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
-@@||cmp.inmobi.com/tcfv2/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
-@@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
+@@||cmp.inmobi.com/GVL-v3/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it|video.milanofinanza.it
+@@||cmp.inmobi.com/tcfv2/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it|video.milanofinanza.it
+@@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it|video.milanofinanza.it
 @@||cmp.osano.com^$script,domain=account.bhvr.com|everand.com|guidepoint.com|lucidchart.com|midnight.gd|scribd.com|sonesta.com
 @@||cmp.osano.com^*/osano.js$domain=stltoday.com
 @@||cmp.sibbo.net^$domain=tivify.tv
@@ -27349,7 +27351,6 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||joska.com/typo3conf/ext/dsgvo_manager/Resources/Public/javascript/cookie-consent.js
 @@||jurga.lt/vendor/orestbida/cookieconsent/dist/cookieconsent.umd.js$~third-party
 @@||khl.ru^*/cookieconsent.min.js
-@@||kleinanzeigen.de/gdpr/$~third-party
 @@||kontostand.at/WebportalAPK/js/cookie-banner.js$~third-party
 @@||krainz-loipersdorf.at/statics/js/cookieconsent.js$~third-party
 @@||kuechencenterweber.de/js/cookiebanner.js$~third-party
@@ -27490,7 +27491,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||xe.com/themes/xe/js/react/cookie-consent.$script,~third-party
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||zappo.fr/assets/plugins/bwp-minify/min/$script,~third-party
-@@||ziffstatic.com^*/zdconsent.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|nintendolife.com|purexbopushsquare.com|speedtest.net|timeextension.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
+! @@||ziffstatic.com^*/zdconsent.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|humblebundle.com|nintendolife.com|purexbopushsquare.com|speedtest.net|timeextension.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||zoo-frankfurt.de/bundles/chcookieconsent/js/cookie_consent.js$~third-party
 @@||zoominfo.com/_next/*/privacy-policy.json$~third-party
 ! Inflight (American Airlines)
@@ -27598,7 +27599,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Fri, 09 Jan 2026 06:21:31 +0000
+! Last modified: Sun, 11 Jan 2026 11:58:22 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28895,8 +28896,8 @@ fastnedcharging.com##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpr
 ! https://github.com/uBlockOrigin/uAssets/issues/23645
 mapillary.com##+js(trusted-click-element, [data-testid="cookie-policy-banner-accept"], , 500)
 
-! transfermarkt.com accept
-transfermarkt.com>>##+js(trusted-click-element, button.accept-all, 1000)
+! https://github.com/uBlockOrigin/uAssets/issues/31463
+transfermarkt.*>>##+js(trusted-click-element, .cmp-banner button.accept-all, 1000)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/1ctsl2n/store_locator_not_working_on/ - Personalized Advertisement
 costcobusinessdelivery.com##+js(trusted-set-cookie, OptanonConsent, groups=BG117%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CSPD_BG%3A1%2CC0004%3A1)
