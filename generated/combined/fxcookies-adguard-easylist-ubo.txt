@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-01-21T01:17:53Z
+! Last modified: 2026-01-22T01:17:39Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: ztPiwocuefekG/6dKBZ5Mg
-! Diff-Path: ../patches/18/18-s-1768947097-3600.patch
+! Checksum: duSnTjhGDc+ZRcFa/do1gA
+! Diff-Path: ../patches/18/18-s-1769030143-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.79.24
-! TimeUpdated: 2026-01-20T22:08:34+00:00
+! Version: 2.0.79.29
+! TimeUpdated: 2026-01-21T21:12:37+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2524,6 +2524,9 @@ lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-he
 !
 ! NOTE: Regular rules
 !
+pwa.aeroflot.ru##+js(set-local-storage-item, is-cookies-agreed, true)
+gizmodo.com###sd-cmp:style(display: none !important;)
+gizmodo.com##html[class*="sd-cmp"]:style(overflow: auto !important;)
 theoutnet.com##+js(set-local-storage-item, cookiePolicyViewed, true)
 creativepark.canon##+js(set-cookie, dp_cookie_consent, 0)
 bilacon.de##+js(set-cookie, ws_cookie_consent, essential)
@@ -2788,7 +2791,7 @@ globo-lighting.com##.cookie-permission-popup
 volunteer.redcross.org.uk##body:style(overflow: auto !important; padding-right: 0 !important;)
 volunteer.redcross.org.uk##.assemble-cookie-settings-modal-opacity:style(display: none !important;)
 volunteer.redcross.org.uk###cookie-settings-popup:style(display: none !important;)
-maksavit.ru##.cookie-usage-wrapper
+s7.ru,maksavit.ru##.cookie-usage-wrapper
 baon.ru##.notification--right
 aosom.*##.cookies-cons
 autopark.ua##.v-snackbar__wrapper
@@ -7612,6 +7615,7 @@ fanipogody.pl##body:style(overflow: auto !important;)
 recordmakers.com,ringover.com##.bg-cookie
 1cloudfile.com,koramaup.com,doodrive.com##.uk-position-bottom-right
 ||cmpv2.techadvisor.fr^
+pdfdrive.to##.accept-cookie-container
 gametracker.com###cookieconsent_dialog
 topographic-map.com###moduleCookies:remove()
 topographic-map.com###template:style(filter: none !important;)
@@ -12036,7 +12040,7 @@ commerzbank.de,billiger-telefonieren.de###uc-central-banner-modal
 podcloud.fr###rgpd-modal
 freedert.online,rtde.site,rtde.life,de.rt.com,actualidad.rt.com,rt.rs##.CookiesBanner-isReact
 ||digikey.*/-/media/Designer/EnavGDPR/JS/consent.js
-gizmodo.com,dafont.com###sd-cmp
+dafont.com###sd-cmp
 ||thestrad-gb.thestrad.com^
 birkenstock.com##div[class*="privacy-overlay"]:style(display: none!important;)
 birkenstock.com##body:style(position: relative!important;)
@@ -12853,7 +12857,7 @@ win2day.at##.disable-scroll:style(overflow: visible !important;)
 win2day.at##.disable-scroll body:style(overflow: visible !important;)
 win2day.at##.cookie-notification:not(body):style(display: none !important;)
 foxnews.com##.notification-banner[data-banner-type="ccpa"]
-sazka.cz,ultimaker.com##.consent-bar
+allwyn.cz,sazka.cz,ultimaker.com##.consent-bar
 escapefromtarkov.com###legalLightBlock
 zeit.de###data-protection-overlay
 strava.com###stravaCookieBanner
@@ -16806,7 +16810,7 @@ fabrykarowerow.com#@#.js-cookies
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=supla.fi
 @@||cdn.privacy-mgmt.com/mms/v2/get_site_data$domain=supla.fi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213157
-@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=transfermarkt.com.tr
+@@||cdn.privacy-mgmt.com^$domain=transfermarkt.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213120
 @@||cdn.cookielaw.org/consent/*.json$domain=southparkstudios.com.br|southpark.lat|southparkstudios.com|southpark.de
 ! Never loads
