@@ -1,6 +1,6 @@
 ! Title: Unblock Contextual Ads (reduced)
 ! Expires: 1 day (update frequency)
-! Last modified: 2025-10-16T01:05:24Z
+! Last modified: 2026-01-28T01:17:09Z
 ! Original list: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UsefulAdsFilter/sections/usefulads.txt
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
 ! Description: AdGuard Unblock Contextual Ads filter applied to select privacy-friendly sites only.
@@ -8,6 +8,8 @@
 !#if (adguard_app_ios || adguard_ext_safari)
 !#safari_cb_affinity(general,privacy)
 !#safari_cb_affinity
+!#endif
+!#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb)
 !#endif
 search.brave.com#@#div[data-advertiser-id]
 @@||developer.mozilla.org/pong/
