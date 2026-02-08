@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-02-07T01:26:17Z
+! Last modified: 2026-02-08T02:03:00Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: pabOf/kM0zgZe6qBJawTVQ
-! Diff-Path: ../patches/18/18-s-1770398594-3600.patch
+! Checksum: PDgYJWwAT0Q/wxkY+eqO3g
+! Diff-Path: ../patches/18/18-s-1770498826-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.80.44
-! TimeUpdated: 2026-02-06T17:20:06+00:00
+! Version: 2.0.80.47
+! TimeUpdated: 2026-02-07T21:11:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2529,6 +2529,7 @@ lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-he
 !
 ! NOTE: Regular rules
 !
+||vwfs.se/assets/js/cookie.js
 kolesa.ru##+js(set-cookie, _kcp, 1)
 mui.com##div[aria-labelledby^="cookie-consent-dialog-"]
 wildberries.*###cookiePolicyRoot
@@ -12037,7 +12038,7 @@ infobus.*##body > #layer1:has(> div#layer2 > div.layer-message-container button.
 portalbhp.pl,portalprzedszkolny.pl,portaloswiatowy.pl##.overlay-cookie:style(display: none !important;)
 portalbhp.pl,portalprzedszkolny.pl,portaloswiatowy.pl##.overlay-hidden-cookie:style(overflow: visible !important;)
 tankionline.com,easycosmetic.de##.footer-cookies
-4kdownload.com,folhavitoria.com.br,giffits-articles-publicitaires.ch,giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.*,easycosmetic.de##.overlay
+mamamia.com.au,4kdownload.com,folhavitoria.com.br,giffits-articles-publicitaires.ch,giffits-werbeartikel.at,giffits-werbeartikel.ch,giffits.*,easycosmetic.de##.overlay
 easycosmetic.de##.cookies-consent-container
 plk-sa.pl,dge.de,mohrsiebeck.com,lempertz.com,starnbergammersee.de,merten.de,bwi.de,medizinischerdienst.de,kunstmuseum-moritzburg.de,bmeia.gv.at,integrationsfonds.at,landesentwicklung-landsberg.de,w-hs.de###cookieman-modal
 plk-sa.pl##.modal-backdrop
@@ -13367,7 +13368,7 @@ carsimavm.com.tr,sporthink.com.tr,ereyon.com.tr,lulutata.com##.cerez-uyari
 meubella.nl##.cnotice
 kimovil.com##.code_cookies
 vivo.com##.cookes-banner
-stromvergleich.de,smarty.cz,jrc.cz,iziwork.com,nowtv.com.tr,answers.unity.com,ring.com,interchalet.de,fox.com.tr,gameduell.de,screencrush.com,justwatch.com,loudwire.com##.consent-banner
+mamamia.com.au,stromvergleich.de,smarty.cz,jrc.cz,iziwork.com,nowtv.com.tr,answers.unity.com,ring.com,interchalet.de,fox.com.tr,gameduell.de,screencrush.com,justwatch.com,loudwire.com##.consent-banner
 vin.gov.ua,lrt.lt##.consent-block
 fancentro.com##.consent-message
 justwatch.com##.consent-notification--shown
@@ -16607,6 +16608,10 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/224348
+@@||vwfs.se/assets/css/cookiebanner.css$domain=vwfs.se
+vwfs.se##.cookie-wrapper-container:style(display: none !important;)
+vwfs.se##body:style(overflow: auto !important;)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224310
 puratos.us#@##cookieInfo
 puratos.us#@#.cookie-banner:not(body):not(html)
