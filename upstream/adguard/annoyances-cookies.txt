@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: fi8H5v6uj9Mve6blkvr/jw
-! Diff-Path: ../patches/18/18-s-1775223417-3600.patch
+! Checksum: 7RVzqui8fPb6VQdKUu04NQ
+! Diff-Path: ../patches/18/18-s-1775330388-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.84.24
-! TimeUpdated: 2026-04-03T13:33:40+00:00
+! Version: 2.0.84.29
+! TimeUpdated: 2026-04-04T19:16:33+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2528,6 +2528,8 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+||challenges.fr/consent/sdk/
+whiteflowerfarm.com##.simplemodal-container
 videosection.live##.cookies-reminder
 dominternet.ru##.ck-s
 fhcontent.com###cookie-wall
@@ -12311,7 +12313,7 @@ samsungparavoce.com.br,saraiva.com.br##.sy-lgpd
 human.ua,kocailem.com##.cookie-message-box
 cissamagazine.com.br##.informativo-lgpd
 macronext.pl,stockwatch.pl##.cppa
-gebe.com###cookiePolicyBox
+dancenter.de,gebe.com###cookiePolicyBox
 spbtv.online,spbtvonline.ru###agreeC
 medicina.ru##.popup--policy-absolutely
 faphouse.com,xhamsterpremium.com##.cookie-policy-agree
