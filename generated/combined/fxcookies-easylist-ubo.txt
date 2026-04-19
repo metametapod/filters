@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-04-18T01:52:27Z
+! Last modified: 2026-04-19T02:05:33Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 17 Apr 2026 10:41:15 +0000
+! Last modified: Sat, 18 Apr 2026 07:45:18 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -20809,7 +20809,7 @@ careers.ing.com,kytary.*##+js(set-cookie, CookieConsent, 0, , reload, 1)
 arera.it,haustier-berater.de##+js(set-cookie, CookieConsent, 1)
 bere.co.uk,hscollective.org,strmix.com##+js(set-cookie, CookieConsent, Necessary, , reload, 1)
 empathy.com,herzum.com,meity.gov.in,milvus.io,opayweb.com,spline.design,tester.userbrain.com,vegvesen.no##+js(set-cookie, CookieConsent, false)
-blaguss.com,huebschundgut.de,kontextwochenzeitung.de,oekolandbau.de,photovoltaik-bw.de,shg-kliniken.de##+js(set-cookie, CookieConsent, mandatory)
+blaguss.com,hikoki-powertools.eu,huebschundgut.de,kontextwochenzeitung.de,oekolandbau.de,photovoltaik-bw.de,shg-kliniken.de##+js(set-cookie, CookieConsent, mandatory)
 srf.nu##+js(set-cookie, CookieConsent, necessary)
 jku.at##+js(set-cookie, CookieConsent, required)
 app.zasta.de,cataloagedeoferte.ro,dentmania.de,flexwhere.de,free.navalny.com,getunleash.io,latoken.com,pricewise.nl,secfi.com,softlist.com.ua##+js(set-cookie, CookieConsent, true)
@@ -27438,6 +27438,7 @@ forgeandfortune.com#@##toasts > #toastsWrapper
 kna-bild.de#@##uiCookieConsent
 gpiaaf.gov.pt,skandia.se#@#.CookieBanner
 bajuwarenhof.de,isarradweg.de#@#.CookieBar
+hikoki-powertools.eu#@#.CookiePopUp
 aruba.com#@#.CookiePopup
 rai.it,rainews.it,raiplay.it,raiplaysound.it#@#.PositionBottom.as-oil
 api.newsguardtech.com#@#.accept-cookie-container
@@ -28059,7 +28060,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Fri, 17 Apr 2026 07:30:38 +0000
+! Last modified: Sat, 18 Apr 2026 06:30:27 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -31952,7 +31953,7 @@ glassons.com##+js(trusted-set-cookie, bp_cookiepopup, '{"performance":0,"targeti
 canva.dev##+js(trusted-set-cookie, USE_COOKIE_CONSENT_STATE, '{%22necessary%22:true}')
 
 ! consent_wall_optout
-sim24.de##+js(trusted-click-element, button#consent_wall_optout, , 1000)
+bigsim.de,bildconnect.de,blacksim.de,cybersim.de,drillisch-online.de,handyvertrag.de,m2m-mobil.de,maxxim.de,premiumsim.de,sim.de,sim24.de,simplytel.de,smartmobil.de,unlimited24.de,winsim.de,yourfone.de##+js(trusted-click-element, button#consent_wall_optout, , 1000)
 
 ! basic
 fbreader.org##+js(trusted-set-cookie, cookie_consent, '"preferences=-1"', , , reload, 1)
