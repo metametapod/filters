@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: MIZP7uHM6/h7tdC1ckf+Wg
-! Diff-Path: ../patches/18/18-s-1777069390-3600.patch
+! Checksum: MGR4+ER7HSvVFtA0MeMDrA
+! Diff-Path: ../patches/18/18-s-1777141378-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.85.86
-! TimeUpdated: 2026-04-24T22:20:05+00:00
+! Version: 2.0.85.89
+! TimeUpdated: 2026-04-25T18:19:54+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2529,6 +2529,8 @@ bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarb
 ! NOTE: Regular rules
 !
 ! cookie
+rundfunkbeitrag.de##.-show.consentDialog
+igetnow.com##app-cookie-banner-wrapper-component
 ettoday.net##.i-amphtml-consent-ui-mask:style(display: none !important;)
 ettoday.net##amp-consent:style(display: none !important;)
 ettoday.net##.i-amphtml-scroll-disabled:style(overflow-x: auto !important; overflow-y: auto !important;)
@@ -17471,6 +17473,7 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229404
+ettoday.net#@#amp-consent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229876
 @@||onetrust.com/scripttemplates/otSDKStub.js$domain=asda.com
 @@||onetrust.com/consent/$domain=asda.com
