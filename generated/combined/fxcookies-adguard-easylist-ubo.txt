@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-05-01T02:32:47Z
+! Last modified: 2026-05-04T02:23:21Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: FwvkYe96/PPbbJVpHus/tA
-! Diff-Path: ../patches/18/18-s-1777552997-3600.patch
+! Checksum: jDQ1Y0JWUynmpSzObl1JhQ
+! Diff-Path: ../patches/18/18-s-1777829098-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.86.19
-! TimeUpdated: 2026-04-30T12:40:22+00:00
+! Version: 2.0.86.21
+! TimeUpdated: 2026-05-03T17:22:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4223,7 +4223,7 @@ autoersatzteile.de##.popup--cookies:style(display: none !important;)
 autoersatzteile.de##body:style(overflow: auto !important;)
 autoersatzteile.de###loader:style(display: none !important;)
 meqqe.jp##body > div > .MuiBox-root:has(> div[class] > a[href*="privacypolicy"])
-s3rl.link##.cm--bottom
+whitebit.com,s3rl.link##.cm--bottom
 s3rl.link##+js(set-cookie, im_youtube, 1)
 djs3rl.com##+js(set-cookie, cc_youtube, 1)
 autoteilexxl.de##body:style(overflow: auto !important;)

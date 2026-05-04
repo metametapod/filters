@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: FwvkYe96/PPbbJVpHus/tA
-! Diff-Path: ../patches/18/18-s-1777552997-3600.patch
+! Checksum: jDQ1Y0JWUynmpSzObl1JhQ
+! Diff-Path: ../patches/18/18-s-1777829098-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.86.19
-! TimeUpdated: 2026-04-30T12:40:22+00:00
+! Version: 2.0.86.21
+! TimeUpdated: 2026-05-03T17:22:07+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3460,7 +3460,6 @@ thegamebusiness.com##+js(set-local-storage-item, SUBSTACK_USER_HID_COOKIE_BANNER
 lingvist.com##.cookie-acceptance-banner
 ||voorkeuren.tvgids.nl/js/v*/osb-cmp.min.mjs
 htmlacademy.org###cookies_disclaimer_container
-comdirect.de##com-consent-layer
 spreadex.com##.cpn-container
 link.com##div[class^="CookieSettingsNotification_CookieBanner"]
 support.link.com##.LinkSupportSite-CookieBanner-container
@@ -4249,7 +4248,7 @@ autoersatzteile.de##.popup--cookies:style(display: none !important;)
 autoersatzteile.de##body:style(overflow: auto !important;)
 autoersatzteile.de###loader:style(display: none !important;)
 meqqe.jp##body > div > .MuiBox-root:has(> div[class] > a[href*="privacypolicy"])
-s3rl.link##.cm--bottom
+whitebit.com,s3rl.link##.cm--bottom
 s3rl.link##+js(set-cookie, im_youtube, 1)
 djs3rl.com##+js(set-cookie, cc_youtube, 1)
 autoteilexxl.de##body:style(overflow: auto !important;)
