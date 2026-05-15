@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: SUJfwyUEV+ODRimTrEpgGA
-! Diff-Path: ../patches/18/18-s-1778691418-3600.patch
+! Checksum: pGebEiRUQ8NCRaWdm7Yuvw
+! Diff-Path: ../patches/18/18-s-1778749607-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.86.86
-! TimeUpdated: 2026-05-13T16:53:39+00:00
+! Version: 2.0.86.90
+! TimeUpdated: 2026-05-14T09:03:50+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2533,6 +2533,8 @@ dr-traub.legal,isp.law,volksfest-grafenwoehr.de,ahoisauna.de,devowl.io,authentis
 !
 ! NOTE: Regular rules
 !
+detect.expert###accept-cookies
+service.justiz.de##section[data-testid="cookie-banner"]
 btsearch.pl###root > div[role="dialog"]:is([aria-label="Używamy plików cookie"], [aria-label="We use cookies"])
 kerama-marazzi.com##.js-cookie-template
 theridgefieldpress.com,thetelegraph.com,beaumontenterprise.com,bigrapidsnews.com,chron.com,ctinsider.com,ctpost.com,darientimes.com,seattlepi.com,expressnews.com,fuelfix.com,greenwichtime.com,houstonchronicle.com,lakecountystar.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,recordpatriot.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,smallbusiness.chron.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,timesunion.com,trumbulltimes.com,weekand.com,wiltonbulletin.com,work.chron.com,yourconroenews.com###__next > div.bottom.fix:has(a[href="/privacy/"])
@@ -6582,7 +6584,7 @@ tuya.com###_th-trust
 polki.pl###tcf277-modal
 vegetology.com##div[data-name="comp-banner"]
 yclients.com##.gdpr-policy
-gebank.ru,pularys.com,onurmarket.com,frostopt.ru,famil.ru,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
+brutalx.com,gebank.ru,pularys.com,onurmarket.com,frostopt.ru,famil.ru,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
 wisdom.nec.com###func-cookie
 onlinegibdd.ru###gritter-notice-wrapper
 kopp-verlag.de##+js(abort-on-property-write, cevent)
@@ -8951,7 +8953,7 @@ mustijamirri.fi##html[style^="overflow:"]:style(overflow: auto !important; heigh
 mustijamirri.fi##.privacy_headsup_overlay:style(display: none !important;)
 mustijamirri.fi###cookie_consent:style(display: none !important;)
 upm.com##.cookie-policy-opt-out
-vci.de##.c-cookie-consent-banner
+itoen.jp,vci.de##.c-cookie-consent-banner
 meta-preisvergleich.de###cookiewarnung
 vivaconagua.org###sccBanner
 thesafetysupplycompany.co.uk###lnCookieBar
@@ -10321,7 +10323,7 @@ yubico.com##.cookie-notice-big
 rasmussen.edu###cookies-tracking
 hoper.pl,teroplan.*,e-podroznik.pl##.ep-cookies-info-wrapper
 eurotherm.com##.site-cookie-pref
-helix.ru,new.artforintrovert.ru,loyalfans.com,ripe.net##app-cookie-consent
+quackr.io,helix.ru,new.artforintrovert.ru,loyalfans.com,ripe.net##app-cookie-consent
 esenlik.com.tr##.kisiselveri-popup
 afisha.ru##div[id="content"] > div[class]:has(> div[class] > div[class] a[href^="https://help.rambler.ru/legal/"])
 swatch.com##div[data-widget="explicitCookieModal"]:style(display: none!important;)
@@ -17531,6 +17533,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/231198
+@@||cdn.cookielaw.org/consent/*.json$domain=purexbox.com
 ! taboolanews.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=atlas.taboolanews.com
 @@||cdn.privacy-mgmt.com/mms/$domain=atlas.taboolanews.com
