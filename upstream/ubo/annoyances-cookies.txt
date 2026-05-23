@@ -1,5 +1,5 @@
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Thu, 21 May 2026 09:24:30 +0000
+! Last modified: Fri, 22 May 2026 15:45:31 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -56,6 +56,9 @@ groupeapocom.com###website_cookies_bar
 ! https://github.com/uBlockOrigin/uAssets/pull/32247
 ||la7.it/la7_iabtcf2/cmp.js
 ||privacymanager.io^$domain=la7.it
+! https://github.com/AdguardTeam/AdguardFilters/issues/231768
+@@||cdn.privacy-mgmt.com/unified/wrappermessagingwithoutdetection.js$domain=businessinsider.com,badfilter
+businessinsider.com##.related-posts
 
 !!! Trusted scriptlets------------------------------------------------------------
 
@@ -598,6 +601,17 @@ tietokonekauppa.fi##+js(trusted-set-cookie, cookieConsent, {"consentAnalytics":"
 etos.nl##+js(trusted-click-element, button#cookie-dismiss, !cookie:cookie-consent, 1000)
 ! https://github.com/uBlockOrigin/uAssets/issues/32998
 united-domains.de##+js(trusted-click-element, .cookie-layer-dialog button.confirm-selection)
+!#if cap_html_filtering
+united-domains.de##^script#real-cookie-banner-pro-vendor-real-cookie-banner-pro-banner-js
+!#else
+united-domains.de##div[consent-skip-blocker]:remove()
+!#endif
+! https://github.com/uBlockOrigin/uAssets/pull/33006
+diamantrad.com,lpi.org##+js(trusted-click-element, button#CookieBoxSaveButton, , 1000)
+! https://github.com/uBlockOrigin/uAssets/issues/33008
+uncrossy.com##+js(set, cookieManager, {})
+uncrossy.com##+js(set, cookieManager.initialize, noopFunc)
+uncrossy.com##+js(set, cookieManager.needsConsentBanner, falseFunc)
 
 !! Needs additional cookies
 
@@ -3252,9 +3266,6 @@ auto-doc.fr,autodoc.*,autodoc24.*,topautoosat.fi,autoteiledirekt.de,autoczescion
 auto-doc.*,auto-doc.fr##.popup-traffic-mobile
 auto-doc.*,auto-doc.fr##body:style(overflow: auto !important;)
 
-! essential
-lpi.org##+js(trusted-click-element, button#CookieBoxSaveButton, , 1000)
-
 ! accept
 elgrafico.com.ar##+js(trusted-set-cookie, elgrafico_com_ar, '{"consent":"ca"}')
 
@@ -5566,3 +5577,6 @@ zenskirecenziraj.com##+js(trusted-set-cookie, zenski_cmp, basic)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/32795
 tlc.com##+js(trusted-click-element, .btn.btn-primary)
+
+! https://www.eventim.ro/event/alifantis-mirica-gemini-2-0-casa-de-cultura-a-sindicatelor-21322560/ - maps breakage
+eventim.ro##+js(trusted-click-element, #cmpwrapper >>> .cmpboxbtnyes, , 1000)
