@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-05-25T02:51:18Z
+! Last modified: 2026-05-26T02:39:19Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: VUbhWpsK6U/dqSYtw3aNeQ
-! Diff-Path: ../patches/18/18-s-1779647470-3600.patch
+! Checksum: l36t4/T9j99iBO/CfFQN2A
+! Diff-Path: ../patches/18/18-s-1779741521-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.87.33
-! TimeUpdated: 2026-05-24T18:28:28+00:00
+! Version: 2.0.87.40
+! TimeUpdated: 2026-05-25T20:35:35+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1359,7 +1359,7 @@
 ##.cookie-siteusage-notice
 ##.cookie-warn
 ##.cookie-warn-msg
-##.cookie-warning
+##.cookie-warning:not(body)
 ##.cookieAccept
 ##.cookieAccepterSlider
 ##.cookieAdvice
@@ -2381,7 +2381,7 @@ fahrschule-krug-online.de,lobpreissuche.de,zsl-bw.de,gelsenkirchen.de,sgs-cqe.de
 aivo.ai,key-hub.eu,aver.com,avereurope.com,gazetebirlik.com###cookieWarnBox
 ! ##.if6_eprivacy (check if scrolling still works before adding rules with it
 ! ##.privacy-banner
-noktagazetesi.com.tr,haberglobal.com,yenicaggazetesi.com,pastmap.org.uk,trove.scot,blog.engineshed.scot,historicenvironment.scot,artigercek.com,yesilcamevi.com,yeniankara.com.tr,ona.org.br,nefes.com.tr,kontraspor.com,bandlab.com,esimdb.com,odatv.com,medyahaber.com,solodev.com,mblock.cc,sonhaberler.com,superhaber.com,aydinlik.com.tr,duvarenglish.com,dunya.com,kamugundemi.com,ekonomim.com,vatanbilgisayar.com,young.scot,haberglobal.com.tr,bambusliebe.de,mblock.makeblock.com,nethaber.com,internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
+halktv.com.tr,noktagazetesi.com.tr,haberglobal.com,yenicaggazetesi.com,pastmap.org.uk,trove.scot,blog.engineshed.scot,historicenvironment.scot,artigercek.com,yesilcamevi.com,yeniankara.com.tr,ona.org.br,nefes.com.tr,kontraspor.com,bandlab.com,esimdb.com,odatv.com,medyahaber.com,solodev.com,mblock.cc,sonhaberler.com,superhaber.com,aydinlik.com.tr,duvarenglish.com,dunya.com,kamugundemi.com,ekonomim.com,vatanbilgisayar.com,young.scot,haberglobal.com.tr,bambusliebe.de,mblock.makeblock.com,nethaber.com,internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
 ! ##.cookiesBanner
 guru.porn,3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com,fonedog.jp,hdporno.xxx,poz.xxx,porn4fans.com,pornbaron.net,porn2.xxx,watch.xxx,tubeporn.site,myporn.tube,pornfree.gg,porn69.xxx,beeg.gg,porntek.com,haha.xxx,longvideos.xxx,hdporner.org,porno.wiki,3porn.gg,33porn.net,hqporner.gg,300.porn,sexyporn.org,pornstars.gg,sexvideos.gg,ixxx.gg,sexyporn.xxx,pornhd.tube,porn36.com,porn9.xxx,porn13.org,bee.xxx,filmz.xxx,xfilms.org,xporn.gg,porndo.net,tor.xxx,bestporn.gg,pornstars.tube,hello.porn,max.porn,eporn.xxx,okxxx3.com,okxxx2.com,okxxx1.com,perfektdamen.*,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,ok.porn,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx,perfectgirls.*,homo.xxx,ok.xxx,pornhat.*,veepee.fr,dyson.com.ru,dyson.de,fonedog.com##.cookiesBanner
 ! ##.cerez
@@ -2389,7 +2389,7 @@ nebim.com.tr,sariyersoz.com.tr,kanalben.com,tarsushaber.com,mhrs.gov.tr,malatyas
 ! ##.MuiSnackbar-anchorOriginBottomCenter
 creativefabrica.com,flickplay.co,globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com,shoppingcidademaringa.com.br##.MuiSnackbar-anchorOriginBottomCenter
 ! ###cc-main
-iuc.edu.tr,comu.edu.tr,w3.sdu.edu.tr,belganewsagency.eu,kofteciyusuf.com,2te-zahnarztmeinung.de,elenianna.com,aspire.dev,formytesla.com,li.sten.to,spaulistacultural.com.br,wasdland.com,nemzetiarchivum.hu,wooting.io,erzeszow.pl,primepc.pl,steuer-beamte.de,kgm.ru,jetour-ru.com,foton-mbrus.ru,voyah.su,soueast.ru,toyota.ru,gac.ru,fastconvert.co,technologypresswirenetherlands.com,evolute.ru,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,serfloor.com.tr,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,niebieskizaulek.pl,nefisyemektarifleri.com,spark-die-klassische-band.de,bisiparis.com,toya.net.pl,mateobar.pl,whoisxmlapi.com,jagapizza.pl,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,xzone.pl,givesendgo.com,workstreams.ai,trae.ai,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,kurczakiodeliasza.com,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,grepnewsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
+novotel.ba,iuc.edu.tr,comu.edu.tr,w3.sdu.edu.tr,belganewsagency.eu,kofteciyusuf.com,2te-zahnarztmeinung.de,elenianna.com,aspire.dev,formytesla.com,li.sten.to,spaulistacultural.com.br,wasdland.com,nemzetiarchivum.hu,wooting.io,erzeszow.pl,primepc.pl,steuer-beamte.de,kgm.ru,jetour-ru.com,foton-mbrus.ru,voyah.su,soueast.ru,toyota.ru,gac.ru,fastconvert.co,technologypresswirenetherlands.com,evolute.ru,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,serfloor.com.tr,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,niebieskizaulek.pl,nefisyemektarifleri.com,spark-die-klassische-band.de,bisiparis.com,toya.net.pl,mateobar.pl,whoisxmlapi.com,jagapizza.pl,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,xzone.pl,givesendgo.com,workstreams.ai,trae.ai,imusic.*,dobrydietetyk.pl,zeno.fm,ratujlaptopa.pl,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,bikeexchange.de,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,bdm.pl,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,skubacz.pl,restaumatic.com,any.run,rekinysukcesu.pl,nutrend.pl,app.any.run,financnihra.cz,kurczakiodeliasza.com,kontomaniak.pl,snowboard-online.pl,whitebit.com,nicelocal.com.de,ndsas.sk,trakt.tv,grepnewsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
 ! consentmanager.net (check, if embed content and videos are not broken)
 ||consentmanager.net^$domain=visions.de|gartenlexikon.de|tausendkind.de|hausgarten.net|kundendienst-info.de|baunetz.de|rabe-bike.de|heinze.de|ais-online.de|dasoertliche.de|reno.de|walbusch.de|mathe-lexikon.at|katzen-forum.net|deutsche-apotheker-zeitung.de|brandible.de|my.games|vergleich.org|finanztip.de|baunetzwissen.de|trusted.de|universal-music.de|web2.cylex.de|mey-edlich.de|schuhe.de|qiez.de|benz24.de|hervis.de|avena.de|heimwerker.de|bauemotion.de|nw.de|kicker.de|herold.at|kalledaskabel.de|bussgeldkatalog.org|plantopedia.de|poetschke.de|weltbild.de|genialokal.de|jokers.de|leoncycle.de|wolfsburger-nachrichten.de|mediengestalter.info|sugafari.com|gdv.de|uk-essen.de|dieversicherer.de|tomaten.de|aquarienpflanzen-shop.de|jobs.shz.de|leichtathletik.de|ikz-online.de|radiobollerwagen.de|hervis.at|frustfrei-lernen.de|entsorgen.org|wr.de|harzkurier.de|consentmanager.net|juraforum.de|history.de|inrlp.de|teslamag.de|e-konomista.pt|cylex-polska.pl|agrarheute.com|allesbeste.de|azubiyo.de|olympia-einkaufszentrum.de|mannheimer-morgen.de|autopay.pl|r.pl|datacenter-insider.de|eternalgod.de|news.de|quoka.de|correctiv.org|ak-kurier.de|verliebt-in-den-westerwald.de|ww-kurier.de|nzz.ch|masterstudies.com|littlebigsnake.com|skr.de|morgenpost.de|astat.pl|9monate.de|bildderfrau.de|donna-magazin.de|eatclub.tv|heftig.de|reviersport.de|winfuture-forum.de|chemie.de|sylt.de|grin.com|gpblog.com|ruhrnachrichten.de
 ! privacy-center.org / didomi
@@ -2547,6 +2547,12 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+ukrinform.ua###cookie-banner:style(display: none !important;)
+ukrinform.ua##html:style(overflow: auto !important;)
+sushi-karate.ru##div[data-legal-panel]
+trhaber.com.tr##div.fixed:has(> div > p > a[href="/kurumsal/cerez-politikasi"])
+||pcekspert.com/assets/pce-consent.js
+coinfomania.com##.cookie-banner-animation
 ||neboa.pl/wp-content/plugins/gdpr-cookie-compliance/
 gptzero.me##body > div.fixed:has(> div.CookieConsent)
 instar-informatika.hr###vsccookieConsent
@@ -3987,7 +3993,7 @@ buffaloamericas.com###cookie-policy-notification
 listaprzetargow.pl##+js(abort-current-script, $, js-cookie-consent)
 ||exist.ru/ts/CookiesConfirmer.js
 qrcodefacil.com##.MuiGrid-root > div[class^="sc-"]:has(> div[class^="sc-"] > div[style] > div[style] > a[href="/privacy"])
-simpleurl.tech,thepublic.info,trepedia.nl,trepedia.fr,trepedia.ai,trepedia.de,formula-timer.com,fusiora.com,fontlab.com,skycash.com,zemail.me###silktide-wrapper
+thepublic.info,simpleurl.tech,thepublic.info,trepedia.nl,trepedia.fr,trepedia.ai,trepedia.de,formula-timer.com,fusiora.com,fontlab.com,skycash.com,zemail.me###silktide-wrapper
 cambuy.de##.cookie-popup::after
 ||svgator.com/common/CookieSettingsInserter.js
 pkhex-web.github.io##.cc-isolation-container
@@ -4278,7 +4284,6 @@ focusgarden.pl##button[class^="mask-root_"]:style(display: none !important;)
 focusgarden.pl##body:style(position: static !important; overflow: auto !important;)
 jetbrains.com##div[class^="jetbrains-cookies-"]:style(display: none !important;)
 jetbrains.com##.jetbrains-cookies-banner-lock-scroll:style(overflow: auto !important;)
-lamontagne.fr##div[style=""].transition.duration-500
 ||3d4medical.com/common/vendor/cookies-listener/
 ||3d4medical.com/app/themes/threedfourmed/js/*cookie
 ||3d4medical.com/common/web-shared/cookies-banner.js
@@ -5386,7 +5391,7 @@ greencell.global###js-modern-cookie-modal
 relive.cc###ub-gdpr
 worldvision.ch##.cookieRemark
 tekla.com##.cookies-settings-dialog
-manyvids.com,lustery.com,clearvpn.com##div[class^="CookieConsentBanner_"]
+yf.com.tr,manyvids.com,lustery.com,clearvpn.com##div[class^="CookieConsentBanner_"]
 /cookieconsentmanager/modernCookieModal.js$domain=swiatbaterii.pl|batteryempire.de|batteryempire.fr|batteryempire.it|batteryempire.co.uk|batteryempire.es|batteryempire.sk|batteryempire.nl|batteryempire.lt|batteryempire.hu|batteryempire.ro|batteryempire.pt|batteryempire.dk|batteryempire.be|batteryempire.se|batteryempire.fi|batteryempire.gr
 e-oko.pl,dmde.pl,kamami.pl###megacookieeu
 anthropic.com##div[class^="ConsentBanner_"]
@@ -5699,7 +5704,9 @@ wordfence.com##.wf-cookie-consent-container
 ||dorfen.de/js/core/LdCookieConsent.js
 q21.pl###change_terms_message
 drony.net,sklepratowniczy.pl,q21.pl##+js(abort-current-script, jQuery, cookies_message_modal)
-kakto.pl##+js(abort-current-script, $, RodoCookiesInfo)
+kakto.pl##body:style(overflow-y: auto !important;)
+kakto.pl##.modal-backdrop:style(display: none !important;)
+kakto.pl###RodoCookiesInfoFirst:style(display: none !important;)
 iobit.com##.agree-pop
 skype.com,setup.rewards.github.blog,github.com###wcpConsentBannerCtrl
 blog.bizvibe.com###cookie-law-info-bar:style(display: none!important;)
@@ -6518,7 +6525,7 @@ tuya.com###_th-trust
 polki.pl###tcf277-modal
 vegetology.com##div[data-name="comp-banner"]
 yclients.com##.gdpr-policy
-brutalgebank.ru,pularys.com,onurmarket.com,frostopt.ru,famil.ru,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
+maret.com.tr,brutalgebank.ru,pularys.com,onurmarket.com,frostopt.ru,famil.ru,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
 wisdom.nec.com###func-cookie
 onlinegibdd.ru###gritter-notice-wrapper
 kopp-verlag.de##+js(abort-on-property-write, cevent)
@@ -9795,7 +9802,7 @@ warthunder.com,warthunder.ru##.wt-cb
 shakeshack.com###block-privacymessageblock
 dataversity.net##.section-popup-gdpr
 micro-wave.net,rinna.co.jp,teac.jp##.accept_cookie
-boykotdedektifi.org,bubilet.com.tr,epicvin.com,is74.ru##.cookie-card
+boykotdedektifi.com,boykotdedektifi.org,bubilet.com.tr,epicvin.com,is74.ru##.cookie-card
 transpack-krumbach.de###my-ctc-widget
 reimsuche.de###__layout > div.flex > div[role="dialog"]:has(> div.flex > div.modal-container > header > h1:contains(/^Cookies!/))
 melhoresdestinos.com.br###banner-lgpd
@@ -10344,7 +10351,7 @@ heimkinoraum.de##div[id^="mod_cookie"]
 expresszuschnitt.de###cookie_hinweis
 jbl.de##.uim
 lust-auf-strand.de##.cc_overlay
-nhm.ac.uk,codingame.com,schwarzwaldradio.com,meincharivari.de,radioplayer.hitradion1.de,classicrock-radio.de,alpin.fm,radio-charivari.de,radioplayer.986charivari.de,salue.de,radioplayer.de,radiogong.com##div[class^="CookieBanner-"]
+ggsel.net,nhm.ac.uk,codingame.com,schwarzwaldradio.com,meincharivari.de,radioplayer.hitradion1.de,classicrock-radio.de,alpin.fm,radio-charivari.de,radioplayer.986charivari.de,salue.de,radioplayer.de,radiogong.com##div[class^="CookieBanner-"]
 ||stiebel-eltron.de/apps/ste/docroot/js/app/modules/cookies-selection.js
 taschen.com###ConsentManagerModal:style(display: none!important;)
 taschen.com##.modal-backdrop:style(display: none!important;)
@@ -17109,6 +17116,19 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/231983
+@@||cdn.cookielaw.org/consent/$domain=nypost.com
+@@||cdn.cookielaw.org/logos/$domain=nypost.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/231902
+ukrinform.ua#@##cookie-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/231984
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tntsports.co.uk
+@@||cdn.cookielaw.org/consent/*.json$domain=tntsports.co.uk
+tntsports.co.uk#@##onetrust-consent-sdk
+! https://github.com/AdguardTeam/AdguardFilters/issues/231988
+@@||cmp.uniconsent.com^$domain=footballtransfers.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/231947
+kakto.pl#@#.cookie-message:not(html):not(body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/231876
 fightmode.tv#@#.ck-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/231719
@@ -18990,6 +19010,7 @@ deutsches-museum.de#@#.cookiebanner:not(body)
 @@||idtech.com/_nuxt/CookieWarning.$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165923
 @@||privacyportal-eu.onetrust.com/webform^$domain=locatepeople.org
+! https://github.com/AdguardTeam/AdguardFilters/issues/231963
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165497
 ! Fixes video player, it seems that it occurs on Android only
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165496
