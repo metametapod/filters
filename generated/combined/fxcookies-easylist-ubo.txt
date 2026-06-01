@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-05-31T02:51:51Z
+! Last modified: 2026-06-01T03:27:24Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sat, 30 May 2026 09:04:15 +0000
+! Last modified: Sun, 31 May 2026 05:08:57 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17187,6 +17187,7 @@ sharefaith.com###gdpr-bot
 nanotalegame.com###gdpr-consent-form
 almaasdiamonds.com,cfu-airport.gr,clustrmaps.com,cobau.com.br,croatiaexcursions.com,estrelladecastilla.es,gofoexpress.com,jsi-airport.gr,kgs-airport.gr,leube.cz,map.purpleair.com,portal.amity.copiri.com,rho-airport.gr,skg-airport.gr,tapas.io,zth-airport.gr###gdpr-cookie-message
 quizwiz.pro###gdpr-cookie-msg
+uploadrar.com###gdpr-cookie-notice
 usg.edu###gdpr-cookie-notification
 terro.com,woodstreambrands.ca###gdpr-dialog
 bonbon.hr,businessmediamags.co.za,dailydispatch.co.za,eid.hr,theherald.co.za,timeslive.co.za,wantedonline.co.za###gdpr-overlay
@@ -17202,7 +17203,7 @@ fawesome.tv###gdpr_cookie_info_bar-wr
 myedit.online###gdpr_notes
 jagran.com,jagranjosh.com,mid-day.com###gdprbx
 maxmind.com###global-privacy-control-check
-pornhub.com###globalCookieBanner
+pornhub.com,pornhub.org###globalCookieBanner
 lloyd.com###globalerror
 draeger.com###globalnotification
 freebcc.com###google_cookie_box_bottom
@@ -26300,6 +26301,7 @@ dzen.ru###recommend-tech-snackbar
 blsspainrussia.ru###removeCookie
 rgs.ru###rgs-main-context-bar
 sport-express.net###se-cookie-popup
+thepublic.info###silktide-wrapper
 softline.ru###stripe_permission_use_cookie
 dobrodel.mosreg.ru###toast-container
 keysight-technologies.ru###uni-notification
@@ -26397,6 +26399,7 @@ supersamsev.ru##.cookie-consent-container-wrap
 lk-new.vtbnpf.ru##.cookie-layout
 rutube.ru##.cookie-message-module__cookie-consent
 sponsr.ru##.cookie-site-alert
+kgdavia.ru##.cookieAgr
 korusconsulting.ru##.cookieConfirm
 rusnano.com##.cookie__in
 gostest.com##.cookie__open
@@ -28151,7 +28154,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Fri, 29 May 2026 02:27:41 +0000
+! Last modified: Sun, 31 May 2026 10:38:41 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28729,6 +28732,8 @@ urlando.de##+js(trusted-set-cookie, urlando_consent, '{"analytics":false,"market
 admind-ai.com##+js(trusted-set-local-storage-item, admind_cookie_consent_v1, '{"necessary":true,"analytics":false,"preferences":false,"timestamp":"$currentISODate$","version":1}')
 ! https://github.com/uBlockOrigin/uAssets/issues/33078
 tirerack.com##+js(trusted-click-element, #meru-cm button.meru-cc__bn[aria-label="Reject All"], , 2000)
+! https://github.com/uBlockOrigin/uAssets/issues/33101
+handyhuellen.de,smartphonehoesjes.nl,ploonk.fr##+js(trusted-set-local-storage-item, mage_consent, '{"timestamp":$now$,"data":{"functional":true,"marketing":false}}')
 
 !! Needs additional cookies
 
@@ -30962,9 +30967,6 @@ comune.palermo.it##+js(trusted-click-element, button.cmplz-deny, , 1000)
 
 ! essential
 abconcerts.be##+js(trusted-set-cookie, _cookie-consent, '{"version":"1","consent":"yes","categories":[]}')
-
-! functional
-smartphonehoesjes.nl,ploonk.fr,handyhuellen.de##+js(trusted-set-local-storage-item, mage_consent, '{"timestamp":1,"data":{"functional":true,"marketing":false}}')
 
 ! reject
 get-in-engineering.de##+js(trusted-click-element, button[aria-label="Reject all"], , 1000)
