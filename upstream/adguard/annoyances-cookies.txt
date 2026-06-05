@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: d/s2vcPs91YIvJmd3c6fmg
-! Diff-Path: ../patches/18/18-s-1780535511-3600.patch
+! Checksum: NW5F5w7UCUiEO2ft/TiW/Q
+! Diff-Path: ../patches/18/18-s-1780609214-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.87.89
-! TimeUpdated: 2026-06-04T01:09:12+00:00
+! Version: 2.0.87.95
+! TimeUpdated: 2026-06-04T21:37:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2542,6 +2542,9 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+sostav.ru##body > div[style]:has(> p > a[href="https://www.sostav.ru/page/policy"])
+ispazio.net##div[id^="isp-consent-"]
+realityjunkies.com,adultmobile.com###root > div[class^="sc-"]:has(> p[class^="sc-"] > a[href^="https://www."][href$="/legal/privacy"])
 summitracing.com###CookieConsentBannerPlaceholder
 garant.ru##.position-relative > div.toast-container:has(a[href="/company/disclaimer/cookies/"])
 kitchener.ca###NotificationPanel[aria-label="Cookie consent notification"]
@@ -4075,7 +4078,7 @@ kamera-express.de##.advice-newsletter
 plannedparenthood.org##.cookieBanner:not(body):style(display: none !important;)
 plannedparenthood.org##body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 iapples.nl##.shopify-pc__banner__dialog[style*="display: block"] ~ .main::after
-rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,brainly.com.br,bitwarden.com,time.com###ketch-banner
+imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,brainly.com.br,bitwarden.com,time.com###ketch-banner
 nsg.co.jp###sitecookiepolicy
 skysmart.ru##cism-cookies-banner
 sberbank.ru##div[class^="CookieWarning"]
@@ -4176,7 +4179,7 @@ hostzealot.*##div[x-data="gdprComponent"]
 publix.com##.tou-prompt-wrapper
 ptt.gov.tr##div[class^="styles_cookieBanner"]
 robolinkmarket.com##.w-full > div.fixed[class*="bottom-"]:has(a[href="https://robolinkmarket.com/pages/bilgi-guvenligi-politikasi"])
-talkbasket.net,wpbeginner.com,wpmailsmtp.com,sutlucekadayif.com,libretro.com,motopass.pl,classicsongoftheday.com,sectorcine.com,9to5linux.com###wpconsent-root
+candidcyber.com,talkbasket.net,wpbeginner.com,wpmailsmtp.com,sutlucekadayif.com,libretro.com,motopass.pl,classicsongoftheday.com,sectorcine.com,9to5linux.com###wpconsent-root
 tigo.com.gt,tigo.com.hn,tigo.com.ni,tigo.com.bo,tigo.com.py,tigo.com.sv,tigo.cr,tigo.com.co,tigo.com.pa##app-cookieconsent
 m3datarecovery.com###user_popup
 otpbank.md##body:style(overflow: auto !important;)
@@ -8402,7 +8405,6 @@ samaria.co.jp,minitab.com##.cookie-toaster
 minitab.com###cookieToaster
 winaero.com,blog.sarar.com,astro.qc.ca###cookie-law-info-bar
 phemex.com##body > div.wrap > div.wrap:has(> .main > div > div > a[href$="/phemex-privacy-policy"])
-juno.co.uk###juno-cookie-consent
 metro-co-uk.cdn.ampproject.org,amp-scmp-com.cdn.ampproject.org,mediaset.it##.i-amphtml-consent-ui-mask:style(display: none !important;)
 metro-co-uk.cdn.ampproject.org,amp-scmp-com.cdn.ampproject.org,mediaset.it##html.i-amphtml-scroll-disabled:style(overflow: auto !important; margin-right: 0 !important;)
 record.com.mx###block-cookiesactive-cookiesactive-blockcode
@@ -16629,6 +16631,8 @@ befestigungsfuchs.de,jawoll.de,cafe-royal.com,campingplus.de,bikebox-shop.de,mli
 ! Misc rules, removed during optimization. If some rules are in groups, no need to move them here
 !
 !
+!+ NOT_OPTIMIZED
+juno.co.uk###juno-cookie-consent
 !+ NOT_OPTIMIZED
 extreme.com,ilksesgazetesi.com###my-welcome-message
 !+ NOT_OPTIMIZED

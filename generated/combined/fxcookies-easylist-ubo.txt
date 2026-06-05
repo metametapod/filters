@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-06-04T03:27:29Z
+! Last modified: 2026-06-05T02:49:51Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 03 Jun 2026 17:33:11 +0000
+! Last modified: Thu, 04 Jun 2026 20:52:05 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19695,7 +19695,7 @@ just-eat.fr,pyszne.pl,takeaway.com,thuisbezorgd.nl##div[data-qa="privacy-setting
 ! #cookiesjsr
 brightlands.com,cnmc.es,confea.org.br,elbitsystems.com,frequentis.com,gmv.com,gogel.org,iucn.org,iucncongress2025.org,land.nrw,makingdiabeteseasier.com,mmkv.cz,nada.org,portdebarcelona.cat,puertos.es,red.es,sagemcom.com,santiagodecompostela.gal,srce.unizg.hr,stadtlandwirtschaft.wien,tecnoalarm.com,thecommonwealth.org,unirc.it###cookiesjsr
 ! #cookieConsent
-abcsinsights.com,antena1.com.br,author.today,bertioga.sp.gov.br,cellc.co.za,finstat.cz,finstat.sk,fortunebusinessinsights.com,hustlermagazine.com,ikmultimedia.com,julesjordan.com,kaveverzum.hu,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,mondaq.com,monsterenergy.com,my.eekgames.com,myperfectnews.adidnova.es,psiphon.ca,seguno.com,supsystic.com,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,wertachkliniken.de,wplt20.com,yenibeygir.com###cookieConsent
+abcsinsights.com,antena1.com.br,author.today,bertioga.sp.gov.br,cellc.co.za,companywall.hr,finstat.cz,finstat.sk,fortunebusinessinsights.com,hustlermagazine.com,ikmultimedia.com,julesjordan.com,kaveverzum.hu,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,mondaq.com,monsterenergy.com,my.eekgames.com,myperfectnews.adidnova.es,psiphon.ca,seguno.com,supsystic.com,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,wertachkliniken.de,wplt20.com,yenibeygir.com###cookieConsent
 ! .cookies-consent
 actie.degoedezaak.org,ashush-projects.co.il,campax.org,controller.com,hamat-group.co.il,hamat.co.il,mashumashu.co.il,medor.co.il,mrfdev.com,ofek-mitam.com,pandoor.co.il,pelephone.co.il,vgardenfoods.com,voicemod.net##.cookies-consent
 ! #cookie-disclaimer
@@ -28177,7 +28177,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Wed, 03 Jun 2026 13:24:57 +0000
+! Last modified: Thu, 04 Jun 2026 01:51:39 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28764,6 +28764,7 @@ clubic.com##+js(trusted-click-element, .didomi-continue-without-agreeing)
 ! https://github.com/uBlockOrigin/uAssets/issues/33142
 garuda-indonesia.com##+js(trusted-set-cookie, consent:cookie, '{"essentialCookies":true,"marketingCookies":false,"analyticCookies":false,"consentStatus":"Rejected","id":""}', , , domain, .garuda-indonesia.com)
 garuda-indonesia.com##+js(set-local-storage-item, cookies, agree)
+! https://github.com/uBlockOrigin/uAssets/issues/33161
 
 !! Needs additional cookies
 
