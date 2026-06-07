@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-06-06T02:36:51Z
+! Last modified: 2026-06-07T02:55:24Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Fri, 05 Jun 2026 22:46:42 +0000
+! Last modified: Sat, 06 Jun 2026 16:46:35 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -16655,6 +16655,7 @@
 ||duotonesports.com^*/public/ccm
 ||emerse.com/consent.js
 ||famobi.com/assets/js/consent.js
+||filmpalast.net/wp-content/*/borlabs-cookie/
 ||flaine.com/build/js/tarteaucitron/
 ||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
@@ -16916,7 +16917,7 @@ ubs.com###cboxContent
 armorgames.com###cc-alert
 sdaa-france.com,yellow.place###cc-bar
 smart-home-fox.co.uk###cc-card
-consoleconnect.com,pccwglobal.com,sorianatural.es###cc-overlay
+consoleconnect.com,olvacourier.com,pccwglobal.com,sorianatural.es###cc-overlay
 aam-us.org,rodavigo.net###cc-window
 avosound.com###cc_b
 warwickstudentpad.co.uk###cc_cookie_banner
@@ -17870,6 +17871,7 @@ atptour.com##.atp_cookie-message
 scandalbeauties.com##.attention-msg
 amplify.com##.augusta-campaign
 alivecolors.com##.awarning
+amundi.com##.awf-eu-cookie-compliance
 airwallex.com##.awx-privcbanner-root
 welcometothejungle.com##.axeptio_mount
 hush-uk.com##.b-header-message
@@ -19524,6 +19526,7 @@ jooble.org##[data-test-name="_termsOfServices"]
 intermatic.com##[data-test-selector="drawer_CookiePolicy"]
 backmarket.com##[data-test="banner"]
 workagnt.com##[data-testid="banner-cookie-consent"]
+fifthrow.com##[data-testid="cookie-banner"]
 pleo.io##[data-testid="cookie-banner-wrapper"]
 cline.bot,opencollective.com##[data-testid="cookies-dialog"]
 airhelp.com##[data-testid="cookiesNotice"]
@@ -19813,7 +19816,7 @@ agados.cz,allmyfaves.com,charlesandcolvard.com,concert.ua,crowdwork.com,curvo.eu
 !! #cookie-consent-popup
 bagina.co.il,coffeeman.co.il,finam.ru,halalit.co.il,pccenter.co.il,rsm.co.il,shop-now14.co.il,vero-cafe.co.il,zulacasino.com###cookie-consent-popup
 !! .cookiebar
-ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.jamf.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
+ammeraalbeltech.com,asst-lecco.it,community.dyson.com,community.jamf.com,fortinet.com,mahle-aftermarket.com,mega-monheim.de,nautadutilh.com,purejingles.com,sigmanet.lv,trtcocuk.net.tr,um.edu.mt##.cookiebar
 !! #cliSettingsPopup
 shv.nl,wornandwound.com###cliSettingsPopup
 !! #cookie-holder
@@ -23690,6 +23693,12 @@ bpstat.bportugal.pt##+js(set-cookie, bdp_use_cookies, notagree)
 ! klimahotelmilano.com
 klimahotelmilano.com###body,html:style(overflow: auto !important; position: initial !important;)
 klimahotelmilano.com##.tpl-cookie
+! home-appliances.philips
+home-appliances.philips##body.modal-open:style(overflow: auto !important;)
+home-appliances.philips##vers-anonymous-consent-management-banner
+! https://github.com/easylist/easylist/issues/24363
+ukrinform.net,ukrinform.ua##div#cookie-banner
+ukrinform.net,ukrinform.ua##html:style(overflow: auto !important;)
 !------------------------Rules for international sites------------------------!
 ! *** easylist:easylist_cookie/easylist_cookie_international_specific_hide.txt ***
 flvw.de###ConsentMsg
@@ -27490,7 +27499,7 @@ youtube.com#@##consent-bump
 bbc.com,kleinanzeigen.de#@##consentBanner
 wacom.com#@##consent_blackbar
 voas.fi#@##coockie-modal
-br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,huellendirekt.de,kmudigital.at,kontostand.at,mazda-autohaus-volz-saarbruecken.de,serveminecraft.net,spares2repair.co.uk,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
+br-dge.to,citaalen.com,feierabend.de,gpiaaf.gov.pt,hoesjesdirect.nl,huellendirekt.de,kmudigital.at,kontostand.at,mazda-autohaus-volz-saarbruecken.de,serveminecraft.net,spares2repair.co.uk,ukrinform.net,ukrinform.ua,vrtranspoint.fi,zukunft-jetzt.deutsche-rentenversicherung.de#@##cookie-banner
 caixabank.com#@##cookie-form
 notify.events#@##cookie-gdpr
 bike-supply.de#@##cookie-jar
