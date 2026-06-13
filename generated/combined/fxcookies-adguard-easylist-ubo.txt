@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-06-12T02:56:11Z
+! Last modified: 2026-06-13T02:48:56Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: uxoMBo8tTFd7wjgPV++yQA
-! Diff-Path: ../patches/18/18-s-1781198628-3600.patch
+! Checksum: FCBt8Hr+scU91BxNiWslFQ
+! Diff-Path: ../patches/18/18-s-1781290227-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.88.26
-! TimeUpdated: 2026-06-11T17:21:33+00:00
+! Version: 2.0.88.29
+! TimeUpdated: 2026-06-12T18:47:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2551,6 +2551,9 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+dodopizza.ru###react-app > footer > div[class^="sc-"]:has(> .cookie-policy-button)
+||deepsystems.com/wp-content/plugins/wp-terms-popup/
+anime.uniquestream.net##.mp-cookie
 businessnetwork.jp##.pageCookie
 thuisbezorgd.nl##.c-cookieBanner
 armedangels.com##body::after
