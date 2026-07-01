@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-06-30T02:46:40Z
+! Last modified: 2026-07-01T02:52:08Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: XnktofxIWXVbmsPzdWNg2w
-! Diff-Path: ../patches/18/18-s-1782762092-3600.patch
+! Checksum: kKZn5uSFnRztccAzBPH6/Q
+! Diff-Path: ../patches/18/18-s-1782835252-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.89.14
-! TimeUpdated: 2026-06-29T19:38:35+00:00
+! Version: 2.0.89.20
+! TimeUpdated: 2026-06-30T15:58:01+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2553,6 +2553,12 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+oitr.jp##body > div.notice:has(a[href^="https://www.oitr.jp/cookie-policy/"])
+gazeta.press##.b_accept_cookies
+gorod.mos.ru##.ui-info-modal__wrapper
+skatteetaten.no###react-cookiebanner:style(display: none !important;)
+skatteetaten.no##body.cookie-open:style(overflow: auto !important;)
+dreamisland.ru##div[class^="CookiePanel_wrapper"]
 karrier.4ig.hu##+js(set-cookie-reload, cookie_terms_accepted, 1)
 nanasubs.com.pl##[class^="ns-cookies"]
 heidejaeger.de##+js(remove-class, cmplz-banner-active, body)
@@ -11891,7 +11897,7 @@ insidertracking.com##.inktheme-cookies
 lexus-katowice.pl,lexus-krakow.com.pl,lexus-leszno.pl,lexus-lodz.pl,lexus-poznan.pl,lexus-szczecin.pl,lexus-trojmiasto.pl,lexus-warszawaradosc.pl,lexus-wroclaw.pl,lexuskrakow-zakopianska.pl,lexuswarszawa-pulawska.pl,lexuswarszawa-wola.pl,lexuswarszawa-zeran.pl##div.ReactModalPortal:has(> .ReactModal__Overlay > .ReactModal__Content > div[class^="CookiesModal"])
 lexus-katowice.pl,lexus-krakow.com.pl,lexus-leszno.pl,lexus-lodz.pl,lexus-poznan.pl,lexus-szczecin.pl,lexus-trojmiasto.pl,lexus-warszawaradosc.pl,lexus-wroclaw.pl,lexuskrakow-zakopianska.pl,lexuswarszawa-pulawska.pl,lexuswarszawa-wola.pl,lexuswarszawa-zeran.pl##body.ReactModal__Body--open:style(overflow-y: auto !important;)
 ||jimstatic.com/ckies.js
-soccerway.com,flashfootball.com,wyniki.pl,livesport.cz,flashscoreusa.com,flashfussball.de,eredmenyek.com,flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
+soccerway.com,flashfootball.com,wyniki.pl,livesport.cz,flashscoreusa.com,flashfussball.de,eredmenyek.com,flashscorekz.com,flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.otPlaceholder
 teb.pl###cookieModal:style(display: none !important;)
 teb.pl##html[style*="overflow"]:style(overflow: auto !important;)
 coqueiro.com.br,camil.com.br##.cookies-msg-box
@@ -12855,7 +12861,7 @@ partnerize.com###cookie_opt_out_wrapper
 banker.ua##.csppp-container
 creditznatok.com.ua###cookierookie
 otelrezervasyon.com##.datapolicy-wrapper
-tatilsepeti.com##.cookie-confirmation
+price.ru,tatilsepeti.com##.cookie-confirmation
 pracuj.pl###kansas-header > div[data-test="section-cookies-prompt"]
 kuehne.com.tr##.kue-cookie-notification
 karaca.com.tr##.cerezbilgi
@@ -17245,6 +17251,8 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/234451
+skatteetaten.no#@##cookie-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234463
 4ig.hu#@##cookie_layer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234512
