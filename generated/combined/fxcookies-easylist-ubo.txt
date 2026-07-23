@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-07-22T02:02:37Z
+! Last modified: 2026-07-23T02:09:42Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 21 Jul 2026 17:01:30 +0000
+! Last modified: Wed, 22 Jul 2026 19:57:06 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17045,7 +17045,7 @@ letsdothis.com###cookieAcceptanceModal
 511mt.net###cookieBannerHolder
 rsvp.withgoogle.com###cookieBarWrapper
 egamersworld.com###cookieBot
-e-hapi.com###cookieBox
+e-hapi.com,tomods-ap.com###cookieBox
 cambridgeparkandride.info###cookieConsentDialog
 investtech.com###cookieConsentDialogue
 khronos.org###cookieConsentForm
@@ -17936,6 +17936,7 @@ enen.eu##.basel-cookies-popup
 prestamarketing.com##.basicLightbox
 batchgeo.com##.batchgeo-cookie-notice
 bbc.com##.bbc-bmxm2b
+trendoby.net##.bcb3a172
 band.us##.bcm_bandCookieModuleWrap
 opentip.kaspersky.com##.bd80ac
 pushkin.institute##.beono-flashmessage
@@ -18439,7 +18440,7 @@ unitedpets.com##.cupjma
 greats.com##.custom-onetrust-banner
 princetonreview.com##.customer-cookie-container
 tannoy.com##.cv2-wrapper
-grassfeld.com,hockeystack.com,sogni.ai##.cw-cookies
+grassfeld.com,hockeystack.com,sogni.ai,thesignalgroup.com##.cw-cookies
 careerswales.gov.wales##.cw-cookies-policy-banner
 tonies.com##.cwJWme
 eoportal.org##.cy-cookie-popup
@@ -19815,7 +19816,7 @@ analyticsmania.com,athenaeumscheltema.nl,biz.chosun.com,campfimfo.com,championat
 !! #cookieNotice
 ac-mejerimaskiner.dk,amazingfoodmadeeasy.com,bradyunited.org,chetak.com,dks.at,dochas.ie,ecuavisa.com,growbrothers-ev.de,knifecenter.com,langendorf.de,luxorcrystal.com,theluxuryhut.com,wsg-fussball.at###cookieNotice
 !! #notice-cookie-block
-aescripts.com,all4running.nl,chillyhilversum.be,electroworld.nl,hakkousa.com,laurenbjewelry.com,lempiapteekki.fi###notice-cookie-block
+aescripts.com,all4running.nl,chillyhilversum.be,electroworld.nl,hakkousa.com,laurenbjewelry.com,lempiapteekki.fi,verkkoapteekit.fi###notice-cookie-block
 !! .overlay-gdpr-consent/.overlay-wrapper
 lsl.com,sexlivecam.co.uk,xxxcams.com##.overlay-gdpr-consent
 lsl.com,sexlivecam.co.uk,xxxcams.com##.overlay-wrapper
@@ -28405,7 +28406,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 21 Jul 2026 12:22:18 +0000
+! Last modified: Wed, 22 Jul 2026 12:30:04 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -29944,7 +29945,7 @@ ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(trusted-click-element, butto
 ! https://github.com/AdguardTeam/AdguardFilters/issues/205068
 ! weather.com>>##+js(trusted-click-element, button.cta-button[title="Tümünü reddet"])
 ! weather.com UK IP
-cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Reject all"], , 1000)
+weather.com>>##+js(trusted-click-element, button[title="Reject all"], , 1000)
 ! https://github.com/uBlockOrigin/uAssets/issues/33140
 weather.com>>##+js(trusted-click-element, button.sp_choice_type_13)
 
@@ -30664,7 +30665,7 @@ timeout.com>>##+js(trusted-click-element, button[title="Save & Exit"], , 1000)
 
 ! karlsruhe-insider.de, accept&close
 ! ingenieur.de=cdn.privacy-mgmt.com
-cdn.privacy-mgmt.com,karlsruhe-insider.de>>##+js(trusted-click-element, button[title="Akzeptieren & Schließen"], , 1000)
+ingenieur.de>>,karlsruhe-insider.de>>##+js(trusted-click-element, button[title="Akzeptieren & Schließen"], , 1000)
 
 ! promiflash.de, , accept&close
 promiflash.de>>##+js(trusted-click-element, button[title="Schließen & Akzeptieren"], , 1000)
@@ -30806,7 +30807,7 @@ dropreference.com##+js(trusted-set-cookie, DR-cookie-consent, '{"necessary":true
 spcmp.crosswordsolver.com,gbnews.com>>##+js(trusted-click-element, button[title="Accept"], , 1000)
 
 ! autocark.co.uk/US IP
-cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Accept"], , 1000)
+autocark.co.uk>>##+js(trusted-click-element, button[title="Accept"], , 1000)
 
 ! decline
 hfm.com##+js(trusted-set-cookie, orejime, '{"functional":true,"analytical":false,"marketing":false,"targeting":false,"analytical_and_marketing_and_targeting":false}')
@@ -33791,8 +33792,8 @@ eplus.jp##+js(trusted-set-cookie, gdpr_settings, '{"allow":"I_ACCEPT"}')
 discovery.nus.edu.sg##+js(trusted-click-element, [data-qa="reject-non-essential-button"])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/28089#issuecomment-3748833650
-cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="More Options"], , 1000)
-cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="REJECT ALL"], , 1000)
+gamesradar.com>>##+js(trusted-click-element, button[title="More Options"], , 1000)
+gamesradar.com>>##+js(trusted-click-element, button[title="REJECT ALL"], , 1000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/31501
 @@||consent.cookiebot.com/uc.js$script,domain=vcg.de
