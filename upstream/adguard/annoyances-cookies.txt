@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 8ta/Zjs1JlLZkd73fOS3+w
-! Diff-Path: ../patches/18/18-s-1785868688-3600.patch
+! Checksum: k1rt/fZHyjpwtT1PQseTTw
+! Diff-Path: ../patches/18/18-s-1785958605-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.49
-! TimeUpdated: 2026-08-04T18:36:06+00:00
+! Version: 2.0.91.57
+! TimeUpdated: 2026-08-05T19:34:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -31,7 +31,6 @@
 ##.cookieFlyer
 ##.coksima-consent-wrapper
 ##app-cookie-consent-popup
-##.ccbnr
 ###simple-cookie-banner
 ###cookier-banner
 ##.cookieMonster
@@ -1700,6 +1699,8 @@
 ##.wsa-cookielaw
 ##body > #ckch
 !+ NOT_OPTIMIZED
+##.ccbnr
+!+ NOT_OPTIMIZED
 ###didomi-notice
 !+ NOT_OPTIMIZED
 /mrf4u/cmp/*/*.js?autoinit=
@@ -2409,8 +2410,8 @@ motor-oel-guenstig.de,stratic.de,einrichten-design.de,vandenhoeck-ruprecht-verla
 ! ###didomi-host
 rtl.fr,idealista.it,lidovky.cz,theobjective.com,dziennikzachodni.pl,standaard.be,closermag.fr,elnortedecastilla.es,ibtimes.co.uk,mallorcamagazin.com,mitele.es,newsweek.com,periodicodeibiza.es###didomi-host
 ! For the case if the scroll page is blocked
-parismatch.com,bonjour-ratp.fr,yahoo.com,expressen.se,elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz###didomi-host:style(display: none !important;)
-parismatch.com,bonjour-ratp.fr,yahoo.com,expressen.se,elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz##html > body.didomi-popup-open:style(overflow: auto !important; position: unset !important;)
+weeronline.nl,parismatch.com,bonjour-ratp.fr,yahoo.com,expressen.se,elespanol.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,corrieredellosport.it,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz###didomi-host:style(display: none !important;)
+weeronline.nl,parismatch.com,bonjour-ratp.fr,yahoo.com,expressen.se,elespanol.com,techcrunch.com,shadow.tech,letemps.ch,nicematin.com,purepeople.com,dn.se,numerama.com,goplay.be,lavozdegalicia.es,boursobank.com,recup.paylib.fr,radioclassique.fr,joabet.fr,xataka.com,lejdd.fr,filmweb.pl,speedy.fr,manomano.fr,talent-soft.com,jofogas.hu,m.rtl.be,elmundo.es,vecernji.hr,zive.cz##html > body.didomi-popup-open:style(overflow: auto !important; position: unset !important;)
 corrieredellosport.it##body:style(overflow: auto !important;)
 lavozdegalicia.es##body.blocked::before:style(display: none !important;)
 !
@@ -2553,6 +2554,10 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+heavyequipmentguide.ca##.card-cookie-notice
+oprah.com##.gtm-consent
+tlc.com##+js(addEventListener-defuser, DOMContentLoaded, ltpStartUp)
+amazon.jobs###versionized-cookie-banner
 aws.amazon.com###awsccc-sb-ux-c
 motoin.de###cookiePrivacyNotice
 dns-shop.ru###app > div[class^="agreeCookies"]
@@ -2582,8 +2587,6 @@ globes.co.il###cookiesConfirmDiv
 2gis.ru##._gfe0dx
 tbs.com,trutv.com###wbd-ltp-overlay:style(display: none !important;)
 tbs.com,trutv.com##body:style(overflow: auto !important;)
-hbomax.com,discoveryplus.com###modal-test-id-consent-modal
-hbomax.com,discoveryplus.com###__next > div[class^="sc-"]:empty
 infopraca.pl###cookieModal:style(display: none !important;)
 infopraca.pl##.cookie-modal-backdrop:style(display: none !important;)
 infopraca.pl##body[style^="overflow:"]:style(overflow: auto !important; padding-right: 0 !important;)
@@ -2612,7 +2615,7 @@ skiplagged.com###privacy-portal
 vwfs.pl##div[class^="cookies-acceptance"]
 berdsen.pl##[id^="ciachaModal"]
 lustich.de##+js(set-cookie, lustich-cookie-consent-v1, necessary)
-boyfriend.tv###limitedExperienceNotice
+pornoxo.com,boyfriend.tv###limitedExperienceNotice
 nimaso.co.jp##body > div[id^="shopify-aura-connect-"]
 festivaldemalaga.com##.boxCookies
 lobehub.com##+js(set-cookie, LOBE_COOKIE_CONSENT, rejected)
@@ -3190,7 +3193,7 @@ foodswinesfromspain.com##+js(set-local-storage-item, analytics_icex-foodswines, 
 foodswinesfromspain.com##+js(set-local-storage-item, advertising_icex-foodswines, rejected)
 evoto.ai##.cookie-drawer-container
 bonus.ebrokerpartner.pl##div[class$="-cookiesInfoContainer"]
-xeromania.pl,dzielnicazdrowia.pl,sklepy-cynamonowe.eu,elektronar.pl,granitnaturalny.pl,domiuroda.pl,sklep-ppoz.pl,alphastore.pl,latamfpv.pl,krugermatz.com,patandrub.eu,sklepkoszykarski.pl,dayabeauty.pl,najlepszyfiltr.pl,wildleather.pl,sklep.szymkowiak-karcher.pl,skleptanieodzywki.pl,coolmarket.pl,sklep.hmmcleaning.pl,biogo.pl,sklep-marinelab.pl,rarecraft.pl,kaweo.pl,yummo.pl,candy-shop.pl,slodyczowo.pl,friser.pl,sklep.cryptotech.com.pl,jupiter.com.pl,sklep.bacowkatowary.pl,higienamed.pl,voiceshop.pl,superrower.pl##.consents
+werbus.pl,xeromania.pl,dzielnicazdrowia.pl,sklepy-cynamonowe.eu,elektronar.pl,granitnaturalny.pl,domiuroda.pl,sklep-ppoz.pl,alphastore.pl,latamfpv.pl,krugermatz.com,patandrub.eu,sklepkoszykarski.pl,dayabeauty.pl,najlepszyfiltr.pl,wildleather.pl,sklep.szymkowiak-karcher.pl,skleptanieodzywki.pl,coolmarket.pl,sklep.hmmcleaning.pl,biogo.pl,sklep-marinelab.pl,rarecraft.pl,kaweo.pl,yummo.pl,candy-shop.pl,slodyczowo.pl,friser.pl,sklep.cryptotech.com.pl,jupiter.com.pl,sklep.bacowkatowary.pl,higienamed.pl,voiceshop.pl,superrower.pl##.consents
 landkreis-muenchen.de##.orejime-Banner
 renderforest.com##div[class^="styles_cookie-message-wrapper__"]
 sodimac.cl##footer > section:has(> button#testId-accept-cookies-btn)
@@ -3647,7 +3650,7 @@ skroutz.de##.js-global-skrp-messages:has(> .js-message > article > .actions > fo
 corp.asics.com##.o-gdpr-dialog
 porovnejsito.cz,upv.gov.cz##.scook
 oponki24.com.pl,mdron.pl##+js(set-cookie-reload, cookie_info_accepted, 1)
-ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,kcci.com,gulfcoastnewsnow.com,wapt.com,watch.dropout.tv,larsondoors.com,equifax.ca##.ketch-fixed
+tvland.com,tennischannel.com,thesportsmanchannel.com,poptv.com,outdoorchannel.com,logotv.com,cmt.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,kcci.com,gulfcoastnewsnow.com,wapt.com,watch.dropout.tv,larsondoors.com,equifax.ca##.ketch-fixed
 aptacore.ac##.cookiesSec
 modivo.*##.consents:style(display: none !important;)
 modivo.*##+js(remove-class, _no-scroll, html, stay)
@@ -4340,7 +4343,7 @@ kamera-express.de##.advice-newsletter
 plannedparenthood.org##.cookieBanner:not(body):style(display: none !important;)
 plannedparenthood.org##body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 iapples.nl##.shopify-pc__banner__dialog[style*="display: block"] ~ .main::after
-mor-tv.com,wbal.com,kcra.com,imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,brainly.com.br,bitwarden.com,time.com###ketch-banner
+smithsonianchannel.com,mor-tv.com,wbal.com,kcra.com,imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,brainly.com.br,bitwarden.com,time.com###ketch-banner
 nsg.co.jp###sitecookiepolicy
 skysmart.ru##cism-cookies-banner
 sberbank.ru##div[class^="CookieWarning"]
@@ -4871,9 +4874,9 @@ xlogic.org##html:style(overflow: auto !important;)
 galaxus.de##div[class^="cookieBanner"]
 tama.com###header-gdpr
 nic.ru###inform-notification
-/modules/x13eucookies/*$domain=itstore.pl|gsm24.pl|promees.pl|meblujdom.pl|vita.biz.pl|shopgracz.pl|lanto.pl|skiteam.pl|rowerycube.pl|studiohifi.pl|sklep.octacom.pl|drukarki.pl|yalu.pl|radom.pl|elfashop.pl|magero.pl|advancedfood.pl
-itstore.pl,esklep.legutko.com.pl,elfashop.pl,bigriver.pl,dla-przemyslu.pl,skiteam.pl,meblujdom.pl,lanto.pl,iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk,iiyama-sklep.pl,spawtech.pl##.x13eucookies:style(display: none !important;)
-itstore.pl,esklep.legutko.com.pl,elfashop.pl,bigriver.pl,dla-przemyslu.pl,skiteam.pl,meblujdom.pl,lanto.pl,iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk,iiyama-sklep.pl,spawtech.pl##.x13eucookies-block:not(#style_important):style(overflow: auto !important;)
+/modules/x13eucookies/*$domain=itstore.pl|gsm24.pl|promees.pl|meblujdom.pl|vita.biz.pl|shopgracz.pl|lanto.pl|skiteam.pl|rowerycube.pl|studiohifi.pl|sklep.octacom.pl|drukarki.pl|yalu.pl|radom.pl|elfashop.pl|magero.pl|advancedfood.pl|ogrodexmilicz.pl
+sklep.wojtex-serwis.pl,itstore.pl,esklep.legutko.com.pl,elfashop.pl,bigriver.pl,dla-przemyslu.pl,skiteam.pl,meblujdom.pl,lanto.pl,iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk,iiyama-sklep.pl,spawtech.pl##.x13eucookies:style(display: none !important;)
+sklep.wojtex-serwis.pl,itstore.pl,esklep.legutko.com.pl,elfashop.pl,bigriver.pl,dla-przemyslu.pl,skiteam.pl,meblujdom.pl,lanto.pl,iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk,iiyama-sklep.pl,spawtech.pl##.x13eucookies-block:not(#style_important):style(overflow: auto !important;)
 infoldgames.com##div[class^="CookieTips_"]
 mightyjaxx.com##div[data-testid="modal-cookies"]
 warta.pl##.modal-backdrop:style(display: none !important;)
@@ -7577,7 +7580,7 @@ maximarkt.at##body:style(overflow: auto !important;)
 maximarkt.at###lightcase-case:has(> #lightcase-content > .lightcase-contentInner > .lightcase-inlineWrap > #cookie-note)
 maximarkt.at###lightcase-overlay:style(display: none !important;)
 nerdstreet.com##footer ~ div[class]:has(h4 + p > a[href^="/privacy"])
-corkyspest.com,teledynelecroy.com###becookiebarid
+insp.com,corkyspest.com,teledynelecroy.com###becookiebarid
 support.lexmark.com##.tui-gdpr
 activobank.pt##.overlay-cookies
 perfumeriasavenida.com###cookiesAlertModal
@@ -10117,7 +10120,7 @@ ing.jobs##.gdprconsent:style(display: none!important;)
 ing.jobs##.ui-widget-overlay:style(display: none!important;)
 ing.jobs##body:style(overflow: visible!important;)
 centpart.ru,asiaticesports.com,centreforaviation.com,capgemini.com##div[class^="cookieConsent_"]
-metv.com##.privacy-banner-wrapper
+storytelevision.com,starttv.com,metvtoons.com,handitv.com,dabltvnetwork.com,catchycomedy.com,metv.com##.privacy-banner-wrapper
 biznesradar.pl##.toast--mod-cookie-desc
 cnnbrasil.com.br###pop__gdpr
 codeweavers.com###GDPR-alert
@@ -17885,6 +17888,9 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237510
+@@||sdk.privacy-center.org/*/loader.js$domain=weeronline.nl
+@@||sdk.privacy-center.org/sdk/$domain=weeronline.nl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237352
 eg.ru#@##cookie-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237284
