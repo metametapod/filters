@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: eFFzPaGL6E7hqUKUo6YE9A
-! Diff-Path: ../patches/18/18-s-1788027594-3600.patch
+! Checksum: NhFnRVBHhdXjH+5KtO0stQ
+! Diff-Path: ../patches/18/18-s-1788137119-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.93.16
-! TimeUpdated: 2026-08-29T18:16:31+00:00
+! Version: 2.0.93.18
+! TimeUpdated: 2026-08-31T00:42:19+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2563,6 +2563,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+shop.by##.Page__CW
 dostaevsky.ru##div[data-sentry-component="CookieAgreement"]
 probitymerch.com##[class*="ookie"]
 make.powerautomate.com###cookie-banner-auth-container
@@ -19377,6 +19378,7 @@ pirelli.com#@##cookie-bar
 zadowolenie.pl#@#.cookie-message:not(html):not(body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186549
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186825
+@@||cdn.cookielaw.org/consent/*.json$domain=gamescom.global
 gamescom.global#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186535
 hiermitherz.de#@##cookie_modal
