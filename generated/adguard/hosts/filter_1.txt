@@ -3,11 +3,13 @@
 # License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
 # Description: AdGuard DNS filter converted to hosts file format. Ambiguous
 # rules are expanded against a more exhaustive list (currently 1Hosts Xtra).
+0.0.0.0 0.abaftwetly.com
 0.0.0.0 0.ackprovided.com
 0.0.0.0 0.aroundwhoever.com
 0.0.0.0 0.artisticsway.com
 0.0.0.0 0.brilliantfaronly.com
 0.0.0.0 0.brochureclear.com
+0.0.0.0 0.fitlivelywhup.com
 0.0.0.0 0.flat.providedwell.com
 0.0.0.0 0.fls.doubleclick.net
 0.0.0.0 0.gahfinallytame.com
@@ -20,6 +22,7 @@
 0.0.0.0 0.quietlythough.com
 0.0.0.0 0.scientificfor.com
 0.0.0.0 0.socksince.com
+0.0.0.0 0.stg.abaftwetly.com
 0.0.0.0 0.stg.ackprovided.com
 0.0.0.0 0.stg.aroundwhoever.com
 0.0.0.0 0.stg.artisticsway.com
@@ -591,12 +594,14 @@
 0.0.0.0 1-envato-market.ct.impactradius.com
 0.0.0.0 1.111inilliberty.logs.roku.com
 0.0.0.0 1.1iiinilliberty.logs.roku.com
+0.0.0.0 1.abaftwetly.com
 0.0.0.0 1.ackprovided.com
 0.0.0.0 1.aroundwhoever.com
 0.0.0.0 1.artisticsway.com
 0.0.0.0 1.brilliantfaronly.com
 0.0.0.0 1.brochureclear.com
 0.0.0.0 1.cpm.ak-is2.net
+0.0.0.0 1.fitlivelywhup.com
 0.0.0.0 1.g4oynkx46eex7trnq.cfd
 0.0.0.0 1.getclicky.com
 0.0.0.0 1.gladlythattoady.com
@@ -609,6 +614,7 @@
 0.0.0.0 1.scientificfor.com
 0.0.0.0 1.shoppinglifestyle.biz
 0.0.0.0 1.socksince.com
+0.0.0.0 1.stg.abaftwetly.com
 0.0.0.0 1.stg.ackprovided.com
 0.0.0.0 1.stg.aroundwhoever.com
 0.0.0.0 1.stg.artisticsway.com
@@ -3869,12 +3875,14 @@
 0.0.0.0 1z1pck2.n122ypfxtrhre27.cfd
 0.0.0.0 1zmx9m.cdn-settings.appsflyersdk.com
 0.0.0.0 2-05.com
+0.0.0.0 2.abaftwetly.com
 0.0.0.0 2.ackprovided.com
 0.0.0.0 2.afs.googleadservices.com
 0.0.0.0 2.aroundwhoever.com
 0.0.0.0 2.artisticsway.com
 0.0.0.0 2.brilliantfaronly.com
 0.0.0.0 2.brochureclear.com
+0.0.0.0 2.fitlivelywhup.com
 0.0.0.0 2.gladlythattoady.com
 0.0.0.0 2.ill-fatedodd.com
 0.0.0.0 2.loader.crosswordsolver.com
@@ -3885,6 +3893,7 @@
 0.0.0.0 2.s01.flagcounter.com
 0.0.0.0 2.scientificfor.com
 0.0.0.0 2.socksince.com
+0.0.0.0 2.stg.abaftwetly.com
 0.0.0.0 2.stg.ackprovided.com
 0.0.0.0 2.stg.aroundwhoever.com
 0.0.0.0 2.stg.artisticsway.com
@@ -5055,11 +5064,13 @@
 0.0.0.0 3-998-cb4a26be-c938-4fe3-b91a-a0612c64d262.analytics.mobilegamestats.com
 0.0.0.0 3-999-4640c0d9-fa0f-417a-93ac-80168eac47a3.analytics.mobilegamestats.com
 0.0.0.0 3-999-cb4a26be-c938-4fe3-b91a-a0612c64d262.analytics.mobilegamestats.com
+0.0.0.0 3.abaftwetly.com
 0.0.0.0 3.ackprovided.com
 0.0.0.0 3.aroundwhoever.com
 0.0.0.0 3.artisticsway.com
 0.0.0.0 3.brilliantfaronly.com
 0.0.0.0 3.brochureclear.com
+0.0.0.0 3.fitlivelywhup.com
 0.0.0.0 3.gladlythattoady.com
 0.0.0.0 3.ill-fatedodd.com
 0.0.0.0 3.loader.crosswordsolver.com
@@ -5069,6 +5080,7 @@
 0.0.0.0 3.redirect.appmetrica.yandex.com
 0.0.0.0 3.scientificfor.com
 0.0.0.0 3.socksince.com
+0.0.0.0 3.stg.abaftwetly.com
 0.0.0.0 3.stg.ackprovided.com
 0.0.0.0 3.stg.aroundwhoever.com
 0.0.0.0 3.stg.artisticsway.com
@@ -5874,6 +5886,7 @@
 0.0.0.0 3yzthp.launches.appsflyersdk.com
 0.0.0.0 3zzyq0.launches.appsflyersdk.com
 0.0.0.0 4-att.justtrack.io
+0.0.0.0 4.abaftwetly.com
 0.0.0.0 4.ackprovided.com
 0.0.0.0 4.adsco.re
 0.0.0.0 4.aroundwhoever.com
@@ -5885,6 +5898,7 @@
 0.0.0.0 4.dqlnwrulga.com
 0.0.0.0 4.dtpfetsaz.com
 0.0.0.0 4.eizgttovabu.com
+0.0.0.0 4.fitlivelywhup.com
 0.0.0.0 4.fucwufaprni.com
 0.0.0.0 4.g9ouhz5crtyqyo7.cfd
 0.0.0.0 4.gadmagckfy.com
@@ -5900,6 +5914,7 @@
 0.0.0.0 4.rdipmrbwgvk.com
 0.0.0.0 4.scientificfor.com
 0.0.0.0 4.socksince.com
+0.0.0.0 4.stg.abaftwetly.com
 0.0.0.0 4.stg.ackprovided.com
 0.0.0.0 4.stg.aroundwhoever.com
 0.0.0.0 4.stg.artisticsway.com
@@ -6791,12 +6806,14 @@
 0.0.0.0 4zm6p17ppr.com
 0.0.0.0 5-182-5-41.botfaqtor.ru
 0.0.0.0 5.56.wormdistressedunit.com
+0.0.0.0 5.abaftwetly.com
 0.0.0.0 5.ackprovided.com
 0.0.0.0 5.aroundwhoever.com
 0.0.0.0 5.artisticsway.com
 0.0.0.0 5.at.atwola.com
 0.0.0.0 5.brilliantfaronly.com
 0.0.0.0 5.brochureclear.com
+0.0.0.0 5.fitlivelywhup.com
 0.0.0.0 5.flat.providedwell.com
 0.0.0.0 5.gladlythattoady.com
 0.0.0.0 5.ill-fatedodd.com
@@ -6809,6 +6826,7 @@
 0.0.0.0 5.quietlythough.com
 0.0.0.0 5.scientificfor.com
 0.0.0.0 5.socksince.com
+0.0.0.0 5.stg.abaftwetly.com
 0.0.0.0 5.stg.ackprovided.com
 0.0.0.0 5.stg.aroundwhoever.com
 0.0.0.0 5.stg.artisticsway.com
@@ -7768,6 +7786,7 @@
 0.0.0.0 6-3-36aece6d-310c-48b4-9e93-f8b9bb893645.analytics.mobilegamestats.com
 0.0.0.0 6-att.justtrack.io
 0.0.0.0 6-partner.com
+0.0.0.0 6.abaftwetly.com
 0.0.0.0 6.ackprovided.com
 0.0.0.0 6.adsco.re
 0.0.0.0 6.aroundwhoever.com
@@ -7775,6 +7794,7 @@
 0.0.0.0 6.at.atwola.com
 0.0.0.0 6.brilliantfaronly.com
 0.0.0.0 6.brochureclear.com
+0.0.0.0 6.fitlivelywhup.com
 0.0.0.0 6.gladlythattoady.com
 0.0.0.0 6.ill-fatedodd.com
 0.0.0.0 6.kl8f4kge3c3zfh5v1jziqefpbmcv4rzx.cfd
@@ -7784,6 +7804,7 @@
 0.0.0.0 6.quietlythough.com
 0.0.0.0 6.scientificfor.com
 0.0.0.0 6.socksince.com
+0.0.0.0 6.stg.abaftwetly.com
 0.0.0.0 6.stg.ackprovided.com
 0.0.0.0 6.stg.aroundwhoever.com
 0.0.0.0 6.stg.artisticsway.com
@@ -8669,12 +8690,14 @@
 0.0.0.0 7-0-7a42bd37-bb18-471e-8ab4-8cc26f489ea1.analytics.mobilegamestats.com
 0.0.0.0 7-1-7a42bd37-bb18-471e-8ab4-8cc26f489ea1.analytics.mobilegamestats.com
 0.0.0.0 7-7-7-partner.com
+0.0.0.0 7.abaftwetly.com
 0.0.0.0 7.ackprovided.com
 0.0.0.0 7.aroundwhoever.com
 0.0.0.0 7.artisticsway.com
 0.0.0.0 7.brilliantfaronly.com
 0.0.0.0 7.brochureclear.com
 0.0.0.0 7.e15etto89hg58nxvm2nqr8te9ye4owctchppff.cfd
+0.0.0.0 7.fitlivelywhup.com
 0.0.0.0 7.gladlythattoady.com
 0.0.0.0 7.ill-fatedodd.com
 0.0.0.0 7.loader.crosswordsolver.com
@@ -8684,6 +8707,7 @@
 0.0.0.0 7.quietlythough.com
 0.0.0.0 7.scientificfor.com
 0.0.0.0 7.socksince.com
+0.0.0.0 7.stg.abaftwetly.com
 0.0.0.0 7.stg.ackprovided.com
 0.0.0.0 7.stg.aroundwhoever.com
 0.0.0.0 7.stg.artisticsway.com
@@ -9323,11 +9347,13 @@
 0.0.0.0 8.2i945kh8olyubecb6hl88q89l5.cfd
 0.0.0.0 8.345l5yutmz7lu5pbuqy17umn1m.cfd
 0.0.0.0 8.85ltu28733cczn175evkqt2vmr5.cfd
+0.0.0.0 8.abaftwetly.com
 0.0.0.0 8.ackprovided.com
 0.0.0.0 8.aroundwhoever.com
 0.0.0.0 8.artisticsway.com
 0.0.0.0 8.brilliantfaronly.com
 0.0.0.0 8.brochureclear.com
+0.0.0.0 8.fitlivelywhup.com
 0.0.0.0 8.gladlythattoady.com
 0.0.0.0 8.ill-fatedodd.com
 0.0.0.0 8.loader.crosswordsolver.com
@@ -9337,6 +9363,7 @@
 0.0.0.0 8.quietlythough.com
 0.0.0.0 8.scientificfor.com
 0.0.0.0 8.socksince.com
+0.0.0.0 8.stg.abaftwetly.com
 0.0.0.0 8.stg.ackprovided.com
 0.0.0.0 8.stg.aroundwhoever.com
 0.0.0.0 8.stg.artisticsway.com
@@ -10348,12 +10375,14 @@
 0.0.0.0 8zgrcs.launches.appsflyersdk.com
 0.0.0.0 9-65-1-2659aa7d-3201-42a7-ae49-b2385990679f.analytics.mobilegamestats.com
 0.0.0.0 9.8eiy9rw2zw93w95rihg6k3q8vvlgyufrhq4.cfd
+0.0.0.0 9.abaftwetly.com
 0.0.0.0 9.ackprovided.com
 0.0.0.0 9.aroundwhoever.com
 0.0.0.0 9.artisticsway.com
 0.0.0.0 9.brilliantfaronly.com
 0.0.0.0 9.brochureclear.com
 0.0.0.0 9.eechicha.com
+0.0.0.0 9.fitlivelywhup.com
 0.0.0.0 9.gladlythattoady.com
 0.0.0.0 9.ill-fatedodd.com
 0.0.0.0 9.loader.crosswordsolver.com
@@ -10362,6 +10391,7 @@
 0.0.0.0 9.quietlythough.com
 0.0.0.0 9.scientificfor.com
 0.0.0.0 9.socksince.com
+0.0.0.0 9.stg.abaftwetly.com
 0.0.0.0 9.stg.ackprovided.com
 0.0.0.0 9.stg.aroundwhoever.com
 0.0.0.0 9.stg.artisticsway.com
@@ -19743,6 +19773,7 @@
 0.0.0.0 abackswindleconcurrence.com
 0.0.0.0 abadit5rckb.com
 0.0.0.0 abadit5rckd.com
+0.0.0.0 abaftwetly.com
 0.0.0.0 abakas.scalierrongeur.qpon
 0.0.0.0 abalonediiambigname.cyou
 0.0.0.0 abampscoart.qpon
@@ -35082,6 +35113,7 @@
 0.0.0.0 c.y494.wdsu.com
 0.0.0.0 c.z492.ctinsider.com
 0.0.0.0 c.zero.kz
+0.0.0.0 c.zodalt.com
 0.0.0.0 c0.adalyser.com
 0.0.0.0 c0.amazingcounters.com
 0.0.0.0 c0.anthill.vn
@@ -49075,6 +49107,7 @@
 0.0.0.0 disturbancecommemorate.com
 0.0.0.0 disturbedquiet.com
 0.0.0.0 disturbsparkler.com
+0.0.0.0 disutgh7q0ncc.cloudfront.net
 0.0.0.0 dit-dit-dot.com
 0.0.0.0 dit.whatsapp.net
 0.0.0.0 dit.whatsapp.net.iberostar.com
@@ -57707,6 +57740,7 @@
 0.0.0.0 fit.ad-spire.net
 0.0.0.0 fitchconnect.piwik.pro
 0.0.0.0 fitgreatest.com
+0.0.0.0 fitlivelywhup.com
 0.0.0.0 fitnesseternalsignificant.com
 0.0.0.0 fitnessflashyhopeless.com
 0.0.0.0 fitsagitateacid.com
@@ -124282,6 +124316,7 @@
 0.0.0.0 requestinclude.com
 0.0.0.0 requestmetrics.com
 0.0.0.0 requisitezap.com
+0.0.0.0 rer4.com
 0.0.0.0 rergj0.alphonso.tv
 0.0.0.0 reroute.loopgraping.cfd
 0.0.0.0 rerowcupule.cfd
@@ -126551,7 +126586,6 @@
 0.0.0.0 ru4.com
 0.0.0.0 rua50s4es8.com
 0.0.0.0 ruagony.cyou
-0.0.0.0 ruamupr.com
 0.0.0.0 ruarvrotegnje.site
 0.0.0.0 rubaeeast.solocpm.com
 0.0.0.0 rubatoseffray.cfd
@@ -139051,6 +139085,7 @@
 0.0.0.0 stg-vast.ad.abema.io
 0.0.0.0 stg-weird-things.cell.us.nr-data.net
 0.0.0.0 stg-yospace.ad.abema.io
+0.0.0.0 stg.abaftwetly.com
 0.0.0.0 stg.ackprovided.com
 0.0.0.0 stg.ad.woman.mynavi.jp
 0.0.0.0 stg.anymind360.com
@@ -149822,6 +149857,7 @@
 0.0.0.0 untimburra.com
 0.0.0.0 untimeallyingbalkans.qpon
 0.0.0.0 untimely-chemistry.com
+0.0.0.0 untimely-hello.com
 0.0.0.0 untimely-proof.pro
 0.0.0.0 untimely-way.pro
 0.0.0.0 untopproplex.com
@@ -163987,6 +164023,7 @@
 0.0.0.0 zocdoc.hrzn-nxt.com
 0.0.0.0 zocjfugbrnjsi.site
 0.0.0.0 zocwfosbxwqru.website
+0.0.0.0 zodalt.com
 0.0.0.0 zodarpnpsrnds.website
 0.0.0.0 zodescdmuxxqq.site
 0.0.0.0 zodflbjwjyzxjg.com
