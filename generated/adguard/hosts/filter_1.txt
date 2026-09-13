@@ -37580,6 +37580,7 @@
 0.0.0.0 cdn77.s2517.com
 0.0.0.0 cdn77.srv224.com
 0.0.0.0 cdn77.srvd2204.com
+0.0.0.0 cdn77.unnajd.com
 0.0.0.0 cdn77.v1.oddsserve.com
 0.0.0.0 cdn7v2.crispadvertising.com
 0.0.0.0 cdn8.crispadvertising.com
@@ -52200,8 +52201,6 @@
 0.0.0.0 edf6ca3d6687cee29bf772b8b132bd1d7fbf5cb7.ipv6.cws.conviva.com
 0.0.0.0 edge-apse.demdex.net
 0.0.0.0 edge-cs-external.venatusmedia.com
-0.0.0.0 edge-hls.saawsedge.com
-0.0.0.0 edge-hls.sacdnssedge.com
 0.0.0.0 edge-ind1.demdex.net
 0.0.0.0 edge-mobile-static.azureedge.net.iberostar.com
 0.0.0.0 edge-sae.demdex.net
@@ -58223,6 +58222,7 @@
 0.0.0.0 fmnoa.rarecarat.com
 0.0.0.0 fmnsrlcbqjncj.site
 0.0.0.0 fmomyhramzsdf.online
+0.0.0.0 fmoze.com
 0.0.0.0 fmpezkwxyqryq.website
 0.0.0.0 fmpjka.moroccanoil.com
 0.0.0.0 fmpub.net
@@ -74065,6 +74065,7 @@
 0.0.0.0 kite.adroll.com
 0.0.0.0 kiteateesscollop.cyou
 0.0.0.0 kitemannishmine.cyou
+0.0.0.0 kitenugui.com
 0.0.0.0 kitetuning.com
 0.0.0.0 kithes.riddleddermsudoric.cyou
 0.0.0.0 kittentacos.com
@@ -81698,8 +81699,6 @@
 0.0.0.0 media-cdn.ipredictive.com
 0.0.0.0 media-event.adsafeprotected.com
 0.0.0.0 media-general.com
-0.0.0.0 media-hls.saawsedge.com
-0.0.0.0 media-hls.sacdnssedge.com
 0.0.0.0 media-impression.adsafeprotected.com
 0.0.0.0 media-index.kochava.com
 0.0.0.0 media-master.adsrv.net
@@ -128196,7 +128195,6 @@
 0.0.0.0 saatva-us.attn.tv
 0.0.0.0 saatydsobhrtk.space
 0.0.0.0 saavn.deliveryengine.adswizz.com
-0.0.0.0 saawsedge.com
 0.0.0.0 sab5a4zz5.com
 0.0.0.0 sabaidea.cloud
 0.0.0.0 sabaismuramido.cfd
@@ -128227,7 +128225,6 @@
 0.0.0.0 sacaesmootrendoun.cyou
 0.0.0.0 sacbttgnxaklv.store
 0.0.0.0 saccliyoungdiduce.cyou
-0.0.0.0 sacdnssedge.com
 0.0.0.0 sachemfrenalanukit.cyou
 0.0.0.0 sachetsmicella.cyou
 0.0.0.0 sackedphil.com
@@ -144317,6 +144314,7 @@
 0.0.0.0 tknet.rayjump.com
 0.0.0.0 tkngeviglxsti.store
 0.0.0.0 tknjwonueowwc.online
+0.0.0.0 tkpopd.cfd
 0.0.0.0 tkpopp.com
 0.0.0.0 tkportal.aotter.net
 0.0.0.0 tkr.yieldmo.com
@@ -147772,8 +147770,6 @@
 0.0.0.0 tstwomzhxzkhf.site
 0.0.0.0 tsuccwavchpvh.website
 0.0.0.0 tsungtu.shiveexoticsmucor.cfd
-0.0.0.0 tsvideo.saawsedge.com
-0.0.0.0 tsvideo.sacdnssedge.com
 0.0.0.0 tsw01.webtrekk.net
 0.0.0.0 tswafl.lascana.nl
 0.0.0.0 tswanafldxt.com
@@ -149785,6 +149781,7 @@
 0.0.0.0 unmnehicnyoiz.site
 0.0.0.0 unmount.khetzeketostao.cyou
 0.0.0.0 unmowed.caltrappeacheslola.qpon
+0.0.0.0 unnajd.com
 0.0.0.0 unnatural-buddy.pro
 0.0.0.0 unnaturalcask.com
 0.0.0.0 unnaturalcontradictblossom.com
@@ -152033,6 +152030,7 @@
 0.0.0.0 v6.dyntrk.com
 0.0.0.0 v6.eu.1push.io
 0.0.0.0 v6.eu.rollserver.xyz
+0.0.0.0 v6.kitenugui.com
 0.0.0.0 v6.mobilelog.upqzfile.com
 0.0.0.0 v6.pretty-fly4.com
 0.0.0.0 v6.s.360.cn
@@ -153084,8 +153082,6 @@
 0.0.0.0 video.quantcount.com
 0.0.0.0 video.r66net.net
 0.0.0.0 video.rmhfrtnd.com
-0.0.0.0 video.saawsedge.com
-0.0.0.0 video.sacdnssedge.com
 0.0.0.0 video.seedtag.com
 0.0.0.0 video.seenthis.se
 0.0.0.0 video.sekindo.com
@@ -158122,6 +158118,7 @@
 0.0.0.0 www.eighthpowerfully.com
 0.0.0.0 www.eizgttovabu.com
 0.0.0.0 www.ekmas.com
+0.0.0.0 www.elasticlay.pro
 0.0.0.0 www.elderly-fail.pro
 0.0.0.0 www.elegantimpose.com
 0.0.0.0 www.elite-s001.com
@@ -159160,7 +159157,6 @@
 0.0.0.0 www.rugbymentalads.com
 0.0.0.0 www.rutrk.org
 0.0.0.0 www.s2d6.com
-0.0.0.0 www.saawsedge.com
 0.0.0.0 www.sabavision.com
 0.0.0.0 www.sadbasindinner.com
 0.0.0.0 www.safecoprograms.com
@@ -160417,8 +160413,6 @@
 0.0.0.0 xhunajtipm.com
 0.0.0.0 xhupcewu.in
 0.0.0.0 xhvfteujanefb.website
-0.0.0.0 xhvideo.saawsedge.com
-0.0.0.0 xhvideo.sacdnssedge.com
 0.0.0.0 xhwsvvhzozndh.website
 0.0.0.0 xhxmhs.ounass.ae
 0.0.0.0 xhxqxgxcbdpsx.website
