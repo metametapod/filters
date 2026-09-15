@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-09-14T02:53:24Z
+! Last modified: 2026-09-15T02:56:06Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 13 Sep 2026 05:23:40 +0000
+! Last modified: Mon, 14 Sep 2026 13:22:13 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -16738,7 +16738,7 @@
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||technomedia.com/*/cookies.js$script,~third-party
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|aibusiness.com|airtable.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|conan.io|costco.ca|costco.com|costcobusinesscentre.ca|costcobusinessdelivery.com|darkreading.com|digicert.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|later.com|lifetouch.com|mayoclinic.org|mountaineast.org|mutigers.com|ncaa.org|nelnet.studentaid.gov|netapp.com|notion.com|nrn.com|patreon.com|saucelabs.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com
+||transcend-cdn.com^$domain=1password.com|aibusiness.com|airtable.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|conan.io|costco.ca|costco.com|costcobusinesscentre.ca|costcobusinessdelivery.com|darkreading.com|digicert.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|later.com|lifetouch.com|mayoclinic.org|mountaineast.org|mutigers.com|ncaa.org|nelnet.studentaid.gov|netapp.com|notion.com|nrn.com|patreon.com|saucelabs.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com|wealthmanagement.com
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
 ||vandalism-sounds.com^*/notices.min.js
@@ -17634,7 +17634,7 @@ wyze.com###wyze-cookie-banner
 xhorsetool.com###xri_GoogConsent
 hydramatics.co.za###zcb-banner
 spiceworks.com###zdprivacy-content-new
-1kosmos.com,avaloniaui.net,brside.com,buildship.com,bunq.com,coworker.ai,daytona.io,enhanced.com,fitanalytics.com,framer.com,gitbook.com,iverify.io,juliahub.com,localculture.org,luckymeetkevin.com,neon-free.ch,netcraft.com,podspace.com,rollbar.com,site.trasti.pl,snoutcover.com,stirling.com,strongcloud.online,syncly.app,walllet.com##.--framer-cookie-banner-container
+1kosmos.com,avaloniaui.net,brside.com,buildship.com,bunq.com,coworker.ai,daytona.io,enhanced.com,etfbook.com,fitanalytics.com,framer.com,gitbook.com,iverify.io,juliahub.com,localculture.org,luckymeetkevin.com,neon-free.ch,netcraft.com,podspace.com,rollbar.com,site.trasti.pl,snoutcover.com,stirling.com,strongcloud.online,syncly.app,walllet.com##.--framer-cookie-banner-container
 dublininquirer.com##.-alert.-fixed.notice
 pastebin.com##.-cookies
 alpari.com,alpariforex.org##.-footer__notice
@@ -18622,6 +18622,7 @@ digitalranking.eu,sentramedikahospitals.com##.fixed.bottom-0:has(.lucide-cookie)
 cashbackeasy.com##.fixed.bottom-0:has([href="/article/Cashback-Easy-Cookie-Policy-Statement"])
 cline.bot,forgemods.de##.fixed.bottom-0:has([href="/privacy"])
 bdtickets.com,intl.chronoswiss.com,wecoach.gg##.fixed.bottom-0:has([href="/privacy-policy"])
+help.openai.com##.fixed.bottom-0:has(a[href="https://openai.com/policies/cookie-policy"])
 tomtom.com##.fixed.bottom-24
 thelatinonewsletter.org##.fixed.left-2
 newsbreak.com##.fixed:has([aria-label="Close cookie banner"])
@@ -19772,7 +19773,8 @@ pinnacle.com##div[data-test-id="Cookie-PolicyBanner"]
 lego.com##div[data-test="age-gate-disclaimer"]
 metadefender.com##div[data-testid="banner"]:has(a[href="https://www.opswat.com/legal/cookies-policy"])
 athenegpt.ai,betterhelp.com,brilliant.org,elsevier.com,regain.us##div[data-testid="cookie-banner"]
-expo.dev##div[data-testid="cookie-banner-root"]
+ssense.com##div[data-testid="cookie-banner-overlay"]
+expo.dev,ssense.com##div[data-testid="cookie-banner-root"]
 link.com##div[data-testid="cookie-consent-cookie-consent-notification"]
 developers.eyeo.com##div[data-testid="cookies-dialog"]
 ici.radio-canada.ca##div[data-testid="legalDisclaimer"]
@@ -22854,7 +22856,7 @@ solana.com##+js(set-local-storage-item, cookie_consent, 1)
 fadxploit.my.id,goodpods.com##+js(set-local-storage-item, cookie_consent, accepted)
 rig-flip.com##+js(set-local-storage-item, cookie_consent, declined)
 luel.ai,vibeslist.ai##+js(set-local-storage-item, cookie_consent, denied)
-6amgroup.com,chipcitycookies.com,go.bkk.hu,happiful.com,moondao.com,worldlibertyfinancial.com##+js(set-local-storage-item, cookie_consent, false)
+6amgroup.com,chipcitycookies.com,go.bkk.hu,happiful.com,moondao.com,tailed.ca,worldlibertyfinancial.com##+js(set-local-storage-item, cookie_consent, false)
 search.odin.io,ukrinform.ua##+js(set-local-storage-item, cookie_consent, granted)
 granola.ai,hatchet.run,polar.sh,posthog.com##+js(set-local-storage-item, cookie_consent, no)
 openwebui.com,startuphub.ai##+js(set-local-storage-item, cookie_consent, rejected)

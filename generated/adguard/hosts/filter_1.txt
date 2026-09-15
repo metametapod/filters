@@ -12041,6 +12041,7 @@
 0.0.0.0 a.umbrosadigital.com
 0.0.0.0 a.unoadsrv.com
 0.0.0.0 a.usbrowserspeed.com
+0.0.0.0 a.ussp.io
 0.0.0.0 a.utraff.com
 0.0.0.0 a.vartoken.com
 0.0.0.0 a.vdo.ai
@@ -20800,6 +20801,7 @@
 0.0.0.0 ad.sxp.smartclip.net
 0.0.0.0 ad.szexneked.hu
 0.0.0.0 ad.tagtoo.co
+0.0.0.0 ad.targetrtb.com
 0.0.0.0 ad.tempstaff.co.jp
 0.0.0.0 ad.tencentmusic.com
 0.0.0.0 ad.theatre.co.jp
@@ -21439,7 +21441,6 @@
 0.0.0.0 adlook.me
 0.0.0.0 adlook.tech
 0.0.0.0 adlook.tv
-0.0.0.0 adlookmanager.com
 0.0.0.0 adloop.co
 0.0.0.0 adlooxtracking.com
 0.0.0.0 adlpartner.com
@@ -27322,7 +27323,6 @@
 0.0.0.0 api.phoenix-widget.com
 0.0.0.0 api.pingstart.com
 0.0.0.0 api.pirsch.io
-0.0.0.0 api.primecaster.net
 0.0.0.0 api.prod-gcp-ap-southeast1-1.pubnative.net
 0.0.0.0 api.prod-gcp-eu-west4-1.pubnative.net
 0.0.0.0 api.prod-gcp-us-east4-1.pubnative.net
@@ -27621,6 +27621,7 @@
 0.0.0.0 apomict.prudentmope.cyou
 0.0.0.0 apomiogmbh01.webtrekk.net
 0.0.0.0 aponeo01.webtrekk.net
+0.0.0.0 aporiaecabda.com
 0.0.0.0 aporodiko.com
 0.0.0.0 apotheke01.webtrekk.net
 0.0.0.0 apozemzebrule.com
@@ -30714,6 +30715,8 @@
 0.0.0.0 balanced-collect.deltadna.net
 0.0.0.0 balancedsuppercreed.com
 0.0.0.0 balancenotes.com
+0.0.0.0 balancer.bidderstack.com
+0.0.0.0 balancerr.bidderstack.com
 0.0.0.0 balantetruisms.qpon
 0.0.0.0 balasesersatz.com
 0.0.0.0 balasesgaleenybursty.qpon
@@ -32368,6 +32371,7 @@
 0.0.0.0 bidderads.xml-v4.ak-is2.net
 0.0.0.0 bidders-us-east-1.adelphic.net
 0.0.0.0 bidders-us.adelphic.net
+0.0.0.0 bidderstack.com
 0.0.0.0 bidding-dsp.ad-m.asia
 0.0.0.0 bidding.fyber.com
 0.0.0.0 bidding.rediads.com
@@ -36614,7 +36618,6 @@
 0.0.0.0 cdn.adk2.com
 0.0.0.0 cdn.adkaora.space
 0.0.0.0 cdn.adligature.com
-0.0.0.0 cdn.adlookmanager.com
 0.0.0.0 cdn.admatic.com.tr
 0.0.0.0 cdn.admatic.de
 0.0.0.0 cdn.admaxim.com
@@ -36850,6 +36853,7 @@
 0.0.0.0 cdn.doubleverify.com
 0.0.0.0 cdn.dreamserve.dev
 0.0.0.0 cdn.dsmstats.com
+0.0.0.0 cdn.dsp.onetarget.ru
 0.0.0.0 cdn.dsspn.com
 0.0.0.0 cdn.dtadnetwork.com
 0.0.0.0 cdn.dunhilltraveldeals.com
@@ -39605,6 +39609,7 @@
 0.0.0.0 cmpbid.pubmatic.com
 0.0.0.0 cmptch.com
 0.0.0.0 cmptphyupeflf.site
+0.0.0.0 cmr.bidderstack.com
 0.0.0.0 cmrdr.com
 0.0.0.0 cms-assets.axon.ai
 0.0.0.0 cms-xch-chicago.33across.com
@@ -43776,6 +43781,7 @@
 0.0.0.0 cs.gssprt.jp
 0.0.0.0 cs.gurgleyodlers.cfd
 0.0.0.0 cs.hit.gemius.pl
+0.0.0.0 cs.ifedata.ru
 0.0.0.0 cs.ingage.tech
 0.0.0.0 cs.iqzone.com
 0.0.0.0 cs.izooto.com
@@ -50429,8 +50435,10 @@
 0.0.0.0 dsp.m6r.eu
 0.0.0.0 dsp.mediad2.jp
 0.0.0.0 dsp.mman.kr
+0.0.0.0 dsp.mpartner.digital
 0.0.0.0 dsp.newsbreak.com
 0.0.0.0 dsp.nrich.ai
+0.0.0.0 dsp.onetarget.ru
 0.0.0.0 dsp.pgammedia.com
 0.0.0.0 dsp.pubnative.net
 0.0.0.0 dsp.readpeak.com
@@ -55125,6 +55133,7 @@
 0.0.0.0 events.mediarithmics.com
 0.0.0.0 events.mercadolibre.com
 0.0.0.0 events.missena.io
+0.0.0.0 events.myweb3id.io
 0.0.0.0 events.mz.unity3d.com
 0.0.0.0 events.najva.com
 0.0.0.0 events.netseer.com
@@ -70028,6 +70037,7 @@
 0.0.0.0 intellipopup.com
 0.0.0.0 intendsopush.com
 0.0.0.0 intendwaitresssalty.com
+0.0.0.0 intent.ai
 0.0.0.0 intentanalysis.com
 0.0.0.0 intentemployee.com
 0.0.0.0 intenthq.com
@@ -70242,6 +70252,7 @@
 0.0.0.0 io.fusedeck.net
 0.0.0.0 io.grasseshoazin.cfd
 0.0.0.0 io.mediarithmics.com
+0.0.0.0 io.mondejudgers.shop
 0.0.0.0 io.narrative.io
 0.0.0.0 io.programmatic.cz
 0.0.0.0 io.smartmyd.com
@@ -80844,6 +80855,7 @@
 0.0.0.0 match.sharethrough.com
 0.0.0.0 match.sync.ad.cpe.dotomi.com
 0.0.0.0 match.taboola.com
+0.0.0.0 match.targetrtb.com
 0.0.0.0 matchadsrvr.yieldmo.com
 0.0.0.0 matchclamourallot.com
 0.0.0.0 matchersuccise.qpon
@@ -81727,6 +81739,7 @@
 0.0.0.0 media.adup-tech.com
 0.0.0.0 media.aso1.net
 0.0.0.0 media.assistads.net
+0.0.0.0 media.bidderstack.com
 0.0.0.0 media.bidr.io
 0.0.0.0 media.bilsyndication.com
 0.0.0.0 media.bmcdn5.com
@@ -81790,6 +81803,7 @@
 0.0.0.0 media.skytraffix.net
 0.0.0.0 media.snabbare.com
 0.0.0.0 media.sumome.com
+0.0.0.0 media.targetrtb.com
 0.0.0.0 media.tblcontent.com
 0.0.0.0 media.theartisansapproach.com
 0.0.0.0 media.toxtren.com
@@ -84615,6 +84629,7 @@
 0.0.0.0 moncatfgtgdul.website
 0.0.0.0 monday-was-tomorrow.veoapi.net
 0.0.0.0 mondayrecalled.com
+0.0.0.0 mondejudgers.shop
 0.0.0.0 moneralcurara.cfd
 0.0.0.0 moneralsramana.shop
 0.0.0.0 monerominer.rocks
@@ -84939,6 +84954,7 @@
 0.0.0.0 mp65va7y1.com
 0.0.0.0 mp7sblfkx.com
 0.0.0.0 mpangwemantel.cfd
+0.0.0.0 mpartner.digital
 0.0.0.0 mpassde01.webtrekk.net
 0.0.0.0 mpay69.biz
 0.0.0.0 mpc-co.actonservice.com
@@ -85898,6 +85914,7 @@
 0.0.0.0 myvisitors.se.re.getclicky.com
 0.0.0.0 myvppmgositlb.website
 0.0.0.0 mywatchtones.com
+0.0.0.0 myweb3id.io
 0.0.0.0 mywedding-beacon.team-rec.jp
 0.0.0.0 mywondertrip.com
 0.0.0.0 mywovcjadrtcb.online
@@ -88065,6 +88082,10 @@
 0.0.0.0 nreaeu.register.appsflyersdk.com
 0.0.0.0 nrefybpeqrpkw.online
 0.0.0.0 nreg.world
+0.0.0.0 nrf-5.bidderstack.com
+0.0.0.0 nrf-6.bidderstack.com
+0.0.0.0 nrf-7.bidderstack.com
+0.0.0.0 nrf-8.bidderstack.com
 0.0.0.0 nrg.red-by-sfr.fr
 0.0.0.0 nrgdsbuviocit.store
 0.0.0.0 nrich.ai
@@ -88073,11 +88094,16 @@
 0.0.0.0 nrjfr.deliveryengine.adswizz.com
 0.0.0.0 nrkstream.tns-cs.net
 0.0.0.0 nrlhvfqxwstsb.website
+0.0.0.0 nrn-1.bidderstack.com
+0.0.0.0 nrn-2.bidderstack.com
+0.0.0.0 nrn-3.bidderstack.com
+0.0.0.0 nrn-4.bidderstack.com
 0.0.0.0 nrofkaapzwu.in
 0.0.0.0 nrowumdcamr.in
 0.0.0.0 nrprg.drmartens.com
 0.0.0.0 nrqihuzvyunel.website
 0.0.0.0 nrqkn.litter-robot.com
+0.0.0.0 nrr.bidderstack.com
 0.0.0.0 nrrgyk.hair-gallery.it
 0.0.0.0 nrrofvqgzprnb.space
 0.0.0.0 nrs6ffl9w.com
@@ -88908,6 +88934,7 @@
 0.0.0.0 obwaopxfnxfdw.space
 0.0.0.0 obzmactgmqccp.site
 0.0.0.0 obzxiqas.in
+0.0.0.0 oc.aporiaecabda.com
 0.0.0.0 oc.atlatlstanks.qpon
 0.0.0.0 oc.mastabaromal.cyou
 0.0.0.0 oc.rhapisabets.qpon
@@ -89962,6 +89989,7 @@
 0.0.0.0 onetag-geo.s-onetag.com
 0.0.0.0 onetag-sys.com
 0.0.0.0 onetag.co.kr
+0.0.0.0 onetarget.ru
 0.0.0.0 onethestruis.com
 0.0.0.0 onetouch-uba-general.log-global.aliyuncs.com
 0.0.0.0 onetouch4.com
@@ -93793,9 +93821,11 @@
 0.0.0.0 pixel.convertize.io
 0.0.0.0 pixel.dashfi.dev
 0.0.0.0 pixel.de-config.sensic.net
+0.0.0.0 pixel.demo.dsp.onetarget.ru
 0.0.0.0 pixel.dianomi.com
 0.0.0.0 pixel.dmdi.pl
 0.0.0.0 pixel.driveniq.com
+0.0.0.0 pixel.dsp.onetarget.ru
 0.0.0.0 pixel.es-config.sensic.net
 0.0.0.0 pixel.europapress.net
 0.0.0.0 pixel.everesttech.net
@@ -126362,6 +126392,7 @@
 0.0.0.0 rtb.d.adup-tech.com
 0.0.0.0 rtb.da.us.criteo.com
 0.0.0.0 rtb.da1.us.criteo.com
+0.0.0.0 rtb.dynotech.io
 0.0.0.0 rtb.ero-advertising.com
 0.0.0.0 rtb.exoclick.com
 0.0.0.0 rtb.flower-ads.com
@@ -131432,6 +131463,7 @@
 0.0.0.0 shy-clothes.com
 0.0.0.0 shydastidu.com
 0.0.0.0 shydinosaurs.com
+0.0.0.0 shypublishedeternity.com
 0.0.0.0 shyspiritual.com
 0.0.0.0 si.adingo.jp
 0.0.0.0 si.adocean.pl
@@ -136009,6 +136041,7 @@
 0.0.0.0 sp.knoxnews.com
 0.0.0.0 sp.lancastereaglegazette.com
 0.0.0.0 sp.lansingstatejournal.com
+0.0.0.0 sp.linkssp.ru
 0.0.0.0 sp.lohud.com
 0.0.0.0 sp.mansfieldnewsjournal.com
 0.0.0.0 sp.marionstar.com
@@ -140605,6 +140638,7 @@
 0.0.0.0 sync.ads.152media.com
 0.0.0.0 sync.ads.oveeo.com
 0.0.0.0 sync.ads.yieldmo.com
+0.0.0.0 sync.adsp.io
 0.0.0.0 sync.adspend.space
 0.0.0.0 sync.adspruce.com
 0.0.0.0 sync.adtelligent.com
@@ -140640,6 +140674,7 @@
 0.0.0.0 sync.fout.jp
 0.0.0.0 sync.getpublica.com
 0.0.0.0 sync.go.sonobi.com
+0.0.0.0 sync.gonet-ads.com
 0.0.0.0 sync.graph.bluecava.com
 0.0.0.0 sync.graph.fake.bluecava.com
 0.0.0.0 sync.graph.gcloud.bluecava.com
@@ -146093,6 +146128,7 @@
 0.0.0.0 tracker.shopclues.com
 0.0.0.0 tracker.smadex.com
 0.0.0.0 tracker.smart-bdash.com
+0.0.0.0 tracker.smartcallback.ru
 0.0.0.0 tracker.smartframe.io
 0.0.0.0 tracker.smartocto.com
 0.0.0.0 tracker.smartseminar.jp
