@@ -34085,6 +34085,7 @@
 0.0.0.0 browser-intake-ap1-datadoghq.com
 0.0.0.0 browser-intake-ap2-datadoghq.com
 0.0.0.0 browser-intake-datadoghq.com
+0.0.0.0 browser-intake-datadoghq.eu
 0.0.0.0 browser-intake-us3-datadoghq.com
 0.0.0.0 browser-intake-us5-datadoghq.com
 0.0.0.0 browser-statistik.de
@@ -43854,6 +43855,7 @@
 0.0.0.0 csoaedqbdzjme.site
 0.0.0.0 csp-collector.appspot.com
 0.0.0.0 csp-report.browser-intake-datadoghq.com
+0.0.0.0 csp-report.browser-intake-datadoghq.eu
 0.0.0.0 csp-report.marketing.aws.dev
 0.0.0.0 csp-reporting.cloudflare.com
 0.0.0.0 csp.secureserver.net
@@ -90742,6 +90744,7 @@
 0.0.0.0 otkgnoumbctec.store
 0.0.0.0 otkhyc.bueromarkt-ag.de
 0.0.0.0 otkon.syndetsparrowdubious.cyou
+0.0.0.0 otl.minefun.io
 0.0.0.0 otlhn.fentybeauty.com
 0.0.0.0 otlinhez.emltrk.com
 0.0.0.0 otlp-eu01.cell.eu.nr-data.net
@@ -122351,6 +122354,7 @@
 0.0.0.0 quokkasscelp.qpon
 0.0.0.0 quora-d.openx.net
 0.0.0.0 quota.browser-intake-datadoghq.com
+0.0.0.0 quota.browser-intake-datadoghq.eu
 0.0.0.0 quota.browser-intake-us3-datadoghq.com
 0.0.0.0 quota.browser-intake-us5-datadoghq.com
 0.0.0.0 quotationgambling.com
@@ -126683,6 +126687,7 @@
 0.0.0.0 rum.azioncdn.net
 0.0.0.0 rum.beusable.net
 0.0.0.0 rum.browser-intake-datadoghq.com
+0.0.0.0 rum.browser-intake-datadoghq.eu
 0.0.0.0 rum.browser-intake-us3-datadoghq.com
 0.0.0.0 rum.browser-intake-us5-datadoghq.com
 0.0.0.0 rum.catchmetrics.io
@@ -130627,6 +130632,7 @@
 0.0.0.0 sesrec.shinystat.com
 0.0.0.0 session-control.afafb.com
 0.0.0.0 session-replay.browser-intake-datadoghq.com
+0.0.0.0 session-replay.browser-intake-datadoghq.eu
 0.0.0.0 session-replay.browser-intake-us3-datadoghq.com
 0.0.0.0 session-replay.browser-intake-us5-datadoghq.com
 0.0.0.0 session.app-performance.music.amazon.dev
