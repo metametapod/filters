@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-09-18T02:42:27Z
+! Last modified: 2026-09-19T02:41:09Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Thu, 17 Sep 2026 21:47:06 +0000
+! Last modified: Fri, 18 Sep 2026 23:35:13 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -16981,7 +16981,7 @@ imei24.com###cons
 yopmail.com###cons-pop
 gotolstoy.com,gwmanz.com,mobisystems.com,outernet.com,parcelsapp.com,sohosystems.co.za,support.github.com###consent-banner
 agoda.com###consent-banner-container
-aspose.com,chessshop.eu,theonion.com###consent-banner-main
+aspose.com,chessshop.eu,shop.pulltaps.com,theonion.com###consent-banner-main
 products.aspose.com###consent-banner-wall
 fitnesssf.com###consent-click-shield
 allsaints.com,avanihotels.com,can-am.brp.com,minorhotels.com,oakshotels.com,rag-bone.com,zeffy.com###consent-dialog
@@ -18571,7 +18571,9 @@ eastlink.ca##.elCookieConsent
 elasticemail.com##.elastic-cookie-notice
 my.bulbapp.com##.elementor-element-10ff3dc7
 optodir.com##.elementor-element-3f06401
+energi.world##.elementor-element-72b41e0
 aquaglide.com##.elementor-element-7bf6fcab
+energi.world##.elementor-element-bf3b0e6
 fxhome.com##.elementor-location-footer
 icepanel.io,picockpit.com##.elevation-8
 body-supplies.nl##.elx-modal-consent
@@ -18580,6 +18582,7 @@ oshwlab.com##.en_cookie-policy__OVMHR
 engagebay.com##.engagebay-gdpr-dialog
 shop.elsevier.com##.enq2el0
 audi.com##.ensPrivacyManager
+crunchyroll.com##.erc-anonymous-consent
 communitymarkethub.com##.et-cookies-popup-wrapper
 ml-quant.com##.ettof6h4
 airproducts.co.uk##.eu-dp
@@ -19691,7 +19694,7 @@ ccc.eu##cookie-consent-manager
 azbtr.portalus.thentiacloud.net##cookie-dialog
 access.login.nhs.uk##core-cookie-banner
 crazymaplestudios.com#?#.fixed:has-text(Cookie)
-ascensionpress.com,grumpystackle.com,santacruzbicycles.com,shop.orqafpv.com##csm-cookie-consent
+ascensionpress.com,grumpystackle.com,hjcsports.com,santacruzbicycles.com,shop.orqafpv.com##csm-cookie-consent
 czds.icann.org##czds-cookie-notification
 daily.dev#?#.bottom-0.fixed:has-text(This site uses cookies)
 c.realme.com##div > .cookie-privacy
@@ -19939,7 +19942,7 @@ medicalxpress.com,phys.org,techxplore.com,vitalia.pl##.popup-cookies
 !! #ccc
 dbf.nl,ku.dk,mazeikiai.lt,msi.com###ccc
 !! .wt-cli-cookie-bar-container
-coniaprofumi.com,ganassa.com,kd.fi,lindipendente.online,taskus.com##.wt-cli-cookie-bar-container
+coniaprofumi.com,ganassa.com,kd.fi,lindipendente.online,pulltaps.com,taskus.com##.wt-cli-cookie-bar-container
 !! .cookie-disclaimer
 105.net,all3dp.com,meteo.it,mowmag.com,unitedmusic.com###iubenda-cs-banner
 doviz.com,emaar.com,ford.co.uk,news.northeastern.edu,tous.com,vunesp.com.br,williamhill.com##.cookie-disclaimer
@@ -20242,7 +20245,7 @@ arkone.co.uk,bristonhorseshoes.co.uk,norfolkmead.co.uk###cookiedialogmini
 !! #wr-c
 ahprofi.cz,akros.cz,aspshop.cz,fiskars-shop.cz,mpmshop.eu,rafoshop.cz,relaxin.cz,yatun.cz###wr-c
 !! .gdpr
-akademia.nfz.gov.pl,app.gleek.io,atarim.gov.il,aviationweek.com,centar-tehnike.hr,digiseller.com,digiseller.me,globalrescue.com,lemmatechnologies.com,metallica.com,namal.co.il,oplata.info,partnerboost.com,phonemore.com,qbitsemi.com,schmackarys.com,srilankan.com,sydsvenskan.se,taa-ankara.org.tr,tomba.io,umkc.edu,venngage.com##.gdpr
+akademia.nfz.gov.pl,app.gleek.io,atarim.gov.il,aviationweek.com,centar-tehnike.hr,creativeaccess.org.uk,digiseller.com,digiseller.me,globalrescue.com,lemmatechnologies.com,metallica.com,namal.co.il,oplata.info,partnerboost.com,phonemore.com,qbitsemi.com,schmackarys.com,srilankan.com,sydsvenskan.se,taa-ankara.org.tr,tomba.io,umkc.edu,venngage.com##.gdpr
 !! .gdpr-wrapper
 adressa.no,ezviz.com,hikvision.com##.gdpr-wrapper
 !! #GDPR
@@ -20316,7 +20319,7 @@ bitkubnft.com,bloomberglaw.com,dopper.com,engen.co.za,insailing.ru,kentik.com,ne
 !! CookiesNoti
 dryg.pl##div[class^="CookiesNoti"]
 !! .cookie-notice
-21group.at,acidcow.com,allangray.co.za,almayadeen.net,amaze.org,artdentis.com,autosolar.co,autosolar.pe,backaldrin.com,bankofengland.co.uk,bestlawyers.com,binary.transparency.dev,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,cls-computer.de,dio-center.info,direct2u.co.uk,drgerard.eu,estately.com,freevpnplanet.com,getbring.com,greenhouseseeds.nl,greenpeace.org,gvtc.com,harveynichols.com,iamcoifo.de,iihf.com,isubqo.com,jetset-hairextensions.nl,kappahl.com,lehigh.edu,lightspeed.com,mageba-group.com,manpower.com.ar,manpowergroup.com.ar,mashable.com,maspethfederal.com,matchtv.ru,mct.co.il,monnik-dranken.nl,motocard.com,nbtc.go.th,nc-planica.si,ncfu.ru,news.sportbox.ru,oakville.ca,onlinedrugtraining.com,outfit7.com,pagetiger.com,podomatic.com,portfoliobopryor.com,psychiatryonline.org,rex-royal.ch,schweizermonat.ch,scotworkusa.com,security.mozwik.com,spartanien.de,threadless.com,toolbox.googleapps.com,trustsig.eu,ucbi.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,xtreme.pt,zonstudio.nl##.cookie-notice
+21group.at,acidcow.com,allangray.co.za,almayadeen.net,amaze.org,artdentis.com,autosolar.co,autosolar.pe,backaldrin.com,bankofengland.co.uk,bestlawyers.com,binary.transparency.dev,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,cls-computer.de,dio-center.info,direct2u.co.uk,drgerard.eu,estately.com,freevpnplanet.com,getbring.com,greenhouseseeds.nl,greenpeace.org,gvtc.com,harveynichols.com,iamcoifo.de,iihf.com,isubqo.com,jetset-hairextensions.nl,kappahl.com,lehigh.edu,lightspeed.com,mageba-group.com,manpower.com.ar,manpowergroup.com.ar,mashable.com,maspethfederal.com,matchtv.ru,mct.co.il,millers.ch,monnik-dranken.nl,motocard.com,nbtc.go.th,nc-planica.si,ncfu.ru,news.sportbox.ru,oakville.ca,onlinedrugtraining.com,outfit7.com,pagetiger.com,podomatic.com,portfoliobopryor.com,psychiatryonline.org,rex-royal.ch,schweizermonat.ch,scotworkusa.com,security.mozwik.com,spartanien.de,threadless.com,toolbox.googleapps.com,trustsig.eu,ucbi.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,xtreme.pt,zonstudio.nl##.cookie-notice
 !! #cookie-notice
 aahplast.com,aala-apo-shop.de,agenziavista.it,anamariareceitas.com.br,apps.nhslothian.scot,aschendorff-buchverlag.de,aventurasnahistoria.com.br,avm-verlag.de,azrieligroup.com,bahai-verlag.de,blog.oup.com,bmw-motorrad.co.il,bonsfluidos.com.br,brasil.perfil.com,c20society.org.uk,chortle.co.uk,dart.dev,dersportverlag.de,dioexpress.co.il,docs.flutter.dev,epoch.ai,epsd.io,everest-sport.com,flygresor.se,foodbloggermania.it,g-city.com,gamenode.app,ib3.org,imqgroupblogzine.it,infofranchising.it,kaliscan.com,kaliscan.io,kaliscan.me,karlpichler.it,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,laby.net,livelaw.in,maisnovela.com.br,manequim.com.br,mangabuddy.com,mangamirror.com,marciapiovesan.com.br,maroelamedia.co.za,measurementlab.net,mgjinmostlogin.com,news.climate.columbia.edu,news.dyne.org,novelbuddy.com,papinsport.com,pembroketoday.ca,peterzemmer.com,radio.menu,recoveritalia.com,removal.ai,sangean.com,sax-verlag.de,skatedeluxe.com,slot-mania.it,storyblok.com,tmbw.ru,toonily.me,trcs.or.tz,uptontviacarreira.com,vivasaudedigital.com.br,walfer.lu,wsupercars.com,xlab.si###cookie-notice
 !! #toast-container
@@ -22947,6 +22950,7 @@ gronkh.tv##+js(set-local-storage-item, grnk-cookies-accepted, true)
 meningitis.com##+js(set-local-storage-item, gskConsentClosedv2, true)
 pngtree.com##+js(set-local-storage-item, gtag.consent.option, 1)
 geomiq.com##+js(set-local-storage-item, gtag_enabled, 1)
+hacktron.ai##+js(set-local-storage-item, hacktron-cookie-consent, rejected)
 realme.com##+js(set-local-storage-item, hadAccept, 1)
 daraz.com##+js(set-local-storage-item, has-dismissed, 1)
 sanluisgarbage.com##+js(set-local-storage-item, has-seen-ccpa-notice, true)
@@ -23434,7 +23438,8 @@ cosmote.gr##+js(set-cookie, cookie_consent_set, 1)
 ! bm-lille.fr
 bibliotheques.paris.fr,bm-lille.fr,documentation.insp.gouv.fr,e-mediatheque.sqy.fr,portaildocumentaire.inrs.fr##.cookies-management
 bibliotheques.paris.fr,bm-lille.fr,documentation.insp.gouv.fr,e-mediatheque.sqy.fr,portaildocumentaire.inrs.fr##body,html:style(overflow: auto !important; position: initial !important;)
-! bo3.gg
+! snippet.finance
+snippet.finance##+js(set, realCookieBanner, {})
 !! journal.hr
 journal.hr##+js(set-cookie, jour_analytics, false)
 journal.hr##+js(set-cookie, jour_cookies, 1)
@@ -24885,7 +24890,7 @@ hbor.hr###JPO
 vobco.hr###blokDiv
 dokutv.net###cmp_overlay
 liberal.hr###footer
-cistoca.hr,gradskagroblja.hr,vio.hr,zagrebparking.hr###gdc-container
+cistoca.hr,gradskagroblja.hr,hep.hr,vio.hr,zagrebparking.hr###gdc-container
 aktivnosti.zagreb.hr,porezna-uprava.gov.hr###gdc-cookieSettings
 gpz-opskrba.hr,mikronis.hr,porezna-uprava.gov.hr###gdc-shade
 vindija.hr###gdpr-overlay
@@ -26193,6 +26198,7 @@ greenmate.pl,negrasport.pl,shopii.pl,sklep-muzyczny.com.pl,srebrnystyl.pl,termok
 acom.pl,aleokulary.com,dedalus.pl,epapierosylodz.pl,lunamarket.pl,maxsklep.pl,miadora.pl,motocombo.pl,negrasport.pl,scyzoryki.net,seger.pl,zizako.pl###topInfoContainer1
 areatour.pl,dacter.pl,uni-tech.pl###topbar
 libra.com.pl###under_footer
+eko.katywroclawskie.com.pl###wiadomosccookiekontener
 greatone.pl###zamknij_cookies
 gliwice-ginekolog.pl,ortodoncja-brewczynska.pl###zgoda
 empikbilety.pl,goingapp.pl##.CookieBar_cookieBar__3zsIk
@@ -26231,6 +26237,7 @@ itaka.pl##.cky-modal
 itaka.pl##.cky-overlay
 aterima-work.pl##.cm-popup-wrapper
 pracuj.pl##.cmulq7z
+tauronliga.pl##.cokie-manager-dialog
 sklep.szprychy.com##.config-messages
 rozetka.pl##.consent-layout
 gonet.tv##.consent_form_basic
@@ -28392,6 +28399,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||group.vig/assets/js/modules/cookieconsent/cookieconsent.js$~third-party
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js
+@@||gus.etsmtl.ca/c2atom/Scripts/Atom/Managers/CookiesManager.js$script,~third-party
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||help-center-cdn.oaistatic.com/assets/cookie-consent-banner-$script,domain=help.openai.com
 @@||herzum.com/node_modules/.vite/deps/react-cookie-consent.js$~third-party
