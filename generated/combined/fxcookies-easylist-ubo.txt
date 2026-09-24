@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-09-23T02:51:35Z
+! Last modified: 2026-09-24T02:41:38Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 22 Sep 2026 23:50:53 +0000
+! Last modified: Wed, 23 Sep 2026 17:28:07 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18294,7 +18294,7 @@ navitaire.com##.cookie-message-wrap
 deriv.com##.cookie-middle-wrapper
 bitbox.swiss##.cookie-monster
 app.respondent.io##.cookie-monster-component
-allofapps.com,bstock.com,sociedadeonline.com,spacofm.com.br##.cookie-notice-container
+allofapps.com,bstock.com,clwb.net,sociedadeonline.com,spacofm.com.br##.cookie-notice-container
 ydns.io##.cookie-notice-outer
 jobs.wavy.com,trustee-connect.com##.cookie-notice-v2
 victors.co.uk##.cookie-notice-visible
@@ -20505,7 +20505,7 @@ hilti.com,hilti.dk,hilti.ru##.m-smartbar-container
 !! #policy-ribbon
 toc-goldratt.com,toc-goldratt.eu,tocreader.com###policy-ribbon
 !! onetrust
-aboutyou.de,accor.com,adshnk.com,afd.fr,allianz.pt,amtrak.com,arkadium.com,askautoscout24.ch,avon.uk.com,azcentral.com,bankofhope.com,bluebuffalo.com,breitbart.com,brides.com,bruckhaus.at,bt.com,cbs.com,cbssports.com,cleanipedia.com,coinmarketcap.com,comicbook.com,consequence.net,costco.ca,cp.com,cvs.com,darkreading.com,digitaltrends.com,discoveryuk.com,disneyplus.com,doodle.com,eetimes.com,espn.com.sg,ew.com,fifa.com,ford.com,fpf.org,generali.sk,generaliceska.cz,getyourguide.com,gitlab.com,hbomahelp.salesforce.com,huawei.com,hypebeast.cn,iamexpat.de,ikilike-it.ro,informa.com,inkling.com,intl.startrek.com,konami.com,krunker.io,logitechg.com,marketingweek.com,mention.com,metacritic.com,millenniumhotels.com,moccona.sg,motoscout24.ch,nfl.com,nhl.com,okazii.ro,paloaltonetworks.com,paramountplus.com,politico.com,popculture.com,prioritypass.com,private-ai.com,professionals.tarkett.com,redbull.com,skopenow.com,slack.com,software.sony.com,sony.pl,sparknotes.com,spotify.com,stories.com,subway.com,synchrony.com,teliacompany.com,thecloroxcompany.com,ticketmaster.com,tidal.com,tokfm.pl,tonybet.ca,unicef.de,unity.com,validity.com,vanityfair.com,vishay.com,vonage.com.ph,weddingbee.com,wetter.at,whoop.com,wired.com###onetrust-consent-sdk
+aboutyou.de,accor.com,adshnk.com,afd.fr,allianz.pt,amtrak.com,arkadium.com,askautoscout24.ch,avon.uk.com,azcentral.com,bankofhope.com,bluebuffalo.com,breitbart.com,brides.com,bruckhaus.at,bt.com,cbs.com,cbssports.com,cleanipedia.com,coinmarketcap.com,comicbook.com,consequence.net,costco.ca,cp.com,cvs.com,darkreading.com,digitaltrends.com,discoveryuk.com,disneyplus.com,doodle.com,eetimes.com,espn.com.sg,ew.com,fifa.com,ford.com,fpf.org,generali.sk,generaliceska.cz,getyourguide.com,gitlab.com,hbomahelp.salesforce.com,huawei.com,hypebeast.cn,iamexpat.de,ikilike-it.ro,informa.com,inkling.com,intl.startrek.com,konami.com,krunker.io,logitechg.com,marketingweek.com,mention.com,metacritic.com,millenniumhotels.com,moccona.sg,motoscout24.ch,nfl.com,nhl.com,okazii.ro,paloaltonetworks.com,paramountplus.com,politico.com,popculture.com,prioritypass.com,private-ai.com,professionals.tarkett.com,redbull.com,skopenow.com,slack.com,software.sony.com,sony.pl,sparknotes.com,spotify.com,stories.com,studocu.vn,subway.com,synchrony.com,teliacompany.com,thecloroxcompany.com,ticketmaster.com,tidal.com,tokfm.pl,tonybet.ca,unicef.de,unity.com,validity.com,vanityfair.com,vishay.com,vonage.com.ph,weddingbee.com,wetter.at,whoop.com,wired.com###onetrust-consent-sdk
 accor.com,adshnk.com,allianz.pt,amtrak.com,arkadium.com,askautoscout24.ch,avon.uk.com,azcentral.com,bankofhope.com,bluebuffalo.com,breitbart.com,brides.com,bt.com,cbs.com,cleanipedia.com,comicbook.com,consequence.net,costco.ca,cp.com,darkreading.com,digitaltrends.com,disneyplus.com,doodle.com,espn.com.sg,ew.com,fifa.com,ford.com,generali.sk,generaliceska.cz,getyourguide.com,gitlab.com,hbomahuawei.com,ikinforma.com,konami.com,krunker.io,logitechg.com,marketingweek.com,mention.com,metacritic.com,moccona.sg,motoscout24.ch,nfl.com,nhl.com,okazii.ro,paramountplus.com,politico.com,popculture.com,private-ai.com,redbull.com,skopenow.com,slack.com,software.sony.com,sparknotes.com,spotify.com,subway.com,synchrony.com,thecloroxcompany.com,validity.com,vanityfair.com,vishay.com,weddingbee.com,wetter.at,whoop.com,wired.com##.onetrust-pc-dark-filter
 !! .modal / .modal-backdrop (no broken scroll)
 3suisses.fr,aastavebniny.cz,ace-hotel-poitiers.com,agronatur.com.br,agrpartners.com,airnewzealand.eu,akvarianamiru.cz,aldi-sued.de,antonellajoias.com.br,apollohospitals.com,aquateam-shop.de,atlasformen.co.uk,atlasformen.com,atlasformen.cz,atlasformen.de,atlasformen.hu,atlasformen.nl,atlasformen.pl,atlasformen.sk,audioprotesistas.org,bachmann-collectorsclub.co.uk,bachmann.co.uk,bijourama.com,bindergroesswang.at,bmeia.gv.at,bodensee-airport.eu,bospol.cz,busmap.fr,bydy.com.br,camping-app.info,carimboartes.com.br,cipherlab-shop.de,claudianum.sk,comptoirdelhomme.com,cyi.ac.cy,d-art-design.de,declikdeco.com,deutsches-ausschreibungsblatt.de,digitalbonus.bayern,digiwallet.com,direct-cuves.fr,doc-du-juriste.com,domvast.nl,dreammachines.com.ua,esjobogarden.se,eurodata.de,fabricadepremios.com,faifiltri.it,fiorestore.com.br,first-certificate.com,fischer-garten.de,fitnessraum.de,fly-go.it,fsacessorios.com.br,galaflorgmbh.de,galleria.com.pl,gezond.nl,gibson.com,golvprofilshop.se,greenpassgolf.com,gruenderland.bayern,guymy.com.br,hallofbrands.gr,haloursynow.pl,hliva-ustricna.cz,hofer.at,hollandandbarrett.com.cy,htb-wenzlow.de,icarojoias.com.br,ico.de,ilmonet.fi,insolve.hr,instalxpert.com,itineraire-metro.fr,junalo.com,kekelit.com,kiennast.at,kojenecke-obleceni.eu,kontaktlinsenking.de,kurse.eatsmarter.de,leadersummaries.com,lemoncurve.com,levnesporaky.cz,longchamp.com,loombard.pl,lydshop.no,mak.at,mapquest.co.uk,masjerez.com,massgeneralbrigham.org,mateco.ro,mcglonemtg.com,medika.ro,mencorner.com,mohrsiebeck.com,nabytok-aldo.sk,naradesign.com.br,naz-feldberg.de,nazoberedonau.de,ncts.ie,paposertanejo.com,perfumeriasavenida.com,picardiegazette.fr,placedescommerces.com,pngwebicons.com,policia.es,premiumrent.ro,primus-apotheken-stadecken.de,pristupy.com,qv.co.nz,regueira.com,rentacarmaramures.com,schaden.news,schoenbrunn.at,shop-datalogic.de,shop-honeywell.de,shop-motorola.de,shop-newland.de,shop-tsc.de,shop-zebra.de,sinalco.de,sinfonicadegalicia.com,sixt.com.tr,sokol-zidlochovice.cz,sorbas-frankfurt.de,soundbrothers-onlineshop.de,spartorama.gr,spectranet.com.ng,startfrei.at,tabletteslorraines.fr,tchibo.de,thechillidoctor.sk,thefoodmaker.com,theodorkoernerfonds.at,tonycar.cz,toshiba-tv.com,umm.nordpoolgroup.com,unidavi.edu.br,unioncamere.gov.it,vaillant-group.com,varomajoias.com.br,videostart.cz,vileda.com,vileda.nl,vinaralia.com,vor.at,vyskovskyfotbal.cz,webkamery.online,xhamsternft.com,zshercikova.cz,zt.hu##.modal
@@ -21458,6 +21458,7 @@ karriere-hamburg.de,lokalplus.nrw##+js(set-cookie, banner, 2, , reload, 1)
 galaxy.com##+js(set-cookie, bannerDissmissal, true, , reload, 1)
 fossil.com##+js(set-cookie, banner_interaction, 1)
 diebayerische.de##+js(set-cookie, bay_required, true)
+blackbit.sh##+js(set-cookie, bb_consent, rejected)
 sportboerse-shop.de##+js(set-cookie, biloba-open-ai-dsgvo-consent, , declined)
 bitso.com##+js(set-cookie, bitso_cc, 1)
 blukit.com.br##+js(set-cookie, blukit_novo, true)
