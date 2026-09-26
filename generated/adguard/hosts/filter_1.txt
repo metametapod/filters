@@ -34332,7 +34332,6 @@
 0.0.0.0 bu9gib-cdn-settings.appsflyersdk.com
 0.0.0.0 bu9kwrncoizhheluhtfcrq.cfd
 0.0.0.0 buaontzlplobx.website
-0.0.0.0 buballmighty.com
 0.0.0.0 bubbledidact.qpon
 0.0.0.0 bubblemayflowernephew.com
 0.0.0.0 bubblewrapp.actonservice.com
@@ -55042,7 +55041,6 @@
 0.0.0.0 events-collector-api.viacom.tech
 0.0.0.0 events-collector.spot.im
 0.0.0.0 events-dca.bidder.kayzen.io
-0.0.0.0 events-dev.buballmighty.com
 0.0.0.0 events-dra.op.hicloud.com
 0.0.0.0 events-dre.op.hicloud.com
 0.0.0.0 events-drru.op.hicloud.com
@@ -55097,7 +55095,6 @@
 0.0.0.0 events.brightline.tv
 0.0.0.0 events.browsiprod.com
 0.0.0.0 events.bsky.app
-0.0.0.0 events.buballmighty.com
 0.0.0.0 events.busuu.com
 0.0.0.0 events.cardsmobile.ru
 0.0.0.0 events.careallies.com
@@ -126416,6 +126413,7 @@
 0.0.0.0 rtb.us.admatic.de
 0.0.0.0 rtb.us5.us.criteo.com
 0.0.0.0 rtb.videonow.ru
+0.0.0.0 rtb.viewsense.ai
 0.0.0.0 rtb.voltaxam.com
 0.0.0.0 rtb.vrtcal.com
 0.0.0.0 rtb.xapads.com
@@ -129167,7 +129165,6 @@
 0.0.0.0 scheduler.hbbtv.smartclip.net
 0.0.0.0 scheduler.ssl2anyone5.com
 0.0.0.0 schelmcoelia.qpon
-0.0.0.0 schema.buballmighty.com
 0.0.0.0 schemas.adflex.vn
 0.0.0.0 schemecontinuingwinning.com
 0.0.0.0 schemedsins.cyou
@@ -153250,6 +153247,7 @@
 0.0.0.0 views.cancan.ro
 0.0.0.0 views.hulu.com
 0.0.0.0 views.romaniatv.net
+0.0.0.0 viewsense.ai
 0.0.0.0 viewtraff.com
 0.0.0.0 viewworthwhile.com
 0.0.0.0 vigad.narscosmetics.com
