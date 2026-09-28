@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-09-27T03:07:23Z
+! Last modified: 2026-09-28T03:04:24Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -28750,7 +28750,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Sat, 26 Sep 2026 11:11:53 +0000
+! Last modified: Sun, 27 Sep 2026 02:29:55 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -28848,7 +28848,7 @@ beitberl.ac.il,shimur.org###MavilixCookiesBox
 ! https://github.com/uBlockOrigin/uAssets/issues/34509
 ||cdn.privacy-mgmt.com/consent/$domain=support.theguardian.com,important
 ! https://github.com/uBlockOrigin/uAssets/issues/34622
-metro-cc.hr##cms-cookie-disclaimer
+metro-cc.hr##.consent-disclaimer
 metro-cc.hr##body:style(overflow: auto !important;)
 
 !!! Trusted scriptlets------------------------------------------------------------
