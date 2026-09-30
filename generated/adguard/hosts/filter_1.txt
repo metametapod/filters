@@ -21920,6 +21920,7 @@
 0.0.0.0 ads-thanhnien-vn.cdn.ampproject.org
 0.0.0.0 ads-tmg.adhese.com
 0.0.0.0 ads-tracking.collectiveaudience.co
+0.0.0.0 ads-tracking.com
 0.0.0.0 ads-twitter.com
 0.0.0.0 ads-unibet.adhese.com
 0.0.0.0 ads-us.amillionads.com
@@ -23927,6 +23928,7 @@
 0.0.0.0 affiliates.videoslots.com
 0.0.0.0 affiliates.xapads.com
 0.0.0.0 affiliatestonybet.com
+0.0.0.0 affiliatesys.ads-tracking.com
 0.0.0.0 affiliatewindow.com
 0.0.0.0 affiliation.software
 0.0.0.0 affilimateapis.com
@@ -33388,6 +33390,7 @@
 0.0.0.0 bu2kak23b.com
 0.0.0.0 bu9gib-cdn-settings.appsflyersdk.com
 0.0.0.0 buaontzlplobx.website
+0.0.0.0 buballmighty.com
 0.0.0.0 bubbledidact.qpon
 0.0.0.0 bubblemayflowernephew.com
 0.0.0.0 bubblewrapp.actonservice.com
@@ -41442,7 +41445,6 @@
 0.0.0.0 counter-gratis.com
 0.0.0.0 counter-growthbook.minute-ly.com
 0.0.0.0 counter-kostenlos.net
-0.0.0.0 counter-mdpr.freetls.fastly.net
 0.0.0.0 counter-treff.de
 0.0.0.0 counter-zaehler.de
 0.0.0.0 counter.1i.kz
@@ -52878,6 +52880,7 @@
 0.0.0.0 events-collector-api.viacom.tech
 0.0.0.0 events-collector.spot.im
 0.0.0.0 events-dca.bidder.kayzen.io
+0.0.0.0 events-dev.buballmighty.com
 0.0.0.0 events-dra.op.hicloud.com
 0.0.0.0 events-dre.op.hicloud.com
 0.0.0.0 events-drru.op.hicloud.com
@@ -52932,6 +52935,7 @@
 0.0.0.0 events.brightline.tv
 0.0.0.0 events.browsiprod.com
 0.0.0.0 events.bsky.app
+0.0.0.0 events.buballmighty.com
 0.0.0.0 events.busuu.com
 0.0.0.0 events.cardsmobile.ru
 0.0.0.0 events.careallies.com
@@ -62270,6 +62274,7 @@
 0.0.0.0 hits.getelevar.com
 0.0.0.0 hits.gokwik.co
 0.0.0.0 hits.informer.com
+0.0.0.0 hits.letras.mus.br
 0.0.0.0 hits.puls.lv
 0.0.0.0 hits.tf.rs
 0.0.0.0 hits.theguardian.com
@@ -123226,6 +123231,7 @@
 0.0.0.0 scheduler.atv.smartclip.net
 0.0.0.0 scheduler.hbbtv.smartclip.net
 0.0.0.0 scheduler.ssl2anyone5.com
+0.0.0.0 schema.buballmighty.com
 0.0.0.0 schemas.adflex.vn
 0.0.0.0 schemecontinuingwinning.com
 0.0.0.0 schemedsins.cyou
@@ -143837,6 +143843,7 @@
 0.0.0.0 usermatch.targeting.unrulymedia.com
 0.0.0.0 userreporting.cloud.unity3d.com
 0.0.0.0 users.51.la
+0.0.0.0 users.vidy.st
 0.0.0.0 usersasa.com
 0.0.0.0 usersegment.wpdigital.net
 0.0.0.0 userstat.net
