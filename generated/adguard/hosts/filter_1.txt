@@ -26630,6 +26630,7 @@
 0.0.0.0 api-rewarded-video.fyber.com
 0.0.0.0 api-s.edrone.me
 0.0.0.0 api-s2s.taboola.com
+0.0.0.0 api-sdk.beaconbank.jp
 0.0.0.0 api-sec.catsonictp.com
 0.0.0.0 api-sec.mossturbo.com
 0.0.0.0 api-sec.robin-flow.com
@@ -34598,6 +34599,7 @@
 0.0.0.0 calmstudent.com
 0.0.0.0 calmy.truismpostagedalles.cyou
 0.0.0.0 calmyfife.com
+0.0.0.0 calombotubelet.com
 0.0.0.0 calpak-us.attn.tv
 0.0.0.0 calpak.attn.tv
 0.0.0.0 calpsalminenunting.qpon
@@ -36907,6 +36909,7 @@
 0.0.0.0 cfvqapvwftyle.online
 0.0.0.0 cfxoaljlopydq.online
 0.0.0.0 cg.chievegambian.cyou
+0.0.0.0 cg.niobefrogeye.com
 0.0.0.0 cg.pepolianes.qpon
 0.0.0.0 cg9tmu.cdn-settings.appsflyersdk.com
 0.0.0.0 cgarrcofpmpxp.site
@@ -41386,6 +41389,7 @@
 0.0.0.0 corwin.slgnt.us
 0.0.0.0 corymb.echoistrajahplanish.cfd
 0.0.0.0 coryphstoma.com
+0.0.0.0 cosedcost.com
 0.0.0.0 cosetengarb.com
 0.0.0.0 cosherslattens.qpon
 0.0.0.0 cosinescichlid.cyou
@@ -42313,6 +42317,7 @@
 0.0.0.0 cs.ascendeummedia.com
 0.0.0.0 cs.avito.ru
 0.0.0.0 cs.boost-next.co.jp
+0.0.0.0 cs.calombotubelet.com
 0.0.0.0 cs.emxdgt.com
 0.0.0.0 cs.esm1.net
 0.0.0.0 cs.focas.jp
@@ -42331,6 +42336,7 @@
 0.0.0.0 cs.nakanohito.jp
 0.0.0.0 cs.ns1p.net
 0.0.0.0 cs.oghub.io
+0.0.0.0 cs.openwebmp.com
 0.0.0.0 cs.pgammedia.com
 0.0.0.0 cs.primead.jp
 0.0.0.0 cs.seedtag.com
@@ -52418,6 +52424,7 @@
 0.0.0.0 eu-track.inside-graph.com
 0.0.0.0 eu-u.openx.net
 0.0.0.0 eu-vast.unoadsrv.com
+0.0.0.0 eu-west-1-cs-rtb.openwebmp.com
 0.0.0.0 eu-west-1-rtb.gumgum.com
 0.0.0.0 eu-west-1-sync.ads.yieldmo.com
 0.0.0.0 eu-west-1-trends.revcontent.com
@@ -52644,6 +52651,7 @@
 0.0.0.0 europe-west1-bonnier-big-data.cloudfunctions.net
 0.0.0.0 europe-west1-sonorous-dragon-276210.cloudfunctions.net
 0.0.0.0 europe-west1.pbs.optidigital.com
+0.0.0.0 europe-west3-production-rtb-wins.openwebmp.com
 0.0.0.0 europe-west3-production-rtb-wins.yellowblue.io
 0.0.0.0 europe-west4-1.smartadserver.com
 0.0.0.0 europe-west4.pbs.optidigital.com
@@ -53149,6 +53157,7 @@
 0.0.0.0 evt.minutemedia-prebid.com
 0.0.0.0 evt.mrandmrssmith.com
 0.0.0.0 evt.mxplay.com
+0.0.0.0 evt.openwebmp.com
 0.0.0.0 evt.undertone.com
 0.0.0.0 evtfpo.cdn-settings.appsflyersdk.com
 0.0.0.0 evtfpo.launches.appsflyersdk.com
@@ -60997,6 +61006,7 @@
 0.0.0.0 hb.minutemedia-prebid.com
 0.0.0.0 hb.mtgglobals.com
 0.0.0.0 hb.nativery.com
+0.0.0.0 hb.openwebmp.com
 0.0.0.0 hb.ostendenlists.cyou
 0.0.0.0 hb.r2b2.cz
 0.0.0.0 hb.r2b2.io
@@ -82784,6 +82794,7 @@
 0.0.0.0 ninthprerogativerap.com
 0.0.0.0 ninuptaaajrdk.space
 0.0.0.0 ninvbqfzgoovx.online
+0.0.0.0 niobefrogeye.com
 0.0.0.0 niolpwvcjjfvj.website
 0.0.0.0 nipechala.com
 0.0.0.0 nipnvemvvjleg.online
@@ -85487,6 +85498,7 @@
 0.0.0.0 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
 0.0.0.0 opentracker.net
 0.0.0.0 openweb-match.dotomi.com
+0.0.0.0 openwebmp.com
 0.0.0.0 openx-ums.acuityplatform.com
 0.0.0.0 openx.adhaven.com
 0.0.0.0 openx.ajur.info
@@ -87417,6 +87429,7 @@
 0.0.0.0 pbs-britannica-us.ay.delivery
 0.0.0.0 pbs-bunny.receptivity.io
 0.0.0.0 pbs-cs.minutemedia-prebid.com
+0.0.0.0 pbs-cs.openwebmp.com
 0.0.0.0 pbs-cs.yellowblue.io
 0.0.0.0 pbs-eu-central.ay.delivery
 0.0.0.0 pbs-freestar-us.ay.delivery
@@ -88083,6 +88096,7 @@
 0.0.0.0 ph.ad.lgsmartad.com
 0.0.0.0 ph.affinity.com
 0.0.0.0 ph.bismerbaskish.qpon
+0.0.0.0 ph.cosedcost.com
 0.0.0.0 ph.info.lgsmartad.com
 0.0.0.0 ph.mathuprend.cfd
 0.0.0.0 ph.rollercoin.com
@@ -123702,6 +123716,7 @@
 0.0.0.0 sdk.open.extension.getui.com
 0.0.0.0 sdk.open.talk.getui.com
 0.0.0.0 sdk.open.talk.getui.net
+0.0.0.0 sdk.openwebmp.com
 0.0.0.0 sdk.optimove.net
 0.0.0.0 sdk.out.usbla.net
 0.0.0.0 sdk.playtem.com
@@ -133027,6 +133042,7 @@
 0.0.0.0 stream-ads.web.sundaysky.com
 0.0.0.0 stream-all.com
 0.0.0.0 stream-log.dditscdn.com
+0.0.0.0 stream-log.profilepassport.jp
 0.0.0.0 stream.adbrix.io
 0.0.0.0 stream.adtimaserver.vn
 0.0.0.0 stream.corporatefinanceinstitute.com
@@ -143430,6 +143446,7 @@
 0.0.0.0 us-east-1-2.telemetry.insights.video.a2z.com
 0.0.0.0 us-east-1-3.telemetry.insights.video.a2z.com
 0.0.0.0 us-east-1-classic.xad.com
+0.0.0.0 us-east-1-cs-rtb.openwebmp.com
 0.0.0.0 us-east-1-internal.log.aliyuncs.com
 0.0.0.0 us-east-1-sync.ads.yieldmo.com
 0.0.0.0 us-east-1-trends.revcontent.com
@@ -143514,6 +143531,7 @@
 0.0.0.0 us-east39.pgammedia.com
 0.0.0.0 us-east4-1.smartadserver.com
 0.0.0.0 us-east4-production-rtb-wins.ascendeummedia.com
+0.0.0.0 us-east4-production-rtb-wins.openwebmp.com
 0.0.0.0 us-east4-production-rtb-wins.yellowblue.io
 0.0.0.0 us-east4.gcp.omnitagjs.com
 0.0.0.0 us-east40.pgammedia.com
@@ -143615,6 +143633,7 @@
 0.0.0.0 us-west-2-1.telemetry.insights.video.a2z.com
 0.0.0.0 us-west-2-2.telemetry.insights.video.a2z.com
 0.0.0.0 us-west-2-3.telemetry.insights.video.a2z.com
+0.0.0.0 us-west-2-cs-rtb.openwebmp.com
 0.0.0.0 us-west-2-ingress.clicktripz.com
 0.0.0.0 us-west-2-trends.revcontent.com
 0.0.0.0 us-west-2-www.clicktripz.com
@@ -143647,6 +143666,7 @@
 0.0.0.0 us-west1.gcp.omnitagjs.com
 0.0.0.0 us-west2.pbs.optidigital.com
 0.0.0.0 us-west4-production-rtb-wins.ascendeummedia.com
+0.0.0.0 us-west4-production-rtb-wins.openwebmp.com
 0.0.0.0 us-west4-production-rtb-wins.yellowblue.io
 0.0.0.0 us-wf.taboola.com
 0.0.0.0 us-windy-data.wf.cell.nr-data.net
@@ -154594,6 +154614,7 @@
 0.0.0.0 ymw4lq.cdn-settings.appsflyersdk.com
 0.0.0.0 ymw4lq.inapps.appsflyersdk.com
 0.0.0.0 ymw4lq.launches.appsflyersdk.com
+0.0.0.0 ymzu9eeo1y.ru
 0.0.0.0 ymzukfvbwuofd.site
 0.0.0.0 yn.chirkgiulio.cyou
 0.0.0.0 yn.mobulafoxtrot.cyou
