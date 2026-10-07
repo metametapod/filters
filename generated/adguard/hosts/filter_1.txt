@@ -25609,6 +25609,7 @@
 0.0.0.0 analytics.ihg.com
 0.0.0.0 analytics.ikyu.com
 0.0.0.0 analytics.inaknuttshell.com.re.getclicky.com
+0.0.0.0 analytics.infomaniak.com
 0.0.0.0 analytics.infraloods.nl
 0.0.0.0 analytics.innologica.com
 0.0.0.0 analytics.inquirernetwork.net
@@ -35775,6 +35776,7 @@
 0.0.0.0 cdn.engine.trklnks.com
 0.0.0.0 cdn.enhencer.com
 0.0.0.0 cdn.eproof.com
+0.0.0.0 cdn.ergadx.com
 0.0.0.0 cdn.eu.heap-api.com
 0.0.0.0 cdn.eu.optable.co
 0.0.0.0 cdn.euw1.jivox.com
@@ -39423,6 +39425,7 @@
 0.0.0.0 collector.mazeberry.com
 0.0.0.0 collector.megaxh.com
 0.0.0.0 collector.net-logger.com
+0.0.0.0 collector.onedollarstats.com
 0.0.0.0 collector.p.analitik.bik.gov.tr
 0.0.0.0 collector.pi.spectrum.net
 0.0.0.0 collector.plarium.com
@@ -41910,6 +41913,7 @@
 0.0.0.0 crbrhalnavigatorprod.112.2o7.net
 0.0.0.0 crcdn01.adnxs.com
 0.0.0.0 crcdn09.adnxs.com
+0.0.0.0 crdema.com
 0.0.0.0 crdjpq.inapps.appsflyersdk.com
 0.0.0.0 crdjpq.launches.appsflyersdk.com
 0.0.0.0 crdzdraaxdphk.online
@@ -51869,6 +51873,7 @@
 0.0.0.0 eresmas.net
 0.0.0.0 erestature.com
 0.0.0.0 erfumescomyma.org
+0.0.0.0 ergadx.com
 0.0.0.0 erggaxbuuevsw.site
 0.0.0.0 ergonomicparadeupstroke.com
 0.0.0.0 ergotsanding.cfd
@@ -72758,6 +72763,7 @@
 0.0.0.0 lilkdtrwspxvk.website
 0.0.0.0 lillypulitzertrial.us-4.evergage.com
 0.0.0.0 lilogy.actonservice.com
+0.0.0.0 lilstts.com
 0.0.0.0 lilxdostfpngv.space
 0.0.0.0 lilxvvndclgcs.space
 0.0.0.0 lilydreamer.com
@@ -83625,6 +83631,7 @@
 0.0.0.0 nsxsm.trimrx.com
 0.0.0.0 nt-compass-fit-jp.logly.co.jp
 0.0.0.0 nt-p.alcmpn.com
+0.0.0.0 nt-stream-log.profilepassport.jp
 0.0.0.0 nt.alcmpn.com
 0.0.0.0 nt.compass-fit.jp
 0.0.0.0 nt.gulliesbaalism.cfd
@@ -85223,10 +85230,12 @@
 0.0.0.0 one-workspace.matrix42.com
 0.0.0.0 one.adingo.jp
 0.0.0.0 one.elitebidder.com
+0.0.0.0 one01.stright.bizris.com
 0.0.0.0 onebrandstudio3.cdn.adglare.net
 0.0.0.0 onebrandstudio3.engine.adglare.net
 0.0.0.0 onecloud.avaya.com
 0.0.0.0 onecrow.net
+0.0.0.0 onedollarstats.com
 0.0.0.0 onedragon.win
 0.0.0.0 onedropocean.com
 0.0.0.0 onefeed.co.uk
@@ -113554,6 +113563,7 @@
 0.0.0.0 pp.italiseth.cyou
 0.0.0.0 pp.lp4.io
 0.0.0.0 pp.scorecardrewards.com
+0.0.0.0 pp3-sdkdata-v2-ut.profilepassport.jp
 0.0.0.0 ppadv.actonservice.com
 0.0.0.0 ppbbhvizrkryo.website
 0.0.0.0 ppc.fastnativead.com
@@ -121756,6 +121766,7 @@
 0.0.0.0 s.krlolheb.com
 0.0.0.0 s.ksprjvv.com
 0.0.0.0 s.lanpeatced.com
+0.0.0.0 s.lilstts.com
 0.0.0.0 s.lkdykbudv.com
 0.0.0.0 s.lndata.com
 0.0.0.0 s.logly.co.jp
@@ -124521,6 +124532,7 @@
 0.0.0.0 serv-us-1.onetag-sys.com
 0.0.0.0 serv.adservrs.com
 0.0.0.0 serv.ds.kakao.com
+0.0.0.0 serv.ergadx.com
 0.0.0.0 serv.modoro360.com
 0.0.0.0 serv.nspot.co
 0.0.0.0 serv.orangeclickmedia.com
@@ -124703,10 +124715,12 @@
 0.0.0.0 servs.adservrs.com
 0.0.0.0 servs.modoro360.com
 0.0.0.0 servt.adservrs.com
+0.0.0.0 servt.ergadx.com
 0.0.0.0 servt.modoro360.com
 0.0.0.0 servtraff97.com
 0.0.0.0 servx.adservrs.com
 0.0.0.0 servx.adsparc.com
+0.0.0.0 servx.ergadx.com
 0.0.0.0 servx.modoro360.com
 0.0.0.0 servx.playstream.media
 0.0.0.0 sesrec.shinystat.com
@@ -136452,6 +136466,7 @@
 0.0.0.0 tg.viadata.store
 0.0.0.0 tg1.adservrs.com
 0.0.0.0 tg1.aniview.com
+0.0.0.0 tg1.ergadx.com
 0.0.0.0 tg1.modoro360.com
 0.0.0.0 tg1.orangeclickmedia.com
 0.0.0.0 tg1.playstream.media
