@@ -1744,7 +1744,6 @@
 0.0.0.0 12489259.adoric-om.com
 0.0.0.0 12499875.fls.doubleclick.net
 0.0.0.0 124technologies.net
-0.0.0.0 125.net.jumia.co.ke
 0.0.0.0 12509065.fls.doubleclick.net
 0.0.0.0 12515911.fls.doubleclick.net
 0.0.0.0 12516760.fls.doubleclick.net
@@ -8174,7 +8173,6 @@
 0.0.0.0 67b09ca3d65661619ddb88830527167a.safeframe.googlesyndication.com
 0.0.0.0 67ef734c2342.cdn4.forter.com
 0.0.0.0 67qlvj0jcj.com
-0.0.0.0 68-175.net.jumia.co.ke
 0.0.0.0 681-cxq-353.mktoresp.com
 0.0.0.0 681-fhe-429.mktoresp.com
 0.0.0.0 681-ptp-793.mktoresp.com
@@ -19096,6 +19094,7 @@
 0.0.0.0 a8cv.holo-bell.com
 0.0.0.0 a8cv.homepage296.com
 0.0.0.0 a8cv.honeys-onlineshop.com
+0.0.0.0 a8cv.hoppin-garage.com
 0.0.0.0 a8cv.hor.jp
 0.0.0.0 a8cv.hotyoga-loive.com
 0.0.0.0 a8cv.houjin-keitai.com
@@ -19960,7 +19959,6 @@
 0.0.0.0 accordmobi.g2afse.com
 0.0.0.0 account.anonymised.io
 0.0.0.0 account.bam-cell.nr-data.net
-0.0.0.0 account.load.sst.nrc.nl
 0.0.0.0 accountancy.bppeloqua.com
 0.0.0.0 accountantflowerrespiration.com
 0.0.0.0 accountgram.com
@@ -24736,7 +24734,6 @@
 0.0.0.0 alpha.android11.logs.netflix.com
 0.0.0.0 alpha.dualstack.nr-data.net
 0.0.0.0 alpha.evergage.com
-0.0.0.0 alpha.load.sst.nrc.nl
 0.0.0.0 alpha.modulepush.com
 0.0.0.0 alpha.use.svr.rixengine.com
 0.0.0.0 alphaads.de
@@ -35954,7 +35951,6 @@
 0.0.0.0 cdn.navdmp.com
 0.0.0.0 cdn.ndg.io
 0.0.0.0 cdn.nearbyad.com
-0.0.0.0 cdn.net.dz.jumia.com
 0.0.0.0 cdn.net.elogia.net
 0.0.0.0 cdn.netpoint-media.de
 0.0.0.0 cdn.newmedia.az
@@ -40785,6 +40781,7 @@
 0.0.0.0 connect.care.kansashealthsystem.com
 0.0.0.0 connect.care.lcmchealth.org
 0.0.0.0 connect.care.muschealth.org
+0.0.0.0 connect.care.sheppardpratt.org
 0.0.0.0 connect.care.wakemed.org
 0.0.0.0 connect.chapman.com
 0.0.0.0 connect.chiropractic.ac.nz
@@ -42940,7 +42937,6 @@
 0.0.0.0 cy4iq8.cdn-settings.appsflyersdk.com
 0.0.0.0 cy4iq8.inapps.appsflyersdk.com
 0.0.0.0 cy4iq8.launches.appsflyersdk.com
-0.0.0.0 cy98g9wuwn0n.angularjs.poc.glenigan.com
 0.0.0.0 cyachalbbofrw.online
 0.0.0.0 cyad.nate.com
 0.0.0.0 cyad1.nate.com
@@ -46364,6 +46360,7 @@
 0.0.0.0 denniscarpenter.evergage.com
 0.0.0.0 denpenkuneste.cyou
 0.0.0.0 denpjz.jamesedition.com
+0.0.0.0 denpne.modelones.com
 0.0.0.0 denseceleryliver.com
 0.0.0.0 densifygrottos.qpon
 0.0.0.0 dentaryvacante.cfd
@@ -47025,7 +47022,6 @@
 0.0.0.0 dii4.zooplus.at
 0.0.0.0 dii4.zooplus.be
 0.0.0.0 dii4.zooplus.bg
-0.0.0.0 dii4.zooplus.ch
 0.0.0.0 dii4.zooplus.co.uk
 0.0.0.0 dii4.zooplus.com
 0.0.0.0 dii4.zooplus.de
@@ -53325,6 +53321,7 @@
 0.0.0.0 exarchs.welchedcamletairflow.qpon
 0.0.0.0 exasol01.webtrekk.net
 0.0.0.0 exasperatebubblyorthodox.com
+0.0.0.0 exbd.ex.co
 0.0.0.0 exbujk.glamood.com
 0.0.0.0 excafwcwlpevm.site
 0.0.0.0 excavatedefeatedshudder.com
@@ -56132,7 +56129,6 @@
 0.0.0.0 foruftuiov.com
 0.0.0.0 forum.actionpay.ru
 0.0.0.0 forum.linkfeed.ru
-0.0.0.0 forum.load.sst.nrc.nl
 0.0.0.0 forum.log-api.dualstack.nr-data.net
 0.0.0.0 forum.rivcash.com
 0.0.0.0 forumcomm-d.openx.net
@@ -57563,7 +57559,6 @@
 0.0.0.0 gateway.fastly-tls12-mobile-collector.eu01.nr-data.net
 0.0.0.0 gateway.foresee.com
 0.0.0.0 gateway.insights-collector.cell.nr-data.net
-0.0.0.0 gateway.load.sst.nrc.nl
 0.0.0.0 gateway.metrix.ir
 0.0.0.0 gateway.restartad.com
 0.0.0.0 gateway.ttpsdk.info
@@ -63073,7 +63068,6 @@
 0.0.0.0 hub.firestonecompleteautocare.com
 0.0.0.0 hub.hubfinancial.com
 0.0.0.0 hub.hubinternational.com
-0.0.0.0 hub.load.sst.nrc.nl
 0.0.0.0 hub.onfluencer.net
 0.0.0.0 hub.onmarketer.net
 0.0.0.0 hub.simpli.fi
@@ -64773,7 +64767,6 @@
 0.0.0.0 images.mail.insight.business.hsbc.com
 0.0.0.0 images.mail.tena.de
 0.0.0.0 images.mailaway.homeaway.com
-0.0.0.0 images.mailaway.vrbo.com
 0.0.0.0 images.mailinfo.clarivate.com
 0.0.0.0 images.mailing.morningstar.com
 0.0.0.0 images.marketing.box.com
@@ -76266,6 +76259,7 @@
 0.0.0.0 marketing.techoregon.org
 0.0.0.0 marketing.telstraphonewords.com.au
 0.0.0.0 marketing.tengointernet.com
+0.0.0.0 marketing.test-acton.com
 0.0.0.0 marketing.test.insead.edu
 0.0.0.0 marketing.testforce.com
 0.0.0.0 marketing.thatsbiz.com
@@ -78801,7 +78795,6 @@
 0.0.0.0 metrics.sephora.fr
 0.0.0.0 metrics.sephora.it
 0.0.0.0 metrics.sephora.pl
-0.0.0.0 metrics.sfchronicle.com
 0.0.0.0 metrics.sgproof.com
 0.0.0.0 metrics.shangri-la.com
 0.0.0.0 metrics.shannons.com.au
@@ -81004,6 +80997,7 @@
 0.0.0.0 musicflashcard.com
 0.0.0.0 musicianfinnish.com
 0.0.0.0 musiciansinceredumpling.com
+0.0.0.0 musikazblai.org
 0.0.0.0 muskitsstealth.cfd
 0.0.0.0 musoparhnhgye.space
 0.0.0.0 musr.navdmp.com
@@ -82924,7 +82918,6 @@
 0.0.0.0 nntgna.dmm.com
 0.0.0.0 nntsdj-launches.appsflyersdk.com
 0.0.0.0 nnupmdxkvxqip.online
-0.0.0.0 nnvoia.closetworld.com
 0.0.0.0 nnvstgnnimwha.space
 0.0.0.0 nnvzhb.cdn-settings.appsflyersdk.com
 0.0.0.0 nnyebjaqiuiws.site
@@ -114689,7 +114682,6 @@
 0.0.0.0 promotions.batesville.com
 0.0.0.0 promotions.centex.com
 0.0.0.0 promotions.eq.delwebb.com
-0.0.0.0 promotions.hot.net.il
 0.0.0.0 promotions.kangan.edu.au
 0.0.0.0 promotions.la-z-boy.com
 0.0.0.0 promotions.stationcasinos.com
@@ -117054,6 +117046,7 @@
 0.0.0.0 qzpjkj.cdn-settings.appsflyersdk.com
 0.0.0.0 qzpjkj.inapps.appsflyersdk.com
 0.0.0.0 qzpjkj.launches.appsflyersdk.com
+0.0.0.0 qzpkxf.edenboutique.ro
 0.0.0.0 qzpnlrckbpcwe.online
 0.0.0.0 qzqipwaflejcj.site
 0.0.0.0 qzruomjczpdzt.store
@@ -124471,7 +124464,6 @@
 0.0.0.0 server.zmedia.vn
 0.0.0.0 server1.opentracker.net
 0.0.0.0 server2.web-stat.com
-0.0.0.0 server2.www1.dr.goldenserviceawards.net.jumia.co.ke
 0.0.0.0 server3.web-stat.com
 0.0.0.0 server4.web-stat.com
 0.0.0.0 server4ads.com
@@ -128092,6 +128084,7 @@
 0.0.0.0 smetrics.sherwoodparkchev.com
 0.0.0.0 smetrics.shihang.org
 0.0.0.0 smetrics.shihangjituan.org
+0.0.0.0 smetrics.shinseibank.com
 0.0.0.0 smetrics.shionogi.co.jp
 0.0.0.0 smetrics.shionogi.tv
 0.0.0.0 smetrics.sho.com
@@ -131864,7 +131857,6 @@
 0.0.0.0 static.kimberlite.io
 0.0.0.0 static.kueezrtb.com
 0.0.0.0 static.lacunads.com
-0.0.0.0 static.load.sst.nrc.nl
 0.0.0.0 static.loboclick.com
 0.0.0.0 static.luyten-98c.com
 0.0.0.0 static.masoffer.net
@@ -135874,7 +135866,6 @@
 0.0.0.0 techmarketingdemos.demdex.net
 0.0.0.0 techneparlous.com
 0.0.0.0 technical-service.net
-0.0.0.0 technical.kyzen.com
 0.0.0.0 technicalitychin.com
 0.0.0.0 technologies2radar.net
 0.0.0.0 technologyadvice.actonservice.com
@@ -138804,7 +138795,6 @@
 0.0.0.0 track.cux.io
 0.0.0.0 track.datacygnal.io
 0.0.0.0 track.ddmanager.ru
-0.0.0.0 track.deloitte.com
 0.0.0.0 track.eadv.it
 0.0.0.0 track.easeus.com
 0.0.0.0 track.edu-info.jp
@@ -138926,7 +138916,6 @@
 0.0.0.0 track.programmatica.com
 0.0.0.0 track.push-ad.com
 0.0.0.0 track.pushbullet.com
-0.0.0.0 track.rejuvenera.com.br
 0.0.0.0 track.reservationcounter.com
 0.0.0.0 track.reson8.com
 0.0.0.0 track.rheinpfalz.de
@@ -139498,7 +139487,6 @@
 0.0.0.0 tracking.health.bjc.org
 0.0.0.0 tracking.hiscox.com
 0.0.0.0 tracking.hivecloud.net
-0.0.0.0 tracking.hot.net.il
 0.0.0.0 tracking.hsn.com
 0.0.0.0 tracking.ht.se
 0.0.0.0 tracking.hubs.vn
@@ -152834,6 +152822,7 @@
 0.0.0.0 xml-eu-v4.pshb.me
 0.0.0.0 xml-eu-v4.pushub.net
 0.0.0.0 xml-eu-v4.qualiclicks.com
+0.0.0.0 xml-eu-v4.quantum1020.online
 0.0.0.0 xml-eu-v4.regalrisemedia.com
 0.0.0.0 xml-eu-v4.revantagex.com
 0.0.0.0 xml-eu-v4.route-code.online
