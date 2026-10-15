@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-10-14T03:06:27Z
+! Last modified: 2026-10-15T02:46:07Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 13 Oct 2026 11:07:25 +0000
+! Last modified: Wed, 14 Oct 2026 12:23:40 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -19738,7 +19738,7 @@ betmgm.co.uk##div:has(> div > div[bol-component="cookie-consent"])
 orbitscraper.com##div:has(> div > p > a[href="/privacy"])
 realityjunkies.com##div:has(> p > a[href$="/legal/privacy"])
 jingdaily.com##div[aria-label="Cookie consent banner"]
-38-0.app,citizenportal.ai,console.upstage.ai,kittyscan.com,norisk.gg,storeboard.com,streamelements.com,therealmediang.com##div[aria-label="Cookie consent"]
+38-0.app,citizenportal.ai,console.upstage.ai,kittyscan.com,norisk.gg,opengraph.io,storeboard.com,streamelements.com,therealmediang.com##div[aria-label="Cookie consent"]
 lowyinstitute.org##div[aria-label="Privacy notice"]
 utrechtart.com##div[aria-label="cookie consent banner"]
 bicycling.com,biography.com,caranddriver.com,cosmopolitan.com,countryliving.com,delish.com,elle.com,elledecor.com,esquire.com,goodhousekeeping.com,harpersbazaar.com,housebeautiful.com,menshealth.com,pitchfork.com,popularmechanics.com,prevention.com,roadandtrack.com,runnersworld.com,thepioneerwoman.com,townandcountrymag.com,womenshealthmag.com##div[aria-label^="Privacy Disclosure"]
@@ -19810,6 +19810,7 @@ patreon.com##div[data-tag="cookie-disclosure"]
 app.lickd.co##div[data-test-app-cookie-notification]
 pinnacle.com##div[data-test-id="Cookie-PolicyBanner"]
 lego.com##div[data-test="age-gate-disclaimer"]
+deeppersonality.app##div[data-testid="analytics-consent-banner"]
 metadefender.com##div[data-testid="banner"]:has(a[href="https://www.opswat.com/legal/cookies-policy"])
 athenegpt.ai,betterhelp.com,brilliant.org,regain.us##div[data-testid="cookie-banner"]
 ssense.com##div[data-testid="cookie-banner-overlay"]
@@ -19991,7 +19992,7 @@ laportecontemporaine.shop,meesterslijpers.nl###ism-consent-box
 !! .cookie-alert
 baden-wuerttemberg.de,cdek.ru,de.vitamin360.com,elektrikstore.hu,empresasnegocios.pt,kaveverzum.hu,leumi.co.il,magzsola.hu,pushwoosh.com,rzd.ru,salon24.pl,scigacz.pl,shoei-helmets.com,suwalki24.pl,thebatteryshop.eu,tipik.hu##.cookie-alert
 !! .amgdprjs-bar-template
-ctt.de,fabricsandpapers.com,groomershop.pl,ironmaxx.de,johnsonsjewellers.co.uk,kazar.com,landyschemist.com,mikimoto.com,mikimotoamerica.com,nkon.nl,plaidonline.com,scienceinsport.com,sparkfun.com,theraband.com##.amgdprjs-bar-template
+ctt.de,fabricsandpapers.com,groomershop.pl,ironmaxx.de,johnsonsjewellers.co.uk,kazar.com,landyschemist.com,mikimoto.com,mikimotoamerica.com,nkon.nl,plaidonline.com,scienceinsport.com,sparkfun.com,theraband.com,vortexoptics.com##.amgdprjs-bar-template
 !! .cookie-notification
 carletonvillemall.co.za,ccdcoe.org,cosmomall.co.za,degoo.com,e-recharge.net,energypolicy.columbia.edu,eurotradefair.nl,gardensbythgreatwolf.com,iahsap.com,informationmagazine.com,ivry-dairy.co.il,jobs.tuwien.ac.at,kguttag.com,kukawa.co.jp,leitor.net,lifestylecrossing.co.za,mangalivre.net,mel.fm,netshoes.com.br,ngenix.net,palmscentre.co.za,pnp.co.za,prostokvashino.ru,rabbitscams.sex,riverwalkcentre.co.za,schofieldwatchcompany.com,shoestock.com.br,spursteakranches.com,supercheapauto.co.nz,supercheapauto.com.au,supernovabih.ba,theatrium.co.za,theheasman.com,thestartrac.com,victoryparkcentre.co.za,vumatel.co.za,wretozattini.com.br,zheleza.net,zorrolightersshop.com##.cookie-notification
 !! .cookie-alert-show
@@ -28792,7 +28793,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||wnioski.mpips.gov.pl/ewnioski/js/common/privacyPolicy.js$script,~third-party
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 ! Title: uBlock filters – Cookie Notices
-! Last modified: Tue, 13 Oct 2026 09:50:46 +0000
+! Last modified: Wed, 14 Oct 2026 14:26:40 +0000
 ! Expires: 7 days
 ! Description: Filters optimized for uBlock Origin, to be used with EasyList's and/or Adguard's "Cookie Notices" list(s)
 ! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
@@ -29438,7 +29439,8 @@ asket.com##+js(trusted-set-cookie, CookieConsent, "{stamp:'',necessary:true,pref
 ! https://github.com/uBlockOrigin/uAssets/issues/33504
 redact.dev##+js(trusted-set-cookie, tracking-consent, %7B%22version%22%3A1%2C%22consent%22%3A%7B%22essential%22%3Atrue%2C%22tracking%22%3Afalse%2C%22marketing%22%3Afalse%7D%2C%22timestamp%22%3A$now$%7D, , , reload, 1, dontOverwrite, 1)
 ! https://github.com/uBlockOrigin/uAssets/issues/33511
-coolblue.de##+js(trusted-set-cookie, cookie-preferences, eyJ2ZXJzaW9uIjoiMjAyNTA1MDciLCJmdW5jdGlvbmFsIjp7ImNhIjp0cnVlfSwiYW5hbHl0aWNhbCI6eyJhdyI6ZmFsc2UsImNlIjpmYWxzZSwiZGQiOmZhbHNlLCJnYSI6ZmFsc2UsIm9wIjpmYWxzZSwidHAiOmZhbHNlfSwibWFya2V0aW5nIjp7ImZiIjpmYWxzZSwiZ21wIjpmYWxzZSwiaW4iOmZhbHNlLCJqcyI6ZmFsc2UsImtrIjpmYWxzZSwibGkiOmZhbHNlLCJtYSI6ZmFsc2UsInJkIjpmYWxzZSwic2MiOmZhbHNlLCJzdCI6ZmFsc2UsInR0IjpmYWxzZX19, , , domain, .coolblue.de, reload, 1)
+! https://github.com/uBlockOrigin/uAssets/issues/34853
+coolblue.be,coolblue.de##+js(trusted-set-cookie, cookie-preferences, eyJ2ZXJzaW9uIjoiMjAyNTA1MDciLCJmdW5jdGlvbmFsIjp7ImNhIjp0cnVlfSwiYW5hbHl0aWNhbCI6eyJhdyI6ZmFsc2UsImNlIjpmYWxzZSwiZGQiOmZhbHNlLCJnYSI6ZmFsc2UsIm9wIjpmYWxzZSwidHAiOmZhbHNlfSwibWFya2V0aW5nIjp7ImZiIjpmYWxzZSwiZ21wIjpmYWxzZSwiaW4iOmZhbHNlLCJqcyI6ZmFsc2UsImtrIjpmYWxzZSwibGkiOmZhbHNlLCJtYSI6ZmFsc2UsInJkIjpmYWxzZSwic2MiOmZhbHNlLCJzdCI6ZmFsc2UsInR0IjpmYWxzZX19, , , reload, 1)
 ! https://github.com/uBlockOrigin/uAssets/issues/33526
 indonesiabusinesspost.com##+js(trusted-set-local-storage-item, cookieConsent, '{"performance":false,"functionality":false,"advertising":false}')
 ! https://github.com/uBlockOrigin/uAssets/pull/33552
@@ -29515,7 +29517,7 @@ vkmag.com##+js(trusted-set-cookie, eupubconsent-v2, CPt6LrpPt6LrpAcABBENDKCgAAAA
 ! https://www.mtvuutiset.fi/artikkeli/hallitusohjelma-kirvoittaa-epauskoisia-parahduksia-ja-kiitosta-lue-marinin-ja-monen-muun-kommentit-linjauksiin/8722768
 
 ! Almamedia sites, accept
-almamedia.fi>>,ampparit.com>>,arvopaperi.fi>>,iltalehti.fi>>,kauppalehti.fi>>,mikrobitti.fi>>,talouselama.fi>>,tekniikkatalous.fi>>,tivi.fi>>,uusisuomi.fi>>,vuokraovi.com>>##+js(trusted-click-element, button[title="Hyväksy"])
+almamedia.fi>>,ampparit.com>>,arvopaperi.fi>>,iltalehti.fi>>,kauppalehti.fi>>,mikrobitti.fi>>,talouselama.fi>>,tekniikkatalous.fi>>,tivi.fi>>,uusisuomi.fi>>,vuokraovi.com>>##+js(trusted-click-element, button[title^="Hyväksy"])
 
 ! Mandatory, performance + functional
 ! https://www.gamespot.com/videos/firearms-expert-reacts-to-crysis-franchise-guns/2300-6461700/
