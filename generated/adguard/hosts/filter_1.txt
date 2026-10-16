@@ -21846,6 +21846,7 @@
 0.0.0.0 ads-postnl.adhese.com
 0.0.0.0 ads-privacy-api.prd.mz.internal.unity3d.com
 0.0.0.0 ads-privacy.gadsme.com
+0.0.0.0 ads-proxy-aka.prod.bo.canal.canalplustech.pro
 0.0.0.0 ads-redis.ecn.cl
 0.0.0.0 ads-refinery89.adhese.com
 0.0.0.0 ads-resources.waze.com
@@ -21959,7 +21960,6 @@
 0.0.0.0 ads.counciladvertising.net
 0.0.0.0 ads.creative-serving.com
 0.0.0.0 ads.cungcau.vn
-0.0.0.0 ads.d21.media
 0.0.0.0 ads.dawin.tv
 0.0.0.0 ads.digiadglobal.com
 0.0.0.0 ads.digital.disneyadvertising.com
@@ -24598,7 +24598,6 @@
 0.0.0.0 alikeaddition.com
 0.0.0.0 alilang-unify-struct-log.cn-hangzhou.log.aliyuncs.com
 0.0.0.0 alimama.alicdn.com
-0.0.0.0 alime-pic.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0 alinma.api.dataroid.com
 0.0.0.0 alinpay.store
 0.0.0.0 alitalia.demdex.net
@@ -59494,6 +59493,7 @@
 0.0.0.0 gpp.netpub.media
 0.0.0.0 gppzwoctbainp.online
 0.0.0.0 gpsecureads.com
+0.0.0.0 gpskeeper.popinfo.jp
 0.0.0.0 gpt.throatbulge.com
 0.0.0.0 gpt.tubetruck.com
 0.0.0.0 gptcusnrxxawp.site
@@ -75264,6 +75264,7 @@
 0.0.0.0 manumafeasant.qpon
 0.0.0.0 manureads.com
 0.0.0.0 manurepatronageitalian.com
+0.0.0.0 manus-analytics.com
 0.0.0.0 manutd.demdex.net
 0.0.0.0 manxcomet.cfd
 0.0.0.0 manydiamonds.com
@@ -86498,6 +86499,7 @@
 0.0.0.0 p3-lm.adkwai.com
 0.0.0.0 p3.adhitzads.com
 0.0.0.0 p3.adkwai.com
+0.0.0.0 p329.si.com
 0.0.0.0 p343199.clksite.com
 0.0.0.0 p346649.clksite.com
 0.0.0.0 p377939.clksite.com
