@@ -5,8 +5,11 @@
 # rules are expanded against a more exhaustive list (currently 1Hosts Xtra).
 0.0.0.0 0.abaftwetly.com
 0.0.0.0 0.ackprovided.com
+0.0.0.0 0.ackzany.com
 0.0.0.0 0.aroundwhoever.com
 0.0.0.0 0.artisticsway.com
+0.0.0.0 0.athwartwhoafat.com
+0.0.0.0 0.blissfullyzebra.com
 0.0.0.0 0.brilliantfaronly.com
 0.0.0.0 0.brochureclear.com
 0.0.0.0 0.fitlivelywhup.com
@@ -599,8 +602,11 @@
 0.0.0.0 1.1iiinilliberty.logs.roku.com
 0.0.0.0 1.abaftwetly.com
 0.0.0.0 1.ackprovided.com
+0.0.0.0 1.ackzany.com
 0.0.0.0 1.aroundwhoever.com
 0.0.0.0 1.artisticsway.com
+0.0.0.0 1.athwartwhoafat.com
+0.0.0.0 1.blissfullyzebra.com
 0.0.0.0 1.brilliantfaronly.com
 0.0.0.0 1.brochureclear.com
 0.0.0.0 1.cpm.ak-is2.net
@@ -3865,9 +3871,12 @@
 0.0.0.0 2-05.com
 0.0.0.0 2.abaftwetly.com
 0.0.0.0 2.ackprovided.com
+0.0.0.0 2.ackzany.com
 0.0.0.0 2.afs.googleadservices.com
 0.0.0.0 2.aroundwhoever.com
 0.0.0.0 2.artisticsway.com
+0.0.0.0 2.athwartwhoafat.com
+0.0.0.0 2.blissfullyzebra.com
 0.0.0.0 2.brilliantfaronly.com
 0.0.0.0 2.brochureclear.com
 0.0.0.0 2.fitlivelywhup.com
@@ -5042,8 +5051,11 @@
 0.0.0.0 3-999-cb4a26be-c938-4fe3-b91a-a0612c64d262.analytics.mobilegamestats.com
 0.0.0.0 3.abaftwetly.com
 0.0.0.0 3.ackprovided.com
+0.0.0.0 3.ackzany.com
 0.0.0.0 3.aroundwhoever.com
 0.0.0.0 3.artisticsway.com
+0.0.0.0 3.athwartwhoafat.com
+0.0.0.0 3.blissfullyzebra.com
 0.0.0.0 3.brilliantfaronly.com
 0.0.0.0 3.brochureclear.com
 0.0.0.0 3.fitlivelywhup.com
@@ -5842,10 +5854,13 @@
 0.0.0.0 4-att.justtrack.io
 0.0.0.0 4.abaftwetly.com
 0.0.0.0 4.ackprovided.com
+0.0.0.0 4.ackzany.com
 0.0.0.0 4.adsco.re
 0.0.0.0 4.aroundwhoever.com
 0.0.0.0 4.artisticsway.com
+0.0.0.0 4.athwartwhoafat.com
 0.0.0.0 4.behkfu2mplp8y5.cfd
+0.0.0.0 4.blissfullyzebra.com
 0.0.0.0 4.bq91y77zzxvihk.cfd
 0.0.0.0 4.brilliantfaronly.com
 0.0.0.0 4.brochureclear.com
@@ -6744,9 +6759,12 @@
 0.0.0.0 5.56.wormdistressedunit.com
 0.0.0.0 5.abaftwetly.com
 0.0.0.0 5.ackprovided.com
+0.0.0.0 5.ackzany.com
 0.0.0.0 5.aroundwhoever.com
 0.0.0.0 5.artisticsway.com
 0.0.0.0 5.at.atwola.com
+0.0.0.0 5.athwartwhoafat.com
+0.0.0.0 5.blissfullyzebra.com
 0.0.0.0 5.brilliantfaronly.com
 0.0.0.0 5.brochureclear.com
 0.0.0.0 5.fitlivelywhup.com
@@ -7709,10 +7727,13 @@
 0.0.0.0 6-partner.com
 0.0.0.0 6.abaftwetly.com
 0.0.0.0 6.ackprovided.com
+0.0.0.0 6.ackzany.com
 0.0.0.0 6.adsco.re
 0.0.0.0 6.aroundwhoever.com
 0.0.0.0 6.artisticsway.com
 0.0.0.0 6.at.atwola.com
+0.0.0.0 6.athwartwhoafat.com
+0.0.0.0 6.blissfullyzebra.com
 0.0.0.0 6.brilliantfaronly.com
 0.0.0.0 6.brochureclear.com
 0.0.0.0 6.fitlivelywhup.com
@@ -8602,8 +8623,11 @@
 0.0.0.0 7-7-7-partner.com
 0.0.0.0 7.abaftwetly.com
 0.0.0.0 7.ackprovided.com
+0.0.0.0 7.ackzany.com
 0.0.0.0 7.aroundwhoever.com
 0.0.0.0 7.artisticsway.com
+0.0.0.0 7.athwartwhoafat.com
+0.0.0.0 7.blissfullyzebra.com
 0.0.0.0 7.brilliantfaronly.com
 0.0.0.0 7.brochureclear.com
 0.0.0.0 7.fitlivelywhup.com
@@ -9243,8 +9267,11 @@
 0.0.0.0 8.85ltu28733cczn175evkqt2vmr5.cfd
 0.0.0.0 8.abaftwetly.com
 0.0.0.0 8.ackprovided.com
+0.0.0.0 8.ackzany.com
 0.0.0.0 8.aroundwhoever.com
 0.0.0.0 8.artisticsway.com
+0.0.0.0 8.athwartwhoafat.com
+0.0.0.0 8.blissfullyzebra.com
 0.0.0.0 8.brilliantfaronly.com
 0.0.0.0 8.brochureclear.com
 0.0.0.0 8.fitlivelywhup.com
@@ -10249,8 +10276,11 @@
 0.0.0.0 9.8eiy9rw2zw93w95rihg6k3q8vvlgyufrhq4.cfd
 0.0.0.0 9.abaftwetly.com
 0.0.0.0 9.ackprovided.com
+0.0.0.0 9.ackzany.com
 0.0.0.0 9.aroundwhoever.com
 0.0.0.0 9.artisticsway.com
+0.0.0.0 9.athwartwhoafat.com
+0.0.0.0 9.blissfullyzebra.com
 0.0.0.0 9.brilliantfaronly.com
 0.0.0.0 9.brochureclear.com
 0.0.0.0 9.eechicha.com
@@ -20033,6 +20063,7 @@
 0.0.0.0 ackfqyzrdulxc.space
 0.0.0.0 acknowledgepronounablaze.com
 0.0.0.0 ackprovided.com
+0.0.0.0 ackzany.com
 0.0.0.0 aclog.itmedia.co.jp
 0.0.0.0 aclordi.actonservice.com
 0.0.0.0 acltickza.in
@@ -28608,6 +28639,7 @@
 0.0.0.0 athlg.com
 0.0.0.0 athome.demdex.net
 0.0.0.0 athrillginnnevoy.qpon
+0.0.0.0 athwartwhoafat.com
 0.0.0.0 athyimemediat.org
 0.0.0.0 ati.sazka.cz
 0.0.0.0 aticti.actonservice.com
@@ -32092,6 +32124,7 @@
 0.0.0.0 blissfulcrescendo.com
 0.0.0.0 blissfulisland.pro
 0.0.0.0 blissfullagoon.com
+0.0.0.0 blissfullyzebra.com
 0.0.0.0 blitzadbg.hit.gemius.pl
 0.0.0.0 blitzbg.adocean.pl
 0.0.0.0 blitzcampaigns.com
@@ -55383,6 +55416,7 @@
 0.0.0.0 fitwithalpine.com
 0.0.0.0 fitzgvqpuizzk.space
 0.0.0.0 fivecdm.com
+0.0.0.0 fiveplusthree.com
 0.0.0.0 fiverr.ck-cdn.com
 0.0.0.0 fivesidedsquare.com
 0.0.0.0 fiwekmyzlnvjx.site
