@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-10-20T02:59:31Z
+! Last modified: 2026-10-21T02:54:05Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Mon, 19 Oct 2026 13:57:49 +0000
+! Last modified: Tue, 20 Oct 2026 21:53:18 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -17226,6 +17226,7 @@ hotosm.org###gdpr-banner-form
 aza.org###gdpr-bar
 sharefaith.com###gdpr-bot
 nanotalegame.com###gdpr-consent-form
+studentemail.online###gdpr-cookie-banner
 96boards.org,alinghi.com,almaasdiamonds.com,americascup.com,autoecoledelabase.com,cfu-airport.gr,clustrmaps.com,cobau.com.br,croatiaexcursions.com,e1series.com,estrelladecastilla.es,gofoexpress.com,jsi-airport.gr,kgs-airport.gr,leube.cz,lunarossachallenge.com,map.purpleair.com,portal.amity.copiri.com,rho-airport.gr,skg-airport.gr,tapas.io,zth-airport.gr###gdpr-cookie-message
 quizwiz.pro###gdpr-cookie-msg
 uploadrar.com###gdpr-cookie-notice
@@ -19809,6 +19810,7 @@ betjets.co.za##div[data-cy^="cookiespolicybar-"]
 miricanvas.com##div[data-f^="CookiePopupContainer"]
 cammodels.com,jerkmatelive.org##div[data-fedmod="userpolicy"]
 stripe.com##div[data-js-id="CookieSettingsNotification"]
+qwencloud.com##div[data-module-name="CookieConsent"]
 cam4.com,cam4.eu##div[data-name="CookieConsent"]
 age.yoti.com##div[data-qa="cookie-banner"]
 amazon.jobs##div[data-react-class="CookieBannerVersioned"]
@@ -20653,7 +20655,7 @@ onassis.org##.bottom-0.relative
 !! .bottom-2
 argyle.com,artma-zaproszenia.pl,claude.ai,deno.com,getmerlin.in,olecams.com,producthunt.com,vello.fi,videochaterotico.com,youverify.co##.bottom-2
 !! .bottom-6
-airlinkflightschool.com,apmoller.com,app.houseofcb.com,dsgners.ru,ilmanifesto.it,lofigirl.com,momentosdealegriace.com.br,predecessorgame.com,wimotic.fr##.bottom-6
+airlinkflightschool.com,apmoller.com,app.houseofcb.com,breeze.rip,dsgners.ru,ilmanifesto.it,lofigirl.com,momentosdealegriace.com.br,predecessorgame.com,wimotic.fr##.bottom-6
 !! .bottom-5
 app.gnosispay.com,cinobo.com,jdslabs.com,lukso.network,lumoar.com,mymarket.ge,platform.stability.ai,polarsignals.com,risazatvorchestvo.com,skyline-emu.one,vloot.io##.bottom-5
 !! .bottom-8
@@ -21561,7 +21563,7 @@ northumbriasport.com##+js(set-cookie, cm_level, 0)
 digionline.ro##+js(set-cookie, cmp_level, 15)
 digi.ro##+js(set-cookie, cmp_level, 3)
 acce.es,aceitessatunion.com,aiconsultores.com,akaanseutu.fi,apogeeagency.com,arabesque-formation.org,aspock.com,beerballer.com,campergarage.es,cometh-consulting.com,dake.es,etbygg.com,fantasyfootballgeek.co.uk,focusonreproduction.eu,frissebips.nl,garcia-ibanez.com,ibomair.com,juomaposti.fi,krampouz.com,lempaala.ideapark.fi,lvs.fi,napos.cz,omviajesyrelatos.com,opendoors.fi,openfoam.org,orivedensanomat.fi,pirmediat.fi,productosmanchegos.es,produx.ch,raypa.com,scholtenswerkplek.nl,shl.fi,ttisi.nl,varcevanje-energije.si,ylojarvenuutiset.fi##+js(set-cookie, cmplz_banner-status, dismissed)
-statisticsanddata.org##+js(set-cookie, cmplz_marketing, allow)
+opendoors.fi,statisticsanddata.org##+js(set-cookie, cmplz_marketing, allow)
 opendoors.fi##+js(set-cookie, cmplz_preferences, allow)
 huddle.today##+js(set-cookie, cmplz_rt_banner-status, dismissed)
 cms-wheels.com##+js(set-cookie, cmswheels_cookie, no)
@@ -27159,6 +27161,7 @@ msu.ru##.we-use-cookies-block
 letu.ru##.web-cookie-popup
 eecmedical.ru##.welcome-popup
 ktostroit.ru,profdelo.com##.widget_cookie
+info.2gis.ru##.wrapper-R5Fvly
 warthunder.ru##.wt-cb
 yasno.live##.y-gdpr
 uralkarcher.ru##.zalupa

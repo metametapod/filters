@@ -47,7 +47,6 @@
 0.0.0.0 0.wallabyhusky.com
 0.0.0.0 0.whichfreely.com
 0.0.0.0 0.www.84302764.xyz
-0.0.0.0 0.yahoo-homepage.html-load.com
 0.0.0.0 0.yahoolock.com
 0.0.0.0 00.nakanohito.jp
 0.0.0.0 0000aec7fd1a49302849ec824ac45ee6.safeframe.googlesyndication.com
@@ -646,7 +645,6 @@
 0.0.0.0 1.wallabyhusky.com
 0.0.0.0 1.whichfreely.com
 0.0.0.0 1.www.profitabledisplaycontent.com
-0.0.0.0 1.yahoo-homepage.html-load.com
 0.0.0.0 1.yahoolock.com
 0.0.0.0 10.afs.googleadservices.com
 0.0.0.0 1000.qualitydestructionhouse.com
@@ -3915,7 +3913,6 @@
 0.0.0.0 2.wallabyhusky.com
 0.0.0.0 2.webtrekk.net
 0.0.0.0 2.whichfreely.com
-0.0.0.0 2.yahoo-homepage.html-load.com
 0.0.0.0 2.yahoolock.com
 0.0.0.0 20.edge46.testandtarget.omniture.com
 0.0.0.0 2002959.fls.doubleclick.net
@@ -4510,6 +4507,7 @@
 0.0.0.0 278kbf.inapps.appsflyersdk.com
 0.0.0.0 278kbf.launches.appsflyersdk.com
 0.0.0.0 27b8e0a26164341296bbebbb6a7fa7da.safeframe.googlesyndication.com
+0.0.0.0 27c2a5f6b469831e7974.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 27c5f846775241d4a3ece5b6c48ee9c9.js.ubembed.com
 0.0.0.0 27ca94d360b72d5e0ca6a88b9536d9936913522bb582fd3a7b6441417db00c3.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 27e024d2e92d734127742ff592920433.safeframe.googlesyndication.com
@@ -5091,7 +5089,6 @@
 0.0.0.0 3.upbeatbut.com
 0.0.0.0 3.wallabyhusky.com
 0.0.0.0 3.whichfreely.com
-0.0.0.0 3.yahoo-homepage.html-load.com
 0.0.0.0 3.yahoolock.com
 0.0.0.0 3000856707.rtb.pixad.com.tr
 0.0.0.0 3000fromenterprises.net
@@ -5187,6 +5184,7 @@
 0.0.0.0 3174944.fls.doubleclick.net
 0.0.0.0 317729.redirect.appmetrica.yandex.com
 0.0.0.0 317796hmh.de
+0.0.0.0 31782bc8384a919a44da.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 318-vqk-428.mktoresp.com
 0.0.0.0 31839.thanksgivingdelights.name
 0.0.0.0 318adbf25a4d9c8f11941233156919c56fcd60bd.cws.conviva.com
@@ -5911,7 +5909,6 @@
 0.0.0.0 4.wallabyhusky.com
 0.0.0.0 4.whichfreely.com
 0.0.0.0 4.xbbznszm.com
-0.0.0.0 4.yahoo-homepage.html-load.com
 0.0.0.0 4.yahoolock.com
 0.0.0.0 400-eui-503.mktoresp.com
 0.0.0.0 4001707.fls.doubleclick.net
@@ -6536,6 +6533,7 @@
 0.0.0.0 4byvmqjqvpy6ce8rh.cfd
 0.0.0.0 4c054921758be759504fdf2c75abc1a0.safeframe.googlesyndication.com
 0.0.0.0 4c0cc3bae42e8987d2623d4854cfc9e2.safeframe.googlesyndication.com
+0.0.0.0 4c159f9eef4928fa1769.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 4c163fadcef1d30359122792391fb70d.safeframe.googlesyndication.com
 0.0.0.0 4c1906e91e9b4f60a6d7266e8363ed0d-e44177b6b805.cdn.forter.com
 0.0.0.0 4c1nac-cdn-settings.appsflyersdk.com
@@ -6804,7 +6802,6 @@
 0.0.0.0 5.upbeatbut.com
 0.0.0.0 5.wallabyhusky.com
 0.0.0.0 5.whichfreely.com
-0.0.0.0 5.yahoo-homepage.html-load.com
 0.0.0.0 5.yahoolock.com
 0.0.0.0 500008661.collect.igodigital.com
 0.0.0.0 500008751.collect.igodigital.com
@@ -7139,6 +7136,7 @@
 0.0.0.0 542-fmf-412.mktoresp.com
 0.0.0.0 542411.ms.dzen.ru
 0.0.0.0 542431.ms.dzen.ru
+0.0.0.0 54299e6c64184a55fe7c.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 5432005.fls.doubleclick.net
 0.0.0.0 5432007.fls.doubleclick.net
 0.0.0.0 5434276.fls.doubleclick.net
@@ -7393,6 +7391,7 @@
 0.0.0.0 5876121.fls.doubleclick.net
 0.0.0.0 5877472.fls.doubleclick.net
 0.0.0.0 5877605.fls.doubleclick.net
+0.0.0.0 5877db677aef3c16a17b.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 5878462.fls.doubleclick.net
 0.0.0.0 5879492.fls.doubleclick.net
 0.0.0.0 5879493.fls.doubleclick.net
@@ -7464,6 +7463,7 @@
 0.0.0.0 5abb5018446fddc7140b75be13b87dcc.scashwl.com
 0.0.0.0 5ac028ad13716ce6ae8227816e2d4ebd.safeframe.googlesyndication.com
 0.0.0.0 5acf6cbf25543997bc4b9e67ff766b84.safeframe.googlesyndication.com
+0.0.0.0 5aed0186eaefe2df612e.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 5b00cfc68ffcda9c3cb87425eaf15c43.safeframe.googlesyndication.com
 0.0.0.0 5b0a1c63v9.com
 0.0.0.0 5b101f368751da19ad5a69ed06ed59f1.safeframe.googlesyndication.com
@@ -7772,7 +7772,6 @@
 0.0.0.0 6.upbeatbut.com
 0.0.0.0 6.wallabyhusky.com
 0.0.0.0 6.whichfreely.com
-0.0.0.0 6.yahoo-homepage.html-load.com
 0.0.0.0 6.yahoolock.com
 0.0.0.0 6003bbd180119a239cbe61b76aa5c87f.safeframe.googlesyndication.com
 0.0.0.0 6004acce92c94b775719613bf02ecf0e.safeframe.googlesyndication.com
@@ -8669,7 +8668,6 @@
 0.0.0.0 7.w6xwt2ygfq2o5z95.cfd
 0.0.0.0 7.wallabyhusky.com
 0.0.0.0 7.whichfreely.com
-0.0.0.0 7.yahoo-homepage.html-load.com
 0.0.0.0 7.yahoolock.com
 0.0.0.0 7000732.collect.igodigital.com
 0.0.0.0 7000878.collect.igodigital.com
@@ -9312,7 +9310,6 @@
 0.0.0.0 8.upbeatbut.com
 0.0.0.0 8.wallabyhusky.com
 0.0.0.0 8.whichfreely.com
-0.0.0.0 8.yahoo-homepage.html-load.com
 0.0.0.0 8.yahoolock.com
 0.0.0.0 800-plk-665.mktoresp.com
 0.0.0.0 800-tiv-782.mktoresp.com
@@ -9919,6 +9916,7 @@
 0.0.0.0 885e2dd94adb263c2321d2d0f3778d18523bce4a.ipv6.cws.conviva.com
 0.0.0.0 8863891.fls.doubleclick.net
 0.0.0.0 8865438.fls.doubleclick.net
+0.0.0.0 886d8abcd17e26cbdd2a.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 8870787.fls.doubleclick.net
 0.0.0.0 8875090.fls.doubleclick.net
 0.0.0.0 8877379.fls.doubleclick.net
@@ -10323,7 +10321,6 @@
 0.0.0.0 9.upbeatbut.com
 0.0.0.0 9.wallabyhusky.com
 0.0.0.0 9.whichfreely.com
-0.0.0.0 9.yahoo-homepage.html-load.com
 0.0.0.0 9.yahoolock.com
 0.0.0.0 9000292.fls.doubleclick.net
 0.0.0.0 9000388.spxl.socy.es
@@ -19920,6 +19917,7 @@
 0.0.0.0 acacb.glassboxdigital.io
 0.0.0.0 acacdn.com
 0.0.0.0 acaciafilterfrantically.com
+0.0.0.0 acad2f74302e299f6905.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 academics.academicsuperstore.com
 0.0.0.0 academy.demdex.net
 0.0.0.0 academy.evergage.com
@@ -25217,6 +25215,7 @@
 0.0.0.0 analitica.citiservi.es
 0.0.0.0 analitica.webrpp.com
 0.0.0.0 analitik.bik.gov.tr
+0.0.0.0 analitik.hoki.asia
 0.0.0.0 analitits.com
 0.0.0.0 analitycs.net
 0.0.0.0 analy1.dtnnetwork.be
@@ -25496,6 +25495,7 @@
 0.0.0.0 analytics.divulg.org
 0.0.0.0 analytics.dns-shop.ru
 0.0.0.0 analytics.dollyslifeofmanycolors.com
+0.0.0.0 analytics.dovendi.com
 0.0.0.0 analytics.dpd.com
 0.0.0.0 analytics.dspunion.com
 0.0.0.0 analytics.dsyqt.com
@@ -25534,6 +25534,7 @@
 0.0.0.0 analytics.femina.se
 0.0.0.0 analytics.ferrero.com
 0.0.0.0 analytics.ff.avast.com
+0.0.0.0 analytics.files.fm
 0.0.0.0 analytics.firespring.com
 0.0.0.0 analytics.firespring.com.re.getclicky.com
 0.0.0.0 analytics.fishtrack.com
@@ -25786,6 +25787,7 @@
 0.0.0.0 analytics.prod.tophat.withbuddies.com
 0.0.0.0 analytics.projectcarmen.com
 0.0.0.0 analytics.propensity.com
+0.0.0.0 analytics.prosites.com
 0.0.0.0 analytics.proxer.me
 0.0.0.0 analytics.publir.com
 0.0.0.0 analytics.purelovers.com
@@ -25892,6 +25894,7 @@
 0.0.0.0 analytics.ticimax.cloud
 0.0.0.0 analytics.ticketmaster.com
 0.0.0.0 analytics.tiendaenoferta.com
+0.0.0.0 analytics.tiiny.net
 0.0.0.0 analytics.tiki.vn
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.tio.ch
@@ -26022,10 +26025,13 @@
 0.0.0.0 analytics00.meride.tv
 0.0.0.0 analytics1.dillards.com
 0.0.0.0 analytics1.vdo.ai
+0.0.0.0 analytics1.wpmudev.com
 0.0.0.0 analytics2-3-meride-tv.akamaized.net
 0.0.0.0 analytics2-meride-tv.akamaized.net
 0.0.0.0 analytics2.m2.ai
+0.0.0.0 analytics2.wpmudev.com
 0.0.0.0 analytics2.yollamedia.com
+0.0.0.0 analytics3.wpmudev.com
 0.0.0.0 analyticsbusiness.ing.ro
 0.0.0.0 analyticsehnwe.servicebus.windows.net
 0.0.0.0 analyticshap.localytics.com
@@ -26036,7 +26042,6 @@
 0.0.0.0 analyticsnossl.forcepoint.com
 0.0.0.0 analyticsplusdev.clientify.net
 0.0.0.0 analyticsresults.datev-mymarketing.de
-0.0.0.0 analyticsresults.datev.com
 0.0.0.0 analyticsresults.datev.de
 0.0.0.0 analyticsresults.dev.datev.de
 0.0.0.0 analyticssec.overwolf.com
@@ -26447,6 +26452,7 @@
 0.0.0.0 ap.blueconic.net
 0.0.0.0 ap.brand-display.com
 0.0.0.0 ap.cpatrk.net
+0.0.0.0 ap.emergent.sh
 0.0.0.0 ap.lijit.com
 0.0.0.0 ap.modulepush.com
 0.0.0.0 ap.octopuspop.com
@@ -27537,6 +27543,7 @@
 0.0.0.0 app.optinmonster.com
 0.0.0.0 app.osubeavers.com
 0.0.0.0 app.owlsports.com
+0.0.0.0 app.pageview.app
 0.0.0.0 app.partnermatic.com
 0.0.0.0 app.payments-response.americanexpress.co.uk
 0.0.0.0 app.pbr.com
@@ -34367,6 +34374,7 @@
 0.0.0.0 c7f22da8bd.com
 0.0.0.0 c7f2e1e10e.9dca841dfa.com
 0.0.0.0 c7hfs0.cdn-settings.appsflyersdk.com
+0.0.0.0 c802d40760eaa8a5b297.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 c80d5a27881489f58bb3a2071ee0e446.safeframe.googlesyndication.com
 0.0.0.0 c815mg3lrb6646kl.cfd
 0.0.0.0 c844c71945453424764b03ac9dc7d7ae.safeframe.googlesyndication.com
@@ -36809,6 +36817,8 @@
 0.0.0.0 cf-native.karte.io
 0.0.0.0 cf-oss.gname.net
 0.0.0.0 cf-pixelfront-analytics.widencdn.net
+0.0.0.0 cf-prod-eu-proxy.europehog.com
+0.0.0.0 cf-prod-us-proxy.proxyhog.com
 0.0.0.0 cf.adxcel.com
 0.0.0.0 cf.alcmpn.com
 0.0.0.0 cf.api.instant.one
@@ -45482,6 +45492,7 @@
 0.0.0.0 dc6ae44e331268f9b6fd8c1ac7d6b24a5f34d806e2ad2a6e72ce26aebbd78dd.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 dc79a13279b9f7969f72ab1cff534cd0c3837b17a1974d4f955ed50650d8d02.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 dc8na2hxrj29i.cloudfront.net
+0.0.0.0 dc98c1550fb38fdc8b6c.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 dc9xwpjprguup.cloudfront.net
 0.0.0.0 dcai7bdiz5toz.cloudfront.net
 0.0.0.0 dcapi.dmp.3lift.com
@@ -52619,6 +52630,7 @@
 0.0.0.0 europe.getjad.io
 0.0.0.0 europeanivanprestigious.com
 0.0.0.0 europeanplash.com
+0.0.0.0 europehog.com
 0.0.0.0 europuls.eu
 0.0.0.0 eurtb.adtelligent.com
 0.0.0.0 eurtb.unoadsrv.com
@@ -53809,6 +53821,7 @@
 0.0.0.0 f0cmqjk.com
 0.0.0.0 f0d974daed.com
 0.0.0.0 f0dee35014.com
+0.0.0.0 f0f8955a7713a2bfefc4.cf-prod-eu-proxy.europehog.com
 0.0.0.0 f0ff8b143fd39f9e0e40a6839553c01c.safeframe.googlesyndication.com
 0.0.0.0 f0otep.inapps.appsflyersdk.com
 0.0.0.0 f0otpa.launches.appsflyersdk.com
@@ -53973,6 +53986,7 @@
 0.0.0.0 f65qplod.xyz
 0.0.0.0 f670962718c9935eb83ab1a45130b74f.safeframe.googlesyndication.com
 0.0.0.0 f67f5621ffe91bcfc92e18f677aa94946bea1a075dd06b2db2daf88eeb28ea6.us-east-1.prod.service.minerva.devices.a2z.com
+0.0.0.0 f68365e53a35316d52c7.cf-prod-us-proxy.proxyhog.com
 0.0.0.0 f6a06c09c358f68176ae0a80be1eeed7.safeframe.googlesyndication.com
 0.0.0.0 f6a1bf9e71bd.cdn4.forter.com
 0.0.0.0 f6a2f63456a2feb51cbfe0ff52995633.safeframe.googlesyndication.com
@@ -54438,7 +54452,6 @@
 0.0.0.0 fb.adsrvr.org
 0.0.0.0 fb.afi-b.com
 0.0.0.0 fb.fortvision.com
-0.0.0.0 fb.yahoo-homepage.html-load.com
 0.0.0.0 fb257e4cc007f95f29b7b547ec2c74b5.safeframe.googlesyndication.com
 0.0.0.0 fb319ac34c885502cae9a5be17b4593f.safeframe.googlesyndication.com
 0.0.0.0 fb65bcdf17bea77a403096da9d364821.safeframe.googlesyndication.com
@@ -65971,7 +65984,6 @@
 0.0.0.0 info.mactac.com
 0.0.0.0 info.madronafinancial.com
 0.0.0.0 info.magnuspen.com
-0.0.0.0 info.managementsuccess.com
 0.0.0.0 info.marketing.spxflow.com
 0.0.0.0 info.marketingcube.com.au
 0.0.0.0 info.marshmsp.com
@@ -66139,7 +66151,6 @@
 0.0.0.0 info.theaba.org
 0.0.0.0 info.thecentennial.aleragroup.com
 0.0.0.0 info.thecolonialcenter.com
-0.0.0.0 info.themichaelmannteam.com
 0.0.0.0 info.themsrgroup.com
 0.0.0.0 info.thepgaofamerica.com
 0.0.0.0 info.theprogressiveaccountant.com
@@ -70996,7 +71007,6 @@
 0.0.0.0 krpup6.launches.appsflyersdk.com
 0.0.0.0 krpzrjejyniif.online
 0.0.0.0 krrtb.c.appier.net
-0.0.0.0 krskux.newhaircaps.com.br
 0.0.0.0 krudavmbgnwrc.website
 0.0.0.0 krumanunsmote.com
 0.0.0.0 krush-match.dotomi.com
@@ -71643,6 +71653,7 @@
 0.0.0.0 land.izuchai.dance
 0.0.0.0 land.modulepush.com
 0.0.0.0 land.pixelsee.app
+0.0.0.0 lander.parity.domains
 0.0.0.0 lander1.landerpages.store
 0.0.0.0 landerhq.com
 0.0.0.0 landing-activemeetings.wolterskluwer.com
@@ -73351,6 +73362,7 @@
 0.0.0.0 lofcdljzqswbs.online
 0.0.0.0 lofi.drinkwillies.com
 0.0.0.0 lofo3l15c674.platform.replai.io
+0.0.0.0 loft-analytics.gtmcapital.com.br
 0.0.0.0 loft-us.attn.tv
 0.0.0.0 loft.attn.tv
 0.0.0.0 loftyknifeeducate.com
@@ -73556,6 +73568,7 @@
 0.0.0.0 log.photorecoverypicturerecovery.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 log.pipeline.datarize.io
+0.0.0.0 log.plausible.space
 0.0.0.0 log.plo.vn
 0.0.0.0 log.polarisoffice.com
 0.0.0.0 log.prezi.com
@@ -76629,12 +76642,15 @@
 0.0.0.0 matomo.clanto.cloud
 0.0.0.0 matomo.cloudfront.similarweb.io
 0.0.0.0 matomo.datago.ru
+0.0.0.0 matomo.datasanalytics.com
+0.0.0.0 matomo.eshop-rychle.cz
 0.0.0.0 matomo.goteborgco.se
 0.0.0.0 matomo.lantmannen.com
 0.0.0.0 matomo.lulea.se
 0.0.0.0 matomo.mindbite.cloud
 0.0.0.0 matomo.motorpresse.de
 0.0.0.0 matomo.nokportalen.se
+0.0.0.0 matomo.optisigns.com
 0.0.0.0 matomo.performax.cz
 0.0.0.0 matomo.similarweb.io
 0.0.0.0 matomo.stackvaults.com
@@ -77191,7 +77207,6 @@
 0.0.0.0 mdsp.avazutracking.net
 0.0.0.0 mdst0m-launches.appsflyersdk.com
 0.0.0.0 mdstats.info
-0.0.0.0 mdt.noticias-nobrasil.com
 0.0.0.0 mdt.simpleorganic.com.br
 0.0.0.0 mdtb-cf-1.ads.aps.amazon-adsystem.com
 0.0.0.0 mdtb-cf-2.ads.aps.amazon-adsystem.com
@@ -77872,7 +77887,6 @@
 0.0.0.0 metric.barclaycardus.com
 0.0.0.0 metric.baylorhealth.com
 0.0.0.0 metric.bostonscientific.com
-0.0.0.0 metric.caixabank.es
 0.0.0.0 metric.carview.co.jp
 0.0.0.0 metric.ch.nissan.co.jp
 0.0.0.0 metric.changiairport.com
@@ -80597,7 +80611,6 @@
 0.0.0.0 mrk9i.ttrk.io
 0.0.0.0 mrkaiufqsytov.space
 0.0.0.0 mrkjo1f9kz.com
-0.0.0.0 mrksmm.yumegazai.com
 0.0.0.0 mrktmtrcs.net
 0.0.0.0 mrlangwkahuoh.space
 0.0.0.0 mrlscr.com
@@ -82927,7 +82940,6 @@
 0.0.0.0 node-04.adsrv.net
 0.0.0.0 node-05.adsrv.net
 0.0.0.0 node-06.adsrv.net
-0.0.0.0 node.aibeacon.jp
 0.0.0.0 node.gameads.io
 0.0.0.0 node.pbstck.com
 0.0.0.0 node.phts.io
@@ -112761,6 +112773,7 @@
 0.0.0.0 pls.ximad.com
 0.0.0.0 pls03.ximad.com
 0.0.0.0 pls04.ximad.com
+0.0.0.0 plsbl.eu
 0.0.0.0 plscllpvblcfq.site
 0.0.0.0 plsec7wll8.com
 0.0.0.0 pltamaxr.com
@@ -114774,6 +114787,7 @@
 0.0.0.0 proxy.telemetry.us-ashburn-1.oci.oraclecloud.com
 0.0.0.0 proxy.trysavvy.com
 0.0.0.0 proxy4mmo.com
+0.0.0.0 proxyhog.com
 0.0.0.0 proxyjs.brdtnet.com
 0.0.0.0 proxyjs.bright-sdk.com
 0.0.0.0 prp.adtima.vn
@@ -116483,7 +116497,6 @@
 0.0.0.0 qqhjdsbubacon.online
 0.0.0.0 qqhuwthhmxeuc.space
 0.0.0.0 qqidgsfbruknh.site
-0.0.0.0 qqinrm.jagodo.vn
 0.0.0.0 qqjchhamewpmi.space
 0.0.0.0 qqjlbzqlqouna.space
 0.0.0.0 qqjtldyoobxpo.online
@@ -124396,6 +124409,7 @@
 0.0.0.0 server.quanta.la
 0.0.0.0 server.servicosocialdesaudevisual.com.br
 0.0.0.0 server.setupninja.com.br
+0.0.0.0 server.sgtm-legacy.kleinanzeigen.de
 0.0.0.0 server.smartytech.io
 0.0.0.0 server.telemetry.services.yofi.ai
 0.0.0.0 server.ybera.com
@@ -126296,7 +126310,6 @@
 0.0.0.0 smetrics.americanairlines.in
 0.0.0.0 smetrics.americanblinds.com
 0.0.0.0 smetrics.americancentury.com
-0.0.0.0 smetrics.americanconnection.io
 0.0.0.0 smetrics.americanway.com
 0.0.0.0 smetrics.americastire.com
 0.0.0.0 smetrics.amersportsproclub.com
@@ -132165,6 +132178,7 @@
 0.0.0.0 stats.kihonmedia.com.re.getclicky.com
 0.0.0.0 stats.kroger.com
 0.0.0.0 stats.ksearchnet.com
+0.0.0.0 stats.kwvprfcr.xyz
 0.0.0.0 stats.lab.zalo.ai
 0.0.0.0 stats.lag-avtal.se
 0.0.0.0 stats.landingi.com
@@ -133070,7 +133084,6 @@
 0.0.0.0 subwhfrsfjcip.online
 0.0.0.0 succahodorant.cyou
 0.0.0.0 succahssuture.cfd
-0.0.0.0 success.azzure-it.com
 0.0.0.0 success.benico.com
 0.0.0.0 success.catman.global
 0.0.0.0 success.ebmcatalyst.com
@@ -134006,6 +134019,7 @@
 0.0.0.0 sync6.im-apps.net
 0.0.0.0 syncadnimation.com.cootlogix.com
 0.0.0.0 syncapester.cootlogix.com
+0.0.0.0 syncbm.com
 0.0.0.0 syncdexerto.cootlogix.com
 0.0.0.0 syncexco.cootlogix.com
 0.0.0.0 syncf.tubemogul.com
@@ -134401,6 +134415,7 @@
 0.0.0.0 t.kadcyla.com
 0.0.0.0 t.karte.io
 0.0.0.0 t.kck.st
+0.0.0.0 t.korio.fr
 0.0.0.0 t.krannertcenter.com
 0.0.0.0 t.kstatesports.com
 0.0.0.0 t.ksuowls.com
@@ -138881,6 +138896,7 @@
 0.0.0.0 track.smaato.net
 0.0.0.0 track.social.com
 0.0.0.0 track.sohu.com
+0.0.0.0 track.solunexnexoria.vip
 0.0.0.0 track.solutions.ostechnology.co.jp
 0.0.0.0 track.solventum.com
 0.0.0.0 track.sp.crdl.io
@@ -139453,6 +139469,7 @@
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.inuvo.com
 0.0.0.0 tracking.iwhop.cn
+0.0.0.0 tracking.joker.com
 0.0.0.0 tracking.jotform.com
 0.0.0.0 tracking.jp.se
 0.0.0.0 tracking.justpremium.com
@@ -139725,6 +139742,7 @@
 0.0.0.0 tracking.voxeus.com
 0.0.0.0 tracking.vtcnew.com.vn
 0.0.0.0 tracking.vviinn.com
+0.0.0.0 tracking.wallpapers.com
 0.0.0.0 tracking.wao-corp.com
 0.0.0.0 tracking.waterfrontmedia.com
 0.0.0.0 tracking.webtradecenter.com
@@ -141458,6 +141476,7 @@
 0.0.0.0 u1gdzm-conversions.appsflyersdk.com
 0.0.0.0 u1gdzm-launches.appsflyersdk.com
 0.0.0.0 u1gdzm-register.appsflyersdk.com
+0.0.0.0 u1n.top
 0.0.0.0 u1qznd-cdn-settings.appsflyersdk.com
 0.0.0.0 u2.bumlam.com
 0.0.0.0 u2smartlinks.com
@@ -147559,6 +147578,7 @@
 0.0.0.0 weardogtiepirned.cfd
 0.0.0.0 weare.ballymoregroup.com
 0.0.0.0 wearemiq.com
+0.0.0.0 wearenalytics.com
 0.0.0.0 wearfigs-us.attn.tv
 0.0.0.0 wearfigs.attn.tv
 0.0.0.0 wearinessattached.com
@@ -151035,6 +151055,7 @@
 0.0.0.0 www.packeteagle.com
 0.0.0.0 www.padlockmanners.com
 0.0.0.0 www.padsabs.com
+0.0.0.0 www.page-stats.de
 0.0.0.0 www.pages05.net
 0.0.0.0 www.pairsdismissedralph.com
 0.0.0.0 www.pajrazrabr.in
@@ -153750,7 +153771,6 @@
 0.0.0.0 yahfpt.cdn-settings.appsflyersdk.com
 0.0.0.0 yahfpt.launches.appsflyersdk.com
 0.0.0.0 yahoo-bidout-d.openx.net
-0.0.0.0 yahoo-homepage.html-load.com
 0.0.0.0 yahoo-match.dotomi.com
 0.0.0.0 yahooads.valuead.com
 0.0.0.0 yahoodns.netbam.nr-data.net
