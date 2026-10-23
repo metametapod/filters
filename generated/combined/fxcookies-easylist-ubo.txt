@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-10-22T02:52:56Z
+! Last modified: 2026-10-23T02:56:42Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 21 Oct 2026 17:40:31 +0000
+! Last modified: Thu, 22 Oct 2026 12:27:42 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18347,7 +18347,6 @@ kwik-fit.com##.cookie-settings-message
 snappyshopper.co.uk##.cookie-snackbar
 chatspin.com,flingster.com##.cookie-use-notice
 rebeltech.co.za##.cookie-wall
-pl.jura.com,theopen.com##.cookie-warning
 fishermap.org,ittelo.ru,xn--90aivcdt6dxbc.xn--p1ai##.cookie-window
 btimesonline.com##.cookieAcceptBar
 woktowalk.com##.cookieAceptance
@@ -18975,6 +18974,7 @@ mercusys.com##.mercusys-cookie-eu
 investors.com,merixstudio.com,sapabuildingsystem.com,steadfastnz.nz,tartybikes.co.uk,timesofisrael.com##.message
 bladehq.com##.message-accept-container
 heedbook.com##.message-alert
+larose.care##.message-popup-background-ui:has(> .cookie-notice-ui)
 gametwist.com##.message__container
 ibei.org##.messages
 foreignaffairs.com##.messages--container--bottom
@@ -20522,7 +20522,7 @@ mintransporte.gov.co,msm.co,xmasgiftsonline.nl###cookies-block
 !! .cookie-wall
 confused.com,lanzaloe.com,threadstone.eu,wembleypark.com##.cookie-wall
 !! .cookie-warning
-chromehearts.com,nahb.org,nespresso.com##.cookie-warning
+chromehearts.com,garlyn.ru,nahb.org,nespresso.com,pl.jura.com,theopen.com##.cookie-warning
 !! .gdpr-body
 boromir.ro##.gdpr-body
 !! gdpr_
