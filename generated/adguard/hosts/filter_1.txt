@@ -22723,6 +22723,7 @@
 0.0.0.0 adsfs.oppomobile.com
 0.0.0.0 adsgateway.net
 0.0.0.0 adsgo.nhipcaudautu.vn
+0.0.0.0 adsgravity.io
 0.0.0.0 adsh.wagbridge.1688.alimama.com
 0.0.0.0 adsh.wagbridge.alibaba.alimama.com
 0.0.0.0 adsh.wagbridge.tanx.alimama.com
@@ -27352,6 +27353,7 @@
 0.0.0.0 apps.ad.snappea.com
 0.0.0.0 apps.ad.snaptube.app
 0.0.0.0 apps.admob.com
+0.0.0.0 apps.adsgravity.io
 0.0.0.0 apps.ants.vn
 0.0.0.0 apps.conduit-banners.com
 0.0.0.0 apps.fourthwall.app
@@ -34901,6 +34903,7 @@
 0.0.0.0 cdn.mmtro.com
 0.0.0.0 cdn.mn1nm.com
 0.0.0.0 cdn.mobilefuse.com
+0.0.0.0 cdn.modusygunaciro.com
 0.0.0.0 cdn.moengage.com
 0.0.0.0 cdn.moloco.com
 0.0.0.0 cdn.monetixads.com
@@ -37468,6 +37471,7 @@
 0.0.0.0 collect.mxapis.com
 0.0.0.0 collect.nature.com
 0.0.0.0 collect.ovp.vn
+0.0.0.0 collect.pravdastat.com
 0.0.0.0 collect.purple.com
 0.0.0.0 collect.rebelmouse.io
 0.0.0.0 collect.rewardstyle.com
@@ -38280,6 +38284,7 @@
 0.0.0.0 comawww.effectivecreativeformat.com
 0.0.0.0 comb7.prospectprefer.com
 0.0.0.0 combam.nr-data.net
+0.0.0.0 combatbaskstationery.com
 0.0.0.0 combativedetail.com
 0.0.0.0 combbit.com
 0.0.0.0 combcattle.com
@@ -71023,6 +71028,7 @@
 0.0.0.0 m.koxuwurutihugi.com
 0.0.0.0 m.loopme.me
 0.0.0.0 m.mixadvert.com
+0.0.0.0 m.modusygunaciro.com
 0.0.0.0 m.mpl.dutils.com
 0.0.0.0 m.mplxtms.com
 0.0.0.0 m.mywd.com
@@ -74883,6 +74889,7 @@
 0.0.0.0 metrics.seabourn.com
 0.0.0.0 metrics.seb.se
 0.0.0.0 metrics.sebgroup.com
+0.0.0.0 metrics.selectel.ru
 0.0.0.0 metrics.seloger.com
 0.0.0.0 metrics.sensai-cosmetics.com
 0.0.0.0 metrics.sentido.com
@@ -76100,6 +76107,7 @@
 0.0.0.0 modulepush.com
 0.0.0.0 modules.promolayer.io
 0.0.0.0 modus01.webtrekk.net
+0.0.0.0 modusygunaciro.com
 0.0.0.0 moe.video
 0.0.0.0 moevideo-sync.rutarget.ru
 0.0.0.0 moevideo.biz
@@ -81158,6 +81166,7 @@
 0.0.0.0 orfw.adsafeprotected.com
 0.0.0.0 orfwlb.adsafeprotected.com
 0.0.0.0 org.102.122.2o7.net
+0.0.0.0 organic-package.com
 0.0.0.0 organicowner.com
 0.0.0.0 organicpimping.com
 0.0.0.0 organismdespite.com
@@ -110704,6 +110713,7 @@
 0.0.0.0 pxl-eu.juneworewyjyna.com
 0.0.0.0 pxl-eu.koxuwurutihugi.com
 0.0.0.0 pxl-eu.mejewusodovuca.com
+0.0.0.0 pxl-eu.modusygunaciro.com
 0.0.0.0 pxl-eu.nyhizyjybawozi.com
 0.0.0.0 pxl-eu.rtb.runative-syndicate.com
 0.0.0.0 pxl-eu.rtb.tsyndicate.com
@@ -110717,6 +110727,7 @@
 0.0.0.0 pxl-us.juneworewyjyna.com
 0.0.0.0 pxl-us.koxuwurutihugi.com
 0.0.0.0 pxl-us.mejewusodovuca.com
+0.0.0.0 pxl-us.modusygunaciro.com
 0.0.0.0 pxl-us.nyhizyjybawozi.com
 0.0.0.0 pxl-us.rtb.runative-syndicate.com
 0.0.0.0 pxl-us.rtb.tsyndicate.com
@@ -126310,7 +126321,6 @@
 0.0.0.0 stats.docu.info
 0.0.0.0 stats.drillisch-online.de
 0.0.0.0 stats.dtiserv2.com
-0.0.0.0 stats.dulo.gd
 0.0.0.0 stats.ehandel.se
 0.0.0.0 stats.ellos.dk
 0.0.0.0 stats.emol.com
@@ -127553,6 +127563,7 @@
 0.0.0.0 svacdn.juneworewyjyna.com
 0.0.0.0 svacdn.koxuwurutihugi.com
 0.0.0.0 svacdn.mejewusodovuca.com
+0.0.0.0 svacdn.modusygunaciro.com
 0.0.0.0 svacdn.tsyndicate.com
 0.0.0.0 svacdn.tubexazimebeze.com
 0.0.0.0 svacdn77.tsyndicate.com
@@ -129938,6 +129949,7 @@
 0.0.0.0 telemetry.nbcuott.com
 0.0.0.0 telemetry.novomedlink.com
 0.0.0.0 telemetry.owenscorning.com
+0.0.0.0 telemetry.paypay.ne.jp
 0.0.0.0 telemetry.phenixrts.com
 0.0.0.0 telemetry.proton.me
 0.0.0.0 telemetry.ruthschris.com
@@ -135896,6 +135908,8 @@
 0.0.0.0 umagccwbbjlne.space
 0.0.0.0 umahvvivrpbfx.online
 0.0.0.0 umami.nordiskehandel.cloud
+0.0.0.0 umami.vidfast.vc
+0.0.0.0 umami.vidup.to
 0.0.0.0 umauirfyhaepr.online
 0.0.0.0 umb.evergage.com
 0.0.0.0 umbelcannons.com
@@ -143220,6 +143234,7 @@
 0.0.0.0 www.coinimp.com
 0.0.0.0 www.collserve.com
 0.0.0.0 www.colonistnobilityheroic.com
+0.0.0.0 www.combatbaskstationery.com
 0.0.0.0 www.comcastbiz.com
 0.0.0.0 www.comicad.net
 0.0.0.0 www.commendhealthagitation.com
