@@ -25452,6 +25452,7 @@
 0.0.0.0 analytics.schoolwires.com
 0.0.0.0 analytics.scorpion.co
 0.0.0.0 analytics.seagate.com
+0.0.0.0 analytics.searchspring.net
 0.0.0.0 analytics.servogram.io
 0.0.0.0 analytics.sgnapps.com
 0.0.0.0 analytics.shareaholic.com
@@ -26130,6 +26131,7 @@
 0.0.0.0 aphxav.green-acres.it
 0.0.0.0 api-4know-em.hismarttv.com
 0.0.0.0 api-4know-eu.hismarttv.com
+0.0.0.0 api-abtest-cdn.learnings.ai
 0.0.0.0 api-access-lb-med-sg.pangle.io
 0.0.0.0 api-access-wf-va.pangle.io
 0.0.0.0 api-access.pangolin-sdk-toutiao-b.com
@@ -26354,6 +26356,7 @@
 0.0.0.0 api.chartbeat.com
 0.0.0.0 api.cityads.com
 0.0.0.0 api.clarity.abacast.com
+0.0.0.0 api.claydar.com
 0.0.0.0 api.clickaine.com
 0.0.0.0 api.clickcease.com
 0.0.0.0 api.clicktripz.com
@@ -34611,6 +34614,7 @@
 0.0.0.0 cdn.celtra.com
 0.0.0.0 cdn.cityads.com
 0.0.0.0 cdn.ck4hkyq3myt6.com
+0.0.0.0 cdn.claydar.com
 0.0.0.0 cdn.clickagy.com
 0.0.0.0 cdn.clickfuse.com
 0.0.0.0 cdn.clickiocdn.com
@@ -35106,6 +35110,7 @@
 0.0.0.0 cdn.smlog.co.kr
 0.0.0.0 cdn.snigelweb.com
 0.0.0.0 cdn.snippet.abtshield.com
+0.0.0.0 cdn.snitcher.com
 0.0.0.0 cdn.snsv.ru
 0.0.0.0 cdn.solads.media
 0.0.0.0 cdn.solocpm.com
@@ -36418,6 +36423,7 @@
 0.0.0.0 claudfront.net
 0.0.0.0 clauzmknmsmfh.online
 0.0.0.0 claycandle.com
+0.0.0.0 claydar.com
 0.0.0.0 claynelsonlifebalance.actonservice.com
 0.0.0.0 clb.yahoo.co.jp
 0.0.0.0 clbanners9.com
@@ -37393,6 +37399,7 @@
 0.0.0.0 cohostsguilfat.com
 0.0.0.0 coilaetian.com
 0.0.0.0 coilapprobationbyword.com
+0.0.0.0 coinad.in
 0.0.0.0 coinad.media
 0.0.0.0 coinads.online
 0.0.0.0 coinadster.com
@@ -47138,6 +47145,7 @@
 0.0.0.0 duchesscakeresumed.com
 0.0.0.0 duchesspleasurelollipop.com
 0.0.0.0 duckvoidrebuke.com
+0.0.0.0 dudgeonideo.com
 0.0.0.0 dudleyrevolutioninconsistent.com
 0.0.0.0 dudppbtqgdvam.site
 0.0.0.0 duduza.mangoads.net
@@ -50381,6 +50389,7 @@
 0.0.0.0 eu-mercury-lb.alphonso.tv
 0.0.0.0 eu-north-1.eu.netcoresmartech.com
 0.0.0.0 eu-notify-rtb.quantserve.com
+0.0.0.0 eu-office.events.data.microsoft.com
 0.0.0.0 eu-onrt-stsdk.vivoglobal.com
 0.0.0.0 eu-ort-stsdk.vivoglobal.com
 0.0.0.0 eu-prog-pix.adstk.io
@@ -56824,6 +56833,7 @@
 0.0.0.0 goodcontentservice.top
 0.0.0.0 goodfoodtours.com
 0.0.0.0 goodimpressioncrboost.com
+0.0.0.0 goodpics.net
 0.0.0.0 goodr-us.attn.tv
 0.0.0.0 goodroid-ads.genieesspv.jp
 0.0.0.0 goodsdunelocated.com
@@ -68351,6 +68361,7 @@
 0.0.0.0 lb.aaxads.com
 0.0.0.0 lb.affilae.com
 0.0.0.0 lb.apicit.net
+0.0.0.0 lb.dudgeonideo.com
 0.0.0.0 lb.eu-1-id5-sync.com
 0.0.0.0 lb.fancydsp.com
 0.0.0.0 lb.gingalbarky.com
@@ -76497,7 +76508,6 @@
 0.0.0.0 mptgate.com
 0.0.0.0 mptkltomzlexc.site
 0.0.0.0 mpu5uf.launches.appsflyersdk.com
-0.0.0.0 mpuls.ru
 0.0.0.0 mputq031w.com
 0.0.0.0 mpvmbjbalqjyc.online
 0.0.0.0 mpvrmvmrlqbwi.site
@@ -112262,6 +112272,7 @@
 0.0.0.0 racunn.com
 0.0.0.0 racv.demdex.net
 0.0.0.0 radar.cedexis.com
+0.0.0.0 radar.snitcher.com
 0.0.0.0 radar.wizzo.media
 0.0.0.0 radexh.icu
 0.0.0.0 radexports.com
@@ -125940,6 +125951,7 @@
 0.0.0.0 static.chartboost.com
 0.0.0.0 static.chavoads.com
 0.0.0.0 static.cheftoondiligord.site
+0.0.0.0 static.claydar.com
 0.0.0.0 static.clickonometrics.pl
 0.0.0.0 static.clicktripz.com
 0.0.0.0 static.clixsense.com
@@ -138204,6 +138216,7 @@
 0.0.0.0 v6.dyntrk.com
 0.0.0.0 v6.eu.1push.io
 0.0.0.0 v6.eu.rollserver.xyz
+0.0.0.0 v6.goodpics.net
 0.0.0.0 v6.kitenugui.com
 0.0.0.0 v6.mobilelog.upqzfile.com
 0.0.0.0 v6.pretty-fly4.com
@@ -138257,6 +138270,7 @@
 0.0.0.0 vacdn.rtb.tsyndicate.com
 0.0.0.0 vacs.movad.net
 0.0.0.0 vacuumcoconut.com
+0.0.0.0 vacuumintendedinhale.com
 0.0.0.0 vacwrite.com
 0.0.0.0 vads.adsboosters.xyz
 0.0.0.0 vads.net.vn
