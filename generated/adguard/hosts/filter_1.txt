@@ -35146,6 +35146,7 @@
 0.0.0.0 cdn.sweetmoonmonth.com
 0.0.0.0 cdn.swinity.com
 0.0.0.0 cdn.sx.adingo.jp
+0.0.0.0 cdn.taboola-display.com
 0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn.taboola.com.cn
 0.0.0.0 cdn.taboolasyndication.com
@@ -50966,6 +50967,7 @@
 0.0.0.0 events.mcgladrey.com
 0.0.0.0 events.mediarithmics.com
 0.0.0.0 events.mercadolibre.com
+0.0.0.0 events.mics-notrack.com
 0.0.0.0 events.missena.io
 0.0.0.0 events.myweb3id.io
 0.0.0.0 events.mz.unity3d.com
@@ -128875,6 +128877,7 @@
 0.0.0.0 tabloidincapable.com
 0.0.0.0 taboola-api.scupio.com
 0.0.0.0 taboola-d.openx.net
+0.0.0.0 taboola-display.com
 0.0.0.0 taboola-supply-partners.tremorhub.com
 0.0.0.0 taboola.com.cn
 0.0.0.0 taboolanews-d.openx.net
@@ -141371,6 +141374,7 @@
 0.0.0.0 weptnastyturmoil.com
 0.0.0.0 weptseasickrhythm.com
 0.0.0.0 weqeagfolnehx.space
+0.0.0.0 werefilledwit.org
 0.0.0.0 weriv6vz.emltrk.com
 0.0.0.0 wernerelectric.actonservice.com
 0.0.0.0 wesbgz.travel.co.jp
