@@ -21542,6 +21542,7 @@
 0.0.0.0 ads-alt.adthrive.com
 0.0.0.0 ads-ap-venues.yinzcam.com
 0.0.0.0 ads-apac-58hnmh.rtb.admanmedia.com
+0.0.0.0 ads-api.daum.net
 0.0.0.0 ads-api.playfun.vn
 0.0.0.0 ads-api.production.nebula-drupal.stuff.co.nz
 0.0.0.0 ads-api.stuff.co.nz
@@ -38184,6 +38185,7 @@
 0.0.0.0 collector.t-idr.com
 0.0.0.0 collector.umogames.com
 0.0.0.0 collector.vhx.tv
+0.0.0.0 collector.wawlabs.com
 0.0.0.0 collector.xhaccess.com
 0.0.0.0 collector.xhamster.best
 0.0.0.0 collector.xhamster.com
