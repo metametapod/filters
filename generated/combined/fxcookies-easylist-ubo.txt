@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-11-05T04:42:01Z
+! Last modified: 2026-11-06T04:41:16Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Wed, 04 Nov 2026 11:35:08 +0000
+! Last modified: Thu, 05 Nov 2026 11:31:12 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -27237,6 +27237,7 @@ sravni.ru##[sr-portal-container]
 sportmk.ru##[style^="position: fixed; left: 50%; bottom:"]
 reshuent.ru,sdamgia.ru##[style^="text-align: left; position: fixed;"]
 gkbyudina.ru##[x-data="BannerCookies"]
+helix.ru##app-cookie-consent
 fastvps.ru##app-cookies-accept
 authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##body > div[style^="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate("]
 svo.aero##cookie

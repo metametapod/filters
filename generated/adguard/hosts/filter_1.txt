@@ -19300,7 +19300,6 @@
 0.0.0.0 aa.sparebank1.no
 0.0.0.0 aa.tescomobile.com
 0.0.0.0 aa.trkn.us
-0.0.0.0 aa.tv.com
 0.0.0.0 aa.tvguide.com
 0.0.0.0 aa.wowma.jp
 0.0.0.0 aa.zdnet.com
@@ -25955,7 +25954,6 @@
 0.0.0.0 aon.smartbrief.com
 0.0.0.0 aonemeaclientcouncil.aon.com
 0.0.0.0 aonjkj.intermundial.es
-0.0.0.0 aooptout.zoominformation.com
 0.0.0.0 aopr1f.launches.appsflyersdk.com
 0.0.0.0 aopwtbxzenjva.online
 0.0.0.0 aoqcqh.eavalyne.lt
@@ -34384,11 +34382,13 @@
 0.0.0.0 cdn-ziraatbankasi.dataroid.com
 0.0.0.0 cdn.007moms.com
 0.0.0.0 cdn.02xl.com
+0.0.0.0 cdn.10waf.com
 0.0.0.0 cdn.13dy.com
 0.0.0.0 cdn.20fm.com
 0.0.0.0 cdn.234doo.com
 0.0.0.0 cdn.254a.com
 0.0.0.0 cdn.33apk.com
+0.0.0.0 cdn.34ys.com
 0.0.0.0 cdn.360yield.com
 0.0.0.0 cdn.3ckz.com
 0.0.0.0 cdn.3lift.com
@@ -34403,6 +34403,7 @@
 0.0.0.0 cdn.9gtb.com
 0.0.0.0 cdn.a00s.net
 0.0.0.0 cdn.a3kvau184uea.com
+0.0.0.0 cdn.aabdr.com
 0.0.0.0 cdn.abtaurosa.club
 0.0.0.0 cdn.activity.bdash-cloud.com
 0.0.0.0 cdn.acuityplatform.com
@@ -34665,6 +34666,7 @@
 0.0.0.0 cdn.districtm.io
 0.0.0.0 cdn.djtig.com
 0.0.0.0 cdn.dmtgvn.com
+0.0.0.0 cdn.dnhay.com
 0.0.0.0 cdn.dokondigit.quest
 0.0.0.0 cdn.doublepimpssl.com
 0.0.0.0 cdn.doubleverify.com
@@ -34678,6 +34680,7 @@
 0.0.0.0 cdn.easy-ads.com
 0.0.0.0 cdn.econventa.com
 0.0.0.0 cdn.edgefn.segment.com
+0.0.0.0 cdn.eeu1.com
 0.0.0.0 cdn.elasticad.net
 0.0.0.0 cdn.emetriq.de
 0.0.0.0 cdn.empower.net
@@ -34737,6 +34740,7 @@
 0.0.0.0 cdn.galaxiemedia.fr
 0.0.0.0 cdn.gameads.io
 0.0.0.0 cdn.gdns.partners-show.com
+0.0.0.0 cdn.geiol.com
 0.0.0.0 cdn.gen-ref.com
 0.0.0.0 cdn.geodns.tubemogul.com
 0.0.0.0 cdn.geozo.com
@@ -34744,6 +34748,7 @@
 0.0.0.0 cdn.getkoala.com
 0.0.0.0 cdn.getsmartcontent.com
 0.0.0.0 cdn.gfpxw.com
+0.0.0.0 cdn.gkccz.com
 0.0.0.0 cdn.glassboxcdn.com
 0.0.0.0 cdn.gmossp-sp.jp
 0.0.0.0 cdn.go.affec.tv
@@ -34756,6 +34761,7 @@
 0.0.0.0 cdn.gsght.com
 0.0.0.0 cdn.gumgum.com
 0.0.0.0 cdn.gv924.com
+0.0.0.0 cdn.gv925.com
 0.0.0.0 cdn.h5v.eu
 0.0.0.0 cdn.hadronid.net
 0.0.0.0 cdn.harvest.graindata.com
@@ -34780,6 +34786,7 @@
 0.0.0.0 cdn.id5-sync.com
 0.0.0.0 cdn.idealmedia.io
 0.0.0.0 cdn.identitypxl.app
+0.0.0.0 cdn.ikuts.com
 0.0.0.0 cdn.impactify.media
 0.0.0.0 cdn.impactslam.com
 0.0.0.0 cdn.includemodal.com
@@ -34813,6 +34820,7 @@
 0.0.0.0 cdn.jampp.com
 0.0.0.0 cdn.jandaqwe.com
 0.0.0.0 cdn.jivox.com
+0.0.0.0 cdn.johov.com
 0.0.0.0 cdn.jokerly.com
 0.0.0.0 cdn.jp1media.com
 0.0.0.0 cdn.js.1p-data.com
@@ -34830,6 +34838,7 @@
 0.0.0.0 cdn.keywee.co
 0.0.0.0 cdn.kinkadservercdn.com
 0.0.0.0 cdn.kitchen.juicer.cc
+0.0.0.0 cdn.kitif.com
 0.0.0.0 cdn.klangoo.com
 0.0.0.0 cdn.klasseo.com
 0.0.0.0 cdn.klickly.com
@@ -34843,6 +34852,7 @@
 0.0.0.0 cdn.leadinfo.net
 0.0.0.0 cdn.leadmanagerfx.com
 0.0.0.0 cdn.lenmit.com
+0.0.0.0 cdn.leuap.com
 0.0.0.0 cdn.lfstmedia.com
 0.0.0.0 cdn.lgrckt-in.com
 0.0.0.0 cdn.lib.getjad.io
@@ -34909,7 +34919,9 @@
 0.0.0.0 cdn.mookie1.com
 0.0.0.0 cdn.mouseflow.com
 0.0.0.0 cdn.movad.net
+0.0.0.0 cdn.mplfm.com
 0.0.0.0 cdn.mplxtms.com
+0.0.0.0 cdn.mtdie.com
 0.0.0.0 cdn.mxapis.com
 0.0.0.0 cdn.mxpnl.com
 0.0.0.0 cdn.myadmessenger.com
@@ -34920,6 +34932,7 @@
 0.0.0.0 cdn.nativery.com
 0.0.0.0 cdn.natpal.com
 0.0.0.0 cdn.navdmp.com
+0.0.0.0 cdn.ncsro.com
 0.0.0.0 cdn.ndg.io
 0.0.0.0 cdn.nearbyad.com
 0.0.0.0 cdn.net.elogia.net
@@ -34951,6 +34964,7 @@
 0.0.0.0 cdn.oneid.live
 0.0.0.0 cdn.onetag.co.kr
 0.0.0.0 cdn.oo-t.com
+0.0.0.0 cdn.ooupa.com
 0.0.0.0 cdn.opecloud.com
 0.0.0.0 cdn.openinstall.io
 0.0.0.0 cdn.optable.co
@@ -34959,6 +34973,7 @@
 0.0.0.0 cdn.optoutadvertising.com
 0.0.0.0 cdn.orangeclickmedia.com
 0.0.0.0 cdn.oremark.com
+0.0.0.0 cdn.ornyk.com
 0.0.0.0 cdn.otclick-adv.ru
 0.0.0.0 cdn.otm-r.com
 0.0.0.0 cdn.otnolatrnup.com
@@ -34969,6 +34984,7 @@
 0.0.0.0 cdn.pabidding.io
 0.0.0.0 cdn.pagesense.io
 0.0.0.0 cdn.particularaudience.com
+0.0.0.0 cdn.pbaal.com
 0.0.0.0 cdn.pbbl.co
 0.0.0.0 cdn.pbstck.com
 0.0.0.0 cdn.pbxai.com
@@ -35168,6 +35184,7 @@
 0.0.0.0 cdn.theadx.com
 0.0.0.0 cdn.thisiswaldo.com
 0.0.0.0 cdn.thk4.com
+0.0.0.0 cdn.thkkr.com
 0.0.0.0 cdn.thrad.ai
 0.0.0.0 cdn.throatbulge.com
 0.0.0.0 cdn.thunderhead.com
@@ -35247,6 +35264,7 @@
 0.0.0.0 cdn.vlyby.com
 0.0.0.0 cdn.volumntime.com
 0.0.0.0 cdn.w55c.net
+0.0.0.0 cdn.waii2.com
 0.0.0.0 cdn.wasp-182b.com
 0.0.0.0 cdn.watchetifuters.cloud
 0.0.0.0 cdn.watchingthat.net
@@ -35269,6 +35287,7 @@
 0.0.0.0 cdn.xapads.com
 0.0.0.0 cdn.xbcpcn.com
 0.0.0.0 cdn.xclick.app
+0.0.0.0 cdn.xkdm8.com
 0.0.0.0 cdn.xpln.tech
 0.0.0.0 cdn.xplosion.de
 0.0.0.0 cdn.y2mad.com
@@ -53533,6 +53552,7 @@
 0.0.0.0 fluffy-reveal.pro
 0.0.0.0 fluffyaltarrecords.com
 0.0.0.0 fluffytracing.com
+0.0.0.0 fluid-player-analytics.sky.it
 0.0.0.0 fluidbagfulwag.com
 0.0.0.0 flurry.com
 0.0.0.0 flurryad.fs-eu.ak-is2.net
@@ -55742,7 +55762,6 @@
 0.0.0.0 get.davincisgold.com
 0.0.0.0 get.evidence.care
 0.0.0.0 get.gaug.es
-0.0.0.0 get.informedmortgage.com
 0.0.0.0 get.mirando.de
 0.0.0.0 get.mycounter.ua
 0.0.0.0 get.nl.ukg.be
@@ -61021,9 +61040,12 @@
 0.0.0.0 icon.dt.mndlvr.com
 0.0.0.0 icon.dt.ptmnd.com
 0.0.0.0 icon.dt.twrmnd.com
+0.0.0.0 icon.eu.admndx.com
+0.0.0.0 icon.eu.agmndx.com
 0.0.0.0 icon.eu.armndx.com
 0.0.0.0 icon.eu.atmnd.com
 0.0.0.0 icon.eu.atmndx.com
+0.0.0.0 icon.eu.avdomnd.com
 0.0.0.0 icon.eu.bmndx.com
 0.0.0.0 icon.eu.cpmndl.com
 0.0.0.0 icon.eu.eemnd.com
@@ -63194,14 +63216,12 @@
 0.0.0.0 info.watertechonline.com
 0.0.0.0 info.wellbe.me
 0.0.0.0 info.weloveournewwindows.com
-0.0.0.0 info.wespath.com
 0.0.0.0 info.westerville.org
 0.0.0.0 info.whitepages.com.au
 0.0.0.0 info.wkf.fr
 0.0.0.0 info.wolterskluwer.de
 0.0.0.0 info.xactflex.com
 0.0.0.0 info.zelmanassociates.com
-0.0.0.0 info.zoominfo-notice.com
 0.0.0.0 info.zoominfotechnologies.com
 0.0.0.0 info.zuidema.nl
 0.0.0.0 info01.on24.com
@@ -65179,7 +65199,6 @@
 0.0.0.0 jimhloyoiczgn.space
 0.0.0.0 jimjampatted.com
 0.0.0.0 jinadsmedia.g2afse.com
-0.0.0.0 jinair.nsc.jinair.com
 0.0.0.0 jincodiks.com
 0.0.0.0 jineslzy.emltrk.com
 0.0.0.0 jingyan.godloveme.cn
@@ -73964,7 +73983,6 @@
 0.0.0.0 metc.banfield.com
 0.0.0.0 metcon.hulu.com
 0.0.0.0 metd11gim.com
-0.0.0.0 meteachugood.holdmybeerconsulting.com
 0.0.0.0 meteortoffee.com
 0.0.0.0 meter-svc.nytimes.com
 0.0.0.0 meter.activemetering.com
@@ -74630,7 +74648,6 @@
 0.0.0.0 metrics.levi.com
 0.0.0.0 metrics.lifetime.life
 0.0.0.0 metrics.liverpool.com.mx
-0.0.0.0 metrics.lmtonline.com
 0.0.0.0 metrics.loblaws.ca
 0.0.0.0 metrics.londoncoffeefestival.com
 0.0.0.0 metrics.lowes.com
@@ -81479,7 +81496,6 @@
 0.0.0.0 oudw850vbx.com
 0.0.0.0 oueltdoqctddl.online
 0.0.0.0 ouepihbzwdvrj.space
-0.0.0.0 oufuqh.kant.ru
 0.0.0.0 ougmxykcrtaud.space
 0.0.0.0 ouheb.inppcdn.com
 0.0.0.0 ouhoxibwjvwuz.site
@@ -82674,6 +82690,7 @@
 0.0.0.0 pbcde.com
 0.0.0.0 pbcs.decider.com
 0.0.0.0 pbcs.nypost.com
+0.0.0.0 pbd.yahoo.com
 0.0.0.0 pbdasszdkbtic.online
 0.0.0.0 pbdiasnrimgbo.online
 0.0.0.0 pbecrm.aquanet.ru
@@ -82754,6 +82771,7 @@
 0.0.0.0 pbs.receptivity.io
 0.0.0.0 pbs.relevant-digital.com
 0.0.0.0 pbs.venatusmedia.com
+0.0.0.0 pbs.yahoo.com
 0.0.0.0 pbs04.eadv.it
 0.0.0.0 pbs2.cpmstar.com
 0.0.0.0 pbs2418030.adspsp.com
@@ -111858,6 +111876,7 @@
 0.0.0.0 quxc7u-cdn-settings.appsflyersdk.com
 0.0.0.0 quxgijjahdogb.site
 0.0.0.0 quxzryrnmaqlz.online
+0.0.0.0 quyerj.northstyle.com
 0.0.0.0 quyxwohgpxsue.online
 0.0.0.0 qv.boultelelatcha.com
 0.0.0.0 qv2obw-cdn-settings.appsflyersdk.com
@@ -118965,7 +118984,6 @@
 0.0.0.0 service.e-volution.ai
 0.0.0.0 service.exitbee.com
 0.0.0.0 service.fyber.com
-0.0.0.0 service.hcob-bank.de
 0.0.0.0 service.innovid.com
 0.0.0.0 service.minerva.devices.a2z.com
 0.0.0.0 service.mobidriven.com
@@ -119699,6 +119717,7 @@
 0.0.0.0 signal-metrics-collector-beta.s-onetag.com
 0.0.0.0 signal-prd.s-onetag.com
 0.0.0.0 signal-segments.s-onetag.com
+0.0.0.0 signal-service.pbs.yahoo.com
 0.0.0.0 signal-vitals-collector-api.s-onetag.com
 0.0.0.0 signalayer.com
 0.0.0.0 signalr-engagement-us-east.velaro.com
@@ -121208,7 +121227,6 @@
 0.0.0.0 smetrics.dxc.com
 0.0.0.0 smetrics.e-abbott.com
 0.0.0.0 smetrics.e-casio.co.jp
-0.0.0.0 smetrics.e-wie-einfach.de
 0.0.0.0 smetrics.earpros.com
 0.0.0.0 smetrics.eas.com
 0.0.0.0 smetrics.eastwestbank.com
@@ -122617,7 +122635,6 @@
 0.0.0.0 smetrics.tarrantcounty.com
 0.0.0.0 smetrics.tastingaustralia.com.au
 0.0.0.0 smetrics.tataaia.com
-0.0.0.0 smetrics.tataaig.com
 0.0.0.0 smetrics.taylormadegolf.com
 0.0.0.0 smetrics.taymark.taylorcorp.com
 0.0.0.0 smetrics.tcm.com
@@ -129569,6 +129586,7 @@
 0.0.0.0 tazigv.launches.appsflyersdk.com
 0.0.0.0 taznfx.renters.pl
 0.0.0.0 tb.de17a.com
+0.0.0.0 tb.pbs.yahoo.com
 0.0.0.0 tb1mdkeni.com
 0.0.0.0 tb4gv2cp5z.com
 0.0.0.0 tbaiatgrlgsdf.space
@@ -129770,6 +129788,7 @@
 0.0.0.0 te.quelle.de
 0.0.0.0 te.sheego.de
 0.0.0.0 te.sieh-an.at
+0.0.0.0 te.sieh-an.ch
 0.0.0.0 te.tapdb.net
 0.0.0.0 te.technical-service.net
 0.0.0.0 te.universal.at
@@ -132148,7 +132167,6 @@
 0.0.0.0 tr.ceeregion.moethennessy.com
 0.0.0.0 tr.chavoads.com
 0.0.0.0 tr.chronodrive.com
-0.0.0.0 tr.ciblexo.fr
 0.0.0.0 tr.cifa02b.espmp-aufr.net
 0.0.0.0 tr.cifa02d.espmp-aufr.net
 0.0.0.0 tr.cifa02k.espmp-aufr.net
@@ -148624,6 +148642,7 @@
 0.0.0.0 zrimyxvxbn.com
 0.0.0.0 zrjmgniyydzaz.space
 0.0.0.0 zrjr81na94.com
+0.0.0.0 zrknjk.countrystorecatalog.com
 0.0.0.0 zrlkfurhitjht.online
 0.0.0.0 zrmtrm.com
 0.0.0.0 zrnsri.vogacloset.com
