@@ -1,6 +1,6 @@
 ! Title: AdGuard/EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-11-07T04:07:45Z
+! Last modified: 2026-11-09T04:05:21Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   AdGuard, EasyList and uBlock Origin cookie notice filters, excluding sites
@@ -10,12 +10,12 @@
 !   NOTE: still in development, may cause breakage.
 !#include fxcookies-easylist-ubo.txt
 ![Adblock Plus 2.0]
-! Checksum: p+ZLd3GexPjKxsLPufKnmA
-! Diff-Path: ../patches/18/18-s-1793995967-3600.patch
+! Checksum: +AuyWS72OCUXbpWwoFrqRw
+! Diff-Path: ../patches/18/18-s-1794194103-3600.patch
 ! Title: AdGuard Cookie Notices filter
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.98.84
-! TimeUpdated: 2026-11-06T20:09:12+00:00
+! Version: 2.0.98.88
+! TimeUpdated: 2026-11-09T03:10:57+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -36,6 +36,7 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.accept-cookie-outer
 ##.con-kit-component-cookie-banner
 ###panel_cookie_dol
 ###poscookielaw
@@ -2607,6 +2608,9 @@ dlagentlemana.pl,nogame.pl,propaganda24h.pl,gomedia.net.pl,sklep.coconaut.com,an
 !
 ! NOTE: Regular rules
 !
+aktienmagazin.de##.tfcookie-modal
+fuelyourbody.de##div[aria-label="Cookies bei Fuelyourbody"]
+mein-berlin.net###vc-cmp-overlay
 uqload.vc,uqload.*###uqCookie
 shareplace.org##.nv-cookie
 player.juicewrldapi.com##.app-shell > div.fixed.bottom-0.animate-menu-pop:has(> div > button)
@@ -4989,7 +4993,7 @@ unimedbauru.com.br###protegON-full-content-cookies
 remaker.ai##.remaker-container-footer-cookie
 helloclue.com###gatsby-focus-wrapper > section:has(> p[class*="CookieNotification"])
 longos.com##gg-cookies-consent-pop-up
-genz-regelt.de,dnsbyte.com,chargeiq.com.tr,kobelco-fpc.com,liki.ua,halkbank.com.tr,nacalai.co.jp,zenit.ru,ccb.ru,ipracujzdalnie.pl,plus.usio.co.jp,upc-osaka.ac.jp,seims.co.jp,etelecom.ru,fujiyakuhin.co.jp,toyota-odesa.com.ua,inteltoys.ru,domik-v-derevne.com,evorkshop.com,avic.jp,sms-activate.*,investcapital.com.mt,kamrti.com,gorenje-ru.ru,italiadomani.gov.it,msvsphere-os.ru,sms-activate.page,u-mama.ru,visionexpress.pl,psoriaz.life,poisknews.ru##.cookie
+hotdeals.com,genz-regelt.de,dnsbyte.com,chargeiq.com.tr,kobelco-fpc.com,liki.ua,halkbank.com.tr,nacalai.co.jp,zenit.ru,ccb.ru,ipracujzdalnie.pl,plus.usio.co.jp,upc-osaka.ac.jp,seims.co.jp,etelecom.ru,fujiyakuhin.co.jp,toyota-odesa.com.ua,inteltoys.ru,domik-v-derevne.com,evorkshop.com,avic.jp,sms-activate.*,investcapital.com.mt,kamrti.com,gorenje-ru.ru,italiadomani.gov.it,msvsphere-os.ru,sms-activate.page,u-mama.ru,visionexpress.pl,psoriaz.life,poisknews.ru##.cookie
 wegmans.com##.component--cookie-banner
 vod3.pl##body:style(overflow: auto !important;)
 podarkus.ru##div[class^="style_cookies"]
@@ -12519,7 +12523,7 @@ history.com##.policy-container
 censor.net###usage_notice
 pixiv.net##div > div:not([class]) > div[class^="sc-"]:has(> div > p > span > a[href^="https://policies.pixiv.net"])
 odamax.com###kvkk-cookie-notification
-negi-lab.com,gloria24.pl,gaius-lex.*,finlandiabusiness.fi,sohosystems.co.za,tesco.com,tempgmail.net,gwmanz.com,order.maxburgers.com,gamereplays.org,haafedkgsm.com,ipleaks.io,haafedk2.com,terraform.io,talkai.info,support.github.com,shop.retoura.de,audibkk.de,customsearch.ai,thesimsresource.com###consent-banner
+anthropic.com,negi-lab.com,gloria24.pl,gaius-lex.*,finlandiabusiness.fi,sohosystems.co.za,tesco.com,tempgmail.net,gwmanz.com,order.maxburgers.com,gamereplays.org,haafedkgsm.com,ipleaks.io,haafedk2.com,terraform.io,talkai.info,support.github.com,shop.retoura.de,audibkk.de,customsearch.ai,thesimsresource.com###consent-banner
 bzfe.de,muenze-deutschland.de,fli.de,alutec.net,medienboard.de,abacus.ch,kontextwochenzeitung.de,sw-weimar.de,evz.de,fh-salzburg.ac.at,hochschule-bochum.de,weserpark.de,ostangler.de,schwarzwaelder-versicherung.de,auerswald.de,erfurt-tourismus.de,klinikum-goerlitz.de,hochsauerlandkreis.de,alexianer-berlin-weissensee.de,alexianer-koeln.de,alexianer-krefeld.de,stiftung-alexianerbrueder.de,alexianer-veralexianer-sachsen-anhalt.de,alexianer.de,alexianerkloster.de,alexianer-muenster.de,alexianer-potsdam.de,alexianer-aachen.de,raphaelsklinik.de,kerckhoff-klinik.de,shg-kliniken.de,kliniken-lkd.de,kgu.de,krankenhaus-naturheilweisen.de,diakonissenhaus.de,tu-clausthal.de,alexianer-berlin-hedwigkliniken.de,gesobau.de,gwh.de,apo-stb.de,smb.museum,koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de##body #cookieman-modal:not(#style_important):style(display: none !important;)
 bzfe.de,muenze-deutschland.de,fli.de,alutec.net,medienboard.de,abacus.ch,kontextwochenzeitung.de,sw-weimar.de,evz.de,fh-salzburg.ac.at,hochschule-bochum.de,weserpark.de,ostangler.de,schwarzwaelder-versicherung.de,auerswald.de,erfurt-tourismus.de,klinikum-goerlitz.de,hochsauerlandkreis.de,alexianer-berlin-weissensee.de,alexianer-koeln.de,alexianer-krefeld.de,stiftung-alexianerbrueder.de,alexianer-veralexianer-sachsen-anhalt.de,alexianer.de,alexianerkloster.de,alexianer-muenster.de,alexianer-potsdam.de,baden-wuerttemberg.de,alexianer-aachen.de,raphaelsklinik.de,kerckhoff-klinik.de,shg-kliniken.de,kliniken-lkd.de,kgu.de,krankenhaus-naturheilweisen.de,diakonissenhaus.de,tu-clausthal.de,alexianer-berlin-hedwigkliniken.de,gesobau.de,gwh.de,apo-stb.de,smb.museum,koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de##body:style(overflow-y: visible !important; padding-right: 0 !important;)
 auroralabs3d.com##.gdpr_notice_popup
