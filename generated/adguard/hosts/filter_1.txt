@@ -13343,6 +13343,7 @@
 0.0.0.0 a1bf5sa90hoyo2.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 a1c83d9803.f1ce24f962.com
 0.0.0.0 a1df86cebdfe512f8670ac2486fabe65.safeframe.googlesyndication.com
+0.0.0.0 a1mgg.allroll.biz
 0.0.0.0 a1mr3f8qrznaxi.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 a1nokr.cdn-settings.appsflyersdk.com
 0.0.0.0 a1nokr.inapps.appsflyersdk.com
@@ -24361,6 +24362,7 @@
 0.0.0.0 allputuphesa.com
 0.0.0.0 allreach.actonservice.com
 0.0.0.0 allrisks.actonservice.com
+0.0.0.0 allroll.biz
 0.0.0.0 allsports4free.live
 0.0.0.0 allstarfg.actonservice.com
 0.0.0.0 allstat-pp.ru
@@ -25080,6 +25082,7 @@
 0.0.0.0 analytics.cyrillus.fr
 0.0.0.0 analytics.data.lloydsbankinggroup.com
 0.0.0.0 analytics.data.visenze.com
+0.0.0.0 analytics.datacite.org
 0.0.0.0 analytics.datasavannah.com
 0.0.0.0 analytics.dealmoon.com
 0.0.0.0 analytics.dev.htmedia.in
@@ -31056,7 +31059,6 @@
 0.0.0.0 birthdaybelief.com
 0.0.0.0 biscotti.yektanet.com
 0.0.0.0 biscuitbox.net
-0.0.0.0 bisko.gjirafa.net
 0.0.0.0 bisko.mall.tv
 0.0.0.0 bison.actonservice.com
 0.0.0.0 bisrtb.vidazoo.com
