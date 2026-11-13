@@ -11601,6 +11601,7 @@
 0.0.0.0 a.foxsportswisconsin.com
 0.0.0.0 a.fucker.com
 0.0.0.0 a.fuget.xyz
+0.0.0.0 a.fxltsbl.com
 0.0.0.0 a.fxnetworks.com
 0.0.0.0 a.gdt.qq.com
 0.0.0.0 a.gebir.xyz
@@ -41733,6 +41734,8 @@
 0.0.0.0 d.uuidksinc.net
 0.0.0.0 d.vidoomy.com
 0.0.0.0 d.vvbox.cz
+0.0.0.0 d0.eu-3-id5-sync.com
+0.0.0.0 d0.eu-4-id5-sync.com
 0.0.0.0 d0.xcar.com.cn
 0.0.0.0 d01.taggyad.jp
 0.0.0.0 d0151839199642459c00df732341ad4e-e44177b6b805.cdn.forter.com
@@ -41765,6 +41768,8 @@
 0.0.0.0 d1.abtshield.com
 0.0.0.0 d1.ads.rmbl.ws
 0.0.0.0 d1.btttag.com
+0.0.0.0 d1.eu-3-id5-sync.com
+0.0.0.0 d1.eu-4-id5-sync.com
 0.0.0.0 d10.cdn.traffmovie.com
 0.0.0.0 d108nnfn2eigw4.cloudfront.net
 0.0.0.0 d10ce3z4vbhcdd.cloudfront.net
@@ -42124,6 +42129,8 @@
 0.0.0.0 d1zzcae3f37dfx.cloudfront.net
 0.0.0.0 d2.ads.rmbl.ws
 0.0.0.0 d2.adsrvr.org
+0.0.0.0 d2.eu-3-id5-sync.com
+0.0.0.0 d2.eu-4-id5-sync.com
 0.0.0.0 d200108c6x0w2v.cloudfront.net
 0.0.0.0 d204slsrhoah2f.cloudfront.net
 0.0.0.0 d205jrj5h1616x.cloudfront.net
@@ -42468,6 +42475,8 @@
 0.0.0.0 d2zzazjvlpgmgi.cloudfront.net
 0.0.0.0 d3-umami.up.railway.app
 0.0.0.0 d3.btttag.com
+0.0.0.0 d3.eu-3-id5-sync.com
+0.0.0.0 d3.eu-4-id5-sync.com
 0.0.0.0 d300jm499woj5o.cloudfront.net
 0.0.0.0 d301cxwfymy227.cloudfront.net
 0.0.0.0 d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
@@ -42760,6 +42769,8 @@
 0.0.0.0 d3yl7tmbqe1mq.cloudfront.net
 0.0.0.0 d3zd5ejbi4l9w.cloudfront.net
 0.0.0.0 d4.ads.rmbl.ws
+0.0.0.0 d4.eu-3-id5-sync.com
+0.0.0.0 d4.eu-4-id5-sync.com
 0.0.0.0 d40011cacfef7299e986fad9204f32a5.safeframe.googlesyndication.com
 0.0.0.0 d401.dollartree.com
 0.0.0.0 d41.co
@@ -42790,6 +42801,8 @@
 0.0.0.0 d4f2549bf81481b4208f41b7518175d4.safeframe.googlesyndication.com
 0.0.0.0 d4tmw8.cdn-settings.appsflyersdk.com
 0.0.0.0 d4xmm7es84.com
+0.0.0.0 d5.eu-3-id5-sync.com
+0.0.0.0 d5.eu-4-id5-sync.com
 0.0.0.0 d503408837fb8a67cc9d34f90f13b63beb93dfcdac8683f5caa2bd8e245b94d.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 d50ea26489d4fb71d23e17e6e64612a34061f155f2074c9205e7e52f9f3982c.us-east-1.prod.service.minerva.devices.a2z.com
 0.0.0.0 d532eefccb9520b8ee4aa3f8db08d47044fed219.appgw.conviva.com
@@ -42820,6 +42833,8 @@
 0.0.0.0 d5xsfddfzb99g.cloudfront.net
 0.0.0.0 d5yoctgpv4cpx.cloudfront.net
 0.0.0.0 d5zkrmttu.com
+0.0.0.0 d6.eu-3-id5-sync.com
+0.0.0.0 d6.eu-4-id5-sync.com
 0.0.0.0 d61da175df42.cdn4.forter.com
 0.0.0.0 d61e56d142137ba4ec79a702afe8f68b.safeframe.googlesyndication.com
 0.0.0.0 d6292ddc856f97c38bb6b28e82c6838f.safeframe.googlesyndication.com
@@ -42853,6 +42868,8 @@
 0.0.0.0 d6sav80kktzcx.cloudfront.net
 0.0.0.0 d6wzv57amlrv3.cloudfront.net
 0.0.0.0 d7.cdn.traffmovie.com
+0.0.0.0 d7.eu-3-id5-sync.com
+0.0.0.0 d7.eu-4-id5-sync.com
 0.0.0.0 d7007ce577c1.cdn4.forter.com
 0.0.0.0 d724159f166604224f36618e34c8b749.safeframe.googlesyndication.com
 0.0.0.0 d75d7bad2f8b.cdn4.forter.com
@@ -50101,6 +50118,8 @@
 0.0.0.0 etzuqprynhyfx.site
 0.0.0.0 eu-1-id5-sync.com
 0.0.0.0 eu-1a.connectad.io
+0.0.0.0 eu-3-id5-sync.com
+0.0.0.0 eu-4-id5-sync.com
 0.0.0.0 eu-acr10.alphonso.tv
 0.0.0.0 eu-acr100.alphonso.tv
 0.0.0.0 eu-acr101.alphonso.tv
@@ -54690,6 +54709,7 @@
 0.0.0.0 fxipca.americanexpress.ca
 0.0.0.0 fxipwelcome.americanexpress.ca
 0.0.0.0 fxjllndtgqsaf.site
+0.0.0.0 fxltsbl.com
 0.0.0.0 fxmkij.jny.com
 0.0.0.0 fxmnba.com
 0.0.0.0 fxnrjqnlbfoap.site
@@ -70862,6 +70882,7 @@
 0.0.0.0 m.fastly-tls12-insights-collector.eu01.nr-data.net
 0.0.0.0 m.fastly-tls12-mobile-collector.eu01.nr-data.net
 0.0.0.0 m.fegekejynewyhe.com
+0.0.0.0 m.fxltsbl.com
 0.0.0.0 m.g.l.inmobicdn.net
 0.0.0.0 m.gdt.qq.com
 0.0.0.0 m.goadservices.com
@@ -110320,6 +110341,7 @@
 0.0.0.0 puzzledrally.com
 0.0.0.0 puzzles-games-api.gp-prod.conde.digital
 0.0.0.0 puzzlestore.ximad.com
+0.0.0.0 pv-track.pxtrkapp.com
 0.0.0.0 pv.a-pagerank.net
 0.0.0.0 pv.amanad.adtdp.com
 0.0.0.0 pv.dakawm.cc
@@ -123696,6 +123718,7 @@
 0.0.0.0 specialscissors.com
 0.0.0.0 specialtycommerce.evergage.com
 0.0.0.0 specialtypin.com
+0.0.0.0 speciesjewelry.com
 0.0.0.0 specific-property.pro
 0.0.0.0 specificads.g2afse.com
 0.0.0.0 specificallyfollowsbraid.com
