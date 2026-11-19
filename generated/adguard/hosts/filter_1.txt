@@ -30130,6 +30130,7 @@
 0.0.0.0 beacon.itmedia.jp
 0.0.0.0 beacon.joinlede.com
 0.0.0.0 beacon.krxd.net
+0.0.0.0 beacon.lynx.cognitivlabs.com
 0.0.0.0 beacon.netflix.com
 0.0.0.0 beacon.panorama.ai
 0.0.0.0 beacon.peakhour.io
@@ -37311,6 +37312,7 @@
 0.0.0.0 cofina-cdn.relevant-digital.com
 0.0.0.0 coggingbrocard.com
 0.0.0.0 cognatesyringe.com
+0.0.0.0 cognitivlabs.com
 0.0.0.0 cognito.yonhelioliskor.com
 0.0.0.0 cognizancesteepleelevate.com
 0.0.0.0 cogocast.net
@@ -50639,6 +50641,7 @@
 0.0.0.0 event.pepperjam.com
 0.0.0.0 event.platform.tunein.com
 0.0.0.0 event.playground.ru
+0.0.0.0 event.prod.asgard.hullabalook.com
 0.0.0.0 event.prod.bidr.io
 0.0.0.0 event.seatradecruiseevents.com
 0.0.0.0 event.seatradecruiseglobal.com
@@ -52676,6 +52679,7 @@
 0.0.0.0 fgyhvzvoxlyvs.space
 0.0.0.0 fgzczmbjzeqfi.space
 0.0.0.0 fgzjcspcnzrhf.store
+0.0.0.0 fh-dxy.com
 0.0.0.0 fh-main.measure.agilemeasure.com
 0.0.0.0 fh-wgt.com
 0.0.0.0 fh0og4jhs0.com
@@ -70507,6 +70511,7 @@
 0.0.0.0 lylufhuxqwi.com
 0.0.0.0 lymxj.com
 0.0.0.0 lynjbq.sizeofficial.nl
+0.0.0.0 lynx.cognitivlabs.com
 0.0.0.0 lyonsdown.actonservice.com
 0.0.0.0 lyopieifcjaqb.site
 0.0.0.0 lypchoanqfwqz.site
@@ -109886,6 +109891,7 @@
 0.0.0.0 puzzles-games-api.gp-prod.conde.digital
 0.0.0.0 puzzlestore.ximad.com
 0.0.0.0 pv-track.pxtrkapp.com
+0.0.0.0 pv-track.venatus.com
 0.0.0.0 pv.a-pagerank.net
 0.0.0.0 pv.amanad.adtdp.com
 0.0.0.0 pv.dakawm.cc
@@ -118454,6 +118460,7 @@
 0.0.0.0 sg-dco.taboola.com
 0.0.0.0 sg-ddi.shuzilm.cn
 0.0.0.0 sg-direct.taboola.com
+0.0.0.0 sg-fp.apitd.net
 0.0.0.0 sg-gcp-ad-mof-sdk-asia-southeast1-b.mtgglobals.com
 0.0.0.0 sg-gcp-ad-mof-sdk-asia-southeast1-b.rayjump.com
 0.0.0.0 sg-gcp-ad-mof-sdk-asia-southeast1-c.mtgglobals.com
