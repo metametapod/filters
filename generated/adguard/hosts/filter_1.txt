@@ -11636,6 +11636,7 @@
 0.0.0.0 a.maxxhotel.com
 0.0.0.0 a.medfoodsafety.com
 0.0.0.0 a.medtronic.com
+0.0.0.0 a.menards.com
 0.0.0.0 a.mercuriurval.com
 0.0.0.0 a.mgid.com
 0.0.0.0 a.micorp.com
@@ -21897,6 +21898,7 @@
 0.0.0.0 ads.travelaudience.com
 0.0.0.0 ads.tremorhub.com
 0.0.0.0 ads.trustx.org
+0.0.0.0 ads.tver.jp
 0.0.0.0 ads.tvmnews.mt
 0.0.0.0 ads.tvp.pl
 0.0.0.0 ads.tvpl.vn
@@ -51922,7 +51924,6 @@
 0.0.0.0 fadexplosion.com
 0.0.0.0 fadppvjumphyh.online
 0.0.0.0 fadrvppkhuhdhs.com
-0.0.0.0 fae.yazio-analytics.com
 0.0.0.0 fae6c6c9abc64b50b7bd246101fdbdb0-e44177b6b805.cdn.forter.com
 0.0.0.0 faea833bf5fa.cdn4.forter.com
 0.0.0.0 faf31a33e97c407f999d05eb7dab996c-8a81eebba889.cdn.forter.com
@@ -53528,6 +53529,7 @@
 0.0.0.0 focusbrands.quantummetric.com
 0.0.0.0 focusednative.pro
 0.0.0.0 focusfitwear.com
+0.0.0.0 fod-cm-ad-v.webcdn.stream.ne.jp
 0.0.0.0 fod3ws-cdn-settings.appsflyersdk.com
 0.0.0.0 fodjp2.cdn-settings.appsflyersdk.com
 0.0.0.0 foeowuevgzenq.online
@@ -69978,6 +69980,7 @@
 0.0.0.0 lowvolumes.com
 0.0.0.0 loxitdat.com
 0.0.0.0 loy356.site
+0.0.0.0 loyal-product.com
 0.0.0.0 loyalpalpatelair.com
 0.0.0.0 loydleste.com
 0.0.0.0 loyros.cdn-settings.appsflyersdk.com
@@ -70599,6 +70602,7 @@
 0.0.0.0 m.ad-seek.jp
 0.0.0.0 m.adnxs.com
 0.0.0.0 m.ads.sohu.com
+0.0.0.0 m.ads.tver.jp
 0.0.0.0 m.ads.zalo.me
 0.0.0.0 m.adtiming.com
 0.0.0.0 m.adup-tech.com
@@ -80283,7 +80287,6 @@
 0.0.0.0 ooydxblhaegrz.website
 0.0.0.0 oozgka.immoscout24.ch
 0.0.0.0 oozushirp.com
-0.0.0.0 op-bi-prod.yazio-analytics.com
 0.0.0.0 op00.biz
 0.0.0.0 op01.biz
 0.0.0.0 op02.biz
@@ -111977,6 +111980,7 @@
 0.0.0.0 reachableads-av.s3.ap-southeast-1.amazonaws.com
 0.0.0.0 reacheffect.xml-eu.ak-is2.net
 0.0.0.0 reachforce.com
+0.0.0.0 reachgeneric.co.uk
 0.0.0.0 reachhumans.com
 0.0.0.0 reachmax.cn
 0.0.0.0 reachmode.com
@@ -127124,7 +127128,6 @@
 0.0.0.0 sxyrrjgrkwsvw.site
 0.0.0.0 sxzl6x4k9p.com
 0.0.0.0 sy-v1.presage.io
-0.0.0.0 sy.ameba.jp
 0.0.0.0 sy.docomo-analytics.com
 0.0.0.0 sy.presage.io
 0.0.0.0 sy5v87.cdn-settings.appsflyersdk.com
@@ -143240,6 +143243,7 @@
 0.0.0.0 www.rapidtrk.net
 0.0.0.0 www.rdalpha.net
 0.0.0.0 www.rdipmrbwgvk.com
+0.0.0.0 www.reachgeneric.co.uk
 0.0.0.0 www.reactful.com
 0.0.0.0 www.realizesensitivenessflashlight.com
 0.0.0.0 www.recent-employment.pro
@@ -145560,7 +145564,6 @@
 0.0.0.0 yaxbsamkhdycw.online
 0.0.0.0 yaxpuu.inapps.appsflyersdk.com
 0.0.0.0 yaxpuu.launches.appsflyersdk.com
-0.0.0.0 yazio-analytics.com
 0.0.0.0 yazspspjorqhx.site
 0.0.0.0 yb.compartacajous.com
 0.0.0.0 yb.hippierrapiner.com
