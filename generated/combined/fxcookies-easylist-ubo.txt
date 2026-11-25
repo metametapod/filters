@@ -1,6 +1,6 @@
 ! Title: EasyList/uBO Cookie Notices (optimized for Firefox) [beta]
 ! Expires: 1 day (update frequency)
-! Last modified: 2026-11-24T07:56:20Z
+! Last modified: 2026-11-25T06:32:15Z
 ! License: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/LICENSE
 ! Description: |
 !   EasyList and uBlock Origin cookie notice filters, excluding sites that have
@@ -9,7 +9,7 @@
 !   NOTE: still in development, may cause breakage.
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Tue, 24 Nov 2026 02:35:11 +0000
+! Last modified: Wed, 25 Nov 2026 00:07:02 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -18188,7 +18188,7 @@ kbs.co.kr##.chrome_pick
 baldursgate3.game,larian.com##.ciastko
 tonies.com##.cjBwKv
 myvi.in##.ck-container
-behaviourchangeagency.com##.ck-cookie-w
+behaviourchangeagency.com,greynoise.io##.ck-cookie-w
 blog.dynasage.com,dotycat.com,phone-updates.com##.ckWrap
 img.ly##.cke-overlay
 ruijie.com##.cke2022fr
@@ -19909,6 +19909,7 @@ songsterr.com##section[aria-labelledby="consent-summary-title"]
 remotehub.com##smp-cookies-banner
 truecaller.com##span > .max-w-md.shadow-lg
 planner.kaboodle.co.nz##tw-privacy-preference
+ed.ac.uk##uoe-consent
 trinitycineasia.com##ush-cookie-consent
 trumpf.com##ux-cookie-layer
 pacificpower.net,rockymountainpower.net##wcss-cookie-banner
@@ -27108,6 +27109,7 @@ redutsb.ru##.cpolitic
 support.mts.ru##.cqBrN
 video.sports.ru##.css-c4sutr
 kaida-fish.ru##.custom_message
+sogaz.ru##.dBEhkt
 vivt.ru##.dangen-lable
 iksmedia.ru##.descl
 mathedu.ru##.dialog
